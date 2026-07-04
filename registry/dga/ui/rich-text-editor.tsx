@@ -57,7 +57,7 @@ export function RichTextEditor({
   React.useEffect(() => {
     if (editor && value !== editor.getHTML()) {
       const { from, to } = editor.state.selection
-      editor.commands.setContent(value, false)
+      editor.commands.setContent(value, { emitUpdate: false })
       editor.commands.setTextSelection({ from, to })
     }
   }, [value, editor])
