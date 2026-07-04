@@ -1,107 +1,97 @@
 ---
 name: saudi-nds-ui
 description: >
-  Use this skill to build, design, modify, and audit React & Next.js websites
-  based on the Saudi National Design System (NDS) by the Digital Government Authority (DGA)
-  using the Saudi NDS UI Component Registry. Make sure to use this skill WHENEVER the user
-  mentions building a Saudi government UI, "DGA", "NDS UI", "Saudi Design System", "RTL components",
-  "DGA styling", or wants to install components like DGA Badge, Button, Data Table, etc. Even if they
-  don't explicitly ask for the 'registry', trigger this skill to ensure all UI matches Saudi standards.
+  Use this skill to build, design, modify, migrate, or audit React & Next.js websites
+  based on the Saudi National Design System (NDS) by the Digital Government Authority (DGA).
+  Make sure to use this skill WHENEVER the user mentions building a Saudi government UI, 
+  "DGA", "NDS UI", "Saudi Design System", "RTL components", or wants to install UI components.
+  Even if they don't explicitly ask for the 'registry', trigger this skill to ensure all UI matches Saudi standards.
+  CRITICAL: Do not begin any project migration or setup without reading these instructions entirely.
 ---
 
 # Saudi NDS UI & DGA Components Skill
 
-This skill guides AI agents in installing, styling, adapting for RTL, and verifying accessibility of 73 production-ready components from the Saudi NDS UI Registry (`https://nds.aboalrejal.com/`).
+This skill guides AI agents in establishing, migrating, and installing UI components from the Saudi NDS UI Registry (`https://nds.aboalrejal.com/`). 
 
 ---
 
-## 1. Installation & Registry Management
+## 🚨 THE GATEKEEPER (MANDATORY FIRST STEP)
+**AI AGENT INSTRUCTION:** You are STRICTLY FORBIDDEN from modifying any existing project files, rewriting HTML, or installing components until you evaluate the project's environment.
 
-### Add the Saudi NDS UI Registry
-Before installing any component, configure the project's `components.json` to allow resolving registry references:
-
-```json
-{
-  "registry": "https://nds.aboalrejal.com/r"
-}
-```
-
-### Install a Component
-Always use `npx` to install components from the Registry. Never use `pnpm`, `yarn`, or `bun` commands. The standard command template is:
-
+**If you are working in an existing codebase, run this command immediately:**
 ```bash
-npx shadcn@latest add https://nds.aboalrejal.com/r/<component-name>.json
+node skills/saudi-nds-ui/scripts/evaluate-project.js
 ```
-
-*Example for Button and DataTable:*
-```bash
-npx shadcn@latest add https://nds.aboalrejal.com/r/button.json
-npx shadcn@latest add https://nds.aboalrejal.com/r/data-table.json
-```
+Read the output score and recommendation. Based on the output, select one of the following Modes (A, B, or C). If the script returns "ABORT", you must stop, do not touch the code, and inform the user that the environment is incompatible.
 
 ---
 
-## 2. Saudi NDS Visual Design & Styling
+## 🏗️ MODE A: New Project / Start from Scratch
 
-Ensure all customized UI elements match the official Saudi National Design System (NDS) guidelines:
+Use this mode if the directory is empty, or if the project lacks Tailwind/Shadcn setup.
+
+1. **Initialize the App (if empty):**
+   ```bash
+   npx create-next-app@latest my-app --typescript --tailwind --eslint
+   ```
+2. **Initialize Saudi NDS UI Registry:**
+   Configure `components.json` to use our registry:
+   ```json
+   {
+     "registry": "https://nds.aboalrejal.com/r"
+   }
+   ```
+3. **Run Shadcn Init:**
+   ```bash
+   npx shadcn@latest init
+   ```
+4. **Apply Identity:**
+   - Modify `globals.css` to use **IBM Plex Sans Arabic**.
+   - Add `<html lang="ar" dir="rtl">` to `layout.tsx`.
+
+---
+
+## 🔄 MODE B: Safe Migration (Existing Compatible Project)
+
+Use this mode if the Gatekeeper score is 8/10 or higher and the user wants to migrate an old design to the Saudi NDS UI.
+
+1. **Do not blindly overwrite files.**
+2. **Analyze and Replace:** For each visual element on the page (e.g., old buttons, old cards), use the `add` command to pull the official component:
+   ```bash
+   npx shadcn@latest add https://nds.aboalrejal.com/r/<component-name>.json
+   ```
+3. **Refactor:** Swap the old HTML/React components with the newly imported NDS components. Ensure you map the old props to the new component props.
+4. **RTL Sanity Check:** Ensure all spacing utilities use logical properties (`ms-`, `pe-`, etc.) instead of directional ones (`ml-`, `pr-`).
+
+---
+
+## 🧩 MODE C: Single Component Addition
+
+Use this mode if the user simply asks to "Add a Button" or "Add a Card" to an already compliant project.
+
+1. **Direct Installation:**
+   ```bash
+   npx shadcn@latest add https://nds.aboalrejal.com/r/<component-name>.json
+   ```
+2. **Usage:** Import it and use it in the required file.
+
+---
+
+## 🎨 Design System Cheat Sheet
+
+Ensure all customized UI elements match the official Saudi NDS guidelines:
 
 ### Typography
-* Always use **IBM Plex Sans Arabic** for Arabic content:
-  ```css
-  font-family: 'IBM Plex Sans Arabic', sans-serif;
-  ```
+* Always use **IBM Plex Sans Arabic** for Arabic content.
 
 ### Color Palette (DGA Standards)
 * **Primary Green (Saudi Identity):**
-  * Main Primary (SA 600): `#1B8354` / `HSL(152, 66%, 31%)`
-  * Lighter Primary (SA 500): `#25935F` / `HSL(152, 60%, 36%)`
-  * Darker Primary (SA 700): `#166A45` / `HSL(153, 65%, 25%)`
+  * Main Primary (SA 600): `#1B8354`
+  * Hover/Darker (SA 700): `#166A45`
 * **Neutral Shades:**
-  * Light Backgrounds: Gray 25 (`#FCFCFD`), Gray 50 (`#F9FAFB`), Gray 100 (`#F3F4F6`)
-  * Dark Text / Dark Mode Elements: Gray 950 (`#0D121C`), Gray 900 (`#111927`), Gray 800 (`#1F2A37`)
-* **Semantic Signals:**
-  * Success: `#079455` (Green)
-  * Error: `#D92D20` (Red)
-  * Warning: `#DC6803` (Orange)
-  * Info: `#1570EF` (Blue)
-
----
-
-## 3. RTL Layout & Arabic Language Flow
-
-Saudi NDS UI components are designed RTL-first for Arabic localizations. Follow these layout instructions:
-
-* **Document Direction:** Set the container or document direction explicitly: `<html lang="ar" dir="rtl">` or `<div dir="rtl">`.
-* **Logical Properties:** Use Tailwind's logical properties to respect direction (e.g., use `ms-*` instead of `ml-*`, `pe-*` instead of `pr-*`).
-* **Icon Flipping:** Automatically mirror directional icons (like arrows, chevrons, and pagination buttons) when switching from LTR to RTL:
-  * In CSS: `transform: scaleX(-1);` or Tailwind `rtl:rotate-180`.
-
----
-
-## 4. Web Accessibility (WCAG 2.1 AA & DGA Access Standards)
-
-Ensure all generated interfaces conform to DGA accessibility standards:
-
-* **Keyboard Navigation:** Components must be fully functional using only the keyboard:
-  * `Tab` and `Shift+Tab` to focus interactive items in logical DOM order.
-  * `Enter` or `Space` to activate buttons/inputs.
-  * Arrow keys to navigate options (such as tabs, radio groups, and menu items).
-* **ARIA Roles & Attributes:** Ensure correct attributes are injected:
-  * Interactive elements must have proper labels (`aria-label` or `aria-labelledby`).
-  * Expanded/collapsed states must use `aria-expanded="true/false"`.
-  * Selected states must use `aria-selected="true/false"`.
-* **Contrast and Sizing:** Touch targets must be at least `44x44px` or equivalent spacing. Contrast ratios must meet WCAG AA requirements (4.5:1 for regular text, 3:1 for large text).
-
----
-
-## 5. Scripts and References Map
-
-This skill contains local helper scripts and documents to speed up development tasks:
+  * Backgrounds: `#FCFCFD`, `#F9FAFB`
+  * Text: `#0D121C`, `#1F2A37`
 
 ### Helper Scripts
-* **Search Component Specs:** Run `node skills/saudi-nds-ui/scripts/lookup.js <component-name>` to get installation, variants, props, and code examples.
-* **Audit Codebase Page:** Run `node skills/saudi-nds-ui/scripts/audit-page.js <path-to-file.tsx>` to inspect and fix styling, fonts, RTL directions, and accessibility issues.
-
-### Reference Files
-* Detailed component properties and codes: [`references/components-guide.md`](references/components-guide.md)
-* Theme and Tailwind custom configuration: [`references/theme-customization.md`](references/theme-customization.md)
+* **Search Specs:** `node skills/saudi-nds-ui/scripts/lookup.js <component-name>`
+* **Audit Codebase:** `node skills/saudi-nds-ui/scripts/audit-page.js <path-to-file.tsx>`
