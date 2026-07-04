@@ -97,6 +97,18 @@ Ensure all customized UI elements match the official Saudi NDS guidelines:
   * Backgrounds: `#FCFCFD`, `#F9FAFB`
   * Text: `#0D121C`, `#1F2A37`
 
+### 🌟 Saudi NDS Custom Icons
+All components requiring icons must use the official custom Saudi NDS icons package `@aboalrejal/nds-icons`. 
+
+* **Installation:**
+  ```bash
+  npm install @aboalrejal/nds-icons
+  ```
+* **Usage:** Import solid or stroke icons as needed:
+  ```tsx
+  import { ArrowUp01Stroke, QuotesSolid } from '@aboalrejal/nds-icons';
+  ```
+
 ### Helper Scripts
 * **Search Specs:** `node skills/saudi-nds-ui/scripts/lookup.js <component-name>`
 * **Audit Codebase:** `node skills/saudi-nds-ui/scripts/audit-page.js <path-to-file.tsx>`
