@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ChocolateSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M15.25 3a.75.75 0 0 0-.75-.75H5a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h14a.75.75 0 0 0 .75-.75V6.5a.75.75 0 0 0-.75-.75c-1.515 0-2.42-.14-2.959-.499-.448-.299-.791-.863-.791-2.251m3 17.25H5.75V3.75h8.033c.116 1.234.544 2.161 1.426 2.749.796.531 1.856.698 3.041.74V20.25" clipRule="evenodd" /><path fill="currentColor" d="M12.75 14.25h5.5v-4.5h-5.5zM5.75 14.25h5.5v-4.5h-5.5zM5.75 8.25h5.5v-4.5h-5.5zM12.75 8.25h5.5V7.238c-1.185-.041-2.245-.208-3.041-.739-.882-.588-1.31-1.515-1.426-2.749H12.75zM5.75 20.25h5.5v-4.5h-5.5zM12.75 20.25h5.5v-4.5h-5.5z" /></svg>;
+export default ChocolateSolid;

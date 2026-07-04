@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ServerStack01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.4 13.25c.746 0 1.35.604 1.35 1.35v6.8a1.35 1.35 0 0 1-1.35 1.35H2.6a1.35 1.35 0 0 1-1.35-1.35v-6.8c0-.746.604-1.35 1.35-1.35zM6.512 17.441a.75.75 0 0 0-1.06.056l-.01.012a.75.75 0 1 0 1.116 1.003l.01-.011a.75.75 0 0 0-.056-1.06M21.4 1.25c.746 0 1.35.604 1.35 1.35v6.8a1.35 1.35 0 0 1-1.35 1.35H2.6A1.35 1.35 0 0 1 1.25 9.4V2.6c0-.746.604-1.35 1.35-1.35zM6.512 5.441a.75.75 0 0 0-1.06.056l-.01.012a.75.75 0 1 0 1.116 1.003l.01-.011a.75.75 0 0 0-.056-1.06" clipRule="evenodd" /></svg>;
+export default ServerStack01Solid;

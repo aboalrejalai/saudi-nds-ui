@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const VolumeUpStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M10.53 4.954c1.393-1.238 3.595-.25 3.595 1.615v10.866c0 1.864-2.202 2.853-3.595 1.615l-3.069-2.728H5.485a2.16 2.16 0 0 1-2.16-2.16v-4.32a2.16 2.16 0 0 1 2.16-2.16h1.976zm2.155 1.615a.72.72 0 0 0-1.198-.539L8.214 8.94a.72.72 0 0 1-.479.182h-2.25a.72.72 0 0 0-.72.72v4.32c0 .397.323.72.72.72h2.25a.72.72 0 0 1 .479.182l3.273 2.91a.72.72 0 0 0 1.198-.539z" clipRule="evenodd" /><path fill="currentColor" d="M17.55 10.752a.75.75 0 0 1 1.5 0v.875h.875a.75.75 0 0 1 0 1.5h-.875v.875a.75.75 0 1 1-1.5 0v-.875h-.875a.75.75 0 0 1 0-1.5h.875z" /></svg>;
+export default VolumeUpStroke;

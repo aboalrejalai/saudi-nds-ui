@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UserBlock02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="m12.553 9.539 1.068 1.068a2.25 2.25 0 0 0-3.175-3.175l1.068 1.067a.75.75 0 0 1 1.04 1.04" /><path fill="currentColor" fillRule="evenodd" d="M1.926 12c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10m10-8.5c-2.078 0-3.981.745-5.458 1.983l11.975 11.974A8.5 8.5 0 0 0 11.926 3.5m-8.5 8.5c0-2.077.745-3.98 1.982-5.456l5.831 5.831h-.943a2.75 2.75 0 0 0-2.75 2.75v1.25c0 .414.336.75.75.75h7.263c.125 0 .243-.03.346-.084l1.477 1.477A8.5 8.5 0 0 1 3.426 12m9.313 1.875 1.75 1.75H9.046v-.5c0-.69.56-1.25 1.25-1.25z" clipRule="evenodd" /></svg>;
+export default UserBlock02Stroke;

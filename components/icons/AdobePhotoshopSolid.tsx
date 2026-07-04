@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AdobePhotoshopSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M9 8.75a1.25 1.25 0 1 1 0 2.5H7.75v-2.5z" /><path fill="currentColor" fillRule="evenodd" d="M17 2.25A4.75 4.75 0 0 1 21.75 7v10A4.75 4.75 0 0 1 17 21.75H7A4.75 4.75 0 0 1 2.25 17V7A4.75 4.75 0 0 1 7 2.25zm-10 5a.75.75 0 0 0-.75.75v8a.75.75 0 0 0 1.5 0v-3.25H9a2.75 2.75 0 1 0 0-5.5zm8 2a2.25 2.25 0 0 0 0 4.5h.5a.75.75 0 0 1 0 1.5h-.382a1.06 1.06 0 0 1-.947-.585.751.751 0 0 0-1.342.67 2.56 2.56 0 0 0 2.29 1.415h.381a2.25 2.25 0 0 0 0-4.5H15a.75.75 0 0 1 0-1.5h.382c.4 0 .768.226.947.585a.75.75 0 0 0 1.342-.67 2.56 2.56 0 0 0-2.29-1.415z" clipRule="evenodd" /></svg>;
+export default AdobePhotoshopSolid;

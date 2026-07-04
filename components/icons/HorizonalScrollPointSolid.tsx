@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HorizonalScrollPointSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="m23.63 12.41-3.66 3.63c-.28.28-.72.3-1.02.04-.03-.01-.05-.04-.08-.06a.47.47 0 0 1-.13-.33v-.5l-.06-7.09c0-.16.06-.29.18-.37.01-.03.04-.05.06-.07.14-.13.34-.21.53-.21.2 0 .39.08.53.22l3.63 3.67c.14.14.23.34.23.54s-.08.39-.23.54z" /><path fill="currentColor" d="M18.87 16.03s-.08-.1-.1-.16c.03.06.06.11.1.16M.39 11.58l3.66-3.63c.28-.28.72-.3 1.02-.04.03.01.05.04.08.06.08.08.13.2.13.33v.5l.06 7.09c0 .16-.06.29-.18.37-.01.03-.04.05-.06.07a.75.75 0 0 1-1.06 0L.39 12.66a.74.74 0 0 1-.23-.54c0-.2.08-.39.23-.54M11.89 14.63a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5" /></svg>;
+export default HorizonalScrollPointSolid;

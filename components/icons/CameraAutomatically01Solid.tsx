@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CameraAutomatically01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M16.28 2.79a1.35 1.35 0 0 0-1.08-.54H8.8c-.425 0-.826.2-1.08.54L5.5 5.75a1.25 1.25 0 0 1-1 .5H4A2.75 2.75 0 0 0 1.25 9v10A2.75 2.75 0 0 0 4 21.75h16A2.75 2.75 0 0 0 22.75 19V9A2.75 2.75 0 0 0 20 6.25h-.5a1.25 1.25 0 0 1-1-.5zM11.985 9a.74.74 0 0 1 .685.46l1.78 4.27s0 .02.01.03l.71 1.7a.75.75 0 0 1-.4.98.75.75 0 0 1-.98-.4l-.52-1.25H10.7l-.52 1.25a.75.75 0 0 1-.98.4.75.75 0 0 1-.4-.98l.71-1.7s0-.02.01-.03l1.78-4.27a.75.75 0 0 1 .685-.46m-.005 2.7-.66 1.59h1.32z" clipRule="evenodd" /></svg>;
+export default CameraAutomatically01Solid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PrisonSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M7.704 1H3.83A2.83 2.83 0 0 0 1 3.829v3.405h6.704zM1 9.12v5.762h6.704V9.12zm3.353 1.754a1.131 1.131 0 1 1 0 2.262 1.131 1.131 0 0 1 0-2.262M1 16.768v3.403A2.83 2.83 0 0 0 3.829 23h3.875v-6.232zM9.59 23V1h4.819v22zM16.295 23h3.876A2.83 2.83 0 0 0 23 20.171V3.83A2.83 2.83 0 0 0 20.171 1h-3.876z" /></svg>;
+export default PrisonSolid;

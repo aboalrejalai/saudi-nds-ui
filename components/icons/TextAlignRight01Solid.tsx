@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextAlignRight01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6.064 18c0 .552.343 1 .766 1h10.723c.423 0 .766-.448.766-1s-.343-1-.766-1H6.83c-.423 0-.766.448-.766 1M3 14c0 .552.343 1 .766 1h13.787c.423 0 .766-.448.766-1s-.343-1-.766-1H3.766C3.343 13 3 13.448 3 14m3.064-4c0 .552.343 1 .766 1h10.723c.423 0 .766-.448.766-1s-.343-1-.766-1H6.83c-.423 0-.766.448-.766 1M3 6c0 .552.343 1 .766 1h13.787c.423 0 .766-.448.766-1s-.343-1-.766-1H3.766C3.343 5 3 5.448 3 6M21 21c0 .552-.343 1-.766 1s-.766-.448-.766-1V3c0-.552.343-1 .766-1S21 2.448 21 3z" /></svg>;
+export default TextAlignRight01Solid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DiscoverSquareStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2.75 21.25h18.5V2.75H2.75zm20 .25-.007.128A1.25 1.25 0 0 1 21.5 22.75h-19c-.69 0-1.25-.56-1.25-1.25v-19c0-.647.492-1.18 1.122-1.243L2.5 1.25h19l.128.007A1.25 1.25 0 0 1 22.75 2.5z" /><path fill="currentColor" fillRule="evenodd" d="M16.535 6.344a.75.75 0 0 1 1.02 1.02l-3.536 6.364a.75.75 0 0 1-.29.291l-6.365 3.536a.75.75 0 0 1-1.02-1.02l3.536-6.363a.75.75 0 0 1 .29-.292zm-5.448 4.743L8.93 14.969l3.882-2.157L14.97 8.93z" clipRule="evenodd" /></svg>;
+export default DiscoverSquareStroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Navigator01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M15.92 21.61a1.3 1.3 0 0 1-1.52.25L12 20.69l-2.48 1c-.53.22-1.12.08-1.5-.36-.37-.43-.43-1.03-.15-1.53l3.18-5.52c.25-.43.71-.69 1.19-.66.5.01.93.29 1.15.74l2.78 5.73c.25.52.15 1.11-.25 1.52M4.25 2c.55 0 1 .45 1 1v18c0 .55-.45 1-1 1s-1-.45-1-1V3c0-.55.45-1 1-1M19.75 2c.55 0 1 .45 1 1v18c0 .55-.45 1-1 1s-1-.45-1-1V3c0-.55.45-1 1-1M12 8c.55 0 1 .45 1 1v2c0 .55-.45 1-1 1s-1-.45-1-1V9c0-.55.45-1 1-1M12 2c.55 0 1 .45 1 1v2c0 .55-.45 1-1 1s-1-.45-1-1V3c0-.55.45-1 1-1" /></svg>;
+export default Navigator01Solid;

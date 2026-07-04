@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PlayCircle02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 1.25c5.937 0 10.75 4.813 10.75 10.75S17.937 22.75 12 22.75 1.25 17.937 1.25 12 6.063 1.25 12 1.25m0 1.5a9.25 9.25 0 1 0 0 18.5 9.25 9.25 0 0 0 0-18.5M9.956 8.614c.456-.307 1.079.033 2.325.712l1.469.8C15.25 10.944 16 11.353 16 12s-.75 1.056-2.25 1.874l-1.469.8c-1.246.68-1.87 1.019-2.325.712S9.5 14.319 9.5 12.8v-1.6c0-1.52 0-2.279.456-2.586" /></svg>;
+export default PlayCircle02Stroke;

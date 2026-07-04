@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FridgeStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10 13.25a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1 0-1.5zM10 5.25a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1 0-1.5z" /><path fill="currentColor" fillRule="evenodd" d="M18.4 1.25c.746 0 1.35.604 1.35 1.35v18.8a1.35 1.35 0 0 1-1.35 1.35H5.6a1.35 1.35 0 0 1-1.35-1.35V2.6c0-.746.604-1.35 1.35-1.35zm-12.65 20h12.5v-10.5H5.75zm0-12h12.5v-6.5H5.75z" clipRule="evenodd" /></svg>;
+export default FridgeStroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HotspotOfflineStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3.631 2.611A.72.72 0 0 0 2.613 3.63l2.339 2.338-.035.033a8.484 8.484 0 0 0 0 11.998.72.72 0 0 0 1.018-1.018 7.044 7.044 0 0 1 .033-9.997L7.533 8.55a5.337 5.337 0 0 0 .298 7.223.72.72 0 1 0 1.018-1.018 3.897 3.897 0 0 1-.293-5.182l11.816 11.816a.72.72 0 0 0 1.018-1.019zM18.917 15.954l1.034 1.033a8.486 8.486 0 0 0-.866-10.985.72.72 0 1 0-1.019 1.018 7.046 7.046 0 0 1 .851 8.934M16.12 13.156l1.11 1.111a5.34 5.34 0 0 0-1.06-6.039.72.72 0 0 0-1.018 1.019 3.9 3.9 0 0 1 .967 3.91" /></svg>;
+export default HotspotOfflineStroke;

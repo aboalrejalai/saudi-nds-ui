@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Mosque04Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M18.24 3.602a.72.72 0 0 1 .51.21l1.018 1.019c.405.405.632.954.632 1.527V7.44h-4.32V6.358c0-.573.228-1.122.633-1.527l1.018-1.019a.72.72 0 0 1 .51-.21M16.08 8.4v10.562h-.96v-9.47H5.76a2.16 2.16 0 0 0-2.16 2.16v7.31h-.48a.72.72 0 1 0 0 1.44h17.76a.72.72 0 0 0 0-1.44h-.48V8.4zm-3.479 10.562H8.52v-2.046a2.04 2.04 0 0 1 4.082 0zM12.65 5.745c.823.542 1.832 1.456 1.995 2.788H6.477C6.64 7.2 7.648 6.287 8.472 5.745a8.4 8.4 0 0 1 1.82-.893l.035-.012.01-.003.004-.001h.002l.218.686.217-.687h.002l.004.002.01.003.036.012.123.044a8.36 8.36 0 0 1 1.697.85" /><path fill="currentColor" d="m10.778 4.835-.217.687-.217-.687a.72.72 0 0 1 .434 0" /></svg>;
+export default Mosque04Solid;

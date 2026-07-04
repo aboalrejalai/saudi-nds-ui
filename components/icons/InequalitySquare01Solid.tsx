@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const InequalitySquare01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M3.6 2.25h16.8c.75 0 1.35.61 1.35 1.35v16.8c0 .75-.6 1.35-1.35 1.35H3.6c-.74 0-1.35-.6-1.35-1.35V3.6c0-.74.61-1.35 1.35-1.35M7.99 17h8.03c.48 0 .87-.39.87-.87a.88.88 0 0 0-.87-.88H7.99c-.48 0-.87.4-.87.88s.39.87.87.87m7.87-9.07c.22-.1.37-.28.45-.5s.06-.46-.04-.67a.89.89 0 0 0-.5-.45.92.92 0 0 0-.67.04L8.08 9.74s-.09.04-.12.07c-.51.36-.73.93-.57 1.49.14.47.53.85 1.03.99l7.14 2.01c.08.03.16.04.24.04.14 0 .29-.04.42-.12.21-.11.35-.3.42-.52.06-.22.03-.46-.08-.66a.83.83 0 0 0-.53-.42l-6.24-1.76z" clipRule="evenodd" /></svg>;
+export default InequalitySquare01Solid;

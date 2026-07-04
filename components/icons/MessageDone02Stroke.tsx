@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MessageDone02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 1.252c5.937 0 10.75 4.813 10.75 10.75S17.937 22.752 12 22.752c-1.856 0-3.605-.471-5.13-1.3l-4.232.787a.75.75 0 0 1-.875-.875l.788-4.232a10.7 10.7 0 0 1-1.301-5.13c0-5.937 4.813-10.75 10.75-10.75m0 1.5a9.25 9.25 0 0 0-8.013 13.874c.09.155.121.338.088.514l-.638 3.424 3.425-.637a.75.75 0 0 1 .514.088A9.25 9.25 0 1 0 12 2.752" clipRule="evenodd" /><path fill="currentColor" d="M15.661 9.44a.635.635 0 0 1 .903 0 .645.645 0 0 1 0 .906l-5.16 5.218a.635.635 0 0 1-.904 0l-2.064-2.087a.645.645 0 0 1 0-.905.635.635 0 0 1 .903 0l1.612 1.63z" /></svg>;
+export default MessageDone02Stroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SpoonAndKnifeSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.25 16.63c0 2.06-1.58 5.12-3.75 5.12s-3.76-3.06-3.76-5.12c0-1.37 1.27-2.94 3.01-3.3V3a.749.749 0 1 1 1.5 0v10.33c.69.14 1.34.48 1.88.99.71.67 1.12 1.51 1.12 2.31M17.72 14.5c-.63.11-1.46.14-2.46.11V21a.749.749 0 1 1-1.5 0V3.03c0-.23.11-.45.3-.59a.72.72 0 0 1 .65-.13c.58.16 3.52 1.17 3.95 5.14l.57 4.5c.18 1.37-.42 2.37-1.51 2.55" /></svg>;
+export default SpoonAndKnifeSolid;

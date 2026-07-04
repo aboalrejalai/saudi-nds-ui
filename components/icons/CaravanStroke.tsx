@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CaravanStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6.045 7.034h4.63c.51 0 .92.41.92.92v2.13c0 .51-.41.92-.92.92h-4.62c-.51 0-.92-.41-.92-.92v-2.13c0-.51.41-.92.92-.92z" /><path fill="currentColor" fillRule="evenodd" d="M20.435 16.224h-.91v-6.84a4.79 4.79 0 0 0-4.79-4.79h-9.8c-1.13 0-2.05.92-2.05 2.05v8.89c0 1.13.92 2.05 2.05 2.05h.84a2.74 2.74 0 0 0 2.58 1.82c1.19 0 2.2-.76 2.58-1.82h9.5c.38 0 .68-.31.68-.68s-.31-.68-.68-.68m-12.08 1.82c-.76 0-1.37-.61-1.37-1.37s.61-1.37 1.37-1.37 1.37.61 1.37 1.37-.61 1.37-1.37 1.37m9.8-1.82h-7.1a2.74 2.74 0 0 0-2.7-2.28c-1.36 0-2.48.99-2.7 2.28h-.72a.68.68 0 0 1-.68-.68v-8.89c0-.38.31-.68.68-.68h9.8c1.89 0 3.42 1.53 3.42 3.42v6.84z" clipRule="evenodd" /></svg>;
+export default CaravanStroke;

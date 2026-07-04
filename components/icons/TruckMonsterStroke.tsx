@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TruckMonsterStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12.5 4.5a2.25 2.25 0 0 0-2.25 2.25v2.5h-6A2.25 2.25 0 0 0 2 11.5v3c0 .414.336.75.75.75h.392a4 4 0 1 0 7.985 0h1.516a4 4 0 1 0 7.985 0h.622a.75.75 0 0 0 .75-.75v-3a2.25 2.25 0 0 0-2.25-2.25h-1.025l-1.64-3.463A2.25 2.25 0 0 0 15.05 4.5zm7.733 9.25h.267V11.5a.75.75 0 0 0-.75-.75H4.25a.75.75 0 0 0-.75.75v2.25h.037a4 4 0 0 1 7.196 0h2.304a4 4 0 0 1 7.196 0m-3.168-4.5-1.336-2.821A.75.75 0 0 0 15.05 6H12.5a.75.75 0 0 0-.75.75v2.5zM7.135 13a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5m9.5 0a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5" clipRule="evenodd" /></svg>;
+export default TruckMonsterStroke;

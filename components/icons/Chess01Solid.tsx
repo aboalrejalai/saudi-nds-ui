@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Chess01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M11.998 1.249a.75.75 0 0 1 .75.75v.844c.11.079.213.175.3.293.472.641 1.23 1.744 1.82 2.946.568 1.159 1.075 2.594.806 3.827a3.7 3.7 0 0 1-.581 1.346.75.75 0 0 1-.095 1.494h-.393c.23.958.813 2.207 1.536 3.5h.857a.75.75 0 0 1 .024 1.498 58 58 0 0 0 1.888 2.85c.631.894-.002 2.152-1.112 2.152h-11.6c-1.11 0-1.743-1.258-1.112-2.152a58 58 0 0 0 1.887-2.85.749.749 0 0 1 .025-1.498h.858c.722-1.293 1.305-2.542 1.536-3.5h-.394a.75.75 0 0 1-.096-1.493 3.7 3.7 0 0 1-.58-1.347c-.268-1.233.237-2.668.805-3.827.59-1.203 1.349-2.304 1.821-2.946.087-.118.19-.214.3-.293v-.844a.75.75 0 0 1 .75-.75" clipRule="evenodd" /></svg>;
+export default Chess01Solid;

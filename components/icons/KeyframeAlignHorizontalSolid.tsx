@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const KeyframeAlignHorizontalSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10.964 6.073a1.35 1.35 0 0 1 2.074 0l4.219 5.063a1.35 1.35 0 0 1 0 1.728l-4.219 5.063a1.35 1.35 0 0 1-2.074 0l-4.22-5.063a1.35 1.35 0 0 1 0-1.728zM4 11.25a.75.75 0 0 1 0 1.5H2a.75.75 0 0 1 0-1.5zM22 11.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5z" /></svg>;
+export default KeyframeAlignHorizontalSolid;

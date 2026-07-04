@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Luggage01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M10 2a2.25 2.25 0 0 0-2.25 2.25V5h-1A2.25 2.25 0 0 0 4.5 7.25V18.5a2.25 2.25 0 0 0 2.25 2.25h.27a1.5 1.5 0 0 0 2.96 0h4.04a1.5 1.5 0 0 0 2.96 0h.27a2.25 2.25 0 0 0 2.25-2.25V7.25A2.25 2.25 0 0 0 17.25 5h-1v-.75A2.25 2.25 0 0 0 14 2zm7.25 17.25a.75.75 0 0 0 .75-.75V7.25a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75V18.5c0 .414.336.75.75.75zM14.75 5v-.75A.75.75 0 0 0 14 3.5h-4a.75.75 0 0 0-.75.75V5z" clipRule="evenodd" /></svg>;
+export default Luggage01Stroke;

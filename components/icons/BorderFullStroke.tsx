@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BorderFullStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19.25 6A1.25 1.25 0 0 0 18 4.75H6A1.25 1.25 0 0 0 4.75 6v12A1.25 1.25 0 0 0 6 19.25h12A1.25 1.25 0 0 0 19.25 18zm1.5 12A2.75 2.75 0 0 1 18 20.75H6A2.75 2.75 0 0 1 3.25 18V6A2.75 2.75 0 0 1 6 3.25h12A2.75 2.75 0 0 1 20.75 6z" /><path fill="currentColor" d="M11.25 8.01V8a.75.75 0 0 1 1.5 0v.01a.75.75 0 0 1-1.5 0M7.25 12.01V12a.75.75 0 0 1 1.5 0v.01a.75.75 0 0 1-1.5 0M11.25 12.01V12a.75.75 0 0 1 1.5 0v.01a.75.75 0 0 1-1.5 0M15.25 12.01V12a.75.75 0 0 1 1.5 0v.01a.75.75 0 0 1-1.5 0M11.25 16.01V16a.75.75 0 0 1 1.5 0v.01a.75.75 0 0 1-1.5 0" /></svg>;
+export default BorderFullStroke;

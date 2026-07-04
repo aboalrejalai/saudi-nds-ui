@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Mailbox01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M13.11 4.503a1.5 1.5 0 0 1 1.5-1.5H16.5a1.499 1.499 0 0 1 0 2.997H14.61v1.498h2.141c2.9 0 5.25 2.35 5.25 5.25v6a2.25 2.25 0 0 1-2.25 2.25h-6.168c.108-.227.168-.482.168-.75v-7.375a6.37 6.37 0 0 0-2.946-5.375h2.305z" /><path fill="currentColor" d="M7.375 7.498A5.375 5.375 0 0 0 2 12.873v5.875a2.25 2.25 0 0 0 2.25 2.25H12a.75.75 0 0 0 .75-.75v-7.375a5.375 5.375 0 0 0-5.375-5.375" /></svg>;
+export default Mailbox01Solid;

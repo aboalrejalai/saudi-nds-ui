@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Megaphone02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M19.73 2.146a1.35 1.35 0 0 1 2.02 1.172v13.933a1.35 1.35 0 0 1-2.02 1.171l-5.93-3.388h-1.935l.555 3.884a2.73 2.73 0 0 1-5.405.772l-.672-4.703A4.75 4.75 0 0 1 7 5.534h6.8zM8.5 19.478a1.23 1.23 0 1 0 2.435-.348l-.585-4.096H7.865zM14.75 6.72v7.13l5.5 3.143V3.577zM7 7.034a3.25 3.25 0 0 0 0 6.5h6.25v-6.5z" clipRule="evenodd" /></svg>;
+export default Megaphone02Stroke;

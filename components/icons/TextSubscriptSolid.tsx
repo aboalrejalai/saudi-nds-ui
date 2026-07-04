@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextSubscriptSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M15.5 7V6h-11v1a1 1 0 0 1-2 0V5a1 1 0 0 1 1-1h13a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0" /><path fill="currentColor" d="M9.5 19V5a1 1 0 0 1 2 0v14a1 1 0 1 1-2 0" /><path fill="currentColor" d="M12.5 18a1 1 0 1 1 0 2h-4a1 1 0 1 1 0-2zM15.5 18v-2a2 2 0 0 1 2-2h2v-2h-3a1 1 0 1 1 0-2h3a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2v2h3a1 1 0 1 1 0 2h-3a2 2 0 0 1-2-2" /></svg>;
+export default TextSubscriptSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MessageIncoming01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.004 1.252c1.359 0 2.659.253 3.855.713l-1.446 1.448-.154.17a2.25 2.25 0 0 0 .154 3.011l3 3a2.248 2.248 0 0 0 3.709-2.34h.527a10.7 10.7 0 0 1 1.105 4.748 10.7 10.7 0 0 1-2.136 6.432 10.8 10.8 0 0 1-3.04 2.762 10.7 10.7 0 0 1-5.574 1.556c-1.856 0-3.605-.47-5.13-1.3l-4.232.788a.75.75 0 0 1-.875-.875l.788-4.233a10.7 10.7 0 0 1-1.301-5.13c0-5.937 4.813-10.75 10.75-10.75" /><path fill="currentColor" d="M18.474 1.472a.75.75 0 0 1 1.06 1.06l-1.72 1.72h4.19a.75.75 0 0 1 0 1.5h-4.19l1.72 1.72a.75.75 0 0 1-1.06 1.06l-3-3a.75.75 0 0 1 0-1.06z" /></svg>;
+export default MessageIncoming01Solid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SmartAcSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3.118 4.8a.72.72 0 0 0-.72.72v5.76a2.16 2.16 0 0 0 2.16 2.16h14.88a2.16 2.16 0 0 0 2.16-2.16V5.52a.72.72 0 0 0-.72-.72zM5.278 17.04v-2.16h1.44v2.16a2.16 2.16 0 0 1-4.32 0 .72.72 0 1 1 1.44 0 .72.72 0 1 0 1.44 0M9.279 18.079v-3.2h1.44v3.2a.72.72 0 1 1-1.44 0M13.278 18.079v-3.2h1.44v3.2a.72.72 0 1 1-1.44 0M17.279 17.04v-2.16h1.44v2.16a.72.72 0 1 0 1.44 0 .72.72 0 1 1 1.44 0 2.16 2.16 0 0 1-4.32 0" /></svg>;
+export default SmartAcSolid;

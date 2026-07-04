@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GitBranchSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M6.25 2.75A.75.75 0 0 1 7 3.5v12.356a2.75 2.75 0 0 1 1.894 1.894h.356c1.623 0 3.71-.491 5.37-1.705 1.628-1.19 2.88-3.095 2.88-6.045v-.857a2.748 2.748 0 0 1 .75-5.393A2.748 2.748 0 0 1 19 9.143V10c0 3.45-1.498 5.796-3.495 7.256-1.965 1.436-4.378 1.994-6.255 1.994h-.356A2.749 2.749 0 1 1 5.5 15.856V3.5a.75.75 0 0 1 .75-.75" clipRule="evenodd" /></svg>;
+export default GitBranchSolid;

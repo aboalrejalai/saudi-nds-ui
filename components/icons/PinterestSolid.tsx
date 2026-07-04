@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PinterestSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 1.15c5.992 0 10.85 4.858 10.85 10.85S17.992 22.85 12 22.85c-1.232 0-2.416-.208-3.52-.586l-.101-.034.04-.1 1.804-4.408.034-.083.087.025a5.9 5.9 0 1 0-3.752-3.304.9.9 0 0 0 1.184.464l.082-.04a.9.9 0 0 0 .415-1.058l-.032-.086a4.1 4.1 0 1 1 2.814 2.352l-.114-.028.044-.109 1.848-4.514a.9.9 0 0 0-1.666-.682L6.78 21.383l-.043.105-.1-.056A10.84 10.84 0 0 1 1.15 12C1.15 6.008 6.008 1.15 12 1.15" /></svg>;
+export default PinterestSolid;

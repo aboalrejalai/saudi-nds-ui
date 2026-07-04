@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WebValidationStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M6.25 22a.75.75 0 0 1 .75-.75h10a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75M4 2.75c-.69 0-1.25.56-1.25 1.25v13c0 .69.56 1.25 1.25 1.25h16c.69 0 1.25-.56 1.25-1.25V4c0-.69-.56-1.25-1.25-1.25zM1.25 4A2.75 2.75 0 0 1 4 1.25h16A2.75 2.75 0 0 1 22.75 4v13A2.75 2.75 0 0 1 20 19.75H4A2.75 2.75 0 0 1 1.25 17z" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M8.47 9.97a.75.75 0 0 1 1.06 0L11 11.44l3.47-3.47a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06 0l-2-2a.75.75 0 0 1 0-1.06" clipRule="evenodd" /></svg>;
+export default WebValidationStroke;

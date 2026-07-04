@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CloudLittleRainSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6.61 8.586a5.39 5.39 0 0 1 10.778 0 4.576 4.576 0 0 1 .567 9.041v-4.542a2.16 2.16 0 0 0-3.878-1.309 2.161 2.161 0 0 0-4.239.59v.03a2.16 2.16 0 0 0-3.797 1.41v3.821a4.577 4.577 0 0 1 .569-9.04" /><path fill="currentColor" d="M11.998 11.645a.72.72 0 0 1 .72.72v6.154a.72.72 0 1 1-1.44 0v-6.154a.72.72 0 0 1 .72-.72m3.797.72a.72.72 0 0 1 .72.72v6.154a.72.72 0 1 1-1.44 0v-6.154a.72.72 0 0 1 .72-.72m-7.593.72a.72.72 0 0 1 .72.72v6.154a.72.72 0 0 1-1.44 0v-6.154a.72.72 0 0 1 .72-.72" /></svg>;
+export default CloudLittleRainSolid;

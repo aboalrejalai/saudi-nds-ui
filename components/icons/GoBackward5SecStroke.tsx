@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GoBackward5SecStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16.69 6.929A7.68 7.68 0 1 1 4.44 14.885a.72.72 0 0 0-1.39.373A9.12 9.12 0 1 0 8.505 4.415l.641-1.413a.72.72 0 0 0-1.311-.595L6.434 5.498a.72.72 0 0 0 .358.953l3.09 1.402a.72.72 0 0 0 .595-1.311l-1.596-.724a7.68 7.68 0 0 1 7.81 1.11" /><path fill="currentColor" d="M13.553 15.479v-1a.25.25 0 0 0-.25-.25h-2a.75.75 0 0 1-.75-.75v-3a.75.75 0 0 1 .75-.75h3a.75.75 0 1 1 0 1.5h-2.25v1.5h1.25a1.75 1.75 0 0 1 1.75 1.75v1a1.75 1.75 0 0 1-1.75 1.75h-2a.75.75 0 0 1 0-1.5h2a.25.25 0 0 0 .25-.25" /></svg>;
+export default GoBackward5SecStroke;

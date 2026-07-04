@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MirroringScreenSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.153 2.508A1.5 1.5 0 0 1 22.5 4v16a1.5 1.5 0 0 1-1.347 1.492L21 21.5H3A1.5 1.5 0 0 1 1.5 20V4A1.5 1.5 0 0 1 3 2.5h18zM5.227 17.698a1.03 1.03 0 0 0-1.45.075l-.013.016a1.025 1.025 0 1 0 1.525 1.371l.014-.015c.379-.42.345-1.069-.076-1.448m-.452-5.7a1.025 1.025 0 1 0-.497 1.99c2.369.591 4.135 2.355 4.727 4.721a1.026 1.026 0 0 0 1.991-.497c-.776-3.101-3.116-5.439-6.22-6.214m-.122-5.49A1.026 1.026 0 1 0 4.4 8.542c5.008.625 9.43 5.044 10.056 10.046a1.026 1.026 0 0 0 2.037-.254c-.742-5.933-5.9-11.085-11.839-11.826" clipRule="evenodd" /></svg>;
+export default MirroringScreenSolid;

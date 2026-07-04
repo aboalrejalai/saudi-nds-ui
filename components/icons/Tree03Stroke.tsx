@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Tree03Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M5.459 3.538a10.65 10.65 0 0 1 13.081 0c2.968 2.309 3.242 6.696.583 9.356l-6.169 6.168a1.4 1.4 0 0 1-.204.167v2.728a.75.75 0 0 1-1.5 0v-2.728a1.4 1.4 0 0 1-.205-.167l-6.169-6.167c-2.66-2.66-2.385-7.048.583-9.357m12.16 1.184a9.154 9.154 0 0 0-11.24 0 4.752 4.752 0 0 0-.441 7.11l5.312 5.313V7.957a.75.75 0 0 1 1.5 0v2.19l1.72-1.72a.75.75 0 1 1 1.06 1.06l-2.78 2.78v4.878l5.313-5.312a4.753 4.753 0 0 0-.444-7.111" clipRule="evenodd" /></svg>;
+export default Tree03Stroke;

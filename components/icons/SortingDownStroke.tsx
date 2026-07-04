@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SortingDownStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M2.25 18c0 .41.34.75.75.75h17c.41 0 .75-.34.75-.75s-.34-.75-.75-.75H3c-.41 0-.75.34-.75.75m0-5c0 .41.34.75.75.75h17c.41 0 .75-.34.75-.75s-.34-.75-.75-.75H3c-.41 0-.75.34-.75.75m14.76-3.43c.28.24.7.24.98 0l3.5-3c.31-.27.35-.74.08-1.06a.756.756 0 0 0-1.06-.08L17.5 8.01l-3.01-2.58a.757.757 0 0 0-1.06.08c-.27.31-.23.79.08 1.06zM2.25 8c0 .41.34.75.75.75h8c.41 0 .75-.34.75-.75s-.34-.75-.75-.75H3c-.41 0-.75.34-.75.75" clipRule="evenodd" /></svg>;
+export default SortingDownStroke;

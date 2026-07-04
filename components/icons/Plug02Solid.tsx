@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Plug02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M22.316 11.867c0-5.69-4.62-10.31-10.32-10.31s-10.31 4.62-10.31 10.31 4.32 10 9.76 10.29a.77.77 0 0 1-.2-.5v-4.85h-1.39a2.2 2.2 0 0 1-2.19-2.19v-1.99c0-.83.46-1.58 1.2-1.95v-1.9c0-.42.33-.76.75-.76s.75.34.76.76v1.66h3.25v-1.66c.01-.42.35-.76.76-.76.21 0 .4.09.54.23.13.13.22.32.22.53v1.9c.73.37 1.19 1.12 1.19 1.95v1.99c0 1.2-.98 2.18-2.19 2.19h-1.39v4.85c0 .2-.07.37-.2.5 5.44-.29 9.76-4.78 9.76-10.29" /><path fill="currentColor" d="M11.446 22.157s.01.02.02.03c.14.15.34.23.54.23.21 0 .4-.09.53-.23 0 0 .01-.02.02-.03-.18 0-.37.03-.55.03s-.37-.02-.55-.03z" /></svg>;
+export default Plug02Solid;

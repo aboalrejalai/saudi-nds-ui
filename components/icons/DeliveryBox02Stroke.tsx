@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DeliveryBox02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M11.452 1.923a1.35 1.35 0 0 1 1.096 0l8.4 3.733c.488.217.802.7.802 1.234v10.22a1.35 1.35 0 0 1-.802 1.234l-8.4 3.733a1.35 1.35 0 0 1-1.096 0l-8.4-3.733a1.35 1.35 0 0 1-.802-1.234V6.89c0-.534.314-1.017.802-1.234zM3.75 17.013l7.5 3.333v-9.359l-7.5-3.334zm13.5-8.027V12.5a.75.75 0 0 1-1.5 0V9.653l-3 1.334v9.359l7.5-3.333v-9.36zM4.847 6.5 12 9.679l2.652-1.18L7.498 5.32zm4.499-2 7.102 3.157q.023.012.045.025l2.66-1.182L12 3.32z" clipRule="evenodd" /></svg>;
+export default DeliveryBox02Stroke;

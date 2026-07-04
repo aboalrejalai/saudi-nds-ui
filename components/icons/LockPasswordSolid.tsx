@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LockPasswordSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 2c2.9 0 5.25 2.35 5.25 5.25v1.875h1.25a2.25 2.25 0 0 1 2.25 2.25v5.874a4.75 4.75 0 0 1-4.75 4.75H8a4.75 4.75 0 0 1-4.75-4.75v-5.874a2.25 2.25 0 0 1 2.25-2.25h1.25V7.25C6.75 4.35 9.1 2 12 2M8 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2m4 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m4 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2M12 3.5a3.75 3.75 0 0 0-3.75 3.75v1.875h7.5V7.25A3.75 3.75 0 0 0 12 3.5" clipRule="evenodd" /></svg>;
+export default LockPasswordSolid;

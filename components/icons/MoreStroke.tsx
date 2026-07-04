@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MoreStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M3.6 7.44a3.84 3.84 0 1 1 7.68 0 3.84 3.84 0 0 1-7.68 0m3.84-2.4a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8M3.6 16.56a3.84 3.84 0 1 1 7.68 0 3.84 3.84 0 0 1-7.68 0m3.84-2.4a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8M16.56 12.72a3.84 3.84 0 1 0 0 7.68 3.84 3.84 0 0 0 0-7.68m-2.4 3.84a2.4 2.4 0 1 1 4.8 0 2.4 2.4 0 0 1-4.8 0" clipRule="evenodd" /></svg>;
+export default MoreStroke;

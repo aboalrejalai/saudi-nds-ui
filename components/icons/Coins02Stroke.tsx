@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Coins02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2.413 10.43A.75.75 0 0 1 3.7 11.2a6.648 6.648 0 0 0 9.066 9.15.75.75 0 0 1 .76 1.294 8.148 8.148 0 0 1-12.267-7.068 8.1 8.1 0 0 1 1.154-4.147" /><path fill="currentColor" fillRule="evenodd" d="M14 1.25a8.75 8.75 0 1 1 0 17.5 8.75 8.75 0 0 1 0-17.5m0 1.5a7.25 7.25 0 1 0 0 14.5 7.25 7.25 0 0 0 0-14.5" clipRule="evenodd" /></svg>;
+export default Coins02Stroke;

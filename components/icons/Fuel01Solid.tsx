@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Fuel01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12.001 2.253c.412 0 .746.335.746.747v1.253h1.255a7.745 7.745 0 0 1 7.745 7.744v6.442a3.31 3.31 0 0 1-3.31 3.309H5.563a3.31 3.31 0 0 1-3.31-3.309V7.562a3.31 3.31 0 0 1 3.31-3.31h.69V3c0-.412.335-.747.747-.747zm.669 6.36a19.917 19.917 0 0 1 1.427 1.666c.39.512.793 1.102 1.101 1.702.301.586.552 1.255.552 1.906 0 2.07-1.68 3.75-3.749 3.75-2.075 0-3.735-1.685-3.75-3.745v-.01c.003-.648.254-1.316.556-1.902.309-.6.711-1.19 1.1-1.7a20 20 0 0 1 1.51-1.756l.014-.014.027-.029.012-.011a.75.75 0 0 1 1.06-.001l.04.04.076.079z" clipRule="evenodd" /></svg>;
+export default Fuel01Solid;

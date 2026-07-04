@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BubbleChatDelaySolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12.25 8.25a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7m-.5 1.25a.75.75 0 0 0-.75.75v2c0 .414.336.75.75.75h2a.75.75 0 0 0 0-1.5H12.5v-1.25a.75.75 0 0 0-.75-.75" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M12 1.25a10.73 10.73 0 0 1 9.193 5.176A10.7 10.7 0 0 1 22.75 12a10.7 10.7 0 0 1-2.136 6.431 10.8 10.8 0 0 1-3.04 2.762A10.7 10.7 0 0 1 12 22.75c-1.856 0-3.605-.471-5.13-1.301l-4.232.788a.75.75 0 0 1-.875-.875l.788-4.232A10.7 10.7 0 0 1 1.25 12C1.25 6.063 6.063 1.25 12 1.25m.25 5.5a5 5 0 1 0 0 10 5 5 0 0 0 0-10" clipRule="evenodd" /></svg>;
+export default BubbleChatDelaySolid;

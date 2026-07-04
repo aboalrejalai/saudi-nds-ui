@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Exchange02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M7 3.516a1 1 0 0 1 1 1V8a1 1 0 1 1-2 0V6.708a8 8 0 0 0 7.778 13.094 1 1 0 0 1 .444 1.95c-.715.162-1.46.248-2.222.248-5.523 0-10-4.477-10-10 0-2.475.9-4.739 2.388-6.484H3.5a1 1 0 0 1 0-2zM12 2c5.523 0 10 4.477 10 10a9.96 9.96 0 0 1-2.4 6.5h.9a1 1 0 1 1 0 2h-3.523a1 1 0 0 1-1-1V16a1 1 0 0 1 2 0v1.318a8 8 0 0 0-7.755-13.12 1 1 0 0 1-.443-1.95A10 10 0 0 1 12 2" /></svg>;
+export default Exchange02Solid;

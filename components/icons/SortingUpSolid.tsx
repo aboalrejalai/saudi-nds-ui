@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SortingUpSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="m21.671 17.215-3.12-3.29c-.52-.54-1.37-.54-1.91 0l-3.09 3.29c-.3.29-.3.76 0 1.05.12.14.3.2.46.22h7.12c.2 0 .39-.07.54-.22.29-.29.27-.76 0-1.05" clipRule="evenodd" /><path fill="currentColor" d="M21.121 10.765c0 .55-.45 1-1 1h-17c-.55 0-1-.45-1-1s.45-1 1-1h17c.55 0 1 .45 1 1M12.121 15.765c0 .55-.45 1-1 1h-8c-.55 0-1-.45-1-1s.45-1 1-1h8c.55 0 1 .45 1 1M21.121 5.765c0 .55-.45 1-1 1h-17c-.55 0-1-.45-1-1s.45-1 1-1h17c.55 0 1 .45 1 1" /></svg>;
+export default SortingUpSolid;

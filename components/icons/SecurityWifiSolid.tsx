@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SecurityWifiSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M11.143 2.33a2.25 2.25 0 0 1 1.721 0l6.55 2.712c.775.322 1.338 1.065 1.36 1.948.117 4.545-1.34 10.806-7.703 14.557a2.12 2.12 0 0 1-2.132.01c-6.503-3.753-7.841-10.03-7.708-14.57a2.19 2.19 0 0 1 1.364-1.945zm.943 11.094a.768.768 0 1 0 0 1.536.768.768 0 0 0 0-1.536m2.201-1.455a3.29 3.29 0 0 0-4.395 0 .72.72 0 0 0 .963 1.07c.701-.63 1.77-.63 2.47 0a.72.72 0 1 0 .962-1.07m1.61-1.605a5.387 5.387 0 0 0-7.618 0 .72.72 0 1 0 1.019 1.018 3.947 3.947 0 0 1 5.58 0 .72.72 0 1 0 1.018-1.018" clipRule="evenodd" /></svg>;
+export default SecurityWifiSolid;

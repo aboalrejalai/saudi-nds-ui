@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const OctagonSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M11.483.404a1.35 1.35 0 0 1 1.033 0l7.319 3.031c.33.137.594.4.73.73l3.032 7.32c.137.33.137.702 0 1.033l-3.031 7.319c-.137.33-.4.593-.731.73L12.516 23.6a1.35 1.35 0 0 1-1.033 0l-7.32-3.032a1.35 1.35 0 0 1-.73-.73L.402 12.518a1.35 1.35 0 0 1 0-1.033l3.031-7.32c.137-.33.4-.593.73-.73z" clipRule="evenodd" /></svg>;
+export default OctagonSolid;

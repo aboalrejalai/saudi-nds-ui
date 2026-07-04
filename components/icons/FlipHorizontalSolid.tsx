@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FlipHorizontalSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.25 21V3a.75.75 0 0 1 1.5 0v18a.75.75 0 0 1-1.5 0M16 7v10h5z" /><path fill="currentColor" d="M15.828 6.27a.75.75 0 0 1 .843.395l5 10A.75.75 0 0 1 21 17.75h-5a.75.75 0 0 1-.75-.75V7c0-.348.24-.65.578-.73m.922 9.98h3.036l-3.036-6.073zM8 7v10H3z" /><path fill="currentColor" d="M8.172 6.27A.75.75 0 0 1 8.75 7v10a.75.75 0 0 1-.75.75H3a.75.75 0 0 1-.671-1.085l5-10a.75.75 0 0 1 .843-.394m-3.958 9.98H7.25v-6.073z" /></svg>;
+export default FlipHorizontalSolid;

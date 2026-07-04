@@ -1,0 +1,56 @@
+---
+# Critical CSS for NDS (National Design System)
+# Minimal payload: variables, fonts, reset, hero. Everything else lives in main.
+---
+/*!
+ * National Design System — Critical CSS
+ * Version: {{ site.version }}
+ * License: {{ site.license }}
+ * Repository: {{ site.repository_url }}
+ * Author: {{ site.author }}
+ * Profile: {{ site.author_profile }}
+ */
+
+// Foundation token layer — single source of truth (primitives → DGA palette/slots →
+// semantic → dark). Lives in crit, not main, so first paint has the REAL tokens — no
+// bootstrap copies, no DGA hex fallbacks. Stays under the ~14 KB first-RTT budget.
+@use 'tokens/primitives';
+@use 'themes/dga';
+@use 'tokens/semantic';
+
+// Runtime brand slot overrides ([data-brand]) — after the light foundation, and
+// BEFORE the dark layer, so a brand's dark surface (variables-dark) wins over its
+// light --background-brand-light default for brand+dark pages (the knob carries both
+// modes; consumers stay mode-agnostic).
+@use 'themes/register';
+
+// Critical layout / typography / spacing tokens (colour bootstrap removed — now above).
+@use 'variables-critical';
+
+// Dark-mode foundation overrides (after semantic + brands).
+@use 'variables-dark';
+
+// Import fonts - Required for proper text rendering
+@use 'fonts';
+
+// Import CSS reset - Essential normalization
+@use 'reset';
+
+// Section layout - hero text/wrapper/action structure
+@use 'layout/section-layout';
+
+// Hero section - First visual element on most pages
+@use 'components/hero';
+
+// Skeleton - pre-init layout reservations (body:not([data-nds-loaded]) scope)
+@use 'skeleton';
+
+// Universal hide primitive. !important so author display rules can't
+// override the hidden semantic. Removes the need for :not([hidden])
+// guards across component CSS. [data-filtered] is filter's own hide hook
+// (set in nds-filter.js, also read by nds-pagination.js) — it lives here so
+// URL-active filters, which mark items in the critical init pass, hide at
+// first paint instead of flashing then collapsing when the main bundle loads.
+:is(.nds-hidden, [hidden], [data-state~=hidden], [data-filtered]) {
+    display: none !important;
+}

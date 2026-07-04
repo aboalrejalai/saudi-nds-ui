@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CapStraightSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.5 17a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-.102q.491.102 1 .104a5 5 0 0 0 3.535-1.465l.195-.207q.141-.16.266-.328H20.5zm-14-8a3 3 0 0 1 2.121.88c.32.32.555.704.703 1.121H19.5a1 1 0 1 1 0 2H9.324a3 3 0 0 1-.703 1.122A3 3 0 1 1 6.5 9m0 2.002a1 1 0 1 0 0 2 1 1 0 0 0 0-2M18.5 5a2 2 0 0 1 2 2v2.001H10.496a5 5 0 0 0-.266-.328l-.195-.207A5 5 0 0 0 5.5 7.102V7a2 2 0 0 1 2-2z" /></svg>;
+export default CapStraightSolid;

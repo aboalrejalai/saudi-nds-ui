@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LessThanSquareSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M3.6 2.25h16.8c.74 0 1.35.61 1.35 1.35v16.8c0 .75-.61 1.35-1.35 1.35H3.6c-.75 0-1.35-.6-1.35-1.35V3.6c0-.74.6-1.35 1.35-1.35m5.95 10.63c.16.23.38.45.61.66l3.33 3.02c.31.28.79.25 1.06-.05.28-.31.26-.78-.05-1.06l-3.33-3.02c-.21-.19-.33-.32-.39-.41v-.03c.06-.09.18-.22.39-.41l3.33-3.02c.31-.28.33-.75.05-1.06a.746.746 0 0 0-1.06-.05l-3.33 3.02c-.23.21-.45.43-.61.66s-.3.52-.3.87.14.65.3.88" clipRule="evenodd" /></svg>;
+export default LessThanSquareSolid;

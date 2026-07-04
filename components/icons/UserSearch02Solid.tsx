@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UserSearch02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6.813 6.345a4.345 4.345 0 1 1 8.689 0 4.345 4.345 0 0 1-8.69 0M10.97 21H5.09a2.25 2.25 0 0 1-2.25-2.25v-1.31c0-2.9 2.35-5.25 5.25-5.25h2.237a6.47 6.47 0 0 0-1.423 4.058c0 1.876.795 3.566 2.066 4.752" /><path fill="currentColor" d="M20.405 16.248c0 1.11-.362 2.135-.973 2.965l1.506 1.506a.75.75 0 0 1-1.06 1.061l-1.507-1.507a5 5 0 1 1 2.034-4.025" /></svg>;
+export default UserSearch02Solid;

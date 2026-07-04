@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Sorting01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.666 6.22a.76.76 0 0 1 1.07 0l3.016 3.036a.76.76 0 0 1 0 1.07.76.76 0 0 1-1.07 0L9.958 8.58l-.03 8.262a.76.76 0 0 1-.756.757.76.76 0 0 1-.757-.757l.03-8.262L6.7 10.305a.76.76 0 0 1-1.07 0 .76.76 0 0 1 0-1.07z" /><path fill="currentColor" d="M15.344 17.78a.76.76 0 0 1-1.069 0l-3.026-3.026a.76.76 0 0 1 0-1.07.76.76 0 0 1 1.069 0l1.735 1.736V7.158c0-.414.343-.757.757-.757.413 0 .756.343.756.757v8.262l1.736-1.735a.76.76 0 0 1 1.069 0 .76.76 0 0 1 0 1.07z" /></svg>;
+export default Sorting01Stroke;

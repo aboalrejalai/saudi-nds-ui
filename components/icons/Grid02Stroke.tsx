@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Grid02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M21 15.58h-3.92V8.42H21c.41 0 .75-.34.75-.75s-.34-.75-.75-.75h-3.92V3c0-.42-.33-.75-.75-.75s-.75.33-.75.75v3.92H8.41V3c0-.42-.33-.75-.75-.75s-.75.33-.75.75v3.92H3a.749.749 0 1 0 0 1.5h3.91v7.16H3c-.42 0-.75.33-.75.75s.33.75.75.75h3.91V21c0 .41.34.75.75.75s.75-.34.75-.75v-3.92h7.17V21c0 .41.34.75.75.75s.75-.34.75-.75v-3.92H21c.41 0 .75-.34.75-.75s-.34-.75-.75-.75m-12.59 0V8.42h7.17v7.16z" /></svg>;
+export default Grid02Stroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SecurityLockSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.389 2.08a2.25 2.25 0 0 1 1.721 0l6.55 2.712c.775.322 1.338 1.065 1.36 1.948.117 4.545-1.34 10.807-7.703 14.557a2.12 2.12 0 0 1-2.132.01c-6.503-3.753-7.84-10.03-7.708-14.57A2.19 2.19 0 0 1 4.84 4.792zm.779 4.89a2.64 2.64 0 0 0-2.64 2.64v.156a2.16 2.16 0 0 0-1.872 2.14v1.93a2.16 2.16 0 0 0 2.16 2.16h4.704a2.16 2.16 0 0 0 2.16-2.16v-1.93c0-1.094-.815-1.999-1.871-2.14v-.155a2.64 2.64 0 0 0-2.641-2.641m0 1.44a1.2 1.2 0 0 1 1.2 1.2v.137h-2.4v-.136a1.2 1.2 0 0 1 1.2-1.2" /></svg>;
+export default SecurityLockSolid;

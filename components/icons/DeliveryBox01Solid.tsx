@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DeliveryBox01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M11.452 1.923a1.35 1.35 0 0 1 1.096 0l8.4 3.733c.488.217.802.7.802 1.234v10.22a1.35 1.35 0 0 1-.802 1.234l-8.4 3.733a1.35 1.35 0 0 1-1.096 0l-8.4-3.733a1.35 1.35 0 0 1-.802-1.234V6.89c0-.534.314-1.017.802-1.234zm5.798 7.063V12.5a.75.75 0 0 1-1.5 0V9.653zM7.498 5.32 14.652 8.5l1.841-.818-.02-.011-.025-.014L9.346 4.5z" clipRule="evenodd" /></svg>;
+export default DeliveryBox01Solid;

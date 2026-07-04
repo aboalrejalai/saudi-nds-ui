@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PulleyStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M19.75 16.34V10.5c0-2.09-1.51-3.83-3.5-4.18V3.75H21c.41 0 .75-.34.75-.75s-.34-.75-.75-.75H3c-.41 0-.75.34-.75.75s.34.75.75.75h1.25V17.5c0 2.35 1.9 4.25 4.25 4.25s4.25-1.9 4.25-4.25v-3.76c.74.63 1.7 1.01 2.75 1.01s2.01-.38 2.75-1.01v2.6m-7-2.08c-.74-.63-1.7-1.01-2.75-1.01s-2.01.38-2.75 1.01V3.75h9v2.57c-1.99.35-3.5 2.09-3.5 4.18zm4.25-1.01c-1.52 0-2.75-1.23-2.75-2.75s1.23-2.75 2.75-2.75 2.75 1.23 2.75 2.75-1.23 2.75-2.75 2.75m-7 7c-1.52 0-2.75-1.23-2.75-2.75s1.23-2.75 2.75-2.75 2.75 1.23 2.75 2.75-1.23 2.75-2.75 2.75" clipRule="evenodd" /></svg>;
+export default PulleyStroke;

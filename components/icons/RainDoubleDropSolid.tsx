@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const RainDoubleDropSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="m12 2.14-.516-.543-.007.006-.018.018-.07.067-.26.253A52.918 52.918 0 0 0 7.42 6.01c-1.014 1.242-2.043 2.64-2.823 4.025-.768 1.364-1.346 2.805-1.346 4.107a8.75 8.75 0 1 0 17.5 0c0-1.302-.578-2.743-1.346-4.107-.78-1.384-1.81-2.784-2.823-4.025a53 53 0 0 0-3.97-4.321l-.07-.067-.018-.018-.005-.005-.001-.001zm0 0 .517-.543-.517-.49-.516.49z" clipRule="evenodd" /></svg>;
+export default RainDoubleDropSolid;

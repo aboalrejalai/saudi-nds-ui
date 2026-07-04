@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TropicalStormTracks02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M5.008 2.954a.75.75 0 0 1 .689-.454h13.25a.75.75 0 0 1 .75.75c0 1.34-.134 2.494-.379 3.5H6.992c-.13-.743-.613-1.695-1.838-2.983a.75.75 0 0 1-.146-.813M6.8 8.25q-.123.299-.307.615c-.181.317-.376.61-.589.93q-.185.276-.389.592-.113.178-.225.363h11.583q.179.001.328.076a8.842 8.842 0 0 0 1.631-2.576zM15.631 12.25H4.578a5.3 5.3 0 0 0-.222 2.5h7.764c.575-.477 1.216-.908 1.903-1.37l.26-.174a27 27 0 0 0 1.348-.956M10.716 16.25H4.761c.555 1.431 1.647 3.066 3.47 5.013a.75.75 0 0 0 1.298-.513c0-2.093.48-3.472 1.187-4.5" /></svg>;
+export default TropicalStormTracks02Solid;

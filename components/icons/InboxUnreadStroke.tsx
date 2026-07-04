@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const InboxUnreadStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M14.25 5.75a.75.75 0 0 1 0 1.5h-11C2.56 7.25 2 7.81 2 8.5v10c0 .69.56 1.25 1.25 1.25h16c.69 0 1.25-.56 1.25-1.25v-6.636a.75.75 0 1 1 1.5 0V18.5a2.75 2.75 0 0 1-2.75 2.75h-16A2.75 2.75 0 0 1 .5 18.5v-10a2.75 2.75 0 0 1 2.75-2.75z" /><path fill="currentColor" d="M15.82 9.886a.75.75 0 1 1 .86 1.228l-5 3.5a.75.75 0 0 1-.86 0l-5-3.5a.75.75 0 1 1 .86-1.228l4.57 3.199z" /><path fill="currentColor" fillRule="evenodd" d="M20 2.75a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7m0 1.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4" clipRule="evenodd" /></svg>;
+export default InboxUnreadStroke;

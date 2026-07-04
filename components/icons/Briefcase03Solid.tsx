@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Briefcase03Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M3.999 6.249a2.75 2.75 0 0 0-2.75 2.75v10a2.75 2.75 0 0 0 2.75 2.75h16a2.75 2.75 0 0 0 2.75-2.75v-10a2.75 2.75 0 0 0-2.75-2.75z" clipRule="evenodd" /><path fill="currentColor" d="M16.999 6.499h-2v-2.5h-6v2.5h-2v-2.9a1.6 1.6 0 0 1 1.6-1.6h6.8l.165.008a1.6 1.6 0 0 1 1.435 1.592z" /></svg>;
+export default Briefcase03Solid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GridTableStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19.25 6A1.25 1.25 0 0 0 18 4.75H6A1.25 1.25 0 0 0 4.75 6v12A1.25 1.25 0 0 0 6 19.25h12A1.25 1.25 0 0 0 19.25 18zm1.5 12A2.75 2.75 0 0 1 18 20.75H6A2.75 2.75 0 0 1 3.25 18V6A2.75 2.75 0 0 1 6 3.25h12A2.75 2.75 0 0 1 20.75 6z" /><path fill="currentColor" d="M12 11.25a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5zM20 14.25a.75.75 0 0 1 0 1.5h-8a.75.75 0 0 1 0-1.5zM20 8.25a.75.75 0 0 1 0 1.5h-8a.75.75 0 0 1 0-1.5z" /><path fill="currentColor" d="M11.25 20V4a.75.75 0 0 1 1.5 0v16a.75.75 0 0 1-1.5 0" /></svg>;
+export default GridTableStroke;

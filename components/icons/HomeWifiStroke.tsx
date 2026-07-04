@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HomeWifiStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10.929 5.027a.75.75 0 0 1 .9 0l6.5 4.875a.75.75 0 0 1 .291.487 6.9 6.9 0 0 1 1.509.859v-.746a2.25 2.25 0 0 0-.9-1.8l-6.5-4.875c-.8-.6-1.9-.6-2.7 0l-6.5 4.875a2.25 2.25 0 0 0-.9 1.8v8.121a2.25 2.25 0 0 0 2.25 2.25h5.624a6.9 6.9 0 0 1-.855-1.5h-4.77a.75.75 0 0 1-.75-.75v-8.121a.75.75 0 0 1 .3-.6z" /><path fill="currentColor" d="M20.091 15.913a5.783 5.783 0 0 0-8.178 0 .75.75 0 0 1-1.06-1.061 7.283 7.283 0 0 1 10.3 0 .75.75 0 1 1-1.062 1.06M15.203 20.027a.8.8 0 1 1 1.6 0 .8.8 0 0 1-1.6 0" /><path fill="currentColor" d="M14.103 18.224a2.846 2.846 0 0 1 3.8 0 .75.75 0 0 0 1.004-1.116 4.346 4.346 0 0 0-5.807 0 .75.75 0 0 0 1.003 1.116" /></svg>;
+export default HomeWifiStroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LogoutCircle02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 1.25C6.06 1.25 1.25 6.063 1.25 12S6.06 22.75 12 22.75 22.75 17.937 22.75 12 17.94 1.25 12 1.25m5.17 8.01c.32 0 .58.181.58.391v5.88c0 .22-.26.39-.58.39s-.58-.18-.58-.39v-5.88c0-.22.26-.39.58-.39m-5.51-.009c.15-.01.29.05.39.15l2.83 2.72c.22.21.23.56.02.78l-2.72 2.83c-.11.11-.24.17-.39.17s-.29-.05-.39-.15a.55.55 0 0 1-.18-.39c0-.15.05-.29.16-.4l1.68-1.76H7c-.35 0-.62-.28-.62-.62s.27-.62.62-.62h6.09l-1.82-1.75a.56.56 0 0 1-.17-.4c0-.13.05-.27.15-.38.11-.11.24-.17.39-.17z" clipRule="evenodd" /></svg>;
+export default LogoutCircle02Solid;

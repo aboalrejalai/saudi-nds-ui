@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const IpodSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M4 2.75c0-.69.56-1.25 1.25-1.25h13.5c.69 0 1.25.56 1.25 1.25v6.5a.25.25 0 0 1-.25.25H4.25A.25.25 0 0 1 4 9.25z" /><path fill="currentColor" fillRule="evenodd" d="M19.75 10.5a.25.25 0 0 1 .25.25v10.5c0 .69-.56 1.25-1.25 1.25H5.25c-.69 0-1.25-.56-1.25-1.25v-10.5a.25.25 0 0 1 .25-.25zm-8 2a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5" clipRule="evenodd" /></svg>;
+export default IpodSolid;

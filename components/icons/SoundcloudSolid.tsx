@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SoundcloudSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8 5.15c.47 0 .85.38.85.85v13a.85.85 0 1 1-1.7 0V6c0-.47.38-.85.85-.85M12 4.15c3.34 0 6.161 2.46 6.339 5.663 2.516.377 4.51 2.423 4.51 4.987l-.006.264c-.147 2.715-2.535 4.786-5.343 4.786H11a.85.85 0 0 1-.85-.85V6A1.85 1.85 0 0 1 12 4.15M5.087 9.033a.85.85 0 0 1 .763.846v9.03a.85.85 0 0 1-.763.845L5 19.758a.85.85 0 0 1-.85-.85v-9.03c0-.468.38-.849.85-.849zM2 10.78c.47 0 .85.38.85.85v5.527a.85.85 0 1 1-1.7 0V11.63c0-.47.38-.85.85-.85" /></svg>;
+export default SoundcloudSolid;

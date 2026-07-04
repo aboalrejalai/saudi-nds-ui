@@ -1,0 +1,32 @@
+"use client"
+
+import * as React from "react"
+
+import { Button } from "@/registry/dga/ui/button"
+
+import { NavigationMenuRtl } from "./component"
+
+export function NavigationMenuDemo() {
+  const [lang, setLang] = React.useState<"ar" | "en">("ar")
+  const dir = lang === "ar" ? "rtl" : "ltr"
+
+  const toggleLanguage = () => {
+    setLang(lang === "ar" ? "en" : "ar")
+  }
+
+  return (
+    <div className="bg-background rounded-lg border p-6" dir={dir}>
+      <div className="mb-4 flex items-center justify-between">
+        <p className="text-muted-foreground text-sm">
+          {lang === "ar" ? "عرض باللغة العربية" : "Displaying in English"}
+        </p>
+        <Button size="sm" onClick={toggleLanguage}>
+          {lang === "ar" ? "English" : "العربية"}
+        </Button>
+      </div>
+      <div className="border-border h-16 rounded-md border">
+        <NavigationMenuRtl dir={dir} lang={lang} />
+      </div>
+    </div>
+  )
+}

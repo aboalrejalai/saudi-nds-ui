@@ -1,0 +1,78 @@
+"use client"
+
+import {
+  ArtboardIcon,
+  Compass01Icon,
+  LifebuoyIcon,
+  PieChartIcon,
+  SentIcon,
+} from "@hugeicons/core-free-icons"
+import { HugeiconsIcon } from "@hugeicons/react"
+
+import {
+  Sidebar,
+  SidebarContent,
+  SidebarGroup,
+  SidebarGroupContent,
+  SidebarGroupLabel,
+  SidebarMenu,
+  SidebarMenuButton,
+  SidebarMenuItem,
+  SidebarProvider,
+} from "@/registry/dga/ui/sidebar"
+
+const projects = [
+  {
+    name: "Design Engineering",
+    url: "#",
+    icon: ArtboardIcon,
+  },
+  {
+    name: "Sales & Marketing",
+    url: "#",
+    icon: PieChartIcon,
+  },
+  {
+    name: "Travel",
+    url: "#",
+    icon: Compass01Icon,
+  },
+  {
+    name: "Support",
+    url: "#",
+    icon: LifebuoyIcon,
+  },
+  {
+    name: "Feedback",
+    url: "#",
+    icon: SentIcon,
+  },
+]
+
+export default function AppSidebar() {
+  return (
+    <SidebarProvider>
+      <Sidebar>
+        <SidebarContent>
+          <SidebarGroup>
+            <SidebarGroupLabel>Projects</SidebarGroupLabel>
+            <SidebarGroupContent>
+              <SidebarMenu>
+                {projects.map((project) => (
+                  <SidebarMenuItem key={project.name}>
+                    <SidebarMenuButton asChild>
+                      <a href={project.url}>
+                        <HugeiconsIcon icon={project.icon} />
+                        <span>{project.name}</span>
+                      </a>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                ))}
+              </SidebarMenu>
+            </SidebarGroupContent>
+          </SidebarGroup>
+        </SidebarContent>
+      </Sidebar>
+    </SidebarProvider>
+  )
+}

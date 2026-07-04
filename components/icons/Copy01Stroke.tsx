@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Copy01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.25 9.667a1.92 1.92 0 0 0-1.917-1.917H9.667A1.917 1.917 0 0 0 7.75 9.667v8.666a1.917 1.917 0 0 0 1.917 1.917h8.666a1.92 1.92 0 0 0 1.917-1.917zm1.5 8.666a3.417 3.417 0 0 1-3.417 3.417H9.667a3.417 3.417 0 0 1-3.417-3.417V9.667A3.417 3.417 0 0 1 9.667 6.25h8.666a3.417 3.417 0 0 1 3.417 3.417z" /><path fill="currentColor" d="M2.25 5A2.756 2.756 0 0 1 5 2.25h10q.772-.001 1.344.412c.364.264.615.621.811.974a.75.75 0 1 1-1.31.728c-.146-.262-.27-.406-.382-.488-.097-.07-.229-.126-.463-.126H5c-.686 0-1.25.564-1.25 1.25v9.998l.012.165a1.26 1.26 0 0 0 .622.922.75.75 0 0 1-.743 1.304 2.76 2.76 0 0 1-1.391-2.387z" /></svg>;
+export default Copy01Stroke;

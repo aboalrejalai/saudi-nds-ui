@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CircleArrowLeftRightStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.5 12a8.5 8.5 0 1 0-17 0 8.5 8.5 0 0 0 17 0m-5.616-.697L17 9.177a.75.75 0 0 0-.003-1.061L14.871 6a.75.75 0 0 0-1.058 1.063l.843.84-7.18.005a.75.75 0 1 0 .004 1.5l7.18-.006-.84.843a.75.75 0 0 0 1.064 1.058M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10" /><path fill="currentColor" d="m9.062 17.303-2.116-2.126a.75.75 0 0 1 .003-1.061L9.076 12a.75.75 0 1 1 1.058 1.063l-.843.84 7.18.005a.75.75 0 0 1-.005 1.5l-7.18-.006.84.843a.75.75 0 1 1-1.064 1.058" /></svg>;
+export default CircleArrowLeftRightStroke;

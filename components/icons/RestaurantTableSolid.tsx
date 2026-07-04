@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const RestaurantTableSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 21.25c.975 0 1.885-.288 2.613-.785a1.48 1.48 0 0 0 .47-1.9A3.35 3.35 0 0 0 13 16.882v-6.647c2.42-.07 4.616-.394 6.286-.895.944-.283 1.763-.636 2.362-1.06.58-.412 1.102-1.002 1.102-1.78s-.522-1.368-1.102-1.78c-.599-.424-1.418-.777-2.362-1.06-1.897-.569-4.473-.91-7.286-.91s-5.389.341-7.286.91c-.944.283-1.763.636-2.362 1.06-.58.412-1.102 1.002-1.102 1.78s.522 1.368 1.102 1.78c.599.424 1.418.777 2.362 1.06 1.67.5 3.865.825 6.286.895v6.647a3.35 3.35 0 0 0-2.082 1.683 1.48 1.48 0 0 0 .47 1.9A4.64 4.64 0 0 0 12 21.25" /><path fill="currentColor" d="M14 17a1 1 0 0 1-1 1h-2a1 1 0 1 1 0-2h2a1 1 0 0 1 1 1" /></svg>;
+export default RestaurantTableSolid;

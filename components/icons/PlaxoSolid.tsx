@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PlaxoSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 1.15c5.992 0 10.85 4.858 10.85 10.85S17.992 22.85 12 22.85c-1.333 0-2.61-.241-3.79-.681l-.07-.026.006-.074c.002-.036.004-.046.004-.069V12a3.85 3.85 0 1 1 3.08 3.773 1.151 1.151 0 0 0-.46 2.254q.6.122 1.23.123A6.15 6.15 0 1 0 5.85 12v8.939l-.159-.114A10.83 10.83 0 0 1 1.151 12C1.15 6.008 6.007 1.15 12 1.15" /></svg>;
+export default PlaxoSolid;

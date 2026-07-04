@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WaiterStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M4.826 8.459a7.214 7.214 0 0 1 14.349 0h.28a.75.75 0 0 1 0 1.5h-2.563v4.842h.454a.75.75 0 0 1 .75.75v5.698a.75.75 0 0 1-.75.75H11.99a.75.75 0 0 1-.75-.75v-5.698a.75.75 0 0 1 .75-.75h.455v-2.029h-.872A3.56 3.56 0 0 1 8.093 9.96H4.545a.75.75 0 1 1 0-1.5zm1.51 0a5.714 5.714 0 0 1 11.328 0zm3.32 1.504a2.06 2.06 0 0 0 1.918 1.31h1.622a.75.75 0 0 1 .75.75V14.8h1.446V9.963zm3.085 10.536v-4.198h3.855v4.198z" clipRule="evenodd" /></svg>;
+export default WaiterStroke;

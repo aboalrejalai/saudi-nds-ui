@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const VanSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16.911 5.07c.67 0 1.3.3 1.73.81l3.2 3.85c.34.4.52.91.52 1.44v3.51c0 1.24-1.01 2.25-2.25 2.25h-.41a3.061 3.061 0 0 1-6.02 0h-3.72a3.061 3.061 0 0 1-6.02 0h-.05c-1.24 0-2.25-1.01-2.25-2.25V7.33c-.03-1.24.98-2.26 2.22-2.26zm.57 1.77a.75.75 0 0 0-.58-.27h-2.56v3.75h6.03l-2.9-3.49zm-13.62-.26c-.41 0-.75.34-.75.75v3h9.74V6.58zm4.63 9.79c0-.86-.7-1.56-1.56-1.56s-1.57.7-1.57 1.56.7 1.56 1.57 1.56 1.56-.7 1.56-1.56m9.75 0c0-.86-.7-1.56-1.57-1.56s-1.56.7-1.56 1.56.7 1.56 1.56 1.56 1.57-.7 1.57-1.56" /></svg>;
+export default VanSolid;

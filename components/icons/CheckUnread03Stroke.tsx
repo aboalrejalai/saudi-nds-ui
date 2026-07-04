@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CheckUnread03Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M4.47 13.72a.75.75 0 0 1 1.06 0L9 17.19l9.47-9.47a.75.75 0 1 1 1.06 1.06l-10 10a.75.75 0 0 1-1.06 0l-4-4a.75.75 0 0 1 0-1.06" clipRule="evenodd" /><path fill="currentColor" d="M4.463 4.713a.726.726 0 0 1 1.026 0L19.037 18.26a.726.726 0 1 1-1.026 1.026L4.463 5.74a.726.726 0 0 1 0-1.026" /></svg>;
+export default CheckUnread03Stroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GraduationScrollSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M18.88 15.738a2.75 2.75 0 0 1-1.57 2.483l-5 2.374a2.75 2.75 0 0 1-2.36 0l-5-2.374a2.75 2.75 0 0 1-1.57-2.483v-3.272l6.475 3.238a2.85 2.85 0 0 0 2.55 0l6.475-3.238z" /><path fill="currentColor" fillRule="evenodd" d="M10.526 3.289c.38-.19.827-.19 1.207 0l8.659 4.329c.995.497.995 1.917 0 2.415l-8.659 4.329c-.38.19-.827.19-1.207 0l-8.659-4.33c-.995-.497-.995-1.917 0-2.414z" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M19.46 7.99a.75.75 0 0 1 1.005-.336l2 1a.75.75 0 0 1 .415.671v3.5a.75.75 0 1 1-1.5 0V9.79l-1.585-.793a.75.75 0 0 1-.336-1.006" clipRule="evenodd" /></svg>;
+export default GraduationScrollSolid;

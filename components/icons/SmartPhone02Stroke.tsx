@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SmartPhone02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.452 15.497a.75.75 0 0 1 1.115 1.004l-.01.01a.75.75 0 0 1-1.115-1.002z" /><path fill="currentColor" fillRule="evenodd" d="M16.4 3.25c.746 0 1.35.604 1.35 1.35v14.8a1.35 1.35 0 0 1-1.35 1.35H7.6a1.35 1.35 0 0 1-1.35-1.35V4.6c0-.746.604-1.35 1.35-1.35zm-8.65 16h8.5V4.75h-8.5z" clipRule="evenodd" /></svg>;
+export default SmartPhone02Stroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const RotateTopLeftSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.75 10.25c0-.69-.56-1.25-1.25-1.25h-6a2.25 2.25 0 0 0-2.25 2.25v6a1.25 1.25 0 0 0 2.5 0V11.5h5.75c.69 0 1.25-.56 1.25-1.25m.5 8.75H2.5a1.25 1.25 0 1 0 0 2.5h.75v.75a1.25 1.25 0 0 0 2.5 0v-.75h7.75a2.25 2.25 0 0 0 2.25-2.25V11.5h.75a1.25 1.25 0 0 0 0-2.5h-.75v-.75a1.25 1.25 0 1 0-2.5 0zm.006-14.633.014.1q.023.13.076.26c.027.066.067.132.071.14.043.076.107.174.2.267l2.5 2.5a1.25 1.25 0 0 0 1.767-1.768l-.365-.366a2.75 2.75 0 0 1 2.731 2.75v4a1.25 1.25 0 0 0 2.5 0v-4A5.25 5.25 0 0 0 17.518 3l.366-.366A1.25 1.25 0 1 0 16.116.866l-2.5 2.5a1.3 1.3 0 0 0-.199.266l-.071.14q-.053.127-.075.257l-.015.104a1.2 1.2 0 0 0 0 .234" /></svg>;
+export default RotateTopLeftSolid;

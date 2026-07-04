@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HeadphonesStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 3.877a8.75 8.75 0 0 0-8.75 8.75v5.25a2.25 2.25 0 0 0 2.25 2.25h1a2.25 2.25 0 0 0 2.25-2.25v-3.5a2.25 2.25 0 0 0-2.25-2.25h-1q-.392.002-.74.125a7.25 7.25 0 0 1 14.48 0 2.3 2.3 0 0 0-.74-.125h-1a2.25 2.25 0 0 0-2.25 2.25v3.5a2.25 2.25 0 0 0 2.25 2.25h1a2.25 2.25 0 0 0 2.25-2.25v-5.25A8.75 8.75 0 0 0 12 3.877m7.25 10.486v3.514a.75.75 0 0 1-.75.75h-1a.75.75 0 0 1-.75-.75v-3.5a.75.75 0 0 1 .75-.75h1a.75.75 0 0 1 .75.736M6.5 13.627a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-.75.75h-1a.75.75 0 0 1-.75-.75v-3.5a.75.75 0 0 1 .75-.75z" clipRule="evenodd" /></svg>;
+export default HeadphonesStroke;

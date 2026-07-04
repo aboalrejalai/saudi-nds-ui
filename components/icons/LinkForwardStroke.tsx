@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LinkForwardStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M4.038 12.245c.845-.871 2.144-1.491 3.962-1.491h12.19l-5.72 5.72a.75.75 0 1 0 1.06 1.06l7-7a.75.75 0 0 0 0-1.06l-7-7a.75.75 0 1 0-1.06 1.06l5.72 5.72H8c-2.182 0-3.883.755-5.038 1.947-1.147 1.182-1.712 2.75-1.712 4.303s.565 3.12 1.712 4.303C4.117 21 5.818 21.754 8 21.754a.75.75 0 0 0 0-1.5c-1.818 0-3.117-.62-3.962-1.491-.853-.88-1.288-2.062-1.288-3.26 0-1.196.435-2.378 1.288-3.258" clipRule="evenodd" /></svg>;
+export default LinkForwardStroke;

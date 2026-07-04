@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WorkStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M15.4 2.25c.746 0 1.35.604 1.35 1.35v2.65H20A2.75 2.75 0 0 1 22.75 9v10A2.75 2.75 0 0 1 20 21.75H4A2.75 2.75 0 0 1 1.25 19V9A2.75 2.75 0 0 1 4 6.25h3.25V3.6c0-.746.604-1.35 1.35-1.35zM4 7.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h16c.69 0 1.25-.56 1.25-1.25V9c0-.69-.56-1.25-1.25-1.25zm4.75-1.5h6.5v-2.5h-6.5z" clipRule="evenodd" /></svg>;
+export default WorkStroke;

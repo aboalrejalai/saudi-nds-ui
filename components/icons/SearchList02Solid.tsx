@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SearchList02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.998 20.004c.55 0 1 .45 1 1s-.45 1-1 1h-19c-.55 0-1-.45-1-1s.45-1 1-1z" /><path fill="currentColor" fillRule="evenodd" d="M14.848 2.004c3.78 0 6.85 3.07 6.85 6.85 0 1.53-.5 2.94-1.35 4.08l2.36 2.36a.996.996 0 1 1-1.41 1.41l-2.36-2.36a6.8 6.8 0 0 1-4.08 1.35c-3.78 0-6.85-3.07-6.85-6.85s3.07-6.85 6.85-6.85zm0 2c-2.68 0-4.85 2.17-4.85 4.85s2.17 4.85 4.85 4.85 4.85-2.17 4.85-4.85-2.17-4.85-4.85-4.85" clipRule="evenodd" /><path fill="currentColor" d="M5.998 12.004c.55 0 1 .45 1 1s-.45 1-1 1h-4c-.55 0-1-.45-1-1s.45-1 1-1z" /></svg>;
+export default SearchList02Solid;

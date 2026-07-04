@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LeftToRightListTriangleSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.875 5a1 1 0 1 1 0 2h-9a1 1 0 1 1 0-2zM20.875 11a1 1 0 1 1 0 2h-9a1 1 0 1 1 0-2zM20.875 17a1 1 0 1 1 0 2h-9a1 1 0 1 1 0-2zM2.875 4v5l4-2.5z" /><path fill="currentColor" d="M2.512 3.344a.75.75 0 0 1 .76.02l4 2.5a.75.75 0 0 1 0 1.272l-4 2.5A.75.75 0 0 1 2.125 9V4a.75.75 0 0 1 .387-.656m1.113 4.303L5.46 6.5 3.625 5.353zM2.875 15v5l4-2.5z" /><path fill="currentColor" d="M2.512 14.344a.75.75 0 0 1 .76.02l4 2.5a.75.75 0 0 1 0 1.272l-4 2.5A.75.75 0 0 1 2.125 20v-5a.75.75 0 0 1 .387-.656m1.113 4.303L5.46 17.5l-1.835-1.147z" /></svg>;
+export default LeftToRightListTriangleSolid;

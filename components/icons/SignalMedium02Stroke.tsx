@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SignalMedium02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M17.208 10.612a.768.768 0 0 0-1.536 0v7.776a.768.768 0 1 0 1.536 0zM11.92 11.908c.425 0 .768.344.768.768v5.184a.768.768 0 0 1-1.536 0v-5.184c0-.424.344-.768.768-.768M7.557 15.027c.424 0 .768.344.768.768v2.592a.768.768 0 1 1-1.536 0v-2.592c0-.424.344-.768.768-.768" /></svg>;
+export default SignalMedium02Stroke;

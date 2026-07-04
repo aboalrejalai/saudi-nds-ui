@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GitMergeSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M6 2.25a2.748 2.748 0 0 1 .75 5.393V9c0 1.597.578 3.685 1.848 5.36 1.25 1.648 3.165 2.89 5.902 2.89h.856a2.749 2.749 0 0 1 5.394.75 2.75 2.75 0 0 1-5.394.75H14.5c-3.262 0-5.599-1.508-7.098-3.484a10 10 0 0 1-.652-.979V21a.75.75 0 0 1-1.5 0V7.643A2.748 2.748 0 0 1 6 2.25" clipRule="evenodd" /></svg>;
+export default GitMergeSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Menu02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M21 18.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zM16 11.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zM11 4.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5z" /><path fill="currentColor" d="M21.5 19a.5.5 0 0 0-.5-.5H3a.5.5 0 0 0 0 1h18a.5.5 0 0 0 .5-.5m-5-7a.5.5 0 0 0-.5-.5H3a.5.5 0 0 0 0 1h13a.5.5 0 0 0 .5-.5m-5-7a.5.5 0 0 0-.5-.5H3a.5.5 0 0 0 0 1h8a.5.5 0 0 0 .5-.5M22 19a1 1 0 0 1-1 1H3a1 1 0 1 1 0-2h18a1 1 0 0 1 1 1m-5-7a1 1 0 0 1-1 1H3a1 1 0 1 1 0-2h13a1 1 0 0 1 1 1m-5-7a1 1 0 0 1-1 1H3a1 1 0 0 1 0-2h8a1 1 0 0 1 1 1" /></svg>;
+export default Menu02Solid;

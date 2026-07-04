@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TwoFinger02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12.887 1.066a2.36 2.36 0 0 1 2.362 2.362v.516a2.333 2.333 0 0 1 4.341 1.677l-1.99 6.627c.316.136.672.325 1.008.592.489.386.95.94 1.173 1.71.224.772.191 1.684-.177 2.749l-.029.08c-.315.91-.59 1.704-.864 2.369-.282.684-.585 1.28-.97 1.765a3.43 3.43 0 0 1-1.481 1.102c-.593.23-1.272.317-2.054.317h-4.98a5 5 0 0 1-5-4.992L4.08 9.741a.75.75 0 0 1 .084-.353 2.36 2.36 0 0 1 3.241-1.84 2.329 2.329 0 0 1 3.12-1.032v-3.09a2.36 2.36 0 0 1 2.362-2.36" clipRule="evenodd" /></svg>;
+export default TwoFinger02Solid;

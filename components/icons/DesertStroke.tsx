@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DesertStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12.002 3.6a2.637 2.637 0 0 0-2.638 2.637v6.243h-.72a.72.72 0 0 1-.72-.72 2.161 2.161 0 1 0-4.322.002 5.04 5.04 0 0 0 5.04 5.04h.722v2.158H4.322a.72.72 0 0 0 0 1.44h15.36a.72.72 0 1 0 0-1.44h-5.043v-5.758h.723a5.04 5.04 0 0 0 5.04-5.04 2.161 2.161 0 1 0-4.323-.003.72.72 0 0 1-.72.72h-.72V6.238A2.637 2.637 0 0 0 12.002 3.6m-1.198 15.36H13.2V6.237a1.197 1.197 0 1 0-2.395 0zm-1.44-5.04v1.442h-.722a3.6 3.6 0 0 1-3.6-3.6.721.721 0 0 1 1.443-.003 2.16 2.16 0 0 0 2.16 2.16zm5.997-2.158h-.722V10.32h.72a2.16 2.16 0 0 0 2.16-2.16.721.721 0 1 1 1.443.002 3.6 3.6 0 0 1-3.6 3.6" clipRule="evenodd" /></svg>;
+export default DesertStroke;

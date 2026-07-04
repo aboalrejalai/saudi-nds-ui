@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Shaka03Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M10.002 2.736a2.45 2.45 0 0 1 2.99.047 2.43 2.43 0 0 1 .2 3.626l-.344.342q.075-.005.152-.005h2a2.25 2.25 0 0 1 1.386 4.02 2.244 2.244 0 0 1-.5 2.998c.23.352.364.773.364 1.226 0 .412-.11.798-.304 1.13l4.307.877a2.393 2.393 0 0 1-.752 4.726l-8.772-1.494-.013-.001-.1-.012a60 60 0 0 1-1.506-.193 30 30 0 0 1-1.329-.216 7.5 7.5 0 0 1-1.052-.262c-.697-.176-1.308-.441-1.838-.671l-.414-.177c-.647-.269-1.237-.46-1.977-.46a.75.75 0 0 1-.75-.75V7.997a.75.75 0 0 1 .75-.75c.99 0 2.171-.34 2.891-.903l4.598-3.597z" clipRule="evenodd" /></svg>;
+export default Shaka03Solid;

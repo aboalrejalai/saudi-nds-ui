@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PackageOutOfStockSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M13.293 6.847a1 1 0 1 0 1.414-1.414L13.414 4.14l1.293-1.293a1 1 0 1 0-1.414-1.414L12 2.726l-1.293-1.293a1 1 0 1 0-1.414 1.414l1.293 1.293-1.293 1.293a1 1 0 1 0 1.414 1.414L12 5.554z" /><path fill="currentColor" fillRule="evenodd" d="M21.75 7.561a1.35 1.35 0 0 0-.802-1.233l-3.74-1.663a.75.75 0 0 0-.61 1.37l2.554 1.136L12 10.35 4.847 7.17l2.651-1.18a.678.678 0 0 0 .194-1.109l-.077-.073a.75.75 0 0 0-.822-.144L3.052 6.328A1.35 1.35 0 0 0 2.25 7.56v10.22c0 .534.314 1.018.802 1.234l8.4 3.734a1.35 1.35 0 0 0 1.096 0l8.4-3.734c.488-.216.802-.7.802-1.233zm-4.5 5.61V9.659l-1.5.667v2.847a.75.75 0 0 0 1.5 0" clipRule="evenodd" /></svg>;
+export default PackageOutOfStockSolid;

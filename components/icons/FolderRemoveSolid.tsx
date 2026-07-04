@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FolderRemoveSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M22.75 8.63v3.45c-.92-.38-2.04-.21-2.77.51l-1.23 1.24-1.23-1.24c-.95-.94-2.59-.94-3.54 0-.47.48-.73 1.11-.73 1.77s.26 1.3.73 1.77l1.24 1.23-1.24 1.23a2.52 2.52 0 0 0-.68 2.27H3.9c-1.46 0-2.65-1.19-2.65-2.65V5.31c0-1.46 1.19-2.65 2.65-2.65h4.62c.71 0 1.41.27 1.92.78l2.12 2.23c.19.19.46.31.73.31h6.81c1.46 0 2.65 1.19 2.65 2.65" /><path fill="currentColor" d="M21.04 13.649a.996.996 0 1 1 1.41 1.41l-2.29 2.29 2.29 2.29a.996.996 0 1 1-1.41 1.41l-2.29-2.29-2.29 2.29a.996.996 0 1 1-1.41-1.41l2.29-2.29-2.29-2.29a.996.996 0 1 1 1.41-1.41l2.29 2.29z" /></svg>;
+export default FolderRemoveSolid;

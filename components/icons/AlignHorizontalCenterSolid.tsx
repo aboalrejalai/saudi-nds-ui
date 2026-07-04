@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AlignHorizontalCenterSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.75 4a.75.75 0 0 0-1.5 0v2.75H8.608a1.75 1.75 0 0 0-1.75 1.75v1c0 .966.783 1.75 1.75 1.75h2.642v1.5H6.5a1.75 1.75 0 0 0-1.75 1.75v1c0 .966.784 1.75 1.75 1.75h4.75V20a.75.75 0 0 0 1.5 0v-2.75h4.75a1.75 1.75 0 0 0 1.75-1.75v-1a1.75 1.75 0 0 0-1.75-1.75h-4.75v-1.5h2.642a1.75 1.75 0 0 0 1.75-1.75v-1a1.75 1.75 0 0 0-1.75-1.75H12.75z" /></svg>;
+export default AlignHorizontalCenterSolid;

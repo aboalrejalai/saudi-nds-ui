@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CustomFieldSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M22.75 8A2.75 2.75 0 0 0 20 5.25H4A2.75 2.75 0 0 0 1.25 8v8A2.75 2.75 0 0 0 4 18.75h16A2.75 2.75 0 0 0 22.75 16zm-14 .5A.75.75 0 0 0 8 7.75H5a.75.75 0 0 0 0 1.5h.75v5.5H5a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-.75v-5.5H8a.75.75 0 0 0 .75-.75" clipRule="evenodd" /></svg>;
+export default CustomFieldSolid;

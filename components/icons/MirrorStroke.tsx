@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MirrorStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M18 1.25A2.75 2.75 0 0 1 20.75 4v16A2.75 2.75 0 0 1 18 22.75H6A2.75 2.75 0 0 1 3.25 20V4A2.75 2.75 0 0 1 6 1.25zM6 2.75c-.69 0-1.25.56-1.25 1.25v16c0 .69.56 1.25 1.25 1.25h12c.69 0 1.25-.56 1.25-1.25v-9.44l-6.281 5.026a.75.75 0 0 1-.938-1.172L19.25 8.64V6.602l-4.77 3.974a.75.75 0 0 1-.96-1.152l5.73-4.776V4c0-.69-.56-1.25-1.25-1.25z" clipRule="evenodd" /></svg>;
+export default MirrorStroke;

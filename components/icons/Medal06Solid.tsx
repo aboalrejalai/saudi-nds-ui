@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Medal06Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="m15.751 10.081 3.44-7.78a.76.76 0 0 0-.39-.99.76.76 0 0 0-.99.39l-3.45 7.81c-.19-.06-.39-.1-.59-.14l-3.76-7.7a.74.74 0 0 0-1-.34c-.38.18-.53.63-.35 1l3.39 6.94c-.66.04-1.29.18-1.88.39l-4-7.99a.73.73 0 0 0-1-.34c-.38.18-.53.64-.34 1.01l4 7.99a6.78 6.78 0 0 0-3.08 5.67c0 3.73 3.02 6.75 6.75 6.75s6.75-3.02 6.75-6.75c0-2.55-1.41-4.77-3.5-5.92m-3.14 8.17h-.22c-1.15 0-2.14-.98-2.14-2.25s.99-2.25 2.14-2.25h.22c1.16 0 2.14.98 2.14 2.25s-.98 2.25-2.14 2.25" clipRule="evenodd" /><path fill="currentColor" d="M14.171 1.711c.16-.38.6-.56.98-.4s.56.6.4.98l-1.04 2.5a.75.75 0 0 1-.98.4.75.75 0 0 1-.4-.98z" /></svg>;
+export default Medal06Solid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GoogleGeminiStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 2.15c.47 0 .85.38.85.85A8.15 8.15 0 0 0 21 11.15a.85.85 0 1 1 0 1.7A8.15 8.15 0 0 0 12.85 21a.85.85 0 1 1-1.7 0A8.15 8.15 0 0 0 3 12.85a.85.85 0 1 1 0-1.7A8.15 8.15 0 0 0 11.15 3c0-.47.38-.85.85-.85M12 7a9.88 9.88 0 0 1-5 5 9.88 9.88 0 0 1 5 4.999A9.88 9.88 0 0 1 16.999 12 9.88 9.88 0 0 1 12 7" clipRule="evenodd" /></svg>;
+export default GoogleGeminiStroke;

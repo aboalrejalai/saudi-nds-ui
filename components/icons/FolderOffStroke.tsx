@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FolderOffStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.84 5.6h-6.8c-.28 0-.55-.11-.73-.31l-2.13-2.23c-.51-.51-1.21-.78-1.91-.77H4.64c-.46 0-.9.12-1.29.34L1.87 1.15A.8.8 0 0 0 1.3.91c-.21 0-.42.08-.57.24-.32.31-.32.83 0 1.14l1.52 1.52c-.17.34-.26.73-.26 1.13v12.89c0 1.46 1.2 2.65 2.65 2.65h14.27l2.38 2.38c.32.31.83.31 1.14 0s.32-.83 0-1.15l-1.23-1.23h.8l.5-.01c1.121 0 1-1.47.99-1.47V8.25c0-1.45-1.19-2.65-2.65-2.65M4.64 18.86c-.56 0-1.03-.46-1.03-1.03V5.17l13.68 13.69zm17.23-1a1 1 0 0 1-1 1h-1.29L4.63 3.91h4.68c.28 0 .54.1.71.28l2.12 2.23c.49.51 1.19.8 1.9.8h6.8c.57 0 1.03.46 1.03 1.03z" /></svg>;
+export default FolderOffStroke;

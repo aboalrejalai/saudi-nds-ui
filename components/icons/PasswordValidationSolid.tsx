@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PasswordValidationSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19.797 14.543a1 1 0 1 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 1 1 1.414-1.414l1.293 1.293zM22.004 11.75a1 1 0 1 1-2 0v-5a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7a1 1 0 1 1 0 2h-7a3 3 0 0 1-3-3v-6a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3z" /><path fill="currentColor" d="M15.27 9.08a1 1 0 1 1 1.487 1.338l-.01.01a1 1 0 1 1-1.486-1.337zM11.27 9.08a1 1 0 1 1 1.487 1.338l-.01.01a1 1 0 1 1-1.486-1.337zM7.27 9.08a1 1 0 1 1 1.487 1.338l-.01.01a1 1 0 1 1-1.486-1.337z" /></svg>;
+export default PasswordValidationSolid;

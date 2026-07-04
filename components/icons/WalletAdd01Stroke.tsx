@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WalletAdd01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M6.251 14a1 1 0 1 0-2 0v3h-3a1 1 0 1 0 0 2h3v3a1 1 0 1 0 2 0v-3h3a1 1 0 1 0 0-2h-3z" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M17.292 1.094a2.75 2.75 0 0 1 3.459 2.658v.647h.25a2.75 2.75 0 0 1 2.75 2.75v9a2.75 2.75 0 0 1-2.75 2.75h-10.55a1.49 1.49 0 0 0 .173-1.5h10.377c.69 0 1.25-.56 1.25-1.25v-9c0-.69-.56-1.25-1.25-1.25h-14c-.69 0-1.25.56-1.25 1.25v5.437a1.5 1.5 0 0 0-1.5.297V6.685a2.75 2.75 0 0 1 2.041-2.657zm1.959 2.658a1.25 1.25 0 0 0-1.572-1.208l-6.957 1.855h8.529z" clipRule="evenodd" /><path fill="currentColor" d="M18.501 10.399a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5" /></svg>;
+export default WalletAdd01Stroke;

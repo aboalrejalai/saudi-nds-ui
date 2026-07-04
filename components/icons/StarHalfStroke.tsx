@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const StarHalfStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12.645 3.324a.72.72 0 0 0-1.292 0L8.805 8.487l-5.697.828a.72.72 0 0 0-.4 1.228l4.123 4.019-.973 5.675a.72.72 0 0 0 1.045.759l5.096-2.68 5.096 2.68a.72.72 0 0 0 1.045-.76l-.974-5.674 4.123-4.019a.72.72 0 0 0-.399-1.228l-5.697-.828zm-.646 1.946 2.07 4.194a.72.72 0 0 0 .542.394l4.628.672-3.349 3.265a.72.72 0 0 0-.207.637l.79 4.61-4.139-2.176a.7.7 0 0 0-.335-.083z" clipRule="evenodd" /></svg>;
+export default StarHalfStroke;

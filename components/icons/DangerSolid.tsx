@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DangerSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.64 10.034a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4M15.36 10.034a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4" /><path fill="currentColor" d="M12 3.545c-5.13 0-9.6 3.291-9.6 7.692 0 2.069 1.012 3.913 2.596 5.266v1.791a2.16 2.16 0 0 0 2.16 2.16H9.12v-2.882a.72.72 0 0 1 1.44 0v2.882h2.88v-2.882a.72.72 0 0 1 1.44 0v2.882h1.965a2.16 2.16 0 0 0 2.16-2.16v-1.791c1.584-1.353 2.595-3.197 2.595-5.266 0-4.4-4.47-7.692-9.6-7.692m-6 7.69a2.64 2.64 0 1 1 5.28 0 2.64 2.64 0 0 1-5.28 0m6.72 0a2.64 2.64 0 1 1 5.28 0 2.64 2.64 0 0 1-5.28 0" /></svg>;
+export default DangerSolid;

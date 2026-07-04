@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Airplane02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.327 4.496c.18.67-.06 1.38-.54 1.87l-3.36 3.36 2 8.67a.96.96 0 0 1-.26.91l-1.13 1.13a.97.97 0 0 1-1.52-.19l-3.6-6-1.91 1.91.28 4.16c.07.98-1.21 1.43-1.77.62l-2.65-3.83-3.83-2.65c-.81-.56-.37-1.83.62-1.77l4.16.28 1.91-1.91-6-3.6a.977.977 0 0 1-.19-1.52l1.13-1.13a.96.96 0 0 1 .91-.26l8.67 2 3.24-3.24c1.18-1.18 3.33-.78 3.84 1.19" clipRule="evenodd" /></svg>;
+export default Airplane02Solid;

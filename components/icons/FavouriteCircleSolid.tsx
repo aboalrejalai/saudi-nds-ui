@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FavouriteCircleSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 1.25c5.937 0 10.75 4.813 10.75 10.75S17.937 22.75 12 22.75 1.25 17.937 1.25 12 6.063 1.25 12 1.25m2.443 6.104a2.77 2.77 0 0 0-1.986.846l-.15.154a.43.43 0 0 1-.614 0l-.15-.154a2.756 2.756 0 0 0-3.974 0 2.93 2.93 0 0 0 0 4.066l4.141 4.258a.407.407 0 0 0 .566.014c.953-.91 1.859-1.865 2.77-2.826.458-.482.917-.966 1.385-1.446.523-.54.819-1.27.819-2.034s-.296-1.493-.82-2.032a2.77 2.77 0 0 0-1.987-.846" clipRule="evenodd" /></svg>;
+export default FavouriteCircleSolid;

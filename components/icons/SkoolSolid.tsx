@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SkoolSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6 8.5c2.74 0 4 1.5 4 1.5l-1.5 1.5c-.83-.5-3.59-1.45-4 0-.51 1.83 5.5 1.53 5.5 4.72S7.29 20.5 5.5 20.5c-1.6 0-3.67-.78-4.5-1.28l1.16-2.28c1 .67 3.98 1.88 4.55.56 1-2.31-5.36-1.58-5.36-5.08S3.93 8.5 6 8.5M15 3.5v9h1c.31 0 .61-.15.8-.4l2.4-3.2c.19-.25.49-.4.8-.4h3l-4 5 4 7h-2.91c-.36 0-.7-.2-.87-.52l-2.44-4.46a.99.99 0 0 0-.87-.52H15v5.5h-3v-17z" /></svg>;
+export default SkoolSolid;

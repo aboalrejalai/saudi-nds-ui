@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const EcoLabSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.075 21.25h-1.39c.04-.14.06-.3.06-.45 0-.35-.08-.68-.25-.97l-3.75-6.54V9.74h.26c.41 0 .75-.35.75-.75 0-.42-.34-.75-.75-.75h-2.25v-1.5h1.25c1.52 0 2.75-1.24 2.75-2.75v-1c0-.42-.34-.75-.75-.75h-2c-.58 0-1.12.18-1.56.49-.46-.9-1.38-1.49-2.44-1.49h-2c-.41 0-.75.33-.75.75v1c0 1.51 1.23 2.75 2.75 2.75h1.25v2.5h-2.25a.749.749 0 1 0 0 1.5h.24v3.55l-3.74 6.54c-.17.29-.26.62-.26.97 0 .15.02.31.06.45h-1.4c-.56 0-1.01.33-1.01.75s.45.75 1.01.75h16.17c.56 0 1.02-.35 1.02-.75 0-.42-.46-.75-1.02-.75m-6.81-8.08a15 15 0 0 0-1.27-.05c-.49 0-.9 0-1.24.04V9.74h2.51z" /></svg>;
+export default EcoLabSolid;

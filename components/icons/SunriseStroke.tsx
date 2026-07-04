@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SunriseStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M18.787 8.214a.72.72 0 0 1 0 1.018l-1.018 1.018a.72.72 0 1 1-1.018-1.018l1.018-1.018a.72.72 0 0 1 1.018 0M20.878 15.72a.72.72 0 1 0 0-1.44h-1.44a.72.72 0 0 0 0 1.44zM5.278 15a.72.72 0 0 1-.72.72h-1.44a.72.72 0 0 1 0-1.44h1.44a.72.72 0 0 1 .72.72M20.878 18.6a.72.72 0 1 0 0-1.44H3.118a.72.72 0 0 0 0 1.44zM11.998 9.72a5.28 5.28 0 0 0-5.23 6h1.458a3.84 3.84 0 1 1 7.545 0h1.459q.048-.352.048-.72a5.28 5.28 0 0 0-5.28-5.28M6.228 10.252a.72.72 0 1 0 1.018-1.018L6.228 8.216A.72.72 0 1 0 5.21 9.234zM14.572 5.62a.75.75 0 0 0-1.06 0l-1.238 1.238-1.238-1.238a.75.75 0 1 0-1.06 1.06l1.767 1.769a.75.75 0 0 0 1.061 0l1.768-1.768a.75.75 0 0 0 0-1.06" /></svg>;
+export default SunriseStroke;

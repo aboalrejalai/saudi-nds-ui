@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BluetoothCircleStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75m2 0c0 6.49-5.26 11.75-11.75 11.75S.25 18.49.25 12 5.51.25 12 .25 23.75 5.51 23.75 12" /><path fill="currentColor" fillRule="evenodd" d="M11.579 5.304a.75.75 0 0 1 .821.178l3.143 3.301a.75.75 0 0 1-.058 1.088L12.981 12l2.504 2.129a.75.75 0 0 1 .058 1.088l-3.143 3.3A.75.75 0 0 1 11.107 18v-4.406l-1.622 1.378a.75.75 0 1 1-.97-1.144L10.664 12l-2.15-1.828a.75.75 0 0 1 .97-1.144l1.622 1.38V6a.75.75 0 0 1 .472-.696m1.028 10.82 1.302-1.366-1.302-1.108zm0-5.774 1.302-1.108-1.302-1.367z" clipRule="evenodd" /></svg>;
+export default BluetoothCircleStroke;

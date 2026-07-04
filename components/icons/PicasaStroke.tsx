@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PicasaStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 1.15c5.992 0 10.85 4.858 10.85 10.85S17.992 22.85 12 22.85 1.15 17.992 1.15 12 6.008 1.15 12 1.15M8.85 20.59a9.143 9.143 0 0 0 10.91-3.741H8.849zM3.6 15.6l-.01.01a9.2 9.2 0 0 0 3.56 4.148V12.05zm5.25-5.248v4.798h6.3v-4.798L12 7.202zm8 4.798h3.74a9.142 9.142 0 0 0-3.74-10.91zM8.39 3.59a9.15 9.15 0 0 0-5.365 10.183L10.8 6l-2.4-2.4zM12 2.85c-.607 0-1.2.063-1.773.176l2.358 2.36.016.013.012.015L15.15 7.95V3.41A9.1 9.1 0 0 0 12 2.85" clipRule="evenodd" /></svg>;
+export default PicasaStroke;

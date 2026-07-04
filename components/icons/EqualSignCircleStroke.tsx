@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const EqualSignCircleStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16 13.18c.41 0 .75.34.75.75s-.34.75-.75.75H8c-.41 0-.75-.34-.75-.75s.34-.75.75-.75zM16 9.32c.41 0 .75.34.75.75s-.34.75-.75.75H8c-.41 0-.75-.34-.75-.75s.34-.75.75-.75z" /><path fill="currentColor" fillRule="evenodd" d="M12 1.25c5.94 0 10.75 4.81 10.75 10.75S17.94 22.75 12 22.75 1.25 17.94 1.25 12 6.06 1.25 12 1.25m0 1.5c-5.11 0-9.25 4.14-9.25 9.25s4.14 9.25 9.25 9.25 9.25-4.14 9.25-9.25S17.11 2.75 12 2.75" clipRule="evenodd" /></svg>;
+export default EqualSignCircleStroke;

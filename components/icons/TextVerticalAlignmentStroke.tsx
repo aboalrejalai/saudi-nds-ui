@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextVerticalAlignmentStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20 11.75a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5zM20 4.75a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1 0-1.5zM20 8.75a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1 0-1.5zM8.25 9.5v-4a1.25 1.25 0 0 0-2.5 0v4a.75.75 0 0 1-1.5 0v-4a2.75 2.75 0 0 1 5.5 0v4a.75.75 0 0 1-1.5 0" /><path fill="currentColor" d="M9 6.75a.75.75 0 1 1 0 1.5H5a.75.75 0 0 1 0-1.5zM20 15.75a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1 0-1.5zM20 19.75a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1 0-1.5zM8.25 20.5v-4a1.25 1.25 0 0 0-2.5 0v4a.75.75 0 0 1-1.5 0v-4a2.75 2.75 0 0 1 5.5 0v4a.75.75 0 0 1-1.5 0" /><path fill="currentColor" d="M9 17.75a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1 0-1.5z" /></svg>;
+export default TextVerticalAlignmentStroke;

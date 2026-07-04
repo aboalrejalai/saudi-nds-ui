@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CrowdfundingSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11 4.25A1.75 1.75 0 0 0 9.25 6v2c0 .966.784 1.75 1.75 1.75h.25v1.5H6.133a2.25 2.25 0 0 0-2.25 2.25v.75H3.75A1.75 1.75 0 0 0 2 16v2c0 .966.784 1.75 1.75 1.75h2A1.75 1.75 0 0 0 7.5 18v-2a1.75 1.75 0 0 0-1.75-1.75h-.367v-.75a.75.75 0 0 1 .75-.75h5.117v1.5H11A1.75 1.75 0 0 0 9.25 16v2c0 .966.784 1.75 1.75 1.75h2A1.75 1.75 0 0 0 14.75 18v-2A1.75 1.75 0 0 0 13 14.25h-.25v-1.5h4.883a.75.75 0 0 1 .75.75v.75h-.133A1.75 1.75 0 0 0 16.5 16v2c0 .966.784 1.75 1.75 1.75h2A1.75 1.75 0 0 0 22 18v-2a1.75 1.75 0 0 0-1.75-1.75h-.367v-.75a2.25 2.25 0 0 0-2.25-2.25H12.75v-1.5H13A1.75 1.75 0 0 0 14.75 8V6A1.75 1.75 0 0 0 13 4.25z" /></svg>;
+export default CrowdfundingSolid;

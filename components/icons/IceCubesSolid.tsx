@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const IceCubesSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M9.4 12.375c.746 0 1.35.604 1.35 1.35v5.8a1.35 1.35 0 0 1-1.35 1.35H3.6a1.35 1.35 0 0 1-1.35-1.35v-5.8c0-.746.604-1.35 1.35-1.35zM20.4 12.375c.746 0 1.35.604 1.35 1.35v5.8a1.35 1.35 0 0 1-1.35 1.35h-5.8a1.35 1.35 0 0 1-1.35-1.35v-5.8c0-.746.604-1.35 1.35-1.35zM14.525 3.125c.746 0 1.35.604 1.35 1.35v5.8a1.35 1.35 0 0 1-1.35 1.35h-5.8a1.35 1.35 0 0 1-1.35-1.35v-5.8c0-.746.604-1.35 1.35-1.35z" clipRule="evenodd" /></svg>;
+export default IceCubesSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MailMinus02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M21.25 18.375a.75.75 0 0 1 0 1.5h-8a.75.75 0 0 1 0-1.5z" /><path fill="currentColor" fillRule="evenodd" d="M20 4.125a2.75 2.75 0 0 1 2.75 2.75v10q-.002.272-.053.53a2.24 2.24 0 0 0-1.447-.53h-8a2.25 2.25 0 0 0-2.238 2.019l-.012.23q.001.26.058.5H4a2.75 2.75 0 0 1-2.75-2.75v-10A2.75 2.75 0 0 1 4 4.125zm-2.386 4.32a.75.75 0 0 0-1.044-.185L12 11.46l-4.57-3.2a.75.75 0 0 0-.86 1.229l5 3.5a.75.75 0 0 0 .86 0l5-3.5a.75.75 0 0 0 .184-1.044" clipRule="evenodd" /></svg>;
+export default MailMinus02Solid;

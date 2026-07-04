@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PinOffSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2.467 2.634a.75.75 0 0 1 1.06 0l18 18a.75.75 0 0 1-1.06 1.06L16.43 17.66l-.014.016-1.697 1.698a.75.75 0 0 1-1.061 0l-3.905-3.906-6.227 6.228a.75.75 0 0 1-1.06-1.06l6.226-6.228-4.226-4.227a.75.75 0 0 1 0-1.06l1.697-1.698.016-.014-3.713-3.713a.75.75 0 0 1 0-1.06M15.123 2.087a.75.75 0 0 1 .56.22l5.85 5.849a.75.75 0 0 1-.045 1.101l-4.308 3.655a.75.75 0 0 1-1.013-.04l-5.214-5.175a.75.75 0 0 1-.044-1.018l3.672-4.328a.75.75 0 0 1 .542-.264" /></svg>;
+export default PinOffSolid;

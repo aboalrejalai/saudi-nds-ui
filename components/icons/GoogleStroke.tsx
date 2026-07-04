@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GoogleStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.11 6.25c1.512 0 2.896.565 3.937 1.494l-1 1.118A4.4 4.4 0 0 0 12.11 7.75C9.686 7.75 7.75 9.668 7.75 12s1.936 4.25 4.36 4.25c1.526 0 2.503-.555 3.125-1.276.453-.524.741-1.165.894-1.807H12.84v-1.5h4.963l-.056.802c-.078 1.128-.476 2.44-1.377 3.484-.92 1.067-2.32 1.797-4.262 1.797-3.22 0-5.859-2.56-5.859-5.75s2.638-5.75 5.86-5.75" /><path fill="currentColor" fillRule="evenodd" d="M16 2.25A5.75 5.75 0 0 1 21.75 8v8A5.75 5.75 0 0 1 16 21.75H8A5.75 5.75 0 0 1 2.25 16V8A5.75 5.75 0 0 1 8 2.25zm-8 1.5A4.25 4.25 0 0 0 3.75 8v8A4.25 4.25 0 0 0 8 20.25h8A4.25 4.25 0 0 0 20.25 16V8A4.25 4.25 0 0 0 16 3.75z" clipRule="evenodd" /></svg>;
+export default GoogleStroke;

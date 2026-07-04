@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PathfinderDivideStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19.25 6A1.25 1.25 0 0 0 18 4.75h-8A1.25 1.25 0 0 0 8.75 6v8A1.25 1.25 0 0 0 10 15.25h8A1.25 1.25 0 0 0 19.25 14zm1.5 8A2.75 2.75 0 0 1 18 16.75h-8A2.75 2.75 0 0 1 7.25 14V6A2.75 2.75 0 0 1 10 3.25h8A2.75 2.75 0 0 1 20.75 6z" /><path fill="currentColor" d="M15.25 10A1.25 1.25 0 0 0 14 8.75H6A1.25 1.25 0 0 0 4.75 10v8A1.25 1.25 0 0 0 6 19.25h8A1.25 1.25 0 0 0 15.25 18zm1.5 8A2.75 2.75 0 0 1 14 20.75H6A2.75 2.75 0 0 1 3.25 18v-8A2.75 2.75 0 0 1 6 7.25h8A2.75 2.75 0 0 1 16.75 10z" /></svg>;
+export default PathfinderDivideStroke;

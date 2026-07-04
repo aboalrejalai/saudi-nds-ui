@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DiagonalScrollPoint02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="m3.49 4.075.02 5.16c0 .4.3.72.69.75a.448.448 0 0 0 .42-.13l.36-.35 5.05-4.98c.11-.11.16-.25.13-.39v-.09a.75.75 0 0 0-.75-.75l-5.16.02c-.2 0-.4.08-.54.22s-.22.33-.22.54M20.51 19.925l-.02-5.16c0-.4-.3-.72-.69-.75-.03-.01-.06-.01-.1-.01-.12 0-.23.05-.32.14l-.36.35-5.05 4.98c-.11.11-.16.25-.13.39v.09a.75.75 0 0 0 .75.75l5.16-.02c.2 0 .4-.08.54-.22s.22-.33.22-.54M12.17 14.745a2.75 2.75 0 1 1 0-5.5 2.75 2.75 0 0 1 0 5.5" /></svg>;
+export default DiagonalScrollPoint02Solid;

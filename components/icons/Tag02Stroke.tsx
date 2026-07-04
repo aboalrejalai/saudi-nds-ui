@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Tag02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M18.802 6.739c-.014-.07-.042-.142-.063-.205l.65-.65a.896.896 0 0 0 0-1.274.896.896 0 0 0-1.273 0l-.65.651a1 1 0 0 0-.205-.064L11.08 3.43a1.54 1.54 0 0 0-1.506.388L.898 12.495a2.253 2.253 0 0 0 0 3.182L8.323 23.1a2.253 2.253 0 0 0 3.182 0l8.67-8.669c.395-.396.544-.969.388-1.506l-1.768-6.18zm-3.344 1.803a.896.896 0 0 0 1.272 0l.8-.8 1.598 5.587s0 .028-.008.035l-8.676 8.677c-.29.29-.77.29-1.06 0l-7.425-7.425a.755.755 0 0 1 0-1.06l8.67-8.67s.02-.021.035-.007l5.586 1.598-.8.8a.896.896 0 0 0 0 1.272z" clipRule="evenodd" /></svg>;
+export default Tag02Stroke;

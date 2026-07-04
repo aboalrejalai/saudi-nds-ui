@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CurlingSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M22.74 13.265c.01-.71.02-1.55-.14-2.32-.2-.96-.66-1.91-1.73-2.53-.5-.29-.96-.36-1.2-.4-.91-.14-1.96-.17-3.12-.16v-1.55c0-.95-.77-1.72-1.72-1.72H9.16c-.95 0-1.72.77-1.72 1.72v1.61h-.48c-.9 0-1.63 0-2.22.05-.61.06-1.14.17-1.62.45-1.07.62-1.53 1.57-1.73 2.53-.16.77-.14 1.61-.14 2.32v.08h10.67c.42 0 .75.33.75.75s-.33.75-.75.75H1.25c0 .51.04 1.04.14 1.54.2.96.66 1.91 1.73 2.53.48.27 1.01.39 1.62.44.59.06 1.32.06 2.22.06h10.07c.9 0 1.63 0 2.22-.06.61-.05 1.14-.17 1.62-.44 1.07-.62 1.53-1.57 1.73-2.53.16-.77.15-1.61.14-2.33z" clipRule="evenodd" /></svg>;
+export default CurlingSolid;

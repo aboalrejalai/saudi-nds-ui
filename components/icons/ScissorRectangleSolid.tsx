@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ScissorRectangleSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.25 1H3.75C2.23 1 1 2.23 1 3.75v16.5C1 21.76 2.23 23 3.75 23h16.5c1.52 0 2.75-1.24 2.75-2.75V3.75C23 2.23 21.77 1 20.25 1m-6.59 12.6c.4-.23.85-.35 1.34-.35 1.52 0 2.75 1.23 2.75 2.75s-1.23 2.75-2.75 2.75a2.748 2.748 0 0 1-2.4-4.09l-1.6-1.6-3.47 3.47c-.29.29-.77.29-1.06 0a.754.754 0 0 1 0-1.06L9.94 12 6.47 8.53a.754.754 0 0 1 0-1.06c.29-.29.77-.29 1.06 0L11 10.94l1.6-1.6A2.748 2.748 0 0 1 15 5.25c1.52 0 2.75 1.23 2.75 2.75a2.748 2.748 0 0 1-4.09 2.4l-1.6 1.6z" /><path fill="currentColor" d="M15 9.25a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5M15 17.25a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5" /></svg>;
+export default ScissorRectangleSolid;

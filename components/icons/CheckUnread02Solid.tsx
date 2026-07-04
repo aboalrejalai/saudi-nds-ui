@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CheckUnread02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M21.543 7.479a1 1 0 1 1 1.414 1.414l-9.576 9.576a1.6 1.6 0 0 1-2.263 0L9.25 16.6l-1.868 1.87a1.6 1.6 0 0 1-2.263 0l-4.075-4.077a1 1 0 1 1 1.414-1.414l3.792 3.792 1.586-1.586-1.292-1.292a1 1 0 1 1 1.414-1.414l4.293 4.293zm-6 0a1 1 0 1 1 1.414 1.414l-4 4a1 1 0 0 1-1.414-1.414z" /><path fill="currentColor" d="M4.05 4.05c.4-.4 1.048-.4 1.448 0L19.95 18.502a1.024 1.024 0 0 1-1.448 1.448L4.05 5.498c-.4-.4-.4-1.048 0-1.448" /></svg>;
+export default CheckUnread02Solid;

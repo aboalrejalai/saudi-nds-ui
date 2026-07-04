@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SubtitleSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M5.5 3.25A2.25 2.25 0 0 0 3.25 5.5v13a2.25 2.25 0 0 0 2.25 2.25h13a2.25 2.25 0 0 0 2.25-2.25v-13a2.25 2.25 0 0 0-2.25-2.25zm5.75 5.5H7a.75.75 0 0 1 0-1.5h4.25a.75.75 0 0 1 0 1.5m6.5 3.25a.75.75 0 0 1-.75.75H7a.75.75 0 0 1 0-1.5h10a.75.75 0 0 1 .75.75M14 16a.75.75 0 0 1-.75.75H7a.75.75 0 0 1 0-1.5h6.25A.75.75 0 0 1 14 16" /></svg>;
+export default SubtitleSolid;

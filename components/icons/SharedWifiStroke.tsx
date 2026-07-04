@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SharedWifiStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6.387 8.132a5.615 5.615 0 0 1 11.227 0A4.766 4.766 0 0 1 22 12.985a6.9 6.9 0 0 0-1.88-1.633 3.27 3.27 0 0 0-2.885-1.735h-.368a.75.75 0 0 1-.75-.75v-.603a4.115 4.115 0 0 0-8.23 0v.603a.75.75 0 0 1-.75.75h-.37a3.266 3.266 0 1 0 0 6.531h3.076a7 7 0 0 0-.082 1.5H6.766a4.766 4.766 0 0 1-.38-9.516" /><path fill="currentColor" d="M12.534 16.438a5.783 5.783 0 0 1 8.178 0 .75.75 0 0 0 1.061-1.06 7.283 7.283 0 0 0-10.3 0 .75.75 0 0 0 1.061 1.06M16.624 19.752a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6" /><path fill="currentColor" d="M18.525 18.749a2.846 2.846 0 0 0-3.8 0 .75.75 0 1 1-1.004-1.115 4.346 4.346 0 0 1 5.807 0 .75.75 0 1 1-1.003 1.115" /></svg>;
+export default SharedWifiStroke;

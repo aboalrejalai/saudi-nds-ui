@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const VoiceSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.4 2.25c.746 0 1.35.604 1.35 1.35v16.8a1.35 1.35 0 0 1-1.35 1.35H3.6a1.35 1.35 0 0 1-1.35-1.35V3.6c0-.746.604-1.35 1.35-1.35zm-16.65 18h16.5V3.75H3.75z" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M3.75 20.25h16.5V3.75H3.75zm9-14.25a.75.75 0 0 0-1.5 0v12a.75.75 0 0 0 1.5 0zm3 1a.75.75 0 0 0-1.5 0v10a.75.75 0 0 0 1.5 0zm-6 2a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 1.5 0zm-3 2a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0zm12 0a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0z" clipRule="evenodd" /></svg>;
+export default VoiceSolid;

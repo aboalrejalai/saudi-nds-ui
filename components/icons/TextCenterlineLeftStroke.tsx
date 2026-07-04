@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextCenterlineLeftStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M14.75 10a.25.25 0 0 1 .25-.25h4a.25.25 0 0 1 .25.25v4a.25.25 0 0 1-.25.25h-4a.25.25 0 0 1-.25-.25zm-1.5 4A1.75 1.75 0 0 0 15 15.75h4A1.75 1.75 0 0 0 20.75 14v-4A1.75 1.75 0 0 0 19 8.25h-4A1.75 1.75 0 0 0 13.25 10zM4 10.25a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5zM4 14.25a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5zM4 4.25a.75.75 0 0 0 0 1.5h16a.75.75 0 0 0 0-1.5zM4 18.25a.75.75 0 0 0 0 1.5h16a.75.75 0 0 0 0-1.5z" /></svg>;
+export default TextCenterlineLeftStroke;

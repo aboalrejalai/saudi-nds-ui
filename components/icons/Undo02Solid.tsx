@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Undo02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M1.637 8.15c0 .25.09.5.28.69.19.2.46.31.75.31l5.43.06c.58 0 1.05-.45 1.06-.99 0-.57-.47-1.02-1.04-1.02l-2.97-.03C6.747 5.18 9.237 4 11.867 4c4.64 0 8.42 3.59 8.42 8s-3.78 8-8.42 8c-.77 0-1.54-.1-2.31-.31h-.07c-.45.02-.84.27-.97.62a.95.95 0 0 0 .06.77c.15.31.44.53.78.63.85.2 1.7.3 2.51.3 5.79 0 10.5-4.5 10.5-10.01s-4.72-10.01-10.51-10.01c-3.17 0-6.11 1.32-8.11 3.64l.03-2.64a.97.97 0 0 0-.31-.71c-.19-.2-.47-.29-.77-.29-.26 0-.51.1-.7.27-.2.2-.31.46-.31.72z" /></svg>;
+export default Undo02Solid;

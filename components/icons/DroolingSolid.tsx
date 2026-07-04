@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DroolingSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2.4 12a9.6 9.6 0 1 1 14.16 8.45v-5.183a.72.72 0 0 0-1.09-.618c-.837.503-2.14.787-3.5.787-1.364 0-2.638-.285-3.428-.78a.72.72 0 0 0-.764 1.221c1.106.692 2.683 1 4.192 1q.326 0 .654-.02v2.062a.72.72 0 0 0 1.44 0v-2.247c.365-.075.72-.17 1.056-.287v4.697A9.6 9.6 0 0 1 12 21.6 9.6 9.6 0 0 1 2.4 12m4.261-1.284a.72.72 0 0 0 .912-.454c.32-.957 1.653-.957 1.974 0a.72.72 0 0 0 1.365-.458c-.76-2.267-3.944-2.267-4.705 0a.72.72 0 0 0 .454.912m6.428-.912a.72.72 0 0 0 1.365.458c.321-.957 1.653-.957 1.974 0a.72.72 0 1 0 1.365-.458c-.76-2.267-3.944-2.267-4.704 0" /></svg>;
+export default DroolingSolid;

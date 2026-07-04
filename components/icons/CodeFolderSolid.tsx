@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CodeFolderSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M4.25 3.75A2.25 2.25 0 0 0 2 6v12a2.25 2.25 0 0 0 2.25 2.25h8.191l-2.033-2.035a2.25 2.25 0 0 1 0-3.18l2.5-2.502a2.25 2.25 0 0 1 3.716.849 2.25 2.25 0 0 1 3.717-.85L22 14.194V9a2.25 2.25 0 0 0-2.25-2.25h-7.5a.75.75 0 0 1-.6-.3l-1.35-1.8a2.25 2.25 0 0 0-1.8-.9z" /><path fill="currentColor" d="M15.03 14.653a.75.75 0 1 0-1.061-1.06l-2.5 2.502a.75.75 0 0 0 0 1.06l2.5 2.502a.75.75 0 1 0 1.06-1.06l-1.97-1.972zM19.28 13.593a.75.75 0 1 0-1.062 1.06l1.97 1.972-1.97 1.971a.75.75 0 0 0 1.061 1.06l2.5-2.501a.75.75 0 0 0 0-1.06z" /></svg>;
+export default CodeFolderSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BicycleStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M18.5 4a.75.75 0 0 1 0 1.5h-1.599l-1.25 1.877.011.02 1.792 3.36A4.75 4.75 0 1 1 14.256 15H12a.75.75 0 0 1-.66-.394L8.548 9.421l-.885 1.895a4.75 4.75 0 1 1-1.36-.634l1.382-2.961a4.7 4.7 0 0 0-.858-1.334C6.334 5.859 5.727 5.5 5 5.5A.75.75 0 0 1 5 4c1.273 0 2.249.641 2.923 1.363A6.2 6.2 0 0 1 9.008 7h5.09l1-1.5H14A.75.75 0 0 1 14 4zM5 12a3.25 3.25 0 1 0 2.016.703L5.68 15.567a.75.75 0 0 1-1.36-.634l1.337-2.867A3.3 3.3 0 0 0 5 12m14 0q-.43.001-.827.106l1.49 2.792a.75.75 0 0 1-1.325.704l-1.486-2.787a3.24 3.24 0 0 0-1.102 2.435A3.25 3.25 0 1 0 19 12m-6.552 1.5h2.136a4.76 4.76 0 0 1 1.547-2.036L14.55 8.5H9.756z" clipRule="evenodd" /></svg>;
+export default BicycleStroke;

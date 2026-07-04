@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GoogleDriveSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M21.942 16.499a.5.5 0 0 1 .447.724l-2.197 4.391a.5.5 0 0 1-.447.277H6.935a.5.5 0 0 1-.445-.73l2.264-4.39a.5.5 0 0 1 .444-.272zM8.4 3.848a.5.5 0 0 1 .877.023l1.935 3.75a.5.5 0 0 1 0 .458L4.965 20.192a.5.5 0 0 1-.856.053l-2.68-3.923a.5.5 0 0 1-.019-.535zM15.473 2.11a.5.5 0 0 1 .437.257l6.429 11.591a.5.5 0 0 1-.437.743h-4.707a.5.5 0 0 1-.444-.271L10.768 2.839a.5.5 0 0 1 .444-.729z" /></svg>;
+export default GoogleDriveSolid;

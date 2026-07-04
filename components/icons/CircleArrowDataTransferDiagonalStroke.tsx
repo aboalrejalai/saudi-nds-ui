@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CircleArrowDataTransferDiagonalStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.5 12a8.5 8.5 0 1 0-17 0 8.5 8.5 0 0 0 17 0m1.5 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10" /><path fill="currentColor" d="m5.858 10.023.008 3a.75.75 0 0 0 .751.748l3-.008a.75.75 0 0 0-.003-1.5l-1.19.003 5.073-5.081a.75.75 0 0 0-1.064-1.058l-5.072 5.081-.003-1.19a.75.75 0 0 0-1.5.005M14.217 10.149l3 .007a.75.75 0 0 1 .748.752l-.007 3a.75.75 0 0 1-1.5-.004l.003-1.19-5.082 5.073a.75.75 0 1 1-1.057-1.063l5.08-5.072-1.189-.003a.75.75 0 0 1 .004-1.5" /></svg>;
+export default CircleArrowDataTransferDiagonalStroke;

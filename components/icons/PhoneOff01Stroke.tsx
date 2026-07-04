@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PhoneOff01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M1.47 1.47a.75.75 0 0 1 1.06 0l20 20a.75.75 0 1 1-1.06 1.06l-20-20a.75.75 0 0 1 0-1.06" clipRule="evenodd" /><path fill="currentColor" d="M8.75 9.518v9.732h8.5v-1.232l1.494 1.494A1.35 1.35 0 0 1 17.4 20.75H8.6a1.35 1.35 0 0 1-1.35-1.35V8.019z" /><path fill="currentColor" d="M12.452 15.498a.75.75 0 0 1 1.115 1.004l-.01.01a.751.751 0 0 1-1.163-.944zM17.4 3.25c.746 0 1.35.605 1.35 1.35v11.383l-1.5-1.5V4.75h-8.5v1.233L7.255 4.488A1.35 1.35 0 0 1 8.6 3.25z" /></svg>;
+export default PhoneOff01Stroke;

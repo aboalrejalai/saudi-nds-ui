@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ArcherStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M1.467 18.297a.75.75 0 0 1 .163-.817l2.828-2.828a.75.75 0 0 1 .53-.22h2.518l10.521-10.52H17.01a.75.75 0 0 1 0-1.5h2.829a.75.75 0 0 1 .75.75V5.99a.75.75 0 1 1-1.5 0V4.972L8.567 15.492v2.518a.75.75 0 0 1-.22.53L5.52 21.37a.75.75 0 0 1-1.28-.531V18.76H2.16a.75.75 0 0 1-.693-.463m5.6-2.365H5.299L3.971 17.26h1.018a.75.75 0 0 1 .75.75v1.018L7.067 17.7z" clipRule="evenodd" /></svg>;
+export default ArcherStroke;

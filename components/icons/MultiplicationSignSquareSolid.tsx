@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MultiplicationSignSquareSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.4 2.25c.746 0 1.35.604 1.35 1.35v16.8a1.35 1.35 0 0 1-1.35 1.35H3.6a1.35 1.35 0 0 1-1.35-1.35V3.6c0-.746.604-1.35 1.35-1.35zm-5.749 7.099a.75.75 0 0 0-1.06 0L12 10.939l-1.59-1.59a.75.75 0 1 0-1.061 1.06L10.939 12l-1.59 1.59a.75.75 0 1 0 1.06 1.061L12 13.061l1.59 1.59a.75.75 0 1 0 1.061-1.06L13.061 12l1.59-1.59a.75.75 0 0 0 0-1.061" clipRule="evenodd" /></svg>;
+export default MultiplicationSignSquareSolid;

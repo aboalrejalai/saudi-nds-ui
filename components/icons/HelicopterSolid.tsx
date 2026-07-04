@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HelicopterSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M22.87 17.973a.874.874 0 1 1 .918 1.488l-1.016.627a6.1 6.1 0 0 1-3.215.912H9.089a.875.875 0 0 1 0-1.749h10.468c.81 0 1.606-.226 2.297-.651z" /><path fill="currentColor" fillRule="evenodd" d="M19.976 3a.875.875 0 0 1 0 1.749h-6.122v1.75H14a7.87 7.87 0 0 1 7.872 7.872v.505a2.624 2.624 0 0 1-2.624 2.624h-7.43c-.83 0-1.611-.393-2.106-1.059l-3.136-4.218a.88.88 0 0 0-.553-.34l-3.185-.545a2.625 2.625 0 0 1-2.15-2.176L.012 4.887a.875.875 0 0 1 1.453-.783L3.838 6.27c.161.147.372.229.59.229h7.676v-1.75H5.982a.875.875 0 1 1 0-1.749zm-6.425 8.484c.164.23.43.367.712.367h5.32A6.13 6.13 0 0 0 14 8.248h-2.76z" clipRule="evenodd" /></svg>;
+export default HelicopterSolid;

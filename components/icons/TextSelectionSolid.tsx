@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextSelectionSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M14 11a1 1 0 1 1 0 2h-4a1 1 0 1 1 0-2z" /><path fill="currentColor" d="M11 17V7a2 2 0 0 0-2-2 1 1 0 0 1 0-2 4 4 0 0 1 4 4v10a4 4 0 0 1-4 4 1 1 0 1 1 0-2 2 2 0 0 0 2-2" /><path fill="currentColor" d="M11 17V7a4 4 0 0 1 4-4 1 1 0 1 1 0 2 2 2 0 0 0-2 2v10a2 2 0 0 0 2 2 1 1 0 1 1 0 2 4 4 0 0 1-4-4" /></svg>;
+export default TextSelectionSolid;

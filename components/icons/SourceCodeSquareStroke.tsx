@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SourceCodeSquareStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10.469 9.089a.72.72 0 0 1 0 1.018L8.578 12l1.89 1.892A.72.72 0 1 1 9.45 14.91l-2.4-2.402a.72.72 0 0 1 0-1.017l2.4-2.402a.72.72 0 0 1 1.019 0M13.53 9.089a.72.72 0 0 0 0 1.018L15.422 12l-1.892 1.892a.72.72 0 1 0 1.019 1.018l2.4-2.402a.72.72 0 0 0 0-1.017l-2.4-2.402a.72.72 0 0 0-1.018 0" /><path fill="currentColor" fillRule="evenodd" d="M5.76 3.6A2.16 2.16 0 0 0 3.6 5.76v12.48a2.16 2.16 0 0 0 2.16 2.16h12.48a2.16 2.16 0 0 0 2.16-2.16V5.76a2.16 2.16 0 0 0-2.16-2.16zm-.72 2.16a.72.72 0 0 1 .72-.72h12.48a.72.72 0 0 1 .72.72v12.48a.72.72 0 0 1-.72.72H5.76a.72.72 0 0 1-.72-.72z" clipRule="evenodd" /></svg>;
+export default SourceCodeSquareStroke;

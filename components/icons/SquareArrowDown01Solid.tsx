@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SquareArrowDown01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M18 19.75H6c-2.62 0-4.75-2.13-4.75-4.75V9c0-2.62 2.13-4.75 4.75-4.75h12c2.62 0 4.75 2.13 4.75 4.75v6c0 2.62-2.13 4.75-4.75 4.75m-2.97-9.53a.754.754 0 0 0-1.06 0L12 12.19l-1.97-1.97a.754.754 0 0 0-1.06 0c-.29.29-.29.77 0 1.06l2.5 2.5c.29.29.77.29 1.06 0l2.5-2.5c.29-.29.29-.77 0-1.06" /></svg>;
+export default SquareArrowDown01Solid;

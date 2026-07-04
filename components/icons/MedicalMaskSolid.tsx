@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MedicalMaskSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.978 2.4c-4.493 0-8.266 3.087-9.312 7.255l4.093 2.92a1 1 0 0 1 .089-.005h10.26q.045 0 .089.006l4.092-2.92C20.243 5.487 16.471 2.4 11.977 2.4m-3.12 5.744a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4m7.44 1.2a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0M2.379 12q0-.666.088-1.309l3.662 2.613v6.308A9.58 9.58 0 0 1 2.379 12M11.978 21.6a9.56 9.56 0 0 1-4.41-1.07v-6.52h8.82v6.52a9.56 9.56 0 0 1-4.41 1.07M21.578 12c0 3.1-1.47 5.857-3.75 7.612v-6.308l3.662-2.613A10 10 0 0 1 21.578 12" /></svg>;
+export default MedicalMaskSolid;

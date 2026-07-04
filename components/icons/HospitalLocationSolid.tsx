@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HospitalLocationSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 .75c-5.072 0-9.25 3.918-9.25 8.83 0 2.813 1.193 4.996 3.457 6.885 1.436 1.198 3.202 4.215 4.253 5.838.34.524.858.947 1.526.947.66 0 1.184-.414 1.54-.927 1.124-1.619 2.84-4.668 4.267-5.858 2.264-1.889 3.457-4.072 3.457-6.884C21.25 4.668 17.072.75 12 .75M11 6.5a1 1 0 1 0-2 0v6a1 1 0 1 0 2 0v-2h2v2a1 1 0 1 0 2 0v-6a1 1 0 1 0-2 0v2h-2z" clipRule="evenodd" /></svg>;
+export default HospitalLocationSolid;

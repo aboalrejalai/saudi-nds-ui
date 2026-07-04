@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FingerAccessSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2.92 12.312a9.08 9.08 0 0 1 18.16 0v2.557a1.125 1.125 0 1 1-2.25 0v-2.557a6.83 6.83 0 0 0-13.66 0v3.352a1.125 1.125 0 1 1-2.25 0zm3.183 0a5.898 5.898 0 0 1 11.795 0v4.148a1.125 1.125 0 0 1-2.25 0v-4.148a3.648 3.648 0 0 0-7.295 0l-.001 5.738a.466.466 0 0 0 .931 0l.002-5.738a2.716 2.716 0 0 1 5.431 0v6.455a1.125 1.125 0 1 1-2.25 0v-6.455a.466.466 0 0 0-.931 0l-.002 5.738a2.716 2.716 0 0 1-5.431 0z" /></svg>;
+export default FingerAccessSolid;

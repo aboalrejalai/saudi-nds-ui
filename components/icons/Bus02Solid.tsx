@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Bus02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M21.75 5.75C21.75 3.12 19.62 1 17 1H7C4.38 1 2.25 3.12 2.25 5.75v5.62c0 .07.02.13.04.19-.02.06-.04.12-.04.19v7c0 .88.65 1.6 1.5 1.73v1.17c0 .74.6 1.35 1.35 1.35h2.8c.75 0 1.35-.61 1.35-1.35V20.5h5.5v1.15c0 .74.6 1.35 1.35 1.35h2.8c.75 0 1.35-.61 1.35-1.35v-1.17c.85-.13 1.5-.85 1.5-1.73v-7c0-.07-.02-.13-.04-.19.02-.06.04-.12.04-.19zM6.29 15.12h.01a.95.95 0 0 1 1.34-.08c.39.35.42.95.08 1.34h-.01a.94.94 0 0 1-1.34.08.96.96 0 0 1-.08-1.34m11.43 1.26h-.01a.94.94 0 0 1-1.34.08.96.96 0 0 1-.08-1.34h.01a.95.95 0 0 1 1.34-.08c.39.35.42.95.08 1.34M20.25 11H3.75V8.5h16.5z" /></svg>;
+export default Bus02Solid;

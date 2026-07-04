@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TieStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12.336 1.705a.75.75 0 0 0-.671 0l-3 1.5a.75.75 0 0 0-.336 1.006l1.398 2.795-1.47 11.273a.75.75 0 0 0 .192.605l3 3.25a.75.75 0 0 0 1.102 0l3-3.25a.75.75 0 0 0 .193-.605l-1.47-11.273L15.67 4.21a.75.75 0 0 0-.335-1.006zm.506 5.92h-1.683l-1.37 10.5L12 20.519l2.211-2.394zm.195-1.5.957-1.914L12 3.214l-1.994.997.958 1.914z" clipRule="evenodd" /></svg>;
+export default TieStroke;

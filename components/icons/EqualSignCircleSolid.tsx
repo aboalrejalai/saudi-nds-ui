@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const EqualSignCircleSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 1.25C6.06 1.25 1.25 6.06 1.25 12S6.06 22.75 12 22.75 22.75 17.94 22.75 12 17.93 1.25 12 1.25M7.25 13.93c0-.42.33-.75.75-.75h8a.749.749 0 1 1 0 1.5H8c-.42 0-.75-.34-.75-.75M16 10.82H8c-.42 0-.75-.33-.75-.75s.33-.75.75-.75h8c.41 0 .75.34.75.75s-.34.75-.75.75" clipRule="evenodd" /></svg>;
+export default EqualSignCircleSolid;

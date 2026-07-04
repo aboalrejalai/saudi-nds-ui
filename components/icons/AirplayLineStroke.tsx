@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AirplayLineStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M10.877 14.333a1.35 1.35 0 0 1 2.246 0l2.879 4.318a1.35 1.35 0 0 1-1.123 2.099H9.12a1.35 1.35 0 0 1-1.123-2.099zM9.401 19.25H14.6L12 15.352z" clipRule="evenodd" /><path fill="currentColor" d="M21 3.25a.75.75 0 0 1 .75.75v13a.75.75 0 0 1-.75.75h-3a.75.75 0 0 1 0-1.5h2.25V4.75H3.75v11.5H6a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75V4A.75.75 0 0 1 3 3.25z" /></svg>;
+export default AirplayLineStroke;

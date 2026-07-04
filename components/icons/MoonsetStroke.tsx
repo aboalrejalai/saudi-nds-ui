@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MoonsetStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M13.568 2.517a.75.75 0 0 1 .834-.34c4.284 1.13 7.445 5.03 7.445 9.67 0 5.523-4.477 10-10 10-4.64 0-8.54-3.16-9.67-7.445a.75.75 0 0 1 1.235-.74 7.252 7.252 0 0 0 10.25-10.25.75.75 0 0 1-.094-.895m2.678 2.056A8.752 8.752 0 0 1 4.572 16.247 8.5 8.5 0 1 0 16.247 4.572" clipRule="evenodd" /><path fill="currentColor" d="M6.091 3.347a.72.72 0 0 1 .72.72v4.866l1.315-1.315a.72.72 0 0 1 1.019 1.018l-2.51 2.508a.72.72 0 0 1-1.066.025L3.035 8.636a.72.72 0 0 1 1.018-1.018L5.37 8.935V4.068c0-.398.324-.721.721-.721" /></svg>;
+export default MoonsetStroke;

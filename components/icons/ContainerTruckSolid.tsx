@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ContainerTruckSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><g clipPath="url(#a)"><path fill="currentColor" d="m22.63 12.557-1.79-4.03c-.21-.49-.7-.8-1.23-.8h-4.86v-1.65c0-.75-.6-1.35-1.35-1.35H2.6c-.75 0-1.35.6-1.35 1.35v9.8c0 .75.6 1.35 1.35 1.35h1.76a2.742 2.742 0 0 0 5.28 0h4.72a2.742 2.742 0 0 0 5.28 0h1.76c.75 0 1.35-.6 1.35-1.35v-2.77c0-.19-.04-.38-.12-.55M7 17.727a1.25 1.25 0 1 1 0-2.501 1.25 1.25 0 0 1 0 2.5m8.53-5.75v-2.03h3.15l.76 2.03zm1.47 5.75a1.25 1.25 0 1 1 0-2.501 1.25 1.25 0 0 1 0 2.5" /></g><defs><clipPath id="a"><path fill="#fff" d="M1.25 4.727h21.5v14.5H1.25z" /></clipPath></defs></svg>;
+export default ContainerTruckSolid;

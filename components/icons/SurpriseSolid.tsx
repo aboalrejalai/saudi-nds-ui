@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SurpriseSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 14.034a1.453 1.453 0 1 0 0 2.905 1.453 1.453 0 0 0 0-2.905" /><path fill="currentColor" fillRule="evenodd" d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75 22.75 17.937 22.75 12 17.937 1.25 12 1.25m3.196 14.237a3.196 3.196 0 1 0-6.392 0 3.196 3.196 0 0 0 6.392 0m-5.81-7.555a1.453 1.453 0 1 0-2.906 0 1.453 1.453 0 0 0 2.905 0m8.134 0a1.453 1.453 0 1 0-2.905 0 1.453 1.453 0 0 0 2.905 0" clipRule="evenodd" /></svg>;
+export default SurpriseSolid;

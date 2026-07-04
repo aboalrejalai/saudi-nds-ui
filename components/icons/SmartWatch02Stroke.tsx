@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SmartWatch02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M14 1.204a2.75 2.75 0 0 1 2.75 2.75v3.204a6.73 6.73 0 0 1 2 4.796 6.73 6.73 0 0 1-2 4.795v3.205a2.75 2.75 0 0 1-2.75 2.75h-4a2.75 2.75 0 0 1-2.75-2.75V16.75a6.73 6.73 0 0 1-2-4.795 6.73 6.73 0 0 1 2-4.796V3.954A2.75 2.75 0 0 1 10 1.204zm1.25 16.666a6.7 6.7 0 0 1-3.25.834 6.7 6.7 0 0 1-3.25-.834v2.084c0 .69.56 1.25 1.25 1.25h4c.69 0 1.25-.56 1.25-1.25zM12 6.704a5.25 5.25 0 1 0 0 10.5 5.25 5.25 0 0 0 0-10.5m-2-4c-.69 0-1.25.56-1.25 1.25v2.083A6.7 6.7 0 0 1 12 5.204a6.7 6.7 0 0 1 3.25.833V3.954c0-.69-.56-1.25-1.25-1.25z" clipRule="evenodd" /></svg>;
+export default SmartWatch02Stroke;

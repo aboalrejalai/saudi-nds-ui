@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SidebarLeft01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6.686 9.506a.75.75 0 0 1 1.128.988L6.496 12l1.318 1.506a.75.75 0 0 1-1.128.988l-1.75-2a.75.75 0 0 1 0-.988z" /><path fill="currentColor" fillRule="evenodd" d="M19 2.25A2.75 2.75 0 0 1 21.75 5v14A2.75 2.75 0 0 1 19 21.75H5A2.75 2.75 0 0 1 2.25 19V5A2.75 2.75 0 0 1 5 2.25zm-8.75 18H19c.69 0 1.25-.56 1.25-1.25V5c0-.69-.56-1.25-1.25-1.25h-8.75zM5 3.75c-.69 0-1.25.56-1.25 1.25v14c0 .69.56 1.25 1.25 1.25h3.75V3.75z" clipRule="evenodd" /></svg>;
+export default SidebarLeft01Stroke;

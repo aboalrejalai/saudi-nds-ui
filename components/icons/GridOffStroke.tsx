@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GridOffStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2.47 2.47a.75.75 0 0 1 1.06 0l18 18a.75.75 0 1 1-1.06 1.06l-18-18a.75.75 0 0 1 0-1.06" /><path fill="currentColor" d="M9.69 8.75h-.94v6.5h6.5v-.94l2.44 2.44h-.94V21a.75.75 0 0 1-1.5 0v-4.25h-6.5V21a.75.75 0 0 1-1.5 0v-4.25H3a.75.75 0 0 1 0-1.5h4.25v-6.5H3a.75.75 0 0 1 0-1.5h4.25v-.94zM21 15.25a.75.75 0 0 1 0 1.5h-1.19l-1.5-1.5zm-5-13a.75.75 0 0 1 .75.75v4.25H21a.75.75 0 0 1 0 1.5h-4.25v4.94l-1.5-1.5V8.75h-3.44l-1.5-1.5h4.94V3a.75.75 0 0 1 .75-.75m-8 0a.75.75 0 0 1 .75.75v2.69l-1.5-1.5V3A.75.75 0 0 1 8 2.25" /></svg>;
+export default GridOffStroke;

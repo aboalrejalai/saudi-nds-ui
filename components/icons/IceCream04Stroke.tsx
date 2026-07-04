@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const IceCream04Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12.5 1.25A7.75 7.75 0 0 1 20.25 9v7a2.75 2.75 0 0 1-2.75 2.75h-2.25V20a2.75 2.75 0 1 1-5.5 0v-1.25H7.501a2.75 2.75 0 0 1-2.751-2.751V9a7.75 7.75 0 0 1 7.75-7.75m-1.25 17.5V20a1.25 1.25 0 1 0 2.5 0v-1.25zm-5-6v3.249c0 .69.56 1.251 1.251 1.251H17.5c.69 0 1.25-.56 1.25-1.25v-3.25zm6.25-10A6.25 6.25 0 0 0 6.25 9v2.25h12.5V9a6.25 6.25 0 0 0-6.25-6.25" clipRule="evenodd" /></svg>;
+export default IceCream04Stroke;

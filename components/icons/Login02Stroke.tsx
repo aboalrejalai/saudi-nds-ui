@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Login02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M17 2.25A2.75 2.75 0 0 1 19.75 5v1a.75.75 0 0 1-1.5 0V5c0-.69-.56-1.25-1.25-1.25H7c-.69 0-1.25.56-1.25 1.25v14c0 .69.56 1.25 1.25 1.25h10c.69 0 1.25-.56 1.25-1.25v-1a.75.75 0 0 1 1.5 0v1A2.75 2.75 0 0 1 17 21.75H7A2.75 2.75 0 0 1 4.25 19V5A2.75 2.75 0 0 1 7 2.25z" /><path fill="currentColor" d="M14.47 8.47a.75.75 0 1 1 1.06 1.06l-1.72 1.72H19a.75.75 0 0 1 0 1.5h-5.19l1.72 1.72a.75.75 0 1 1-1.06 1.06l-3-3a.75.75 0 0 1 0-1.06z" /></svg>;
+export default Login02Stroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AddCircleHalfDotSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 1.255c5.94 0 10.75 4.81 10.75 10.75S17.94 22.755 12 22.755s-10.75-4.81-10.75-10.75c0-.54.44-.98.98-.98s.98.44.98.98a8.8 8.8 0 1 0 8.8-8.8c-.54 0-.98-.44-.98-.98s.44-.98.98-.98z" /><path fill="currentColor" d="M3.26 5.725c.32-.43.94-.52 1.37-.19.43.32.52.94.19 1.37-.48.64-.89 1.33-1.21 2.07a.98.98 0 0 1-1.79-.79c.38-.88.87-1.71 1.44-2.47zM8.19 1.825c.49-.22 1.07 0 1.29.5.22.49 0 1.07-.5 1.29-.74.32-1.44.73-2.07 1.21a.985.985 0 0 1-1.37-.19.985.985 0 0 1 .19-1.37q1.14-.855 2.46-1.44M12 7.5a.75.75 0 0 1 .75.75v3.25H16a.75.75 0 0 1 0 1.5h-3.25v3.25a.75.75 0 0 1-1.5 0V13H8a.75.75 0 0 1 0-1.5h3.25V8.25A.75.75 0 0 1 12 7.5" /></svg>;
+export default AddCircleHalfDotSolid;

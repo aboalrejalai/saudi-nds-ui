@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextAlignLeft01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M17.2 17.385c.331 0 .6.344.6.769s-.269.77-.6.77H6c-.331 0-.6-.345-.6-.77s.269-.77.6-.77zM20.4 13.282c.331 0 .6.344.6.77 0 .424-.269.768-.6.768H6c-.331 0-.6-.344-.6-.769s.269-.769.6-.769zM17.2 9.18c.331 0 .6.344.6.769s-.269.769-.6.769H6c-.331 0-.6-.344-.6-.77 0-.424.269-.769.6-.769zM20.4 5.077c.331 0 .6.344.6.77 0 .424-.269.768-.6.768H6c-.331 0-.6-.344-.6-.769s.269-.77.6-.77zM4.2 21.23c0 .426-.269.77-.6.77s-.6-.344-.6-.77V2.77c0-.426.269-.77.6-.77s.6.344.6.77z" /></svg>;
+export default TextAlignLeft01Stroke;

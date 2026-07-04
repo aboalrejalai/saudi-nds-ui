@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ArrowShrinkSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2.72 20.22a.75.75 0 1 0 1.06 1.06l3.722-3.722 2.663 2.662a.748.748 0 0 0 1.335-.47v-6.5a.75.75 0 0 0-.75-.75h-6.5a.75.75 0 0 0-.557 1.253l2.748 2.745zM21.28 20.22a.75.75 0 1 1-1.06 1.06l-3.722-3.722-2.663 2.662a.749.749 0 0 1-1.335-.47v-6.5a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 .557 1.253l-2.748 2.745zM2.72 3.78a.75.75 0 1 1 1.06-1.06l3.725 3.725 2.66-2.665a.748.748 0 0 1 1.335.47v6.5a.75.75 0 0 1-.75.75h-6.5a.75.75 0 0 1-.62-1.172l2.816-2.822zM21.28 3.78a.75.75 0 1 0-1.06-1.06l-3.726 3.725-2.66-2.665a.749.749 0 0 0-1.334.47v6.5c0 .414.336.75.75.75h6.5a.75.75 0 0 0 .62-1.172l-2.816-2.822z" /></svg>;
+export default ArrowShrinkSolid;

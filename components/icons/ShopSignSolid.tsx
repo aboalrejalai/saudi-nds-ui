@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ShopSignSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M15.813 1.75c.549 0 1.026 0 1.416.047.422.05.829.165 1.188.453.36.289.56.66.698 1.062.129.37.228.836.342 1.37l3.053 14.3c.11.514.208.977.233 1.357.028.413-.02.872-.345 1.267s-.764.532-1.174.59c-.38.054-.858.054-1.393.054H13.2c-.352 0-.68 0-.95-.032-.302-.036-.618-.119-.904-.342-.288-.224-.444-.511-.55-.795a8 8 0 0 1-.252-.908l-3.51-14.62-4.308 16.14a.75.75 0 0 1-1.45-.386l5.07-19a.75.75 0 0 1 .725-.557zm1.185 7.072a.75.75 0 0 1 .044 1.5l-5.997.177A.75.75 0 0 1 11 9zM14.495 7.3a.75.75 0 0 0-.772-.726l-2.999.09a.75.75 0 0 0 .046 1.5l2.998-.091a.75.75 0 0 0 .727-.773" clipRule="evenodd" /></svg>;
+export default ShopSignSolid;

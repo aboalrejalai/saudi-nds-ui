@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const EuroCircleSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 2.25c5.385 0 9.75 4.365 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12 6.615 2.25 12 2.25m1.657 4.653c-2.233 0-4.105 1.498-4.745 3.546h-.457a.665.665 0 1 0 0 1.33h.226a5 5 0 0 0 0 .443h-.226a.665.665 0 1 0 0 1.33h.457c.64 2.047 2.512 3.544 4.745 3.545.783 0 1.526-.186 2.186-.516a.665.665 0 0 0-.595-1.19c-.48.24-1.02.376-1.591.376-1.471 0-2.752-.904-3.328-2.216h3.444a.665.665 0 1 0 0-1.33h-3.76a4 4 0 0 1 0-.443h3.76a.665.665 0 1 0 0-1.33h-3.444c.576-1.311 1.857-2.215 3.328-2.215.57 0 1.11.135 1.59.376a.666.666 0 0 0 .596-1.19 4.9 4.9 0 0 0-2.186-.516" clipRule="evenodd" /></svg>;
+export default EuroCircleSolid;

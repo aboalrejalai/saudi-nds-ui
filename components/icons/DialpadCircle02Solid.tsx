@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DialpadCircle02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 18.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M4 12.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M12 12.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M20 12.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M4 6.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M12 6.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M20 6.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M4 .75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M12 .75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M20 .75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5" /></svg>;
+export default DialpadCircle02Solid;

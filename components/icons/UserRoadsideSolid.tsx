@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UserRoadsideSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 25" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 6.48A3.24 3.24 0 1 0 12 0a3.24 3.24 0 0 0 0 6.48" /><path fill="currentColor" d="m16.86 12.74-.74-5.73c-.08-.83-.78-1.46-1.61-1.46H9.49c-.84 0-1.53.63-1.61 1.44l-.74 5.75a.8.8 0 0 0 .2.64c.15.18.37.28.61.28h.91l.64 5.02c.08.83.78 1.46 1.61 1.46h1.77c.84 0 1.53-.63 1.61-1.44l.65-5.05h.91c.23 0 .45-.1.61-.28a.79.79 0 0 0 .2-.64zM12 21.25c.55 0 1 .45 1 1v1c0 .55-.45 1-1 1s-1-.45-1-1v-1c0-.55.45-1 1-1M7 16.25c.55 0 1 .45 1 1s-.45 1-1 1H6c-.55 0-1-.45-1-1s.45-1 1-1zM18 16.25c.55 0 1 .45 1 1s-.45 1-1 1h-1c-.55 0-1-.45-1-1s.45-1 1-1z" /></svg>;
+export default UserRoadsideSolid;

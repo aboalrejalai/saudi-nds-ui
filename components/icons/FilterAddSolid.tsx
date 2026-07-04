@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FilterAddSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="m16.906 11.48-1.89 1.9s-.08.11-.08.17v6.31c0 1.14-1.07 1.97-2.17 1.7l-2-.5c-.78-.2-1.33-.9-1.33-1.7v-5.81c0-.06-.02-.13-.07-.17l-6.41-6.42c-.33-.33-.52-.77-.52-1.23V4.14c0-.97.79-1.75 1.75-1.75h12.09q-.21.33-.21.75v2h-2c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h2v2c0 .59.34 1.1.84 1.34" /><path fill="currentColor" d="M21.816 6.64c0 .41-.33.75-.75.75h-2.75v2.75c0 .41-.33.75-.75.75-.02 0-.04 0-.06-.01a.743.743 0 0 1-.69-.74V7.39h-2.75c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h2.75V3.14c0-.41.34-.75.75-.75s.75.34.75.75v2.75h2.75a.753.753 0 0 1 .75.75" /></svg>;
+export default FilterAddSolid;

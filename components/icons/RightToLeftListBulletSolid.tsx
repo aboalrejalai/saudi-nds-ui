@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const RightToLeftListBulletSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M4.5 4.995a1 1 0 1 0 0 2h11a1 1 0 1 0 0-2zM4.5 10.995a1 1 0 1 0 0 2h11a1 1 0 1 0 0-2zM4.5 16.995a1 1 0 1 0 0 2h11a1 1 0 1 0 0-2zM20.5 6.005v-.01a1 1 0 1 0-2 0v.01a1 1 0 1 0 2 0M20.5 12.005v-.01a1 1 0 1 0-2 0v.01a1 1 0 1 0 2 0M20.5 18.005v-.01a1 1 0 1 0-2 0v.01a1 1 0 1 0 2 0" /></svg>;
+export default RightToLeftListBulletSolid;

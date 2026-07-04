@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GpsSignal02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 25" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.463.482c.199 0 .39.08.53.22l6.768 6.769a.8.8 0 0 1 .103-.126l1.07-1.07a.751.751 0 0 1 1.06 1.06l-1.07 1.07a.8.8 0 0 1-.127.1l6.767 6.768a.75.75 0 0 1 0 1.061 11.05 11.05 0 0 1-7.815 3.237 11.05 11.05 0 0 1-4.479-.95l1.344 4.69a.75.75 0 0 1-.722.957H.75a.75.75 0 0 1-.648-1.128l5.708-9.786A11.05 11.05 0 0 1 7.932.702a.75.75 0 0 1 .53-.22M19.934 3.274a.75.75 0 0 1 1.06 1.061l-.57.57a.75.75 0 0 1-1.06-1.06z" /></svg>;
+export default GpsSignal02Solid;

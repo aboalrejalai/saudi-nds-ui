@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const VideoOffStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M2.472 2.469a.75.75 0 0 1 1.06 0l18 18a.75.75 0 1 1-1.06 1.06l-4.77-4.77c-.159.57-.68.99-1.3.99h-10.8a1.35 1.35 0 0 1-1.35-1.35V7.6c0-.746.604-1.35 1.35-1.35h1.59l-2.72-2.72a.75.75 0 0 1 0-1.06M6.67 7.727a.8.8 0 0 1-.168.022h-2.75v8.5h10.5v-.94z" clipRule="evenodd" /><path fill="currentColor" d="M14.402 6.249c.746 0 1.35.604 1.35 1.35v2.798l3.786-3.154c.88-.733 2.214-.107 2.214 1.037V15.5a.75.75 0 0 1-1.5 0V8.601l-3.786 3.154c-.88.732-2.214.107-2.214-1.037V7.749h-2.75a.75.75 0 0 1 0-1.5z" /></svg>;
+export default VideoOffStroke;

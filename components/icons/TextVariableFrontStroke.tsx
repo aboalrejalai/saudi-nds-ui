@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextVariableFrontStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16.464 5.071V4.25H7.75v.821a.75.75 0 0 1-1.5 0V3.5A.75.75 0 0 1 7 2.75h10.214a.75.75 0 0 1 .75.75v1.571a.75.75 0 0 1-1.5 0" /><path fill="currentColor" d="M11.75 14.5v-11a.75.75 0 0 1 1.5 0v11a.75.75 0 0 1-1.5 0" /><path fill="currentColor" d="M14.071 13.75a.75.75 0 1 1 0 1.5H10.93a.75.75 0 0 1 0-1.5zM15.25 18.5a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0m1.5 0a2.75 2.75 0 1 1-5.499 0 2.75 2.75 0 0 1 5.499 0" /><path fill="currentColor" d="M12 17.75a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5zM20 17.75a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1 0-1.5z" /></svg>;
+export default TextVariableFrontStroke;

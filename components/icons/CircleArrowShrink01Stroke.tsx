@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CircleArrowShrink01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.5 12a8.5 8.5 0 1 0-17 0 8.5 8.5 0 0 0 17 0m-3.97 4.53a.75.75 0 0 1-1.06 0l-1.72-1.72V16a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 0 1.5h-1.19l1.72 1.72a.75.75 0 0 1 0 1.06M11.75 8v3a.75.75 0 0 1-.75.75H8a.75.75 0 0 1 0-1.5h1.19L7.47 8.53a.75.75 0 1 1 1.06-1.06l1.72 1.72V8a.75.75 0 0 1 1.5 0M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10" /></svg>;
+export default CircleArrowShrink01Stroke;

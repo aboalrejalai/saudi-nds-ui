@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LayoutTable02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M3.384 2.5C2.62 2.5 2 3.089 2 3.815v16.37c0 .726.62 1.315 1.384 1.315h17.232c.764 0 1.384-.589 1.384-1.315V3.815c0-.726-.62-1.315-1.384-1.315zM10.5 20.185h10.107v-4.321H10.5zm0-5.867h10.107V9.682H10.5zm0-6.182h10.107V3.815H10.5zM8.758 20.185H3.65v-4.321h5.107zM3.65 14.318h5.107V9.682H3.65zm5.107-6.182H3.65V3.815h5.107z" clipRule="evenodd" /></svg>;
+export default LayoutTable02Stroke;

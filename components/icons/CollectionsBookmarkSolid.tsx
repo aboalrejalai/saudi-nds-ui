@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CollectionsBookmarkSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M16 4.562c.966 0 1.75.783 1.75 1.75v14.626a.501.501 0 0 1-.77.42l-4.763-3.06a2.25 2.25 0 0 0-2.434 0l-4.762 3.06a.5.5 0 0 1-.771-.42V6.312c0-.967.784-1.75 1.75-1.75zm-7.75 1a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 .76.428l1.905-1.158a.65.65 0 0 1 .67 0l1.905 1.157a.5.5 0 0 0 .76-.427V6.384l-.001-.322a.5.5 0 0 0-.5-.5z" clipRule="evenodd" /><path fill="currentColor" d="M18 2.562c.966 0 1.75.783 1.75 1.75v14.626a.5.5 0 1 1-1 0V4.312a.75.75 0 0 0-.75-.75H8a.5.5 0 0 1 0-1z" /></svg>;
+export default CollectionsBookmarkSolid;

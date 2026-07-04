@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const EntranceStairsStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 2.25A9.75 9.75 0 0 1 21.75 12v9a.75.75 0 0 1-.75.75H3a.75.75 0 0 1-.75-.75v-9A9.75 9.75 0 0 1 12 2.25m-8.25 18h16.5v-2.5H3.75zM12 3.75A8.25 8.25 0 0 0 3.75 12v4.25h4.5V13a.75.75 0 0 1 .75-.75h3.25V9a.75.75 0 0 1 .75-.75h6.346a8.2 8.2 0 0 0-1.512-2.084A8.25 8.25 0 0 0 12 3.75m-2.25 12.5h10.5v-2.5H9.75zm4-6.5v2.5h6.5V12c0-.768-.11-1.524-.315-2.25z" clipRule="evenodd" /></svg>;
+export default EntranceStairsStroke;

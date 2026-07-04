@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const VolumeMute02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M10.82 4.954c1.393-1.238 3.595-.25 3.595 1.615v10.866c0 1.864-2.202 2.853-3.595 1.615l-3.068-2.728H5.775a2.16 2.16 0 0 1-2.16-2.16v-4.32a2.16 2.16 0 0 1 2.16-2.16h1.976zm2.155 1.615a.72.72 0 0 0-1.198-.539L8.504 8.94a.72.72 0 0 1-.479.182h-2.25a.72.72 0 0 0-.72.72v4.32c0 .397.323.72.72.72h2.25a.72.72 0 0 1 .479.182l3.273 2.91a.72.72 0 0 0 1.198-.539z" clipRule="evenodd" /><path fill="currentColor" d="M16.426 11.23a.72.72 0 1 1 1.018-1.017l.856.855.856-.855a.72.72 0 1 1 1.018 1.018l-.856.855.856.856a.72.72 0 1 1-1.018 1.018l-.856-.855-.856.855a.72.72 0 0 1-1.018-1.018l.856-.856z" /></svg>;
+export default VolumeMute02Stroke;

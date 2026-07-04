@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WebProgrammingStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M4.127 9.75v8.75c0 .414.336.75.75.75h4.767a6.9 6.9 0 0 0 .855 1.5H4.877a2.25 2.25 0 0 1-2.25-2.25v-13a2.25 2.25 0 0 1 2.25-2.25h12.998a2.25 2.25 0 0 1 2.25 2.25v5.625a6.9 6.9 0 0 0-1.5-.856V9.75zm0-4.25a.75.75 0 0 1 .75-.75h12.998a.75.75 0 0 1 .75.75v2.75H4.127z" clipRule="evenodd" /><path fill="currentColor" d="M14.405 13.593a.75.75 0 0 1 0 1.06l-1.97 1.972 1.97 1.971a.75.75 0 0 1-1.06 1.06l-2.5-2.5a.75.75 0 0 1 0-1.061l2.5-2.502a.75.75 0 0 1 1.06 0M17.595 13.593a.75.75 0 0 0 0 1.06l1.97 1.972-1.97 1.971a.75.75 0 0 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.061l-2.5-2.502a.75.75 0 0 0-1.06 0" /></svg>;
+export default WebProgrammingStroke;

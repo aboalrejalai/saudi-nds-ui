@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DivideSignSquareSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.4 2.25H3.6c-.75 0-1.35.61-1.35 1.35v16.8c0 .75.6 1.35 1.35 1.35h16.8c.74 0 1.35-.6 1.35-1.35V3.6c0-.74-.61-1.35-1.35-1.35m-9.27 14.03a.87.87 0 1 1 1.741.001.87.87 0 0 1-1.741-.001m5.87-3.3H7c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h10c.41 0 .75.34.75.75s-.34.75-.75.75m-5.87-4.79a.87.87 0 1 1 1.741.001.87.87 0 0 1-1.741-.001" clipRule="evenodd" /></svg>;
+export default DivideSignSquareSolid;

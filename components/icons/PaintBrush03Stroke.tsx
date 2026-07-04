@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PaintBrush03Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M10.471 3.345a2.16 2.16 0 0 1 3.055 0l7.127 7.128a2.16 2.16 0 0 1 0 3.054l-7.127 7.128a2.16 2.16 0 0 1-3.055 0l-2.037-2.037-1.867 1.867a2.16 2.16 0 1 1-3.054-3.054l1.867-1.867-2.036-2.037a2.16 2.16 0 0 1 0-3.054zm2.037 1.019a.72.72 0 0 0-1.019 0l-5.091 5.09 8.146 8.147 5.091-5.092a.72.72 0 0 0 0-1.018l-3.564-3.564-1.188 1.188a.72.72 0 1 1-1.018-1.018l1.188-1.188-1.018-1.018-2.885 2.885a.72.72 0 1 1-1.018-1.019l2.885-2.885zm1.017 14.255L5.38 10.473l-1.018 1.018a.72.72 0 0 0 0 1.018l7.127 7.128a.72.72 0 0 0 1.019 0zm-7.127-2.037L4.53 18.449a.72.72 0 0 0 1.018 1.018L7.416 17.6z" clipRule="evenodd" /></svg>;
+export default PaintBrush03Stroke;

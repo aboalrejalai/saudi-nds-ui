@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DepartementSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.163 2.018a.75.75 0 0 0-.326 0l-9 2a.75.75 0 1 0 .326 1.464L12 3.518l8.837 1.964a.75.75 0 1 0 .326-1.464zM4.19 10.26H2.75V7h19v3.26H7.644c-.477.001-.864.44-.864.98s.387.977.864.977h2.59v4.24c0 .54.388.977.864.978.477 0 .864-.438.864-.979v-4.239h4.03v3.261h-1.439c-.477 0-.863.439-.864.978 0 .54.387.979.864.979h2.303a.82.82 0 0 0 .61-.287c.163-.183.254-.432.254-.692v-4.239h4.03V22h-9.788v-1.63c0-.54-.387-.979-.864-.979-.476 0-.863.439-.863.979V22H2.75v-9.783h1.44c.476 0 .863-.438.863-.978s-.387-.978-.864-.978" /></svg>;
+export default DepartementSolid;

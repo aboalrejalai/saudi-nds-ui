@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BluetoothStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M11.467 1.308a.75.75 0 0 1 .817.162l5.5 5.5a.75.75 0 0 1-.058 1.114L12.887 12l4.839 3.917a.75.75 0 0 1 .058 1.113l-5.5 5.5a.75.75 0 0 1-1.28-.53v-8.476l-3.778 3.059a.75.75 0 0 1-.944-1.166L10.503 12 6.282 8.584a.75.75 0 0 1 .944-1.166l3.778 3.058V2.001a.75.75 0 0 1 .463-.693m1.037 12.313 3.63 2.938-3.63 3.631zm0-3.24v-6.57l3.63 3.631z" clipRule="evenodd" /></svg>;
+export default BluetoothStroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SentStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M1.964 3.475a.75.75 0 0 1 .826-.167l19 8a1 1 0 0 1 .11.06l.044.03a1 1 0 0 1 .066.056l.03.028q.09.095.144.213l.015.037a1 1 0 0 1 .039.143l.005.028a.8.8 0 0 1-.004.22q-.006.028-.013.055a.7.7 0 0 1-.101.237q-.009.01-.016.019a.7.7 0 0 1-.168.17l-.036.025a1 1 0 0 1-.099.053q-.009.006-.018.01l-18.998 8a.75.75 0 0 1-.975-.997L5.242 12 1.815 4.306a.75.75 0 0 1 .15-.83M6.55 12.75l-2.593 5.823 13.83-5.823zm0-1.5h11.237L3.956 5.428z" clipRule="evenodd" /></svg>;
+export default SentStroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FileSecuritySolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19.454 7.545v5.7c-.85-.25-1.54-.58-1.93-.79a1.85 1.85 0 0 0-1.71 0c-.54.29-1.63.8-2.93 1.03-.85.15-1.47.87-1.47 1.72v2.34c0 2.53 1.71 4.23 3.11 5.2h-9.14c-1.27 0-2.31-1.04-2.31-2.31V3.555c0-1.27 1.04-2.31 2.31-2.31h7.52v4.83c0 .81.66 1.47 1.47 1.47z" /><path fill="currentColor" d="M14.164 6.075c0 .12.09.21.21.21h4.8c-.12-.21-.26-.41-.44-.58l-4.05-3.83c-.16-.15-.33-.27-.52-.37zM16.284 13.345c.24-.13.53-.13.77 0 .58.31 1.78.87 3.23 1.13.36.06.64.37.64.74v2.34c0 3.05-3.09 4.72-4 5.14a.55.55 0 0 1-.5 0c-.91-.43-4-2.09-4-5.14v-2.34c0-.37.28-.67.64-.74 1.45-.25 2.65-.82 3.23-1.13z" /></svg>;
+export default FileSecuritySolid;

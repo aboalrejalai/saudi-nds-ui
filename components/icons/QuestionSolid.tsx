@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const QuestionSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.242 2.034a4.345 4.345 0 1 0 0 8.689 4.345 4.345 0 0 0 0-8.69M9.175 12.223a5.25 5.25 0 0 0-5.25 5.25v1.31a2.25 2.25 0 0 0 2.25 2.25h8.449c.034-.435.194-.836.441-1.166a2.24 2.24 0 0 1-.449-1.349c0-.712.204-1.32.473-1.814a2.25 2.25 0 0 1-2.932-2.145c0-.85.226-1.648.62-2.336z" /><path fill="currentColor" d="M16.866 12.85a1.71 1.71 0 0 0-1.709 1.71.75.75 0 0 1-1.5 0 3.209 3.209 0 1 1 5.048 2.63c-.321.224-.608.457-.811.702-.2.242-.278.445-.278.626a.75.75 0 0 1-1.5 0c0-.647.288-1.178.622-1.582.332-.4.75-.725 1.107-.976a1.709 1.709 0 0 0-.979-3.11m-.75 8.366a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 0 1.5h-.01a.75.75 0 0 1-.75-.75" /></svg>;
+export default QuestionSolid;

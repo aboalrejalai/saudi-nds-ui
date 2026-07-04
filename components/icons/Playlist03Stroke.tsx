@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Playlist03Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M1.25 11a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H2a.75.75 0 0 1-.75-.75M1.25 17a.75.75 0 0 1 .75-.75h11a.75.75 0 0 1 0 1.5H2a.75.75 0 0 1-.75-.75M1.25 5A.75.75 0 0 1 2 4.25h18a.75.75 0 0 1 0 1.5H2A.75.75 0 0 1 1.25 5M20.75 10.75H22a.75.75 0 0 0 0-1.5h-1.4a1.35 1.35 0 0 0-1.35 1.35v5.778a2.25 2.25 0 1 0 1.5 2.122zm-1.5 7.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0" clipRule="evenodd" /></svg>;
+export default Playlist03Stroke;

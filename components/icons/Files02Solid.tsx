@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Files02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M15.11 7.55c-.81 0-1.47-.66-1.47-1.47V1.25H6.12c-1.27 0-2.31 1.04-2.31 2.31v16.88c0 1.27 1.04 2.31 2.31 2.31h11.76c1.27 0 2.31-1.04 2.31-2.31V7.55zm-7.85 8.82h3.05c.35 0 .63.28.63.63s-.28.63-.63.63H7.26c-.35 0-.63-.28-.63-.63s.28-.63.63-.63m-.63-2.73c0-.35.28-.63.63-.63h9.24c.35 0 .63.28.63.63s-.28.63-.63.63H7.26c-.35 0-.63-.28-.63-.63m9.87-3.99c.35 0 .63.28.63.63s-.28.63-.63.63H7.26c-.35 0-.63-.28-.63-.63s.28-.63.63-.63z" /><path fill="currentColor" d="M14.9 6.08c0 .12.09.21.21.21h4.8c-.12-.21-.26-.41-.44-.58l-4.05-3.83c-.16-.15-.33-.27-.52-.37z" /></svg>;
+export default Files02Solid;

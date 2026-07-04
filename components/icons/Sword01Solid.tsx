@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Sword01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="m22.228 2.668-1.01 4.37c-.13.57-.44 1.08-.88 1.46-.01.01-.02.01-.02.02l-10.25 8.09.87.88c.52.51.81 1.21.81 1.94v.57a.749.749 0 1 1-1.5 0v-.57c0-.33-.13-.65-.37-.88l-1.68-1.69-3.38 3.38s.55.48.42 1.16c-.1.55-.57.81-.63.85l-2.85-2.85c.03-.07.29-.53.85-.64.67-.12 1.13.39 1.15.42l3.38-3.38-1.69-1.68c-.23-.23-.55-.37-.88-.37h-.57c-.42 0-.75-.33-.75-.75s.33-.75.75-.75h.57c.73 0 1.43.29 1.94.81l.88.87 8.09-10.24s.02-.02.02-.03c.39-.44.9-.75 1.46-.88l4.37-1.01c.25-.05.51.02.7.2.18.19.26.45.2.7" clipRule="evenodd" /></svg>;
+export default Sword01Solid;

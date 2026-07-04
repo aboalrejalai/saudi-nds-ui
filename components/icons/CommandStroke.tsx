@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CommandStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.25 15.75H7A1.25 1.25 0 1 0 8.25 17zm1.5-1.5h4.5v-4.5h-4.5zM8.25 7A1.25 1.25 0 1 0 7 8.25h1.25zm7.5 10A1.25 1.25 0 1 0 17 15.75h-1.25zm-6-8.75h4.5V7A2.75 2.75 0 1 1 17 9.75h-1.25v4.5H17A2.75 2.75 0 1 1 14.25 17v-1.25h-4.5V17A2.75 2.75 0 1 1 7 14.25h1.25v-4.5H7A2.75 2.75 0 1 1 9.75 7zm6 0H17A1.25 1.25 0 1 0 15.75 7z" /></svg>;
+export default CommandStroke;

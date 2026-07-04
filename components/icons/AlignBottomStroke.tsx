@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AlignBottomStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M15.362 3.6c.927 0 1.68.752 1.68 1.68V16.8a.72.72 0 0 1-.72.72h-2.88a.72.72 0 0 1-.72-.72V5.28c0-.928.752-1.68 1.68-1.68zm.24 1.68a.24.24 0 0 0-.24-.24h-.96a.24.24 0 0 0-.24.24v10.8h1.44zM9.602 7.647c.927 0 1.68.752 1.68 1.68V16.8a.72.72 0 0 1-.72.72h-2.88a.72.72 0 0 1-.72-.72V9.327c0-.928.752-1.68 1.68-1.68zm.24 1.68a.24.24 0 0 0-.24-.24h-.96a.24.24 0 0 0-.24.24v6.753h1.44z" clipRule="evenodd" /><path fill="currentColor" d="M19.682 20.4a.72.72 0 1 0 0-1.44H4.322a.72.72 0 0 0 0 1.44z" /></svg>;
+export default AlignBottomStroke;

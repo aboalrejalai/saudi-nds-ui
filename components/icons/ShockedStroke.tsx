@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ShockedStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.241 7.48a2.3 2.3 0 0 1 1.539.092.36.36 0 1 0 .28-.663 3.03 3.03 0 0 0-2.017-.12 3.03 3.03 0 0 0-1.647 1.17.36.36 0 0 0 .589.415A2.3 2.3 0 0 1 8.24 7.48M8.88 9.395a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4M15.12 9.395a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4M10.32 15.04a1.68 1.68 0 1 1 3.36 0V16a1.68 1.68 0 1 1-3.36 0zM15.762 7.48a2.3 2.3 0 0 0-1.54.092.36.36 0 1 1-.28-.663 3.03 3.03 0 0 1 2.018-.12 3.03 3.03 0 0 1 1.647 1.17.36.36 0 0 1-.589.415 2.3 2.3 0 0 0-1.256-.894" /><path fill="currentColor" fillRule="evenodd" d="M12 2.4a9.6 9.6 0 1 0 0 19.2 9.6 9.6 0 0 0 0-19.2M3.84 12a8.16 8.16 0 1 1 16.32 0 8.16 8.16 0 0 1-16.32 0" clipRule="evenodd" /></svg>;
+export default ShockedStroke;

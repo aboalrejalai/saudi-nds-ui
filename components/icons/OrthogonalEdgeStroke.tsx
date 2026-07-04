@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const OrthogonalEdgeStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M7 16.25a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-.75.75H3a.75.75 0 0 1-.75-.75v-4a.75.75 0 0 1 .75-.75zm-3.25 4h2.5v-2.5h-2.5zM21 2.25a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1-.75-.75V3a.75.75 0 0 1 .75-.75zm-3.25 4h2.5v-2.5h-2.5z" /><path fill="currentColor" d="M19.25 15.5a2.75 2.75 0 0 0-2.75-2.75h-8a4.25 4.25 0 0 1 0-8.5H17a.75.75 0 0 1 0 1.5H8.5a2.75 2.75 0 0 0 0 5.5h8a4.25 4.25 0 0 1 0 8.5H8a.75.75 0 0 1 0-1.5h8.5a2.75 2.75 0 0 0 2.75-2.75" /></svg>;
+export default OrthogonalEdgeStroke;

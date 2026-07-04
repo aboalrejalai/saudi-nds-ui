@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AccessSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.68 2.4a2.16 2.16 0 0 0-2.16 2.16v1.804q.176.117.329.27l3.787 3.788c.421.395.684.956.684 1.578 0 .625-.265 1.187-.688 1.582l-3.783 3.785a2 2 0 0 1-.329.27v1.803a2.16 2.16 0 0 0 2.16 2.16h5.76a2.16 2.16 0 0 0 2.16-2.16V4.56a2.16 2.16 0 0 0-2.16-2.16z" /><path fill="currentColor" fillRule="evenodd" d="M13 10.8a.72.72 0 1 1 0 1.44h-.974v1.2a.72.72 0 0 1-1.44 0v-1.2H8.581a2.641 2.641 0 0 1-5.18-.72 2.64 2.64 0 0 1 5.18-.72zm-5.76.72a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0" clipRule="evenodd" /></svg>;
+export default AccessSolid;

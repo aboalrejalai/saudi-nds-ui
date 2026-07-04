@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GoldIngotsStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M15.08 4.25a1.35 1.35 0 0 1 1.324 1.08l1.183 5.8q.012.06.018.12h2.476a1.35 1.35 0 0 1 1.323 1.08l1.183 5.8a1.35 1.35 0 0 1-1.323 1.62h-8.53a1.34 1.34 0 0 1-.736-.219c-.21.137-.46.219-.734.219h-8.53a1.35 1.35 0 0 1-1.322-1.62l1.183-5.8a1.35 1.35 0 0 1 1.322-1.08h2.477q.006-.06.018-.12l1.183-5.8a1.35 1.35 0 0 1 1.322-1.08zm-12.163 14h8.164l-1.123-5.5H4.04zm10 0h8.164l-1.123-5.5H14.04zm-.919-3.002.511-2.498h-1.02zm-4.08-3.998h8.163l-1.123-5.5H9.04z" clipRule="evenodd" /></svg>;
+export default GoldIngotsStroke;

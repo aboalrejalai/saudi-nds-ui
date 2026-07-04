@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CircleArrowDataTransferHorizontalSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M14.884 12.003 17 14.13a.75.75 0 0 1-.003 1.06l-2.126 2.116a.75.75 0 1 1-1.058-1.063l.843-.84-7.18-.005a.75.75 0 0 1 .004-1.5l7.18.006-.84-.843a.75.75 0 0 1 1.064-1.058M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10M6.946 8.13l2.116-2.127a.75.75 0 1 1 1.064 1.058l-.84.843 7.18-.006a.75.75 0 1 1 .004 1.5l-7.18.006.844.839a.75.75 0 1 1-1.058 1.063L6.949 9.19a.75.75 0 0 1-.003-1.06" clipRule="evenodd" /></svg>;
+export default CircleArrowDataTransferHorizontalSolid;

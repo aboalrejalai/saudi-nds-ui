@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const NotificationSquareStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M17.639 3.296a3.065 3.065 0 1 0 0 6.13 3.065 3.065 0 0 0 0-6.13M16.074 6.36a1.565 1.565 0 1 1 3.13 0 1.565 1.565 0 0 1-3.13 0" clipRule="evenodd" /><path fill="currentColor" d="M18.296 18.454V10.88a4.5 4.5 0 0 0 1.5-.494v8.07a2.25 2.25 0 0 1-2.25 2.25h-12a2.25 2.25 0 0 1-2.25-2.25v-12a2.25 2.25 0 0 1 2.25-2.25h8.068a4.5 4.5 0 0 0-.493 1.5H5.546a.75.75 0 0 0-.75.75v12c0 .413.336.75.75.75h12a.75.75 0 0 0 .75-.75" /></svg>;
+export default NotificationSquareStroke;

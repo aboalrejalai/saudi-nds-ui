@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SearchRemoveStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M13.47 7.47a.75.75 0 1 1 1.06 1.06L12.06 11l2.47 2.47a.75.75 0 1 1-1.06 1.06L11 12.06l-2.47 2.47a.75.75 0 1 1-1.06-1.06L9.94 11 7.47 8.53a.75.75 0 1 1 1.06-1.06L11 9.94z" /><path fill="currentColor" fillRule="evenodd" d="M11 1.25c5.385 0 9.75 4.365 9.75 9.75a9.7 9.7 0 0 1-2.349 6.34l4.13 4.13a.75.75 0 1 1-1.061 1.06l-4.13-4.129A9.7 9.7 0 0 1 11 20.75c-5.385 0-9.75-4.365-9.75-9.75S5.615 1.25 11 1.25m0 1.5a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5" clipRule="evenodd" /></svg>;
+export default SearchRemoveStroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Tongue01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10c0 4.192-2.58 7.782-6.238 9.268A4.5 4.5 0 0 0 16.375 19v-1.953c.899-.894 1.442-2.033 1.555-3.162a.75.75 0 0 0-.747-.825H6.817a.75.75 0 0 0-.747.825c.102 1.02.555 2.048 1.305 2.897V19c0 .77.193 1.494.534 2.128A10 10 0 0 1 2 12m8-2.768a1.25 1.25 0 0 0-2.5 0v.01a1.25 1.25 0 1 0 2.5 0zm6.5 0a1.25 1.25 0 0 0-2.5 0v.01a1.25 1.25 0 1 0 2.5 0z" /><path fill="currentColor" d="M8.875 14.56V19a3 3 0 1 0 6 0v-4.44z" /></svg>;
+export default Tongue01Solid;

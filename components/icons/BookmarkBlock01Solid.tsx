@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BookmarkBlock01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.125 2.4A6.6 6.6 0 0 0 18 13.557v7.323a.72.72 0 0 1-1.12.6L11.2 17.691a.72.72 0 0 0-.8 0l-5.68 3.787a.72.72 0 0 1-1.12-.6V4.56A2.16 2.16 0 0 1 5.76 2.4zM19.362 10.664a5.16 5.16 0 0 0-7.226-7.226z" /><path fill="currentColor" d="M11.118 4.456a5.16 5.16 0 0 0 7.226 7.226z" /></svg>;
+export default BookmarkBlock01Solid;

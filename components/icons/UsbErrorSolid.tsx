@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UsbErrorSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M13.25 6.657V4.25A2.25 2.25 0 0 0 11 2H6.5a2.25 2.25 0 0 0-2.25 2.25v2.407a3.3 3.3 0 0 1 1-.157h7q.526.002 1 .157m-6-2.407A.75.75 0 0 1 8 3.5h1.5a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75M4.25 7.734A2.25 2.25 0 0 0 3 9.75v10A2.25 2.25 0 0 0 5.25 22h5.588A6.876 6.876 0 0 1 14.5 9.778V9.75a2.25 2.25 0 0 0-2.25-2.25h-7c-.36 0-.699.084-1 .234" /><path fill="currentColor" d="M9.75 16.625a5.375 5.375 0 1 1 10.75 0 5.375 5.375 0 0 1-10.75 0m4.483-1.952a.75.75 0 0 0-1.06 1.06l.891.892-.891.891a.75.75 0 1 0 1.06 1.06l.892-.89.891.89a.75.75 0 1 0 1.06-1.06l-.89-.891.89-.891a.75.75 0 1 0-1.06-1.06l-.891.89z" /></svg>;
+export default UsbErrorSolid;

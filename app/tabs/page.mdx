@@ -1,0 +1,114 @@
+import { DirectionToggle } from "@/components/docs/direction-toggle"
+import { DocsLayout } from "@/components/docs/docs-layout"
+import { InstallCommand } from "@/components/docs/install-command"
+
+import {
+  TabsDefault,
+  TabsDefaultFadeEdges,
+  TabsDefaultScrollable,
+  TabsDefaultScrollableSnap,
+  TabsLine,
+  TabsLineFadeEdges,
+  TabsLineScrollable,
+  TabsLineScrollableSnap,
+  TabsVerticalDefault,
+  TabsVerticalLine,
+} from "./demos"
+
+export const metadata = {
+  title: "Tabs",
+  description:
+    "DGA Tabs component for React & Next.js. Accessible tabbed content panels with RTL keyboard navigation. Digital Government Authority Saudi Arabia design system.",
+}
+
+<DocsLayout>
+
+# Tabs
+
+A set of layered sections of content — known as tab panels — displayed one at a time.
+
+<DirectionToggle />
+
+## Installation
+
+<InstallCommand componentName="tabs" />
+
+## Default
+
+`variant="default"` — centered, equal spacing.
+
+<TabsDefault />
+
+## Line
+
+`variant="line"` — left-aligned, minimal underline indicator.
+
+<TabsLine />
+
+## Default + Scrollable
+
+`scrollable` — overflow becomes horizontal scroll instead of wrapping.
+
+<TabsDefaultScrollable />
+
+## Line + Scrollable
+
+`variant="line" scrollable` — underline style with horizontal scroll.
+
+<TabsLineScrollable />
+
+## Default + Scrollable + Snap
+
+`scrollable snap` — each tab locks into place while scrolling.
+
+<TabsDefaultScrollableSnap />
+
+## Line + Scrollable + Snap
+
+`variant="line" scrollable snap`
+
+<TabsLineScrollableSnap />
+
+## Default + Scrollable + Snap + FadeEdges
+
+`scrollable snap fadeEdges` — gradient fades reveal hidden tabs on either side.
+
+<TabsDefaultFadeEdges />
+
+## Line + Scrollable + Snap + FadeEdges
+
+`variant="line" scrollable snap fadeEdges` — full production config.
+
+<TabsLineFadeEdges />
+
+## Vertical — Default
+
+`orientation="vertical"` — tabs stack on the side.
+
+<TabsVerticalDefault />
+
+## Vertical — Line
+
+`orientation="vertical" variant="line"`
+
+<TabsVerticalLine />
+
+## TabsList Props
+
+| Prop         | Type                  | Default     | Description                                 |
+| ------------ | --------------------- | ----------- | ------------------------------------------- |
+| `variant`    | `"default" \| "line"` | `"default"` | Visual style variant                        |
+| `scrollable` | `boolean`             | `false`     | Enable horizontal scrolling                 |
+| `snap`       | `boolean`             | `false`     | Enable scroll snapping                      |
+| `fadeEdges`  | `boolean`             | `false`     | Show gradient fade on edges when scrollable |
+| `className`  | `string`              | —           | Additional CSS classes                      |
+
+## Tabs Props
+
+| Prop           | Type                         | Default        | Description            |
+| -------------- | ---------------------------- | -------------- | ---------------------- |
+| `defaultValue` | `string`                     | —              | Initially active tab   |
+| `orientation`  | `"horizontal" \| "vertical"` | `"horizontal"` | Layout direction       |
+| `className`    | `string`                     | —              | Additional CSS classes |
+
+</DocsLayout>

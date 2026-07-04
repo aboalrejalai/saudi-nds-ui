@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const InboxDownloadStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16 4.25A2.75 2.75 0 0 1 18.75 7v2a.75.75 0 0 1-1.5 0V7c0-.69-.56-1.25-1.25-1.25H3c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h14a.75.75 0 0 1 0 1.5H3A2.75 2.75 0 0 1 .25 17V7A2.75 2.75 0 0 1 3 4.25z" /><path fill="currentColor" d="M19.47 10.47a.75.75 0 1 1 1.06 1.06l-1.72 1.72H23a.75.75 0 0 1 0 1.5h-4.19l1.72 1.72a.75.75 0 1 1-1.06 1.06l-3-3a.75.75 0 0 1 0-1.06zM13.584 8.375a.75.75 0 1 1 .832 1.249l-4.5 3a.75.75 0 0 1-.832 0l-4.5-3a.75.75 0 1 1 .832-1.249L9.5 11.098z" /></svg>;
+export default InboxDownloadStroke;

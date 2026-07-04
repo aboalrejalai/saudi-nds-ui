@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FilterStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.75 4.142A1.75 1.75 0 0 0 20 2.392H4a1.75 1.75 0 0 0-1.75 1.75v1.586c0 .464.184.91.513 1.238l6.414 6.414a.25.25 0 0 1 .073.177v5.805a1.75 1.75 0 0 0 1.326 1.698l2 .5a1.75 1.75 0 0 0 2.174-1.698v-6.305a.25.25 0 0 1 .073-.177l6.415-6.414a1.75 1.75 0 0 0 .512-1.238zM20 3.892a.25.25 0 0 1 .25.25v1.586a.25.25 0 0 1-.073.177l-6.414 6.414a1.75 1.75 0 0 0-.513 1.238v6.305a.25.25 0 0 1-.31.242l-2-.5a.25.25 0 0 1-.19-.242v-5.805c0-.464-.184-.91-.513-1.238L3.823 5.905a.25.25 0 0 1-.073-.177V4.143a.25.25 0 0 1 .25-.25z" clipRule="evenodd" /></svg>;
+export default FilterStroke;

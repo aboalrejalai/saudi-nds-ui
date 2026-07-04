@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PackageMovingSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6 12.807a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2zM6 15.807a1 1 0 0 0 0-2H1.5a1 1 0 0 0 0 2zM6 18.807a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2z" /><path fill="currentColor" fillRule="evenodd" d="M14.798 1.923a1.35 1.35 0 0 0-1.096 0l-8.4 3.733A1.35 1.35 0 0 0 4.5 6.89v3.417H6a1.5 1.5 0 0 1 0 3 1.5 1.5 0 0 1 0 3 1.5 1.5 0 0 1 .86 2.729l6.842 3.041a1.35 1.35 0 0 0 1.096 0l8.4-3.733c.488-.217.802-.7.802-1.234V6.89a1.35 1.35 0 0 0-.802-1.234zM19.5 12.5V8.986l-1.5.667V12.5a.75.75 0 0 0 1.5 0M9.748 5.32 16.902 8.5l1.841-.818-.02-.011-.025-.014L11.596 4.5z" clipRule="evenodd" /></svg>;
+export default PackageMovingSolid;

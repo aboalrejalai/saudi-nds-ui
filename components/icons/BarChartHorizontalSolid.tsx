@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BarChartHorizontalSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.4 5.76a2.16 2.16 0 0 0-2.16-2.16H5.76A2.16 2.16 0 0 0 3.6 5.76v.32a2.16 2.16 0 0 0 2.16 2.16h12.48a2.16 2.16 0 0 0 2.16-2.16zM14.272 11.84a2.16 2.16 0 0 0-2.16-2.16H5.761a2.16 2.16 0 0 0-2.16 2.16v.32a2.16 2.16 0 0 0 2.16 2.16h6.351a2.16 2.16 0 0 0 2.16-2.16zM11.355 17.919a2.16 2.16 0 0 0-2.16-2.16H5.76a2.16 2.16 0 0 0-2.16 2.16v.32a2.16 2.16 0 0 0 2.16 2.16h3.435a2.16 2.16 0 0 0 2.16-2.16z" /></svg>;
+export default BarChartHorizontalSolid;

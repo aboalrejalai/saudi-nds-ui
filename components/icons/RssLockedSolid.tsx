@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const RssLockedSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M16 2.25A5.75 5.75 0 0 1 21.75 8v8A5.75 5.75 0 0 1 16 21.75H8A5.75 5.75 0 0 1 2.25 16V8A5.75 5.75 0 0 1 8 2.25zM7.512 16.441a.75.75 0 0 0-1.06.056l-.01.012a.75.75 0 1 0 1.116 1.003l.01-.011a.75.75 0 0 0-.056-1.06M7 11.25a.75.75 0 0 0 0 1.5c1.33 0 2.38.44 3.095 1.155S11.25 15.67 11.25 17a.75.75 0 0 0 1.5 0c0-1.67-.56-3.12-1.595-4.155S8.67 11.25 7 11.25m0-5a.75.75 0 0 0 0 1.5c2.83 0 5.13.94 6.72 2.53s2.53 3.89 2.53 6.72a.75.75 0 0 0 1.5 0c0-3.17-1.06-5.87-2.97-7.78S10.17 6.25 7 6.25" clipRule="evenodd" /></svg>;
+export default RssLockedSolid;

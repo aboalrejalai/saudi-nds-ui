@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HeadphonesSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 4.2a8.4 8.4 0 0 0-8.4 8.4v5.04a2.16 2.16 0 0 0 2.16 2.16h.96a2.16 2.16 0 0 0 2.16-2.16v-3.36a2.16 2.16 0 0 0-2.16-2.16h-.96q-.377.001-.711.119a6.96 6.96 0 0 1 13.902 0 2.2 2.2 0 0 0-.711-.12h-.96a2.16 2.16 0 0 0-2.16 2.16v3.36a2.16 2.16 0 0 0 2.16 2.16h.96a2.16 2.16 0 0 0 2.16-2.16V12.6A8.4 8.4 0 0 0 12 4.2" /></svg>;
+export default HeadphonesSolid;

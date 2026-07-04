@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const RedoSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M22.494 12.004c0 5.51-4.715 10-10.5 10h-.662l.032-.03c-5.492-.31-9.86-4.67-9.86-9.98s4.715-10 10.5-10c3.16 0 6.09 1.31 8.085 3.61l-.031-2.61c0-.27.105-.52.304-.71.2-.2.483-.28.788-.29.273 0 .525.1.714.27.2.21.304.46.304.72l.053 5.17c.01.26-.095.51-.294.7-.2.19-.462.3-.746.3l-5.428.06c-.578 0-1.06-.45-1.071-.99 0-.57.472-1.02 1.06-1.02l2.95-.03c-1.595-1.99-4.073-3.17-6.698-3.17-4.63 0-8.4 3.59-8.4 8s3.77 8 8.4 8 8.4-3.59 8.4-8c0-.55.472-1 1.05-1 .577 0 1.05.45 1.05 1" /></svg>;
+export default RedoSolid;

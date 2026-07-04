@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MetroSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.8 14.38a.96.96 0 1 1 0 1.921.96.96 0 0 1 0-1.92M15.201 14.38a.96.96 0 1 1 0 1.922.96.96 0 0 1 0-1.921" /><path fill="currentColor" fillRule="evenodd" d="M15.067 1.875a5.6 5.6 0 0 1 5.6 5.6v9.334a2.4 2.4 0 0 1-2.4 2.399h-.735l1.301 1.302a.8.8 0 1 1-1.13 1.13l-2.433-2.432H8.732L6.3 21.641a.8.8 0 0 1-1.132-1.131l1.302-1.302h-.736a2.4 2.4 0 0 1-2.4-2.4V7.476a5.6 5.6 0 0 1 5.6-5.6zm-10.133 11.2v3.734a.8.8 0 0 0 .8.8h12.534a.8.8 0 0 0 .8-.8v-3.734zm0-4.8v3.2h14.133v-3.2zm4-4.8a4 4 0 0 0-3.92 3.2h13.973a4 4 0 0 0-3.92-3.2h-.133v.8a.8.8 0 0 1-.8.8H9.867a.8.8 0 0 1-.8-.8v-.8z" clipRule="evenodd" /></svg>;
+export default MetroSolid;

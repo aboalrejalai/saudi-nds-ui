@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MinusPlusSquare01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.4 21.75H3.6c-.75 0-1.35-.6-1.35-1.34V3.6c0-.74.6-1.34 1.35-1.35h16.8c.74 0 1.35.61 1.35 1.35v16.81c0 .74-.61 1.34-1.35 1.34M8.39 7.82c0 .41.33.74.73.74h5.74c.4 0 .74-.33.74-.74s-.34-.74-.74-.74H9.12c-.4 0-.73.33-.73.74m6.47 5.03h-2.13v-1.87c0-.4-.33-.74-.74-.74s-.74.34-.74.74v1.87H9.12c-.4 0-.73.33-.73.74s.33.74.73.74h2.13v1.87c0 .4.33.73.74.73s.74-.33.74-.73v-1.87h2.13c.4 0 .74-.33.74-.74s-.34-.74-.74-.74" clipRule="evenodd" /></svg>;
+export default MinusPlusSquare01Solid;

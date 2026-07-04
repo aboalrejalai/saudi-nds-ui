@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Tree06Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.75 21.25H14a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1 0-1.5h1.25v-2.5h1.5zM12.002 1.25a3.75 3.75 0 0 1 3.347 2.057 3.75 3.75 0 0 1 4.31 4.53 4.251 4.251 0 0 1-.956 7.741c-.293 1.778-1.83 3.172-3.701 3.172H12.75v-3.44l2.28-2.28a.75.75 0 1 0-1.06-1.06l-1.22 1.22V9a.75.75 0 0 0-1.5 0v2.19l-1.22-1.22a.75.75 0 1 0-1.06 1.06l2.28 2.28v5.44H9.002c-1.872 0-3.408-1.394-3.7-3.172a4.251 4.251 0 0 1-.956-7.741 3.75 3.75 0 0 1 4.31-4.53 3.75 3.75 0 0 1 3.346-2.057" /></svg>;
+export default Tree06Solid;

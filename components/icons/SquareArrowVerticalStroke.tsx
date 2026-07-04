@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SquareArrowVerticalStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.501 5.628a2.13 2.13 0 0 0-2.129-2.129H5.628a2.13 2.13 0 0 0-2.129 2.129v12.744a2.13 2.13 0 0 0 2.129 2.129h12.744a2.13 2.13 0 0 0 2.129-2.129zM22 18.372A3.63 3.63 0 0 1 18.372 22H5.628A3.63 3.63 0 0 1 2 18.372V5.628A3.63 3.63 0 0 1 5.628 2h12.744A3.63 3.63 0 0 1 22 5.628z" /><path fill="currentColor" d="M11.316 5.235 9.198 7.361a.75.75 0 1 0 1.063 1.058l.84-.842.016 8.596-.843-.84a.75.75 0 1 0-1.059 1.063l2.125 2.117a.75.75 0 0 0 1.061-.002l2.118-2.125a.75.75 0 0 0-1.063-1.059l-.84.843-.016-8.596.843.84a.75.75 0 1 0 1.059-1.063l-2.126-2.117a.75.75 0 0 0-1.06.001" /></svg>;
+export default SquareArrowVerticalStroke;

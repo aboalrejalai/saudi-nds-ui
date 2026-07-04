@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BlendSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M14.5 2.25a7.25 7.25 0 0 1 5.127 12.377 7.25 7.25 0 0 1-3.153 1.847 7.25 7.25 0 0 1-1.847 3.153A7.251 7.251 0 0 1 4.373 9.373a7.25 7.25 0 0 1 3.152-1.848A7.25 7.25 0 0 1 14.5 2.25M7.257 9.206A5.75 5.75 0 0 0 9.5 20.25a5.75 5.75 0 0 0 5.293-3.508 7.25 7.25 0 0 1-7.536-7.536M14.5 3.75a5.75 5.75 0 0 0-5.294 3.507q.147-.006.294-.007a7.25 7.25 0 0 1 7.25 7.25q-.001.147-.008.293A5.75 5.75 0 0 0 20.25 9.5a5.75 5.75 0 0 0-5.75-5.75" clipRule="evenodd" /></svg>;
+export default BlendSolid;

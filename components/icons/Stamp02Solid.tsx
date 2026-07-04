@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Stamp02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.933 3.953a2.38 2.38 0 0 1 2.374-2.524h1.386a2.38 2.38 0 0 1 2.374 2.524l-.574 9.369H9.507zM5.129 14.379a2.38 2.38 0 0 0-2.379 2.378v1.85c0 .438.355.793.793.793h16.914a.793.793 0 0 0 .793-.793v-1.85a2.38 2.38 0 0 0-2.379-2.378zM19.929 20.457H4.07v1.322c0 .438.355.793.793.793h14.272a.793.793 0 0 0 .793-.793z" /></svg>;
+export default Stamp02Solid;

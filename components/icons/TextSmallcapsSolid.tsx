@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextSmallcapsSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M15 7V6H4v1a1 1 0 0 1-2 0V5a1 1 0 0 1 1-1h13a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0" /><path fill="currentColor" d="M9 19V5a1 1 0 0 1 2 0v14a1 1 0 1 1-2 0" /><path fill="currentColor" d="M12 18a1 1 0 1 1 0 2H8a1 1 0 1 1 0-2zM20 13h-4a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0" /><path fill="currentColor" d="M17 19v-7a1 1 0 1 1 2 0v7a1 1 0 1 1-2 0" /><path fill="currentColor" d="M19 18a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2z" /></svg>;
+export default TextSmallcapsSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HighlighterStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M11.305 17.932a.72.72 0 0 1-.51-.21l-.169-.17L9.1 19.079a1.68 1.68 0 0 1-1.77.388.7.7 0 0 1-.097.121l-.35.35a.72.72 0 0 1-.654.195l-2.251-.464a.72.72 0 0 1-.364-1.214l1.243-1.243a.7.7 0 0 1 .12-.097 1.68 1.68 0 0 1 .39-1.77l1.527-1.527-.17-.17a.72.72 0 0 1 0-1.018l8.145-8.146a2.16 2.16 0 0 1 3.055 0l2.037 2.037a2.16 2.16 0 0 1 0 3.054l-8.146 8.146a.72.72 0 0 1-.51.211m-1.697-1.398L7.91 14.837l-1.527 1.527a.24.24 0 0 0 0 .339l1.357 1.358a.24.24 0 0 0 .34 0zm1.527-.51.014.014.156.156 7.637-7.637a.72.72 0 0 0 0-1.018l-2.037-2.037a.72.72 0 0 0-1.018 0L8.25 13.14l.156.157.014.013z" clipRule="evenodd" /></svg>;
+export default HighlighterStroke;

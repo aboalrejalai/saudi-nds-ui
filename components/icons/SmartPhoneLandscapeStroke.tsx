@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SmartPhoneLandscapeStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.503 11.452a.75.75 0 0 1-1.004 1.115l-.01-.01a.75.75 0 0 1 1.002-1.115z" /><path fill="currentColor" fillRule="evenodd" d="M20.75 16.4a1.35 1.35 0 0 1-1.35 1.35H4.6a1.35 1.35 0 0 1-1.35-1.35V7.6c0-.746.604-1.35 1.35-1.35h14.8c.746 0 1.35.604 1.35 1.35zm-16-8.65v8.5h14.5v-8.5z" clipRule="evenodd" /></svg>;
+export default SmartPhoneLandscapeStroke;

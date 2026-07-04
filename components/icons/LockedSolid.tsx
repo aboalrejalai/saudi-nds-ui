@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LockedSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M5.5 3.25A2.25 2.25 0 0 0 3.25 5.5V8a.75.75 0 0 0 1.5 0V5.5a.75.75 0 0 1 .75-.75H8a.75.75 0 0 0 0-1.5zM16 3.25a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 1 .75.75V8a.75.75 0 0 0 1.5 0V5.5a2.25 2.25 0 0 0-2.25-2.25zM4.75 16a.75.75 0 0 0-1.5 0v2.5a2.25 2.25 0 0 0 2.25 2.25H8a.75.75 0 0 0 0-1.5H5.5a.75.75 0 0 1-.75-.75zM20.75 16a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 1-.75.75H16a.75.75 0 0 0 0 1.5h2.5a2.25 2.25 0 0 0 2.25-2.25zM11.512 7a2.64 2.64 0 0 0-2.64 2.64v.156A2.16 2.16 0 0 0 7 11.936v1.93a2.16 2.16 0 0 0 2.16 2.16h4.704a2.16 2.16 0 0 0 2.16-2.16v-1.93c0-1.095-.815-2-1.872-2.14V9.64A2.64 2.64 0 0 0 11.512 7m1.2 2.64v.137h-2.4V9.64a1.2 1.2 0 0 1 2.4 0" /></svg>;
+export default LockedSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ChartRoseSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10.783 1c2.964.213 5.747 1.388 7.85 3.314 2.101 1.925 3.384 4.475 3.617 7.19H10.783zM10.783 22v-8.74h9.543c-.228 2.247-1.306 4.351-3.049 5.947s-4.04 2.584-6.494 2.793M1.25 13.26h7.616v6.97c-1.943-.2-3.755-1-5.138-2.266S1.47 15.039 1.25 13.259M8.866 6.305v5.198H3.191c.209-1.31.874-2.524 1.896-3.461 1.023-.937 2.348-1.546 3.78-1.737" /></svg>;
+export default ChartRoseSolid;

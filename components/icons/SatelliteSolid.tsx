@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SatelliteSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6.371 3.366c.728-.112 1.329.086 1.898.472.508.346 1.038.875 1.646 1.483l8.648 8.647c.607.608 1.137 1.137 1.482 1.646.386.569.584 1.17.473 1.898a2.6 2.6 0 0 1-1.043 1.733c-1.583 1.14-3.866 1.638-5.767 1.638-2.82 0-5.577-1.142-7.571-3.136A10.78 10.78 0 0 1 3 10.174c0-1.904.497-4.181 1.639-5.765A2.6 2.6 0 0 1 6.37 3.366M19.001 2.381a2.5 2.5 0 1 1-.7 4.9l-1.725 4.698-1.558-1.559.812-2.21-2.312.71-1.6-1.6c1.567-.551 3.19-.98 4.777-1.469a2.5 2.5 0 0 1 2.306-3.47" /></svg>;
+export default SatelliteSolid;

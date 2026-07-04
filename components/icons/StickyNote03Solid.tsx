@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const StickyNote03Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.36 3.64C18.97 2.25 16.98 2.25 13 2.25h-2c-3.98 0-5.97 0-7.36 1.39S2.25 7.02 2.25 11v2c0 3.98 0 5.97 1.39 7.36s3.38 1.39 7.36 1.39h1.34c.89 0 1.38 0 1.89-.21.49-.2.84-.55 1.47-1.18l4.66-4.66c.63-.63.97-.98 1.18-1.48s.21-.99.21-1.88V11c0-3.98 0-5.97-1.39-7.36M4.7 4.7c.95-.95 2.74-.95 6.3-.95h2c3.56 0 5.35 0 6.3.95.55.55.78 1.38.88 2.68H3.82c.1-1.3.33-2.13.88-2.68m10.05 14.49c.01-2.09.07-3.19.66-3.78s1.69-.65 3.78-.66z" clipRule="evenodd" /></svg>;
+export default StickyNote03Solid;

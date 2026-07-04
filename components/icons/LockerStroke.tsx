@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LockerStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M9 13.25a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1 0-1.5zM16 13.25a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1 0-1.5z" /><path fill="currentColor" fillRule="evenodd" d="M20.4 1.25c.746 0 1.35.604 1.35 1.35v18.8a1.35 1.35 0 0 1-1.35 1.35H3.6a1.35 1.35 0 0 1-1.35-1.35V2.6c0-.746.604-1.35 1.35-1.35zm-16.65 20h7.5V2.75h-7.5zm9 0h7.5V2.75h-7.5z" clipRule="evenodd" /></svg>;
+export default LockerStroke;

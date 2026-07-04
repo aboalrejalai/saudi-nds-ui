@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WindowsNewSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.25 21.75h-.31c-1.83 0-3.29 0-4.43-.15-1.17-.16-2.12-.49-2.87-1.24s-1.08-1.7-1.24-2.87c-.15-1.14-.15-2.6-.15-4.43v-.31h9zM21.75 13.06c0 1.83 0 3.29-.15 4.43-.16 1.17-.49 2.12-1.24 2.87s-1.7 1.08-2.87 1.24c-1.14.15-2.6.15-4.43.15h-.31v-9h9zM11.25 11.25h-9v-.31c0-1.83 0-3.29.15-4.43.16-1.17.49-2.12 1.24-2.87s1.7-1.08 2.87-1.24c1.14-.15 2.6-.15 4.43-.15h.31zM13.06 2.25c1.83 0 3.29 0 4.43.15 1.17.16 2.12.49 2.87 1.24s1.08 1.7 1.24 2.87c.15 1.14.15 2.6.15 4.43v.31h-9v-9z" /></svg>;
+export default WindowsNewSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const RoadSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M5.141 3.943a2.25 2.25 0 0 1 2.243-2.068h9.233c1.172 0 2.148.9 2.243 2.068l1.257 15.5a2.25 2.25 0 0 1-2.243 2.432H6.127a2.25 2.25 0 0 1-2.243-2.432zm7.61 1.682a.75.75 0 0 0-1.5 0v1.563a.75.75 0 0 0 1.5 0zm0 4.688a.75.75 0 0 0-1.5 0v3.124a.75.75 0 0 0 1.5 0zm0 6.25a.75.75 0 0 0-1.5 0v1.562a.75.75 0 0 0 1.5 0z" /></svg>;
+export default RoadSolid;

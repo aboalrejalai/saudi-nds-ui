@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LockComputerSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.75 5.758A2.25 2.25 0 0 1 23 8.008v7.406a2.25 2.25 0 0 1-2.25 2.25h-7v2.25H16a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1 0-1.5h2.25v-2.25h-7A2.25 2.25 0 0 1 3 15.414v-2.002c.313.11.649.175 1 .175h5.1a3 3 0 0 0 3-3v-2.7a3 3 0 0 0-.887-2.13z" /><path fill="currentColor" d="M5.512 2.586a2.64 2.64 0 0 0-2.64 2.64v.156A2.16 2.16 0 0 0 1 7.522v1.93a2.16 2.16 0 0 0 2.16 2.16h4.704a2.16 2.16 0 0 0 2.16-2.16v-1.93c0-1.095-.815-2-1.872-2.14v-.156a2.64 2.64 0 0 0-2.64-2.64m1.2 2.64v.137h-2.4v-.137a1.2 1.2 0 0 1 2.4 0" /></svg>;
+export default LockComputerSolid;

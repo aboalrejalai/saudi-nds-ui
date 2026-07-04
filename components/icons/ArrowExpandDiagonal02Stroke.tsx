@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ArrowExpandDiagonal02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.309 6.52a.75.75 0 0 0-1.061 0L6.52 19.248a.75.75 0 0 0 1.06 1.06l5.834-5.833 3.847 3.846h-3.14a.75.75 0 0 0 0 1.5h4.95a.75.75 0 0 0 .75-.75v-4.95a.75.75 0 1 0-1.5 0v3.14l-3.846-3.847 5.833-5.833a.75.75 0 0 0 0-1.061M17.48 3.692a.75.75 0 0 0-1.06 0l-5.834 5.833L6.739 5.68h3.14a.75.75 0 1 0 0-1.5h-4.95a.75.75 0 0 0-.75.75v4.95a.75.75 0 1 0 1.5 0v-3.14l3.846 3.847-5.834 5.833a.75.75 0 0 0 1.061 1.061L17.48 4.752a.75.75 0 0 0 0-1.06" /></svg>;
+export default ArrowExpandDiagonal02Stroke;

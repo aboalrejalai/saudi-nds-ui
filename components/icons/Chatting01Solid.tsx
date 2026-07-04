@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Chatting01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M7.5 10.251a6.25 6.25 0 1 1-2.876 11.8l-2.212.412a.75.75 0 0 1-.874-.874l.411-2.212a6.25 6.25 0 0 1 5.55-9.126" /><path fill="currentColor" d="M14 1.251a8.75 8.75 0 0 1 7.716 12.879l.62 3.334a.75.75 0 0 1-.874.874l-3.334-.62a8.7 8.7 0 0 1-2.727.922l-.015.002h-.007l-.015.003-.048.005a8 8 0 0 1-.381.037 7.748 7.748 0 0 0-9.624-9.62l.003-.073.016-.167c.014-.133 0-.041.007-.067C5.9 4.5 9.735 1.25 14 1.25" /></svg>;
+export default Chatting01Solid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UnfoldMoreSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M6.3 8.295c.1.24.33.39.59.39h10.22c.26 0 .49-.16.59-.39a.65.65 0 0 0-.14-.7l-5.11-5.1a.634.634 0 0 0-.9 0l-5.11 5.11c-.18.18-.24.46-.14.7zM6.44 16.395l5.11 5.11c.25.25.65.25.9 0l5.11-5.11c.18-.18.24-.46.14-.7a.63.63 0 0 0-.59-.39H6.89c-.26 0-.49.16-.59.39-.1.24-.04.51.14.7" clipRule="evenodd" /></svg>;
+export default UnfoldMoreSolid;

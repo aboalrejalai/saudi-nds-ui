@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Chemistry01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.75 21a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h18a.75.75 0 0 1 .75.75M9.75 12a.75.75 0 0 1-.75.75H5a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75M19.75 12a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M9.75 3A.75.75 0 0 0 9 2.25H5a.75.75 0 0 0-.75.75v13a2.75 2.75 0 1 0 5.5 0zm-1.5.75V16a1.25 1.25 0 1 1-2.5 0V3.75zM19.75 3a.75.75 0 0 0-.75-.75h-4a.75.75 0 0 0-.75.75v13a2.75 2.75 0 1 0 5.5 0zm-1.5.75V16a1.25 1.25 0 1 1-2.5 0V3.75z" clipRule="evenodd" /></svg>;
+export default Chemistry01Stroke;

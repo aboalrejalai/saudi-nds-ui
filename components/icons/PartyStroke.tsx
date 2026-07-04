@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PartyStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 2a2.25 2.25 0 0 0-1.678 3.749 2.3 2.3 0 0 0-.351.532L3.983 18.778C3.268 20.27 4.356 22 6.013 22h11.975c1.656 0 2.745-1.729 2.029-3.222L14.029 6.28a2.3 2.3 0 0 0-.35-.532A2.25 2.25 0 0 0 12 2m-.75 2.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m.074 2.679a.75.75 0 0 1 1.353 0l2.07 4.321H9.253zm-2.79 5.821L6.979 16h10.045l-1.557-3.25zM6.26 17.5H17.74l.923 1.926a.75.75 0 0 1-.676 1.074H6.013a.75.75 0 0 1-.677-1.074z" clipRule="evenodd" /></svg>;
+export default PartyStroke;

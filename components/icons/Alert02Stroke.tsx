@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Alert02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M9.616 3.636c1.057-1.84 3.71-1.84 4.768 0l8.043 13.987c1.054 1.834-.27 4.121-2.384 4.121H3.957c-2.115 0-3.438-2.287-2.384-4.12zm3.467.747a1.25 1.25 0 0 0-2.167 0L2.873 18.371a1.25 1.25 0 0 0 1.084 1.873h16.086a1.25 1.25 0 0 0 1.083-1.873z" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M12 8.244a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0v-4a.75.75 0 0 1 .75-.75M12.511 16.436a.75.75 0 0 1 .056 1.059l-.01.01a.75.75 0 0 1-1.115-1.003l.01-.01a.75.75 0 0 1 1.06-.056" clipRule="evenodd" /></svg>;
+export default Alert02Stroke;

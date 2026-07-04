@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ApricotSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M8.941 1.178a.75.75 0 1 0 0 1.5c.854 0 1.384.446 1.74 1.106.277.512.423 1.12.48 1.637a13 13 0 0 0-1.661-.1c-4.142 0-7.25 4.07-7.25 8.75s3.108 8.75 7.25 8.75c.881 0 1.724-.19 2.501-.534a6.15 6.15 0 0 0 2.5.534c4.142 0 7.25-4.07 7.25-8.75s-3.108-8.75-7.25-8.75c-1.03-.004-1.446.021-1.832.12-.058-.706-.246-1.589-.668-2.37-.543-1.006-1.513-1.893-3.06-1.893" clipRule="evenodd" /></svg>;
+export default ApricotSolid;

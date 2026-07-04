@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const StreetFoodStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M7.5 1.25c2.07 0 3.75 1.68 3.75 3.75v9a3.75 3.75 0 0 1-3 3.675V22c0 .41-.34.75-.75.75s-.75-.34-.75-.75v-4.325a3.75 3.75 0 0 1-3-3.675V5c0-2.07 1.68-3.75 3.75-3.75m0 1.5C6.26 2.75 5.25 3.76 5.25 5v9c0 1.24 1.01 2.25 2.25 2.25S9.75 15.24 9.75 14V5c0-1.24-1.01-2.25-2.25-2.25M16.5 1.25c2.07 0 3.75 1.68 3.75 3.75v9a3.75 3.75 0 0 1-3 3.675V22c0 .41-.34.75-.75.75s-.75-.34-.75-.75v-4.325a3.75 3.75 0 0 1-3-3.675V5c0-2.07 1.68-3.75 3.75-3.75m0 1.5c-1.24 0-2.25 1.01-2.25 2.25v9c0 1.24 1.01 2.25 2.25 2.25s2.25-1.01 2.25-2.25V5c0-1.24-1.01-2.25-2.25-2.25" clipRule="evenodd" /></svg>;
+export default StreetFoodStroke;

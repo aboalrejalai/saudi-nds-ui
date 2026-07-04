@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Speaker01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M9.75 7.25a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0M12 6.5A.75.75 0 1 0 12 8a.75.75 0 0 0 0-1.5M12 11a4 4 0 1 0 0 8 4 4 0 0 0 0-8m-2.5 4a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M4.5 4.25A2.25 2.25 0 0 1 6.75 2h10.5a2.25 2.25 0 0 1 2.25 2.25v15.5A2.25 2.25 0 0 1 17.25 22H6.75a2.25 2.25 0 0 1-2.25-2.25zm2.25-.75a.75.75 0 0 0-.75.75v15.5c0 .414.336.75.75.75h10.5a.75.75 0 0 0 .75-.75V4.25a.75.75 0 0 0-.75-.75z" clipRule="evenodd" /></svg>;
+export default Speaker01Stroke;

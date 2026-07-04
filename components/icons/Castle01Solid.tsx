@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Castle01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6.394 9.126A2.127 2.127 0 0 1 4.267 7V3.127a2.127 2.127 0 0 1 4.254 0c0 .19.154.344.344.344h.64c.19 0 .344-.154.344-.344a2.127 2.127 0 1 1 4.253 0c0 .19.154.344.344.344h.64c.19 0 .344-.154.344-.344a2.127 2.127 0 0 1 4.253 0V7a2.127 2.127 0 0 1-2.127 2.126zM6.45 10.19 5.158 20.405h-.36a.797.797 0 1 0 0 1.595h14.354a.797.797 0 1 0 0-1.595h-.36L17.499 10.19zm3.265 7.95a2.26 2.26 0 0 1 4.52 0v2.265h-4.52z" /></svg>;
+export default Castle01Solid;

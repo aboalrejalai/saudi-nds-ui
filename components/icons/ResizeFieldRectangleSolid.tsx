@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ResizeFieldRectangleSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.254 1h-16.5c-1.52 0-2.75 1.24-2.75 2.75v16.5c0 1.52 1.23 2.75 2.75 2.75h16.5c1.52 0 2.75-1.23 2.75-2.75V3.75c0-1.51-1.23-2.75-2.75-2.75m-.76 13.75-5 5c-.15.15-.34.22-.53.22s-.38-.07-.53-.22a.754.754 0 0 1 0-1.06l5-5c.29-.29.77-.29 1.06 0s.29.77 0 1.06m0 4-1 1c-.15.15-.34.22-.53.22s-.38-.07-.53-.22a.754.754 0 0 1 0-1.06l1-1c.29-.29.77-.29 1.06 0s.29.77 0 1.06m0-8-9 9c-.15.15-.34.22-.53.22s-.38-.07-.53-.22a.754.754 0 0 1 0-1.06l9-9c.29-.29.77-.29 1.06 0s.29.77 0 1.06" /></svg>;
+export default ResizeFieldRectangleSolid;

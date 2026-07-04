@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WhiteboardStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 2.5a.75.75 0 0 1 .75.75V4.5h6.5a2.25 2.25 0 0 1 2.25 2.25V15a2.25 2.25 0 0 1-2.25 2.25h-3.157l1.117 3.257a.75.75 0 0 1-1.42.486l-1.283-3.743H9.493L8.21 20.993a.75.75 0 1 1-1.42-.486l1.117-3.257H4.75A2.25 2.25 0 0 1 2.5 15V6.75A2.25 2.25 0 0 1 4.75 4.5h6.5V3.25A.75.75 0 0 1 12 2.5M4.75 6h14.5a.75.75 0 0 1 .75.75V15a.75.75 0 0 1-.75.75H4.75A.75.75 0 0 1 4 15V6.75A.75.75 0 0 1 4.75 6" clipRule="evenodd" /></svg>;
+export default WhiteboardStroke;

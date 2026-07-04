@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TractorStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M3.774 4.297a.75.75 0 0 1 .75-.75h9.005a.75.75 0 0 1 0 1.5h-.72l1.11 4.691h1.854v-.772a2.25 2.25 0 0 1 2.25-2.25h.102a.75.75 0 0 1 0 1.5h-.102a.75.75 0 0 0-.75.75v.772h.792a2.25 2.25 0 0 1 2.25 2.25v2.796a3.071 3.071 0 1 1-4.707 2.647h-3.177a5.358 5.358 0 1 1-7.148-7.164v-5.22h-.759a.75.75 0 0 1-.75-.75m9.127 11.635h3.072a3.07 3.07 0 0 1 2.842-1.616v-2.328a.75.75 0 0 0-.75-.75H16.6a1 1 0 0 1-.152 0h-3.065l-.055.002H11.33a5.34 5.34 0 0 1 1.572 4.692M7.525 9.738h-.742V5.047h4.484l1.111 4.691H7.525m-.061 1.502a3.858 3.858 0 1 0 .288 0zm11.215 4.573a1.571 1.571 0 1 0 0 3.142 1.571 1.571 0 0 0 0-3.142" clipRule="evenodd" /></svg>;
+export default TractorStroke;

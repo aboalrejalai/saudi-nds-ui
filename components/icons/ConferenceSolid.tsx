@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ConferenceSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6.098 3.25a2.25 2.25 0 0 0-2.25 2.25v8.174q-.195.268-.308.59l-1.211 3.5a2.25 2.25 0 0 0 2.126 2.986h6.018a3.74 3.74 0 0 1-.823-2.344v-3.56c0-.777.236-1.498.64-2.096H5.666q-.16 0-.318.023V5.5a.75.75 0 0 1 .75-.75h11.5a.75.75 0 0 1 .75.75v5.76c.57.175 1.082.481 1.5.884V5.5a2.25 2.25 0 0 0-2.25-2.25z" /><path fill="currentColor" d="M11.15 14.846a2.25 2.25 0 0 1 2.25-2.25h3.848a2.25 2.25 0 0 1 2.25 2.25v.145l1.139-.743a.75.75 0 0 1 1.16.628v3.5a.75.75 0 0 1-1.16.628l-1.14-.743v.145a2.25 2.25 0 0 1-2.25 2.25H13.4a2.25 2.25 0 0 1-2.25-2.25z" /></svg>;
+export default ConferenceSolid;

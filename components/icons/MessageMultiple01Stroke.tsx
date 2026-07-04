@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MessageMultiple01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M7.5 10.25a6.25 6.25 0 1 1-2.876 11.801l-2.212.411a.75.75 0 0 1-.874-.874l.411-2.212A6.25 6.25 0 0 1 7.5 10.25m0 1.5a4.75 4.75 0 0 0-4.115 7.125c.09.154.12.337.088.513l-.26 1.4 1.4-.26a.75.75 0 0 1 .513.088A4.75 4.75 0 1 0 7.5 11.75" clipRule="evenodd" /><path fill="currentColor" d="M14 1.25a8.75 8.75 0 0 1 7.717 12.88l.62 3.333a.75.75 0 0 1-.874.874l-3.334-.62a8.7 8.7 0 0 1-2.728.922.75.75 0 0 1-.238-1.481 7.2 7.2 0 0 0 2.461-.877.75.75 0 0 1 .514-.088l2.524.47-.47-2.525a.75.75 0 0 1 .088-.514A7.25 7.25 0 1 0 6.824 8.956a.75.75 0 0 1-1.484-.213C5.95 4.506 9.594 1.25 14 1.25" /></svg>;
+export default MessageMultiple01Stroke;

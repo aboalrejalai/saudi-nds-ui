@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Edit01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.318 8.985a2.75 2.75 0 0 0 0-3.89l-1.414-1.414a2.75 2.75 0 0 0-3.89 0L3.92 14.777a2.75 2.75 0 0 0-.795 1.703l-.242 2.74a1.75 1.75 0 0 0 1.897 1.897l2.74-.242a2.75 2.75 0 0 0 1.703-.795zm-1.06-2.829a1.25 1.25 0 0 1 0 1.768l-.95.95-3.182-3.182.95-.95a1.25 1.25 0 0 1 1.767 0zm-5.193.596 3.182 3.182L8.16 19.02a1.25 1.25 0 0 1-.773.361l-2.74.242a.25.25 0 0 1-.272-.271l.242-2.74a1.25 1.25 0 0 1 .361-.774z" clipRule="evenodd" /></svg>;
+export default Edit01Stroke;

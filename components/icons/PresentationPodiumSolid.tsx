@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PresentationPodiumSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10.542 4.55a.72.72 0 0 0 0 1.44h8.895a.72.72 0 0 1 .72.72v7.2a.72.72 0 0 1-.72.72h-6.289a.72.72 0 1 0 0 1.44h6.29a2.16 2.16 0 0 0 2.16-2.16v-7.2a2.16 2.16 0 0 0-2.16-2.16zM6.335 4.626a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8" /><path fill="currentColor" d="M12.51 8.572c1.171-.751 2.71.09 2.71 1.482a1.76 1.76 0 0 1-.686 1.395l-3.266 2.517a.72.72 0 0 0-.28.57v2.255a2.16 2.16 0 0 1-2.16 2.16h-2.96l.835-4.175a.72.72 0 0 0-1.412-.283L4.4 18.945a2.16 2.16 0 0 1-1.998-2.154v-3.047a3.6 3.6 0 0 1 3.6-3.6h3.843a.7.7 0 0 0 .389-.114z" /></svg>;
+export default PresentationPodiumSolid;

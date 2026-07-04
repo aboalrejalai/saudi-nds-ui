@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Tablet02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M2.25 4A2.75 2.75 0 0 1 5 1.25h14A2.75 2.75 0 0 1 21.75 4v16A2.75 2.75 0 0 1 19 22.75H5A2.75 2.75 0 0 1 2.25 20zM19 21.25c.69 0 1.25-.56 1.25-1.25v-1.25h-7.5v2.5zm1.25-4V4c0-.69-.56-1.25-1.25-1.25H5c-.69 0-1.25.56-1.25 1.25v13.25zM3.75 20c0 .69.56 1.25 1.25 1.25h6.25v-2.5h-7.5z" clipRule="evenodd" /></svg>;
+export default Tablet02Stroke;

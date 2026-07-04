@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Note01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M18 1.75H6c-1.52 0-2.75 1.23-2.75 2.75v15c0 1.52 1.23 2.75 2.75 2.75h12c1.52 0 2.75-1.23 2.75-2.75v-15c0-1.52-1.23-2.75-2.75-2.75m-10 7h2c.41 0 .75.34.75.75s-.34.75-.75.75H8c-.41 0-.75-.34-.75-.75s.34-.75.75-.75m4 9.5H8c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h4c.41 0 .75.34.75.75s-.34.75-.75.75m4-4H8c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h8c.41 0 .75.34.75.75s-.34.75-.75.75" /></svg>;
+export default Note01Solid;

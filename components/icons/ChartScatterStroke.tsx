@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ChartScatterStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3.064 2.25c.45 0 .815.365.815.814v15.743c0 .45.364.814.814.814h15.743a.814.814 0 0 1 0 1.629H4.693a2.443 2.443 0 0 1-2.443-2.443V3.064c0-.45.365-.814.814-.814" /><path fill="currentColor" d="M8.75 8a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0m1.5 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0M12.75 15.5a1 1 0 1 0-2 0 1 1 0 0 0 2 0m1.5 0a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0M19.75 7.5a2 2 0 1 0-4 0 2 2 0 0 0 4 0m1.5 0a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0" /></svg>;
+export default ChartScatterStroke;

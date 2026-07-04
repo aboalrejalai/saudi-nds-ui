@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UploadSquare01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M18 6.75a.75.75 0 0 0 0-1.5H6a.75.75 0 0 0 0 1.5zM12 18.75a.75.75 0 0 0 .75-.75v-6.19l2.22 2.22a.75.75 0 1 0 1.06-1.06l-3.5-3.5a.75.75 0 0 0-1.06 0l-3.5 3.5a.75.75 0 1 0 1.06 1.06l2.22-2.22V18c0 .414.336.75.75.75" /><path fill="currentColor" fillRule="evenodd" d="M20.4 21.75a1.35 1.35 0 0 0 1.35-1.35V3.6a1.35 1.35 0 0 0-1.35-1.35H3.6A1.35 1.35 0 0 0 2.25 3.6v16.8c0 .746.604 1.35 1.35 1.35zm-16.65-18h16.5v16.5H3.75z" clipRule="evenodd" /></svg>;
+export default UploadSquare01Stroke;

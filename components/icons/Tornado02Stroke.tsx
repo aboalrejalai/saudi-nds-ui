@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Tornado02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M5.136 3.6a.72.72 0 0 1 .72-.72h12.72a.72.72 0 0 1 0 1.44H5.857a.72.72 0 0 1-.72-.72M7.003 6.48a.72.72 0 0 1 .72-.72h10.879a.72.72 0 1 1 0 1.44H7.723a.72.72 0 0 1-.72-.72M6.936 8.64a.72.72 0 0 0 0 1.44h10.22a.72.72 0 0 0 0-1.44zM4.83 12.24a.72.72 0 0 1 .72-.72h8.62a.72.72 0 1 1 0 1.44H5.55a.72.72 0 0 1-.72-.72M5.4 14.4a.72.72 0 1 0 0 1.44h5.103a.72.72 0 0 0 0-1.44zM6.117 18a.72.72 0 0 1 .72-.72h2.235a.72.72 0 1 1 0 1.44H6.837a.72.72 0 0 1-.72-.72M8.81 19.68a.72.72 0 1 0 0 1.44.72.72 0 0 0 0-1.44" /></svg>;
+export default Tornado02Stroke;

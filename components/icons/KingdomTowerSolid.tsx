@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const KingdomTowerSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M16.617 22.09H3.727c-.97 0-.97-1.5 0-1.5h3.33V3.75c0-.964.786-1.75 1.75-1.75h6.81c.964 0 1.75.786 1.75 1.75v16.84h3.33c.97 0 .97 1.5 0 1.5zM14.291 3.97l-.123-.01h-3.92c-.755 0-1.37.616-1.37 1.37l.003.072c.18 1.856.543 3.49 1.03 4.69.242.599.53 1.124.866 1.52.33.386.782.732 1.354.767h.003c.888.051 1.483-.654 1.829-1.217.383-.623.686-1.433.917-2.214.235-.79.409-1.6.519-2.25.055-.325.096-.616.12-.851.02-.2.037-.45.009-.632a1.6 1.6 0 0 0-.218-.6 1.4 1.4 0 0 0-.125-.172q-.027-.032-.049-.055l-.028-.029-.004-.003-.003-.003v.001a1.5 1.5 0 0 0-.81-.384" clipRule="evenodd" /></svg>;
+export default KingdomTowerSolid;

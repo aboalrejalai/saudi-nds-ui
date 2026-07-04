@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BookOpen01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 4.117a2.74 2.74 0 0 0-2-.867H2.6A1.35 1.35 0 0 0 1.25 4.6v13.114q0 .074.014.143A.75.75 0 0 0 2 18.75h8c.69 0 1.25.56 1.25 1.25a.75.75 0 0 0 1.5 0c0-.69.56-1.25 1.25-1.25h8a.75.75 0 0 0 .735-.894 1 1 0 0 0 .015-.143V4.6a1.35 1.35 0 0 0-1.35-1.35H14a2.74 2.74 0 0 0-2 .867m0 13.436a.75.75 0 0 0 .75-.75V6.75a.75.75 0 0 0-1.5 0v10.053c0 .414.336.75.75.75" clipRule="evenodd" /></svg>;
+export default BookOpen01Solid;

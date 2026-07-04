@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HeartAddSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M16.054 2c1.726 0 3.374.71 4.58 1.96A6.7 6.7 0 0 1 22.5 8.612a6.7 6.7 0 0 1-1.866 4.651c-.796.826-1.591 1.67-2.39 2.519-1.624 1.724-3.264 3.467-4.97 5.108l-.003.003a2.213 2.213 0 0 1-3.112-.068l-7.296-7.562c-2.485-2.576-2.485-6.726 0-9.303a6.33 6.33 0 0 1 8.886-.268A6.35 6.35 0 0 1 16.054 2M12 7a1 1 0 0 0-1 1v3H8a1 1 0 1 0 0 2h3v3a1 1 0 0 0 2 0v-3h3a1 1 0 0 0 0-2h-3V8a1 1 0 0 0-1-1" clipRule="evenodd" /></svg>;
+export default HeartAddSolid;

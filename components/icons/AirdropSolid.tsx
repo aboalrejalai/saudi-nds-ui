@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AirdropSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 3c6.075 0 11 4.925 11 11 0 2.476-.819 4.763-2.2 6.602a1 1 0 0 1-1.6-1.202A8.96 8.96 0 0 0 21 14a9 9 0 1 0-18 0c0 2.028.67 3.896 1.8 5.4a1 1 0 0 1-1.6 1.202A10.96 10.96 0 0 1 1 14C1 7.925 5.925 3 12 3" /><path fill="currentColor" d="M12 7a7 7 0 0 1 5.218 11.667 1 1 0 0 1-1.49-1.334 5 5 0 1 0-7.455 0 1 1 0 0 1-1.49 1.334A7 7 0 0 1 12 7" /><path fill="currentColor" d="M12 11.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5" /></svg>;
+export default AirdropSolid;

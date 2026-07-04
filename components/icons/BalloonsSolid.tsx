@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BalloonsSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.91 3.25a5.66 5.66 0 0 0-5.66 5.66c0 1.787.6 3.578 1.58 4.934.827 1.144 1.978 2.046 3.33 2.295V20a.75.75 0 0 0 1.5 0v-3.861a4.4 4.4 0 0 0 1.071-.347 5.5 5.5 0 0 0 1.498-1.06l.002-.002c.266-.26.511-.547.734-.85.995-1.362 1.605-3.168 1.605-4.97a5.653 5.653 0 0 0-5.66-5.66" /><path fill="currentColor" d="M14.854 5.903a6.6 6.6 0 0 1 .716 3.007c0 2.015-.677 4.027-1.798 5.56-.27.367-.575.72-.914 1.044.626.66 1.393 1.154 2.264 1.338V20a.75.75 0 0 0 1.5 0V16.85c1.132-.24 2.09-1.006 2.777-1.957a7.35 7.35 0 0 0 1.351-4.219 4.878 4.878 0 0 0-5.896-4.772" /></svg>;
+export default BalloonsSolid;

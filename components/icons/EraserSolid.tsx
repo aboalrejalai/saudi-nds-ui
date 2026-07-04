@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const EraserSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="m17.046 14.838-4.494 4.544h5.703a.75.75 0 0 1 0 1.5h-10.5a.75.75 0 0 1-.536-.226l-4.21-4.3a1.75 1.75 0 0 1 .004-2.463l.002-.001 6.542-6.543zM14.25 3.38c.405 0 .795.14 1.105.393l.128.116 5.003 5.003a1.75 1.75 0 0 1 .001 2.465l-2.035 2.058-7.481-7.481 2.044-2.043V3.89a1.75 1.75 0 0 1 1.235-.51" /></svg>;
+export default EraserSolid;

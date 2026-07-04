@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const RubberDuckSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.365 8.434a5.381 5.381 0 0 1 10.557-1.48h2.328a.75.75 0 0 1 .75.75c0 2.001-1.623 3.622-3.622 3.622h-.093a5.4 5.4 0 0 1-.639.815 5.381 5.381 0 0 1-4.15 8.803h-3.417C5.62 20.945 2 17.33 2 12.869c0-1.48.4-2.87 1.098-4.066a.75.75 0 0 1 1.135-.191 6.55 6.55 0 0 0 4.214 1.577l.06-.002h.15a5.4 5.4 0 0 1-.292-1.752m3.07 1.775a.75.75 0 1 0-.174 1.49 1.903 1.903 0 0 1-.225 3.791h-.795a3 3 0 0 1-3-3 .75.75 0 1 0-1.5 0 4.5 4.5 0 0 0 4.5 4.5h.795a3.402 3.402 0 0 0 .4-6.781" /></svg>;
+export default RubberDuckSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MessageDelay01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.371 9.621c.275.057.482.3.482.592v1.433h1.433a.605.605 0 0 1 0 1.21H12.25a.606.606 0 0 1-.605-.605v-2.038c0-.334.271-.604.605-.605z" /><path fill="currentColor" fillRule="evenodd" d="M12 1.25c5.937 0 10.75 4.813 10.75 10.75S17.937 22.75 12 22.75c-1.856 0-3.605-.471-5.13-1.3l-4.232.787a.75.75 0 0 1-.875-.875l.788-4.232A10.7 10.7 0 0 1 1.25 12C1.25 6.063 6.063 1.25 12 1.25m.251 7a4 4 0 1 0-.001 8 4 4 0 0 0 .001-8" clipRule="evenodd" /></svg>;
+export default MessageDelay01Solid;

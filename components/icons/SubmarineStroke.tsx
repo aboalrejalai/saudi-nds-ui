@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SubmarineStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.75 15a2.25 2.25 0 0 0-2.25-2.25H8.677l-2.842 1.42a.75.75 0 0 1-.959-.254l-.777-1.166H3.25v4.5h.849l.777-1.166.088-.108a.75.75 0 0 1 .871-.147l2.842 1.421H18.5A2.25 2.25 0 0 0 20.75 15m-10.209-3.75h4.918l-.5-1.5h-3.918zM22.25 15a3.75 3.75 0 0 1-3.75 3.75h-10a.75.75 0 0 1-.335-.08l-2.408-1.203-.633.949a.75.75 0 0 1-.624.334h-2a.75.75 0 0 1-.75-.75v-6a.75.75 0 0 1 .75-.75h2a.75.75 0 0 1 .624.334l.633.95 2.408-1.205.08-.034a.8.8 0 0 1 .255-.045h.459l.83-2.487a.75.75 0 0 1 .711-.513h1.25V7a1.75 1.75 0 0 1 1.75-1.75h1a.75.75 0 0 1 0 1.5h-1a.25.25 0 0 0-.25.25v1.25h2.25a.75.75 0 0 1 .712.513l.829 2.487H18.5A3.75 3.75 0 0 1 22.25 15" /></svg>;
+export default SubmarineStroke;

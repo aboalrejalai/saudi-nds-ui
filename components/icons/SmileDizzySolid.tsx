@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SmileDizzySolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 17.273c-2.258 0-3.725-1.318-4.242-2.713h8.485c-.517 1.395-1.984 2.713-4.242 2.713" /><path fill="currentColor" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2m-1.67 6.29-.85.851.85.851a.75.75 0 1 1-1.06 1.06l-.851-.85-.852.85a.75.75 0 1 1-1.06-1.06l.85-.851-.85-.85a.75.75 0 0 1 1.06-1.062l.852.851.85-.85a.75.75 0 0 1 1.061 1.06m7.163 0-.85.851.85.851a.75.75 0 0 1-1.06 1.06l-.852-.85-.85.85a.75.75 0 0 1-1.061-1.06l.85-.851-.85-.85a.75.75 0 1 1 1.06-1.061l.851.85.851-.85a.75.75 0 1 1 1.06 1.06M6.817 13.061h10.366a.75.75 0 0 1 .747.824c-.24 2.418-2.46 4.888-5.93 4.888s-5.69-2.47-5.93-4.888a.75.75 0 0 1 .747-.824" /></svg>;
+export default SmileDizzySolid;

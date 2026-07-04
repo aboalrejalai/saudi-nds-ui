@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UserArrowLeftRightSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M5.34 5.343a2.942 2.942 0 1 1 5.884 0 2.942 2.942 0 0 1-5.884 0M2.76 11.847a2.16 2.16 0 0 1 2.16-2.16h6.724a2.16 2.16 0 0 1 1.894 1.122 2.15 2.15 0 0 0-1.39.628l-2.036 2.036a2.16 2.16 0 0 0-.082 2.968 2.16 2.16 0 0 0 1.18 3.557A2.16 2.16 0 0 1 9.123 21.6H7.44a2.16 2.16 0 0 1-2.148-1.929l-.31-2.883-.684-.205a2.16 2.16 0 0 1-1.54-2.07z" /><path fill="currentColor" d="M14.185 12.455a.72.72 0 0 1 0 1.018l-.807.808h7.142a.72.72 0 0 1 0 1.44h-8.88a.72.72 0 0 1-.51-1.23l2.037-2.036a.72.72 0 0 1 1.018 0m4.596 6.146H11.64a.72.72 0 1 1 0-1.44h8.88a.72.72 0 0 1 .509 1.229l-2.037 2.036a.72.72 0 1 1-1.018-1.018z" /></svg>;
+export default UserArrowLeftRightSolid;

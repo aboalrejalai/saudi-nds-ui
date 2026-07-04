@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BubbleChatSearchSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 1.248q.543 0 1.074.053c.01 0 .784.082 1.604.376a4.75 4.75 0 0 0 5.19 7.371l.541.54c.59.59 1.425.782 2.176.58.066.426.111.75.112.756q.053.53.053 1.074c0 5.937-4.813 10.75-10.75 10.75-1.856 0-3.605-.471-5.13-1.3l-4.232.787a.75.75 0 0 1-.875-.875l.788-4.232a10.7 10.7 0 0 1-1.301-5.13c0-5.937 4.813-10.75 10.75-10.75" /><path fill="currentColor" fillRule="evenodd" d="M18.5 1.248a3.25 3.25 0 0 1 2.766 4.955l1.264 1.265a.75.75 0 1 1-1.06 1.06l-1.265-1.264A3.25 3.25 0 1 1 18.5 1.248m0 1.5a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5" clipRule="evenodd" /></svg>;
+export default BubbleChatSearchSolid;

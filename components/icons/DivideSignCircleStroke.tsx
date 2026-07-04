@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DivideSignCircleStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M17.41 11c.41 0 .75.34.75.75s-.34.75-.75.75H6.09c-.41 0-.75-.34-.75-.75s.34-.75.75-.75zM12.63 15.82c.49.49.49 1.28 0 1.77s-1.28.49-1.77 0a1.25 1.25 0 0 1 0-1.77 1.25 1.25 0 0 1 1.77 0M12.63 5.92c.49.49.49 1.28 0 1.77s-1.28.49-1.77 0a1.25 1.25 0 0 1 0-1.77 1.25 1.25 0 0 1 1.77 0" /><path fill="currentColor" fillRule="evenodd" d="M19.35 4.15c4.2 4.2 4.2 11 0 15.2s-11 4.2-15.2 0-4.2-11 0-15.2 11-4.2 15.2 0m-1.06 1.06c-3.61-3.61-9.47-3.61-13.08 0s-3.61 9.47 0 13.08 9.47 3.61 13.08 0 3.61-9.47 0-13.08" clipRule="evenodd" /></svg>;
+export default DivideSignCircleStroke;

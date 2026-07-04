@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FastWindStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10.558 3.6a3.12 3.12 0 0 0-3.12 3.12.72.72 0 0 0 1.44 0 1.68 1.68 0 1 1 1.68 1.68h-7.44a.72.72 0 0 0 0 1.44h7.44a3.12 3.12 0 1 0 0-6.24" /><path fill="currentColor" d="M15.358 9.6a3.12 3.12 0 1 1 3.12 3.12H3.118a.72.72 0 0 1 0-1.44h15.36a1.68 1.68 0 1 0-1.68-1.68.72.72 0 1 1-1.44 0M12.478 17.28a3.12 3.12 0 1 0 3.12-3.12H3.118a.72.72 0 0 0 0 1.44h12.48a1.68 1.68 0 1 1-1.68 1.68.72.72 0 1 0-1.44 0" /></svg>;
+export default FastWindStroke;

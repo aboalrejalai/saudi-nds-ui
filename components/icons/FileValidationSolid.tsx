@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FileValidationSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M16.252 1.25c.358 0 .701.142.954.396l3.149 3.148c.253.253.395.596.395.954V21.4a1.35 1.35 0 0 1-1.35 1.35H4.6a1.35 1.35 0 0 1-1.35-1.35V2.6c0-.746.604-1.35 1.35-1.35zm1.18 8.354a1.097 1.097 0 0 0-1.614 0l-5.444 5.805-1.692-1.806a1.1 1.1 0 0 0-1.614 0 1.2 1.2 0 0 0 0 1.627l2.5 2.666c.442.471 1.172.471 1.614 0l6.25-6.667a1.2 1.2 0 0 0 0-1.625M16.75 5.25h1.94l-1.94-1.94z" clipRule="evenodd" /></svg>;
+export default FileValidationSolid;

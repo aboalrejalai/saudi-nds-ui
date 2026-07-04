@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BoundingBoxSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20 22.75a2.75 2.75 0 0 0 1-5.31v-2.88A2.75 2.75 0 1 0 17.44 11h-2.88A2.75 2.75 0 0 0 13 9.44V6.56A2.75 2.75 0 1 0 9.44 3H6.56A2.748 2.748 0 1 0 3 6.56v2.88A2.748 2.748 0 1 0 6.56 13h2.88c.28.714.846 1.282 1.56 1.56v2.88A2.748 2.748 0 1 0 14.56 21h2.88A2.75 2.75 0 0 0 20 22.75M6.56 11A2.75 2.75 0 0 0 5 9.44V6.56A2.75 2.75 0 0 0 6.56 5h2.88c.28.714.846 1.282 1.56 1.56v2.88A2.75 2.75 0 0 0 9.44 11zm8 8A2.75 2.75 0 0 0 13 17.44v-2.88A2.75 2.75 0 0 0 14.56 13h2.88c.28.714.846 1.282 1.56 1.56v2.88A2.75 2.75 0 0 0 17.44 19z" clipRule="evenodd" /></svg>;
+export default BoundingBoxSolid;

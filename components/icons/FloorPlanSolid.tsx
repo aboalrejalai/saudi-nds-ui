@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FloorPlanSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.4 2.25c.746 0 1.35.604 1.35 1.35v16.8a1.35 1.35 0 0 1-1.35 1.35H3.6a1.35 1.35 0 0 1-1.35-1.35V3.6c0-.746.604-1.35 1.35-1.35zM3.75 3.75v16.5h16.5V3.75H3.75" clipRule="evenodd" /><path fill="currentColor" d="M3.75 10.25h6.5V9a.75.75 0 0 1 1.5 0v7a.75.75 0 0 1-1.5 0v-4.25h-6.5v8.5h6.5V19a.75.75 0 0 1 1.5 0v1.25h2.5V18a.75.75 0 0 1 1.5 0v2.25h4.5v-4.5H15a.75.75 0 0 1-.75-.75v-2a.75.75 0 0 1 1.5 0v1.25h4.5v-5.5h-4.5V10a.75.75 0 0 1-1.5 0V8a.75.75 0 0 1 .75-.75h5.25v-3.5h-8.5V6a.75.75 0 0 1-1.5 0V3.75h-6.5z" /></svg>;
+export default FloorPlanSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ArrowDataTransferDiagonalStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.66 21.375a.75.75 0 1 1-1.067-1.054L19.292 8.416l-4.69.03a.75.75 0 1 1-.01-1.5l6.5-.04a.75.75 0 0 1 .755.744l.04 6.5a.75.75 0 1 1-1.5.01l-.028-4.69z" /><path fill="currentColor" d="M16.47 3.283a.75.75 0 1 0-1.054-1.067L3.51 13.915l.03-4.69a.75.75 0 0 0-1.5-.01L2 15.716a.75.75 0 0 0 .745.755l6.5.04a.75.75 0 1 0 .01-1.5l-4.69-.028z" /></svg>;
+export default ArrowDataTransferDiagonalStroke;

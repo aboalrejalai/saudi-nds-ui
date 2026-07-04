@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WorrySolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12m6.75-2.715a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5m7.75 1.25a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0m-8.44 5.771c-.21.25-.23.6-.06.87s.49.41.81.34l.078-.015c.376-.079 2.031-.425 3.113-.425s2.736.346 3.112.425l.078.015.022.004a.74.74 0 0 0 .788-.354c.17-.28.14-.63-.08-.88-2.003-2.291-5.875-2.353-7.86.02" /></svg>;
+export default WorrySolid;

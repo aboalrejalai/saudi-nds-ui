@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PathfinderMergeStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M14.417 3.379a.13.13 0 0 0-.13-.129H3.38a.13.13 0 0 0-.129.129v10.908c0 .071.058.13.129.13h5.454a.75.75 0 0 1 .75.75v5.454a.13.13 0 0 0 .13.129H20.62a.13.13 0 0 0 .129-.129V9.713a.13.13 0 0 0-.129-.13h-5.454a.75.75 0 0 1-.75-.75zm1.5 4.704h4.704c.9 0 1.629.73 1.629 1.63V20.62c0 .9-.73 1.629-1.629 1.629H9.713c-.9 0-1.63-.73-1.63-1.629v-4.704H3.379c-.9 0-1.629-.73-1.629-1.63V3.38c0-.9.73-1.629 1.629-1.629h10.908c.9 0 1.63.73 1.63 1.629z" /></svg>;
+export default PathfinderMergeStroke;

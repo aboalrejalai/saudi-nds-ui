@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Facebook01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16 3.75A4.25 4.25 0 0 1 20.25 8v8A4.25 4.25 0 0 1 16 20.25h-4.25v-6.5H15a.75.75 0 0 0 0-1.5h-3.25V12c0-1.076.133-1.849.53-2.361.363-.469 1.087-.889 2.72-.889a.75.75 0 0 0 0-1.5c-1.867 0-3.143.486-3.905 1.47-.728.941-.845 2.169-.845 3.28v.25H9a.75.75 0 0 0 0 1.5h1.25v6.5H8A4.25 4.25 0 0 1 3.75 16V8A4.25 4.25 0 0 1 8 3.75z" /></svg>;
+export default Facebook01Solid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const OrangeSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.75 2.78v7.41l3.72-3.72a.75.75 0 1 1 1.06 1.06l-3.72 3.72H19a.75.75 0 0 1 0 1.5h-5.305l3.86 4.246a.75.75 0 0 1-1.11 1.009L12.75 13.94v7.28c4.739-.386 8.5-4.387 8.5-9.22s-3.761-8.834-8.5-9.22M11.25 2.78c-4.739.386-8.5 4.387-8.5 9.22s3.761 8.834 8.5 9.22z" /><path fill="currentColor" fillRule="evenodd" d="M2.75 12c0-4.833 3.761-8.834 8.5-9.22h1.5c4.739.386 8.5 4.387 8.5 9.22s-3.761 8.834-8.5 9.22h-1.5c-4.739-.386-8.5-4.387-8.5-9.22M12 1.25C6.086 1.25 1.25 6.086 1.25 12S6.086 22.75 12 22.75 22.75 17.914 22.75 12 17.914 1.25 12 1.25" clipRule="evenodd" /></svg>;
+export default OrangeSolid;

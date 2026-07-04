@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DrawingModeStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M14.5 2.25a7.25 7.25 0 0 1 5.127 12.377c-1 1-2.264 1.676-3.627 1.964v-1.543A5.75 5.75 0 0 0 20.25 9.5 5.75 5.75 0 0 0 8.951 8H7.408A7.25 7.25 0 0 1 14.5 2.25" /><path fill="currentColor" d="M15.25 9.625a.876.876 0 0 0-.875-.875h-9.75a.876.876 0 0 0-.875.875v9.75a.875.875 0 0 0 .875.875h9.75a.875.875 0 0 0 .875-.875zm1.5 9.75a2.375 2.375 0 0 1-2.375 2.375h-9.75a2.375 2.375 0 0 1-2.375-2.375v-9.75A2.375 2.375 0 0 1 4.625 7.25h9.75a2.375 2.375 0 0 1 2.375 2.375z" /></svg>;
+export default DrawingModeStroke;

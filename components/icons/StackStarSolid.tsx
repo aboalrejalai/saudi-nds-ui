@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const StackStarSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="m11.49 10.246.51-1.57.51 1.57c.17.52.65.86 1.19.86h1.65l-1.34.97c-.44.32-.62.88-.45 1.4l.51 1.57-1.34-.97c-.44-.32-1.03-.32-1.47 0l-1.34.97.51-1.57c.17-.52-.02-1.08-.45-1.4l-1.34-.97h1.65c.54 0 1.02-.35 1.19-.86z" /><path fill="currentColor" d="M4.65 3.246c-.77 0-1.4.63-1.4 1.4v14.71c0 .77.63 1.4 1.4 1.4h14.7c.77 0 1.4-.63 1.4-1.4V4.646c0-.77-.63-1.4-1.4-1.4zm8.54 4.24.69 2.13h2.24c1.21 0 1.71 1.55.73 2.26l-1.81 1.32.69 2.13c.37 1.15-.94 2.11-1.92 1.4L12 15.406l-1.81 1.32c-.98.71-2.3-.25-1.92-1.4l.69-2.13-1.81-1.32c-.98-.71-.48-2.26.73-2.26h2.24l.69-2.13c.37-1.15 2-1.15 2.38 0" /></svg>;
+export default StackStarSolid;

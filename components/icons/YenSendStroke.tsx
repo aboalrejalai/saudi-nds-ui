@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const YenSendStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10.394 6.059a.75.75 0 0 1 1.212.882L8.11 11.75H11a.75.75 0 0 1 0 1.5H7.75v.5H11a.75.75 0 0 1 0 1.5H7.75v2.25a.75.75 0 0 1-1.5 0v-2.25H3a.75.75 0 0 1 0-1.5h3.25v-.5H3a.75.75 0 0 1 0-1.5h2.89L2.395 6.941a.75.75 0 0 1 1.212-.882L7 10.725zM16.64 6.959a.75.75 0 0 1 1.061.021l3.84 4a.75.75 0 0 1 0 1.04l-3.84 4a.75.75 0 0 1-1.082-1.04l2.621-2.73H13a.75.75 0 0 1 0-1.5h6.24l-2.62-2.73a.75.75 0 0 1 .02-1.061" /></svg>;
+export default YenSendStroke;

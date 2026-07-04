@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ArrowExpandSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.28 13.78a.75.75 0 0 0-1.06-1.06L6.498 16.44 3.835 13.78a.749.749 0 0 0-1.335.47v6.5c0 .414.336.75.75.75h6.5a.75.75 0 0 0 .557-1.253l-2.748-2.746zM12.72 13.78a.75.75 0 1 1 1.06-1.06l3.722 3.721 2.663-2.661a.748.748 0 0 1 1.335.47v6.5a.75.75 0 0 1-.75.75h-6.5a.75.75 0 0 1-.557-1.253l2.748-2.746zM12.72 10.22a.75.75 0 1 0 1.06 1.06l3.725-3.725 2.66 2.665a.748.748 0 0 0 1.335-.47v-6.5a.75.75 0 0 0-.75-.75h-6.5a.75.75 0 0 0-.62 1.172l2.816 2.821zM11.28 10.22a.75.75 0 0 1-1.06 1.06L6.494 7.555l-2.66 2.665A.749.749 0 0 1 2.5 9.75v-6.5a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 .62 1.172L7.554 6.493z" /></svg>;
+export default ArrowExpandSolid;

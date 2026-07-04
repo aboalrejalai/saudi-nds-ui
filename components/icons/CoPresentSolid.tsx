@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CoPresentSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M4.56 2.385a2.16 2.16 0 0 0-2.16 2.16v10.08a2.16 2.16 0 0 0 2.16 2.16h6.72v1.275l-3.586 2.19a.72.72 0 1 0 .75 1.23l2.836-1.732v1.146a.72.72 0 0 0 1.44 0v-1.145l2.835 1.73a.72.72 0 1 0 .75-1.228l-3.585-2.19v-1.276h6.72a2.16 2.16 0 0 0 2.16-2.16V4.545a2.16 2.16 0 0 0-2.16-2.16zM12 5.739a1.792 1.792 0 1 1 0 3.583 1.792 1.792 0 0 1 0-3.583m-3.314 6.078c0-1.186.962-2.149 2.149-2.149h2.33c1.188 0 2.15.963 2.15 2.15v.892a.72.72 0 0 1-.72.72h-5.19a.72.72 0 0 1-.72-.72z" /></svg>;
+export default CoPresentSolid;

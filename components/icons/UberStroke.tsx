@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UberStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 1.15c5.992 0 10.85 4.858 10.85 10.85S17.992 22.85 12 22.85 1.15 17.992 1.15 12 6.008 1.15 12 1.15m0 1.7c-4.767 0-8.677 3.646-9.105 8.3H8.15v-.65a2.35 2.35 0 0 1 2.35-2.35h3a2.35 2.35 0 0 1 2.35 2.35v3a2.35 2.35 0 0 1-2.35 2.35h-3a2.35 2.35 0 0 1-2.35-2.35v-.65H2.895c.428 4.655 4.338 8.3 9.105 8.3a9.15 9.15 0 0 0 0-18.3m-1.5 7a.65.65 0 0 0-.65.65v3c0 .359.291.65.65.65h3a.65.65 0 0 0 .65-.65v-3a.65.65 0 0 0-.65-.65z" clipRule="evenodd" /></svg>;
+export default UberStroke;

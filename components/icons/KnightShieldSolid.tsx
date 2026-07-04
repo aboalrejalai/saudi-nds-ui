@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const KnightShieldSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="m13.81 22.31-.03.02c-.65.26-1.05.42-1.78.42s-1.16-.17-1.77-.42l-.03-.02c-6.29-2.54-8.84-9.05-7.67-15.89 0-.01 0-.02.01-.03.05-.3.09-.56.15-.77.06-.25.16-.48.35-.69.22-.26.5-.41.77-.51.22-.09.5-.18.83-.29.07-.03.16-.06.24-.09.71-.24 1.36-.61 2.1-1.04.31-.18.63-.37.97-.56 1.13-.61 2.44-1.19 4.05-1.19s2.92.58 4.05 1.19c.35.19.67.38.97.56.74.43 1.39.8 2.1 1.04h.03c.42.15.78.27 1.04.39.26.1.56.25.78.5.18.21.28.43.34.68.06.21.11.47.16.78v.03c1.17 6.84-1.37 13.35-7.66 15.89" clipRule="evenodd" /></svg>;
+export default KnightShieldSolid;

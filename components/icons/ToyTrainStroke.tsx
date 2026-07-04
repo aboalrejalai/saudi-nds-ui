@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ToyTrainStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.1 15.25a.9.9 0 1 1 1.8 0 .9.9 0 0 1-1.8 0M15 14.35a.9.9 0 1 0 0 1.8.9.9 0 0 0 0-1.8" /><path fill="currentColor" fillRule="evenodd" d="M9.125 2.625a5.25 5.25 0 0 0-5.25 5.25v8.75a2.25 2.25 0 0 0 2.25 2.25h.69l-1.22 1.22a.75.75 0 1 0 1.06 1.06l2.28-2.28h6.13l2.28 2.28a.75.75 0 1 0 1.06-1.06l-1.22-1.22h.69a2.25 2.25 0 0 0 2.25-2.25v-8.75c0-2.9-2.35-5.25-5.25-5.25zm9.425 4.5a3.75 3.75 0 0 0-3.675-3h-.125v.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1-.75-.75v-.75h-.125a3.75 3.75 0 0 0-3.675 3zm-13.175 1.5h13.25v3H5.375zm0 8v-3.5h13.25v3.5a.75.75 0 0 1-.75.75H6.125a.75.75 0 0 1-.75-.75" clipRule="evenodd" /></svg>;
+export default ToyTrainStroke;

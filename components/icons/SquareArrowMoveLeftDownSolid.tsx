@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SquareArrowMoveLeftDownSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M18.372 22A3.63 3.63 0 0 0 22 18.372V5.628A3.63 3.63 0 0 0 18.372 2H5.628A3.63 3.63 0 0 0 2 5.628v12.744A3.63 3.63 0 0 0 5.628 22zM6.216 9.839l2.226 2.011a.75.75 0 0 0 1.006-1.113l-.883-.797h.556a5.456 5.456 0 0 1 5.457 5.456l-.855-.827a.75.75 0 1 0-1.043 1.078l2.155 2.086a.75.75 0 0 0 1.06-.017l2.087-2.156a.75.75 0 1 0-1.077-1.043l-.828.855a6.93 6.93 0 0 0-6.93-6.93H8.49l.798-.883a.75.75 0 0 0-1.113-1.005L6.163 8.78a.75.75 0 0 0 .053 1.059" clipRule="evenodd" /></svg>;
+export default SquareArrowMoveLeftDownSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Tongue01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10 9.234a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0M15.25 7.984a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5" /><path fill="currentColor" fillRule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 5.48 4.408 9.93 9.871 10a4 4 0 0 0 .26 0C17.593 21.93 22 17.48 22 12c0-5.523-4.477-10-10-10m3.607 16.395c0 .51-.106.997-.298 1.437A8.502 8.502 0 0 0 12 3.5a8.5 8.5 0 0 0-3.308 16.332 3.6 3.6 0 0 1-.297-1.437v-.704c-1.358-.944-2.184-2.383-2.325-3.804a.75.75 0 0 1 .746-.825h10.367a.75.75 0 0 1 .746.825c-.14 1.42-.965 2.858-2.322 3.802zm-5.712-3.832h4.212v3.832a2.106 2.106 0 0 1-4.212 0z" clipRule="evenodd" /></svg>;
+export default Tongue01Stroke;

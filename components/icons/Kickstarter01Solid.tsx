@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Kickstarter01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M7 2.15c2.04 0 3.85 1.507 3.85 3.55v1.81l3.021-3.88c1.234-1.586 3.597-1.935 5.303-.86 1.753 1.105 2.233 3.356.954 5L16.838 12l3.29 4.23c1.28 1.644.8 3.895-.954 5-1.706 1.075-4.069.726-5.303-.86l-3.02-3.882V18.3c0 2.043-1.812 3.55-3.851 3.55-2.04 0-3.85-1.507-3.85-3.55V5.7c0-2.043 1.81-3.55 3.85-3.55" /></svg>;
+export default Kickstarter01Solid;

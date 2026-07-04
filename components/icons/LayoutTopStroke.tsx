@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LayoutTopStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.4 10.75a1.35 1.35 0 0 0 1.35-1.35V3.6a1.35 1.35 0 0 0-1.35-1.35H3.6A1.35 1.35 0 0 0 2.25 3.6v5.8c0 .746.604 1.35 1.35 1.35zm-16.65-7h16.5v5.5H3.75zM9.4 21.75a1.35 1.35 0 0 0 1.35-1.35v-5.8a1.35 1.35 0 0 0-1.35-1.35H3.6a1.35 1.35 0 0 0-1.35 1.35v5.8c0 .746.604 1.35 1.35 1.35zm-5.65-7h5.5v5.5h-5.5zM20.4 21.75a1.35 1.35 0 0 0 1.35-1.35v-5.8a1.35 1.35 0 0 0-1.35-1.35h-5.8a1.35 1.35 0 0 0-1.35 1.35v5.8c0 .746.604 1.35 1.35 1.35zm-5.65-7h5.5v5.5h-5.5z" clipRule="evenodd" /></svg>;
+export default LayoutTopStroke;

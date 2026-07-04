@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PlusSignCircleStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16.2 11.75c0 .45-.37.81-.81.81h-2.84v2.83c0 .45-.36.81-.81.81s-.81-.36-.81-.81v-2.83H8.1c-.45 0-.81-.36-.81-.81s.36-.81.81-.81h2.83V8.1a.811.811 0 0 1 1.62 0v2.84h2.84c.44 0 .81.36.81.81" /><path fill="currentColor" fillRule="evenodd" d="M11.75 1C17.69 1 22.5 5.81 22.5 11.75S17.69 22.5 11.75 22.5 1 17.69 1 11.75 5.81 1 11.75 1m0 1.5c-5.11 0-9.25 4.14-9.25 9.25S6.64 21 11.75 21 21 16.86 21 11.75 16.86 2.5 11.75 2.5" clipRule="evenodd" /></svg>;
+export default PlusSignCircleStroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Home07Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20 10.215a.75.75 0 0 1 .75.75v8a2.75 2.75 0 0 1-2.75 2.75H6a2.75 2.75 0 0 1-2.75-2.75v-8a.75.75 0 0 1 1.5 0v8c0 .69.56 1.25 1.25 1.25h12c.69 0 1.25-.56 1.25-1.25v-8a.75.75 0 0 1 .75-.75" /><path fill="currentColor" d="M12 12.215a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0v-4a.75.75 0 0 1 .75-.75M11.397 2.428c.38-.19.826-.19 1.207 0l9.73 4.866a.75.75 0 1 1-.669 1.342L12 3.803 2.335 8.636a.75.75 0 0 1-.67-1.342z" /></svg>;
+export default Home07Stroke;

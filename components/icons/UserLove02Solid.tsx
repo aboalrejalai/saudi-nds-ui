@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UserLove02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.255 2.264a4.345 4.345 0 1 0 0 8.689 4.345 4.345 0 0 0 0-8.69M8.188 12.453a5.25 5.25 0 0 0-5.25 5.25v1.31a2.25 2.25 0 0 0 2.25 2.25h7.369l-2.055-2.055a4.454 4.454 0 0 1 .535-6.755z" /><path fill="currentColor" d="M15.739 13.97a2.954 2.954 0 1 0-4.177 4.178l3.078 3.077a1.75 1.75 0 0 0 2.474.001l3.082-3.078a2.954 2.954 0 0 0-4.177-4.177l-.14.14z" /></svg>;
+export default UserLove02Solid;

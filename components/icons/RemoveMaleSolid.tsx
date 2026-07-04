@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const RemoveMaleSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M5.342 5.34a2.942 2.942 0 1 1 5.884 0 2.942 2.942 0 0 1-5.884 0M2.762 11.845a2.16 2.16 0 0 1 2.16-2.16h6.724c.662 0 1.255.298 1.651.768a6.6 6.6 0 0 0-2.345 10.138A2.16 2.16 0 0 1 9.125 21.6H7.443a2.16 2.16 0 0 1-2.148-1.929l-.31-2.883-.684-.205a2.16 2.16 0 0 1-1.54-2.069z" /><path fill="currentColor" d="M16.082 11.279a5.16 5.16 0 1 0 0 10.32 5.16 5.16 0 0 0 0-10.32m-1.874 3.286a.72.72 0 0 1 1.018 0l.855.855.856-.855a.72.72 0 1 1 1.018 1.018l-.855.856.855.855a.72.72 0 0 1-1.018 1.018l-.856-.855-.855.855a.72.72 0 1 1-1.018-1.018l.855-.855-.855-.856a.72.72 0 0 1 0-1.018" /></svg>;
+export default RemoveMaleSolid;

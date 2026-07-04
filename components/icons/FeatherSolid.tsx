@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FeatherSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.004 9.578v6.415h6.415L11.71 18.7a1 1 0 0 1-.111.097l-.11.071-.114.054-.105.035-.15.03-.117.006H6.419L4.711 20.7a1 1 0 1 1-1.414-1.414l1.707-1.709v-4.584l.003-.075.017-.126.03-.11.044-.112.052-.098.067-.096.08-.09z" /><path fill="currentColor" d="m19.419 10.993-3 3h-4.914l2.913-3zM13.005 4.58v4.997l-3 3V7.578zM16.487 2.993a4.515 4.515 0 0 1 4.518 4.514c0 .505-.08 1.008-.24 1.487h-5.76v-5.76c.468-.159.967-.24 1.481-.24" /></svg>;
+export default FeatherSolid;

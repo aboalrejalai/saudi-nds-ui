@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BatteryEmptySolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M18 5.25A2.75 2.75 0 0 1 20.75 8v8A2.75 2.75 0 0 1 18 18.75H3A2.75 2.75 0 0 1 .25 16V8A2.75 2.75 0 0 1 3 5.25zM3 6.75c-.69 0-1.25.56-1.25 1.25v8c0 .69.56 1.25 1.25 1.25h15c.69 0 1.25-.56 1.25-1.25V8c0-.69-.56-1.25-1.25-1.25z" clipRule="evenodd" /><path fill="currentColor" d="M23 9.25a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0v-4a.75.75 0 0 1 .75-.75M3 6.75c-.69 0-1.25.56-1.25 1.25v8c0 .69.56 1.25 1.25 1.25h15c.69 0 1.25-.56 1.25-1.25V8c0-.69-.56-1.25-1.25-1.25z" /></svg>;
+export default BatteryEmptySolid;

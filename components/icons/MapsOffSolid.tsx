@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MapsOffSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M22.216 13.806a1.046 1.046 0 0 1 1.478 1.477l-2.217 2.218 2.217 2.216a1.046 1.046 0 0 1-1.478 1.477L20 18.978l-2.217 2.216a1.045 1.045 0 0 1-1.477-1.477l2.216-2.216-2.216-2.218a1.045 1.045 0 0 1 1.477-1.477L20 16.023zM5.454 19.71 0 21.5V4.29L5.454 2.5zM12.728 4.29V21.5l-5.456-1.79V2.5z" /><path fill="currentColor" d="M20 15.315h-.001l-1.862-1.863-.117-.105a1.545 1.545 0 0 0-1.95 0l-.118.105a1.545 1.545 0 0 0 0 2.185l1.862 1.864-1.862 1.862a1.545 1.545 0 0 0-.294 1.772l-1.112.365V4.29L20 2.5zM20 19.686v.024l-.04.013.039-.038z" /></svg>;
+export default MapsOffSolid;

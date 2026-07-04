@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TransitionTopStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.75 17A3.75 3.75 0 0 0 18 13.25h-5.25V7.81l1.72 1.72a.75.75 0 1 0 1.06-1.06l-3-3a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 1 0 1.06 1.06l1.72-1.72v5.44H6A3.75 3.75 0 0 0 2.25 17v2A3.75 3.75 0 0 0 6 22.75h12A3.75 3.75 0 0 0 21.75 19zm-1.5 2A2.25 2.25 0 0 1 18 21.25H6A2.25 2.25 0 0 1 3.75 19v-2A2.25 2.25 0 0 1 6 14.75h12A2.25 2.25 0 0 1 20.25 17z" clipRule="evenodd" /><path fill="currentColor" d="M21.75 6A4.75 4.75 0 0 0 17 1.25H7A4.75 4.75 0 0 0 2.25 6v2a.75.75 0 0 0 1.5 0V6A3.25 3.25 0 0 1 7 2.75h10A3.25 3.25 0 0 1 20.25 6v2a.75.75 0 0 0 1.5 0z" /></svg>;
+export default TransitionTopStroke;

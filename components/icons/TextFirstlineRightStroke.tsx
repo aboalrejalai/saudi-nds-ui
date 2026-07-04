@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextFirstlineRightStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M9.25 6A.25.25 0 0 0 9 5.75H5a.25.25 0 0 0-.25.25v4a.25.25 0 0 0 .25.25h4a.25.25 0 0 0 .25-.25zm1.5 4A1.75 1.75 0 0 1 9 11.75H5A1.75 1.75 0 0 1 3.25 10V6A1.75 1.75 0 0 1 5 4.25h4A1.75 1.75 0 0 1 10.75 6zM20 6.25a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1 0-1.5zM20 10.25a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1 0-1.5zM20 14.25a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5zM20 18.25a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5z" /></svg>;
+export default TextFirstlineRightStroke;

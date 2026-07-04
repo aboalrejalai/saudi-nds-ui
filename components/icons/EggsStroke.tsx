@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const EggsStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 1.25c1.328 0 2.542.57 3.588 1.422 1.045.851 1.96 2.014 2.715 3.289 1.5 2.537 2.447 5.668 2.447 8.039a8.75 8.75 0 1 1-17.5 0c0-2.371.947-5.502 2.447-8.04.754-1.274 1.67-2.437 2.715-3.288C9.458 1.82 10.672 1.25 12 1.25m0 1.5c-.882 0-1.772.377-2.64 1.085-.87.708-1.678 1.717-2.372 2.89C5.593 9.083 4.75 11.953 4.75 14a7.25 7.25 0 1 0 14.5 0c0-2.047-.843-4.917-2.238-7.275-.694-1.173-1.502-2.182-2.371-2.89S12.88 2.75 12 2.75" clipRule="evenodd" /></svg>;
+export default EggsStroke;

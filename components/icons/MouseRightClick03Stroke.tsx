@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MouseRightClick03Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M13 1.25A7.75 7.75 0 0 1 20.75 9v5a8.75 8.75 0 1 1-17.5 0v-4A8.75 8.75 0 0 1 12 1.25zm-1.75 1.538A7.25 7.25 0 0 0 4.75 10v4a7.25 7.25 0 1 0 14.5 0V9.75H12.6a1.35 1.35 0 0 1-1.35-1.35zm1.5-.038v5.5h6.453A6.25 6.25 0 0 0 13 2.75z" clipRule="evenodd" /></svg>;
+export default MouseRightClick03Stroke;

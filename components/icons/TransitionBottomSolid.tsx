@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TransitionBottomSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M21.75 7A3.75 3.75 0 0 1 18 10.75h-5.25v5.44l1.72-1.72a.75.75 0 1 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 1 1 1.06-1.06l1.72 1.72v-5.44H6A3.75 3.75 0 0 1 2.25 7V5A3.75 3.75 0 0 1 6 1.25h12A3.75 3.75 0 0 1 21.75 5z" /><path fill="currentColor" d="M21.75 18A4.75 4.75 0 0 1 17 22.75H7A4.75 4.75 0 0 1 2.25 18v-2a.75.75 0 0 1 1.5 0v2A3.25 3.25 0 0 0 7 21.25h10A3.25 3.25 0 0 0 20.25 18v-2a.75.75 0 0 1 1.5 0z" /></svg>;
+export default TransitionBottomSolid;

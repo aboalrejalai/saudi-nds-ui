@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextNumberSignStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2.125 20.04v-16a.75.75 0 0 1 1.386-.398l8.614 13.782V4.04a.75.75 0 0 1 1.5 0v16a.75.75 0 0 1-1.386.397L3.625 6.654V20.04a.75.75 0 0 1-1.5 0M20.125 6.04a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0m1.5 0a2.75 2.75 0 1 1-5.5 0 2.75 2.75 0 0 1 5.5 0M21.125 9.54a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5z" /></svg>;
+export default TextNumberSignStroke;

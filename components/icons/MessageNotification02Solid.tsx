@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MessageNotification02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M17.994 1.303a4.255 4.255 0 0 1 4.25 4.25 4.255 4.255 0 0 1-4.25 4.25 4.255 4.255 0 0 1-4.25-4.25 4.255 4.255 0 0 1 4.25-4.25" /><path fill="currentColor" d="M11.998 1.25q1.021.001 1.988.184a5.73 5.73 0 0 0-1.742 4.119 5.755 5.755 0 0 0 5.75 5.75 5.74 5.74 0 0 0 4.398-2.051c.231.877.356 1.798.356 2.748a10.7 10.7 0 0 1-2.136 6.432 10.8 10.8 0 0 1-3.04 2.761 10.7 10.7 0 0 1-5.574 1.557c-1.856 0-3.605-.471-5.13-1.3l-4.232.787a.75.75 0 0 1-.875-.875l.788-4.232a10.7 10.7 0 0 1-1.3-5.13C1.247 6.063 6.06 1.25 11.997 1.25" /></svg>;
+export default MessageNotification02Solid;

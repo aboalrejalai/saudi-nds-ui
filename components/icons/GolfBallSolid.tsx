@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GolfBallSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M15 16.877c.44.18 1 .57 1 1 0 .55-.45 1-1 1-.78 0-2 .82-2 3 0 .55-.45 1-1 1s-1-.45-1-1c0-2.18-1.22-3-2-3-.55 0-1-.45-1-1 0-.43.56-.82 1-1 1.04-.41 1.5.33 3 .33s1.96-.74 3-.33" /><path fill="currentColor" fillRule="evenodd" d="M12 .997a7.75 7.75 0 1 1 0 15.5 7.75 7.75 0 0 1 0-15.5m-2 4.5a1.25 1.25 0 1 0 0 2.501 1.25 1.25 0 0 0 0-2.5" clipRule="evenodd" /></svg>;
+export default GolfBallSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BaseballBatSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.188 2.313a4.492 4.492 0 0 0-6.72.42h-.01l-10.72 14.32c-.73-.14-1.53-.02-2.27.51a1.14 1.14 0 0 0-.14 1.72l2.89 2.88c.49.5 1.31.43 1.72-.13.53-.74.65-1.54.5-2.27l14.33-10.73a4.492 4.492 0 0 0 .42-6.72m-16.26 18.44-2.18-2.18c.57-.19 1.2.01 1.68.49s.69 1.12.5 1.69m.87-2.39c-.09-.12-.19-.25-.3-.36-.12-.11-.24-.21-.37-.31l.62-.82.87.87zm1.8-1.35-1.12-1.11.58-.78 1.32 1.31z" clipRule="evenodd" /><path fill="currentColor" d="M18.248 21.503a3.25 3.25 0 1 0 0-6.5 3.25 3.25 0 0 0 0 6.5" /></svg>;
+export default BaseballBatSolid;

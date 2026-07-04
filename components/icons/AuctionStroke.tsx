@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AuctionStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M10.785 2.825a2.25 2.25 0 0 1 3.37-.214l2.656 2.656a2.25 2.25 0 0 1-.214 3.37l-2.452 1.897 5.137 5.136a.75.75 0 1 1-1.061 1.06l-5.137-5.136-1.899 2.455a2.25 2.25 0 0 1-3.37.214l-2.656-2.656a2.25 2.25 0 0 1 .214-3.37L8.35 5.935a.8.8 0 0 0 .134-.134zm1.919 6.928-.08.064a.75.75 0 0 0-.255.255l-.068.084-2.302 2.975a.75.75 0 0 1-1.123.071L6.22 10.547a.75.75 0 0 1 .071-1.124l2.975-2.302a2.3 2.3 0 0 0 .403-.402l2.302-2.976a.75.75 0 0 1 1.123-.071l2.656 2.656a.75.75 0 0 1-.071 1.123z" clipRule="evenodd" /><path fill="currentColor" d="M5.25 20.55a.75.75 0 0 0 0 1.5h13.5a.75.75 0 0 0 0-1.5z" /></svg>;
+export default AuctionStroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TractorSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19.679 14.313a3.071 3.071 0 1 0 0 6.142 3.071 3.071 0 0 0 0-6.142m-.765 1.698a1.56 1.56 0 0 1 .838-.197 1.571 1.571 0 1 1-.838.197" /><path fill="currentColor" d="M4.773 4.297a.75.75 0 0 1 .75-.75h9.005a.75.75 0 0 1 0 1.5h-.72l1.112 4.69 1.853.001v-.772a2.25 2.25 0 0 1 2.25-2.25h.102a.75.75 0 0 1 0 1.5h-.102a.75.75 0 0 0-.75.75v.772h.792a2.25 2.25 0 0 1 2.25 2.25v1.128a4.57 4.57 0 0 0-6.207 4.268v.048H13.43a5.356 5.356 0 0 1-4.823 3.021 5.358 5.358 0 0 1-2.324-10.186v-5.22h-.76a.75.75 0 0 1-.75-.75m7.459 12.125a3.858 3.858 0 1 0-7.246-2.657 3.858 3.858 0 0 0 7.245 2.659zM7.783 5.047v4.69h5.595l-1.111-4.69z" /></svg>;
+export default TractorSolid;

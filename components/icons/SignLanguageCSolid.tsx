@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SignLanguageCSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M16.146 2.567c1.299-.07 2.405.936 2.459 2.236l.003 8.038c.489.386.95.94 1.173 1.71.224.772.191 1.684-.177 2.749l-.029.08-.006.019c-.313.903-.585 1.69-.858 2.35-.282.684-.585 1.28-.97 1.765a3.43 3.43 0 0 1-1.481 1.102c-.593.23-1.272.317-2.054.317h-4.98a5 5 0 0 1-5-4.993L4.08 9.743a.75.75 0 0 1 .084-.353 2.36 2.36 0 0 1 3.241-1.84 2.329 2.329 0 0 1 3.12-1.032v-3.09a2.362 2.362 0 0 1 4.65-.59c.29-.156.62-.252.97-.27" clipRule="evenodd" /></svg>;
+export default SignLanguageCSolid;

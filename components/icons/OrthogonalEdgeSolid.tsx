@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const OrthogonalEdgeSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3 17h4v4H3z" /><path fill="currentColor" d="M7 16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1zm-3 4h2v-2H4zM17 3h4v4h-4z" /><path fill="currentColor" d="M21 2a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zm-3 4h2V4h-2z" /><path fill="currentColor" d="M19 15.5a2.5 2.5 0 0 0-2.5-2.5h-8a4.5 4.5 0 0 1 0-9H17a1 1 0 1 1 0 2H8.5a2.5 2.5 0 0 0 0 5h8a4.5 4.5 0 0 1 0 9H8a1 1 0 1 1 0-2h8.5a2.5 2.5 0 0 0 2.5-2.5" /></svg>;
+export default OrthogonalEdgeSolid;

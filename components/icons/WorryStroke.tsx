@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WorryStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10 10.535a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0M15.25 9.285a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5" /><path fill="currentColor" fillRule="evenodd" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2M3.5 12a8.5 8.5 0 1 1 17 0 8.5 8.5 0 0 1-17 0" clipRule="evenodd" /><path fill="currentColor" d="M8.06 16.306c-.21.25-.23.6-.06.87s.49.41.81.34c.02 0 1.97-.44 3.19-.44s3.17.44 3.19.44c.06.01.11.02.17.02.26 0 .51-.14.64-.37.17-.28.14-.63-.08-.88-2.002-2.291-5.874-2.353-7.86.02" /></svg>;
+export default WorryStroke;

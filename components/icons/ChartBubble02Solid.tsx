@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ChartBubble02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10.5 11.25a3.25 3.25 0 1 1 0 6.5 3.25 3.25 0 0 1 0-6.5m6-9a4.25 4.25 0 1 1 0 8.5 4.25 4.25 0 0 1 0-8.5m-9.5 2a2.75 2.75 0 1 1 0 5.5 2.75 2.75 0 0 1 0-5.5" /><path fill="currentColor" d="M2.064 1.25c.45 0 .815.365.815.814v15.743c0 .45.364.814.814.814h15.743a.814.814 0 0 1 0 1.629H3.693a2.443 2.443 0 0 1-2.443-2.443V2.064c0-.45.365-.814.814-.814" /></svg>;
+export default ChartBubble02Solid;

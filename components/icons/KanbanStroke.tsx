@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const KanbanStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16 11.75a.75.75 0 0 1-.75-.75V8a.75.75 0 0 1 1.5 0v3a.75.75 0 0 1-.75.75M12 13.75a.75.75 0 0 1-.75-.75V8a.75.75 0 0 1 1.5 0v5a.75.75 0 0 1-.75.75M8 16.75a.75.75 0 0 1-.75-.75V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75" /><path fill="currentColor" fillRule="evenodd" d="M3.6 21.75a1.35 1.35 0 0 1-1.35-1.35V3.6c0-.746.604-1.35 1.35-1.35h16.8c.746 0 1.35.604 1.35 1.35v16.8a1.35 1.35 0 0 1-1.35 1.35zm16.65-18H3.75v16.5h16.5z" clipRule="evenodd" /></svg>;
+export default KanbanStroke;

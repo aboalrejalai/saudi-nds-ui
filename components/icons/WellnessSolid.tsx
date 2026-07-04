@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WellnessSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 4c.28 0 .549.12.74.33.1.108 1.91 2.119 2.727 4.968 2.065-.806 5.917-1.315 5.994-1.318a1 1 0 0 1 .741.304c.196.202.304.476.298.761-.004.195-.133 4.804-3 7.805-2.832 2.964-7.159 3.142-7.464 3.15h-.072c-.31-.009-4.634-.187-7.464-3.15-2.869-3.001-2.997-7.61-3-7.805-.005-.285.102-.559.298-.76.196-.202.468-.31.742-.305.085.002 3.934.514 5.994 1.318l.074-.249c.847-2.715 2.553-4.612 2.651-4.719.192-.21.46-.33.74-.33" clipRule="evenodd" /></svg>;
+export default WellnessSolid;

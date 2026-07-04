@@ -1,0 +1,86 @@
+import { DirectionToggle } from "@/components/docs/direction-toggle"
+import { DocsLayout } from "@/components/docs/docs-layout"
+import { InstallCommand } from "@/components/docs/install-command"
+
+import {
+  CheckboxBasicStates,
+  CheckboxControlled,
+  CheckboxForms,
+  CheckboxGroups,
+  CheckboxInLists,
+  CheckboxPollutants,
+  CheckboxWithLabels,
+} from "./demos"
+
+export const metadata = {
+  title: "Checkbox",
+  description:
+    "DGA Checkbox component for React & Next.js. Accessible toggle control with RTL and Arabic label support. Digital Government Authority Saudi Arabia design system.",
+}
+
+<DocsLayout>
+
+# Checkbox
+
+A control that allows the user to toggle between checked and not checked.
+
+<DirectionToggle />
+
+## Installation
+
+<InstallCommand componentName="checkbox" />
+
+## Basic States
+
+Default, checked, and disabled states of the checkbox.
+
+<CheckboxBasicStates />
+
+## With Labels
+
+Checkboxes with different label configurations.
+
+<CheckboxWithLabels />
+
+## Controlled Checkbox
+
+Checkbox with controlled state.
+
+<CheckboxControlled />
+
+## Checkbox Groups
+
+Multiple checkboxes for selecting multiple options.
+
+<CheckboxGroups />
+
+## Pollutant Selection
+
+Select multiple pollutants for monitoring (controlled group).
+
+<CheckboxPollutants />
+
+## Form Examples
+
+Real-world form scenarios using checkboxes.
+
+<CheckboxForms />
+
+## Checkbox in Lists
+
+Checkboxes used for item selection in lists.
+
+<CheckboxInLists />
+
+## Props
+
+| Prop              | Type                         | Default | Description                       |
+| ----------------- | ---------------------------- | ------- | --------------------------------- |
+| `checked`         | `boolean`                    | —       | Controlled checked state          |
+| `defaultChecked`  | `boolean`                    | `false` | Default checked state             |
+| `onCheckedChange` | `(checked: boolean) => void` | —       | Called when checked state changes |
+| `disabled`        | `boolean`                    | `false` | Disables the checkbox             |
+| `aria-invalid`    | `string`                     | —       | Marks checkbox as invalid         |
+| `className`       | `string`                     | —       | Additional CSS classes            |
+
+</DocsLayout>

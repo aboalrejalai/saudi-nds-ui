@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ThumbsDownSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10.709 20.234a2.38 2.38 0 0 0 4.322-1.91l-.965-3.214h4.374a2.75 2.75 0 0 0 2.653-3.474l-1.908-7A2.75 2.75 0 0 0 16.53 2.61H4.158a1.35 1.35 0 0 0-1.35 1.35v9.8c0 .745.605 1.35 1.35 1.35h2.768c.439 0 .846.23 1.072.606zm-6.05-6.474a.5.5 0 0 1-.5-.5v-8.8a.5.5 0 0 1 .5-.5h.934a.5.5 0 0 1 .5.5v8.8a.5.5 0 0 1-.5.5z" /></svg>;
+export default ThumbsDownSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextCenterlineLeftSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20 10a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1z" /><path fill="currentColor" d="M19 10v4h-4v-4zm-6 4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2zM4 10a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2zM4 14a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2zM4 4a1 1 0 0 0 0 2h16a1 1 0 1 0 0-2zM4 18a1 1 0 1 0 0 2h16a1 1 0 1 0 0-2z" /></svg>;
+export default TextCenterlineLeftSolid;

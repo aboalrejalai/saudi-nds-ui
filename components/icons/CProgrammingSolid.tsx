@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CProgrammingSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.805 4.204c-4.633-4.272-12.156-4.272-16.79 0-4.687 4.322-4.687 11.321 0 15.593 4.634 4.27 12.157 4.27 16.79 0 .927-.875.927-2.265 0-3.14a2.434 2.434 0 0 0-3.325 0c-2.835 2.625-7.414 2.625-10.248 0-2.78-2.573-2.78-6.741 0-9.314 2.835-2.625 7.413-2.625 10.248 0 .927.823 2.398.823 3.325 0 .927-.875.872-2.265 0-3.14" clipRule="evenodd" /></svg>;
+export default CProgrammingSolid;

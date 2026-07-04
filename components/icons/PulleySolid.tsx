@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PulleySolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20 16.16V10.5c0-2.14-1.5-3.93-3.5-4.39V4H21c.55 0 1-.45 1-1s-.45-1-1-1H3c-.55 0-1 .45-1 1s.45 1 1 1h1v13.5C4 19.99 6.01 22 8.5 22s4.5-2.01 4.5-4.5v-3.26c.72.48 1.57.76 2.5.76s1.78-.28 2.5-.76v1.91m-7-2.39A4.47 4.47 0 0 0 8.5 13c-.93 0-1.78.28-2.5.76V4h8.5v2.11c-2 .45-3.5 2.25-3.5 4.39z" clipRule="evenodd" /></svg>;
+export default PulleySolid;

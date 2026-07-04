@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Male02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.999 2.4a2.942 2.942 0 1 0 0 5.885A2.942 2.942 0 0 0 12 2.4M8.637 9.687a2.16 2.16 0 0 0-2.16 2.16v2.668a2.16 2.16 0 0 0 1.54 2.069l.682.205.31 2.883a2.16 2.16 0 0 0 2.148 1.929h1.683a2.16 2.16 0 0 0 2.147-1.929l.311-2.883.683-.205a2.16 2.16 0 0 0 1.54-2.07v-2.667a2.16 2.16 0 0 0-2.16-2.16z" /></svg>;
+export default Male02Solid;

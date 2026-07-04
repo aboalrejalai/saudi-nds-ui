@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SchoolBusSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3.963 5.563a3.75 3.75 0 0 1 3.662-2.938h8.75a3.75 3.75 0 0 1 3.662 2.938h.088a1.5 1.5 0 0 1 1.5 1.5v.75a.75.75 0 0 1-.75.75h-.75v8.062c0 .725-.343 1.37-.875 1.781v1.469a1.5 1.5 0 0 1-3 0v-1h-8.5v1a1.5 1.5 0 0 1-3 0v-1.469a2.25 2.25 0 0 1-.875-1.781V8.563h-.75a.75.75 0 0 1-.75-.75v-.75a1.5 1.5 0 0 1 1.5-1.5zm3.662-1.438a2.25 2.25 0 0 0-2.25 2.25V10h13.25V6.375a2.25 2.25 0 0 0-2.25-2.25zm.625 9.063a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5m6.25 1.25a1.25 1.25 0 1 0 2.5 0 1.25 1.25 0 0 0-2.5 0" /></svg>;
+export default SchoolBusSolid;

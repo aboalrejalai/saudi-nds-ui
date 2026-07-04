@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TeaPodSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M8.284 20.742a25.15 25.15 0 0 0 12.497-.062 2.545 2.545 0 0 0 1.903-2.406l.06-2.792c.045-2.043-.261-3.369-.718-4.286-.404-.812-.912-1.26-1.22-1.53l-.116-.104a5.7 5.7 0 0 0-.943-.695 1 1 0 0 0 .01-.112V7.752c0-2.903-2.36-5.252-5.268-5.252S9.221 4.849 9.221 7.752v1.026a6.3 6.3 0 0 0-1.16.747l-3.836-2.26a1.555 1.555 0 0 0-2.006.37l-.63.792c-.445.559-.45 1.35-.012 1.914L5.972 16l.084 2.24a2.62 2.62 0 0 0 1.981 2.439zm9.973-12.531c-.978-.307-2.019-.434-3.019-.47v-.489a.75.75 0 0 0-1.5 0v.493c-1.208.053-2.201.222-3.017.455v-.448A3.76 3.76 0 0 1 14.489 4a3.76 3.76 0 0 1 3.768 3.752z" clipRule="evenodd" /></svg>;
+export default TeaPodSolid;

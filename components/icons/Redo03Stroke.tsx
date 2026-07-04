@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Redo03Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2.16 13.846c0 3.72 3.03 6.75 6.75 6.75h4c.41 0 .75-.34.75-.75s-.34-.75-.75-.75h-4c-2.89 0-5.25-2.35-5.25-5.25s2.36-5.25 5.25-5.25h10.34l-2.38 2.33c-.14.14-.22.33-.23.53 0 .21.08.39.22.53h.01c.14.15.32.24.52.24s.4-.08.54-.22l3.69-3.62c.29-.29.3-.76.01-1.06l-3.62-3.69a.746.746 0 0 0-1.06-.02c-.3.3-.31.78-.01 1.08l2.33 2.38H8.92v.02c-3.73 0-6.76 3.03-6.76 6.75" /></svg>;
+export default Redo03Stroke;

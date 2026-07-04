@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GoBackward15SecSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19.68 13.157a7.68 7.68 0 0 0-7.271-7.669l.162 1.66a.72.72 0 0 1-1.173.626L8.775 5.62a.72.72 0 0 1-.1-1.013l2.155-2.623a.72.72 0 0 1 1.273.387l.164 1.67a9.119 9.119 0 1 1-9.387 9.116.72.72 0 0 1 1.44 0 7.68 7.68 0 0 0 15.36 0" /><path fill="currentColor" d="M14.361 15.221v-.834a.3.3 0 0 0-.013-.083h-1.237a.75.75 0 0 1-.75-.75v-2.5a.75.75 0 0 1 .75-.75h2a.75.75 0 0 1 0 1.5h-1.25v1h.583c.382 0 .716.168.96.415l.098.11.085.118c.185.281.274.615.274.94v.834a1.7 1.7 0 0 1-.36 1.058 1.36 1.36 0 0 1-1.057.525h-1.333a.75.75 0 1 1 0-1.5h1.237a.3.3 0 0 0 .013-.083M9.361 16.054v-5a.75.75 0 0 1 1.5 0v5a.75.75 0 0 1-1.5 0" /></svg>;
+export default GoBackward15SecSolid;

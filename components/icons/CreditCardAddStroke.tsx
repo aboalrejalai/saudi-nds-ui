@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CreditCardAddStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M1.25 7A2.75 2.75 0 0 1 4 4.25h16A2.75 2.75 0 0 1 22.75 7v10A2.75 2.75 0 0 1 20 19.75H4A2.75 2.75 0 0 1 1.25 17zM4 5.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h16c.69 0 1.25-.56 1.25-1.25V9.75H6a.75.75 0 0 1 0-1.5h15.25V7c0-.69-.56-1.25-1.25-1.25z" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M12.25 10.75c.369 0 .668.299.668.668v2.164h2.164a.668.668 0 0 1 0 1.336h-2.164v2.164a.668.668 0 0 1-1.336 0v-2.164H9.418a.668.668 0 0 1 0-1.336h2.164v-2.164c0-.37.3-.668.668-.668" clipRule="evenodd" /></svg>;
+export default CreditCardAddStroke;

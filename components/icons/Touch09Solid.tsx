@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Touch09Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M9.728 1.25a2.25 2.25 0 0 1 2.25 2.249v1.67a2.192 2.192 0 0 1 2.644.951 2.206 2.206 0 0 1 2.67.354c.2.201.357.442.472.713a2.2 2.2 0 0 1 .963-.222c.565 0 1.136.215 1.566.652.436.444.684 1.07.684 1.812V18c0 2.365-1.887 4.75-4.75 4.75h-4.634c-.76 0-1.486-.315-2.005-.87l-5.943-6.337a2.308 2.308 0 0 1 3.277-3.251l.556.528V3.5a2.25 2.25 0 0 1 2.25-2.25" clipRule="evenodd" /></svg>;
+export default Touch09Solid;

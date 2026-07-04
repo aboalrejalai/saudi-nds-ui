@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MenuRestaurantStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M13.625 8.79V9.6a4.5 4.5 0 0 1 3.75 4.438v1.172a.75.75 0 0 1-.75.75h-7.5a.75.75 0 0 1-.75-.75v-1.172c0-2.23 1.622-4.08 3.75-4.438V8.79a.75.75 0 0 1 1.5 0m-3.75 5.25a3 3 0 1 1 6 0v.42h-6z" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M6.125 2a.75.75 0 0 0-.75.75v2.5h-1a.75.75 0 0 0 0 1.5h1v4.5h-1a.75.75 0 0 0 0 1.5h1v4.5h-1a.75.75 0 0 0 0 1.5h1v2.5c0 .414.336.75.75.75h12a2.25 2.25 0 0 0 2.25-2.25V4.25A2.25 2.25 0 0 0 18.125 2zm.75 18.5h11.25a.75.75 0 0 0 .75-.75V4.25a.75.75 0 0 0-.75-.75H6.875z" clipRule="evenodd" /></svg>;
+export default MenuRestaurantStroke;

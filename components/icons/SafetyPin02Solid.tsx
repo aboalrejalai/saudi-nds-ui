@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SafetyPin02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12.953 3.334c2.009-2.592 5.843-2.79 8.173-.46s2.132 6.164-.46 8.173L19.049 12.3a2.03 2.03 0 0 1-1.382.444l-.013.013-10.41 9a1 1 0 0 1-.178.12 3.5 3.5 0 1 1-4.97-4.92L6.049 4.693a1 1 0 0 1 1.903.613L4.505 16a3.5 3.5 0 0 1 3.368 2.568l8.055-6.963a2.13 2.13 0 0 1-.274-1.138c.029-.561.296-1.098.809-1.498l.48-.374c.541-.423.581-1.204.123-1.662s-1.238-.417-1.66.124l-.376.48c-.4.513-.936.78-1.497.808a2.18 2.18 0 0 1-1.437-.471 2.2 2.2 0 0 1-.808-1.278c-.11-.548.015-1.132.412-1.645zM4.5 18a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" clipRule="evenodd" /></svg>;
+export default SafetyPin02Solid;

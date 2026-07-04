@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TelephoneStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M3.704.998h3.873c.323 0 .611.2.725.505l1.503 4.024c.05.133.062.278.036.418l-.753 4.067c.926 2.192 2.455 3.665 4.99 4.987l3.992-.779a.77.77 0 0 1 .423.037l4.008 1.538a.78.78 0 0 1 .499.729v3.727c0 1.69-1.479 3.062-3.209 2.683-3.153-.69-8.995-2.447-13.086-6.567C2.785 12.421 1.473 6.97 1.03 4.022.778 2.341 2.118.998 3.704.998m3.337 1.56H3.704c-.743 0-1.237.594-1.142 1.231.427 2.842 1.674 7.886 5.238 11.475 3.767 3.794 9.244 5.472 12.32 6.146.676.148 1.331-.37 1.331-1.159v-3.19l-3.303-1.267-4.036.787a.77.77 0 0 1-.495-.068c-2.989-1.511-4.929-3.302-6.051-6.127a.8.8 0 0 1-.042-.433l.755-4.08z" clipRule="evenodd" /></svg>;
+export default TelephoneStroke;

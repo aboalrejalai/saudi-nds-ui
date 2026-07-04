@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextCreationStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3.25 8V6A2.75 2.75 0 0 1 6 3.25h2a.75.75 0 0 1 0 1.5H6A1.25 1.25 0 0 0 4.75 6v2a.75.75 0 0 1-1.5 0M3.25 18v-2a.75.75 0 0 1 1.5 0v2A1.25 1.25 0 0 0 6 19.25h2a.75.75 0 0 1 0 1.5H6A2.75 2.75 0 0 1 3.25 18M19.25 8V6A1.25 1.25 0 0 0 18 4.75h-2a.75.75 0 0 1 0-1.5h2A2.75 2.75 0 0 1 20.75 6v2a.75.75 0 0 1-1.5 0M19.25 18v-2a.75.75 0 0 1 1.5 0v2A2.75 2.75 0 0 1 18 20.75h-2a.75.75 0 0 1 0-1.5h2A1.25 1.25 0 0 0 19.25 18M11.25 16V9a.75.75 0 0 1 1.5 0v7a.75.75 0 0 1-1.5 0" /><path fill="currentColor" d="M15 8.25a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1 0-1.5z" /></svg>;
+export default TextCreationStroke;

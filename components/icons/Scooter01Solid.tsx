@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Scooter01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 16a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-3 0v-3A1.5 1.5 0 0 1 12 16" /><path fill="currentColor" d="M15.262 6.102a5.37 5.37 0 0 1 2.113 4.272v4.5A5.37 5.37 0 0 1 15 19.335v-1.836a3 3 0 0 0-6 0v1.836a5.37 5.37 0 0 1-2.375-4.461v-4.5c0-1.742.829-3.29 2.113-4.272A3.75 3.75 0 0 0 12 7.999a3.75 3.75 0 0 0 3.262-1.897" /><path fill="currentColor" d="M12 2a2.25 2.25 0 1 1 0 4.5A2.25 2.25 0 0 1 12 2M8.325 3.5a3.8 3.8 0 0 0 0 1.5H5.5a.75.75 0 0 1 0-1.5zM18.501 3.5a.75.75 0 0 1 0 1.5h-2.825a3.8 3.8 0 0 0 0-1.5z" /></svg>;
+export default Scooter01Solid;

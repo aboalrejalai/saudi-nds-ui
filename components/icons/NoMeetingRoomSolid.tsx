@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const NoMeetingRoomSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M18.753 20.77A2.25 2.25 0 0 1 16.75 22H6.25A2.25 2.25 0 0 1 4 19.75V6.018zM16.75 2A2.25 2.25 0 0 1 19 4.25v12.732l-3.892-3.891a1.248 1.248 0 0 0-.608-2.341c-.47 0-.878.258-1.092.64l-8.74-8.74C5.074 2.248 5.633 2 6.25 2z" /><path fill="currentColor" fillRule="evenodd" d="M2.271 2.271a.927.927 0 0 1 1.31 0L21.73 20.418a.927.927 0 0 1-1.31 1.31L2.27 3.583a.927.927 0 0 1 0-1.31" clipRule="evenodd" /></svg>;
+export default NoMeetingRoomSolid;

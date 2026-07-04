@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PencilEdit01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M15.5 3.586a3.578 3.578 0 0 1 2.53 6.108l-10.5 10.5a.75.75 0 0 1-.53.22H3a.75.75 0 0 1-.75-.75v-4c0-.199.08-.39.22-.53l10.5-10.5a3.58 3.58 0 0 1 2.53-1.048M3.75 15.975v2.94h2.94l8.75-8.75-2.94-2.94z" clipRule="evenodd" /><path fill="currentColor" d="M21 17.914a.75.75 0 1 1 0 1.5h-6a.75.75 0 0 1 0-1.5z" /></svg>;
+export default PencilEdit01Solid;

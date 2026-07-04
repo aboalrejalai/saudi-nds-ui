@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Icon3DViewSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.28 2.632q-.126.044-.247.104l-6.679 3.34A2.16 2.16 0 0 0 3.16 8.008v7.861q0 .217.042.425l7.831-3.916q.12-.06.247-.104zM3.942 17.533q.188.157.411.268l6.68 3.34a2.16 2.16 0 0 0 1.931 0l6.68-3.34a2.2 2.2 0 0 0 .411-.268l-7.735-3.867a.72.72 0 0 0-.644 0zM20.796 16.294q.042-.208.042-.425V8.008a2.16 2.16 0 0 0-1.194-1.932l-6.68-3.34a2 2 0 0 0-.245-.104v9.642q.125.044.246.104z" /></svg>;
+export default Icon3DViewSolid;

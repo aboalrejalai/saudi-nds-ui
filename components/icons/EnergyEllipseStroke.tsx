@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const EnergyEllipseStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M17.15 10.3a.64.64 0 0 0-.58-.35h-3.56V5.68c0-.28-.18-.53-.45-.62a.665.665 0 0 0-.73.24l-5.61 7.72c-.09.12-.13.25-.13.39 0 .1.02.2.07.29.12.22.34.36.58.36h3.56v4.26a.664.664 0 0 0 .66.65c.2 0 .4-.1.52-.27l5.62-7.72c.14-.2.16-.46.05-.68m-5.54 6.01V13.4c0-.36-.29-.65-.65-.65H8.02l3.69-5.06v2.91c0 .36.29.65.65.65h2.93z" /><path fill="currentColor" fillRule="evenodd" d="M12 1.25c5.94 0 10.75 4.81 10.75 10.75S17.94 22.75 12 22.75 1.25 17.94 1.25 12 6.06 1.25 12 1.25m0 1.5c-5.11 0-9.25 4.14-9.25 9.25s4.14 9.25 9.25 9.25 9.25-4.14 9.25-9.25S17.11 2.75 12 2.75" clipRule="evenodd" /></svg>;
+export default EnergyEllipseStroke;

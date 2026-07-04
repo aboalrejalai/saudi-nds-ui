@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CursorAddSelection01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M11.89 2.033a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11m0 3.07a.384.384 0 0 0-.385.384v1.662H9.843a.384.384 0 0 0 0 .768h1.662V9.58a.384.384 0 0 0 .768 0V7.917h1.663a.384.384 0 0 0 0-.768h-1.663V5.487a.384.384 0 0 0-.384-.384" clipRule="evenodd" /><path fill="currentColor" d="M3.443 6.602c-.357-1.663 1.293-3.047 2.869-2.407l.469.19a6 6 0 1 0 10.964 4.451l1.54.626c1.864.758 1.721 3.444-.212 4l-5.986 1.72-2.733 5.596c-.884 1.808-3.554 1.482-3.976-.486z" /><path fill="currentColor" d="M11.955 7.533a.5.5 0 0 0-.066.066.5.5 0 0 0-.067-.066.5.5 0 0 0 .067-.068q.03.037.066.068" /></svg>;
+export default CursorAddSelection01Solid;

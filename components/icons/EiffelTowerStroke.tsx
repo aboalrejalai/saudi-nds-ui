@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const EiffelTowerStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19.253 22h-4.5c-.41 0-.75-.34-.75-.75 0-1.1-.9-2-2-2s-2 .9-2 2c0 .41-.34.75-.75.75h-4.5c-.3 0-.57-.18-.69-.45-.12-.28-.06-.6.15-.81.05-.06 5.35-5.77 7.05-18.09.05-.37.37-.65.74-.65s.69.28.74.65c1.7 12.32 7 18.03 7.05 18.09.21.22.26.54.15.81s-.39.45-.69.45m-3.83-1.5h2.26c-.75-1.04-1.83-2.71-2.91-5.09h-5.54c-1.08 2.37-2.16 4.05-2.91 5.09h2.26a3.506 3.506 0 0 1 3.42-2.75c1.67 0 3.08 1.18 3.42 2.75m-5.55-6.59h4.25A42.6 42.6 0 0 1 12.003 7c-.6 2.69-1.35 4.98-2.12 6.91z" /></svg>;
+export default EiffelTowerStroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CustomizeSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3.12 8.001h7.668a3.683 3.683 0 0 0 7.223 0h2.87a.72.72 0 0 0 0-1.44h-2.87a3.683 3.683 0 0 0-7.223 0H3.12a.72.72 0 0 0 0 1.44M9.601 13.037A3.68 3.68 0 0 1 13.212 16h7.668a.72.72 0 0 1 0 1.44h-7.667a3.683 3.683 0 0 1-7.223 0H3.12a.72.72 0 1 1 0-1.44h2.87a3.68 3.68 0 0 1 3.611-2.962" /></svg>;
+export default CustomizeSolid;

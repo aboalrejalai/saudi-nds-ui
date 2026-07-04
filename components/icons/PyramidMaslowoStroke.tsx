@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PyramidMaslowoStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.998 1.249q.053 0 .103.009a1.75 1.75 0 0 1 1.2.577l.131.165.002.002 8.997 13.007a1.753 1.753 0 0 1-.56 2.52l-.001.001-8.51 4.86a2.75 2.75 0 0 1-2.724 0l-8.51-4.86-.006-.004a1.76 1.76 0 0 1-.826-1.128 1.75 1.75 0 0 1 .265-1.374l.001-.001 9-13.02.002-.003c.161-.231.377-.42.626-.55.219-.114.459-.177.704-.192a1 1 0 0 1 .106-.009M2.795 15.873v.001a.25.25 0 0 0 .077.354l8.376 4.784V3.646zm9.953 5.139 8.378-4.785a.25.25 0 0 0 .077-.358l-.002-.004-8.453-12.22z" /></svg>;
+export default PyramidMaslowoStroke;

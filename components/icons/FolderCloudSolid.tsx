@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FolderCloudSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 27 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M21.5 7.965v3.09c-.22-.03-.44-.05-.67-.05-2.04 0-3.84 1.27-4.61 3.18-1.58.81-2.64 2.52-2.64 4.4 0 .57.09 1.11.26 1.61H2.65c-1.46 0-2.65-1.19-2.65-2.65v-12.9c0-1.46 1.19-2.65 2.65-2.65h4.62c.71 0 1.41.27 1.92.78l2.12 2.23c.19.19.46.31.73.31h6.81c1.46 0 2.65 1.19 2.65 2.65" /><path fill="currentColor" d="M20.83 12.505c1.9 0 3.29 1.56 3.48 3.3 1.21.34 2.27 1.49 2.27 3.05 0 1.69-1.3 3.15-3 3.15h-5.25c-1.84 0-3.25-1.58-3.25-3.42 0-1.53.97-2.87 2.35-3.29.37-1.58 1.72-2.8 3.4-2.8z" /></svg>;
+export default FolderCloudSolid;

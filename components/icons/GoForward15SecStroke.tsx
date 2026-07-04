@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GoForward15SecStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M5.787 8.645A7.68 7.68 0 1 0 19.68 13.16a.72.72 0 0 1 1.44 0 9.12 9.12 0 1 1-8.078-9.06l-.985-1.2a.72.72 0 0 1 1.112-.913l2.155 2.623a.72.72 0 0 1-.1 1.013l-2.622 2.154a.72.72 0 0 1-.914-1.113l1.355-1.113a7.68 7.68 0 0 0-7.256 3.095" /><path fill="currentColor" d="M14.818 14.813v-.834a.3.3 0 0 0-.012-.083h-1.238a.75.75 0 0 1-.75-.75v-2.5a.75.75 0 0 1 .75-.75h2a.75.75 0 0 1 0 1.5h-1.25v1h.583c.383 0 .717.167.96.415l.098.11.085.118c.185.281.274.614.274.94v.834c0 .372-.116.755-.359 1.058a1.36 1.36 0 0 1-1.058.525h-1.333a.75.75 0 0 1 0-1.5h1.238a.3.3 0 0 0 .012-.083M9.818 15.646v-5a.75.75 0 0 1 1.5 0v5a.75.75 0 0 1-1.5 0" /></svg>;
+export default GoForward15SecStroke;

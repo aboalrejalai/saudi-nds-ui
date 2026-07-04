@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AspectRatioSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.002 1.6a2.4 2.4 0 0 1 2.4 2.4v16a2.4 2.4 0 0 1-2.4 2.4h-16a2.4 2.4 0 0 1-2.4-2.4V4a2.4 2.4 0 0 1 2.4-2.4zm-8 9.6a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6m3.201 0a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6m3.2 0a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6m-6.4-3.2a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6m0-3.2a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6" /></svg>;
+export default AspectRatioSolid;

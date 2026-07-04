@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const VirtualRealityVr02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2.398 8.222a2.16 2.16 0 0 1 2.16-2.16h14.88a2.16 2.16 0 0 1 2.16 2.16v7.556a2.16 2.16 0 0 1-2.16 2.16h-3.227a2.16 2.16 0 0 1-1.323-.453L12.44 15.59a.72.72 0 0 0-.881 0l-2.45 1.896a2.16 2.16 0 0 1-1.322.453H4.558a2.16 2.16 0 0 1-2.16-2.16zm5.813.72a2.213 2.213 0 1 0 0 4.426 2.213 2.213 0 0 0 0-4.426m5.362 2.213a2.213 2.213 0 1 0 4.426 0 2.213 2.213 0 0 0-4.426 0" /></svg>;
+export default VirtualRealityVr02Solid;

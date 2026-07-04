@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const InboxSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M19.998 4.25A2.75 2.75 0 0 1 22.748 7v10a2.75 2.75 0 0 1-2.75 2.75h-16A2.75 2.75 0 0 1 1.248 17V7a2.75 2.75 0 0 1 2.75-2.75zm-2.386 4.32a.75.75 0 0 0-1.044-.184l-4.57 3.199-4.57-3.2a.75.75 0 0 0-.86 1.23l5 3.5a.75.75 0 0 0 .86 0l5-3.5a.75.75 0 0 0 .184-1.045" clipRule="evenodd" /></svg>;
+export default InboxSolid;

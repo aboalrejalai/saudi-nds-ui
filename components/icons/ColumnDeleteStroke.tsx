@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ColumnDeleteStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M9.75 5a.25.25 0 0 0-.25-.25h-4a.25.25 0 0 0-.25.25v14a.25.25 0 0 0 .25.25h4a.25.25 0 0 0 .25-.25zm1.5 14a1.75 1.75 0 0 1-1.75 1.75h-4A1.75 1.75 0 0 1 3.75 19V5A1.75 1.75 0 0 1 5.5 3.25h4A1.75 1.75 0 0 1 11.25 5zM14.97 9.47a.75.75 0 0 1 1.06 0l4 4a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06" /><path fill="currentColor" d="M18.97 9.47a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 1 1-1.06-1.06z" /></svg>;
+export default ColumnDeleteStroke;

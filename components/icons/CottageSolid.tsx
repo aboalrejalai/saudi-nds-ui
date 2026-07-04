@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CottageSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10.812 3.811a.72.72 0 1 0-1.019 1.018l.583.583-6.525 5.587a.72.72 0 1 0 .937 1.094l.732-.627v7.494h-1.2a.72.72 0 0 0 0 1.44h15.36a.72.72 0 0 0 0-1.44h-1.2v-7.494l.731.627a.72.72 0 0 0 .937-1.094l-6.524-5.587.582-.583a.72.72 0 1 0-1.018-1.018l-.68.679a.72.72 0 0 1-1.017 0zm3.228 11.986v3.163H9.96v-3.163a2.04 2.04 0 0 1 4.08 0" /></svg>;
+export default CottageSolid;

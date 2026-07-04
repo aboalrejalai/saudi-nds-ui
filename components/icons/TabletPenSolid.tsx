@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TabletPenSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M15.012 10.93a.75.75 0 0 1 .976 1.14l-3.5 3a.75.75 0 0 1-.976-1.14zM16.452 9.497a.75.75 0 0 1 1.115 1.004l-.01.01a.75.75 0 0 1-1.115-1.002z" /><path fill="currentColor" fillRule="evenodd" d="M20 2.25A2.75 2.75 0 0 1 22.75 5v14A2.75 2.75 0 0 1 20 21.75H4A2.75 2.75 0 0 1 1.25 19V5A2.75 2.75 0 0 1 4 2.25zM2.75 19c0 .69.56 1.25 1.25 1.25h1.25v-7.5h-2.5zm4 1.25H20c.69 0 1.25-.56 1.25-1.25V5c0-.69-.56-1.25-1.25-1.25H6.75zM4 3.75c-.69 0-1.25.56-1.25 1.25v6.25h2.5v-7.5z" clipRule="evenodd" /></svg>;
+export default TabletPenSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextCircleStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.25 5A1.25 1.25 0 0 0 19 3.75H5A1.25 1.25 0 0 0 3.75 5v14A1.25 1.25 0 0 0 5 20.25h14A1.25 1.25 0 0 0 20.25 19zm1.5 14A2.75 2.75 0 0 1 19 21.75H5A2.75 2.75 0 0 1 2.25 19V5A2.75 2.75 0 0 1 5 2.25h14A2.75 2.75 0 0 1 21.75 5z" /><path fill="currentColor" d="M14.25 10v-.25h-4.5V10a.75.75 0 0 1-1.5 0V9A.75.75 0 0 1 9 8.25h6a.75.75 0 0 1 .75.75v1a.75.75 0 0 1-1.5 0" /><path fill="currentColor" d="M11.25 16V9a.75.75 0 0 1 1.5 0v7a.75.75 0 0 1-1.5 0" /></svg>;
+export default TextCircleStroke;

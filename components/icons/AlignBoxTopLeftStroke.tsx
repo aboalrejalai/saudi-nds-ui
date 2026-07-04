@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AlignBoxTopLeftStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M17.64 8a.72.72 0 0 1-.72.72h-9.6a.72.72 0 0 1 0-1.44h9.6a.72.72 0 0 1 .72.72M12.32 11.16a.72.72 0 1 0 0-1.44h-5a.72.72 0 1 0 0 1.44z" /><path fill="currentColor" fillRule="evenodd" d="M5.762 3.6a2.16 2.16 0 0 0-2.16 2.16v12.48a2.16 2.16 0 0 0 2.16 2.16h12.48a2.16 2.16 0 0 0 2.16-2.16V5.76a2.16 2.16 0 0 0-2.16-2.16zm-.72 2.16a.72.72 0 0 1 .72-.72h12.48a.72.72 0 0 1 .72.72v12.48a.72.72 0 0 1-.72.72H5.761a.72.72 0 0 1-.72-.72z" clipRule="evenodd" /></svg>;
+export default AlignBoxTopLeftStroke;

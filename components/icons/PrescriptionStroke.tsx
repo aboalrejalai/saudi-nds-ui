@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PrescriptionStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3.75 19V5c0-.441.022-.88.11-1.28.09-.412.268-.856.636-1.224s.812-.546 1.225-.637c.398-.087.838-.109 1.279-.109h2.5a5.75 5.75 0 0 1 3.56 10.265.93.93 0 0 0-.336.575c-.033.211.021.388.142.51l2.78 2.78a.5.5 0 0 0 .706 0l1.764-1.764a1.25 1.25 0 0 1 1.768 1.768l-1.764 1.764a.5.5 0 0 0 .001.707l1.763 1.761.086.095a1.25 1.25 0 0 1-1.76 1.759l-.094-.086-1.764-1.762a.5.5 0 0 0-.707 0l-1.761 1.762a1.25 1.25 0 0 1-1.768-1.768l1.762-1.761a.5.5 0 0 0 0-.707L9.48 13.25H6.75a.5.5 0 0 0-.5.5V19a1.25 1.25 0 1 1-2.5 0m2.5-8.75a.5.5 0 0 0 .5.5H9.5a3.25 3.25 0 0 0 0-6.5H7c-.353 0-.57.019-.706.044A4 4 0 0 0 6.25 5z" /></svg>;
+export default PrescriptionStroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CommentAdd02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 1.255c5.937 0 10.75 4.813 10.75 10.75S17.937 22.755 12 22.755c-1.856 0-3.605-.47-5.13-1.3l-4.232.788a.75.75 0 0 1-.875-.875l.788-4.233a10.7 10.7 0 0 1-1.301-5.13c0-5.937 4.813-10.75 10.75-10.75m3.75 10.75a.75.75 0 0 0-.75-.75h-2.25v-2.25a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25v2.25a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 .75-.75" clipRule="evenodd" /></svg>;
+export default CommentAdd02Solid;

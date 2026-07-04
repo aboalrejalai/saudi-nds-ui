@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ChartRadarStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12.565 2.195a.92.92 0 0 0-.998-.086l-.132.086-9.047 7a1 1 0 0 0-.111.1l-.004.004a1.03 1.03 0 0 0-.228 1.004l3.333 11q.028.094.073.177c.14.27.392.458.682.507h.003a1 1 0 0 0 .15.013h11.428q.076 0 .15-.012h.003a.93.93 0 0 0 .434-.2c.147-.121.261-.288.321-.485l3.333-11a1.04 1.04 0 0 0-.228-1.004l-.004-.003a1 1 0 0 0-.11-.1zM7.727 20.5h8.42L14.36 18H9.216zm-.136-3.615-1.345 2.26-2.333-7.696 2.078.818zm.33-5.025L9.357 16h4.867l1.806-4.176L12 8.746zM6.61 10.37l-2.198-.867 6.613-5.116v2.611zm6.368-3.372 4.282 3.27 2.285-.8-6.567-5.081zm3 9.877 2.064-4.767 2.064-.721-2.398 7.909z" clipRule="evenodd" /></svg>;
+export default ChartRadarStroke;

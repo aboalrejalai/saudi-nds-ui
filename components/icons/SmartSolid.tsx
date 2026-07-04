@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SmartSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12m5.344 3.847a.75.75 0 0 0 .71.79l3.885.206a6.75 6.75 0 0 0 4.078-1.107l.303-.2a.75.75 0 0 0-.826-1.251l-.303.2a5.25 5.25 0 0 1-3.172.86l-3.886-.207a.75.75 0 0 0-.789.71m.098-6.53a.75.75 0 0 0 0 1.5h1.535v.225a.75.75 0 0 0 1.5 0v-.976a.75.75 0 0 0-.75-.75zm6.08.75c0 .413.336.75.75.75h1.536v.225a.75.75 0 0 0 1.5 0v-.976a.75.75 0 0 0-.75-.75h-2.286a.75.75 0 0 0-.75.75" /></svg>;
+export default SmartSolid;

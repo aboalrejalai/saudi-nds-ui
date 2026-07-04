@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MailSearch01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19.498 4.25A2.75 2.75 0 0 1 22.248 7v3a.75.75 0 1 1-1.5 0V7c0-.69-.56-1.25-1.25-1.25h-16c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h10.5a.75.75 0 1 1 0 1.5h-10.5A2.75 2.75 0 0 1 .748 17V7a2.75 2.75 0 0 1 2.75-2.75z" /><path fill="currentColor" fillRule="evenodd" d="M18.998 12.25a3.25 3.25 0 0 1 2.766 4.955l1.264 1.265a.75.75 0 1 1-1.06 1.06l-1.265-1.264a3.25 3.25 0 1 1-1.705-6.016m0 1.5a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5" clipRule="evenodd" /><path fill="currentColor" d="M16.068 8.386a.75.75 0 1 1 .86 1.228l-5 3.5a.75.75 0 0 1-.86 0l-5-3.5a.75.75 0 1 1 .86-1.228l4.57 3.199z" /></svg>;
+export default MailSearch01Solid;

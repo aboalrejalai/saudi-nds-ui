@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LassoTool02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M4.67 2.056a1 1 0 0 1 .911.13l6.565 4.69 7.502-2.813a1 1 0 0 1 1.346.827l1 9a1 1 0 0 1-.678 1.058l-9 3c-.178.06-.37.068-.553.024l-5.144-1.255a1 1 0 0 1 .474-1.944l4.865 1.187 7.958-2.654-.768-6.918-6.796 2.548a1 1 0 0 1-.933-.123L5.572 4.637l-1.528 5.35.937 2.963a1 1 0 0 1-1.907.604l-1.027-3.252a1 1 0 0 1-.009-.577l2-7c.09-.312.325-.562.632-.67" /><path fill="currentColor" d="M6 15a1 1 0 1 0-2 0 1 1 0 0 0 2 0m2 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0" /><path fill="currentColor" d="M4 17a1 1 0 1 1 2 0c0 1.275.284 2.482.868 3.503a1 1 0 0 1-1.736.994C4.348 20.127 4 18.565 4 17" /></svg>;
+export default LassoTool02Solid;

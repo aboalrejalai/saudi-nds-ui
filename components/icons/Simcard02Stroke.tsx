@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Simcard02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M7.5 12a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 .75.75v6.25a.75.75 0 0 1-.75.75h-7.5a.75.75 0 0 1-.75-.75zM9 15.875V17.5h3v-1.625zm0-1.5h1.5V12.75H9zm3 0h3V12.75h-3zm3 1.5h-1.5V17.5H15z" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M4.5 4.25A2.25 2.25 0 0 1 6.75 2h7.379a2.25 2.25 0 0 1 1.59.659l3.122 3.121c.422.422.659.995.659 1.591V19.75A2.25 2.25 0 0 1 17.25 22H6.75a2.25 2.25 0 0 1-2.25-2.25zm2.25-.75a.75.75 0 0 0-.75.75v15.5c0 .414.336.75.75.75h10.5a.75.75 0 0 0 .75-.75V7.371a.75.75 0 0 0-.22-.53L14.66 3.72a.75.75 0 0 0-.53-.22z" clipRule="evenodd" /></svg>;
+export default Simcard02Stroke;

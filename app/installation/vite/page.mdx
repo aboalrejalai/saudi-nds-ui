@@ -1,0 +1,187 @@
+import { CodeBlock } from "@/components/docs/code-block"
+import { DocsLayout } from "@/components/docs/docs-layout"
+import { InstallCommand } from "@/components/docs/install-command"
+import { RegistryBlock } from "@/components/docs/registry-block"
+
+export const metadata = {
+  title: "Vite Installation",
+  description:
+    "Install DGA Components in your Vite project. Step-by-step guide for Digital Government Authority Saudi Arabia UI components with React, TypeScript, and RTL support.",
+}
+
+<DocsLayout>
+
+# Vite
+
+Install and configure DGA Registry components for Vite.
+
+Choose the setup that matches your starting point.
+
+---
+
+## Scaffold with the CLI
+
+### Create Project
+
+Run the `init` command to scaffold a new Vite project. Follow the prompts to configure your project.
+
+<InstallCommand variant="init-vite" />
+
+**For a monorepo project, use the `--monorepo` flag:**
+
+<InstallCommand variant="init-vite-monorepo" />
+
+---
+
+## Existing Project
+
+### Create Project
+
+If you need a new Vite project, create one first and select the **React + TypeScript** template. Otherwise, skip this step.
+
+<InstallCommand
+  variant="css-import"
+  filename="Terminal"
+  code="npm create vite@latest"
+/>
+
+### Add Tailwind CSS
+
+If your project already has Tailwind CSS configured, skip this step.
+
+<InstallCommand
+  variant="css-import"
+  filename="Terminal"
+  code="npm install tailwindcss @tailwindcss/vite"
+/>
+
+Replace everything in `src/index.css` with the following:
+
+<InstallCommand
+  variant="css-import"
+  filename="src/index.css"
+  code={`@import "tailwindcss";`}
+/>
+
+### Edit tsconfig.json
+
+If your project already has the `@/*` alias configured, skip this step. Add the `baseUrl` and `paths` properties to the `compilerOptions` section of your `tsconfig.json`:
+
+<CodeBlock
+  filename="tsconfig.json"
+  language="json"
+  showLineNumbers
+  code={`{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}`}
+/>
+
+### Update vite.config.ts
+
+Install `@types/node` and update `vite.config.ts` so Vite can resolve the `@` alias:
+
+<InstallCommand
+  variant="css-import"
+  filename="Terminal"
+  code="npm install -D @types/node"
+/>
+
+<CodeBlock
+  filename="vite.config.ts"
+  language="typescript"
+  showLineNumbers
+  code={`import path from "path"
+import tailwindcss from "@tailwindcss/vite"
+import react from "@vitejs/plugin-react"
+import { defineConfig } from "vite"
+
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
+})`}
+/>
+
+### Run the CLI
+
+Run the `shadcn` init command to set up shadcn/ui in your existing project:
+
+<InstallCommand variant="init" />
+
+---
+
+## Configure DGA Registry
+
+### Add the DGA Registry
+
+Add the DGA registry to your `components.json` to enable `@dga/` imports:
+
+<RegistryBlock />
+
+---
+
+### Add the Design Tokens
+
+Add this import to the **top** of your `src/index.css`:
+
+<InstallCommand variant="globals-vite" />
+
+This loads all DGA color tokens, spacing, and typography variables.
+
+---
+
+### Arabic (RTL) Support
+
+Need RTL support? Re-run init with the `--rtl` flag:
+
+<InstallCommand variant="init-vite" rtl />
+
+---
+
+### Add Components
+
+You can now start adding components to your project:
+
+<InstallCommand componentName="button" />
+
+If you created a monorepo, run the command from `apps/web` or specify the workspace from the repo root:
+
+<InstallCommand
+  variant="css-import"
+  filename="Terminal"
+  code="npx shadcn@latest add button -c apps/web"
+/>
+
+---
+
+### Example Usage
+
+The command above will add the `Button` component to your project. You can then import it like this:
+
+<CodeBlock
+  filename="src/App.tsx"
+  language="tsx"
+  showLineNumbers
+  highlightLines={[1, 6]}
+  code={`import { Button } from "@/components/ui/button"
+
+export default function Home() {
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  )
+}`}
+/>
+
+If you created a monorepo, update `apps/web/src/App.tsx` and import from `@workspace/ui/components/button` instead.
+
+</DocsLayout>

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ColumnInsertSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M14 4h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1" /><path fill="currentColor" d="M14 5v14h4V5zm6 14a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2zM9 11a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2z" /><path fill="currentColor" d="M6 14v-4a1 1 0 0 1 2 0v4a1 1 0 1 1-2 0" /></svg>;
+export default ColumnInsertSolid;

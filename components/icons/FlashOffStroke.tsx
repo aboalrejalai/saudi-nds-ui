@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FlashOffStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="m8.582 10.475-2.11 2.9H11a.75.75 0 0 1 .75.75v4.693l2.179-2.997 1.074 1.074-3.397 4.671a.75.75 0 0 1-1.356-.441v-6.25H5a.751.751 0 0 1-.607-1.191L7.508 9.4zM12.394 2.684a.75.75 0 0 1 1.356.441v6.25H19a.75.75 0 0 1 .606 1.191l-3.115 4.283-1.074-1.075 2.11-2.899H13a.75.75 0 0 1-.75-.75V5.432l-2.18 2.996-1.074-1.074zM3.53 2.345a.75.75 0 1 0-1.06 1.06l18 18a.75.75 0 1 0 1.06-1.06z" /></svg>;
+export default FlashOffStroke;

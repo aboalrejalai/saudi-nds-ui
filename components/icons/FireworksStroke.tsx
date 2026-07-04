@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FireworksStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M10.297 2.782a2.25 2.25 0 0 1 3.406 0l3.865 4.476A.75.75 0 0 1 17 8.498h-1.25v8.75a.75.75 0 0 1-.75.75h-1.125v1.313a1.188 1.188 0 0 0 2.375 0 .75.75 0 0 1 1.5 0 2.687 2.687 0 1 1-5.375 0v-1.313h-.75v3.25a.75.75 0 0 1-1.5 0v-3.25H9a.75.75 0 0 1-.75-.75v-8.75H7a.75.75 0 0 1-.568-1.24zm3.953 5.716h-4.5v2.29l4.5-1.125zm1.112-1.5H8.638l2.794-3.236a.75.75 0 0 1 1.136 0zm-1.112 9.5V14.21l-4.5 1.125v1.164zm-4.5-2.71v-1.454l4.5-1.125v1.454z" clipRule="evenodd" /></svg>;
+export default FireworksStroke;

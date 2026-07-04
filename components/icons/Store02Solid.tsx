@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Store02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M19.546 2.25c.603 0 1.133.4 1.299.98l1.693 5.928a1.325 1.325 0 0 1-.79 1.604V19a2.75 2.75 0 0 1-2.75 2.75h-14A2.75 2.75 0 0 1 2.249 19v-8.238a1.325 1.325 0 0 1-.788-1.604L3.153 3.23a1.35 1.35 0 0 1 1.298-.979zm-3.547 7.624c-.418.244-1.155.65-1.78.843-.792.244-1.496.378-2.22.378s-1.428-.134-2.22-.378c-.625-.192-1.363-.599-1.781-.843-.423.247-1.157.652-1.778.843-.614.189-1.327.24-1.96.237q-.262-.001-.511-.014V19c0 .69.56 1.25 1.25 1.25h14c.69 0 1.25-.56 1.25-1.25v-8.06a12 12 0 0 1-.51.014c-.634.002-1.347-.048-1.96-.237-.622-.191-1.357-.596-1.78-.843" clipRule="evenodd" /></svg>;
+export default Store02Solid;

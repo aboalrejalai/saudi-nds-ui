@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Legal01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M14.155 2.659a2.25 2.25 0 0 0-3.37.214L8.483 5.85a.8.8 0 0 1-.134.134L5.373 8.284a2.25 2.25 0 0 0-.214 3.371l2.656 2.656a2.25 2.25 0 0 0 3.37-.214l1.899-2.454 5.137 5.136a.75.75 0 0 0 1.06-1.06l-5.136-5.137 2.452-1.897a2.25 2.25 0 0 0 .214-3.37zM5.25 20.5a.75.75 0 0 0 0 1.5h13.5a.75.75 0 0 0 0-1.5z" /></svg>;
+export default Legal01Solid;

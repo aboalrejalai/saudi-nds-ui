@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TradeDownStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3.47 9.47a.75.75 0 0 1 1.06 0L12 16.94l2.47-2.47a.75.75 0 0 1 1.06 0l5 5a.75.75 0 1 1-1.06 1.06L15 16.06l-2.47 2.47a.75.75 0 0 1-1.06 0l-8-8a.75.75 0 0 1 0-1.06M16 3.25a.75.75 0 0 1 .75.75v6.19l1.72-1.72a.75.75 0 1 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 1 1 1.06-1.06l1.72 1.72V4a.75.75 0 0 1 .75-.75" /></svg>;
+export default TradeDownStroke;

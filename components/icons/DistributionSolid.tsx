@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DistributionSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.302 23.821a.75.75 0 0 0 0-1.5h-7.25v-1.75a.75.75 0 0 0-1.5 0v1.75H3.7a.75.75 0 0 0 0 1.5z" /><path fill="currentColor" fillRule="evenodd" d="M11.547.287c.322-.144.69-.144 1.011 0l7.754 3.48c.45.201.74.652.74 1.149v9.525c0 .498-.29.948-.74 1.15l-7.754 3.48c-.322.144-.69.144-1.011 0l-7.755-3.48a1.26 1.26 0 0 1-.74-1.15V4.916c0-.497.29-.948.74-1.15zm5.351 6.583v3.275c0 .386-.31.699-.692.699a.696.696 0 0 1-.692-.7V7.493zM7.897 3.453 14.5 6.416l1.699-.763-.019-.01-.023-.013-6.556-2.942z" clipRule="evenodd" /></svg>;
+export default DistributionSolid;

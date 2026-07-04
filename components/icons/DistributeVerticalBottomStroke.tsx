@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DistributeVerticalBottomStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20 3.25a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5zM20 19.25a.75.75 0 1 1 0 1.5H4a.75.75 0 0 1 0-1.5zM17.25 13A1.25 1.25 0 0 0 16 11.75H8A1.25 1.25 0 0 0 6.75 13v2A1.25 1.25 0 0 0 8 16.25h8A1.25 1.25 0 0 0 17.25 15zm1.5 2A2.75 2.75 0 0 1 16 17.75H8A2.75 2.75 0 0 1 5.25 15v-2A2.75 2.75 0 0 1 8 10.25h8A2.75 2.75 0 0 1 18.75 13z" /></svg>;
+export default DistributeVerticalBottomStroke;

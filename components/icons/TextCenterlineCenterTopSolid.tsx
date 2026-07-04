@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextCenterlineCenterTopSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.719 6.256a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1z" /><path fill="currentColor" d="M9.719 6.256v4h4v-4zm6 4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2zM19.719 5.256a1 1 0 0 1 0 2h-2a1 1 0 1 1 0-2zM5.719 5.256a1 1 0 1 1 0 2h-2a1 1 0 0 1 0-2zM19.719 9.256a1 1 0 0 1 0 2h-2a1 1 0 1 1 0-2zM5.719 9.256a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2zM19.719 14.256a1 1 0 0 1 0 2h-16a1 1 0 1 1 0-2zM19.719 18.256a1 1 0 0 1 0 2h-16a1 1 0 1 1 0-2z" /></svg>;
+export default TextCenterlineCenterTopSolid;

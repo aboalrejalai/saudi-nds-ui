@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Exchange01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M17 3.766a.75.75 0 0 0-.75.75V8a.75.75 0 0 0 1.5 0V6.557c0-.177.21-.264.33-.134a8.25 8.25 0 0 1-7.914 13.623.75.75 0 0 0-.332 1.463A9.8 9.8 0 0 0 12 21.75c5.385 0 9.75-4.365 9.75-9.75 0-2.444-.9-4.678-2.384-6.389-.116-.133-.023-.345.153-.345h.981a.75.75 0 0 0 0-1.5zM12 2.25c-5.385 0-9.75 4.365-9.75 9.75 0 2.451.905 4.691 2.397 6.404.116.133.024.346-.152.346H3.5a.75.75 0 0 0 0 1.5h3.523a.75.75 0 0 0 .75-.75V16a.75.75 0 0 0-1.5 0v1.468c0 .176-.21.264-.329.134a8.25 8.25 0 0 1 7.89-13.648.75.75 0 0 0 .332-1.463A9.8 9.8 0 0 0 12 2.25" /></svg>;
+export default Exchange01Stroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const RightToLeftListTriangleStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3 5.25a.75.75 0 0 0 0 1.5h9a.75.75 0 0 0 0-1.5zM3 11.25a.75.75 0 0 0 0 1.5h9a.75.75 0 0 0 0-1.5zM3 17.25a.75.75 0 0 0 0 1.5h9a.75.75 0 0 0 0-1.5zM21.363 3.344a.75.75 0 0 0-.76.02l-4 2.5a.75.75 0 0 0 0 1.272l4 2.5A.75.75 0 0 0 21.75 9V4a.75.75 0 0 0-.387-.656M20.25 7.647 18.415 6.5l1.835-1.147zM21.363 14.344a.75.75 0 0 0-.76.02l-4 2.5a.75.75 0 0 0 0 1.272l4 2.5A.75.75 0 0 0 21.75 20v-5a.75.75 0 0 0-.387-.656m-1.113 4.303L18.415 17.5l1.835-1.147z" /></svg>;
+export default RightToLeftListTriangleStroke;

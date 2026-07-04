@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LoginCircle02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 1.25c5.94 0 10.75 4.813 10.75 10.75S17.94 22.75 12 22.75 1.25 17.937 1.25 12 6.06 1.25 12 1.25M6.83 9.26c-.32 0-.58.181-.58.391v5.88c0 .22.26.39.58.39s.58-.18.58-.39v-5.88c0-.22-.26-.39-.58-.39m5.51-.009a.5.5 0 0 0-.39.15l-2.83 2.72c-.22.21-.23.56-.02.78l2.72 2.83c.11.11.24.17.39.17s.29-.05.39-.15a.55.55 0 0 0 .18-.39c0-.15-.05-.29-.16-.4l-1.68-1.76H17c.35 0 .62-.28.62-.62s-.27-.62-.62-.62h-6.09l1.82-1.75a.56.56 0 0 0 .17-.4c0-.13-.05-.27-.15-.38a.54.54 0 0 0-.39-.17z" clipRule="evenodd" /></svg>;
+export default LoginCircle02Solid;

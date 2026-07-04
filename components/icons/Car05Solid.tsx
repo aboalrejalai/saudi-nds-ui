@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Car05Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16.302 3.875a2.25 2.25 0 0 1 2.106 1.46l.951 2.54h1.891a.75.75 0 0 1 0 1.5h-1.328l.043.116a2.25 2.25 0 0 1 1.535 2.134v7a1.5 1.5 0 0 1-3 0v-1h-13v1a1.5 1.5 0 0 1-3 0v-7a2.25 2.25 0 0 1 1.536-2.134l.044-.116H2.75a.75.75 0 0 1 0-1.5h1.892l.95-2.54A2.25 2.25 0 0 1 7.7 3.876zm-6.802 8.5a2.25 2.25 0 0 0-2.25 2.25v1.5h1.5v-1.5a.75.75 0 0 1 .75-.75h5a.75.75 0 0 1 .75.75v1.5h1.5v-1.5a2.25 2.25 0 0 0-2.25-2.25zm-1.8-7a.75.75 0 0 0-.703.487L5.87 8.872l-.013.032-.175.471h12.637l-.175-.47q-.008-.017-.013-.033l-1.127-3.01a.75.75 0 0 0-.702-.487z" /></svg>;
+export default Car05Solid;

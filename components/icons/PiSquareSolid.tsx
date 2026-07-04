@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PiSquareSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.4 2.25H3.6c-.74 0-1.35.6-1.35 1.35v16.8c0 .75.61 1.35 1.35 1.35h16.8c.75 0 1.35-.6 1.35-1.35V3.6c0-.75-.6-1.35-1.35-1.35M15.93 9.7h-1.02l-.77 5.56c-.03.22-.14.42-.32.55-.15.11-.32.17-.51.17-.03 0-.07 0-.11-.01a.85.85 0 0 1-.56-.32.86.86 0 0 1-.16-.62l.74-5.33h-1.79l-.65 4.7c-.13.93-1.03 1.57-2.01 1.45-.67-.08-1.22-.51-1.44-1.11l-.03-.09c-.16-.43.06-.92.49-1.08.21-.08.44-.07.64.03.21.09.36.26.44.47l.03.08s.02.03.08.04c.11 0 .14-.04.14-.04l.61-4.44c-.5.04-.81.39-.81.72 0 .47-.38.84-.84.84s-.84-.37-.84-.84c0-1.32 1.16-2.4 2.59-2.4h6.1c.46 0 .84.37.84.84s-.38.83-.84.83" clipRule="evenodd" /></svg>;
+export default PiSquareSolid;

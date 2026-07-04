@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const RotateBottomLeftStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16.5 14.5a.75.75 0 0 0-.75-.75h-11a.25.25 0 0 1-.25-.25v-11a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H3v8.25c0 .966.784 1.75 1.75 1.75H13v1.25a.75.75 0 0 0 1.5 0v-1.25h1.25a.75.75 0 0 0 .75-.75" /><path fill="currentColor" d="M14.5 5.5a1.75 1.75 0 0 0-1.75-1.75h-6a.75.75 0 0 0 0 1.5h6a.25.25 0 0 1 .25.25v6a.75.75 0 0 0 1.5 0zM22.78 17.53a.75.75 0 0 0 0-1.06l-2.5-2.5a.8.8 0 0 0-.16-.118q-.04-.025-.083-.044a.75.75 0 0 0-.573 0q-.044.019-.083.044a.7.7 0 0 0-.161.118l-2.5 2.5a.75.75 0 0 0 1.06 1.06L19 16.31v1.19a3.25 3.25 0 0 1-3.25 3.25h-4a.75.75 0 0 0 0 1.5h4a4.75 4.75 0 0 0 4.75-4.75v-1.19l1.22 1.22a.75.75 0 0 0 1.06 0" /></svg>;
+export default RotateBottomLeftStroke;

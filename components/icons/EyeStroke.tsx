@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const EyeStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.316 13.308c-3.334-7.41-13.297-7.41-16.632 0a.75.75 0 0 1-1.368-.616c3.866-8.59 15.503-8.59 19.368 0a.75.75 0 1 1-1.368.616" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M12 11.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M15.75 14a3.75 3.75 0 1 0-7.5 0 3.75 3.75 0 0 0 7.5 0" clipRule="evenodd" /></svg>;
+export default EyeStroke;

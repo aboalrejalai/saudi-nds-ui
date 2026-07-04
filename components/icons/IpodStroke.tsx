@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const IpodStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M5.5 21h13v-9h-13zm14.5.25-.007.128a1.25 1.25 0 0 1-1.115 1.115l-.128.007H5.25c-.69 0-1.25-.56-1.25-1.25v-10.5a.25.25 0 0 1 .2-.245l.05-.005h15.5l.05.005a.25.25 0 0 1 .2.245zM5.5 8h13V3h-13zM20 9.25l-.005.05a.25.25 0 0 1-.245.2H4.25a.25.25 0 0 1-.245-.2L4 9.25v-6.5c0-.69.56-1.25 1.25-1.25h13.5c.69 0 1.25.56 1.25 1.25z" /><path fill="currentColor" fillRule="evenodd" d="M11.75 14a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5M8 16.25a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0" clipRule="evenodd" /></svg>;
+export default IpodStroke;

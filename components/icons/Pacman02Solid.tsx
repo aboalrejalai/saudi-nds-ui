@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Pacman02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 2.905c-4.84 0-8.75 3.92-8.75 8.75v7.09c0 1.3 1.05 2.35 2.35 2.35s2.35-1.05 2.35-2.35v-.8a.85.85 0 1 1 1.7 0v.8c0 1.3 1.05 2.35 2.35 2.35s2.35-1.05 2.35-2.35v-.8a.85.85 0 1 1 1.7 0v.8c0 1.3 1.05 2.35 2.35 2.35s2.35-1.05 2.35-2.35v-7.09c0-4.83-3.92-8.75-8.75-8.75m3 9.75c-.55 0-1-.44-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1m-5.99 0H9c-.55 0-1-.44-1-1s.45-1 1-1h.01c.55 0 1 .45 1 1s-.45 1-1 1" clipRule="evenodd" /></svg>;
+export default Pacman02Solid;

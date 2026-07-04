@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Appointment02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.97 17.47a.75.75 0 0 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06 0l-2-2a.75.75 0 0 1 1.06-1.06l1.47 1.47z" /><path fill="currentColor" d="M6.5 1.25a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0V4.75H4.5c-.69 0-1.25.56-1.25 1.25v3.25h16.5V6c0-.69-.56-1.25-1.25-1.25H18a.75.75 0 0 1 0-1.5h.5A2.75 2.75 0 0 1 21.25 6v9.765a2.24 2.24 0 0 0-1.34.644l-2.41 2.41-.41-.41a2.25 2.25 0 1 0-3.18 3.182l.158.159H4.5A2.75 2.75 0 0 1 1.75 19V6A2.75 2.75 0 0 1 4.5 3.25h1.25V2a.75.75 0 0 1 .75-.75" /><path fill="currentColor" d="M14.5 1.25a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0V4.75H10a.75.75 0 0 1 0-1.5h3.75V2a.75.75 0 0 1 .75-.75" /></svg>;
+export default Appointment02Solid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Petals03Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M17.49 2.344a.91.91 0 0 1 1.212.817c.212 3.97-.832 8.11-3.042 11.39-2.21 3.278-5.662 5.81-9.423 7.105a.9.9 0 0 1-.485.031c.005-.172.021-.381.08-.684.1-.518.32-1.315.803-2.63.58-1.291.858-1.91 1.116-2.381.252-.46.483-.776.99-1.465a.5.5 0 1 0-.806-.593c-.5.68-.772 1.05-1.06 1.577-.284.516-.584 1.185-1.16 2.467l-.012.032c-.34.926-.558 1.62-.7 2.157-.067-3.762.98-7.623 3.064-10.717 2.21-3.279 5.663-5.81 9.423-7.106" /></svg>;
+export default Petals03Solid;

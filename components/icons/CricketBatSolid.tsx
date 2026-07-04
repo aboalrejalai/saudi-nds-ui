@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CricketBatSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M22.515 4.703c-.13-.32-.32-.58-.55-.85-.23-.26-.52-.55-.88-.91l-.03-.03c-.36-.36-.65-.65-.91-.88-.27-.23-.53-.42-.85-.55-.73-.31-1.56-.31-2.29 0-.32.13-.58.32-.85.55-.26.23-.55.52-.91.88l-7.87 7.87c-.41.41-.76.75-.94 1.2-.19.46-.19.95-.19 1.53v1.1l-4.35 4.35c-.86.87-.86 2.27 0 3.14.87.86 2.27.86 3.14 0l4.35-4.35h1.1c.58 0 1.07 0 1.53-.19.45-.18.79-.53 1.2-.94l7.87-7.87c.36-.36.65-.65.88-.91s.42-.53.55-.85c.31-.73.31-1.56 0-2.29m-16.22 14.02-1.01-1.01 1.49-1.49c.09.11.2.21.3.31l.4.4c.1.1.2.21.31.3z" clipRule="evenodd" /><path fill="currentColor" d="M18.495 21.754a3.25 3.25 0 1 0 0-6.5 3.25 3.25 0 0 0 0 6.5" /></svg>;
+export default CricketBatSolid;

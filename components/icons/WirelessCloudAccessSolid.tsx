@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WirelessCloudAccessSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6.137 7.87a5.615 5.615 0 0 1 11.227 0 4.766 4.766 0 0 1 4.337 5.436 8.785 8.785 0 0 0-11.536.774 2.25 2.25 0 0 0 .135 3.307H6.516a4.766 4.766 0 0 1-.38-9.517" /><path fill="currentColor" d="M12.286 16.202a5.783 5.783 0 0 1 8.178 0 .75.75 0 0 0 1.06-1.061 7.283 7.283 0 0 0-10.299 0 .75.75 0 0 0 1.06 1.06" /><path fill="currentColor" d="M14.474 18.511a2.846 2.846 0 0 1 3.801 0 .75.75 0 0 0 1.003-1.115 4.346 4.346 0 0 0-5.807 0 .75.75 0 1 0 1.003 1.115M16.375 19.514a.8.8 0 1 0 0 1.6.8.8 0 0 0 0-1.6" /></svg>;
+export default WirelessCloudAccessSolid;

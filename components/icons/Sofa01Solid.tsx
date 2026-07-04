@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Sofa01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M18 4.25A2.75 2.75 0 0 1 20.75 7v1.356c1.154.327 2 1.386 2 2.644v8a.75.75 0 0 1-1.5 0v-1.25H2.75V19a.75.75 0 0 1-1.5 0v-8c0-1.258.846-2.317 2-2.644V7A2.75 2.75 0 0 1 6 4.25zM6 5.75c-.69 0-1.25.56-1.25 1.25v1.356c1.154.327 2 1.386 2 2.644v1.25h10.5V11c0-1.258.846-2.317 2-2.644V7c0-.69-.56-1.25-1.25-1.25z" clipRule="evenodd" /></svg>;
+export default Sofa01Solid;

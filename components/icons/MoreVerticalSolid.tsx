@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MoreVerticalSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.996 16.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5M11.996 10.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5M11.996 4.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5" /><path fill="currentColor" d="M12.996 18a1 1 0 1 0-2 0 1 1 0 0 0 2 0m0-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0m0-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0m.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-6a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-6a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" /></svg>;
+export default MoreVerticalSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CameraMicrophone02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M15.2 2.25c.425 0 .825.2 1.08.54l2.22 2.96c.236.315.607.5 1 .5h.5A2.75 2.75 0 0 1 22.75 9v10A2.75 2.75 0 0 1 20 21.75H4A2.75 2.75 0 0 1 1.25 19V9A2.75 2.75 0 0 1 4 6.25h.5a1.25 1.25 0 0 0 1-.5l2.22-2.96a1.35 1.35 0 0 1 1.08-.54zm-.408 12.002a.75.75 0 0 1 1.416.496 4.48 4.48 0 0 1-3.458 2.938v.814a.75.75 0 0 1-1.5 0v-.814a4.48 4.48 0 0 1-3.458-2.938.75.75 0 0 1 1.416-.496A2.97 2.97 0 0 0 12 16.25c1.283 0 2.383-.83 2.792-1.998M14.5 11.25a2.5 2.5 0 0 0-5 0v2a2.5 2.5 0 0 0 5 0zm-2.5-1a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0v-2a1 1 0 0 0-1-1" clipRule="evenodd" /></svg>;
+export default CameraMicrophone02Solid;

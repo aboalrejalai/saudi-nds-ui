@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WindPowerSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M6.875 2.22a.75.75 0 1 0-1.06 1.06l3.784 3.785a2.74 2.74 0 0 0-.349 1.34c0 .488.127.946.35 1.343l-3.787 3.786a.75.75 0 0 0 1.061 1.06l3.787-3.786c.396.222.854.348 1.34.348s.944-.126 1.34-.348l3.787 3.786a.75.75 0 0 0 1.06-1.06l-3.785-3.786c.223-.397.35-.855.35-1.343 0-.487-.127-.944-.349-1.34l3.784-3.784a.75.75 0 1 0-1.06-1.06l-3.784 3.782a2.74 2.74 0 0 0-1.343-.349c-.487 0-.945.127-1.342.35z" /><path fill="currentColor" d="M11.634 12.596a.75.75 0 0 0-.743.643l-1.133 7.904a.75.75 0 0 0 .743.856h3a.75.75 0 0 0 .742-.856l-1.133-7.904a.75.75 0 0 0-.743-.643z" /></svg>;
+export default WindPowerSolid;

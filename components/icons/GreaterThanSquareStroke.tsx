@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GreaterThanSquareStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.4 2.25c.75 0 1.35.6 1.35 1.35v16.8c0 .75-.6 1.35-1.35 1.35H3.6c-.75 0-1.35-.6-1.35-1.35V3.6c0-.75.6-1.35 1.35-1.35zm-16.65 18h16.5V3.75H3.75z" clipRule="evenodd" /><path fill="currentColor" d="M9.44 7.5c.28-.31.75-.33 1.06-.05l3.33 3.02c.23.21.45.43.61.66s.3.53.3.88-.14.64-.3.88c-.16.23-.38.44-.61.66l-3.33 3.02c-.31.28-.78.26-1.06-.05a.746.746 0 0 1 .05-1.06l3.33-3.02c.21-.19.33-.32.39-.41V12c-.06-.09-.18-.22-.39-.41L9.49 8.57a.746.746 0 0 1-.05-1.06z" /></svg>;
+export default GreaterThanSquareStroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DashedLine02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3 19v-1a1 1 0 1 1 2 0v1h1a1 1 0 1 1 0 2H5a2 2 0 0 1-2-2m10 0a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2zm6 0v-1a1 1 0 1 1 2 0v1a2 2 0 0 1-2 2h-1a1 1 0 1 1 0-2zM3 13v-2a1 1 0 1 1 2 0v2a1 1 0 1 1-2 0m16 0v-2a1 1 0 1 1 2 0v2a1 1 0 1 1-2 0M3 6V5a2 2 0 0 1 2-2h1a1 1 0 1 1 0 2H5v1a1 1 0 0 1-2 0m16 0V5h-1a1 1 0 1 1 0-2h1a2 2 0 0 1 2 2v1a1 1 0 1 1-2 0m-6-3a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2z" /></svg>;
+export default DashedLine02Solid;

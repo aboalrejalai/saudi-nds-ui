@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FlipHorizontalStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11 21.131v-18a.75.75 0 0 1 1.5 0v18a.75.75 0 1 1-1.5 0M15.578 6.402a.75.75 0 0 1 .843.394l5 10a.75.75 0 0 1-.671 1.085h-5a.75.75 0 0 1-.75-.75v-10c0-.347.24-.65.578-.73m.922 9.98h3.036L16.5 10.307zM7.922 6.402a.75.75 0 0 1 .578.73v10a.75.75 0 0 1-.75.75h-5a.75.75 0 0 1-.671-1.086l5-10a.75.75 0 0 1 .843-.394m-3.958 9.98H7v-6.074z" /></svg>;
+export default FlipHorizontalStroke;

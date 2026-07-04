@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ChartDownSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16.635 8.589 15.317 7.27a.72.72 0 0 0-1.018 1.02l2.534 2.532a.717.717 0 0 0 1.066-.025l2.51-2.508a.72.72 0 1 0-1.018-1.019l-1.316 1.315V3.721a.72.72 0 1 0-1.44 0zM3.38 6.36A2.16 2.16 0 0 1 5.54 4.2h.32a2.16 2.16 0 0 1 2.16 2.16v12.48A2.16 2.16 0 0 1 5.86 21h-.32a2.16 2.16 0 0 1-2.16-2.16zM11.62 10.327a2.16 2.16 0 0 0-2.16 2.16v6.352a2.16 2.16 0 0 0 2.16 2.16h.32a2.16 2.16 0 0 0 2.16-2.16v-6.352a2.16 2.16 0 0 0-2.16-2.16zM17.7 13.245a2.16 2.16 0 0 0-2.16 2.16v3.435A2.16 2.16 0 0 0 17.7 21h.32a2.16 2.16 0 0 0 2.16-2.16v-3.435a2.16 2.16 0 0 0-2.16-2.16z" /></svg>;
+export default ChartDownSolid;

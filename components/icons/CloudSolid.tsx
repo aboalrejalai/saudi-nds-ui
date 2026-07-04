@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CloudSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M6.107 5.864C7.029 4.327 8.817 3.25 12 3.25s4.97 1.077 5.893 2.614c.69 1.15.825 2.458.85 3.437.866.114 1.907.432 2.82 1.09 1.235.89 2.187 2.365 2.187 4.609s-.952 3.72-2.187 4.609c-1.196.861-2.61 1.141-3.563 1.141H6c-.953 0-2.367-.28-3.563-1.141C1.202 18.719.25 17.244.25 15s.952-3.72 2.187-4.609c.914-.658 1.954-.976 2.82-1.09.025-.979.16-2.288.85-3.437" clipRule="evenodd" /></svg>;
+export default CloudSolid;

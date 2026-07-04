@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CallMinus02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M7.73 1.421c.318 0 .604.202.716.506L9.932 5.95c.049.134.062.279.037.419l-.745 4.067c.915 2.192 2.426 3.666 4.934 4.987l3.946-.779a.75.75 0 0 1 .42.037l3.963 1.538a.78.78 0 0 1 .492.73v3.726c0 1.69-1.462 3.062-3.173 2.683-3.117-.691-8.894-2.447-12.94-6.567-3.874-3.947-5.172-9.399-5.61-12.346-.248-1.68 1.075-3.023 2.643-3.024zM22.46 4.793c.424 0 .766.35.767.78 0 .43-.343.78-.766.78h-6.127a.774.774 0 0 1-.765-.78c0-.43.343-.779.765-.78z" /></svg>;
+export default CallMinus02Solid;

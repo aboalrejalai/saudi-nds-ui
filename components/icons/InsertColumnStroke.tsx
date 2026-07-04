@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const InsertColumnStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M17.237 8.761a.762.762 0 1 1 1.526 0v2.474h2.474a.762.762 0 1 1 0 1.526h-2.474v2.474a.762.762 0 1 1-1.526 0v-2.474h-2.474a.762.762 0 1 1 0-1.526h2.474z" /><path fill="currentColor" fillRule="evenodd" d="M20.616 21.998c.764 0 1.384-.62 1.384-1.384v-2.847a.77.77 0 1 0-1.538 0v2.847H8.5V3.382h11.962V6.23a.77.77 0 0 0 1.538 0V3.382c0-.764-.62-1.384-1.384-1.384H3.384C2.62 1.998 2 2.618 2 3.382v17.232c0 .764.62 1.384 1.384 1.384zM7 3.382H3.393v4.55H7zm0 6.176H3.393v4.88H7zm0 6.507H3.393v4.549H7z" clipRule="evenodd" /></svg>;
+export default InsertColumnStroke;

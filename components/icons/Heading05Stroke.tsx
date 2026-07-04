@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Heading05Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.25 16A1.25 1.25 0 0 0 19 14.75h-2a.75.75 0 0 1-.75-.75v-4a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-3.25v2.5H19a2.75 2.75 0 0 1 0 5.5h-2a.75.75 0 0 1 0-1.5h2A1.25 1.25 0 0 0 20.25 16M3.25 18V6a.75.75 0 0 1 1.5 0v12a.75.75 0 0 1-1.5 0M11.25 18V6a.75.75 0 0 1 1.5 0v12a.75.75 0 0 1-1.5 0" /><path fill="currentColor" d="M13 17.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5zM5 17.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zM12 11.25a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5zM5 5.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zM13 5.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5z" /></svg>;
+export default Heading05Stroke;

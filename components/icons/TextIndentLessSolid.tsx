@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextIndentLessSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16.207 11.293a1 1 0 1 0-1.414 1.414l4 4a1 1 0 1 0 1.414-1.414z" /><path fill="currentColor" d="M20.207 7.293a1 1 0 0 0-1.414 0l-4 4a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414M13.5 20V4a1 1 0 1 0-2 0v16a1 1 0 1 0 2 0M5.5 5a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.5 9a1 1 0 1 0 0 2h5a1 1 0 1 0 0-2zM5.5 17a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2zM6.5 13a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2z" /></svg>;
+export default TextIndentLessSolid;

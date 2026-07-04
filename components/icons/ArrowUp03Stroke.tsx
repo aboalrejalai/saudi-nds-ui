@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ArrowUp03Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.809 21.248a.75.75 0 1 1-1.5.004l-.09-15.173-3.307 3.326a.75.75 0 0 1-1.064-1.058l4.583-4.61a.75.75 0 0 1 1.06-.002l4.61 4.583a.75.75 0 0 1-1.057 1.063l-3.326-3.306z" /><path fill="currentColor" d="M17.129 2.034c.41.001.749.342.747.752a.756.756 0 0 1-.752.748L6.871 3.5a.755.755 0 0 1-.748-.753A.755.755 0 0 1 6.876 2z" /></svg>;
+export default ArrowUp03Stroke;

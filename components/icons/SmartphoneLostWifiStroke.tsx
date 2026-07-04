@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SmartphoneLostWifiStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M6.25 7.31 2.22 3.28a.75.75 0 0 1 1.06-1.06l18.5 18.499a.75.75 0 0 1-1.061 1.06l-2.97-2.969v.94A2.25 2.25 0 0 1 15.5 22h-7a2.25 2.25 0 0 1-2.25-2.25zm10 10v2.44a.75.75 0 0 1-.75.75h-7a.75.75 0 0 1-.75-.75V8.81z" clipRule="evenodd" /><path fill="currentColor" d="M16.25 4.25v8.912l1.5 1.5V4.25A2.25 2.25 0 0 0 15.5 2h-7a2.25 2.25 0 0 0-2.062 1.35L7.75 4.66V4.25a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 .75.75" /></svg>;
+export default SmartphoneLostWifiStroke;

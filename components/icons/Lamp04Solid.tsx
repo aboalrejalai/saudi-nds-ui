@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Lamp04Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 14.25a.75.75 0 0 1 .75.75v5.25H16a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1 0-1.5h3.25V15a.75.75 0 0 1 .75-.75" /><path fill="currentColor" fillRule="evenodd" d="M16.553 2.25a1.35 1.35 0 0 1 1.293.962l2.64 8.8a1.35 1.35 0 0 1-1.293 1.738H8.749V15a.75.75 0 0 1-1.5 0v-1.25H4.806a1.35 1.35 0 0 1-1.293-1.738l2.64-8.8a1.35 1.35 0 0 1 1.293-.962z" clipRule="evenodd" /></svg>;
+export default Lamp04Solid;

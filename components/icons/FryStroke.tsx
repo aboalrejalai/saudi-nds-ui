@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FryStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M14.534 8.52a1 1 0 0 1 0 2h-.01a1 1 0 1 1 0-2z" /><path fill="currentColor" fillRule="evenodd" d="M14.526 4.77a4.75 4.75 0 1 1 0 9.5 4.75 4.75 0 0 1 0-9.5m0 1.5a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 0 0 0-6.5" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M14.5 1.25a8.25 8.25 0 1 1-5.28 14.589L2.53 22.53a.75.75 0 1 1-1.06-1.06l6.69-6.692A8.25 8.25 0 0 1 14.5 1.25m0 1.5a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5" clipRule="evenodd" /></svg>;
+export default FryStroke;

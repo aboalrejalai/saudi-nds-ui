@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CircleArrowUp03Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2M9.001 5.3a.75.75 0 0 0-.002 1.5l6 .01a.75.75 0 0 0 .002-1.5zm2.475 3.015a.75.75 0 0 1 1.06.002l2.995 3.004a.75.75 0 0 1-1.062 1.06l-1.717-1.723-.015 7.293a.75.75 0 0 1-1.5-.002l.015-7.294-1.723 1.718a.75.75 0 0 1-1.058-1.063z" clipRule="evenodd" /></svg>;
+export default CircleArrowUp03Solid;

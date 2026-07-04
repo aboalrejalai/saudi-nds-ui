@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const EqualSignSquareSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.4 2.25H3.6c-.74 0-1.35.6-1.35 1.35v16.8c0 .74.61 1.35 1.35 1.35h16.8c.75 0 1.35-.61 1.35-1.35V3.6c0-.75-.6-1.35-1.35-1.35M7.11 13.84c0-.41.33-.75.74-.75h8.29c.42 0 .75.33.75.75s-.33.74-.75.74H7.85c-.41 0-.74-.33-.74-.74m9.03-2.94H7.85c-.41 0-.74-.34-.74-.75s.33-.75.74-.75h8.29a.749.749 0 1 1 0 1.5" clipRule="evenodd" /></svg>;
+export default EqualSignSquareSolid;

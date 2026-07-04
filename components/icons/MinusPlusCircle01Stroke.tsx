@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MinusPlusCircle01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M15.6 14.08c0 .41-.34.74-.74.74h-2.13v1.87c0 .4-.33.73-.74.73s-.74-.33-.74-.73v-1.87H9.12c-.4 0-.73-.33-.73-.74s.33-.74.73-.74h2.13v-1.87c0-.4.33-.74.74-.74s.74.34.74.74v1.87h2.13c.4 0 .74.33.74.74M15.6 8.31c0 .41-.34.74-.74.74H9.12c-.4 0-.73-.33-.73-.74s.33-.74.73-.74h5.74c.4 0 .74.34.74.74" /><path fill="currentColor" fillRule="evenodd" d="M12 1.25c5.94 0 10.75 4.81 10.75 10.75S17.94 22.75 12 22.75 1.25 17.94 1.25 12 6.06 1.25 12 1.25m0 1.5c-5.11 0-9.25 4.14-9.25 9.25s4.14 9.25 9.25 9.25 9.25-4.14 9.25-9.25S17.11 2.75 12 2.75" clipRule="evenodd" /></svg>;
+export default MinusPlusCircle01Stroke;

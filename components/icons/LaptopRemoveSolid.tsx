@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LaptopRemoveSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.552 4a2.75 2.75 0 0 0-2.75-2.75h-13.6A2.75 2.75 0 0 0 2.452 4v10.118L1 19.252a2.75 2.75 0 0 0 2.646 3.498h16.711a2.75 2.75 0 0 0 2.647-3.498l-1.452-5.134zm-17.6 0c0-.69.56-1.25 1.25-1.25h13.6c.69 0 1.25.56 1.25 1.25v9.473h-16.1zm9.8 15a.75.75 0 0 0-.75-.75h-2a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 .75-.75" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M14.668 5.902a.75.75 0 0 1 0 1.06l-1.591 1.591 1.59 1.591a.75.75 0 0 1-1.06 1.06l-1.591-1.59-1.591 1.59a.75.75 0 0 1-1.06-1.06l1.59-1.59-1.59-1.592a.75.75 0 1 1 1.06-1.06l1.59 1.59 1.592-1.59a.75.75 0 0 1 1.06 0" clipRule="evenodd" /></svg>;
+export default LaptopRemoveSolid;

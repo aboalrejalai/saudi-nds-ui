@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const KeyframeAlignVerticalStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M17.927 10.963a1.35 1.35 0 0 1 0 2.074l-5.062 4.22a1.35 1.35 0 0 1-1.729 0l-5.064-4.22a1.35 1.35 0 0 1 0-2.074l5.064-4.219a1.35 1.35 0 0 1 1.729 0zM12 7.977 7.171 12l4.83 4.024L16.827 12z" clipRule="evenodd" /><path fill="currentColor" d="M12.75 4a.75.75 0 0 1-1.5 0V2a.75.75 0 0 1 1.5 0zM12.75 22a.75.75 0 0 1-1.5 0v-2a.75.75 0 0 1 1.5 0z" /></svg>;
+export default KeyframeAlignVerticalStroke;

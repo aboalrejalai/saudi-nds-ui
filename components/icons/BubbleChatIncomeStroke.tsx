@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BubbleChatIncomeStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12 1.25q.543 0 1.074.053a.75.75 0 0 1-.148 1.493 9.25 9.25 0 0 0-8.939 13.828c.09.155.121.338.088.514l-.638 3.424 3.425-.637a.75.75 0 0 1 .514.088 9.25 9.25 0 0 0 13.828-8.938.75.75 0 0 1 1.493-.15q.053.531.053 1.075c0 5.937-4.813 10.75-10.75 10.75-1.856 0-3.605-.471-5.13-1.3l-4.232.787a.75.75 0 0 1-.875-.875l.788-4.232A10.7 10.7 0 0 1 1.25 12C1.25 6.063 6.063 1.25 12 1.25" /><path fill="currentColor" d="M18.47 1.47a.75.75 0 1 1 1.06 1.06l-1.72 1.72H22a.75.75 0 0 1 0 1.5h-4.19l1.72 1.72a.75.75 0 1 1-1.06 1.06l-3-3a.75.75 0 0 1 0-1.06z" /></svg>;
+export default BubbleChatIncomeStroke;

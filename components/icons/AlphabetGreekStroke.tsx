@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AlphabetGreekStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19 19.754a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1 0-1.5zM10.75 17.504a.75.75 0 0 1-.75.75H5a.75.75 0 0 1 0-1.5h2.43a7.751 7.751 0 1 1 12.238-7.377 7.75 7.75 0 0 1-3.098 7.377H19a.75.75 0 0 1 0 1.5h-5a.75.75 0 0 1-.75-.75v-.3a.75.75 0 0 1 .536-.719 6.251 6.251 0 1 0-3.572 0 .75.75 0 0 1 .536.72z" /></svg>;
+export default AlphabetGreekStroke;

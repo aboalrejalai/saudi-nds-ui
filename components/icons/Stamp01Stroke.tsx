@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Stamp01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M8.921 3.952a2.38 2.38 0 0 1 2.375-2.524h1.385a2.38 2.38 0 0 1 2.374 2.524l-.638 10.426h4.443a2.38 2.38 0 0 1 2.378 2.378v3.436a.793.793 0 0 1-.793.793h-.528v.793a.793.793 0 0 1-.793.793H4.853a.793.793 0 0 1-.793-.793v-.793H3.53a.793.793 0 0 1-.793-.793v-3.436a2.38 2.38 0 0 1 2.379-2.378H9.56zm10.732 15.447v-2.643a.793.793 0 0 0-.793-.793H5.117a.793.793 0 0 0-.793.793V19.4zm-6.18-15.544-.645 10.523h-1.68l-.644-10.523a.793.793 0 0 1 .792-.842h1.385c.457 0 .82.386.792.842" clipRule="evenodd" /></svg>;
+export default Stamp01Stroke;

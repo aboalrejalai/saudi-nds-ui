@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MoneyRemove02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M13.25 18.75a1 1 0 0 1 1-1h7a1 1 0 0 1 0 2h-7a1 1 0 0 1-1-1" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M1.25 17A2.75 2.75 0 0 0 4 19.75h7.958a2.5 2.5 0 0 1-.158-1.5 2.5 2.5 0 0 1 2.45-2h7c.563 0 1.082.186 1.5.5V7A2.75 2.75 0 0 0 20 4.25H4A2.75 2.75 0 0 0 1.25 7zm14.5-5a3.75 3.75 0 1 0-7.5 0 3.75 3.75 0 0 0 7.5 0m-9.738-.558a.75.75 0 0 0-1.06.055l-.01.012a.75.75 0 0 0 1.116 1.003l.01-.01a.75.75 0 0 0-.056-1.06m13 0a.75.75 0 0 0-1.06.055l-.01.012a.75.75 0 0 0 1.116 1.003l.01-.01a.75.75 0 0 0-.056-1.06" clipRule="evenodd" /></svg>;
+export default MoneyRemove02Solid;

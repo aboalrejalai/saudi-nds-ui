@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LogoutSquare01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M13.001 8.445q-.24 0-.42.18a.61.61 0 0 0 .02.84l1.94 1.87h-6.5c-.37 0-.67.3-.67.67s.29.67.67.67h6.47l-1.8 1.88a.59.59 0 0 0 .02.85c.11.11.26.16.42.16q.24 0 .42-.18l2.9-3.02c.22-.23.21-.6-.02-.84l-3.02-2.9a.54.54 0 0 0-.42-.16z" /><path fill="currentColor" d="M5.231 21.725h13.54c1.63 0 2.95-1.33 2.95-2.95V5.225c0-1.62-1.33-2.95-2.95-2.95H5.231c-1.63 0-2.95 1.33-2.95 2.95v13.54c0 1.63 1.33 2.95 2.95 2.95zm13.54-18.06c.86 0 1.56.7 1.56 1.56v13.54c0 .86-.7 1.56-1.56 1.56H5.231c-.86 0-1.56-.7-1.56-1.56V5.225c0-.86.7-1.56 1.56-1.56z" /></svg>;
+export default LogoutSquare01Stroke;

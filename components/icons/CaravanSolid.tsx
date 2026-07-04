@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CaravanSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.435 16.466h-.91v-6.84a4.78 4.78 0 0 0-4.78-4.78h-9.81c-1.13 0-2.05.92-2.05 2.05v8.89c0 1.13.92 2.05 2.05 2.05h.84a2.73 2.73 0 0 0 2.58 1.82c1.19 0 2.2-.76 2.58-1.82h9.5a.68.68 0 0 0 0-1.36zm-12.08 1.82c-.75 0-1.37-.61-1.37-1.37s.61-1.37 1.37-1.37 1.37.61 1.37 1.37-.61 1.37-1.37 1.37m2.88-8.5c0 .51-.41.92-.92.92h-4.63c-.51 0-.92-.41-.92-.92v-2.13c0-.51.41-.92.92-.92h4.63c.51 0 .92.41.92.92z" /></svg>;
+export default CaravanSolid;

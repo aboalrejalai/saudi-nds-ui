@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Appointment01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.974 17.47a.75.75 0 0 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06 0l-2-2a.75.75 0 0 1 1.06-1.06l1.47 1.47z" /><path fill="currentColor" d="M6.504 1.25a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0V4.75h-1.25c-.69 0-1.25.56-1.25 1.25v3.25h16.5V6c0-.69-.56-1.25-1.25-1.25h-.5a.75.75 0 0 1 0-1.5h.5A2.75 2.75 0 0 1 21.254 6v9a.75.75 0 0 1-1.5 0v-4.25h-16.5V19c0 .69.56 1.25 1.25 1.25h8a.75.75 0 0 1 0 1.5h-8A2.75 2.75 0 0 1 1.754 19V6a2.75 2.75 0 0 1 2.75-2.75h1.25V2a.75.75 0 0 1 .75-.75" /><path fill="currentColor" d="M14.504 1.25a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0V4.75h-3.75a.75.75 0 0 1 0-1.5h3.75V2a.75.75 0 0 1 .75-.75" /></svg>;
+export default Appointment01Stroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DiscoverSquareSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.813 12.813 8.93 14.97l2.156-3.883 3.882-2.156z" /><path fill="currentColor" fillRule="evenodd" d="M21.5 1.25c.69 0 1.25.56 1.25 1.25v19c0 .69-.56 1.25-1.25 1.25h-19c-.69 0-1.25-.56-1.25-1.25v-19c0-.69.56-1.25 1.25-1.25zm-4.07 5.22a.75.75 0 0 0-.895-.125L10.171 9.88a.75.75 0 0 0-.291.292l-3.535 6.363a.75.75 0 0 0 1.02 1.02l6.364-3.535a.75.75 0 0 0 .29-.291l3.537-6.365a.75.75 0 0 0-.126-.894" clipRule="evenodd" /></svg>;
+export default DiscoverSquareSolid;

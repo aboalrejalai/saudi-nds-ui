@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Pin02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M16.06 2.445c-.863 0-1.69.343-2.3.953l-9.19 9.19a5.253 5.253 0 1 0 7.43 7.43l9.19-9.19a.75.75 0 1 1 1.06 1.06l-9.19 9.19a6.753 6.753 0 1 1-9.55-9.55l9.19-9.19a4.752 4.752 0 1 1 6.72 6.72l-9.2 9.19a2.751 2.751 0 0 1-3.89-3.89l8.49-8.481a.75.75 0 1 1 1.06 1.061l-8.49 8.48a1.252 1.252 0 0 0 1.77 1.77l9.2-9.19a3.252 3.252 0 0 0-2.3-5.553" clipRule="evenodd" /></svg>;
+export default Pin02Solid;

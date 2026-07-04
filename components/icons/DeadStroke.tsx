@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DeadStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M10.397 8.733a.72.72 0 1 0-1.018-1.018l-.817.817-.817-.817a.72.72 0 0 0-1.018 1.018l.817.817-.817.817a.72.72 0 1 0 1.018 1.018l.817-.817.817.817a.72.72 0 0 0 1.018-1.018L9.58 9.55zM17.274 8.733a.72.72 0 0 0-1.018-1.018l-.817.817-.817-.817a.72.72 0 1 0-1.018 1.018l.817.817-.817.817a.72.72 0 0 0 1.018 1.018l.817-.817.817.817a.72.72 0 1 0 1.018-1.018l-.817-.817z" /><path fill="currentColor" fillRule="evenodd" d="M12 2.4a9.6 9.6 0 1 0 0 19.2 9.6 9.6 0 0 0 0-19.2M3.84 12a8.16 8.16 0 1 1 16.32 0 8.16 8.16 0 0 1-16.32 0" clipRule="evenodd" /><path fill="currentColor" d="M8.094 14.621a.75.75 0 0 0 0 1.5h7.814a.75.75 0 0 0 0-1.5z" /></svg>;
+export default DeadStroke;

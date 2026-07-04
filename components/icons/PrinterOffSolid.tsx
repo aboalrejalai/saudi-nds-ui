@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PrinterOffSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.25 21.017v.384a1.35 1.35 0 0 1-1.35 1.35H2.1A1.35 1.35 0 0 1 .75 21.4V15a4.75 4.75 0 0 1 3-4.418h6.066zM5.5 17.25a.75.75 0 0 0 0 1.5h10a.75.75 0 0 0 0-1.5z" clipRule="evenodd" /><path fill="currentColor" d="M17.25 10.583c1.757.697 3 2.412 3 4.417v2.482l-6.898-6.899zM8.816 9.583H3.75V4.6q0-.04.003-.08zM15.9 3.25c.746 0 1.35.605 1.35 1.35v4.983h-4.898L6.018 3.25z" /><path fill="currentColor" fillRule="evenodd" d="M1.97 1.47a.75.75 0 0 1 1.06 0l20 20a.75.75 0 0 1-1.06 1.06l-20-20a.75.75 0 0 1 0-1.06" clipRule="evenodd" /></svg>;
+export default PrinterOffSolid;

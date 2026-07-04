@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ShoppingCartRemove02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M1.91 2.532a.75.75 0 0 1 .934.503L3.434 5h18.441a.75.75 0 0 1 .719.966l-3 10a.75.75 0 0 1-.719.534h-13a.75.75 0 0 1-.718-.534l-3.75-12.5a.75.75 0 0 1 .503-.934M3.883 6.5l2.55 8.5h11.884l2.55-8.5zM7.875 18.5a.75.75 0 0 1 .75.75.75.75 0 0 0 1.5 0 .75.75 0 0 1 1.5 0 2.25 2.25 0 0 1-4.5 0 .75.75 0 0 1 .75-.75M13.875 18.5a.75.75 0 0 1 .75.75.75.75 0 0 0 1.5 0 .75.75 0 0 1 1.5 0 2.25 2.25 0 0 1-4.5 0 .75.75 0 0 1 .75-.75" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="m3.883 6.5 2.55 8.5h11.884l2.55-8.5zM9.867 10a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5z" clipRule="evenodd" /></svg>;
+export default ShoppingCartRemove02Solid;

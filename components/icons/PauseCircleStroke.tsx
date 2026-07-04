@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PauseCircleStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M22.106 12c0-5.579-4.527-10.105-10.106-10.105S1.895 6.42 1.895 12 6.42 22.106 12 22.106 22.105 17.579 22.106 12m-13.57 3.618V8.381a.75.75 0 0 1 1.5 0v7.237a.75.75 0 0 1-1.5 0m5.428 0V8.381a.75.75 0 0 1 1.5 0v7.237a.75.75 0 0 1-1.5 0M23.605 12c0 6.407-5.198 11.605-11.605 11.606S.395 18.407.395 12 5.593.395 12 .395 23.606 5.593 23.606 12" /></svg>;
+export default PauseCircleStroke;

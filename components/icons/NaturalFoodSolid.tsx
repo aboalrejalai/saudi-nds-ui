@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const NaturalFoodSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M17.709 2.606A1.35 1.35 0 0 1 19.18 3.82l.595 6.174c.415 4.307-2.811 8.126-7.1 8.539a7.75 7.75 0 0 1-4.724-1.065q-.138.351-.251.677a16 16 0 0 0-.53 1.892q-.07.347-.097.527-.014.09-.019.133l-.003.03-.001.005a.75.75 0 0 1-1.492-.165l.001-.002v-.006l.002-.014.006-.047q.007-.059.025-.166c.022-.142.057-.347.11-.602.108-.511.288-1.23.581-2.076q.18-.525.423-1.107a7.6 7.6 0 0 1-2.484-4.922 7.687 7.687 0 0 1 6.914-8.387z" clipRule="evenodd" /></svg>;
+export default NaturalFoodSolid;

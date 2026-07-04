@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CircleLockCheck01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M10.938 1.625a4.75 4.75 0 0 1 4.75 4.75V9.07a7.49 7.49 0 0 1 2.73 6.305 4.5 4.5 0 0 0-4.142 6.216A7.5 7.5 0 0 1 6.187 9.07V6.374a4.75 4.75 0 0 1 4.75-4.75m0 13.5a.75.75 0 0 0-.75.75v2a.75.75 0 0 0 1.5 0v-2a.75.75 0 0 0-.75-.75m0-12a3.25 3.25 0 0 0-3.25 3.25v1.74a7.5 7.5 0 0 1 3.25-.74 7.5 7.5 0 0 1 3.25.74v-1.74a3.25 3.25 0 0 0-3.25-3.25" clipRule="evenodd" /><path fill="currentColor" d="M19.282 18.267a.75.75 0 0 1 1.06 1.06l-1.906 1.907a.75.75 0 0 1-1.062 0l-1.092-1.091a.75.75 0 0 1 1.06-1.061l.562.562z" /></svg>;
+export default CircleLockCheck01Solid;

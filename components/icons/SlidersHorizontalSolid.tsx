@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SlidersHorizontalSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.722 3.6c1.376 0 2.532.945 2.853 2.222h8.105a.72.72 0 0 1 0 1.44h-8.105a2.944 2.944 0 0 1-5.707 0H4.32a.72.72 0 0 1 0-1.44h1.548A2.944 2.944 0 0 1 8.722 3.6M12.407 12.721H4.32a.72.72 0 1 1 0-1.44h8.087a2.944 2.944 0 0 1 5.708 0h1.565a.72.72 0 0 1 0 1.44h-1.566a2.943 2.943 0 0 1-5.707 0M12.27 16.738a2.944 2.944 0 0 0-5.708 0H4.32a.72.72 0 1 0 0 1.44h2.242a2.944 2.944 0 0 0 5.707 0h7.41a.72.72 0 0 0 0-1.44z" /></svg>;
+export default SlidersHorizontalSolid;

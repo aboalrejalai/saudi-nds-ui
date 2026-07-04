@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Pulse01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M2.25 12a.75.75 0 0 1 .75-.75h2.46l2.828-8.487a.75.75 0 0 1 1.424 0L15 18.628l2.288-6.865A.75.75 0 0 1 18 11.25h3a.75.75 0 0 1 0 1.5h-2.46l-2.828 8.487a.75.75 0 0 1-1.423 0L9 5.372l-2.288 6.865A.75.75 0 0 1 6 12.75H3a.75.75 0 0 1-.75-.75" clipRule="evenodd" /></svg>;
+export default Pulse01Stroke;

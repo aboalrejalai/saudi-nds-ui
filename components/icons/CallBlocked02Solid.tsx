@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CallBlocked02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M7.577 1c.322 0 .612.201.725.505l1.503 4.024c.05.133.062.278.036.418l-.753 4.068c.926 2.192 2.455 3.665 4.99 4.986l3.992-.778a.77.77 0 0 1 .423.037l4.008 1.538a.78.78 0 0 1 .498.728v3.728c0 1.69-1.479 3.061-3.209 2.682-3.153-.69-8.994-2.447-13.086-6.567-3.918-3.946-5.231-9.398-5.673-12.345C.779 2.344 2.117 1 3.704 1z" /><path fill="currentColor" d="M20.99 1.443a.75.75 0 0 1 1.06 1.06l-7.77 7.678a.75.75 0 0 1-1.06-1.06zM21.796 4.16a4.5 4.5 0 0 1-5.688 5.62zM17.5 1c.729 0 1.417.175 2.027.483l-6.07 5.996A4.5 4.5 0 0 1 17.5 1" /></svg>;
+export default CallBlocked02Solid;

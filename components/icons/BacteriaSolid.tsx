@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BacteriaSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M15 6.75a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5m-3-5.5c5.94 0 10.75 4.81 10.75 10.75S17.94 22.75 12 22.75 1.25 17.94 1.25 12 6.06 1.25 12 1.25m-.37 13.04a.744.744 0 0 0-.94.48l-.11.35c-.38 1.17.54 2.26 1.75 2.13.07 0 .21.02.16.18l-.11.35c-.13.39.09.82.48.94.39.13.82-.09.94-.48l.11-.35c.38-1.17-.54-2.26-1.75-2.13-.18 0-.18-.12-.16-.18l.11-.35a.744.744 0 0 0-.48-.94M15 5.25c-1.52 0-2.75 1.23-2.75 2.75s1.23 2.75 2.75 2.75S17.75 9.52 17.75 8 16.52 5.25 15 5.25M8 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1" clipRule="evenodd" /></svg>;
+export default BacteriaSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MoonLandingSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M18.292 2.395a.75.75 0 0 1 .75.75V8.02a.75.75 0 0 1-.75.75H11.46v2.848a11.45 11.45 0 0 1 6.113 1.447h.015c2.907 1.623 4.855 4.352 5.403 7.479.09.56-.397 1.061-.975 1.061H1.975a.973.973 0 0 1-.96-1.15c.594-3.082 2.542-5.797 5.388-7.39a11.6 11.6 0 0 1 3.556-1.276V3.145a.75.75 0 0 1 .75-.75zM15.107 18.36a.786.786 0 0 0-1.08.075h-.016a.725.725 0 0 0 .076 1.032.76.76 0 0 0 1.081-.073.725.725 0 0 0-.061-1.034M7.163 14.35a9.4 9.4 0 0 0-2.723 2.3c.137 1.15 1.141 2.037 2.343 2.037 1.309 0 2.359-1.033 2.359-2.287 0-1.017-.715-1.903-1.704-2.183z" clipRule="evenodd" /></svg>;
+export default MoonLandingSolid;

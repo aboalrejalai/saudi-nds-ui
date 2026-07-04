@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DeleteColumnSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M22 22h-5.886c.496-.55.513-1.38.048-1.947l-.102-.114L14.12 18l1.939-1.94v.002a1.5 1.5 0 0 0 .103-2.01l-.102-.112a1.5 1.5 0 0 0-2.121 0l-1.94 1.939-1.94-1.94a1.499 1.499 0 1 0-2.12 2.12v.002L9.877 18l-1.939 1.94A1.496 1.496 0 0 0 7.886 22H2V8.361h20zM7.454 7.128H2V2h5.454zM14.728 7.128H9.272V2h5.455zM22 7.128h-5.454V2H22z" /><path fill="currentColor" d="M14.293 14.293a1 1 0 1 1 1.414 1.414L13.414 18l2.293 2.293a.999.999 0 1 1-1.414 1.414L12 19.414l-2.293 2.293a1 1 0 1 1-1.414-1.414L10.586 18l-2.293-2.293a1 1 0 1 1 1.414-1.414L12 16.586z" /></svg>;
+export default DeleteColumnSolid;

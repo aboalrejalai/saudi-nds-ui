@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Backward02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M9.644 5.101c.891-.656 2.15-.02 2.15 1.087v11.625c0 1.108-1.259 1.744-2.15 1.087l-7.889-5.812a1.35 1.35 0 0 1 0-2.174zm11 0c.891-.656 2.15-.02 2.15 1.087v11.625c0 1.108-1.259 1.744-2.15 1.087l-7.889-5.812a1.35 1.35 0 0 1 0-2.174zm-17.835 6.9 7.485 5.516V6.485zm11 0 7.485 5.516V6.485z" clipRule="evenodd" /></svg>;
+export default Backward02Stroke;

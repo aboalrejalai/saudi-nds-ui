@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ReplayStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M7.31 6.929a7.68 7.68 0 1 0 12.252 7.956.72.72 0 0 1 1.39.373 9.12 9.12 0 1 1-5.457-10.843l-.641-1.413a.72.72 0 0 1 1.311-.595l1.402 3.091a.72.72 0 0 1-.358.953l-3.09 1.402a.72.72 0 0 1-.596-1.311l1.597-.724a7.68 7.68 0 0 0-7.81 1.11" /><path fill="currentColor" fillRule="evenodd" d="M11.632 8.72c-1.008-.644-2.329.08-2.329 1.275v5.354c0 1.196 1.321 1.92 2.329 1.276l4.187-2.678c.93-.595.93-1.955 0-2.55zm-.829 1.275v-.006l4.213 2.675.001.008-.001.008h-.001l-.002.002-.002.002-4.187 2.677-.006.003q-.001 0-.008-.003l-.007-.005V9.995m.015-.015-.008.003q-.006.005-.007.006zm0 0 4.198 2.685-.001-.001-.004-.003-4.187-2.677z" clipRule="evenodd" /></svg>;
+export default ReplayStroke;

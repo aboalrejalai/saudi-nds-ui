@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MultiplicationSignStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16.715 6.228a.75.75 0 0 1 1.06 0l.052.056a.75.75 0 0 1-.052 1.004l-4.536 4.535a.25.25 0 0 0 0 .354l4.536 4.536.052.056a.75.75 0 0 1-1.112 1.004l-4.536-4.536a.25.25 0 0 0-.316-.03l-.038.03-4.535 4.536a.75.75 0 0 1-1.06-1.06l4.535-4.536a.25.25 0 0 0 0-.354L6.229 7.288a.75.75 0 1 1 1.061-1.06l4.535 4.535a.25.25 0 0 0 .354 0z" /></svg>;
+export default MultiplicationSignStroke;

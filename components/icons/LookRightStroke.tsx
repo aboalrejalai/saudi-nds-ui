@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LookRightStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M15.5 7.25a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5" /><path fill="currentColor" fillRule="evenodd" d="M12 1.25c5.937 0 10.75 4.813 10.75 10.75 0 1.122-.172 2.206-.492 3.225-1.37 4.36-5.443 7.525-10.258 7.525-5.937 0-10.75-4.813-10.75-10.75S6.063 1.25 12 1.25m0 1.5a9.25 9.25 0 0 0 0 18.5c3.773 0 7.02-2.26 8.459-5.5H17a.75.75 0 0 1 0-1.5h3.975c.18-.72.275-1.473.275-2.25A9.25 9.25 0 0 0 12 2.75" clipRule="evenodd" /></svg>;
+export default LookRightStroke;

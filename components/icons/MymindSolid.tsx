@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MymindSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M9.002 1.36c2.38-.602 4.83.134 6.844 1.686 2.016 1.553 3.65 3.955 4.467 6.828.816 2.872.678 5.733-.251 8.046-.901 2.242-2.568 4.005-4.842 4.662l-.221.06c-2.38.6-4.83-.135-6.845-1.687-2.016-1.553-3.65-3.956-4.467-6.828s-.677-5.734.252-8.046c.93-2.315 2.677-4.119 5.063-4.722m4.914 14.563c.063.305.108.523.165.68.055.153.116.228.198.268s.18.04.339-.01c.16-.053.364-.153.647-.292l.91-.447c.236-.116.404-.199.522-.278.116-.078.17-.144.192-.22.023-.074.014-.158-.04-.285a5 5 0 0 0-.284-.513l-4.35-7.273zM8.502 9.099a1.4 1.4 0 1 0 0 2.802 1.4 1.4 0 0 0 0-2.802" clipRule="evenodd" /></svg>;
+export default MymindSolid;

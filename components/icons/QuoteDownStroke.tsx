@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const QuoteDownStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M9.25 7A.25.25 0 0 0 9 6.75H6a.25.25 0 0 0-.25.25v3a.25.25 0 0 0 .25.25h3.25zm1.5 6c0 1.46-.367 2.722-1.164 3.719-.796.994-1.958 1.647-3.404 2.008a.75.75 0 0 1-.364-1.454c1.22-.306 2.058-.82 2.596-1.492.536-.67.836-1.574.836-2.781v-1.25H6A1.75 1.75 0 0 1 4.25 10V7A1.75 1.75 0 0 1 6 5.25h3A1.75 1.75 0 0 1 10.75 7zM18.25 7a.25.25 0 0 0-.25-.25h-3a.25.25 0 0 0-.25.25v3a.25.25 0 0 0 .25.25h3.25zm1.5 6c0 1.46-.367 2.722-1.164 3.719-.795.994-1.958 1.647-3.404 2.008a.75.75 0 0 1-.364-1.454c1.22-.306 2.058-.82 2.596-1.492.536-.67.836-1.574.836-2.781v-1.25H15A1.75 1.75 0 0 1 13.25 10V7A1.75 1.75 0 0 1 15 5.25h3A1.75 1.75 0 0 1 19.75 7z" /></svg>;
+export default QuoteDownStroke;

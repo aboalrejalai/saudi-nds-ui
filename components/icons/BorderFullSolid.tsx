@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BorderFullSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19 6a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zm2 12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3z" /><path fill="currentColor" d="M11 8.01V8a1 1 0 1 1 2 0v.01a1 1 0 1 1-2 0M7 12.01V12a1 1 0 1 1 2 0v.01a1 1 0 1 1-2 0M11 12.01V12a1 1 0 1 1 2 0v.01a1 1 0 1 1-2 0M15 12.01V12a1 1 0 1 1 2 0v.01a1 1 0 1 1-2 0M11 16.01V16a1 1 0 1 1 2 0v.01a1 1 0 1 1-2 0" /></svg>;
+export default BorderFullSolid;

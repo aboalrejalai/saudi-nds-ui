@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ShoppingBag02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M18.668 20.5a1.25 1.25 0 0 0 1.236-1.44l-1.385-9A1.25 1.25 0 0 0 17.284 9H6.715a1.25 1.25 0 0 0-1.235 1.06l-1.385 9a1.25 1.25 0 0 0 1.236 1.44zm2.718-1.668A2.75 2.75 0 0 1 18.668 22H5.331a2.75 2.75 0 0 1-2.718-3.168l1.384-9A2.75 2.75 0 0 1 6.715 7.5h10.569a2.75 2.75 0 0 1 2.718 2.332zM12 4c-.69 0-1.25.56-1.25 1.25a.75.75 0 1 1-1.5 0 2.75 2.75 0 0 1 5.5 0 .75.75 0 1 1-1.5 0C13.25 4.56 12.69 4 12 4" clipRule="evenodd" /></svg>;
+export default ShoppingBag02Stroke;

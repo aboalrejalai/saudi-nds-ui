@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ForkStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.657 7.03a.754.754 0 0 0-1.06 0l-1.87 1.88-1.29-1.29 1.22-1.22c.29-.29.29-.76 0-1.06a.754.754 0 0 0-1.06 0l-1.22 1.22-1.28-1.28 1.87-1.88c.29-.29.29-.76 0-1.06a.754.754 0 0 0-1.06 0l-2.45 2.46a5.2 5.2 0 0 0-1.52 3.57v.34c-.01.4-.18.78-.47 1.06l-8.6 8.03c-.97.91-.99 2.45-.05 3.39s2.47.91 3.38-.06l8.04-8.6c.27-.29.65-.46 1.05-.47h.34a5.2 5.2 0 0 0 3.58-1.52l2.45-2.45c.29-.29.29-.77 0-1.06m-6.05 3.53h-.34c-.81.02-1.58.36-2.13.95l-8.04 8.59c-.33.36-.88.37-1.22.02a.85.85 0 0 1 .02-1.22l8.6-8.04c.59-.55.93-1.32.94-2.12v-.35c.02-.72.24-1.42.64-2.01l3.54 3.54c-.59.4-1.29.62-2.01.64" clipRule="evenodd" /></svg>;
+export default ForkStroke;

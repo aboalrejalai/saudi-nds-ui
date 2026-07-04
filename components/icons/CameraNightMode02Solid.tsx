@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CameraNightMode02Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M16.28 2.79a1.35 1.35 0 0 0-1.08-.54H8.8c-.425 0-.825.2-1.08.54L5.5 5.75a1.25 1.25 0 0 1-1 .5H4A2.75 2.75 0 0 0 1.25 9v10A2.75 2.75 0 0 0 4 21.75h16A2.75 2.75 0 0 0 22.75 19V9A2.75 2.75 0 0 0 20 6.25h-.5a1.25 1.25 0 0 1-1-.5zm-4.164 6.473A.75.75 0 0 0 11.402 9c-2.018.366-3.569 2.1-3.569 4.209 0 2.381 1.974 4.28 4.37 4.28 1.85 0 3.444-1.131 4.077-2.742a.75.75 0 0 0-.83-1.013q-.258.047-.533.048c-1.603 0-2.87-1.262-2.87-2.78 0-.35.067-.683.187-.99a.75.75 0 0 0-.118-.75" clipRule="evenodd" /></svg>;
+export default CameraNightMode02Solid;

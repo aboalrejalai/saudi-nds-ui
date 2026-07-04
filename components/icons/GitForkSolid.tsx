@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GitForkSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="m9.187 13.727-.032.01a2.117 2.117 0 0 0-.661.39c-.349.305-.744.854-.744 1.873v.356A2.749 2.749 0 0 1 7 21.75a2.75 2.75 0 0 1-.75-5.394V7.643A2.748 2.748 0 0 1 7 2.25a2.748 2.748 0 0 1 .75 5.393v5.159a3.6 3.6 0 0 1 .923-.486l.095-.03.014-.004 5.98-1.994.048-.014h.002l.033-.01a2.117 2.117 0 0 0 .661-.39c.349-.306.744-.855.744-1.874v-.357A2.748 2.748 0 0 1 17 2.25a2.748 2.748 0 0 1 .75 5.393V8c0 1.481-.605 2.432-1.256 3.002a3.6 3.6 0 0 1-1.167.682l-.095.03-.014.004-5.98 1.994-.049.014zh-.002l-.001.001z" clipRule="evenodd" /></svg>;
+export default GitForkSolid;

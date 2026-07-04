@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ImageAdd01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M18.502 14.752a.75.75 0 0 1 .75.75v1.75a.5.5 0 0 0 .5.5h1.75a.75.75 0 1 1 0 1.5h-1.75a.5.5 0 0 0-.5.5v1.75a.75.75 0 0 1-1.5 0v-1.75a.5.5 0 0 0-.5-.5h-1.75a.75.75 0 1 1 0-1.5h1.75a.5.5 0 0 0 .5-.5v-1.75a.75.75 0 0 1 .75-.75" /><path fill="currentColor" d="M19.902 1.752c.746 0 1.35.604 1.35 1.35v9.4a.75.75 0 0 1-1.5 0v-8.75a.5.5 0 0 0-.5-.5h-15.5a.5.5 0 0 0-.5.5v9.854a.5.5 0 0 0 .697.46l5.258-2.254a.75.75 0 0 1 .605.007l5.5 2.5a.75.75 0 0 1-.62 1.366l-4.998-2.272a.5.5 0 0 0-.404-.005l-5.735 2.458a.5.5 0 0 0-.303.46v2.926a.5.5 0 0 0 .5.5h8.75a.75.75 0 1 1 0 1.5h-9.4a1.35 1.35 0 0 1-1.35-1.35v-16.8c0-.746.604-1.35 1.35-1.35z" /></svg>;
+export default ImageAdd01Stroke;

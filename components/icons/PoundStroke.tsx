@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PoundStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.834 3.25c3.146 0 5.75 2.456 5.75 5.55a.75.75 0 0 1-1.5 0c0-2.208-1.874-4.05-4.25-4.05s-4.25 1.842-4.25 4.05 1.874 4.05 4.25 4.05h2.777a.75.75 0 0 1 0 1.5h-3.954c-.78 1.769-1.829 3.58-3.18 4.9h8.248l.038-.001q.055-.002.165-.012c.146-.014.353-.042.59-.1.485-.116 1.038-.337 1.462-.744a.75.75 0 1 1 1.039 1.082c-.687.66-1.523.971-2.15 1.122a6 6 0 0 1-1.04.15l-.073.003H6.166a.75.75 0 0 1-.324-1.426c1.695-.814 3.106-2.752 4.168-4.973H4.5a.75.75 0 0 1 0-1.5h4.405C7.788 11.842 7.084 10.408 7.084 8.8c0-3.094 2.604-5.55 5.75-5.55" /></svg>;
+export default PoundStroke;

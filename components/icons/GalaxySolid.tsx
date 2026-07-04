@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GalaxySolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 25" className="gds-icon" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} strokeWidth={1.569} d="M15.2.94c10.62 2.63 10.61 16.78-.01 19.39C2.69 23.41 1.05 6.1 12.66 7.26M9.28 23.48C-1.42 21.16-1.9 7.02 8.62 4.1 21.01.67 23.24 17.92 11.6 17.09M14.56 12c0 1.43-1.147 2.59-2.56 2.59S9.44 13.43 9.44 12 10.586 9.41 12 9.41c1.413 0 2.56 1.16 2.56 2.59" /></svg>;
+export default GalaxySolid;

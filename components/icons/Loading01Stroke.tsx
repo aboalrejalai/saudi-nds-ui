@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Loading01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19 21.25a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1 0-1.5z" /><path fill="currentColor" fillRule="evenodd" d="M19 4.25a.75.75 0 0 1 .75.75 7.75 7.75 0 0 1-4.42 7 7.75 7.75 0 0 1 4.42 7 .75.75 0 0 1-.75.75H5a.75.75 0 0 1-.75-.75 7.75 7.75 0 0 1 4.42-7 7.75 7.75 0 0 1-4.42-7A.75.75 0 0 1 5 4.25zm-7 8.5a6.25 6.25 0 0 0-6.205 5.5h12.41A6.25 6.25 0 0 0 12 12.75m-6.205-7a6.25 6.25 0 0 0 12.41 0z" clipRule="evenodd" /><path fill="currentColor" d="M19 1.25a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1 0-1.5z" /></svg>;
+export default Loading01Stroke;

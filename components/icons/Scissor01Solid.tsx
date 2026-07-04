@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Scissor01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.752 16.558a.54.54 0 0 1 .133.752 1.62 1.62 0 0 1-2.257.398l-6.24-4.37-3.35 2.345-.003.002q.05.266.05.545a3.035 3.035 0 1 1-1.172-2.396l2.592-1.815-2.619-1.833A3.035 3.035 0 1 1 9.03 8.349zM6.049 17.825a1.595 1.595 0 1 0 0-3.19 1.595 1.595 0 0 0 0 3.19m0-8.46a1.595 1.595 0 1 0 0-3.19 1.595 1.595 0 0 0 0 3.19" /><path fill="currentColor" d="m15.108 11.433-1.883-1.319 5.406-3.785a1.62 1.62 0 0 1 2.256.398.54.54 0 0 1-.132.752z" /></svg>;
+export default Scissor01Solid;

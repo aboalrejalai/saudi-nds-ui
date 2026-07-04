@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AiBrain04Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.5 1.25a3.25 3.25 0 0 1 3.177 2.56 3.752 3.752 0 0 1 2.909 4.79 3.75 3.75 0 0 1 0 6.8q.162.524.164 1.1c0 1.84-1.325 3.37-3.073 3.69a3.251 3.251 0 0 1-6.427-.69v-15a3.25 3.25 0 0 1 3.25-3.25M7 16.25a.75.75 0 0 1 0 1.5H5.31L4.2 18.861a1.503 1.503 0 0 1-1.45 1.889 1.5 1.5 0 1 1 .389-2.95l1.33-1.33A.75.75 0 0 1 5 16.25zM2.75 10.5a1.5 1.5 0 0 1 1.3.75H8a.75.75 0 0 1 0 1.5H4.05a1.5 1.5 0 1 1-1.3-2.25M2.75 3.25A1.5 1.5 0 0 1 4.2 5.139L5.31 6.25H7a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.53-.22L3.139 6.2A1.503 1.503 0 0 1 1.25 4.75a1.5 1.5 0 0 1 1.5-1.5" /></svg>;
+export default AiBrain04Solid;

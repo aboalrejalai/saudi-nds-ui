@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CapProjectingStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M7 12a1 1 0 1 0-2 0 1 1 0 0 0 2 0m2 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0" /><path fill="currentColor" d="M20 11a1 1 0 1 1 0 2H8a1 1 0 1 1 0-2zM5 10V8a3 3 0 0 1 3-3h12a1 1 0 1 1 0 2H8a1 1 0 0 0-1 1v2a1 1 0 1 1-2 0M5 16v-2a1 1 0 1 1 2 0v2a1 1 0 0 0 1 1h12a1 1 0 1 1 0 2H8a3 3 0 0 1-3-3" /></svg>;
+export default CapProjectingStroke;

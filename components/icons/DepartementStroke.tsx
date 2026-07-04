@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DepartementStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.4 7.25c.746 0 1.35.605 1.35 1.35v11.8a1.35 1.35 0 0 1-1.35 1.35H3.6a1.35 1.35 0 0 1-1.35-1.35V8.6c0-.745.605-1.35 1.35-1.35zm-16.65 4H5a.75.75 0 0 1 0 1.5H3.75v7.5h6.5V19a.75.75 0 0 1 1.5 0v1.25h8.5v-7.5h-3.5V16a.75.75 0 0 1-.75.75h-2a.75.75 0 0 1 0-1.5h1.25v-2.5h-3.5V16a.75.75 0 0 1-1.5 0v-3.25H8a.75.75 0 0 1 0-1.5h12.25v-2.5H3.75z" clipRule="evenodd" /><path fill="currentColor" d="M11.838 2.268a.75.75 0 0 1 .325 0l9 2a.75.75 0 1 1-.325 1.464L12 3.768 3.163 5.732a.75.75 0 1 1-.325-1.464z" /></svg>;
+export default DepartementStroke;

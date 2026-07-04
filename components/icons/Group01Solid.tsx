@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Group01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M7.385 16.875c0 .69-.56 1.25-1.25 1.25s-1.26-.56-1.26-1.25.56-1.25 1.25-1.25h.01c.69 0 1.25.57 1.25 1.25M19.125 16.875c0 .56-.45 1-1 1h-8c-.55 0-1-.44-1-1s.45-1 1-1h8c.55 0 1 .45 1 1M7.385 11.875c0 .69-.56 1.25-1.25 1.25s-1.26-.56-1.26-1.25.56-1.25 1.25-1.25 1.26.57 1.26 1.25M19.125 11.875c0 .56-.45 1-1 1h-8c-.55 0-1-.44-1-1s.45-1 1-1h8c.55 0 1 .45 1 1M19.125 6.875c0 .56-.45 1-1 1H5.875c-.55 0-1-.44-1-1s.45-1 1-1h12.25c.55 0 1 .45 1 1" /></svg>;
+export default Group01Solid;

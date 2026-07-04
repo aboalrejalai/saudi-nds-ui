@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GiftSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3.378 22a1 1 0 0 0 1 1h5.73a1 1 0 0 0 1-1V13.89a1 1 0 0 0-1-1h-5.73a1 1 0 0 0-1 1zM12.892 22a1 1 0 0 0 1 1h5.73a1 1 0 0 0 1-1V13.89a1 1 0 0 0-1-1h-5.73a1 1 0 0 0-1 1zM12.892 10.108a1 1 0 0 0 1 1H22a1 1 0 0 0 1-1V7.945a1 1 0 0 0-1-1h-8.108a1 1 0 0 0-1 1zM1 10.108a1 1 0 0 0 1 1h8.108a1 1 0 0 0 1-1V7.945a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1zM6.649 1a2.08 2.08 0 0 0 0 4.162h2.777c.685 0 1.168-.676.865-1.29q-.088-.18-.187-.362C9.338 2.12 8.234 1 6.649 1M17.351 1c-1.585 0-2.69 1.119-3.455 2.51q-.099.18-.187.361c-.303.615.18 1.29.865 1.29h2.777a2.08 2.08 0 0 0 0-4.161" /></svg>;
+export default GiftSolid;

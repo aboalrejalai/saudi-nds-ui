@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PlusMinusSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.877 10.135h-6.12v2.27c0 1.29-1.05 2.33-2.33 2.33h-2.27v6.12c0 1.29 1.04 2.33 2.33 2.33h8.39c1.28 0 2.33-1.04 2.33-2.33v-8.39c0-1.28-1.05-2.33-2.33-2.33m-1.66 7.14h-5.07c-.34 0-.61-.28-.61-.61s.27-.61.61-.61h5.07c.33 0 .61.27.61.61s-.28.61-.61.61" /><path fill="currentColor" d="M11.517.815h-8.39c-1.29 0-2.33 1.05-2.33 2.33v8.39c0 1.29 1.04 2.33 2.33 2.33h8.39c1.28 0 2.33-1.04 2.33-2.33v-8.39c0-1.28-1.05-2.33-2.33-2.33m-1.66 7.14h-1.93v1.92c0 .34-.27.61-.61.61s-.61-.27-.61-.61v-1.92h-1.92c-.34 0-.61-.28-.61-.61s.27-.61.61-.61h1.92v-1.93c0-.33.28-.61.61-.61s.61.28.61.61v1.93h1.93c.34 0 .61.27.61.61s-.27.61-.61.61" /></svg>;
+export default PlusMinusSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HorseHeadSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="m21.394 15.214-1.35 1.63c-.49.67-1.44.85-2.17.39l-1.59-1.22c-1.06.08-2.72-.16-3.78-1.34-.41 1.1-.54 3.17 2.06 6.06.07.07.12.16.15.25.08.24.03.59-.21.81-.19.17-.41.19-.49.2H2.964c-.39 0-.71-.32-.71-.72v-.04c0-10.3 3.63-15.92 10.78-16.71.41-.58.83-1.2 1.23-1.85.09-.14.17-.29.26-.43.03-.03.46-.36.99-.19.38.12.66.45.72.85.2 1.05.41 2.09.62 3.14l.57.58c.66.63 1.45 1.78 1.65 3.04.11.72.44 1.4.92 1.91l1.28 1.37c.58.61.63 1.59.12 2.27" /></svg>;
+export default HorseHeadSolid;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextCreationSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3 8V6a3 3 0 0 1 3-3h2a1 1 0 0 1 0 2H6a1 1 0 0 0-1 1v2a1 1 0 0 1-2 0M3 18v-2a1 1 0 1 1 2 0v2a1 1 0 0 0 1 1h2a1 1 0 1 1 0 2H6a3 3 0 0 1-3-3M19 8V6a1 1 0 0 0-1-1h-2a1 1 0 1 1 0-2h2a3 3 0 0 1 3 3v2a1 1 0 1 1-2 0M19 18v-2a1 1 0 1 1 2 0v2a3 3 0 0 1-3 3h-2a1 1 0 1 1 0-2h2a1 1 0 0 0 1-1M11 16V9a1 1 0 1 1 2 0v7a1 1 0 1 1-2 0" /><path fill="currentColor" d="M15 8a1 1 0 1 1 0 2H9a1 1 0 0 1 0-2z" /></svg>;
+export default TextCreationSolid;

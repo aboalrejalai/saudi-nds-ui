@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FootballPitchStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.4 4.25c.746 0 1.35.604 1.35 1.35v12.8a1.35 1.35 0 0 1-1.35 1.35H2.6a1.35 1.35 0 0 1-1.35-1.35V5.6c0-.746.604-1.35 1.35-1.35zM2.75 6.3a5.75 5.75 0 0 1 0 11.4v.55h8.5v-2.575a3.751 3.751 0 0 1 0-7.35V5.75h-8.5zm10 2.024a3.752 3.752 0 0 1 0 7.35v2.576h8.5v-.55a5.75 5.75 0 0 1 0-11.4v-.55h-8.5zm8.5-.508a4.25 4.25 0 0 0 0 8.367zm-18.5 8.367a4.25 4.25 0 0 0 0-8.367zm8.5-6.302c-.873.309-1.5 1.14-1.5 2.119s.627 1.809 1.5 2.118zm1.5 4.237a2.248 2.248 0 0 0 0-4.237z" clipRule="evenodd" /></svg>;
+export default FootballPitchStroke;

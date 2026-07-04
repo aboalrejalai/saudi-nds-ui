@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Analytics03Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.831 11.94c.424 0 .768.343.768.767v5.865a.768.768 0 0 1-1.536 0v-5.865c0-.424.344-.768.768-.768M3.166 8.23c.425 0 .768.345.768.769v9.573a.768.768 0 0 1-1.536 0V8.999c0-.424.344-.768.768-.768M8.351 5.426a.768.768 0 0 0-1.536 0v13.146a.768.768 0 0 0 1.536 0zM11.999 10.085c.424 0 .768.344.768.768v7.719a.768.768 0 0 1-1.536 0v-7.72c0-.423.344-.767.768-.767M17.183 8.28a.768.768 0 0 0-1.536 0v10.292a.768.768 0 0 0 1.536 0z" /></svg>;
+export default Analytics03Stroke;

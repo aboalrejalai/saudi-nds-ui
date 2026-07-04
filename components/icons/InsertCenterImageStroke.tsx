@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const InsertCenterImageStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19.25 18a.25.25 0 0 0-.25-.25H5a.25.25 0 0 0-.25.25v4a.25.25 0 0 0 .25.25h14a.25.25 0 0 0 .25-.25zm1.5 4A1.75 1.75 0 0 1 19 23.75H5A1.75 1.75 0 0 1 3.25 22v-4A1.75 1.75 0 0 1 5 16.25h14A1.75 1.75 0 0 1 20.75 18zM19.25 2a.25.25 0 0 0-.25-.25H5a.25.25 0 0 0-.25.25v4a.25.25 0 0 0 .25.25h14a.25.25 0 0 0 .25-.25zm1.5 4A1.75 1.75 0 0 1 19 7.75H5A1.75 1.75 0 0 1 3.25 6V2A1.75 1.75 0 0 1 5 .25h14A1.75 1.75 0 0 1 20.75 2zM11.25 14v-4a.75.75 0 0 1 1.5 0v4a.75.75 0 0 1-1.5 0" /><path fill="currentColor" d="M14 11.25a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1 0-1.5z" /></svg>;
+export default InsertCenterImageStroke;

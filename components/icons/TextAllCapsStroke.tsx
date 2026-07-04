@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TextAllCapsStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M9.25 19V8.5a2.75 2.75 0 0 0-5.5 0V19a.75.75 0 0 1-1.5 0V8.5a4.25 4.25 0 0 1 8.5 0V19a.75.75 0 0 1-1.5 0" /><path fill="currentColor" d="M10 12.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zM20.25 19V8.5a2.75 2.75 0 0 0-5.5 0V19a.75.75 0 0 1-1.5 0V8.5a4.25 4.25 0 0 1 8.5 0V19a.75.75 0 0 1-1.5 0" /><path fill="currentColor" d="M21 12.25a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1 0-1.5z" /></svg>;
+export default TextAllCapsStroke;

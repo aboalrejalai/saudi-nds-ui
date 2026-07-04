@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Gps02Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 .25a.75.75 0 0 1 .75.75v3.286a7.75 7.75 0 0 1 6.963 6.964H23a.75.75 0 0 1 0 1.5h-3.287a7.75 7.75 0 0 1-6.963 6.963V23a.75.75 0 0 1-1.5 0v-3.287a7.75 7.75 0 0 1-6.963-6.963H1a.75.75 0 0 1 0-1.5h3.287a7.75 7.75 0 0 1 6.963-6.964V1A.75.75 0 0 1 12 .25m0 5.5a6.25 6.25 0 1 0 0 12.5 6.25 6.25 0 0 0 0-12.5" clipRule="evenodd" /></svg>;
+export default Gps02Stroke;

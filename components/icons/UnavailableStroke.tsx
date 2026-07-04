@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UnavailableStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M4.317 7.148c.25.25.292.636.13.949a8.5 8.5 0 0 0 11.456 11.456c.313-.162.7-.12.95.13.341.342.284.913-.142 1.14A9.96 9.96 0 0 1 12 22C6.477 22 2 17.523 2 12c0-1.703.426-3.307 1.177-4.71.228-.426.799-.483 1.14-.142M3.294 3.294a1 1 0 0 1 1.416 0L20.707 19.29q.034.035.064.071l.004.005a1 1 0 0 1 .06 1.184l-.007.01a1.002 1.002 0 0 1-1.538.147L3.294 4.71a1 1 0 0 1 0-1.416M12 2c5.523 0 10 4.477 10 10a9.96 9.96 0 0 1-1.176 4.71c-.228.427-.799.484-1.14.142a.81.81 0 0 1-.13-.95A8.5 8.5 0 0 0 8.097 4.447a.81.81 0 0 1-.95-.129c-.341-.341-.284-.912.141-1.14A9.95 9.95 0 0 1 12 2" /></svg>;
+export default UnavailableStroke;

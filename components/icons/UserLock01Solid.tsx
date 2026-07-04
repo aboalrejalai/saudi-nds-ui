@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UserLock01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.497 2.338a4.345 4.345 0 1 0 0 8.69 4.345 4.345 0 0 0 0-8.69M8.43 12.527a5.25 5.25 0 0 0-5.25 5.25v1.31a2.25 2.25 0 0 0 2.25 2.25h5.024a3.73 3.73 0 0 1-.532-1.925v-2.01c0-1.463.836-2.728 2.057-3.347a4.2 4.2 0 0 1 .693-1.528z" /><path fill="currentColor" d="M16.12 12.26a2.75 2.75 0 0 0-2.75 2.75v.162a2.25 2.25 0 0 0-1.95 2.23v2.01a2.25 2.25 0 0 0 2.25 2.25h4.9a2.25 2.25 0 0 0 2.25-2.25v-2.01a2.25 2.25 0 0 0-1.95-2.23v-.162a2.75 2.75 0 0 0-2.75-2.75m1.25 2.75v.142h-2.5v-.142a1.25 1.25 0 1 1 2.5 0" /></svg>;
+export default UserLock01Solid;

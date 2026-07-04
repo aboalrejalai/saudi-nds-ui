@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ImageUpload01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19.955 1.875c.745 0 1.35.604 1.35 1.35v9.4a.75.75 0 0 1-1.5 0v-9.25h-16.5v11.112l5.955-2.552a.75.75 0 0 1 .605.007l5.5 2.5a.75.75 0 1 1-.62 1.366l-5.2-2.364-6.24 2.675v3.756h9.25a.75.75 0 0 1 0 1.5h-9.4a1.35 1.35 0 0 1-1.35-1.35v-16.8c0-.746.604-1.35 1.35-1.35z" /><path fill="currentColor" fillRule="evenodd" d="M15.555 4.875a2.75 2.75 0 1 1 0 5.5 2.75 2.75 0 0 1 0-5.5m0 1.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5M17.914 13.845a.75.75 0 0 1 1.06 0l3 3a.75.75 0 1 1-1.06 1.06l-1.72-1.72v5.19a.75.75 0 0 1-1.5 0v-5.19l-1.72 1.72a.75.75 0 1 1-1.06-1.06z" clipRule="evenodd" /></svg>;
+export default ImageUpload01Stroke;

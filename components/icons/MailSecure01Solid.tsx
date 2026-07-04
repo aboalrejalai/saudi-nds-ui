@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MailSecure01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M22.803 11.173c.512 0 .984.401.984.965v4.641c0 .846-.504 1.6-1.267 1.962l-2.09.99c-.271.128-.588.128-.859 0l-2.09-.99c-.763-.363-1.267-1.116-1.267-1.962v-4.641c0-.564.472-.965.984-.965z" /><path fill="currentColor" fillRule="evenodd" d="M18.964 4.173a2.75 2.75 0 0 1 2.75 2.75v2.75h-4.516c-1.17 0-2.329.864-2.47 2.193l-.014.271v4.642a3.65 3.65 0 0 0 1.436 2.894H2.964a2.75 2.75 0 0 1-2.75-2.75v-10a2.75 2.75 0 0 1 2.75-2.75zm-2.386 4.32a.75.75 0 0 0-1.044-.184l-4.57 3.2-4.57-3.2a.75.75 0 0 0-.86 1.228l5 3.5a.75.75 0 0 0 .86 0l5-3.5a.75.75 0 0 0 .184-1.044" clipRule="evenodd" /></svg>;
+export default MailSecure01Solid;

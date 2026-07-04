@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UberSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.536 1.164C18.281 1.454 22.85 6.194 22.85 12c0 5.805-4.57 10.545-10.314 10.836l-.56.014c-5.663 0-10.313-4.322-10.824-9.841l-.01-.109h7.176v.6c0 1.187.965 2.15 2.156 2.15h3.006l.221-.011a2.153 2.153 0 0 0 1.935-2.139v-3A2.153 2.153 0 0 0 13.7 8.361l-.22-.011h-3.007c-1.19 0-2.156.963-2.156 2.15v.6H1.143l.01-.109c.51-5.519 5.16-9.84 10.824-9.84z" /></svg>;
+export default UberSolid;

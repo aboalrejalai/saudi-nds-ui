@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Queue01Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M2.25 16v-4a.75.75 0 0 1 1.5 0v4A1.25 1.25 0 0 0 5 17.25h14A1.25 1.25 0 0 0 20.25 16v-4a.75.75 0 0 1 1.5 0v4A2.75 2.75 0 0 1 19 18.75H5A2.75 2.75 0 0 1 2.25 16M17 5.25a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1 0-1.5zM17 9.25a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1 0-1.5z" /><path fill="currentColor" d="M17 13.25a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1 0-1.5z" /></svg>;
+export default Queue01Stroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UserStar01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M11.161 2.207a4.345 4.345 0 1 0 0 8.69 4.345 4.345 0 0 0 0-8.69M8.094 12.397a5.25 5.25 0 0 0-5.25 5.25v1.31a2.25 2.25 0 0 0 2.25 2.25h5.465a2.73 2.73 0 0 1 .065-1.519l.355-1.093-.93-.675c-2.155-1.566-1.048-4.975 1.617-4.975h1.149l.178-.549z" /><path fill="currentColor" d="M16.975 12.315c-.374-1.152-2.003-1.152-2.377 0l-.692 2.13h-2.24c-1.21 0-1.714 1.549-.734 2.26l1.811 1.317-.692 2.13c-.374 1.151.944 2.109 1.924 1.397l1.811-1.316 1.812 1.316c.98.712 2.298-.246 1.924-1.398l-.692-2.13 1.811-1.315c.98-.712.476-2.261-.735-2.261h-2.239z" /></svg>;
+export default UserStar01Solid;

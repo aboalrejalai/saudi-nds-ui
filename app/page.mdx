@@ -1,0 +1,153 @@
+import Link from "next/link"
+
+import { getUIComponents } from "@/lib/get-components"
+import { CodeBlock } from "@/components/docs/code-block"
+import { DocsLayout } from "@/components/docs/docs-layout"
+import { FrameworkCards } from "@/components/docs/framework-cards"
+import { InstallCommand } from "@/components/docs/install-command"
+import { RegistryBlock } from "@/components/docs/registry-block"
+
+export const metadata = {
+  title:
+    "Saudi NDS UI – Saudi Arabia Digital Government Authority UI Library",
+  description:
+    "Open-source UI component library based on the Digital Government Authority (DGA) Platforms Code design system. Install production-ready React, Next.js, Laravel, Vite, Astro, and TanStack components with full RTL Arabic support, DGA design tokens, and WCAG accessibility.",
+  alternates: {
+    canonical: "https://nds.aboalrejal.com",
+  },
+}
+
+export const components = getUIComponents()
+
+<DocsLayout>
+
+<div className="space-y-2">
+  <h1 className="scroll-m-20 text-4xl font-bold tracking-tight">
+    Saudi NDS UI
+  </h1>
+  <div className="text-muted-foreground max-w-2xl text-lg">
+    <span>UI component library based on the </span>
+    <strong>Digital Government Authority (DGA)</strong>
+    <span> Platforms Code design system. Production-ready components for </span>
+    <strong>React, Next.js, Laravel, Vite, Astro, and TanStack</strong>
+    <span> — built on </span>
+    <a
+      href="https://ui.shadcn.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-foreground font-medium underline underline-offset-4"
+    >
+      shadcn/ui
+    </a>
+    <span>
+      {" "}
+      with DGA design tokens, full RTL support, and IBM Plex Sans Arabic
+      typography.
+    </span>
+  </div>
+  <div className="text-muted-foreground max-w-2xl text-sm">
+    هيئة الحكومة الرقمية — مكتبة مكونات واجهة المستخدم
+  </div>
+</div>
+
+<div className="mt-6 flex flex-wrap gap-3">
+  <Link
+    href="/installation/nextjs"
+    className="bg-primary text-primary-foreground hover:bg-primary/90 inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium shadow transition-colors"
+  >
+    Get Started
+  </Link>
+  <Link
+    href="/button"
+    className="border-input bg-background hover:bg-accent hover:text-accent-foreground inline-flex items-center justify-center rounded-md border px-4 py-2 text-sm font-medium shadow-sm transition-colors"
+  >
+    Browse Components
+  </Link>
+</div>
+
+---
+
+## Installation
+
+Choose your framework to get started:
+
+<FrameworkCards />
+
+---
+
+## Add the DGA Registry
+
+After initialization, add the DGA registry to your `components.json` to enable short-hand `@dga/` imports:
+
+<RegistryBlock />
+
+---
+
+## Installing Components
+
+Add any component to your project with a single command:
+
+<InstallCommand componentName="[component]" />
+
+---
+
+## Example
+
+After installing the `Button` component:
+
+<CodeBlock
+  filename="app/page.tsx"
+  language="tsx"
+  showLineNumbers
+  highlightLines={[1, 6]}
+  code={`import { Button } from "@/components/ui/button"
+
+export default function Home() {
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  )
+}`}
+/>
+
+---
+
+## Components
+
+<div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+  {components.map((component) => (
+    <Link
+      key={component.slug}
+      href={`/${component.slug}`}
+      className="hover:bg-muted block rounded-lg border px-4 py-3 text-center text-sm font-medium transition-colors"
+    >
+      {component.name}
+    </Link>
+  ))}
+</div>
+
+---
+
+## Supported Frameworks
+
+DGA Components work seamlessly with the most popular frameworks in the ecosystem:
+
+- **Next.js** — Full App Router support with server components
+- **React + Vite** — Lightning-fast development with HMR
+- **Laravel** — Inertia.js integration with Blade templates
+- **Astro** — Static-first with island architecture (coming soon)
+- **TanStack Start** — Type-safe full-stack React (coming soon)
+
+---
+
+## Why DGA Components?
+
+- **Based on Platforms Code** — Follows the DGA national design system guidelines
+- **RTL First** — Native right-to-left support for Arabic interfaces
+- **IBM Plex Sans Arabic** — Typography used in government applications
+- **Accessible** — WCAG 2.1 AA compliant components
+- **Open Source** — Free to use in any Saudi government or private sector project
+
+
+</DocsLayout>

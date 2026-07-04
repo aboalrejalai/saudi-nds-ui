@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BlurSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12.016 2.251h.143a9.752 9.752 0 0 1 2.704 19.07l-.356.102a9.76 9.76 0 0 1-6.763-.65 9.751 9.751 0 0 1 .15-17.616 9.75 9.75 0 0 1 4.083-.906l.02-.001zM12.746 20a.7.7 0 0 1-.035.216c.387-.034.771-.09 1.15-.178l.261-.065a8.3 8.3 0 0 0 2.621-1.223h-3.997zm0-4.25v1.5h5.25q.166.002.31.068a8.3 8.3 0 0 0 1.043-1.568zm0-1.5h7.19a8 8 0 0 0 .271-1.396l.009-.104h-7.47zm0-3h7.47a8.3 8.3 0 0 0-.277-1.5h-7.193zm5.56-4.568a.75.75 0 0 1-.31.068h-5.25v1.5h6.603l-.108-.205a8.2 8.2 0 0 0-.935-1.363m-5.56-1.432h3.996a8.25 8.25 0 0 0-3.996-1.463z" clipRule="evenodd" /></svg>;
+export default BlurSolid;

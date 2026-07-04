@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ScrollHorizontalSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M1.486 12.587a.847.847 0 0 1 0-1.173l3.564-3.67a.79.79 0 0 1 1.14 0 .847.847 0 0 1 0 1.173L3.196 12l2.994 3.084a.847.847 0 0 1 0 1.173.79.79 0 0 1-1.14 0zM22.514 11.413a.847.847 0 0 1 0 1.173l-3.564 3.67a.79.79 0 0 1-1.14 0 .847.847 0 0 1 0-1.173L20.804 12 17.81 8.916a.847.847 0 0 1 0-1.173.79.79 0 0 1 1.14 0zM8.706 12.003c0 1.873 1.475 3.39 3.295 3.39s3.294-1.517 3.294-3.39-1.475-3.391-3.294-3.391c-1.82 0-3.295 1.518-3.295 3.39" /></svg>;
+export default ScrollHorizontalSolid;

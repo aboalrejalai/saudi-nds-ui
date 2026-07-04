@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Mic01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M19 9.25a.75.75 0 0 1 .75.75v1a7.75 7.75 0 0 1-7 7.713v2.537H15a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1 0-1.5h2.25v-2.537a7.75 7.75 0 0 1-7-7.713v-1a.75.75 0 0 1 1.5 0v1a6.25 6.25 0 1 0 12.5 0v-1a.75.75 0 0 1 .75-.75" /><path fill="currentColor" d="M12 1.25A3.75 3.75 0 0 1 15.75 5v6a3.75 3.75 0 1 1-7.5 0V5A3.75 3.75 0 0 1 12 1.25" /></svg>;
+export default Mic01Solid;

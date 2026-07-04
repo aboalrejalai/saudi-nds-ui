@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AdobeIndesignSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M14.75 15.25H13.5a1.25 1.25 0 1 1 0-2.5h1.25z" /><path fill="currentColor" fillRule="evenodd" d="M17 2.25A4.75 4.75 0 0 1 21.75 7v10A4.75 4.75 0 0 1 17 21.75H7A4.75 4.75 0 0 1 2.25 17V7A4.75 4.75 0 0 1 7 2.25zm-8.5 5a.75.75 0 0 0-.75.75v8a.75.75 0 0 0 1.5 0V8a.75.75 0 0 0-.75-.75m7 1a.75.75 0 0 0-.75.75v2.25H13.5a2.75 2.75 0 1 0 0 5.5h1.4a1.35 1.35 0 0 0 1.35-1.35V9a.75.75 0 0 0-.75-.75" clipRule="evenodd" /></svg>;
+export default AdobeIndesignSolid;

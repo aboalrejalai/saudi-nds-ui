@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CheckListStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M7.22 4.212a.75.75 0 1 1 1.06 1.06l-2.5 2.5a.75.75 0 0 1-1.06 0l-1.5-1.5a.75.75 0 1 1 1.06-1.06l.97.97zM7.22 10.212a.75.75 0 1 1 1.06 1.06l-2.5 2.5a.75.75 0 0 1-1.06 0l-1.5-1.5a.75.75 0 1 1 1.06-1.06l.97.97zM7.22 16.212a.75.75 0 1 1 1.06 1.06l-2.5 2.5a.75.75 0 0 1-1.06 0l-1.5-1.5a.75.75 0 1 1 1.06-1.06l.97.97zM20.25 5.492a.75.75 0 1 1 0 1.5h-9a.75.75 0 0 1 0-1.5zM20.25 11.492a.75.75 0 1 1 0 1.5h-9a.75.75 0 0 1 0-1.5zM20.25 17.492a.75.75 0 1 1 0 1.5h-9a.75.75 0 0 1 0-1.5z" /></svg>;
+export default CheckListStroke;

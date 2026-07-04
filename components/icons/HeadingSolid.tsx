@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HeadingSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M17 11a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2z" /><path fill="currentColor" d="M6 19V5a1 1 0 0 1 2 0v14a1 1 0 1 1-2 0M16 19V5a1 1 0 1 1 2 0v14a1 1 0 1 1-2 0" /><path fill="currentColor" d="M19 18a1 1 0 1 1 0 2h-4a1 1 0 1 1 0-2zM19 4a1 1 0 1 1 0 2h-4a1 1 0 1 1 0-2zM9 18a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2zM9 4a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2z" /></svg>;
+export default HeadingSolid;

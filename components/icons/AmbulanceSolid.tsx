@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AmbulanceSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M13.402 4.75c.75 0 1.35.6 1.35 1.35v1.65h4.86c.53 0 1.02.31 1.23.8l1.79 4.03c.08.17.12.36.12.55v2.77c0 .75-.6 1.35-1.35 1.35h-1.76a2.741 2.741 0 0 1-5.28 0h-4.72a2.741 2.741 0 0 1-5.28 0h-1.76c-.75 0-1.35-.6-1.35-1.35V6.1c0-.75.6-1.35 1.35-1.35zm-6.4 10.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5m10 0a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5m-1.47-5.28V12h3.91l-.76-2.03zM7.211 7.742a.5.5 0 0 0-.687-.17 2.115 2.115 0 1 0 2.905 2.904.5.5 0 0 0-.858-.517 1.114 1.114 0 1 1-1.53-1.53.5.5 0 0 0 .17-.687" /></svg>;
+export default AmbulanceSolid;

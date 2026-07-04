@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CProgrammingStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M5.01 4.223c4.68-4.297 12.247-4.297 16.927 0a1.61 1.61 0 0 1 0 2.447c-.694.707-1.907.707-2.6 0-3.235-2.991-8.492-2.991-11.728 0-3.235 2.937-3.235 7.723 0 10.66 3.236 2.991 8.493 2.991 11.728 0 .751-.653 1.907-.653 2.6 0 .693.707.693 1.795 0 2.448-4.68 4.296-12.248 4.296-16.927 0C.33 15.59.33 8.519 5.01 4.223" /></svg>;
+export default CProgrammingStroke;

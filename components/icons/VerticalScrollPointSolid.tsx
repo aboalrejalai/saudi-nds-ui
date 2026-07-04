@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const VerticalScrollPointSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M13.95 10.139a2.76 2.76 0 0 0-3.89 0c-1.08 1.07-1.07 2.81 0 3.89s2.81 1.07 3.89 0 1.07-2.81 0-3.89" clipRule="evenodd" /><path fill="currentColor" d="M7.787 16.76c-.29.29-.29.77 0 1.07l3.67 3.64c.3.3.77.29 1.06 0l3.64-3.67c.14-.14.22-.33.23-.54 0-.2-.08-.38-.23-.52a.73.73 0 0 0-.54-.22l-7.236.027a.74.74 0 0 0-.594.223zM11.47 2.53 7.84 6.19c-.3.3-.3.78 0 1.07.14.14.33.22.54.21l7.31-.02c.2 0 .39-.08.54-.23s.2-.32.2-.52-.08-.39-.22-.53l-3.66-3.63a.74.74 0 0 0-.54-.23c-.2 0-.39.08-.54.23z" /></svg>;
+export default VerticalScrollPointSolid;

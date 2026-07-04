@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Download04Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20 12.25a.75.75 0 0 1 .75.75v6A2.75 2.75 0 0 1 18 21.75H6A2.75 2.75 0 0 1 3.25 19v-6a.75.75 0 0 1 1.5 0v6c0 .69.56 1.25 1.25 1.25h12c.69 0 1.25-.56 1.25-1.25v-6a.75.75 0 0 1 .75-.75" /><path fill="currentColor" d="M12.53 15.53a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 0 1 1.06-1.06l2.22 2.22V3a.75.75 0 0 1 1.5 0v10.19l2.22-2.22a.75.75 0 0 1 1.06 1.06z" /></svg>;
+export default Download04Stroke;

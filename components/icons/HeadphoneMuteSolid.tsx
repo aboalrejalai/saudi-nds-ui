@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HeadphoneMuteSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M3.63 2.611A.72.72 0 0 0 2.61 3.63L5.573 6.59a8.37 8.37 0 0 0-1.973 5.41v5.04a2.16 2.16 0 0 0 2.16 2.16h.96a2.16 2.16 0 0 0 2.16-2.16v-3.36a2.16 2.16 0 0 0-2.16-2.16h-.96q-.376.002-.71.12a6.93 6.93 0 0 1 1.546-4.027l8.524 8.524v.902a2.16 2.16 0 0 0 2.16 2.16h.902l2.188 2.189a.72.72 0 0 0 1.018-1.019zM17.28 11.52c-.759 0-1.427.392-1.812.984l4.901 4.901q.03-.177.031-.365V12A8.4 8.4 0 0 0 7.73 4.765l1.058 1.06a6.96 6.96 0 0 1 10.163 5.816 2.2 2.2 0 0 0-.71-.12z" /></svg>;
+export default HeadphoneMuteSolid;

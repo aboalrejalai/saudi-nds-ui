@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PauseCircleSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 1.145c5.993 0 10.856 4.862 10.856 10.855S17.993 22.855 12 22.856 1.145 17.993 1.145 12 6.007 1.145 12 1.145M9.286 7.63a.75.75 0 0 0-.75.75v7.237a.75.75 0 0 0 1.5 0V8.381a.75.75 0 0 0-.75-.75m5.428 0a.75.75 0 0 0-.75.75v7.237a.75.75 0 0 0 1.5 0V8.381a.75.75 0 0 0-.75-.75" clipRule="evenodd" /></svg>;
+export default PauseCircleSolid;

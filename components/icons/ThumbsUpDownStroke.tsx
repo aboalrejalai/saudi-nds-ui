@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ThumbsUpDownStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M13.438 4.437a.88.88 0 0 0-1.443.097L9.285 9.05a2.75 2.75 0 0 1-2.359 1.335H4.31v9.5H16.53a1.25 1.25 0 0 0 1.206-.92l1.909-7a1.25 1.25 0 0 0-1.206-1.58h-4.575a1.35 1.35 0 0 1-1.293-1.738l1.022-3.408a.88.88 0 0 0-.156-.803m-2.73-.675a2.381 2.381 0 0 1 4.323 1.91l-.964 3.214h4.373a2.75 2.75 0 0 1 2.653 3.474l-1.909 7a2.75 2.75 0 0 1-2.653 2.026H4.159a1.35 1.35 0 0 1-1.35-1.35v-9.8c0-.745.604-1.35 1.35-1.35h2.767c.44 0 .846-.23 1.072-.607z" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M7.059 21.386a.75.75 0 0 1-.75-.75v-11a.75.75 0 1 1 1.5 0v11a.75.75 0 0 1-.75.75" clipRule="evenodd" /></svg>;
+export default ThumbsUpDownStroke;

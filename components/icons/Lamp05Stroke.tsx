@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Lamp05Stroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M12 14.25a.75.75 0 0 1 .75.75v1.296c1.322.163 2.248.758 2.867 1.512.704.856.965 1.856 1.065 2.477.137.85-.56 1.465-1.282 1.465H8.6c-.723 0-1.42-.615-1.283-1.465.1-.62.36-1.62 1.064-2.477.62-.755 1.545-1.349 2.868-1.512V15a.75.75 0 0 1 .75-.75m0 3.5c-1.295 0-2.02.477-2.46 1.01-.385.47-.587 1.03-.69 1.49h6.299c-.103-.46-.305-1.02-.69-1.49-.439-.533-1.165-1.01-2.46-1.01M16.553 2.25a1.35 1.35 0 0 1 1.293.962l2.64 8.8a1.35 1.35 0 0 1-1.293 1.738H4.806a1.35 1.35 0 0 1-1.293-1.738l2.64-8.8a1.35 1.35 0 0 1 1.293-.962zm-11.546 10h13.984l-2.55-8.5H7.559z" clipRule="evenodd" /></svg>;
+export default Lamp05Stroke;

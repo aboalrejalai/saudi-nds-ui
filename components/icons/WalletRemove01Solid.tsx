@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WalletRemove01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M20.5 5.324a2.75 2.75 0 0 1 2.75 2.75v9a2.75 2.75 0 0 1-2.75 2.75H9.77L7.37 17.425l2.44-2.439a1.5 1.5 0 1 0-2.122-2.121l-2.439 2.44-1.5-1.5V8.074a2.75 2.75 0 0 1 2.75-2.75zm-2.5 6a1.25 1.25 0 1 0 .001 2.501A1.25 1.25 0 0 0 18 11.324" clipRule="evenodd" /><path fill="currentColor" d="M17.984 2.143A2 2 0 0 1 20.5 4.075h-10zM1.043 13.218a1 1 0 0 1 1.414 0l2.793 2.793 2.793-2.793a1 1 0 0 1 1.414 1.415l-2.793 2.793 2.793 2.792a1 1 0 0 1-1.414 1.415L5.25 18.84l-2.793 2.793a1 1 0 0 1-1.414-1.415l2.793-2.793-2.793-2.792a1 1 0 0 1 0-1.415" /></svg>;
+export default WalletRemove01Solid;

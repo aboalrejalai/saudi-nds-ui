@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HomeWifiSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M12.825 4.159a2.16 2.16 0 0 0-2.592 0l-6.24 4.68a2.16 2.16 0 0 0-.864 1.727v7.797a2.16 2.16 0 0 0 2.16 2.16h8.669a2.15 2.15 0 0 1-.146-.9 2.16 2.16 0 0 1-1.755-.71 2.15 2.15 0 0 1-.554-1.476 2.16 2.16 0 0 1-1.496-3.687 8.435 8.435 0 0 1 9.922-1.485v-1.699c0-.68-.32-1.32-.864-1.727z" /><path fill="currentColor" d="M12.042 15.787a5.55 5.55 0 0 1 7.85 0 .72.72 0 1 0 1.019-1.019 6.99 6.99 0 0 0-9.888 0 .72.72 0 1 0 1.019 1.019" /><path fill="currentColor" d="M14.143 18.004a2.73 2.73 0 0 1 3.649 0 .72.72 0 0 0 .963-1.071 4.17 4.17 0 0 0-5.575 0 .72.72 0 1 0 .963 1.07M15.2 19.735a.768.768 0 1 1 1.535 0 .768.768 0 0 1-1.536 0" /></svg>;
+export default HomeWifiSolid;

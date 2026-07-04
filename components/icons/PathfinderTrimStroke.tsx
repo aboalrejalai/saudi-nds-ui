@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PathfinderTrimStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.25 10A1.25 1.25 0 0 0 19 8.75h-9A1.25 1.25 0 0 0 8.75 10v9A1.25 1.25 0 0 0 10 20.25h9A1.25 1.25 0 0 0 20.25 19zm1.5 9A2.75 2.75 0 0 1 19 21.75h-9A2.75 2.75 0 0 1 7.25 19v-9A2.75 2.75 0 0 1 10 7.25h9A2.75 2.75 0 0 1 21.75 10z" /><path fill="currentColor" d="M15.25 8V5A1.25 1.25 0 0 0 14 3.75H5A1.25 1.25 0 0 0 3.75 5v9A1.25 1.25 0 0 0 5 15.25h3a.75.75 0 0 1 0 1.5H5A2.75 2.75 0 0 1 2.25 14V5A2.75 2.75 0 0 1 5 2.25h9A2.75 2.75 0 0 1 16.75 5v3a.75.75 0 0 1-1.5 0" /></svg>;
+export default PathfinderTrimStroke;

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const NodeRemoveStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M14.65 1.25c.746 0 1.35.604 1.35 1.35v3.8a1.35 1.35 0 0 1-1.35 1.35H12.5v3h2.75A2.75 2.75 0 0 1 18 13.5v2.75h2.15c.746 0 1.35.604 1.35 1.35v3.8a1.35 1.35 0 0 1-1.35 1.35h-5.8A1.35 1.35 0 0 1 13 21.4v-3.8c0-.746.604-1.35 1.35-1.35h2.15V13.5c0-.69-.56-1.25-1.25-1.25h-7c-.69 0-1.25.56-1.25 1.25v2.75h2.15c.746 0 1.35.604 1.35 1.35v3.8a1.35 1.35 0 0 1-1.35 1.35h-5.8A1.35 1.35 0 0 1 2 21.4v-3.8c0-.746.604-1.35 1.35-1.35H5.5V13.5a2.75 2.75 0 0 1 2.75-2.75H11v-3H8.85A1.35 1.35 0 0 1 7.5 6.4V2.6c0-.746.604-1.35 1.35-1.35zm-11.15 20H9v-3.5H3.5zm11 0H20v-3.5h-5.5zM9 6.25h5.5v-3.5H9z" clipRule="evenodd" /></svg>;
+export default NodeRemoveStroke;

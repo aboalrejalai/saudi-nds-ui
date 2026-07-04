@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ChartColumnStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20 19.24a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5zM20 15.24a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5zM20 11.24a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5zM20 7.24a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5zM13 19.24a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5zM6 19.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zM6 15.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zM6 11.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zM6 7.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zM6 3.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zM13 11.24a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5zM13 15.24a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5z" /></svg>;
+export default ChartColumnStroke;

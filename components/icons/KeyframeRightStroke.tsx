@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const KeyframeRightStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16.581 12a.75.75 0 0 1 .75-.75h2.25V3a.75.75 0 0 1 1.5 0v18a.75.75 0 0 1-1.5 0v-8.25h-2.25a.75.75 0 0 1-.75-.75" /><path fill="currentColor" fillRule="evenodd" d="M3.405 13.037a1.35 1.35 0 0 1 0-2.074l5.062-4.22a1.35 1.35 0 0 1 1.729 0l5.063 4.22a1.35 1.35 0 0 1 0 2.074l-5.063 4.219a1.35 1.35 0 0 1-1.729 0zm5.926 2.986L14.161 12 9.33 7.976 4.503 12z" clipRule="evenodd" /></svg>;
+export default KeyframeRightStroke;

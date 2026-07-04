@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const UsbNotConnected01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M13.5 6.657V4.25A2.25 2.25 0 0 0 11.25 2h-4.5A2.25 2.25 0 0 0 4.5 4.25v2.407a3.3 3.3 0 0 1 1-.157h7q.526.002 1 .157m-6-2.407a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75M4.5 7.734A2.25 2.25 0 0 0 3.25 9.75v10A2.25 2.25 0 0 0 5.5 22h5.588A6.876 6.876 0 0 1 14.75 9.778V9.75A2.25 2.25 0 0 0 12.5 7.5h-7c-.36 0-.699.084-1 .234" /><path fill="currentColor" d="M10 16.625a5.375 5.375 0 1 1 10.75 0 5.375 5.375 0 0 1-10.75 0m4.483-1.952a.75.75 0 0 0-1.06 1.06l.891.892-.891.891a.75.75 0 1 0 1.06 1.06l.892-.89.891.89a.75.75 0 1 0 1.06-1.06l-.89-.891.89-.891a.75.75 0 1 0-1.06-1.06l-.891.89z" /></svg>;
+export default UsbNotConnected01Solid;

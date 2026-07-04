@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ArcBrowserSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M11.549 3.9c.722 0 1.384.4 1.708 1.037l3.286 6.457a6.03 6.03 0 0 0 1.252-3.046c.116-1.032 1.06-1.774 2.106-1.66 1.046.113 1.804 1.04 1.689 2.073a9.8 9.8 0 0 1-3.227 6.21l1.227 2.41a1.864 1.864 0 0 1-.855 2.52 1.925 1.925 0 0 1-2.56-.84l-1.085-2.13c-1.086.395-2.261.612-3.487.612-1.245 0-2.436-.224-3.536-.63l-1.144 2.15c-.473.927-1.619 1.3-2.56.838a1.864 1.864 0 0 1-.854-2.52l1.261-2.478a9.9 9.9 0 0 1-2.169-2.846 1.864 1.864 0 0 1 .862-2.519 1.925 1.925 0 0 1 2.558.847q.25.488.577.922l3.244-6.37a1.91 1.91 0 0 1 1.707-1.038m-1.8 9.61a6.33 6.33 0 0 0 3.614.027l-1.814-3.565z" clipRule="evenodd" /></svg>;
+export default ArcBrowserSolid;

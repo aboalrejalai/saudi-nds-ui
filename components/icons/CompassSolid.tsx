@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CompassSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="m12.005 16.508 1.27-2.97-1.27-2.97-1.27 2.97z" /><path fill="currentColor" d="M7.445 8.978a6.46 6.46 0 0 0 0 9.13c6.28 5.82 14.94-2.85 9.13-9.13a6.46 6.46 0 0 0-9.13 0m5.11-.16 1.92 4.49c.06.15.06.32 0 .47l-1.92 4.49c-.09.21-.29.36-.55.36a.59.59 0 0 1-.55-.36l-1.92-4.49a.64.64 0 0 1 0-.47l1.92-4.49a.59.59 0 0 1 .55-.36c.24 0 .46.14.55.36" /><path fill="currentColor" d="M13.825 3.498a2.14 2.14 0 0 0-1.82-3.25c-1.17 0-2.14.96-2.14 2.14 0 .41.11.79.31 1.11-7.99 1.34-11.23 11.55-5.4 17.27 3.99 3.98 10.47 3.98 14.45 0 5.83-5.72 2.59-15.93-5.4-17.27m3.59 15.46c-2.99 2.98-7.84 2.98-10.82 0-6.9-7.44 3.38-17.72 10.82-10.82 2.98 2.98 2.98 7.83 0 10.82" /></svg>;
+export default CompassSolid;

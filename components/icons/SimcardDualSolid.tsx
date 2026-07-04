@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SimcardDualSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M8.642 4.605a2.16 2.16 0 0 1 2.16-2.16h5.226a2.16 2.16 0 0 1 1.527.632l2.214 2.215c.405.405.633.954.633 1.527v9.048a2.16 2.16 0 0 1-2.16 2.16h-7.44a2.16 2.16 0 0 1-2.16-2.16zm3.6 5.614a.72.72 0 0 0-.72.72v3.488c0 .398.322.72.72.72h4.56a.72.72 0 0 0 .72-.72V10.94a.72.72 0 0 0-.72-.72z" /><path fill="currentColor" d="M7.682 5.92h-1.92a2.16 2.16 0 0 0-2.16 2.16v11.315a2.16 2.16 0 0 0 2.16 2.16h7.478a2.16 2.16 0 0 0 2.16-2.16v-.408h-4.598a3.12 3.12 0 0 1-3.12-3.12z" /></svg>;
+export default SimcardDualSolid;

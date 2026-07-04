@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PresentationOnlineStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M9.75 4.875a2.25 2.25 0 1 1 4.349.813l2.496 2.937h2.655a2.25 2.25 0 0 1 2.25 2.25v8.25a2.25 2.25 0 0 1-2.25 2.25H4.75a2.25 2.25 0 0 1-2.25-2.25v-8.25a2.25 2.25 0 0 1 2.25-2.25h2.654l2.497-2.939a2.2 2.2 0 0 1-.151-.811m1.143 1.96-1.52 1.79h5.254l-1.522-1.79a2.24 2.24 0 0 1-1.105.29 2.24 2.24 0 0 1-1.107-.29m5.342 3.29H4.75a.75.75 0 0 0-.75.75v8.25c0 .414.336.75.75.75h14.5a.75.75 0 0 0 .75-.75v-8.25a.75.75 0 0 0-.75-.75h-3.015m-4.235-6a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5" clipRule="evenodd" /></svg>;
+export default PresentationOnlineStroke;

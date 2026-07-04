@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Locker01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.75 2.6a1.35 1.35 0 0 0-1.35-1.35H3.6A1.35 1.35 0 0 0 2.25 2.6v18.8c0 .746.604 1.35 1.35 1.35h16.8a1.35 1.35 0 0 0 1.35-1.35zm-10.5.15v18.5h1.5V2.75zM16 13.25a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1 0-1.5zM9.75 14a.75.75 0 0 0-.75-.75H8a.75.75 0 0 0 0 1.5h1a.75.75 0 0 0 .75-.75" clipRule="evenodd" /></svg>;
+export default Locker01Solid;

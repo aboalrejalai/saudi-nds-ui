@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Icon4kSolid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" fillRule="evenodd" d="M21.4 4.25c.746 0 1.35.604 1.35 1.35v12.8a1.35 1.35 0 0 1-1.35 1.35H2.6a1.35 1.35 0 0 1-1.35-1.35V5.6c0-.746.604-1.35 1.35-1.35zm-18.65 14h18.5V5.75H2.75z" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M2.75 18.25h18.5V5.75H2.75zm7.166-9.874a.75.75 0 0 0-1.04.208l-3 4.5A.75.75 0 0 0 6.5 14.25h2.75V15a.75.75 0 0 0 1.5 0v-1.5a.75.75 0 0 0-.75-.75H7.901l2.223-3.334a.75.75 0 0 0-.208-1.04M14.25 9a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 1.5 0v-1.719l.506-.577 1.6 2.68a.75.75 0 0 0 1.288-.769l-1.85-3.097 1.77-2.024a.75.75 0 0 0-1.128-.988l-2.186 2.498z" clipRule="evenodd" /></svg>;
+export default Icon4kSolid;

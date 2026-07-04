@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HandPointingLeft01Solid = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M1.5 9.729a2.5 2.5 0 0 1 2.5-2.5h8.737l-.127-.134a2.559 2.559 0 0 1 3.604-3.63l.015.015 5.328 5.931c.601.567.943 1.356.943 2.183v4.635c0 1.468-.355 2.715-1.041 3.601-.691.894-1.703 1.399-2.959 1.399H9.929c-.8 0-1.492-.269-1.988-.757a2.44 2.44 0 0 1-.577-2.585 2.443 2.443 0 0 1-1.099-3.113h-.002l-.018-.001h-.003a1.24 1.24 0 0 1-.712-.2c-.19-.13-.31-.308-.386-.494-.148-.358-.144-.785-.144-1.056 0-.14 0-.484.328-.777l-1.332-.017a2.5 2.5 0 0 1-2.496-2.5" /></svg>;
+export default HandPointingLeft01Solid;

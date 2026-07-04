@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ElectricPlugsStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M16.01 15.136a.75.75 0 0 1 1.312.728l-1.048 1.886H19a.75.75 0 0 1 .655 1.114l-1.666 3a.75.75 0 0 1-1.311-.728l1.048-1.886H15a.75.75 0 0 1-.655-1.114z" /><path fill="currentColor" fillRule="evenodd" d="M13.333 1.75a.75.75 0 0 1 .75.75v2.856a2.75 2.75 0 0 1 1.667 2.529v2.77a2.75 2.75 0 0 1-2.75 2.75h-2.25V20.5a.75.75 0 0 1-1.5 0v-7.096H7a2.75 2.75 0 0 1-2.75-2.75v-2.77a2.75 2.75 0 0 1 1.667-2.528V2.5a.75.75 0 0 1 1.5 0v2.635h5.166V2.5a.75.75 0 0 1 .75-.75M7 6.635c-.69 0-1.25.56-1.25 1.25v2.77c0 .69.56 1.25 1.25 1.25h6c.69 0 1.25-.56 1.25-1.25v-2.77c0-.69-.56-1.25-1.25-1.25z" clipRule="evenodd" /></svg>;
+export default ElectricPlugsStroke;

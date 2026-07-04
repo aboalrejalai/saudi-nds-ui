@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SquareArrowUpDoubleStroke = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="gds-icon" width="1em" height="1em" {...props}><path fill="currentColor" d="M20.501 5.628a2.13 2.13 0 0 0-2.129-2.129H5.628a2.13 2.13 0 0 0-2.129 2.129v12.744a2.13 2.13 0 0 0 2.129 2.129h12.744a2.13 2.13 0 0 0 2.129-2.129zM22 18.372A3.63 3.63 0 0 1 18.372 22H5.628A3.63 3.63 0 0 1 2 18.372V5.628A3.63 3.63 0 0 1 5.628 2h12.744A3.63 3.63 0 0 1 22 5.628z" /><path fill="currentColor" d="M9.03 11.28a.75.75 0 1 1-1.06-1.06l3.5-3.5a.75.75 0 0 1 1.06 0l3.5 3.5a.75.75 0 1 1-1.06 1.06L12 8.31zM9.03 17.28a.75.75 0 1 1-1.06-1.06l3.5-3.5a.75.75 0 0 1 1.06 0l3.5 3.5a.75.75 0 1 1-1.06 1.06L12 14.31z" /></svg>;
+export default SquareArrowUpDoubleStroke;
