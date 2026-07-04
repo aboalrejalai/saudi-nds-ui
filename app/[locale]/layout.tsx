@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google"
 
 import { AppDirectionProvider } from "@/components/direction-context"
 
-import "./globals.css"
+import "../globals.css"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -97,13 +97,19 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({
+import { NextIntlClientProvider } from 'next-intl'
+import { getMessages } from 'next-intl/server'
+
+export default async function RootLayout({
   children,
+  params
 }: {
   children: React.ReactNode
+  params: Promise<{ locale: string }>
 }) {
-  let lang = "en"
-  const dir = lang === "ar" ? "rtl" : "ltr"
+  const { locale } = await params
+  const dir = locale === "ar" ? "rtl" : "ltr"
+  const messages = await getMessages()
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -111,12 +117,11 @@ export default function RootLayout({
       {
         "@type": "Person",
         "@id": "https://dga-registry.vercel.app/#author",
-        name: "Mohid Anwar",
-        url: "https://www.linkedin.com/in/mohid-anwar",
+        name: "Mohammed Abo Alrejal",
+        url: "https://www.linkedin.com/in/aboalrejal/",
         sameAs: [
-          "https://github.com/Mohid-Anwar",
-          "https://www.npmjs.com/~mohid-anwar",
-          "https://www.linkedin.com/in/mohid-anwar",
+          "https://github.com/aboalrejal-ai",
+          "https://www.linkedin.com/in/aboalrejal/",
         ],
       },
       {
@@ -130,7 +135,7 @@ export default function RootLayout({
         "@type": "WebSite",
         "@id": "https://dga-registry.vercel.app/#website",
         url: "https://dga-registry.vercel.app",
-        name: "DGA Components",
+        name: "Saudi NDS UI",
         description:
           "UI component library based on the DGA Platforms Code design system of Saudi Arabia",
         creator: {
@@ -143,7 +148,7 @@ export default function RootLayout({
       },
       {
         "@type": "SoftwareApplication",
-        name: "DGA Components",
+        name: "Saudi NDS UI",
         applicationCategory: "DeveloperApplication",
         operatingSystem: "Web",
         description:
@@ -162,7 +167,7 @@ export default function RootLayout({
 
   return (
     <html
-      lang={lang}
+      lang={locale}
       dir={dir}
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
@@ -173,9 +178,11 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <AppDirectionProvider defaultDirection={dir}>
-          {children}
-        </AppDirectionProvider>
+        <NextIntlClientProvider messages={messages}>
+          <AppDirectionProvider defaultDirection={dir}>
+            {children}
+          </AppDirectionProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   )

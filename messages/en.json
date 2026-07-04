@@ -1,0 +1,44 @@
+{
+  "Sidebar": {
+    "title": "DGA Components",
+    "subtitle": "Documentation",
+    "gettingStarted": "Getting Started",
+    "introduction": "Introduction",
+    "changelog": "Changelog",
+    "installation": "Installation",
+    "components": "Components"
+  },
+  "Header": {
+    "search": "Search documentation...",
+    "language": "العربية"
+  },
+  "Footer": {
+    "builtOn": "Built on",
+    "designTokens": "DGA design tokens and RTL adaptations based on the",
+    "platformsCode": "Platforms Code",
+    "designSystem": "design system.",
+    "builtBy": "Built by"
+  },
+  "Home": {
+    "title": "Saudi NDS UI",
+    "descriptionPrefix": "UI component library based on the ",
+    "dga": "Digital Government Authority (DGA)",
+    "descriptionSuffix": " Platforms Code design system. Production-ready components for React, Next.js, Laravel, Vite, Astro, and TanStack — built on shadcn/ui with DGA design tokens, full RTL support, and IBM Plex Sans Arabic typography.",
+    "subtitle": "Digital Government Authority — UI Component Library",
+    "getStarted": "Get Started",
+    "browseComponents": "Browse Components",
+    "installationTitle": "Installation",
+    "chooseFramework": "Choose your framework to get started:",
+    "addRegistryTitle": "Add the DGA Registry",
+    "addRegistryDesc": "After initialization, add the DGA registry to your `components.json` to enable short-hand `@dga/` imports:",
+    "installComponentsTitle": "Installing Components",
+    "installComponentsDesc": "Add any component to your project with a single command:",
+    "exampleTitle": "Example",
+    "exampleDesc": "After installing the `Button` component:",
+    "componentsTitle": "Components",
+    "supportedFrameworksTitle": "Supported Frameworks",
+    "supportedFrameworksDesc": "DGA Components work seamlessly with the most popular frameworks in the ecosystem:",
+    "whyTitle": "Why DGA Components?",
+    "badgeText": "Includes {count}+ ready-to-use NDS components"
+  }
+}

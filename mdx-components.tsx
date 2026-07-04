@@ -1,1 +1,1 @@
-export { useMDXComponents } from "./app/mdx-components"
+export { useMDXComponents } from "./app/[locale]/mdx-components"

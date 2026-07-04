@@ -3,7 +3,7 @@ import path from "path"
 
 export function getUIComponents() {
   const uiDir = path.join(process.cwd(), "registry/dga/ui")
-  const appDir = path.join(process.cwd(), "app")
+  const appDir = path.join(process.cwd(), "app/[locale]")
 
   const ignored = ["_registry", "sidebar", "sheet", "direction", "utils"]
 
@@ -17,7 +17,7 @@ export function getUIComponents() {
 
       if (ignored.includes(name)) return false
 
-      // Ensure route exists in /app
+      // Ensure route exists in /app/[locale]
       const routePath = path.join(appDir, name, "page.mdx")
       return fs.existsSync(routePath)
     })

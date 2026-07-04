@@ -6,6 +6,7 @@ import { DocsLayout } from "@/components/docs/docs-layout"
 import { FrameworkCards } from "@/components/docs/framework-cards"
 import { InstallCommand } from "@/components/docs/install-command"
 import { RegistryBlock } from "@/components/docs/registry-block"
+import { HomeHero, HomeButtons } from "@/components/docs/home-content"
 
 export const metadata = {
   title:
@@ -21,49 +22,8 @@ export const components = getUIComponents()
 
 <DocsLayout>
 
-<div className="space-y-2">
-  <h1 className="scroll-m-20 text-4xl font-bold tracking-tight">
-    Saudi NDS UI
-  </h1>
-  <div className="text-muted-foreground max-w-2xl text-lg">
-    <span>UI component library based on the </span>
-    <strong>Digital Government Authority (DGA)</strong>
-    <span> Platforms Code design system. Production-ready components for </span>
-    <strong>React, Next.js, Laravel, Vite, Astro, and TanStack</strong>
-    <span> — built on </span>
-    <a
-      href="https://ui.shadcn.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-foreground font-medium underline underline-offset-4"
-    >
-      shadcn/ui
-    </a>
-    <span>
-      {" "}
-      with DGA design tokens, full RTL support, and IBM Plex Sans Arabic
-      typography.
-    </span>
-  </div>
-  <div className="text-muted-foreground max-w-2xl text-sm">
-    هيئة الحكومة الرقمية — مكتبة مكونات واجهة المستخدم
-  </div>
-</div>
-
-<div className="mt-6 flex flex-wrap gap-3">
-  <Link
-    href="/installation/nextjs"
-    className="bg-primary text-primary-foreground hover:bg-primary/90 inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium shadow transition-colors"
-  >
-    Get Started
-  </Link>
-  <Link
-    href="/button"
-    className="border-input bg-background hover:bg-accent hover:text-accent-foreground inline-flex items-center justify-center rounded-md border px-4 py-2 text-sm font-medium shadow-sm transition-colors"
-  >
-    Browse Components
-  </Link>
-</div>
+<HomeHero />
+<HomeButtons />
 
 ---
 

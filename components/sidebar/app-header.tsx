@@ -2,9 +2,11 @@
 
 import { useCallback, useEffect, useRef, useState } from "react"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
+import { usePathname } from "@/i18n/routing"
 import { Moon02Icon, Sun03Icon } from "@hugeicons/core-free-icons"
 import { HugeiconsIcon } from "@hugeicons/react"
+import { LanguageToggle } from "./language-toggle"
+import { useTranslations } from "next-intl"
 
 import {
   Breadcrumb,
@@ -31,6 +33,8 @@ export function AppHeader() {
   const [isDark, setIsDark] = useState(false)
   const headerRef = useRef<HTMLElement>(null)
   const { setOffset } = useToasterOffset()
+  const t = useTranslations("Sidebar")
+  const th = useTranslations("Header")
 
   const segments = pathname.split("/").filter(Boolean)
 
@@ -84,7 +88,7 @@ export function AppHeader() {
     <TooltipProvider>
       <header
         ref={headerRef}
-        className="flex h-16 shrink-0 items-center gap-2 border-b px-4"
+        className="flex h-16 shrink-0 items-center gap-2 border-b px-4 bg-background/50 backdrop-blur-md"
       >
         <SidebarTrigger className="-ml-1" />
 
@@ -94,7 +98,7 @@ export function AppHeader() {
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/">DGA Registry</Link>
+                <Link href="/">{t('title')}</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
 
@@ -110,14 +114,16 @@ export function AppHeader() {
         </Breadcrumb>
 
         {/* Right side */}
-        <div className="ml-auto flex items-center gap-2">
+        <div className="ml-auto flex items-center gap-3">
           {/* Search hint */}
           <span className="text-muted-foreground hidden items-center gap-1 text-sm md:flex">
-            Press <Kbd>⌘</Kbd>
-            <Kbd>K</Kbd> to search
+             {th('search')} <Kbd>⌘</Kbd>
+            <Kbd>K</Kbd>
           </span>
 
           <Separator orientation="vertical" className="hidden h-4 md:block" />
+
+          <LanguageToggle />
 
           {/* Theme toggle — tooltip shows the D shortcut */}
           <Tooltip>
@@ -126,7 +132,7 @@ export function AppHeader() {
                 pressed={isDark}
                 onPressedChange={toggleTheme}
                 aria-label="Toggle theme"
-                className="size-8 p-0"
+                className="size-9 p-0"
               >
                 {isDark ? (
                   <HugeiconsIcon icon={Moon02Icon} className="size-4" />

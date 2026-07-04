@@ -1,0 +1,44 @@
+{
+  "Sidebar": {
+    "title": "مكونات هيئة الحكومة الرقمية",
+    "subtitle": "التوثيق والشروحات",
+    "gettingStarted": "البدء والاستخدام",
+    "introduction": "مقدمة تعريفية",
+    "changelog": "سجل التحديثات",
+    "installation": "طريقة التثبيت",
+    "components": "المكونات البرمجية"
+  },
+  "Header": {
+    "search": "ابحث في الشروحات...",
+    "language": "English"
+  },
+  "Footer": {
+    "builtOn": "مبني على",
+    "designTokens": "تم تطبيق هويات وتصاميم هيئة الحكومة الرقمية بناءً على",
+    "platformsCode": "نظام المنصات (Platforms Code)",
+    "designSystem": ".",
+    "builtBy": "تم التطوير بواسطة"
+  },
+  "Home": {
+    "title": "مكونات الواجهات (NDS UI)",
+    "descriptionPrefix": "مكتبة مكونات واجهة مستخدم مبنية على أساس ",
+    "dga": "هيئة الحكومة الرقمية (DGA)",
+    "descriptionSuffix": " - نظام المنصات. مكونات جاهزة للاستخدام في الإنتاج لـ React، Next.js، Laravel، Vite، Astro، و TanStack — مبنية على shadcn/ui وتدعم اللغة العربية بالكامل (RTL) وخطوط IBM Plex Sans Arabic.",
+    "subtitle": "هيئة الحكومة الرقمية — مكتبة مكونات واجهة المستخدم",
+    "getStarted": "ابدأ الآن",
+    "browseComponents": "تصفح المكونات",
+    "installationTitle": "طريقة التثبيت",
+    "chooseFramework": "اختر إطار العمل الخاص بك للبدء:",
+    "addRegistryTitle": "إضافة السجل (Registry)",
+    "addRegistryDesc": "بعد التأسيس، قم بإضافة سجل DGA إلى ملف `components.json` لتفعيل الاستيراد المباشر `@dga/`:",
+    "installComponentsTitle": "تثبيت المكونات",
+    "installComponentsDesc": "أضف أي مكون إلى مشروعك بأمر برمجي واحد:",
+    "exampleTitle": "مثال الاستخدام",
+    "exampleDesc": "بعد تثبيت مكون الزر `Button`:",
+    "componentsTitle": "جميع المكونات",
+    "supportedFrameworksTitle": "أطر العمل المدعومة",
+    "supportedFrameworksDesc": "تعمل مكونات DGA بسلاسة مع أشهر أطر العمل في النظام البيئي البرمجي:",
+    "whyTitle": "لماذا مكونات DGA؟",
+    "badgeText": "تحتوي على +{count} مكون واجهة متوافق وجاهز"
+  }
+}

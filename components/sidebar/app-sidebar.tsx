@@ -2,7 +2,8 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
+import { usePathname } from "@/i18n/routing"
+import { useTranslations } from "next-intl"
 
 import { SearchForm } from "@/components/sidebar/search-form"
 import {
@@ -26,6 +27,7 @@ type Component = {
 export function AppSidebar({ components }: { components: Component[] }) {
   const pathname = usePathname()
   const [query, setQuery] = useState("")
+  const t = useTranslations("Sidebar")
 
   const filtered = components.filter((c) =>
     c.name.toLowerCase().includes(query.toLowerCase())
@@ -71,9 +73,9 @@ export function AppSidebar({ components }: { components: Component[] }) {
                   </svg>
                 </div>
                 <div className="flex flex-col gap-0.5 leading-none">
-                  <span className="font-semibold">DGA Components</span>
+                  <span className="font-semibold">{t("title")}</span>
                   <span className="text-muted-foreground text-xs">
-                    Documentation
+                    {t("subtitle")}
                   </span>
                 </div>
               </Link>
@@ -92,19 +94,19 @@ export function AppSidebar({ components }: { components: Component[] }) {
         }}
       >
         <SidebarGroup className="mt-5">
-          <SidebarGroupLabel className="text-color-[var(--text-text-display)] font-bold">
-            Getting Started
+          <SidebarGroupLabel className="text-[var(--text-text-display)] font-bold">
+            {t("gettingStarted")}
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild isActive={pathname === "/"}>
-                  <Link href="/">Introduction</Link>
+                  <Link href="/">{t("introduction")}</Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild isActive={pathname === "/changelog"}>
-                  <Link href="/changelog">Changelog</Link>
+                  <Link href="/changelog">{t("changelog")}</Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
             </SidebarMenu>
@@ -113,7 +115,7 @@ export function AppSidebar({ components }: { components: Component[] }) {
 
         <SidebarGroup>
           <SidebarGroupLabel className="font-bold text-[var(--text-text-display)]">
-            Installation
+            {t("installation")}
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
@@ -147,7 +149,7 @@ export function AppSidebar({ components }: { components: Component[] }) {
 
         <SidebarGroup>
           <SidebarGroupLabel className="font-bold text-[var(--text-text-display)]">
-            Components
+            {t("components")}
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>

@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { useTranslations } from "next-intl"
 
 import { AppHeader } from "@/components/sidebar/app-header"
 import { AppSidebar } from "@/components/sidebar/app-sidebar"
@@ -28,6 +29,8 @@ export function DocsShell({
   sidebarDefaultOpen?: boolean
 }) {
   const [open, setOpen] = useState(sidebarDefaultOpen)
+  const t = useTranslations("Footer")
+  const ts = useTranslations("Sidebar")
 
   const handleOpenChange = (value: boolean) => {
     setOpen(value)
@@ -40,17 +43,17 @@ export function DocsShell({
         <SidebarProvider open={open} onOpenChange={handleOpenChange}>
           <CommandMenu components={components} />
           <AppSidebar components={components} />
-          <SidebarInset className="min-w-0 overflow-hidden">
+          <SidebarInset className="min-w-0 overflow-hidden bg-background">
             <AppHeader />
             <main className="min-w-0 flex-1 overflow-x-hidden overflow-y-auto">
               <div className="mx-auto max-w-full px-6 py-10">{children}</div>
-              <footer className="border-t px-6 py-8">
-                <div className="mx-auto flex max-w-full flex-col items-center gap-4">
+              <footer className="border-t px-6 py-12 bg-muted/30">
+                <div className="mx-auto flex max-w-full flex-col items-center gap-6">
                   <div className="flex items-center gap-2">
-                    <div className="flex size-6 items-center justify-center rounded-md bg-gradient-to-br from-[#006838] to-[#004d2a]">
+                    <div className="flex size-8 items-center justify-center rounded-lg bg-gradient-to-br from-[#006838] to-[#004d2a] shadow-sm">
                       <svg
-                        width="14"
-                        height="14"
+                        width="16"
+                        height="16"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -79,51 +82,51 @@ export function DocsShell({
                         />
                       </svg>
                     </div>
-                    <span className="text-sm font-medium">DGA Components</span>
+                    <span className="text-base font-semibold">{ts("title")}</span>
                   </div>
-                  <p className="text-muted-foreground text-center text-sm">
-                    Built on{" "}
+                  <p className="text-muted-foreground text-center text-sm max-w-md">
+                    {t("builtOn")}{" "}
                     <a
                       href="https://ui.shadcn.com"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-foreground underline underline-offset-4"
+                      className="hover:text-foreground font-medium underline underline-offset-4"
                     >
                       shadcn/ui
                     </a>
-                    . DGA design tokens and RTL adaptations based on the{" "}
+                    . {t("designTokens")}{" "}
                     <a
                       href="https://www.figma.com/community/file/1392264328585493958"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-foreground underline underline-offset-4"
-                    >
-                      Platforms Code
-                    </a>{" "}
-                    design system.
-                  </p>
-                  <div className="text-muted-foreground flex items-center gap-1 text-sm">
-                    <span>Built by</span>
-                    <a
-                      href="https://www.linkedin.com/in/mohid-anwar"
-                      target="_blank"
-                      rel="noopener noreferrer"
                       className="hover:text-foreground font-medium underline underline-offset-4"
                     >
-                      Mohid Anwar
-                    </a>
-                  </div>
-                  <div className="flex items-center gap-3">
+                      {t("platformsCode")}
+                    </a>{" "}
+                    {t("designSystem")}
+                  </p>
+                  <div className="text-muted-foreground flex items-center gap-1.5 text-sm">
+                    <span>{t("builtBy")}</span>
                     <a
-                      href="https://github.com/Mohid-Anwar"
+                      href="https://www.linkedin.com/in/aboalrejal/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-muted-foreground hover:text-foreground transition-colors"
+                      className="hover:text-foreground font-bold underline underline-offset-4 bg-gradient-to-r from-[#1B8354] to-[#104d31] bg-clip-text text-transparent hover:text-transparent transition-all"
+                    >
+                      Mohammed Abo Alrejal
+                    </a>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <a
+                      href="https://github.com/aboalrejal-ai"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-foreground transition-colors hover:scale-110"
                       aria-label="GitHub"
                     >
                       <svg
-                        width="18"
-                        height="18"
+                        width="20"
+                        height="20"
                         viewBox="0 0 24 24"
                         fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg"
@@ -132,15 +135,15 @@ export function DocsShell({
                       </svg>
                     </a>
                     <a
-                      href="https://www.linkedin.com/in/mohid-anwar"
+                      href="https://www.linkedin.com/in/aboalrejal/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-muted-foreground hover:text-foreground transition-colors hover:scale-110"
                       aria-label="LinkedIn"
                     >
                       <svg
-                        width="18"
-                        height="18"
+                        width="20"
+                        height="20"
                         viewBox="0 0 24 24"
                         fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg"
