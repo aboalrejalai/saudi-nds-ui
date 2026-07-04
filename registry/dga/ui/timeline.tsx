@@ -131,4 +131,4 @@ export {
   timelineVariants,
   timelineMarkerVariants,
 }
-export type { TimelineProps, TimelineItemProps, TimelineMarkerProps, TimelineStatus }
+export type { TimelineProps, TimelineItemProps, TimelineMarkerProps }
