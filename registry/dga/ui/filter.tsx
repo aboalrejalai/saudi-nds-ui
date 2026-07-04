@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Search01Stroke as Search, Cancel01Stroke as X, FilterStroke as FilterIcon } from "@/components/icons"
+import { Search01Stroke as Search, Cancel01Stroke as X, FilterStroke as FilterIcon } from "@aboalrejal/nds-icons"
 
 import { cn } from "@/lib/utils"
 import { Button } from "./button"

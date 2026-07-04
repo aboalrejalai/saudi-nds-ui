@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Plug01Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M15.333 2.25a.75.75 0 0 1 .75.75v2.856a2.75 2.75 0 0 1 1.667 2.529v2.77a2.75 2.75 0 0 1-2.75 2.75h-2.25V21a.75.75 0 0 1-1.5 0v-7.096H9a2.75 2.75 0 0 1-2.75-2.75v-2.77a2.75 2.75 0 0 1 1.667-2.528V3a.75.75 0 0 1 1.5 0v2.635h5.166V3a.75.75 0 0 1 .75-.75M9 7.135c-.69 0-1.25.56-1.25 1.25v2.77c0 .69.56 1.25 1.25 1.25h6c.69 0 1.25-.56 1.25-1.25v-2.77c0-.69-.56-1.25-1.25-1.25z", clipRule: "evenodd" }) });
+export default Plug01Stroke;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const CheckListSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M7.043 4.043a1 1 0 1 1 1.414 1.414l-2.5 2.5a1 1 0 0 1-1.414 0l-1.5-1.5a1 1 0 1 1 1.414-1.414l.793.793zM7.043 10.043a1 1 0 1 1 1.414 1.414l-2.5 2.5a1 1 0 0 1-1.414 0l-1.5-1.5a1 1 0 1 1 1.414-1.414l.793.793zM7.043 16.043a1 1 0 1 1 1.414 1.414l-2.5 2.5a1 1 0 0 1-1.414 0l-1.5-1.5a1 1 0 1 1 1.414-1.414l.793.793zM20.25 5.25a1 1 0 1 1 0 2h-9a1 1 0 1 1 0-2zM20.25 11.25a1 1 0 1 1 0 2h-9a1 1 0 1 1 0-2zM20.25 17.25a1 1 0 1 1 0 2h-9a1 1 0 1 1 0-2z" }) });
+export default CheckListSolid;

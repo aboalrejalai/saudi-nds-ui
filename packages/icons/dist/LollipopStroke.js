@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const LollipopStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12.75 22a.75.75 0 0 1-1.5 0v-7.292A6.75 6.75 0 0 1 5.25 8v-.043l.001-.006a6.75 6.75 0 0 1 13.498.02v.015L18.75 8a6.75 6.75 0 0 1-6 6.708zM12 2.75a5.25 5.25 0 0 0-4.82 3.167c-.257.789-.356 1.284-.425 2.291a5.25 5.25 0 0 0 10.458.408c.056-.585.06-.913-.04-1.498A5.25 5.25 0 0 0 12 2.75", clipRule: "evenodd" }) });
+export default LollipopStroke;

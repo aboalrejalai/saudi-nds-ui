@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const PenTool03Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "m14.233 2.601-2.34 3.122q.105.079.2.174l6.01 6.01q.095.095.175.2l3.121-2.34a1.503 1.503 0 0 0 .161-2.264L16.498 2.44a1.502 1.502 0 0 0-2.265.161M3.826 9.108 2 20.673l4.433-4.433-.463-.462a.94.94 0 0 1 1.328-1.328l2.253 2.253a.939.939 0 1 1-1.327 1.328l-.463-.463L3.328 22l11.564-1.826a1.5 1.5 0 0 0 1.259-1.318l.624-5.621-6.01-6.01-5.621.625a1.5 1.5 0 0 0-1.318 1.258", clipRule: "evenodd" }) });
+export default PenTool03Solid;

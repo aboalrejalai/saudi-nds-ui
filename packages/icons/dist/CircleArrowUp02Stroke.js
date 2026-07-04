@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const CircleArrowUp02Stroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2m0 1.5a8.5 8.5 0 1 0 0 17 8.5 8.5 0 0 0 0-17", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M12.64 18.58a.75.75 0 1 1-1.5 0V7.92l-2.535 2.535a.75.75 0 1 1-1.06-1.06L11.36 5.58a.75.75 0 0 1 1.06 0l3.815 3.815a.75.75 0 1 1-1.06 1.06L12.64 7.921z" })] });
+export default CircleArrowUp02Stroke;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Tag02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M19.336 5.724c.29-.29.29-.77 0-1.06a.755.755 0 0 0-1.06 0l-.609.608a2 2 0 0 0-.346-.135l-6.187-1.76a1.54 1.54 0 0 0-1.507.389L.951 12.442a2.253 2.253 0 0 0 0 3.182l7.425 7.424a2.253 2.253 0 0 0 3.182 0l8.676-8.676c.396-.396.544-.969.389-1.506l-1.768-6.18a2.5 2.5 0 0 0-.134-.346zm-2.553 1.492a.896.896 0 0 1 0 1.273.896.896 0 0 1-1.272 0 .896.896 0 0 1 0-1.273.896.896 0 0 1 1.272 0" }) });
+export default Tag02Solid;

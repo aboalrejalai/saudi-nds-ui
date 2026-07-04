@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const UserAdd01Solid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M11.159 2a4.345 4.345 0 1 0 0 8.69 4.345 4.345 0 0 0 0-8.69M8.092 12.189a5.25 5.25 0 0 0-5.25 5.25v1.311A2.25 2.25 0 0 0 5.092 21h8.441v-2.125H11.16a2.25 2.25 0 1 1 0-4.5h2.373V12.19z" }), _jsx("path", { fill: "currentColor", d: "M15.783 11.252a.75.75 0 0 0-.75.75v3.873H11.16a.75.75 0 0 0 0 1.5h3.873v3.874a.75.75 0 0 0 1.5 0v-3.874h3.874a.75.75 0 0 0 0-1.5h-3.874v-3.873a.75.75 0 0 0-.75-.75" })] });
+export default UserAdd01Solid;

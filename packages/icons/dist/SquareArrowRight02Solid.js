@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const SquareArrowRight02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M18.372 22A3.63 3.63 0 0 0 22 18.372V5.628A3.63 3.63 0 0 0 18.372 2H5.628A3.63 3.63 0 0 0 2 5.628v12.744A3.63 3.63 0 0 0 5.628 22zM4.86 12.393a.75.75 0 0 1 .75-.75h10.66l-2.535-2.534a.75.75 0 1 1 1.06-1.061l3.815 3.815a.75.75 0 0 1 0 1.06l-3.814 3.815a.75.75 0 0 1-1.061-1.06l2.534-2.535H5.61a.75.75 0 0 1-.75-.75", clipRule: "evenodd" }) });
+export default SquareArrowRight02Solid;

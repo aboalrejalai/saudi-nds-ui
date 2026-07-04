@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const KeyGeneratorFobStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M15.5 1.5a3 3 0 0 1 3 3v15a3 3 0 0 1-3 3h-7a3 3 0 0 1-3-3v-15a3 3 0 0 1 3-3zM8.5 3A1.5 1.5 0 0 0 7 4.5v15A1.5 1.5 0 0 0 8.5 21h7a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 15.5 3zM12 4.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" }), _jsx("path", { fill: "currentColor", d: "M12 12.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7m0 1a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5" })] });
+export default KeyGeneratorFobStroke;

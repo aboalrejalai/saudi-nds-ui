@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Attachment01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 25", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M13.238 2.102a3 3 0 0 0-1.824 1.399L4.917 14.757a5.004 5.004 0 0 0 8.665 5.003l6.499-11.256a1 1 0 0 1 1.732 1L15.315 20.76a7.004 7.004 0 0 1-12.13-7.003L9.682 2.5a5.002 5.002 0 0 1 8.664 5.002L11.84 18.762A3.002 3.002 0 0 1 6.64 15.76l6.006-10.39a1.001 1.001 0 0 1 1.732 1.001L8.373 16.76a1.005 1.005 0 0 0 .366 1.37 1 1 0 0 0 1.368-.367l6.508-11.259a3.002 3.002 0 0 0-3.377-4.4" }) });
+export default Attachment01Solid;

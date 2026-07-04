@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const NewTwitterEllipseSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.15c5.992 0 10.85 4.858 10.85 10.85S17.992 22.85 12 22.85 1.15 17.992 1.15 12 6.008 1.15 12 1.15m-5 5.2a.651.651 0 0 0-.527 1.03l3.82 5.289.05.07-.06.059L6.54 16.54a.65.65 0 0 0 .92.92l3.654-3.653 2.581 3.574.05.06a.65.65 0 0 0 .478.21H17a.651.651 0 0 0 .527-1.032l-3.82-5.288-.05-.07.06-.059L17.46 7.46a.65.65 0 0 0-.92-.92l-3.654 3.653-2.581-3.574a.65.65 0 0 0-.528-.27z", clipRule: "evenodd" }) });
+export default NewTwitterEllipseSolid;

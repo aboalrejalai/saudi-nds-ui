@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const MoonsetSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M13.505 2.897a.72.72 0 0 1 .802-.326c4.113 1.084 7.147 4.828 7.147 9.283 0 5.302-4.298 9.6-9.6 9.6-4.455 0-8.2-3.034-9.283-7.147a.72.72 0 0 1 1.186-.71 6.962 6.962 0 0 0 9.839-9.839.72.72 0 0 1-.09-.861" }), _jsx("path", { fill: "currentColor", d: "M6.122 4.214a.72.72 0 0 1 .72.721v3.34h1.824a.72.72 0 0 1 .51 1.228l-2.51 2.508a.72.72 0 0 1-1.066.026L3.066 9.503a.72.72 0 0 1 .51-1.228h1.826v-3.34c0-.398.323-.72.72-.72" })] });
+export default MoonsetSolid;

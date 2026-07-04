@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const ParallelogramSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M21.452 7.486c-.17 1.01-.34 2.02-.5 3.03-.39 2.3-.77 4.61-1.16 6.92-.17 1.02-.69 1.84-1.85 1.91-.46.03-.93 0-1.39 0H4.202c-.11-.01-.21-.03-.3-.05 0 0-.01-.01-.02-.01-1.26-.28-1.59-1.38-1.38-2.6.19-1.12.38-2.23.56-3.35.4-2.36.68-4.77 1.19-7.11.41-1.91 2.43-1.56 3.9-1.56h10.76c.72 0 1.46-.07 2.05.44.75.65.63 1.52.49 2.38" }) });
+export default ParallelogramSolid;

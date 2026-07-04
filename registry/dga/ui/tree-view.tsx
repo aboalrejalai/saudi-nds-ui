@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { Folder01Solid, File01Solid, ArrowRight01Stroke } from "@/components/icons"
+import { Folder01Solid, File01Solid, ArrowRight01Stroke } from "@aboalrejal/nds-icons"
 import { cn } from "@/lib/utils"
 
 export interface TreeDataItem {

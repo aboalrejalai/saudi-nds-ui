@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const TargetDollarSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12.72 2.4a.72.72 0 1 0-1.44 0V3.87a8.16 8.16 0 0 0-7.408 7.409H2.4a.72.72 0 0 0 0 1.44H3.87a8.16 8.16 0 0 0 7.409 7.409v1.47a.72.72 0 1 0 1.44 0v-1.47a8.16 8.16 0 0 0 7.408-7.41H21.6a.72.72 0 1 0 0-1.44h-1.472a8.16 8.16 0 0 0-7.408-7.408zM12 7.92a4.08 4.08 0 1 1 0 8.16 4.08 4.08 0 0 1 0-8.16" }) });
+export default TargetDollarSolid;

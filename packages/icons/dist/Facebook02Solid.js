@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Facebook02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M17.5 1.25a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-.75.75h-3a.25.25 0 0 0-.25.25v2.25h3.25a.75.75 0 0 1 .727.932l-1 4a.75.75 0 0 1-.727.568h-2.25V22a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1-.75-.75v-7.25H6.5a.75.75 0 0 1-.75-.75v-4a.75.75 0 0 1 .75-.75h2.25V7a5.75 5.75 0 0 1 5.75-5.75z" }) });
+export default Facebook02Solid;

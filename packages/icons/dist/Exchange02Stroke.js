@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Exchange02Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M7 3.766a.75.75 0 0 1 .75.75V8a.75.75 0 1 1-1.5 0V6.084a8.25 8.25 0 0 0 7.584 13.962.75.75 0 0 1 .332 1.463A9.8 9.8 0 0 1 12 21.75c-5.385 0-9.75-4.365-9.75-9.75a9.72 9.72 0 0 1 2.7-6.734H3.5a.75.75 0 1 1 0-1.5zm5-1.516c5.385 0 9.75 4.365 9.75 9.75a9.72 9.72 0 0 1-2.714 6.75H20.5a.75.75 0 0 1 0 1.5h-3.523a.75.75 0 0 1-.75-.75V16a.75.75 0 0 1 1.5 0v1.939a8.25 8.25 0 0 0-7.56-13.984.75.75 0 0 1-.333-1.464A9.8 9.8 0 0 1 12 2.25" }) });
+export default Exchange02Stroke;

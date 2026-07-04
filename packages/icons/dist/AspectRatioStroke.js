@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const AspectRatioStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M4.002 3.2h16a.8.8 0 0 1 .8.8v16a.8.8 0 0 1-.8.8h-16a.8.8 0 0 1-.8-.8V4a.8.8 0 0 1 .8-.8m-2.4.8a2.4 2.4 0 0 1 2.4-2.4h16a2.4 2.4 0 0 1 2.4 2.4v16a2.4 2.4 0 0 1-2.4 2.4h-16a2.4 2.4 0 0 1-2.4-2.4zm10.4 2.4a.8.8 0 1 0 0-1.6.8.8 0 0 0 0 1.6m.8 2.4a.8.8 0 1 1-1.6 0 .8.8 0 0 1 1.6 0m-.8 4a.8.8 0 1 0 0-1.6.8.8 0 0 0 0 1.6m4-.8a.8.8 0 1 1-1.6 0 .8.8 0 0 1 1.6 0m2.4.8a.8.8 0 1 0 0-1.6.8.8 0 0 0 0 1.6", clipRule: "evenodd" }) });
+export default AspectRatioStroke;

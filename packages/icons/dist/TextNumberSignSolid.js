@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const TextNumberSignSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M2 20V4a1 1 0 0 1 1.848-.53L12 16.513V4a1 1 0 1 1 2 0v16a1 1 0 0 1-1.848.53L4 7.486V20a1 1 0 1 1-2 0M21 6a2 2 0 1 1-4 0 2 2 0 0 1 4 0" }), _jsx("path", { fill: "currentColor", d: "M20 6a1 1 0 1 0-2 0 1 1 0 0 0 2 0m2 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0M21 10a1 1 0 1 1 0 2h-4a1 1 0 1 1 0-2z" })] });
+export default TextNumberSignSolid;

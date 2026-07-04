@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const BookmarkOff01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "m19.2 20.218 1.17 1.17a.72.72 0 0 0 1.019-1.018L3.629 2.61a.72.72 0 0 0-1.018 1.02l2.19 2.188V20.88a.72.72 0 0 0 1.119.599l5.681-3.787a.72.72 0 0 1 .799 0l5.681 3.787a.72.72 0 0 0 1.12-.599zM19.2 4.56v11.675L5.742 2.776A2.15 2.15 0 0 1 6.96 2.4h10.08a2.16 2.16 0 0 1 2.16 2.16" }) });
+export default BookmarkOff01Solid;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Sorting03Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M7.167 13.745a.56.56 0 0 1 .514-.37h8.888c.225 0 .428.146.514.37a.64.64 0 0 1-.12.654l-4.445 4.8a.527.527 0 0 1-.786 0l-4.444-4.8a.64.64 0 0 1-.12-.654M17.083 10.005a.56.56 0 0 1-.514.37H7.681a.56.56 0 0 1-.514-.37.64.64 0 0 1 .12-.654l4.445-4.8a.527.527 0 0 1 .786 0l4.444 4.8c.16.171.207.43.12.654", clipRule: "evenodd" }) });
+export default Sorting03Solid;

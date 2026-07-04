@@ -18,7 +18,7 @@ import {
   TableRow,
 } from "@/registry/dga/ui/table"
 import { Button } from "@/registry/dga/ui/button"
-import { ArrowRight01Stroke, ArrowLeft01Stroke } from "@/components/icons"
+import { ArrowRight01Stroke, ArrowLeft01Stroke } from "@aboalrejal/nds-icons"
 
 export interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]

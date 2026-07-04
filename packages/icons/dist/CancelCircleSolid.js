@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const CancelCircleSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.25c5.937 0 10.75 4.813 10.75 10.75S17.937 22.75 12 22.75 1.25 17.937 1.25 12 6.063 1.25 12 1.25m3.358 7.392a.75.75 0 0 0-1.06 0L12 10.94 9.701 8.642a.75.75 0 0 0-1.06 1.06L10.94 12l-2.3 2.298a.75.75 0 0 0 1.061 1.06L12 13.06l2.298 2.298a.75.75 0 1 0 1.06-1.06L13.06 12l2.298-2.298a.75.75 0 0 0 0-1.06", clipRule: "evenodd" }) });
+export default CancelCircleSolid;

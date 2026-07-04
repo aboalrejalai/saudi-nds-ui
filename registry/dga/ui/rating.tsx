@@ -3,7 +3,7 @@
 import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
-import { StarSolid, StarStroke } from "@/components/icons"
+import { StarSolid, StarStroke } from "@aboalrejal/nds-icons"
 
 const ratingVariants = cva(
   "inline-flex items-center gap-1",

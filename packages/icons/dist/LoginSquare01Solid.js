@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const LoginSquare01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M19.291 2.28H4.711c-1.34 0-2.43 1.09-2.43 2.43v14.58c0 1.34 1.09 2.43 2.43 2.43h14.58c1.34 0 2.43-1.09 2.43-2.43V4.71c0-1.34-1.09-2.43-2.43-2.43M16.791 13h-5.86v2.37c0 .28-.16.52-.41.62a.66.66 0 0 1-.73-.14l-3.39-3.38a.686.686 0 0 1 .01-.95l3.38-3.37c.13-.13.3-.19.47-.19.09 0 .17.01.26.05.24.1.41.35.41.62V11h5.86c.55 0 1 .45 1 1s-.45 1-1 1" }) });
+export default LoginSquare01Solid;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const DistributeHorizontalRightStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M3.25 20V4a.75.75 0 0 1 1.5 0v16a.75.75 0 0 1-1.5 0M19.25 20V4a.75.75 0 0 1 1.5 0v16a.75.75 0 0 1-1.5 0M16.25 8A1.25 1.25 0 0 0 15 6.75h-2A1.25 1.25 0 0 0 11.75 8v8A1.25 1.25 0 0 0 13 17.25h2A1.25 1.25 0 0 0 16.25 16zm1.5 8A2.75 2.75 0 0 1 15 18.75h-2A2.75 2.75 0 0 1 10.25 16V8A2.75 2.75 0 0 1 13 5.25h2A2.75 2.75 0 0 1 17.75 8z" }) });
+export default DistributeHorizontalRightStroke;

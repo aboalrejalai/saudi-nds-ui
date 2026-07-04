@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const MailValidation02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.583 1.808a2.75 2.75 0 0 1 2.83 0l8 4.8a2.75 2.75 0 0 1 1.335 2.359v10.867a2.75 2.75 0 0 1-2.75 2.75h-16a2.75 2.75 0 0 1-2.75-2.75V8.967a2.75 2.75 0 0 1 1.335-2.359zm5.945 7.828a.75.75 0 0 0-1.06 0l-4.47 4.47-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l5-5a.75.75 0 0 0 0-1.06", clipRule: "evenodd" }) });
+export default MailValidation02Solid;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const MoonEclipseSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M6.758 3.96a9.5 9.5 0 0 1 5.24-1.56c3.11 0 5.88 1.48 7.63 3.78a9.57 9.57 0 0 1 1.97 5.82c0 2.19-.76 4.27-2.02 5.89a9.57 9.57 0 0 1-7.58 3.71 9.5 9.5 0 0 1-5.22-1.54A9.58 9.58 0 0 1 2.398 12c0-3.38 1.74-6.33 4.36-8.04m5.24 16.2c4.51 0 8.16-3.65 8.16-8.16a8.156 8.156 0 0 0-10.15-7.91 9.59 9.59 0 0 1 4.15 7.91c0 3.28-1.65 6.19-4.17 7.92q.975.24 2.01.24", clipRule: "evenodd" }) });
+export default MoonEclipseSolid;

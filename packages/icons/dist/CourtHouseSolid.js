@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const CourtHouseSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12.825 1.42a2.76 2.76 0 0 0-1.65 0L3.19 3.915a2.76 2.76 0 0 0-1.94 2.639v1.345c0 .509.413.921.921.921h.983v8.628a2.76 2.76 0 0 0-1.534 2.04l-.357 2.145a.92.92 0 0 0 .908 1.073H21.83a.92.92 0 0 0 .909-1.073l-.358-2.146a2.76 2.76 0 0 0-1.534-2.04V8.82h.983a.92.92 0 0 0 .921-.921V6.554c0-1.21-.786-2.278-1.94-2.639zM4.997 17.177V8.82h3.44v8.357zm5.283 0V8.82h3.44v8.357zm5.283 0V8.82h3.44v8.357z" }) });
+export default CourtHouseSolid;

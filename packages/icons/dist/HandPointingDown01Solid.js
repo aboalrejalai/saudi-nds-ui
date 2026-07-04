@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const HandPointingDown01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M14.273 22.5a2.5 2.5 0 0 0 2.5-2.5v-8.737l.134.127a2.559 2.559 0 0 0 3.631-3.604l-.015-.015-5.932-5.328a3 3 0 0 0-2.183-.943H7.773c-1.468 0-2.715.355-3.601 1.041-.893.691-1.399 1.703-1.399 2.959v8.571c0 .8.27 1.492.757 1.988a2.44 2.44 0 0 0 2.585.577q.168.314.415.566a2.44 2.44 0 0 0 2.699.532v.024q.004.429.2.712c.13.19.308.31.494.386.358.147.785.144 1.056.144.14 0 .484 0 .777-.328l.017 1.332a2.5 2.5 0 0 0 2.5 2.496" }) });
+export default HandPointingDown01Solid;

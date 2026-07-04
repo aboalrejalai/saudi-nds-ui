@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Progress04Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.25C6.06 1.25 1.25 6.06 1.25 12S6.06 22.75 12 22.75 22.75 17.94 22.75 12 17.94 1.25 12 1.25m1 3.32c-.55-.08-1 .38-1 .93V11c0 .55-.45 1-1 1H5.5c-.55 0-1.01.45-.93 1 .15 1.13.56 2.21 1.2 3.17a7.47 7.47 0 0 0 3.37 2.76 7.47 7.47 0 0 0 8.17-1.63 7.48 7.48 0 0 0 2.05-3.84 7.47 7.47 0 0 0-.43-4.33 7.58 7.58 0 0 0-2.76-3.37A7.6 7.6 0 0 0 13 4.57", clipRule: "evenodd" }) });
+export default Progress04Solid;

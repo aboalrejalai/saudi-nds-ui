@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const ArrowDataTransferHorizontalStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M2.755 17.52a.75.75 0 1 1-.01-1.5l16.69-.146L16.1 12.58a.75.75 0 0 1 1.054-1.067l4.625 4.567a.75.75 0 0 1 .006 1.061l-4.567 4.625a.75.75 0 0 1-1.068-1.054l3.296-3.337zM21.246 8.236a.75.75 0 1 0 .01-1.5l-16.69-.145 3.336-3.295a.75.75 0 0 0-1.054-1.068L2.223 6.796a.75.75 0 0 0-.006 1.06l4.567 4.625a.75.75 0 0 0 1.068-1.054L4.556 8.091z" }) });
+export default ArrowDataTransferHorizontalStroke;

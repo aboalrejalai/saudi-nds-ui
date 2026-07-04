@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const DistributeVerticalCenterStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M20 3.25a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5zM20 19.25a.75.75 0 0 1 0 1.5H4a.75.75 0 0 1 0-1.5zM17.25 11A1.25 1.25 0 0 0 16 9.75H8A1.25 1.25 0 0 0 6.75 11v2A1.25 1.25 0 0 0 8 14.25h8A1.25 1.25 0 0 0 17.25 13zm1.5 2A2.75 2.75 0 0 1 16 15.75H8A2.75 2.75 0 0 1 5.25 13v-2A2.75 2.75 0 0 1 8 8.25h8A2.75 2.75 0 0 1 18.75 11z" }) });
+export default DistributeVerticalCenterStroke;

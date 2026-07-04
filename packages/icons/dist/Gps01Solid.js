@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const Gps01Solid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 27 27", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M13.5 9.25a3.75 3.75 0 1 1 0 7.5 3.75 3.75 0 0 1 0-7.5" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.5 0a1 1 0 0 1 1 1v2.55A9.5 9.5 0 0 1 22.96 12H26a1 1 0 1 1 0 2h-3.04a9.5 9.5 0 0 1-8.46 8.45v3.05a1 1 0 1 1-2 0v-3.055A9.5 9.5 0 0 1 4.066 14H1a1 1 0 1 1 0-2h3.066A9.5 9.5 0 0 1 12.5 3.554V1a1 1 0 0 1 1-1m.014 5.5a7.5 7.5 0 1 0 0 15 7.5 7.5 0 0 0 7.496-7.364 1 1 0 0 1 0-.273A7.5 7.5 0 0 0 13.514 5.5", clipRule: "evenodd" })] });
+export default Gps01Solid;

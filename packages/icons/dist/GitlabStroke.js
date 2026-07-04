@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const GitlabStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "m6.713 4.093-2.392 6.385v.002l-.166.448-.001.002-1.251 3.339L12 20.893l9.097-6.624-3.813-10.176-1.98 6.102a.95.95 0 0 1-.904.657H9.6a.95.95 0 0 1-.904-.657zm-.852-2c.315-.842 1.515-.815 1.793.04L10 9.352h4l2.344-7.219c.278-.855 1.478-.882 1.794-.04l4.511 12.041c.15.4.015.85-.33 1.101l-9.76 7.106a.95.95 0 0 1-1.118 0l-9.76-7.106a.95.95 0 0 1-.33-1.101l1.397-3.728.001-.002.166-.448.001-.002z", clipRule: "evenodd" }) });
+export default GitlabStroke;

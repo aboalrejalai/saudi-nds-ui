@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const MoveSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 25 25", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M15.423 3.048a.75.75 0 0 1-.53 1.28h-2.08v6.986H19.8V9.235a.75.75 0 0 1 1.28-.53l2.829 2.828a.75.75 0 0 1 0 1.061l-2.829 2.829a.75.75 0 0 1-1.28-.53v-2.08h-6.985V19.8h2.078a.75.75 0 0 1 .53 1.28l-2.828 2.829a.75.75 0 0 1-1.06 0l-2.83-2.829a.75.75 0 0 1 .531-1.28h2.079v-6.985H4.328v2.078a.75.75 0 0 1-1.28.53L.22 12.595a.75.75 0 0 1 0-1.06l2.828-2.83a.75.75 0 0 1 1.28.531v2.079h6.986V4.328H9.235a.75.75 0 0 1-.53-1.28L11.533.22a.75.75 0 0 1 1.061 0z" }) });
+export default MoveSolid;

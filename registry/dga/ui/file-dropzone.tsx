@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import { useDropzone, DropzoneOptions } from "react-dropzone"
-import { Upload01Stroke, File01Solid, Cancel01Stroke } from "@/components/icons"
+import { Upload01Stroke, File01Solid, Cancel01Stroke } from "@aboalrejal/nds-icons"
 import { cn } from "@/lib/utils"
 
 export interface FileDropzoneProps extends DropzoneOptions {

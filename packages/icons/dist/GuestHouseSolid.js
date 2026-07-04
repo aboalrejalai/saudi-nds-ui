@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const GuestHouseSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M16.032 3.6a.72.72 0 0 1 .72.72v2.672L20.148 9.9a.72.72 0 0 1-.468 1.267H4.32A.72.72 0 0 1 3.85 9.9l6.744-5.776a2.16 2.16 0 0 1 2.81 0l1.907 1.634V4.32a.72.72 0 0 1 .72-.72M5.52 18.96v-6.832h12.96v6.832h1.2a.72.72 0 0 1 0 1.44H4.32a.72.72 0 0 1 0-1.44zm4.2-1.925v1.925h4.56v-1.925a2.28 2.28 0 0 0-4.56 0" }) });
+export default GuestHouseSolid;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const PowerSocket01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.25C6.06 1.25 1.25 6.06 1.25 12S6.06 22.75 12 22.75 22.75 17.94 22.75 12 17.94 1.25 12 1.25m4 13.5c-1.52 0-2.75-1.23-2.75-2.75S14.48 9.25 16 9.25s2.75 1.23 2.75 2.75-1.23 2.75-2.75 2.75m-8 0c-1.52 0-2.75-1.23-2.75-2.75S6.48 9.25 8 9.25s2.75 1.23 2.75 2.75S9.52 14.75 8 14.75", clipRule: "evenodd" }) });
+export default PowerSocket01Solid;

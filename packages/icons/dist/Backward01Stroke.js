@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const Backward01Stroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M18.472 4.002a.75.75 0 0 1 .75.75v14.5a.75.75 0 0 1-1.5 0v-14.5a.75.75 0 0 1 .75-.75" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M15.722 18.016c0 1.713-2.014 2.633-3.31 1.511l-6.944-6.015a2 2 0 0 1 0-3.023l6.944-6.015c1.255-1.086 3.185-.257 3.304 1.354l.006.158zm-1.5-12.03a.5.5 0 0 0-.827-.378l-6.946 6.015a.5.5 0 0 0 0 .756l6.946 6.014a.5.5 0 0 0 .827-.378z", clipRule: "evenodd" })] });
+export default Backward01Stroke;

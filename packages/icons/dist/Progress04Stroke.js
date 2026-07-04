@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Progress04Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12 1.25c5.93 0 10.75 4.82 10.75 10.75S17.93 22.75 12 22.75 1.25 17.93 1.25 12 6.07 1.25 12 1.25m0 1.5C6.9 2.75 2.75 6.9 2.75 12S6.9 21.25 12 21.25s9.25-4.15 9.25-9.25S17.1 2.75 12 2.75m0 1.75c1.49 0 2.94.44 4.17 1.26 1.23.83 2.19 2 2.76 3.37h-.01c.57 1.37.72 2.88.43 4.33-.29 1.46-1 2.79-2.05 3.84a7.53 7.53 0 0 1-3.84 2.06 7.47 7.47 0 0 1-4.33-.43 7.52 7.52 0 0 1-3.37-2.76A7.56 7.56 0 0 1 4.5 12H12z" }) });
+export default Progress04Stroke;

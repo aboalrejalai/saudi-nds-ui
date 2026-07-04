@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const LighthouseSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12.524 2.214a.75.75 0 0 0-1.048 0l-1.5 1.466a.75.75 0 0 0-.226.536V6.75h4.5V4.216a.75.75 0 0 0-.226-.536zM14.336 8.25H9.664L8.327 20.5H7.5a.75.75 0 0 0 0 1.5h9a.75.75 0 0 0 0-1.5h-.828zM4.13 3.761a.75.75 0 0 0-.88.739V6a.75.75 0 0 0 .88.739l4.25-.75a.75.75 0 0 0 0-1.478zM20.482 3.925a.75.75 0 0 1 .268.575V6a.75.75 0 0 1-.88.739l-4.25-.75a.75.75 0 0 1 0-1.478l4.25-.75a.75.75 0 0 1 .612.164" }) });
+export default LighthouseSolid;

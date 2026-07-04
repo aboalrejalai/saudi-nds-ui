@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const RhombusStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.045.893a1.35 1.35 0 0 1 1.91 0l10.15 10.152a1.35 1.35 0 0 1 0 1.91l-10.15 10.15a1.35 1.35 0 0 1-1.91 0L.893 12.956a1.35 1.35 0 0 1 0-1.91zm.954 1.167L2.06 12 12 21.938l9.939-9.94z", clipRule: "evenodd" }) });
+export default RhombusStroke;

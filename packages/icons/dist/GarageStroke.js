@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const GarageStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.837 3.268a.75.75 0 0 1 .326 0l9 2a.75.75 0 0 1 .587.731v14a.75.75 0 0 1-.75.75H3a.75.75 0 0 1-.75-.75V6a.75.75 0 0 1 .587-.731zM3.75 6.6v12.648h1.5V8A.75.75 0 0 1 6 7.25h12a.75.75 0 0 1 .75.75v11.25h1.5V6.601L12 4.768zm3 10.148v2.5h10.5v-2.5zm0-4v2.5h10.5v-2.5zm0-4v2.5h10.5v-2.5z", clipRule: "evenodd" }) });
+export default GarageStroke;

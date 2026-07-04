@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Radio02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M19.412 4.248a.72.72 0 0 1-.501.886L8.416 8.04h11.022a2.16 2.16 0 0 1 2.16 2.16v7.92a2.16 2.16 0 0 1-2.16 2.16H4.558a2.16 2.16 0 0 1-2.16-2.16V8.76a.72.72 0 0 1 .528-.694l15.6-4.32a.72.72 0 0 1 .886.502M8.518 11.28a2.88 2.88 0 1 0 0 5.76 2.88 2.88 0 0 0 0-5.76m4.68 1.44c0 .398.323.72.72.72h4.08a.72.72 0 1 0 0-1.44h-4.08a.72.72 0 0 0-.72.72m0 2.88c0 .398.323.72.72.72h4.08a.72.72 0 1 0 0-1.44h-4.08a.72.72 0 0 0-.72.72" }) });
+export default Radio02Solid;

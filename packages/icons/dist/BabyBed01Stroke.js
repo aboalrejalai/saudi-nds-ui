@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const BabyBed01Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M21 2.25a1.75 1.75 0 0 1 .75 3.33V21a.75.75 0 0 1-1.5 0v-1.25H3.75V21a.75.75 0 0 1-1.5 0V5.58A1.748 1.748 0 0 1 3 2.25a1.75 1.75 0 0 1 .75 3.33v.67h16.5v-.67A1.748 1.748 0 0 1 21 2.25m-17.25 16h16.5v-1.5H3.75zm0-3h1.5v-7.5h-1.5zm3 0h2.5v-7.5h-2.5zm4 0h2.5v-7.5h-2.5zm4 0h2.5v-7.5h-2.5zm4 0h1.5v-7.5h-1.5zM3 3.75a.25.25 0 1 0 0 .5.25.25 0 0 0 0-.5m18 0a.25.25 0 1 0 0 .5.25.25 0 0 0 0-.5", clipRule: "evenodd" }) });
+export default BabyBed01Stroke;

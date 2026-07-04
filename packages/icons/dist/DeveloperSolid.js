@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const DeveloperSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M3.61 10.187a7.787 7.787 0 0 1 15.572-.144l1.119 2.745a1.2 1.2 0 0 1-1.112 1.653h-.726v1.373a2.16 2.16 0 0 1-2.16 2.16h-1.638v2.907a.72.72 0 0 1-.72.72h-7.07a.72.72 0 0 1-.72-.72v-4.934a7.77 7.77 0 0 1-2.546-5.76m6.256-1.893a.72.72 0 0 0-1.019-1.018l-2.4 2.402a.72.72 0 0 0 0 1.018l2.4 2.402a.72.72 0 1 0 1.019-1.018l-1.892-1.893zm4.08-1.018a.72.72 0 1 0-1.019 1.018l1.892 1.893-1.892 1.893a.72.72 0 0 0 1.019 1.018l2.4-2.402a.72.72 0 0 0 0-1.018z" }) });
+export default DeveloperSolid;

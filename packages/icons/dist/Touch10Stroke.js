@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const Touch10Stroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 5.75a7.75 7.75 0 1 1 0 15.5 7.75 7.75 0 0 1 0-15.5m0 1.5a6.25 6.25 0 1 0 0 12.5 6.25 6.25 0 0 0 0-12.5", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M12 2.75c3.685 0 6.964 1.627 8.625 4.125a.75.75 0 0 1-1.25.83C18.045 5.701 15.282 4.25 12 4.25S5.957 5.701 4.625 7.705a.75.75 0 0 1-1.25-.83C5.037 4.377 8.316 2.75 12 2.75" })] });
+export default Touch10Stroke;

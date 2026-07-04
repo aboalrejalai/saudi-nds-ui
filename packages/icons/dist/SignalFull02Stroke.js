@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const SignalFull02Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M20.83 5.299c.425 0 .769.344.769.768v12.865a.768.768 0 0 1-1.537 0V6.067c0-.424.344-.768.768-.768M3.166 15.59c.425 0 .768.344.768.768v2.573a.768.768 0 1 1-1.536 0v-2.573c0-.424.344-.768.768-.768M8.352 13.786a.768.768 0 0 0-1.536 0v5.146a.768.768 0 0 0 1.536 0zM11.999 10.443c.424 0 .768.344.768.768v7.72a.768.768 0 0 1-1.537 0v-7.72c0-.424.344-.768.768-.768M17.184 8.64a.768.768 0 1 0-1.536 0V18.93a.768.768 0 0 0 1.536 0z" }) });
+export default SignalFull02Stroke;

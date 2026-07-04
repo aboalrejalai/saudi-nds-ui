@@ -3,7 +3,7 @@
 import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
-import { Copy01Stroke, CheckmarkBadge01Solid } from "@/components/icons"
+import { Copy01Stroke, CheckmarkBadge01Solid } from "@aboalrejal/nds-icons"
 
 const codeVariants = cva(
   "relative overflow-hidden rounded-xl border bg-muted/30 font-mono text-sm",

@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const WebValidationSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M17 21.25a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1 0-1.5z" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20 1.25A2.75 2.75 0 0 1 22.75 4v13A2.75 2.75 0 0 1 20 19.75H4A2.75 2.75 0 0 1 1.25 17V4A2.75 2.75 0 0 1 4 1.25zm-4.47 6.72a.75.75 0 0 0-1.06 0L11 11.44 9.53 9.97a.75.75 0 1 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l4-4a.75.75 0 0 0 0-1.06", clipRule: "evenodd" })] });
+export default WebValidationSolid;

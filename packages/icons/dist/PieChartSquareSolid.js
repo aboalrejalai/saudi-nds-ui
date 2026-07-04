@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const PieChartSquareSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.5 2A1.5 1.5 0 0 1 22 3.5v17a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 20.5v-17A1.5 1.5 0 0 1 3.5 2zM10.425 5.178a7 7 0 1 0 8.397 8.397h-7.347c-.58 0-1.05-.47-1.05-1.05zM12 5a.526.526 0 0 0-.525.525V12c0 .29.235.525.525.525h6.475c.29 0 .525-.235.525-.525a7 7 0 0 0-7-7", clipRule: "evenodd" }) });
+export default PieChartSquareSolid;

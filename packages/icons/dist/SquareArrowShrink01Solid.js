@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const SquareArrowShrink01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M22 18.372A3.63 3.63 0 0 1 18.372 22H5.628A3.63 3.63 0 0 1 2 18.372V5.628A3.63 3.63 0 0 1 5.628 2h12.744A3.63 3.63 0 0 1 22 5.628zM11.5 7.75v3a.75.75 0 0 1-.75.75h-3a.75.75 0 0 1 0-1.5h1.19L7.22 8.28a.75.75 0 1 1 1.06-1.06L10 8.94V7.75a.75.75 0 0 1 1.5 0m2.5 7.31 1.72 1.72a.75.75 0 1 0 1.06-1.06L15.06 14h1.19a.75.75 0 0 0 0-1.5h-3a.75.75 0 0 0-.75.75v3a.75.75 0 0 0 1.5 0z", clipRule: "evenodd" }) });
+export default SquareArrowShrink01Solid;

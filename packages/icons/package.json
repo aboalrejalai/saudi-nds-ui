@@ -1,0 +1,26 @@
+{
+  "name": "@aboalrejal/nds-icons",
+  "version": "1.0.0",
+  "description": "Saudi Arabia National Design System (NDS) React Icon Library",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

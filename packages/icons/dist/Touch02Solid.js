@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Touch02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M8.701 1.25a2.25 2.25 0 0 1 2.25 2.249v1.67a2.192 2.192 0 0 1 2.315.52q.19.193.329.431a2.206 2.206 0 0 1 2.672.354c.198.201.355.442.47.713a2.2 2.2 0 0 1 .964-.222c.564 0 1.135.215 1.566.652.436.444.684 1.07.684 1.812V18c0 2.365-1.888 4.75-4.75 4.75h-4.62a2.75 2.75 0 0 1-2.027-.892L4.77 17.73a2.75 2.75 0 0 1-.173-3.507l1.854-2.474V3.5a2.25 2.25 0 0 1 2.25-2.25", clipRule: "evenodd" }) });
+export default Touch02Solid;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const LockKeySolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.14 2.331a2.25 2.25 0 0 1 1.722 0l6.55 2.713c.775.322 1.337 1.065 1.36 1.947.116 4.546-1.341 10.807-7.704 14.558-.656.387-1.47.39-2.13.01-6.504-3.753-7.842-10.03-7.709-14.57a2.18 2.18 0 0 1 1.363-1.945zm3.237 5.204c-1.259 0-2.32.846-2.647 2H7.127a.75.75 0 0 0 0 1.5h1.015v1.25a.75.75 0 0 0 1.5 0v-1.25h2.088a2.751 2.751 0 0 0 5.397-.75 2.75 2.75 0 0 0-2.75-2.75", clipRule: "evenodd" }) });
+export default LockKeySolid;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const SecurityPasswordSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.139 2.331a2.25 2.25 0 0 1 1.721 0l6.55 2.713c.775.322 1.338 1.064 1.36 1.947.117 4.545-1.34 10.807-7.703 14.557a2.12 2.12 0 0 1-2.132.011c-6.503-3.753-7.84-10.031-7.707-14.571.025-.88.587-1.622 1.363-1.944zM7.219 9.16a1 1 0 1 0 0 2 1 1 0 0 0 0-2m3 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m3 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m3 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2", clipRule: "evenodd" }) });
+export default SecurityPasswordSolid;

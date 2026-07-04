@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const StreetFoodSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M7.5 1.25C5.43 1.25 3.75 2.93 3.75 5v9c0 1.81 1.29 3.33 3 3.68V22c0 .41.34.75.75.75s.75-.34.75-.75v-4.32c1.71-.35 3-1.86 3-3.68V5c0-2.07-1.68-3.75-3.75-3.75m9 0c-2.07 0-3.75 1.68-3.75 3.75v9c0 1.81 1.29 3.33 3 3.68V22c0 .41.34.75.75.75s.75-.34.75-.75v-4.32c1.71-.35 3-1.86 3-3.68V5c0-2.07-1.68-3.75-3.75-3.75", clipRule: "evenodd" }) });
+export default StreetFoodSolid;

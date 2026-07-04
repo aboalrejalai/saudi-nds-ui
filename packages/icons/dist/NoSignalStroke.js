@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const NoSignalStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M20.831 10.513c.424 0 .768.344.768.768v1.865a.768.768 0 1 1-1.536 0V11.28c0-.425.344-.768.768-.768M3.166 10.804c.425 0 .768.344.768.768v1.573a.768.768 0 0 1-1.536 0v-1.573c0-.424.344-.768.768-.768M8.351 11a.768.768 0 1 0-1.536 0v2.146a.768.768 0 1 0 1.536 0zM11.999 10.659c.424 0 .768.343.768.768v1.719a.768.768 0 0 1-1.536 0v-1.72c0-.424.344-.768.768-.768M17.183 10.854a.768.768 0 0 0-1.536 0v2.292a.768.768 0 1 0 1.536 0z" }) });
+export default NoSignalStroke;

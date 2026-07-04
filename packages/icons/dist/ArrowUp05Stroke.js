@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const ArrowUp05Stroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M12.809 21.248a.75.75 0 1 1-1.5.004l-.09-15.172-3.307 3.325a.75.75 0 0 1-1.064-1.057l4.583-4.61a.75.75 0 0 1 1.06-.003l4.61 4.583a.75.75 0 1 1-1.057 1.064l-3.326-3.307z" }), _jsx("path", { fill: "currentColor", d: "M17.129 2.034c.41.001.749.342.747.752a.755.755 0 0 1-.752.748L6.871 3.5a.755.755 0 0 1-.748-.752A.755.755 0 0 1 6.876 2z" })] });
+export default ArrowUp05Stroke;

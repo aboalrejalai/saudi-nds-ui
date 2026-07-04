@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const TwitterSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M16 3.15c1.082 0 2.082.355 2.888.954l2.987-.445a.85.85 0 0 1 .882 1.227L20.832 8.66C20.49 15.45 14.877 20.85 8 20.85c-2.309 0-4.51-.507-6.425-1.615a.85.85 0 0 1 .34-1.58c.697-.07 1.75-.272 2.607-.584.414-.15.733-.313.94-.465-3.002-3.366-4.048-8.465-2.79-12.74a.85.85 0 0 1 1.532-.219C5.78 6.117 8.347 7.95 11.157 8.13c-.052-2.612 2.08-4.98 4.843-4.98" }) });
+export default TwitterSolid;

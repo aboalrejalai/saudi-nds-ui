@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const GibbousMoonStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M2.398 12a9.6 9.6 0 1 1 19.2 0 9.6 9.6 0 1 1-19.2 0m17.73-.72a8.1 8.1 0 0 0-.865-3H12.17a8.1 8.1 0 0 0-.86 3zm-8.818 1.44h8.817a8.1 8.1 0 0 1-.864 3h-7.086a8.1 8.1 0 0 1-.867-3M9.838 12v-.005a9.59 9.59 0 0 1 4.156-7.908 8.16 8.16 0 1 0 .014 15.825A9.59 9.59 0 0 1 9.838 12m3.284 5.161h5.198a8.2 8.2 0 0 1-2.595 2.102 8.2 8.2 0 0 1-2.603-2.102M18.32 6.84a8.2 8.2 0 0 0-2.608-2.107 8.2 8.2 0 0 0-2.6 2.107z", clipRule: "evenodd" }) });
+export default GibbousMoonStroke;

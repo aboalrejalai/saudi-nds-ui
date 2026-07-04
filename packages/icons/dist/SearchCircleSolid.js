@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const SearchCircleSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.6 7a4.6 4.6 0 0 1 3.882 7.068l1.225 1.225a1 1 0 1 1-1.414 1.414l-1.225-1.225A4.6 4.6 0 1 1 11.6 7m0 2a2.6 2.6 0 1 0 0 5.2 2.6 2.6 0 0 0 0-5.2", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1m0 2a9 9 0 1 0 0 18 9 9 0 0 0 0-18", clipRule: "evenodd" })] });
+export default SearchCircleSolid;

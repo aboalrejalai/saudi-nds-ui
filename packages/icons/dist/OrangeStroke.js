@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const OrangeStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.25 2.78c-4.739.386-8.5 4.387-8.5 9.22s3.761 8.834 8.5 9.22zm1.5 0v7.41l3.72-3.72a.75.75 0 1 1 1.06 1.06l-3.72 3.72H19a.75.75 0 0 1 0 1.5h-5.305l3.86 4.246a.75.75 0 0 1-1.11 1.009L12.75 13.94v7.28c4.739-.386 8.5-4.387 8.5-9.22s-3.761-8.834-8.5-9.22M1.25 12C1.25 6.086 6.086 1.25 12 1.25S22.75 6.086 22.75 12 17.914 22.75 12 22.75 1.25 17.914 1.25 12", clipRule: "evenodd" }) });
+export default OrangeStroke;

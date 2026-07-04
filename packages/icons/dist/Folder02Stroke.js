@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Folder02Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M19.942 5.5h-6.8c-.28 0-.55-.11-.73-.31l-2.13-2.23a2.7 2.7 0 0 0-1.91-.77h-4.63c-1.45 0-2.65 1.2-2.65 2.65v12.89c0 1.46 1.2 2.65 2.65 2.65l17.083-.01h.052c.505 0 1.623-.87 1.606-1.783l.109-10.438c0-1.45-1.19-2.65-2.65-2.65m1.03 12.26a1 1 0 0 1-1 1H3.742c-.56 0-1.03-.46-1.03-1.03V4.84c0-.57.47-1.03 1.03-1.03h4.67c.28 0 .54.1.71.28l2.12 2.23c.49.51 1.19.8 1.9.8h6.8c.57 0 1.03.46 1.03 1.03z" }) });
+export default Folder02Stroke;

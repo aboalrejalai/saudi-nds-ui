@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const TickDouble01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M21.543 6.417a1 1 0 1 1 1.414 1.414l-9.576 9.577a1.6 1.6 0 0 1-2.263 0l-1.869-1.87-1.868 1.87a1.6 1.6 0 0 1-2.263 0L1.043 13.33a1 1 0 1 1 1.414-1.414l3.792 3.792 1.586-1.585-1.292-1.293a1 1 0 1 1 1.414-1.414l4.293 4.293zm-6 0a1 1 0 1 1 1.414 1.414l-4 4a1 1 0 0 1-1.414-1.414z" }) });
+export default TickDouble01Solid;

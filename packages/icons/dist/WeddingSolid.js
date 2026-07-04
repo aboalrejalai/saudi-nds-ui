@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const WeddingSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M9.845 2.656a.72.72 0 0 1 .662-.436h2.986a.72.72 0 0 1 .662.436l.48 1.12a.72.72 0 0 1-.182.821l-1.974 1.76a.72.72 0 0 1-.958 0l-1.973-1.76a.72.72 0 0 1-.183-.82z" }), _jsx("path", { fill: "currentColor", d: "M3.24 13.02A8.76 8.76 0 0 1 8.16 5.145c.112.193.256.372.43.527l1.246 1.111a6.6 6.6 0 1 0 4.33 0l1.246-1.111c.174-.155.318-.334.43-.527A8.76 8.76 0 1 1 3.24 13.02" })] });
+export default WeddingSolid;

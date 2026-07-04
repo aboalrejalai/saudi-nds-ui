@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const CapRoundSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.5 17a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2.001v-.101a5.002 5.002 0 0 0 4.535-1.361l.195-.208q.141-.16.266-.328H20.5zm-14-8a3 3 0 0 1 2.121.88c.32.319.555.704.703 1.121H19.5a1 1 0 1 1 0 2H9.324a3 3 0 0 1-.703 1.121A3 3 0 1 1 6.5 9m0 2.001a1 1 0 1 0 0 2 1 1 0 0 0 0-2M18.5 5a2 2 0 0 1 2 2v2.001H10.496a5 5 0 0 0-.266-.328l-.195-.207A5 5 0 0 0 5.5 7.102v-.103A2 2 0 0 1 7.5 5z", clipRule: "evenodd" }) });
+export default CapRoundSolid;

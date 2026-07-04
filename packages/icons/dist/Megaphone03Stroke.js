@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Megaphone03Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.73 2.147a1.35 1.35 0 0 1 2.02 1.171v13.933a1.35 1.35 0 0 1-2.02 1.172l-5.93-3.389h-1.935l.555 3.884a2.73 2.73 0 0 1-5.405.773l-.672-4.704A4.75 4.75 0 0 1 7 5.534h6.8zM8.5 19.479a1.23 1.23 0 1 0 2.435-.348l-.585-4.097H7.865zm6.25-12.76v7.13l5.5 3.143V3.577zM7 7.035a3.25 3.25 0 0 0 0 6.5h6.25v-6.5z", clipRule: "evenodd" }) });
+export default Megaphone03Stroke;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const ImageFlipVerticalStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.73 13.34a.75.75 0 0 1-.415.843l-16 7.5a.75.75 0 0 1-1.067-.68v-7.5a.75.75 0 0 1 .75-.75h16a.75.75 0 0 1 .732.588m-15.982.914v5.57l11.883-5.57zM20.734 10.66a.75.75 0 0 0-.414-.842l-16-7.5a.75.75 0 0 0-1.068.679v7.5c0 .414.336.75.75.75h16a.75.75 0 0 0 .732-.587M4.752 9.747v-5.57l11.883 5.57z", clipRule: "evenodd" }) });
+export default ImageFlipVerticalStroke;

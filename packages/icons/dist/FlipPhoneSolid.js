@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const FlipPhoneSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M5.75 4.25A2.25 2.25 0 0 1 8 2h8a2.25 2.25 0 0 1 2.25 2.25v10.645a2.25 2.25 0 0 1-1.658 2.17l-4 1.091a2.25 2.25 0 0 1-1.184 0l-4-1.09a2.25 2.25 0 0 1-1.658-2.171zm5.245 2a1 1 0 0 0 1 1h.01a1 1 0 1 0 0-2h-.01a1 1 0 0 0-1 1" }), _jsx("path", { fill: "currentColor", d: "M5.75 17.24v2.51A2.25 2.25 0 0 0 8 22h8a2.25 2.25 0 0 0 2.25-2.25v-2.51a3.24 3.24 0 0 1-1.395.79l-4 1.09a3.25 3.25 0 0 1-1.71 0l-4-1.09a3.24 3.24 0 0 1-1.395-.79" })] });
+export default FlipPhoneSolid;

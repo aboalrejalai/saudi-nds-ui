@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const PinterestStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.15c5.992 0 10.85 4.858 10.85 10.85S17.992 22.85 12 22.85 1.15 17.992 1.15 12 6.008 1.15 12 1.15m0 1.7a9.15 9.15 0 0 0-4.503 17.116l3.714-9.281a.85.85 0 0 1 1.104-.474l.08.036a.85.85 0 0 1 .422.986l-.028.082-1.877 4.688a4.15 4.15 0 1 0-2.507-1.929.851.851 0 0 1-1.471.852 5.85 5.85 0 1 1 3.345 2.666l-1.23 3.068A9.15 9.15 0 1 0 12 2.85", clipRule: "evenodd" }) });
+export default PinterestStroke;

@@ -48,6 +48,11 @@ Use this mode if the directory is empty, or if the project lacks Tailwind/Shadcn
 4. **Apply Identity:**
    - Modify `globals.css` to use **IBM Plex Sans Arabic**.
    - Add `<html lang="ar" dir="rtl">` to `layout.tsx`.
+5. **Install Icon Library:**
+   Install the official custom Saudi NDS icons package:
+   ```bash
+   npm install @aboalrejal/nds-icons
+   ```
 
 ---
 

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const MapsStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.973 2.552a1.35 1.35 0 0 1 1.777 1.28v14.735a1.35 1.35 0 0 1-.923 1.281l-5.59 1.864a.75.75 0 0 1-.474 0L9 19.79l-4.973 1.657a1.35 1.35 0 0 1-1.777-1.28V5.432c0-.58.372-1.097.923-1.28l5.59-1.864a.75.75 0 0 1 .474 0L15 4.21zM14.25 5.54l-4.5-1.5v14.418l4.5 1.5zm1.5 14.418V5.541l4.5-1.5v14.418zm-7.5-1.5V4.041l-4.5 1.5v14.418z", clipRule: "evenodd" }) });
+export default MapsStroke;

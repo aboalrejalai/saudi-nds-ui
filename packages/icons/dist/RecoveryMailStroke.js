@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const RecoveryMailStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M3.84 17.04v-8.7l6.884 4.8q.364-.629.853-1.16l-7.64-5.328a.226.226 0 0 1 .13-.411h15.867c.123 0 .223.097.226.22v.013a.23.23 0 0 1-.096.179l-4.697 3.275a6.6 6.6 0 0 1 2.44.054l2.353-1.641v2.647c.544.372 1.03.823 1.44 1.337V6.467c0-.92-.746-1.666-1.666-1.666H4.067A1.666 1.666 0 0 0 2.4 6.465v10.576a2.16 2.16 0 0 0 2.16 2.16h5.884a6.6 6.6 0 0 1-.472-1.44H4.56a.72.72 0 0 1-.72-.72" }) });
+export default RecoveryMailStroke;

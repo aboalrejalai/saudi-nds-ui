@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const PermanentJobSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M3.999 6.375a2.75 2.75 0 0 0-2.75 2.75v10a2.75 2.75 0 0 0 2.75 2.75h16a2.75 2.75 0 0 0 2.75-2.75v-10a2.75 2.75 0 0 0-2.75-2.75z", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M16.999 6.625h-2v-2.5h-6v2.5h-2v-2.9a1.6 1.6 0 0 1 1.6-1.6h6.8l.165.008a1.6 1.6 0 0 1 1.435 1.592z" })] });
+export default PermanentJobSolid;

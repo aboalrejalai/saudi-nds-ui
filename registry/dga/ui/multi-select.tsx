@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { Cancel01Stroke, CheckmarkBadge01Solid } from "@/components/icons"
+import { Cancel01Stroke, CheckmarkBadge01Solid } from "@aboalrejal/nds-icons"
 import {
   Command,
   CommandEmpty,

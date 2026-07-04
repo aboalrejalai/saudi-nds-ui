@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const SidebarBottomSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M2.25 15.841v4.432c0 .816.661 1.477 1.477 1.477h16.546c.816 0 1.477-.661 1.477-1.477v-4.432zm19.5-12.113c0-.816-.661-1.478-1.477-1.478H3.727c-.816 0-1.477.662-1.477 1.478v10.34h19.5zM9.932 19.387a.59.59 0 0 1 0-1.182h2.364a.59.59 0 1 1 0 1.182zm-4.727 0a.59.59 0 0 1 0-1.182h2.363a.59.59 0 1 1 0 1.182z" }) });
+export default SidebarBottomSolid;

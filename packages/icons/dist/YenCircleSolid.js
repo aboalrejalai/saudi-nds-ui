@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const YenCircleSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1m4.441 4.894a.75.75 0 0 0-1.047.165L12 10.725 8.606 6.059a.75.75 0 0 0-1.212.882l3.497 4.809H8a.75.75 0 0 0 0 1.5h3.25v.5H8a.75.75 0 0 0 0 1.5h3.25v2.25a.75.75 0 0 0 1.5 0v-2.25H16a.75.75 0 0 0 0-1.5h-3.25v-.5H16a.75.75 0 0 0 0-1.5h-2.89l3.496-4.809a.75.75 0 0 0-.165-1.047", clipRule: "evenodd" }) });
+export default YenCircleSolid;

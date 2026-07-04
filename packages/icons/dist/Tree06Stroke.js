@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Tree06Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12.002 1.25a5.75 5.75 0 0 1 5.715 5.12 6.251 6.251 0 0 1-1.215 12.38h-3.75V22a.75.75 0 0 1-1.5 0v-3.25h-3.75A6.25 6.25 0 0 1 6.286 6.368a5.75 5.75 0 0 1 5.716-5.118m0 1.5a4.25 4.25 0 0 0-4.183 3.5h1.183a.75.75 0 1 1 0 1.5h-1.5a4.75 4.75 0 0 0 0 9.5h3.75V10a.75.75 0 1 1 1.5 0v2.786l2.915-1.457a.75.75 0 0 1 .67 1.342l-3.585 1.793v2.786h3.75a4.75 4.75 0 0 0 .433-9.48.75.75 0 0 1-.683-.738V7a4.25 4.25 0 0 0-4.25-4.25", clipRule: "evenodd" }) });
+export default Tree06Stroke;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Office365Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.197 1.206a.85.85 0 0 1 .593-.005l5.5 2a.85.85 0 0 1 .56.799v16a.85.85 0 0 1-.56.799l-5.5 2a.85.85 0 0 1-.593-.005l-10.5-4A.85.85 0 0 1 3.15 18V6a.85.85 0 0 1 .547-.794zM4.85 6.585v9.97l2.8-1.556v-7.5a.85.85 0 0 1 .626-.82l5.5-1.5A.85.85 0 0 1 14.85 6v12.5a.85.85 0 0 1-.892.85l-4.639-.232 5.187 1.976 4.644-1.689V4.594l-4.644-1.688zm4.5 1.563V15.5a.85.85 0 0 1-.437.743l-1.902 1.056 6.14.306V7.112z", clipRule: "evenodd" }) });
+export default Office365Stroke;

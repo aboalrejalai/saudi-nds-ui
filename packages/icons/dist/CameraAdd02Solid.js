@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const CameraAdd02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M15.2 2.25c.425 0 .825.2 1.08.54l2.22 2.96c.236.315.607.5 1 .5h.5A2.75 2.75 0 0 1 22.75 9v10A2.75 2.75 0 0 1 20 21.75H4A2.75 2.75 0 0 1 1.25 19V9A2.75 2.75 0 0 1 4 6.25h.5a1.25 1.25 0 0 0 1-.5l2.22-2.96a1.35 1.35 0 0 1 1.08-.54zm-2.48 7.5a.75.75 0 0 0-1.5 0v2.75H8.47a.75.75 0 0 0 0 1.5h2.75v2.75a.75.75 0 0 0 1.5 0V14h2.75a.75.75 0 0 0 0-1.5h-2.75z", clipRule: "evenodd" }) });
+export default CameraAdd02Solid;

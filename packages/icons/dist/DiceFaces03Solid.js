@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const DiceFaces03Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M21.75 3.6a1.35 1.35 0 0 0-1.35-1.35H3.6A1.35 1.35 0 0 0 2.25 3.6v16.8c0 .746.604 1.35 1.35 1.35h16.8a1.35 1.35 0 0 0 1.35-1.35zm-13 3.9a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0M12 10.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5m5.75 5.75a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0", clipRule: "evenodd" }) });
+export default DiceFaces03Solid;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const PrinterSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M5.25 3.725c0-.746.604-1.35 1.35-1.35h10.8c.746 0 1.35.604 1.35 1.35v4.983H5.25zM5.25 9.708h13.5c1.757.697 3 2.412 3 4.417v6.4a1.35 1.35 0 0 1-1.35 1.35H3.6a1.35 1.35 0 0 1-1.35-1.35v-6.4a4.75 4.75 0 0 1 3-4.417m12.5 7.417a.75.75 0 0 0-.75-.75H7a.75.75 0 0 0 0 1.5h10a.75.75 0 0 0 .75-.75m-.238-4.559a.75.75 0 0 0-1.06.056l-.01.012a.75.75 0 1 0 1.116 1.003l.01-.011a.75.75 0 0 0-.056-1.06", clipRule: "evenodd" }) });
+export default PrinterSolid;

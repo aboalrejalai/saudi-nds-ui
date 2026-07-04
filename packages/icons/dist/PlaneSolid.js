@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const PlaneSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.31 2.196c.6.35.94 1.02.94 1.71v4.75l7.54 4.71c.28.18.46.49.46.82v1.59c0 .63-.59 1.1-1.21.94l-6.79-1.7v2.7l3.14 2.75c.74.65.16 1.86-.81 1.69l-4.58-.83-4.58.83c-.97.18-1.56-1.04-.81-1.69l3.14-2.75v-2.7l-6.79 1.7a.976.976 0 0 1-1.21-.94v-1.59c0-.34.17-.65.46-.82l7.54-4.71v-4.58c0-1.66 1.8-2.9 3.56-1.88", clipRule: "evenodd" }) });
+export default PlaneSolid;

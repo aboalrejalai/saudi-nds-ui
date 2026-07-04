@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const SecurityStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M11.14 2.33a2.25 2.25 0 0 1 1.722 0l6.55 2.712c.775.322 1.338 1.065 1.36 1.948.117 4.545-1.34 10.806-7.703 14.557a2.12 2.12 0 0 1-2.132.01c-6.503-3.753-7.841-10.03-7.708-14.57a2.18 2.18 0 0 1 1.363-1.945zm1.149 1.385a.75.75 0 0 0-.574 0L5.166 6.428a.69.69 0 0 0-.438.603c-.124 4.238 1.116 9.856 6.959 13.227.192.11.429.11.62-.003 5.725-3.375 7.074-8.999 6.965-13.227a.68.68 0 0 0-.435-.6z" }) });
+export default SecurityStroke;

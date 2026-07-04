@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const ZapStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M15.141 2.482a.72.72 0 0 1 .378.747l-1.234 8.05h4.274a.72.72 0 0 1 .495 1.243l-9.368 8.88a.72.72 0 0 1-1.207-.63l1.234-8.05H5.439a.72.72 0 0 1-.496-1.243l9.37-8.881a.72.72 0 0 1 .828-.116m-7.896 8.8h3.306a.72.72 0 0 1 .712.829l-1.042 6.8 6.532-6.192h-3.306a.72.72 0 0 1-.712-.829l1.042-6.8z", clipRule: "evenodd" }) });
+export default ZapStroke;

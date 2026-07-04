@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const YenCircleStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M21.5 12a9.5 9.5 0 1 0-9.5 9.5V23C5.925 23 1 18.075 1 12S5.925 1 12 1s11 4.925 11 11-4.925 11-11 11v-1.5a9.5 9.5 0 0 0 9.5-9.5" }), _jsx("path", { fill: "currentColor", d: "M15.394 6.059a.75.75 0 0 1 1.212.882L13.11 11.75H16a.75.75 0 0 1 0 1.5h-3.25v.5H16a.75.75 0 0 1 0 1.5h-3.25v2.25a.75.75 0 0 1-1.5 0v-2.25H8a.75.75 0 0 1 0-1.5h3.25v-.5H8a.75.75 0 0 1 0-1.5h2.89L7.395 6.941a.75.75 0 0 1 1.212-.882L12 10.725z" })] });
+export default YenCircleStroke;

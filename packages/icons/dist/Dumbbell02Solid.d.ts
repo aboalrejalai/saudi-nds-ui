@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+declare const Dumbbell02Solid: (props: SVGProps<SVGSVGElement>) => import("react/jsx-runtime").JSX.Element;
+export default Dumbbell02Solid;

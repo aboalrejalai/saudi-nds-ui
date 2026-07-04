@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const CreditCardAddSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M20 4.25A2.75 2.75 0 0 1 22.75 7v1.25H6a.75.75 0 0 0 0 1.5h16.75V17A2.75 2.75 0 0 1 20 19.75H4A2.75 2.75 0 0 1 1.25 17V7A2.75 2.75 0 0 1 4 4.25zm-4.25 10.5a.667.667 0 0 0-.668-.668h-2.165v-2.165a.667.667 0 1 0-1.335 0v2.165H9.419a.667.667 0 1 0 0 1.335h2.165v2.165a.667.667 0 1 0 1.335 0v-2.165h2.165a.667.667 0 0 0 .667-.667" }) });
+export default CreditCardAddSolid;

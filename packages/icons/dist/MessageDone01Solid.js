@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const MessageDone01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.25c5.937 0 10.75 4.813 10.75 10.75S17.937 22.75 12 22.75c-1.856 0-3.605-.471-5.13-1.3l-4.232.787a.75.75 0 0 1-.875-.875l.788-4.232A10.7 10.7 0 0 1 1.25 12C1.25 6.063 6.063 1.25 12 1.25m4.057 8.193a.66.66 0 0 0-.936 0l-5.017 5.017-1.725-1.726a.662.662 0 0 0-.936.935l2.195 2.193a.66.66 0 0 0 .934 0l2.743-2.741 2.742-2.742a.66.66 0 0 0 0-.936", clipRule: "evenodd" }) });
+export default MessageDone01Solid;

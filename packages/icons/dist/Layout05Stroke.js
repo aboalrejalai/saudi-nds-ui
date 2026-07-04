@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Layout05Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.185 2c.726 0 1.315.62 1.315 1.384v17.232c0 .764-.589 1.384-1.315 1.384H3.815c-.726 0-1.315-.62-1.315-1.384V3.384C2.5 2.62 3.089 2 3.815 2zm0 7H3.815V3.538h16.37zM3.815 20.607V10.5h4.321v10.107zm5.867 0V10.5h4.636v10.107zm6.182 0V10.5h4.321v10.107z", clipRule: "evenodd" }) });
+export default Layout05Stroke;

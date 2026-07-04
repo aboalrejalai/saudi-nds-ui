@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const WifiMediumSignalStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M17.809 11.051a8.216 8.216 0 0 0-11.619 0 .72.72 0 1 1-1.018-1.018c3.77-3.77 9.884-3.77 13.655 0a.72.72 0 1 1-1.018 1.018M12.96 15.835a.96.96 0 1 1-1.92 0 .96.96 0 0 1 1.92 0" }), _jsx("path", { fill: "currentColor", d: "M8.928 13.654a4.594 4.594 0 0 1 6.136 0 .72.72 0 1 0 .963-1.071 6.034 6.034 0 0 0-8.062 0 .72.72 0 1 0 .963 1.07" })] });
+export default WifiMediumSignalStroke;

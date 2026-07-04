@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const TextIndent01Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M18.496 5.25a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1 0-1.5zM20.496 9.25a.75.75 0 0 1 0 1.5h-9a.75.75 0 0 1 0-1.5zM18.496 17.25a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1 0-1.5zM17.496 13.25a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1 0-1.5zM5.635 7.343a.75.75 0 0 1 .83.071l2.5 2a.75.75 0 0 1-.937 1.172L5.996 8.96l-2.03 1.625a.75.75 0 0 1-.938-1.172l2.5-2zM8.028 13.414a.75.75 0 0 1 .937 1.172l-2.5 2a.75.75 0 0 1-.937 0l-2.5-2a.75.75 0 0 1 .937-1.172l2.031 1.625z" }) });
+export default TextIndent01Stroke;

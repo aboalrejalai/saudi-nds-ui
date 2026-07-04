@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const TargetDollarStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.68a.72.72 0 0 1 .72.72V3.87a8.16 8.16 0 0 1 7.408 7.409H21.6a.72.72 0 1 1 0 1.44h-1.472a8.16 8.16 0 0 1-7.408 7.409v1.47a.72.72 0 1 1-1.44 0v-1.47a8.16 8.16 0 0 1-7.409-7.41H2.4a.72.72 0 1 1 0-1.44h1.472a8.16 8.16 0 0 1 7.408-7.408V2.4a.72.72 0 0 1 .72-.72M18.72 12A6.72 6.72 0 0 1 12 18.72h-.024A6.72 6.72 0 1 1 18.72 12", clipRule: "evenodd" }) });
+export default TargetDollarStroke;

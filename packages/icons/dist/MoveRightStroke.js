@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const MoveRightStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M6.75 12a2.75 2.75 0 1 1-5.5 0 2.75 2.75 0 0 1 5.5 0m-1.5 0a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M22.53 11.47a.75.75 0 0 1 0 1.06l-3 3a.75.75 0 1 1-1.06-1.06l1.72-1.72H9a.75.75 0 0 1 0-1.5h11.19l-1.72-1.72a.75.75 0 0 1 1.06-1.06z" })] });
+export default MoveRightStroke;

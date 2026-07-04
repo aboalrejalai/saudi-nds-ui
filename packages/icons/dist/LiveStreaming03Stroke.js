@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const LiveStreaming03Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M4.558 5.52a2.16 2.16 0 0 0-2.16 2.16v8.64a2.16 2.16 0 0 0 2.16 2.16h10.56a2.16 2.16 0 0 0 2.16-2.16v-1.06l2.508 1.488a1.2 1.2 0 0 0 1.812-1.032V8.283a1.2 1.2 0 0 0-1.812-1.032L17.278 8.74V7.68a2.16 2.16 0 0 0-2.16-2.16zm12.72 4.894v3.17l2.88 1.71v-6.59zM3.838 7.68a.72.72 0 0 1 .72-.72h10.56a.72.72 0 0 1 .72.72v8.64a.72.72 0 0 1-.72.72H4.558a.72.72 0 0 1-.72-.72z", clipRule: "evenodd" }) });
+export default LiveStreaming03Stroke;

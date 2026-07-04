@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const FireworksSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M10.296 2.782a2.25 2.25 0 0 1 3.406 0l3.865 4.476a.75.75 0 0 1-.568 1.24h-1.25v.79l-7.5 1.876V8.498H7a.75.75 0 0 1-.568-1.24zM8.25 12.71v1.454l7.5-1.876v-1.453zM15.75 13.835l-7.5 1.875v1.538c0 .415.335.75.75.75h1.124v3.25a.75.75 0 0 0 1.5 0v-3.25h.75v1.313a2.687 2.687 0 1 0 5.375 0 .75.75 0 0 0-1.5 0 1.187 1.187 0 1 1-2.375 0v-1.312H15a.75.75 0 0 0 .75-.75z" }) });
+export default FireworksSolid;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const EiffelTowerSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M14.753 21.999h4.5c.3 0 .58-.18.69-.45a.76.76 0 0 0-.15-.81l-.009-.01c-.133-.149-1.678-1.874-3.336-5.316h-8.89C5.9 18.855 4.356 20.58 4.223 20.73l-.009.01c-.21.21-.27.53-.15.81.12.27.39.45.69.45h4.5c.41 0 .75-.34.75-.75 0-1.1.9-2 2-2s2 .9 2 2c0 .41.34.75.75.75M8.238 13.913h7.53c-1.205-2.829-2.377-6.566-3.025-11.264a.75.75 0 0 0-.74-.65c-.37 0-.69.28-.74.65-.648 4.698-1.82 8.435-3.025 11.264" }) });
+export default EiffelTowerSolid;

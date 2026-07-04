@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const AcuteStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M15.319 3.807a1 1 0 0 1 1.44 1.386L3.946 18.5h17.649a1 1 0 0 1 0 2H3.005c-1.41 0-2.13-1.694-1.152-2.71z" }), _jsx("path", { fill: "currentColor", d: "M16.04 7.668a1 1 0 0 1 1.387.277c1.02 1.53 1.692 2.73 2.168 4.022.475 1.288.736 2.621.99 4.391a1 1 0 0 1-1.98.284c-.247-1.73-.486-2.897-.886-3.984-.399-1.083-.977-2.134-1.956-3.603a1 1 0 0 1 .277-1.387" })] });
+export default AcuteStroke;

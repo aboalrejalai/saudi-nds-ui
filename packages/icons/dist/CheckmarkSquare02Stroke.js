@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const CheckmarkSquare02Stroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M16.47 7.97a.75.75 0 1 1 1.06 1.06l-7 7a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 1 1 1.06-1.06L10 14.44z" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.4 2.25c.746 0 1.35.604 1.35 1.35v16.8a1.35 1.35 0 0 1-1.35 1.35H3.6a1.35 1.35 0 0 1-1.35-1.35V3.6c0-.746.604-1.35 1.35-1.35zm-16.65 18h16.5V3.75H3.75z", clipRule: "evenodd" })] });
+export default CheckmarkSquare02Stroke;

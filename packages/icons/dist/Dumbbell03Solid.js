@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Dumbbell03Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M7.4 6.25c.746 0 1.35.604 1.35 1.35v3.65h6.5V7.6c0-.746.604-1.35 1.35-1.35h2.8c.746 0 1.35.604 1.35 1.35v.65h1.65c.746 0 1.35.604 1.35 1.35v4.8a1.35 1.35 0 0 1-1.35 1.35h-1.65v.65a1.35 1.35 0 0 1-1.35 1.35h-2.8a1.35 1.35 0 0 1-1.35-1.35v-3.65h-6.5v3.65a1.35 1.35 0 0 1-1.35 1.35H4.6a1.35 1.35 0 0 1-1.35-1.35v-.65H1.6A1.35 1.35 0 0 1 .25 14.4V9.6c0-.746.604-1.35 1.35-1.35h1.65V7.6c0-.746.604-1.35 1.35-1.35z", clipRule: "evenodd" }) });
+export default Dumbbell03Solid;

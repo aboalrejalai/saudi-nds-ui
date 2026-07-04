@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const LinkCircle02Stroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M11.877 2.375a.75.75 0 0 1 0 1.5 8.251 8.251 0 1 0 8.25 8.25.75.75 0 0 1 1.5 0c0 5.385-4.365 9.75-9.75 9.751-5.386 0-9.753-4.366-9.753-9.751s4.368-9.75 9.753-9.75" }), _jsx("path", { fill: "currentColor", d: "M21.126 2.125a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0v-2.69l-6.22 5.22a.75.75 0 1 1-1.06-1.06l6.22-5.22h-2.69a.75.75 0 0 1 0-1.5z" })] });
+export default LinkCircle02Stroke;

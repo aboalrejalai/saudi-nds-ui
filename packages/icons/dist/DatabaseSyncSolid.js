@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const DatabaseSyncSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M18.554 2.25a1.35 1.35 0 0 1 1.293.962l2.903 9.677V20.4a1.35 1.35 0 0 1-1.35 1.35H2.6a1.35 1.35 0 0 1-1.35-1.35v-7.51l2.903-9.678a1.35 1.35 0 0 1 1.293-.962zm-15.546 10h17.984l-2.55-8.5H5.558zm2.444 4.247A.75.75 0 0 1 6.567 17.5l-.01.01a.75.75 0 0 1-1.115-1.002zm5.06-.056a.75.75 0 0 0-1.06.056l-.01.012a.75.75 0 0 0 1.116 1.003l.01-.011a.75.75 0 0 0-.056-1.06", clipRule: "evenodd" }) });
+export default DatabaseSyncSolid;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const FileCorruptSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "m20.36 4.8-3.15-3.15c-.25-.25-.6-.4-.96-.4H4.6c-.74.01-1.35.61-1.35 1.35v18.81c0 .74.61 1.34 1.35 1.34h5.49l2.11-2.72-1.63-2.04a.75.75 0 0 1 0-.94l1.64-2.04-.7-.94a.75.75 0 0 1 1.2-.9l1.05 1.4c.2.27.2.65-.01.92l-1.63 2.03 1.63 2.03c.21.27.21.66 0 .93l-1.76 2.27h7.41c.75 0 1.35-.6 1.35-1.34V5.75c0-.35-.14-.7-.39-.95m-3.61.45V3.32l1.94 1.93z", clipRule: "evenodd" }) });
+export default FileCorruptSolid;

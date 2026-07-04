@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const PaintBoardSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M2 12.002c0-5.523 4.477-10 10-10s10 4.477 10 10c0 .735-.608 1.274-1.288 1.274h-3.698a3.004 3.004 0 0 0-2.128 5.125c.54.54.74 1.285.59 1.955a1.87 1.87 0 0 1-1.483 1.447c-.645.13-1.311.2-1.993.2-5.523 0-10-4.478-10-10m8.572-4.062a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5m5.325 1.41a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5M7.935 10.6a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0m.18 6.548a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5" }) });
+export default PaintBoardSolid;

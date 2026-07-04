@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const VolumeUpSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M10.655 4.954c1.393-1.238 3.595-.25 3.595 1.615v10.866c0 1.864-2.202 2.853-3.595 1.615l-3.069-2.728H5.61a2.16 2.16 0 0 1-2.16-2.16v-4.32a2.16 2.16 0 0 1 2.16-2.16h1.976zM17.675 10.632a.75.75 0 0 1 1.5 0v.875h.875a.75.75 0 0 1 0 1.5h-.875v.875a.75.75 0 1 1-1.5 0v-.875H16.8a.75.75 0 0 1 0-1.5h.875z" }) });
+export default VolumeUpSolid;

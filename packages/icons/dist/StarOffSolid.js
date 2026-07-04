@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const StarOffSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M3.28 2.22a.75.75 0 0 0-1.06 1.06l5.237 5.237-4.719.686a.75.75 0 0 0-.415 1.28l4.294 4.185-1.014 5.912a.75.75 0 0 0 1.089.79L12 18.58l5.309 2.79a.75.75 0 0 0 1.088-.79l-.232-1.355 2.554 2.555a.75.75 0 0 0 1.06-1.06zM21.678 10.482l-4.106 4.002-7.988-7.988 1.744-3.533a.75.75 0 0 1 1.345 0l2.654 5.378 5.935.862a.75.75 0 0 1 .416 1.28" }) });
+export default StarOffSolid;

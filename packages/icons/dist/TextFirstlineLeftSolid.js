@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const TextFirstlineLeftSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M20 6a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1z" }), _jsx("path", { fill: "currentColor", d: "M19 6v4h-4V6zm-6 4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2zM4 6a1 1 0 0 0 0 2h6a1 1 0 1 0 0-2zM4 10a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2zM4 14a1 1 0 1 0 0 2h16a1 1 0 1 0 0-2zM4 18a1 1 0 1 0 0 2h16a1 1 0 1 0 0-2z" })] });
+export default TextFirstlineLeftSolid;

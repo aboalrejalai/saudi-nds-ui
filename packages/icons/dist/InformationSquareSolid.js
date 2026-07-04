@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const InformationSquareSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.4 2.25c.745 0 1.35.604 1.35 1.35v16.8a1.35 1.35 0 0 1-1.35 1.35H3.6a1.35 1.35 0 0 1-1.35-1.35V3.6c0-.746.604-1.35 1.35-1.35zm-8.4 8.5a.75.75 0 0 0-.75.75v5a.75.75 0 1 0 1.5 0v-5a.75.75 0 0 0-.75-.75m.511-3.808a.75.75 0 0 0-1.06.056l-.009.011a.75.75 0 0 0 1.115 1.003l.01-.01a.75.75 0 0 0-.056-1.06", clipRule: "evenodd" }) });
+export default InformationSquareSolid;

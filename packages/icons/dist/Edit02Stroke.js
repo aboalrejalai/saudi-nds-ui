@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Edit02Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.318 8.985a2.75 2.75 0 0 0 0-3.889l-1.414-1.414a2.75 2.75 0 0 0-3.89 0L3.92 14.778a2.75 2.75 0 0 0-.795 1.702l-.242 2.74a1.75 1.75 0 0 0 1.897 1.898l2.74-.242a2.75 2.75 0 0 0 1.703-.795zm-1.06-2.828a1.25 1.25 0 0 1 0 1.768l-.95.95-3.182-3.183.95-.95a1.25 1.25 0 0 1 1.767 0zm-5.193.596 3.182 3.182L8.16 19.02a1.25 1.25 0 0 1-.773.361l-2.74.243a.25.25 0 0 1-.272-.271l.242-2.74a1.25 1.25 0 0 1 .361-.775z", clipRule: "evenodd" }) });
+export default Edit02Stroke;

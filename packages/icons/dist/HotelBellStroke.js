@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const HotelBellStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 4.5a2.25 2.25 0 0 0-2.023 3.235A8.75 8.75 0 0 0 3.25 16.25V18h-.5a.75.75 0 0 0 0 1.5h18.5a.75.75 0 0 0 0-1.5h-.5v-1.75a8.754 8.754 0 0 0-6.727-8.515A2.25 2.25 0 0 0 12 4.5m0 3A.75.75 0 1 0 12 6a.75.75 0 0 0 0 1.5M12 9a7.25 7.25 0 0 0-7.25 7.25V18h14.5v-1.75A7.25 7.25 0 0 0 12 9", clipRule: "evenodd" }) });
+export default HotelBellStroke;

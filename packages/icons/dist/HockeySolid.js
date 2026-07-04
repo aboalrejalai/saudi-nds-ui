@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const HockeySolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.749 1.5c-.89-.49-2.04-.24-2.62.62L7.989 17.25c-.15.23-.5.32-.77.17-.11-.06-.16-.11-.18-.15-.03-.03-.04-.07-.05-.14-.02-.16.03-.39.15-.71.41-1.04-.04-2.18-1-2.71-1.33-.73-2.61 0-3.21.99-.79 1.3-.84 2.85-.41 4.21.42 1.35 1.35 2.58 2.6 3.27 1.37.75 2.89.7 4.2.18 1.32-.52 2.47-1.53 3.19-2.76l8.99-15.5c.54-.94.18-2.09-.75-2.6m-7.56 13.94-1.53-.98.7-1.05 1.46.93zm3.13-5.41-1.19-.76.89-1.32 1.05.79z", clipRule: "evenodd" }) });
+export default HockeySolid;

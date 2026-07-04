@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Bathtub01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M17 2.25A4.75 4.75 0 0 1 21.75 7v9a4.75 4.75 0 0 1-4.54 4.744l.46.921a.75.75 0 0 1-1.34.67l-.794-1.585H8.464l-.793 1.585a.75.75 0 0 1-1.342-.67l.46-.92A4.75 4.75 0 0 1 2.25 16v-2.4c0-.746.604-1.35 1.35-1.35h16.65V7A3.25 3.25 0 0 0 17 3.75h-1.666q.225.269.404.559c.667 1.074.89 2.305.967 3.011.09.818-.573 1.43-1.306 1.43H8.6c-.731 0-1.394-.612-1.304-1.43.078-.706.3-1.937.966-3.011C8.952 3.193 10.128 2.25 12 2.25z" }) });
+export default Bathtub01Solid;

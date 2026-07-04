@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const LinerSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M21.56 3.502a.75.75 0 0 1-.062 1.059l-18 16a.75.75 0 1 1-.996-1.122l18-16a.75.75 0 0 1 1.058.063", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M20.17 3.066a1.25 1.25 0 0 1 1.66 1.869l-18 16a1.25 1.25 0 0 1-1.66-1.87zm1.016.768a.25.25 0 0 0-.352-.02l-18 16a.25.25 0 1 0 .332.373l18-16a.25.25 0 0 0 .02-.353" })] });
+export default LinerSolid;

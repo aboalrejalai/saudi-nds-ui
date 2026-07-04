@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Backward02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M22.795 6.188c0-1.107-1.26-1.743-2.151-1.086l-7.889 5.812a1.35 1.35 0 0 0 0 2.174l7.889 5.812c.891.657 2.15.02 2.15-1.086zM11.795 6.188c0-1.107-1.26-1.743-2.151-1.086l-7.889 5.812a1.35 1.35 0 0 0 0 2.174L9.644 18.9c.891.657 2.15.02 2.15-1.086z", clipRule: "evenodd" }) });
+export default Backward02Solid;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const LabelImportantStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.25 7c0-.69-.56-1.25-1.25-1.25H4.374l3.062 4.763a2.75 2.75 0 0 1 0 2.974L4.374 18.25H19c.69 0 1.25-.56 1.25-1.25zM19 4.25A2.75 2.75 0 0 1 21.75 7v10A2.75 2.75 0 0 1 19 19.75H3a.75.75 0 0 1-.63-1.156l3.804-5.918a1.25 1.25 0 0 0 0-1.352L2.369 5.406A.75.75 0 0 1 3 4.25z", clipRule: "evenodd" }) });
+export default LabelImportantStroke;

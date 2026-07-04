@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const GreaterThanSquareSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.4 2.25H3.6c-.74 0-1.35.61-1.35 1.35v16.8c0 .75.61 1.35 1.35 1.35h16.8c.75 0 1.35-.6 1.35-1.35V3.6c0-.74-.6-1.35-1.35-1.35m-5.95 10.63c-.16.23-.38.45-.61.66l-3.33 3.02c-.31.28-.79.25-1.06-.05a.746.746 0 0 1 .05-1.06l3.33-3.02c.21-.19.33-.32.39-.41v-.03c-.06-.09-.18-.22-.39-.41L9.5 8.56a.746.746 0 0 1-.05-1.06c.27-.31.75-.33 1.06-.05l3.33 3.02c.23.21.45.43.61.66s.3.52.3.87-.14.65-.3.88", clipRule: "evenodd" }) });
+export default GreaterThanSquareSolid;

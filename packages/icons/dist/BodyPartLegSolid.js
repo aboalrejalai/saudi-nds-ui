@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const BodyPartLegSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M11.215 21.042c-.473-1.854-.466-1.554-.6-2.312a17 17 0 0 1-.25-2.15 20 20 0 0 1 .1-3.313 39 39 0 0 1-1.262-.312 13 13 0 0 1-1.525-.513 16 16 0 0 1-1.663-.787c-.566-.309-.2-.113-1.675-1.113-.716-.485-.849-1.206-.599-1.677l4.952-6.72c.307-.41.967-.578 1.722-.078 1.55 1.025 6.425 2.925 6.425 2.925a5.9 5.9 0 0 1 2.563 2.2q.962 1.475.962 3.275s.034 9.082 0 10.575c-.016.728-.483 1.119-.962 1.146l-7.05.044c-.462-.062-.941-.42-1.138-1.19" }) });
+export default BodyPartLegSolid;

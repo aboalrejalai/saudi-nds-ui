@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const KeyframeAlignHorizontalStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.963 6.073a1.35 1.35 0 0 1 2.074 0l4.22 5.062a1.35 1.35 0 0 1 0 1.729l-4.22 5.063a1.35 1.35 0 0 1-2.074 0l-4.219-5.063a1.35 1.35 0 0 1 0-1.729zm-2.986 5.926L12 16.83l4.024-4.83L12 7.171z", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M4 11.25a.75.75 0 0 1 0 1.5H2a.75.75 0 1 1 0-1.5zM22 11.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 1 1 0-1.5z" })] });
+export default KeyframeAlignHorizontalStroke;

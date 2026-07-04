@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const MathStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M20.5 1.75a.75.75 0 0 1 .75.75v19a.75.75 0 0 1-.75.75h-17a.75.75 0 0 1-.75-.75v-19a.75.75 0 0 1 .75-.75zm-16.25 19h15.5v-10H4.25zm4.026-2H6.25v-1.5h2.026zm4.737 0h-2.026v-1.5h2.026zm4.737 0h-2.026v-1.5h2.026zm-9.474-4H6.25v-1.5h2.026zm4.737 0h-2.026v-1.5h2.026zm4.737 0h-2.026v-1.5h2.026zm-13.5-5.5h15.5v-6H4.25zm13.5-2.5h-3.5v-1.5h3.5z" }) });
+export default MathStroke;

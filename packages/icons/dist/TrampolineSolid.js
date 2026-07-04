@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const TrampolineSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M23.846 9.26v5.23a.749.749 0 1 1-1.5 0V10.8l-4.24 2.7s-.11.06-.17.07v4.72a.749.749 0 1 1-1.5 0v-4.64h-8.82v4.64a.749.749 0 1 1-1.5 0V13.6c-.08-.02-.15-.06-.22-.1h-.01l-4.23-2.7v3.69a.749.749 0 1 1-1.5 0V9.26c0-.12.03-.23.08-.33.07-.18.2-.34.37-.46l5.28-3.36c.16-.1.35-.15.53-.15h11.16c.19 0 .37.05.53.15l5.28 3.36c.18.12.31.28.38.46.05.1.08.21.08.33", clipRule: "evenodd" }) });
+export default TrampolineSolid;

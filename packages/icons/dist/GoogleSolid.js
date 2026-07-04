@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const GoogleSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M15.75 2.25a6 6 0 0 1 6 6v7.5a6 6 0 0 1-6 6h-7.5a6 6 0 0 1-6-6v-7.5a6 6 0 0 1 6-6zm-3.64 4c-3.222 0-5.86 2.56-5.86 5.75s2.638 5.75 5.86 5.75c1.941 0 3.34-.73 4.261-1.797.9-1.044 1.299-2.356 1.377-3.484l.056-.802H12.84v1.5h3.288c-.153.642-.442 1.283-.894 1.807-.622.72-1.599 1.276-3.126 1.276-2.423 0-4.359-1.918-4.359-4.25s1.936-4.25 4.36-4.25c1.134 0 2.165.422 2.938 1.112l.999-1.118a5.9 5.9 0 0 0-3.938-1.494", clipRule: "evenodd" }) });
+export default GoogleSolid;

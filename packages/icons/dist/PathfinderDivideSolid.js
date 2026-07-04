@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const PathfinderDivideSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M5.38 8.412A1.38 1.38 0 0 0 4 9.792v8.827a1.38 1.38 0 0 0 1.38 1.379h8.827a1.38 1.38 0 0 0 1.38-1.38V17.24H9.792a3.035 3.035 0 0 1-3.034-3.034V8.412zm4.413-4.414a1.38 1.38 0 0 0-1.38 1.38v1.379h5.794A3.034 3.034 0 0 1 17.24 9.79v5.793h1.38A1.38 1.38 0 0 0 20 14.204V5.378a1.38 1.38 0 0 0-1.38-1.379zm-1.38 10.207a1.38 1.38 0 0 0 1.38 1.38h5.793V9.79a1.38 1.38 0 0 0-1.38-1.38H8.415z", clipRule: "evenodd" }) });
+export default PathfinderDivideSolid;

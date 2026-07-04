@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const TextIndent01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M18.5 5a1 1 0 1 1 0 2h-7a1 1 0 1 1 0-2zM20.5 9a1 1 0 1 1 0 2h-9a1 1 0 1 1 0-2zM18.5 17a1 1 0 1 1 0 2h-7a1 1 0 1 1 0-2zM17.5 13a1 1 0 1 1 0 2h-6a1 1 0 1 1 0-2zM5.519 7.123a1 1 0 0 1 1.106.096l2.5 2a1 1 0 0 1-1.25 1.562L6 9.281l-1.875 1.5a1 1 0 0 1-1.25-1.562l2.5-2zM7.875 13.219a1 1 0 0 1 1.25 1.562l-2.5 2a1 1 0 0 1-1.25 0l-2.5-2a1 1 0 0 1 1.25-1.562L6 14.719z" }) });
+export default TextIndent01Solid;

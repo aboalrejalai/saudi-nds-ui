@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const EnergyRectangleSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M19.69 1.75H4.32a2.57 2.57 0 0 0-2.57 2.57v15.37c0 1.41 1.15 2.56 2.57 2.56h15.37c1.41 0 2.56-1.15 2.56-2.56V4.32c0-1.42-1.15-2.57-2.56-2.57m-2.24 9.23-5.62 7.72a.645.645 0 0 1-.72.24.66.66 0 0 1-.46-.62v-4.26H7.09c-.24 0-.46-.14-.58-.36a.6.6 0 0 1-.07-.29c0-.14.04-.27.13-.39l5.61-7.72c.17-.23.46-.32.73-.24.27.09.45.34.45.62v4.27h3.56c.25 0 .47.13.58.35s.09.48-.05.68" }) });
+export default EnergyRectangleSolid;

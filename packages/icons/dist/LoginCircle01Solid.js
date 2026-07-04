@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const LoginCircle01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.25c5.94 0 10.75 4.813 10.75 10.75S17.94 22.75 12 22.75 1.25 17.937 1.25 12 6.06 1.25 12 1.25m-1.13 7.215a.54.54 0 0 0-.42.16l-3.021 2.9c-.23.24-.24.61-.02.84l2.9 3.02q.18.18.42.18c.16 0 .31-.05.42-.16a.587.587 0 0 0 .02-.85l-1.8-1.88h6.47a.67.67 0 0 0 0-1.34h-6.5l1.94-1.87c.12-.12.18-.27.18-.43a.6.6 0 0 0-.16-.41.58.58 0 0 0-.42-.18z", clipRule: "evenodd" }) });
+export default LoginCircle01Solid;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
 import { cn } from '@/lib/utils';
-import { ArrowUp01Stroke, ArrowDown01Stroke, MinusSignStroke } from '@/components/icons';
+import { ArrowUp01Stroke, ArrowDown01Stroke, MinusSignStroke } from '@aboalrejal/nds-icons';
 
 const statVariants = cva('flex flex-col gap-1 p-6 rounded-xl', {
   variants: {

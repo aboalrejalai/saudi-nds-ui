@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const BlendStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M20.25 9.5a5.75 5.75 0 1 0-11.498.001A5.75 5.75 0 0 0 20.25 9.5m1.5 0a7.251 7.251 0 1 1-14.502.001A7.251 7.251 0 0 1 21.75 9.5" }), _jsx("path", { fill: "currentColor", d: "M15.25 14.5a5.749 5.749 0 1 0-11.498.001A5.749 5.749 0 0 0 15.25 14.5m1.5 0a7.251 7.251 0 1 1-14.502.001A7.251 7.251 0 0 1 16.75 14.5" })] });
+export default BlendStroke;

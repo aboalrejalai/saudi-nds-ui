@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const SlidersVerticalSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M3.6 15.278c0-1.377.945-2.533 2.221-2.854V4.32a.72.72 0 0 1 1.44 0v8.104a2.944 2.944 0 0 1 0 5.707v1.549a.72.72 0 0 1-1.44 0V18.13A2.94 2.94 0 0 1 3.6 15.278M12.72 11.593v8.087a.72.72 0 0 1-1.44 0v-8.087a2.944 2.944 0 0 1 0-5.708V4.32a.72.72 0 1 1 1.44 0v1.565a2.944 2.944 0 0 1 0 5.708M16.736 11.73a2.944 2.944 0 0 0 0 5.707v2.243a.72.72 0 0 0 1.44 0v-2.242a2.943 2.943 0 0 0 0-5.708V4.32a.72.72 0 0 0-1.44 0z" }) });
+export default SlidersVerticalSolid;

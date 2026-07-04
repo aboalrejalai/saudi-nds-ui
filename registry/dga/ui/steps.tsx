@@ -3,7 +3,7 @@
 import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
-import { CheckmarkBadge01Solid } from "@/components/icons"
+import { CheckmarkBadge01Solid } from "@aboalrejal/nds-icons"
 
 const stepsVariants = cva("flex w-full", {
   variants: {

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const ArrowHorizontalStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M18.266 8.972c.29-.29.76-.29 1.05 0l2.47 2.511c.29.29.289.77-.001 1.06l-2.491 2.49c-.29.29-.76.29-1.05 0a.754.754 0 0 1 0-1.06l1.21-1.22-14.93-.006 1.2 1.22c.29.29.29.77 0 1.06s-.76.29-1.05 0l-2.46-2.51a.754.754 0 0 1 .001-1.06l2.481-2.49c.29-.29.76-.29 1.05 0s.29.77 0 1.06l-1.21 1.22 14.94.006-1.2-1.22a.755.755 0 0 1 0-1.06z" }) });
+export default ArrowHorizontalStroke;

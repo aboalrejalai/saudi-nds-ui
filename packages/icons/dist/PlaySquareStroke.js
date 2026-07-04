@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const PlaySquareStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M8.25 9.033a1.35 1.35 0 0 1 2.02-1.172l5.19 2.966a1.35 1.35 0 0 1 0 2.345l-5.19 2.966a1.35 1.35 0 0 1-2.02-1.172zm1.5 5.674L14.488 12 9.75 9.292z", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.4 2.25c.746 0 1.35.604 1.35 1.35v16.8a1.35 1.35 0 0 1-1.35 1.35H3.6a1.35 1.35 0 0 1-1.35-1.35V3.6c0-.746.604-1.35 1.35-1.35zm-16.65 18h16.5V3.75H3.75z", clipRule: "evenodd" })] });
+export default PlaySquareStroke;

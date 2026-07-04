@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const AlertSquareSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.4 2.25c.745 0 1.35.604 1.35 1.35v16.8a1.35 1.35 0 0 1-1.35 1.35H3.6a1.35 1.35 0 0 1-1.35-1.35V3.6c0-.746.604-1.35 1.35-1.35zm-7.888 14.19a.75.75 0 0 0-1.06.057l-.01.011a.75.75 0 1 0 1.115 1.003l.01-.01a.75.75 0 0 0-.056-1.06M12 6.25a.75.75 0 0 0-.75.75v6a.75.75 0 1 0 1.5 0V7a.75.75 0 0 0-.75-.75", clipRule: "evenodd" }) });
+export default AlertSquareSolid;

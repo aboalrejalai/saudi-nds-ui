@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const LookRightSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75c4.385 0 8.159-2.626 9.83-6.392h-4.02a.872.872 0 1 1 0-1.743h4.62c.209-.836.32-1.712.32-2.615 0-5.937-4.813-10.75-10.75-10.75m5.52 6.682a1.453 1.453 0 1 0-2.905 0 1.453 1.453 0 0 0 2.905 0", clipRule: "evenodd" }) });
+export default LookRightSolid;

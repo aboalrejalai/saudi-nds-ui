@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const ComputerStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M6.25 3.25A2.25 2.25 0 0 0 4 5.5v8.174q-.194.267-.307.59l-1.212 3.5a2.25 2.25 0 0 0 2.126 2.986h14.787a2.25 2.25 0 0 0 2.126-2.986l-1.211-3.5a2.3 2.3 0 0 0-.308-.59V5.5a2.25 2.25 0 0 0-2.25-2.25zm11.933 11H5.819a.75.75 0 0 0-.709.505l-1.211 3.5a.75.75 0 0 0 .708.995h14.787a.75.75 0 0 0 .709-.995l-1.212-3.5a.75.75 0 0 0-.708-.505m.318-1.5V5.5a.75.75 0 0 0-.75-.75H6.25a.75.75 0 0 0-.75.75v7.25z", clipRule: "evenodd" }) });
+export default ComputerStroke;

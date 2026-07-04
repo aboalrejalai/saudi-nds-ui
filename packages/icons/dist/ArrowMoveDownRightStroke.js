@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const ArrowMoveDownRightStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M7 4a.75.75 0 0 1 .75.75v7A3.25 3.25 0 0 0 11 15h4.19l-2.22-2.22a.75.75 0 1 1 1.06-1.06l3.5 3.5a.8.8 0 0 1 .118.16q.025.04.044.083a.75.75 0 0 1 0 .573q-.019.044-.044.083a.7.7 0 0 1-.118.161l-3.5 3.5a.75.75 0 1 1-1.06-1.06l2.22-2.22H11a4.75 4.75 0 0 1-4.75-4.75v-7A.75.75 0 0 1 7 4" }) });
+export default ArrowMoveDownRightStroke;

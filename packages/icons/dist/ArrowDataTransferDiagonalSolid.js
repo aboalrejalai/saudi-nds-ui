@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const ArrowDataTransferDiagonalSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M16.525 3.484a.75.75 0 1 0-1.054-1.067l-9.387 9.225-2.788-2.82a.75.75 0 0 0-1.2.595l-.04 6.5a.75.75 0 0 0 .745.755l6.5.04a.75.75 0 0 0 .596-1.212l-2.759-2.79z" }), _jsx("path", { fill: "currentColor", d: "M8.716 21.576a.75.75 0 1 1-1.067-1.054l9.223-9.386-2.758-2.719a.75.75 0 0 1 .535-1.27l6.5-.04a.75.75 0 0 1 .754.745l.04 6.5a.75.75 0 0 1-1.186.614L17.94 12.19z" })] });
+export default ArrowDataTransferDiagonalSolid;

@@ -3,7 +3,7 @@
 import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
-import { CookieSolid, Cancel01Stroke } from "@/components/icons"
+import { CookieSolid, Cancel01Stroke } from "@aboalrejal/nds-icons"
 import { Button } from "@/registry/dga/ui/button"
 
 const cookiesPopupVariants = cva(

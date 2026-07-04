@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import { format } from "date-fns"
-import { Calendar01Stroke as CalendarIcon } from "@/components/icons"
+import { Calendar01Stroke as CalendarIcon } from "@aboalrejal/nds-icons"
 import { DateRange } from "react-day-picker"
 
 import { cn } from "@/lib/utils"

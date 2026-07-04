@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Mouse06Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.998 1.252a8.75 8.75 0 0 1 8.75 8.75v4a8.75 8.75 0 0 1-17.5 0v-5a7.75 7.75 0 0 1 7.75-7.75zm.75 7.15a1.35 1.35 0 0 1-1.35 1.35h-6.65v4.25a7.25 7.25 0 0 0 14.5 0v-4a7.25 7.25 0 0 0-6.5-7.212zm-1.75-5.65a6.25 6.25 0 0 0-6.203 5.5h6.453v-5.5z", clipRule: "evenodd" }) });
+export default Mouse06Stroke;

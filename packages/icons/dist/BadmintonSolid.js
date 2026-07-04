@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const BadmintonSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M21.335 10.521c-.243.357-.632.88-1.215 1.368a4.3 4.3 0 0 1-2.903 1.082c-1.13 0-2.077-.44-2.757-.904l-4.58 4.484c.06.38-.024.773-.267 1.106L6.49 21.974c-.875 1.213-2.648 1.38-3.741.345a2.377 2.377 0 0 1 .291-3.699l4.41-3.068c.34-.238.753-.321 1.141-.262l4.531-4.448c-.74-.927-1.117-1.986-1.117-3.08 0-1.046.413-2.616 2.247-4.091 1.907-1.51 5.624-2.569 7.653-.583 2.077 2.034.802 5.554-.571 7.433", clipRule: "evenodd" }) });
+export default BadmintonSolid;

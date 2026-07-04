@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const ImageNotFound02Solid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M1.47 1.47a.75.75 0 0 1 1.06 0l20 20a.75.75 0 1 1-1.06 1.06l-20-20a.75.75 0 0 1 0-1.06M14.88 16.648l-2.443-.856L2.9 17.34v2.909h15.582l1.5 1.5H2.75A1.35 1.35 0 0 1 1.4 20.4V3.25z" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.4 1.25c.746 0 1.35.604 1.35 1.35v17.382L3.25 1.25zM18.15 8.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5", clipRule: "evenodd" })] });
+export default ImageNotFound02Solid;

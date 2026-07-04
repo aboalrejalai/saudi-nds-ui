@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const CoinsDollarStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "#111821", d: "M6.001 17.64a1.8 1.8 0 0 1 .272-1.027l4.128-.891v-2.733l-3.721.775q0-.271.077-.543.098-.291.213-.465l3.431-.717-.019-5.874q.349-.524.834-.717v6.416l2.306-.484-.02-5.486q.33-.523.834-.756v6.067l3.645-.814q0 .64-.272 1.027l-3.373.718v2.403L18 13.745q-.04.698-.29 1.046l-4.188.873V12.31l-2.306.504v2.636q0 .135-.078.272l-.562.717a.62.62 0 0 1-.368.252zm7.58 1.222q0-.29.058-.562.077-.292.193-.465l4.09-.873q0 .291-.077.582a1.3 1.3 0 0 1-.174.465z" }) });
+export default CoinsDollarStroke;

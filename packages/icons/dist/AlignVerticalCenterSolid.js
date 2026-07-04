@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const AlignVerticalCenterSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M14.5 4.75a1.75 1.75 0 0 0-1.75 1.75v4.75h-1.5V8.608a1.75 1.75 0 0 0-1.75-1.75h-1a1.75 1.75 0 0 0-1.75 1.75v2.642H4a.75.75 0 0 0 0 1.5h2.75v2.642c0 .967.784 1.75 1.75 1.75h1a1.75 1.75 0 0 0 1.75-1.75V12.75h1.5v4.75c0 .966.784 1.75 1.75 1.75h1a1.75 1.75 0 0 0 1.75-1.75v-4.75H20a.75.75 0 0 0 0-1.5h-2.75V6.5a1.75 1.75 0 0 0-1.75-1.75z" }) });
+export default AlignVerticalCenterSolid;

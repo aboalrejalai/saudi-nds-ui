@@ -4,7 +4,7 @@ import React, { useRef, useState } from "react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/registry/dga/ui/button"
 import { Progress } from "@/registry/dga/ui/progress"
-import { Upload01Stroke, CheckmarkBadge01Solid, Alert01Solid, Cancel01Stroke } from "@/components/icons"
+import { Upload01Stroke, CheckmarkBadge01Solid, Alert01Solid, Cancel01Stroke } from "@aboalrejal/nds-icons"
 
 type FileStatus = "pending" | "uploading" | "success" | "error"
 type RejectionCode = "file-too-large" | "file-invalid-type" | "too-many-files"

@@ -15,7 +15,7 @@ import {
   QuotesStroke,
   UndoStroke,
   RedoStroke,
-} from "@/components/icons"
+} from "@aboalrejal/nds-icons"
 
 export interface RichTextEditorProps {
   value: string

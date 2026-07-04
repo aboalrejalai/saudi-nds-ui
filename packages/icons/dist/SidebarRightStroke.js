@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const SidebarRightStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M5 2.25A2.75 2.75 0 0 0 2.25 5v14A2.75 2.75 0 0 0 5 21.75h14A2.75 2.75 0 0 0 21.75 19V5A2.75 2.75 0 0 0 19 2.25zm14 1.5c.69 0 1.25.56 1.25 1.25v14c0 .69-.56 1.25-1.25 1.25h-3.75V3.75zm-5.25 16.5H5c-.69 0-1.25-.56-1.25-1.25V5c0-.69.56-1.25 1.25-1.25h8.75z", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M16.5 6a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zM16.5 8a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z" })] });
+export default SidebarRightStroke;

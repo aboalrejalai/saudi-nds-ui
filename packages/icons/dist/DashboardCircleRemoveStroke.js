@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const DashboardCircleRemoveStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M10 6.5A3.5 3.5 0 1 0 6.5 10v1.5a5 5 0 1 1 0-10 5 5 0 0 1 0 10V10A3.5 3.5 0 0 0 10 6.5M10 17.5A3.5 3.5 0 1 0 6.5 21v1.5a5 5 0 1 1 0-10 5 5 0 0 1 0 10V21a3.5 3.5 0 0 0 3.5-3.5M21 6.5a3.5 3.5 0 1 0-3.5 3.5v1.5a5 5 0 1 1 0-10 5 5 0 0 1 0 10V10A3.5 3.5 0 0 0 21 6.5M21.25 17.5a.75.75 0 0 1 0 1.5h-6a.75.75 0 0 1 0-1.5z" }) });
+export default DashboardCircleRemoveStroke;

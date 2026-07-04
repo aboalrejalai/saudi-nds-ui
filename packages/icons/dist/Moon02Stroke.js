@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Moon02Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M8.67 2.362A.75.75 0 0 1 9.023 3c0 4.14 1.026 7.095 2.953 9.023 1.928 1.927 4.884 2.953 9.023 2.953a.75.75 0 0 1 .672 1.084 10.24 10.24 0 0 1-9.179 5.69c-5.657 0-10.243-4.586-10.243-10.243 0-4.023 2.32-7.503 5.69-9.179a.75.75 0 0 1 .73.034M7.556 4.29a8.743 8.743 0 1 0 12.154 12.154c-3.753-.197-6.717-1.283-8.794-3.36S7.755 8.042 7.557 4.29", clipRule: "evenodd" }) });
+export default Moon02Stroke;

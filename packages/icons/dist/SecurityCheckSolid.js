@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const SecurityCheckSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M11.143 2.33a2.25 2.25 0 0 1 1.721 0l6.55 2.712c.775.322 1.337 1.064 1.36 1.947.117 4.545-1.34 10.806-7.703 14.557a2.12 2.12 0 0 1-2.132.011C4.436 17.804 3.098 11.526 3.231 6.986a2.18 2.18 0 0 1 1.363-1.944zm4.094 6.922a.75.75 0 0 0-1.06 0l-3.482 3.482-1.41-1.411a.75.75 0 0 0-1.061 1.06l1.941 1.943a.75.75 0 0 0 1.06 0l4.012-4.013a.75.75 0 0 0 0-1.06" }) });
+export default SecurityCheckSolid;

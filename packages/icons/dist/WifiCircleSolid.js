@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const WifiCircleSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M19.755 10.535c-4.284-4.284-11.23-4.284-15.513 0a1.08 1.08 0 1 1-1.527-1.527c5.127-5.128 13.44-5.128 18.567 0a1.08 1.08 0 1 1-1.527 1.527m-2.458 2.67a7.493 7.493 0 0 0-10.597 0 1.08 1.08 0 0 1-1.528-1.528c3.77-3.77 9.882-3.77 13.652 0a1.08 1.08 0 0 1-1.527 1.528m-2.615 2.511a4.02 4.02 0 0 0-5.367 0 1.08 1.08 0 0 1-1.444-1.606 6.18 6.18 0 0 1 8.255 0 1.08 1.08 0 0 1-1.444 1.606M10.68 17.52a1.32 1.32 0 1 1 2.64 0 1.32 1.32 0 0 1-2.64 0" }) });
+export default WifiCircleSolid;

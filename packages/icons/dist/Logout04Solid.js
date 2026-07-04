@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const Logout04Solid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M22 13c0 5.51-4.48 10-10 10S2 18.51 2 13c0-3.36 1.67-6.47 4.47-8.33.22-.15.49-.2.75-.15s.49.2.64.43c.15.22.2.49.15.75-.06.26-.21.48-.43.63A8 8 0 0 0 4 13c0 4.41 3.59 8 8 8s8-3.59 8-8c0-2.69-1.33-5.18-3.57-6.67A.96.96 0 0 1 16 5.7c-.05-.26 0-.53.15-.75.14-.23.37-.38.63-.43s.53 0 .75.15A9.97 9.97 0 0 1 22 13" }), _jsx("path", { fill: "currentColor", d: "M13 2v11.37c0 .56-.45 1-1 1s-1-.44-1-1V2c0-.55.45-1 1-1s1 .45 1 1" })] });
+export default Logout04Solid;

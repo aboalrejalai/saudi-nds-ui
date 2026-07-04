@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const BookBookmark02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.4 2.375a1.35 1.35 0 0 1 1.35 1.35v13.467h-.003a.75.75 0 0 1-.747.683H6a1.25 1.25 0 0 0 0 2.5h14a.75.75 0 0 1 0 1.5H6a2.75 2.75 0 0 1-2.75-2.75v-14A2.75 2.75 0 0 1 6 2.375zm-11.4 2a.75.75 0 0 0-.75.75v6a.75.75 0 0 0 1.154.632l2.096-1.342 2.096 1.342a.75.75 0 0 0 1.154-.632v-6a.75.75 0 0 0-.75-.75z", clipRule: "evenodd" }) });
+export default BookBookmark02Solid;

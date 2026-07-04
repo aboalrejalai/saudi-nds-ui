@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const CheckmarkCircle04Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.969 1.25c5.937 0 10.75 4.813 10.75 10.75s-4.813 10.75-10.75 10.75S1.219 17.937 1.219 12 6.032 1.25 11.969 1.25m5.53 6.72a.75.75 0 0 0-1.06 0l-6.47 6.47-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0 0-1.06", clipRule: "evenodd" }) });
+export default CheckmarkCircle04Solid;

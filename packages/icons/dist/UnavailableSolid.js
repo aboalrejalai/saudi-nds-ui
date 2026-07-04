@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const UnavailableSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M17.078 20.616A9.95 9.95 0 0 1 12 22C6.477 22 2 17.523 2 12c0-1.854.505-3.59 1.384-5.078zM3.294 3.294a1 1 0 0 1 1.416 0L20.707 19.29q.034.035.064.071l.004.005a1 1 0 0 1 .06 1.184l-.007.01q-.052.078-.121.147a1 1 0 0 1-1.417 0L3.294 4.71a1 1 0 0 1 0-1.416M12 2c5.523 0 10 4.477 10 10 0 1.854-.505 3.59-1.384 5.078L6.922 3.384A9.95 9.95 0 0 1 12 2" }) });
+export default UnavailableSolid;

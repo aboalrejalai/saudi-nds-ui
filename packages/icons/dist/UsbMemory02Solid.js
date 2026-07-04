@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const UsbMemory02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M7.5 7.734A2.25 2.25 0 0 0 6.25 9.75v10A2.25 2.25 0 0 0 8.5 22h7a2.25 2.25 0 0 0 2.25-2.25v-10A2.25 2.25 0 0 0 15.5 7.5h-7c-.36 0-.699.084-1 .234M16.5 6.657V4.25A2.25 2.25 0 0 0 14.25 2h-4.5A2.25 2.25 0 0 0 7.5 4.25v2.407a3.3 3.3 0 0 1 1-.157h7q.526.002 1 .157m-6-2.407a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75" }) });
+export default UsbMemory02Solid;

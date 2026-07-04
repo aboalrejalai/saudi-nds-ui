@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const RightTriangleSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M4.621 3.18a1.06 1.06 0 0 0-.843-.15l-.119.036-.134.062A1 1 0 0 0 3 3.996v15.092c0 .605.521.997 1.03.998h16.474c.267 0 .543-.106.743-.31l.104.104.101-.408.096-.21-.033-.016a.98.98 0 0 0-.306-.885L4.74 3.273l-.006-.006-.007-.005-.09-.07zm13.291 14.91H5.064V6.315z", clipRule: "evenodd" }) });
+export default RightTriangleSolid;

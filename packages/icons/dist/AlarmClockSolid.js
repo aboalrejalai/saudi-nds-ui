@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const AlarmClockSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 3.25c5.385 0 9.75 4.366 9.75 9.75s-4.365 9.75-9.75 9.75S2.25 18.385 2.25 13 6.615 3.25 12 3.25m0 4a.75.75 0 0 0-.75.75v5c0 .415.336.75.75.75h5a.75.75 0 0 0 0-1.5h-4.25V8a.75.75 0 0 0-.75-.75", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M6.55 1.4a.75.75 0 0 1 .9 1.2l-2 1.5a.75.75 0 0 1-.9-1.2zM16.4 1.55a.75.75 0 0 1 1.05-.15l2 1.5a.75.75 0 0 1-.9 1.2l-2-1.5a.75.75 0 0 1-.15-1.05" })] });
+export default AlarmClockSolid;

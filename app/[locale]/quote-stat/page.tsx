@@ -5,7 +5,7 @@ import { Stat } from "@/registry/dga/ui/stat"
 import { Quote } from "@/registry/dga/ui/quote"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/registry/dga/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/registry/dga/ui/avatar"
-import { Building01Solid } from "@/components/icons"
+import { Building01Solid } from "@aboalrejal/nds-icons"
 
 export default function QuoteStatTestPage() {
   return (

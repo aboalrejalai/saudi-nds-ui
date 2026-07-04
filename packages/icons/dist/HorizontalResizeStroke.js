@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const HorizontalResizeStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M10 2.25a.75.75 0 0 1 .75.75v18a.75.75 0 0 1-1.5 0v-8.25H3.81l2.22 2.22a.75.75 0 1 1-1.06 1.06l-3.5-3.5a.75.75 0 0 1 0-1.06l3.5-3.5a.75.75 0 1 1 1.06 1.06l-2.22 2.22h5.44V3a.75.75 0 0 1 .75-.75M14 2.25a.75.75 0 0 1 .75.75v8.25h5.44l-2.22-2.22a.75.75 0 1 1 1.06-1.06l3.5 3.5a.75.75 0 0 1 0 1.06l-3.5 3.5a.75.75 0 1 1-1.06-1.06l2.22-2.22h-5.44V21a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75" }) });
+export default HorizontalResizeStroke;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const SunglassesSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2M9.23 14.688A3.53 3.53 0 0 0 12 16.025a3.53 3.53 0 0 0 2.77-1.337.75.75 0 0 1 1.173.935A5.03 5.03 0 0 1 12 17.525a5.03 5.03 0 0 1-3.943-1.902.75.75 0 1 1 1.173-.935M6.203 8.907a.75.75 0 0 1 .75-.75h10.094a.75.75 0 0 1 .75.75v1.954c0 .773-.628 1.4-1.402 1.4h-1.784a1.4 1.4 0 0 1-1.401-1.4V9.657h-2.42v1.204c0 .773-.627 1.4-1.401 1.4H7.605a1.4 1.4 0 0 1-1.402-1.4z" }) });
+export default SunglassesSolid;

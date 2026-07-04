@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const SchoolTieStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12.336 1.704a.75.75 0 0 0-.671 0l-3 1.5a.75.75 0 0 0-.336 1.007l1.398 2.795-1.47 11.272a.75.75 0 0 0 .192.606l3 3.25a.75.75 0 0 0 1.102 0l3-3.25a.75.75 0 0 0 .193-.606l-1.47-11.272L15.67 4.21a.75.75 0 0 0-.335-1.007zm.506 5.921h-1.683l-1.37 10.5L12 20.518l2.211-2.395zm.195-1.5.957-1.914L12 3.214l-1.994.997.958 1.914z", clipRule: "evenodd" }) });
+export default SchoolTieStroke;

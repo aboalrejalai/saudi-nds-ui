@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const ShieldKeySolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.14 2.331a2.25 2.25 0 0 1 1.722 0l6.55 2.713c.775.322 1.338 1.064 1.36 1.947.117 4.545-1.34 10.806-7.703 14.557a2.12 2.12 0 0 1-2.132.01c-6.503-3.753-7.841-10.03-7.708-14.57a2.18 2.18 0 0 1 1.363-1.944zm3.237 5.204c-1.259 0-2.32.845-2.647 2H7.127a.75.75 0 0 0 0 1.5h1.015v1.25a.75.75 0 0 0 1.5 0v-1.25h2.088a2.751 2.751 0 1 0 2.647-3.5", clipRule: "evenodd" }) });
+export default ShieldKeySolid;

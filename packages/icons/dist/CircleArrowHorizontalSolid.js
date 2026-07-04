@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const CircleArrowHorizontalSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "m5.813 12.527 2.12 2.122a.75.75 0 1 0 1.06-1.06l-.84-.841 7.693.004-.842.84a.75.75 0 0 0 1.06 1.062l2.123-2.12a.75.75 0 0 0 0-1.06l-2.12-2.123a.75.75 0 1 0-1.06 1.06l.84.841-7.693-.004.842-.84a.75.75 0 1 0-1.06-1.062l-2.123 2.12a.75.75 0 0 0 0 1.06M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10", clipRule: "evenodd" }) });
+export default CircleArrowHorizontalSolid;

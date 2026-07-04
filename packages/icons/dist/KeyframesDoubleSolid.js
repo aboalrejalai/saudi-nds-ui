@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const KeyframesDoubleSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "m22.376 10.17-5.32-5.99a2.75 2.75 0 0 0-4.11 0l-.95 1.07-.94-1.07a2.75 2.75 0 0 0-4.11 0l-5.33 5.99a2.77 2.77 0 0 0 0 3.66l5.33 5.99a2.75 2.75 0 0 0 4.11 0l.94-1.07.95 1.07a2.75 2.75 0 0 0 4.11 0l5.32-5.99a2.75 2.75 0 0 0 0-3.66m-1.12 2.66-5.32 5.99c-.5.56-1.37.56-1.87 0l-1.06-1.2 3.37-3.79a2.75 2.75 0 0 0 0-3.66l-3.37-3.8 1.06-1.19c.5-.56 1.37-.56 1.87 0l5.32 5.99c.42.47.42 1.19 0 1.66" }) });
+export default KeyframesDoubleSolid;

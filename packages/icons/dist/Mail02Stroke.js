@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const Mail02Stroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M16.57 8.383a.75.75 0 1 1 .86 1.229l-5 3.5a.75.75 0 0 1-.86 0l-5-3.5a.75.75 0 1 1 .86-1.229l4.57 3.2z" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20 4.248a2.75 2.75 0 0 1 2.75 2.75v10a2.75 2.75 0 0 1-2.75 2.75H4a2.75 2.75 0 0 1-2.75-2.75v-10A2.75 2.75 0 0 1 4 4.248zm-16 1.5c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h16c.69 0 1.25-.56 1.25-1.25v-10c0-.69-.56-1.25-1.25-1.25z", clipRule: "evenodd" })] });
+export default Mail02Stroke;

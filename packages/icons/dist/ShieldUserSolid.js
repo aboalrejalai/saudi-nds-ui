@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const ShieldUserSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M11.14 2.33a2.25 2.25 0 0 1 1.722 0l6.55 2.712c.775.322 1.338 1.064 1.36 1.947.117 4.545-1.34 10.807-7.703 14.558a2.12 2.12 0 0 1-2.132.01C4.435 17.804 3.097 11.526 3.23 6.986c.026-.88.587-1.622 1.364-1.944zm.1 8.293a2.02 2.02 0 0 0-2.02 2.019v.839c0 .373.304.677.677.677h4.874a.677.677 0 0 0 .677-.677v-.839a2.02 2.02 0 0 0-2.018-2.019zm1.095-3.465a1.458 1.458 0 1 0 .002 2.915 1.458 1.458 0 0 0-.002-2.915" }) });
+export default ShieldUserSolid;

@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const Undo03Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M21.843 13.846c0 3.72-3.03 6.75-6.75 6.75h-4c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h4c2.89 0 5.25-2.35 5.25-5.25s-2.36-5.25-5.25-5.25H4.753l2.38 2.33c.14.14.22.33.23.53 0 .21-.08.39-.22.53h-.01c-.14.15-.32.24-.52.24s-.4-.08-.54-.22l-3.69-3.62a.754.754 0 0 1-.01-1.06l3.62-3.69c.29-.3.77-.31 1.06-.02.3.3.31.78.01 1.08l-2.33 2.38h10.35v.02c3.73 0 6.76 3.03 6.76 6.75" }) });
+export default Undo03Stroke;

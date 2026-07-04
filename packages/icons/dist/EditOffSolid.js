@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const EditOffSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "m12.742 14.51-4.543 4.544c-.21.21-.48.34-.77.36l-2.74.24a.252.252 0 0 1-.27-.27l.24-2.74c.03-.29.15-.57.36-.77l4.543-4.544zM17.279 9.974l-2.77 2.768-3.18-3.18 2.769-2.768zM16.109 4.784c.49-.49 1.28-.49 1.77 0l1.41 1.41c.49.49.49 1.28 0 1.77l-.95.95-3.18-3.18zM2.53 1.47a.75.75 0 0 0-1.06 1.06l20 20a.75.75 0 1 0 1.06-1.06z" }) });
+export default EditOffSolid;

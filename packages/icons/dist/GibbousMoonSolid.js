@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const GibbousMoonSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M2.414 12a9.6 9.6 0 0 1 13.32-8.852A9.6 9.6 0 0 0 9.854 12c0 3.983 2.426 7.4 5.88 8.853A9.6 9.6 0 0 1 2.414 12" }), _jsx("path", { fill: "currentColor", d: "M17.452 19.913a9.7 9.7 0 0 0 2.659-2.753h-6.979a8.16 8.16 0 0 0 4.32 2.753M20.867 15.72a9.6 9.6 0 0 0 .72-3H11.325a8.1 8.1 0 0 0 .864 3zM21.588 11.28a9.6 9.6 0 0 0-.721-3h-8.678a8.1 8.1 0 0 0-.864 3zM20.11 6.84a9.7 9.7 0 0 0-2.658-2.752 8.16 8.16 0 0 0-4.32 2.752z" })] });
+export default GibbousMoonSolid;

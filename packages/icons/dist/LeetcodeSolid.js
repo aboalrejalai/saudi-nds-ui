@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const LeetcodeSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M13.084 2.213a1.1 1.1 0 0 1 1.536 1.574l-1.457 1.421c.297.148.578.341.827.584l2.777 2.711a1.1 1.1 0 0 1-1.536 1.573l-2.777-2.71a1.09 1.09 0 0 0-1.482-.018l-5.574 5.44a.96.96 0 0 0 0 1.39l5.555 5.42c.412.402 1.09.402 1.501 0l2.777-2.71a1.1 1.1 0 0 1 1.537 1.574l-2.777 2.71a3.287 3.287 0 0 1-4.575 0l-5.555-5.42a3.16 3.16 0 0 1 0-4.54z" }), _jsx("path", { fill: "currentColor", d: "M20 11.9a1.101 1.101 0 0 1 0 2.2h-9a1.1 1.1 0 1 1 0-2.2z" })] });
+export default LeetcodeSolid;

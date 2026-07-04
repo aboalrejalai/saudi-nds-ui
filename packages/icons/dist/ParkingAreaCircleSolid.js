@@ -1,0 +1,3 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+const ParkingAreaCircleSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.48 10-10S17.52 2 12 2m2.3 11.2c-.69.41-1.48.41-1.87.41h-2.38v2.27c0 .46-.37.84-.83.84s-.83-.38-.83-.84V8.11c0-.46.37-.84.83-.84h3.21c.39 0 1.18 0 1.87.41.82.48 1.31 1.38 1.31 2.76s-.49 2.28-1.31 2.76", clipRule: "evenodd" }) });
+export default ParkingAreaCircleSolid;
