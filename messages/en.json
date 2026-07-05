@@ -7,7 +7,8 @@
     "changelog": "Changelog",
     "installation": "Installation",
     "components": "Components",
-    "skill": "AI Skill"
+    "skill": "AI Skill Integration",
+    "icons": "Icons"
   },
   "Header": {
     "search": "Search documentation...",

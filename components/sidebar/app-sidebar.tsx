@@ -114,6 +114,11 @@ export function AppSidebar({ components }: { components: Component[] }) {
                   <Link href="/skill">{t("skill")}</Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild isActive={pathname === "/icons"}>
+                  <Link href="/icons">{t("icons")}</Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
