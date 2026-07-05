@@ -1,5 +1,7 @@
-import fs from 'fs';
-import path from 'path';
+// CommonJS so the script runs in any target project regardless of package.json
+// "type" setting (avoids "Cannot use import statement outside a module").
+const fs = require('fs');
+const path = require('path');
 
 // ANSI escape codes for coloring output
 const colors = {
