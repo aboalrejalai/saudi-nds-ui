@@ -1,12 +1,7 @@
 ---
 name: saudi-nds-ui
 description: >
-  Use this skill to build, design, modify, migrate, or audit React & Next.js websites
-  based on the Saudi National Design System (NDS) by the Digital Government Authority (DGA).
-  Make sure to use this skill WHENEVER the user mentions building a Saudi government UI, 
-  "DGA", "NDS UI", "Saudi Design System", "RTL components", or wants to install UI components.
-  Even if they don't explicitly ask for the 'registry', trigger this skill to ensure all UI matches Saudi standards.
-  CRITICAL: Do not begin any project migration or setup without reading these instructions entirely.
+  Build websites and web applications following the Saudi National Design System (NDS) by the Digital Government Authority (DGA). Use this skill whenever building or designing a Saudi government website, implementing NDS components (buttons, forms, navigation, cards, etc.), applying the NDS color system or typography, using the platforms code library, or when the user mentions "NDS", "national design system", "DGA design", "Saudi design system", or "Digital Government Authority".
 ---
 
 # Saudi NDS UI & DGA Components Skill
@@ -17,14 +12,15 @@ This skill guides AI agents in establishing, migrating, and installing UI compon
 
 ---
 
-## 🚨 THE GATEKEEPER (MANDATORY FIRST STEP)
-**AI AGENT INSTRUCTION:** You are STRICTLY FORBIDDEN from modifying any existing project files, rewriting HTML, or installing components until you evaluate the project's environment.
+## 🚨 Evaluate the Environment First
 
-**If you are working in an existing codebase, run this command immediately:**
+Before modifying any existing project files, rewriting HTML, or installing components, it's highly recommended to understand the project's current state so we don't break anything.
+
+**If you are working in an existing codebase, please run this command first:**
 ```bash
 node skills/saudi-nds-ui/scripts/evaluate-project.js
 ```
-Read the output score and recommendation. Based on the output, select one of the following Modes (A, B, or C). If the script returns "ABORT", you must stop, do not touch the code, and inform the user that the environment is incompatible.
+Read the output score and recommendation. Based on the output, select one of the following Modes (A, B, or C). If the script returns "ABORT", inform the user that the environment is incompatible.
 
 ---
 
@@ -161,15 +157,20 @@ Use this mode if the user simply asks to "Add a Button" or "Add a Card" to an al
 
 ## 📦 Available Components
 
-The registry publishes **55 components**. Full, searchable documentation (variants, exports, dependencies, source) lives in [`references/components-guide.md`](references/components-guide.md) — query it with `lookup.js`. Summarized catalog:
+## 📦 Available Components
 
-- **Inputs & Forms:** `button`, `button-group`, `input`, `input-group`, `input-otp`, `textarea`, `label`, `checkbox`, `radio-group`, `select`, `native-select`, `switch`, `slider`, `toggle`, `toggle-group`, `calendar`, `field`, `form`
-- **Feedback & Status:** `alert`, `progress`, `spinner`, `skeleton`, `sonner` (toasts), `empty`
-- **Overlays & Dialogs:** `alert-dialog`, `dialog`, `drawer`, `sheet`, `popover`, `hover-card`, `tooltip`, `command`
-- **Navigation:** `breadcrumb`, `pagination`, `menubar`, `navigation-menu`, `context-menu`, `dropdown-menu`, `tabs`, `sidebar`
-- **Layout & Structure:** `card`, `separator`, `accordion`, `collapsible`, `resizable`, `scroll-area`, `aspect-ratio`, `carousel`
-- **Data Display:** `table`, `badge`, `avatar`, `kbd`, `item`, `chart`
-- **Utility:** `direction` (RTL/LTR switcher)
+The registry publishes **73 main components** and over **345 ready-to-use sub-components**. 
+To get the actual API, variants, dependencies, and source code of a specific component, **simply read its markdown file** by following the links below. Do not guess the API; always refer to the specific component file.
+
+Summarized catalog:
+
+- **Inputs & Forms:** [`button`](references/components/button.md), [`button-group`](references/components/button-group.md), [`input`](references/components/input.md), [`input-group`](references/components/input-group.md), [`input-otp`](references/components/input-otp.md), [`textarea`](references/components/textarea.md), [`label`](references/components/label.md), [`checkbox`](references/components/checkbox.md), [`radio-group`](references/components/radio-group.md), [`select`](references/components/select.md), [`native-select`](references/components/native-select.md), [`switch`](references/components/switch.md), [`slider`](references/components/slider.md), [`toggle`](references/components/toggle.md), [`toggle-group`](references/components/toggle-group.md), [`calendar`](references/components/calendar.md), [`field`](references/components/field.md), [`form`](references/components/form.md), [`combobox`](references/components/combobox.md), [`date-picker`](references/components/date-picker.md), [`file-dropzone`](references/components/file-dropzone.md), [`file-upload`](references/components/file-upload.md), [`multi-select`](references/components/multi-select.md), [`rating`](references/components/rating.md), [`rich-text-editor`](references/components/rich-text-editor.md), [`tag-input`](references/components/tag-input.md)
+- **Feedback & Status:** [`alert`](references/components/alert.md), [`progress`](references/components/progress.md), [`spinner`](references/components/spinner.md), [`skeleton`](references/components/skeleton.md), [`sonner`](references/components/sonner.md) (toasts), [`empty`](references/components/empty.md)
+- **Overlays & Dialogs:** [`alert-dialog`](references/components/alert-dialog.md), [`dialog`](references/components/dialog.md), [`drawer`](references/components/drawer.md), [`sheet`](references/components/sheet.md), [`popover`](references/components/popover.md), [`hover-card`](references/components/hover-card.md), [`tooltip`](references/components/tooltip.md), [`command`](references/components/command.md)
+- **Navigation:** [`breadcrumb`](references/components/breadcrumb.md), [`pagination`](references/components/pagination.md), [`menubar`](references/components/menubar.md), [`navigation-menu`](references/components/navigation-menu.md), [`context-menu`](references/components/context-menu.md), [`dropdown-menu`](references/components/dropdown-menu.md), [`tabs`](references/components/tabs.md), [`sidebar`](references/components/sidebar.md), [`steps`](references/components/steps.md), [`tree-view`](references/components/tree-view.md)
+- **Layout & Structure:** [`card`](references/components/card.md), [`separator`](references/components/separator.md), [`accordion`](references/components/accordion.md), [`collapsible`](references/components/collapsible.md), [`resizable`](references/components/resizable.md), [`scroll-area`](references/components/scroll-area.md), [`aspect-ratio`](references/components/aspect-ratio.md), [`carousel`](references/components/carousel.md), [`timeline`](references/components/timeline.md)
+- **Data Display:** [`table`](references/components/table.md), [`badge`](references/components/badge.md), [`avatar`](references/components/avatar.md), [`kbd`](references/components/kbd.md), [`item`](references/components/item.md), [`chart`](references/components/chart.md), [`code`](references/components/code.md), [`data-table`](references/components/data-table.md), [`description-list`](references/components/description-list.md), [`filter`](references/components/filter.md), [`quote`](references/components/quote.md), [`stat`](references/components/stat.md)
+- **Utility:** [`direction`](references/components/direction.md) (RTL/LTR switcher), [`cookies`](references/components/cookies.md)
 
 ---
 
@@ -199,6 +200,9 @@ Prefer the bridged Tailwind tokens (`bg-primary`, `text-foreground`, `border-bor
 ### 🌟 Saudi NDS Custom Icons
 * **Inside registry components:** `@hugeicons/react` (bundled automatically).
 * **Your app's custom Saudi icons:** `@aboalrejal/nds-icons`.
+
+### 🚨 Navigation Menu
+* **Top-Level Header Links:** When building a `Header` or `Navbar`, wrap top-level items in `<NavigationMenuTrigger>` instead of `<NavigationMenuLink>`. This ensures we preserve the official NDS green hover and bottom-border effect which is central to the design system's identity.
 
 ### Helper Scripts
 * **Evaluate environment:** `node skills/saudi-nds-ui/scripts/evaluate-project.js`

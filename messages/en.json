@@ -1,12 +1,13 @@
 {
   "Sidebar": {
-    "title": "DGA Components",
+    "title": "Saudi NDS UI",
     "subtitle": "Documentation",
     "gettingStarted": "Getting Started",
     "introduction": "Introduction",
     "changelog": "Changelog",
     "installation": "Installation",
-    "components": "Components"
+    "components": "Components",
+    "skill": "AI Skill"
   },
   "Header": {
     "search": "Search documentation...",
@@ -21,9 +22,9 @@
   },
   "Home": {
     "title": "Saudi NDS UI",
-    "descriptionPrefix": "UI component library based on the ",
+    "descriptionPrefix": "An upgraded and comprehensive UI platform extending the ",
     "dga": "Digital Government Authority (DGA)",
-    "descriptionSuffix": " Platforms Code design system. Production-ready components for React, Next.js, Laravel, Vite, Astro, and TanStack — built on shadcn/ui with DGA design tokens, full RTL support, and IBM Plex Sans Arabic typography.",
+    "descriptionSuffix": " Platforms Code. We transformed raw tokens into a fully-featured, production-ready Saudi NDS UI for Next.js and React — boasting 73 components, 345+ sub-components, deep RTL support, and AI integration.",
     "subtitle": "Digital Government Authority — UI Component Library",
     "getStarted": "Get Started",
     "browseComponents": "Browse Components",
@@ -39,6 +40,6 @@
     "supportedFrameworksTitle": "Supported Frameworks",
     "supportedFrameworksDesc": "DGA Components work seamlessly with the most popular frameworks in the ecosystem:",
     "whyTitle": "Why DGA Components?",
-    "badgeText": "Includes {count}+ ready-to-use NDS components"
+    "badgeText": "Includes {count} Main Components & 345+ Ready-to-Use Sub-components based on NDS"
   }
 }

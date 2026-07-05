@@ -12,49 +12,28 @@ if (!componentNameArg) {
   process.exit(1);
 }
 
-const guidePath = path.join(__dirname, '../references/components-guide.md');
+const componentsDir = path.join(__dirname, '../references/components');
+const searchName = componentNameArg.toLowerCase();
+const compPath = path.join(componentsDir, `${searchName}.md`);
 
-if (!fs.existsSync(guidePath)) {
-  console.error(`Error: Reference guide not found at path:\n${guidePath}`);
-  process.exit(1);
-}
-
-const guideContent = fs.readFileSync(guidePath, 'utf-8');
-const searchName = componentNameArg.toUpperCase();
-
-// Match headers like "## Component: BADGE"
-const sections = guideContent.split(/## Component:\s*/i);
-
-let foundSection = null;
-
-for (let i = 1; i < sections.length; i++) {
-  const section = sections[i];
-  const firstLine = section.split('\n')[0].trim();
-  if (firstLine === searchName) {
-    foundSection = section;
-    break;
-  }
-}
-
-if (foundSection) {
-  // `foundSection` begins with the component name line (e.g. "BUTTON\n..."); drop it
-  // since the banner below already names the component, then print the rest verbatim.
-  const body = foundSection.replace(/^[^\n]*\n/, '');
+if (fs.existsSync(compPath)) {
+  const body = fs.readFileSync(compPath, 'utf-8');
   console.log(`\n==========================================`);
-  console.log(`  Component Documentation: ${searchName}`);
+  console.log(`  Component Documentation: ${searchName.toUpperCase()}`);
   console.log(`==========================================\n`);
   console.log(body.trim());
 } else {
-  console.log(`❌ Documentation not found for component: "${componentNameArg}"`);
+  console.log(`❌ Documentation not found for component: "${searchName}"`);
   console.log('Available components are:');
   
-  const available = [];
-  for (let i = 1; i < sections.length; i++) {
-    const name = sections[i].split('\n')[0].trim().toLowerCase();
-    // Only list real component names (lowercase kebab); ignore any prose that
-    // happens to contain a "## Component:" token.
-    if (/^[a-z0-9][a-z0-9-]*$/.test(name)) available.push(name);
+  if (fs.existsSync(componentsDir)) {
+    const files = fs.readdirSync(componentsDir);
+    const available = files
+      .filter(f => f.endsWith('.md'))
+      .map(f => f.replace('.md', ''));
+    console.log(available.join(', '));
+  } else {
+    console.log('No components found. Run generate-guide.js first.');
   }
-  console.log(available.join(', '));
 }
 

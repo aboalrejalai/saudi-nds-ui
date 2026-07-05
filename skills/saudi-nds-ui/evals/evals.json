@@ -1,0 +1,23 @@
+{
+  "skill_name": "saudi-nds-ui",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a login form component in `app/login/page.tsx` using the Saudi NDS UI. It should have email and password fields, and a submit button.",
+      "expected_output": "A Next.js page component using NDS Card, Input, Label, and Button components, fully styled and RTL compliant.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We need to add a top navigation header to our app. Use the DGA navigation menu component, and make sure the primary links are 'Home', 'Services', and 'Contact Us'.",
+      "expected_output": "A header component using NavigationMenu, specifically using NavigationMenuTrigger for the top-level links as per the strict rule.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I want to install the date-picker and use it in a new form component `components/date-form.tsx`.",
+      "expected_output": "The date-picker should be installed via shadcn (or registered if missing), and the form component should correctly import and render it.",
+      "files": []
+    }
+  ]
+}

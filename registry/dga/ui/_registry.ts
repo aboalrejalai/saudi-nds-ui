@@ -705,4 +705,288 @@ export const ui: Registry["items"] = [
       },
     ],
   },
+  {
+  "name": "code",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/code.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "@aboalrejal/nds-icons"
+  ]
+},
+  {
+  "name": "combobox",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/combobox.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "@base-ui/react",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react"
+  ],
+  "registryDependencies": [
+    "button",
+    "input-group"
+  ]
+},
+  {
+  "name": "cookies",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/cookies.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "@aboalrejal/nds-icons"
+  ],
+  "registryDependencies": [
+    "button"
+  ]
+},
+  {
+  "name": "data-table",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/data-table.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "@tanstack/react-table",
+    "@aboalrejal/nds-icons"
+  ],
+  "registryDependencies": [
+    "table",
+    "button"
+  ]
+},
+  {
+  "name": "date-picker",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/date-picker.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "date-fns",
+    "@aboalrejal/nds-icons",
+    "react-day-picker"
+  ],
+  "registryDependencies": [
+    "button",
+    "calendar",
+    "popover",
+    "label"
+  ]
+},
+  {
+  "name": "description-list",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/description-list.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority"
+  ]
+},
+  {
+  "name": "file-dropzone",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/file-dropzone.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "react-dropzone",
+    "@aboalrejal/nds-icons"
+  ]
+},
+  {
+  "name": "file-upload",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/file-upload.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "@aboalrejal/nds-icons"
+  ],
+  "registryDependencies": [
+    "button",
+    "progress"
+  ]
+},
+  {
+  "name": "filter",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/filter.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "@aboalrejal/nds-icons"
+  ]
+},
+  {
+  "name": "multi-select",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/multi-select.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "@aboalrejal/nds-icons"
+  ],
+  "registryDependencies": [
+    "command",
+    "badge",
+    "popover",
+    "button"
+  ]
+},
+  {
+  "name": "quote",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/quote.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "@radix-ui/react-slot",
+    "class-variance-authority",
+    "@aboalrejal/nds-icons"
+  ]
+},
+  {
+  "name": "rating",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/rating.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "@aboalrejal/nds-icons"
+  ]
+},
+  {
+  "name": "rich-text-editor",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/rich-text-editor.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "@tiptap/react",
+    "@tiptap/starter-kit",
+    "@tiptap/extension-placeholder",
+    "@aboalrejal/nds-icons"
+  ],
+  "registryDependencies": [
+    "button"
+  ]
+},
+  {
+  "name": "stat",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/stat.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "@aboalrejal/nds-icons"
+  ]
+},
+  {
+  "name": "steps",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/steps.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "@aboalrejal/nds-icons"
+  ]
+},
+  {
+  "name": "tag-input",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/tag-input.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "@aboalrejal/nds-icons"
+  ],
+  "registryDependencies": [
+    "badge"
+  ]
+},
+  {
+  "name": "timeline",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/timeline.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority"
+  ]
+},
+  {
+  "name": "tree-view",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/tree-view.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "@aboalrejal/nds-icons"
+  ]
+},
 ]

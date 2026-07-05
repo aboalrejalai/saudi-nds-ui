@@ -1,0 +1,108 @@
+## Component: INPUT-OTP
+
+DGA-approved **Input Otp** component — built on Radix UI / shadcn primitives, styled with NDS design tokens, and optimized for RTL layouts.
+
+### Install
+
+```bash
+npx shadcn@latest add https://nds.aboalrejal.com/r/input-otp.json
+```
+
+**NPM dependencies:** `input-otp`, `@hugeicons/react`, `@hugeicons/core-free-icons`
+
+### Exports
+
+`InputOTP`, `InputOTPGroup`, `InputOTPSeparator`, `InputOTPSlot`
+
+### Usage
+
+```tsx
+import { InputOTP } from "@/components/ui/input-otp";
+
+<InputOTP>Input Otp</InputOTP>
+```
+
+### Source (`registry/dga/ui/input-otp.tsx`)
+
+```tsx
+"use client"
+
+import * as React from "react"
+import { MinusSignIcon } from "@hugeicons/core-free-icons"
+import { HugeiconsIcon } from "@hugeicons/react"
+import { OTPInput, OTPInputContext } from "input-otp"
+
+import { cn } from "@/lib/utils"
+
+function InputOTP({
+  className,
+  containerClassName,
+  ...props
+}: React.ComponentProps<typeof OTPInput> & {
+  containerClassName?: string
+}) {
+  return (
+    <OTPInput
+      data-slot="input-otp"
+      containerClassName={cn(
+        "flex items-center gap-2 has-disabled:opacity-50",
+        containerClassName
+      )}
+      className={cn("disabled:cursor-not-allowed", className)}
+      {...props}
+    />
+  )
+}
+
+function InputOTPGroup({ className, ...props }: React.ComponentProps<"div">) {
+  return (
+    <div
+      data-slot="input-otp-group"
+      className={cn("flex items-center", className)}
+      {...props}
+    />
+  )
+}
+
+function InputOTPSlot({
+  index,
+  className,
+  ...props
+}: React.ComponentProps<"div"> & {
+  index: number
+}) {
+  const inputOTPContext = React.useContext(OTPInputContext)
+  const { char, hasFakeCaret, isActive } = inputOTPContext?.slots[index] ?? {}
+
+  return (
+    <div
+      data-slot="input-otp-slot"
+      data-active={isActive}
+      className={cn(
+        "data-[active=true]:border-ring data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:ring-destructive/20 dark:data-[active=true]:aria-invalid:ring-destructive/40 aria-invalid:border-destructive data-[active=true]:aria-invalid:border-destructive dark:bg-input/30 border-input relative flex h-9 w-9 items-center justify-center border-y border-e text-sm shadow-xs transition-all outline-none first:rounded-s-md first:border-s last:rounded-e-md data-[active=true]:z-10 data-[active=true]:ring-[3px]",
+        className
+      )}
+      {...props}
+    >
+      {char}
+      {hasFakeCaret && (
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+          <div className="animate-caret-blink bg-foreground h-4 w-px duration-1000" />
+        </div>
+      )}
+    </div>
+  )
+}
+
+function InputOTPSeparator({ ...props }: React.ComponentProps<"div">) {
+  return (
+    <div data-slot="input-otp-separator" role="separator" {...props}>
+      <HugeiconsIcon icon={MinusSignIcon} />
+    </div>
+  )
+}
+
+export { InputOTP, InputOTPGroup, InputOTPSlot, InputOTPSeparator }
+```
+
+---

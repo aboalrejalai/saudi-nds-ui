@@ -24,6 +24,7 @@ const REPO_ROOT = path.resolve(SCRIPT_DIR, '..', '..', '..');
 const INDEX_PATH = path.join(REPO_ROOT, 'registry.json');
 const PUB_R_DIR = path.join(REPO_ROOT, 'public', 'r');
 const GUIDE_PATH = path.join(SCRIPT_DIR, '..', 'references', 'components-guide.md');
+const COMPONENTS_DIR = path.join(SCRIPT_DIR, '..', 'references', 'components');
 
 const REGISTRY_BASE_URL = 'https://nds.aboalrejal.com/r';
 
@@ -195,8 +196,8 @@ function build() {
   lines.push('');
   lines.push('> To regenerate: `node skills/saudi-nds-ui/scripts/generate-guide.js`');
   lines.push('');
-  lines.push('Each component has its own section, keyed by an uppercased name. `lookup.js`');
-  lines.push('extracts a single section on demand. Query a component with:');
+  lines.push('Each component has its own file in `references/components/<name>.md`. `lookup.js`');
+  lines.push('extracts the specific file on demand. Query a component with:');
   lines.push('');
   lines.push('```bash');
   lines.push('node skills/saudi-nds-ui/scripts/lookup.js <component-name>');
@@ -245,81 +246,91 @@ function build() {
   lines.push('');
 
   // ---- Per-component sections ---------------------------------------------
+  if (!fs.existsSync(COMPONENTS_DIR)) {
+    fs.mkdirSync(COMPONENTS_DIR, { recursive: true });
+  }
+
   for (const c of components) {
     const upper = c.name.toUpperCase();
     const variants = extractVariants(c.source);
     const exports = extractExports(c.source);
-
-    lines.push(`## Component: ${upper}`);
-    lines.push('');
-    lines.push(`DGA-approved **${humanize(c.name)}** component — built on Radix UI / shadcn primitives, styled with NDS design tokens, and optimized for RTL layouts.`);
-    lines.push('');
-    lines.push('### Install');
-    lines.push('');
-    lines.push('```bash');
-    lines.push(`npx shadcn@latest add ${REGISTRY_BASE_URL}/${c.name}.json`);
-    lines.push('```');
-    lines.push('');
+    
+    const cLines = [];
+    cLines.push(`## Component: ${upper}`);
+    cLines.push('');
+    cLines.push(`DGA-approved **${humanize(c.name)}** component — built on Radix UI / shadcn primitives, styled with NDS design tokens, and optimized for RTL layouts.`);
+    cLines.push('');
+    cLines.push('### Install');
+    cLines.push('');
+    cLines.push('```bash');
+    cLines.push(`npx shadcn@latest add ${REGISTRY_BASE_URL}/${c.name}.json`);
+    cLines.push('```');
+    cLines.push('');
 
     // Dependencies
     if (c.npmDeps.length) {
-      lines.push(`**NPM dependencies:** ${c.npmDeps.map((d) => `\`${d}\``).join(', ')}`);
+      cLines.push(`**NPM dependencies:** ${c.npmDeps.map((d) => `\`${d}\``).join(', ')}`);
     }
     if (c.registryDeps.length) {
-      lines.push(
+      cLines.push(
         `**Registry dependencies:** ${c.registryDeps
           .map((d) => `\`${d}\` (\`${REGISTRY_BASE_URL}/${d}.json\`)`)
           .join(', ')}`
       );
     }
-    if (c.npmDeps.length || c.registryDeps.length) lines.push('');
+    if (c.npmDeps.length || c.registryDeps.length) cLines.push('');
 
     // Variants / sizes
     if (Object.keys(variants).length) {
-      lines.push('### Variants');
-      lines.push('');
+      cLines.push('### Variants');
+      cLines.push('');
       for (const [axis, keys] of Object.entries(variants)) {
-        lines.push(`- **${axis}:** ${keys.map((k) => `\`${k}\``).join(', ')}`);
+        cLines.push(`- **${axis}:** ${keys.map((k) => `\`${k}\``).join(', ')}`);
       }
-      lines.push('');
+      cLines.push('');
     }
 
     // Exports
     if (exports.length) {
-      lines.push(`### Exports`);
-      lines.push('');
-      lines.push(exports.map((e) => `\`${e}\``).join(', '));
-      lines.push('');
+      cLines.push(`### Exports`);
+      cLines.push('');
+      cLines.push(exports.map((e) => `\`${e}\``).join(', '));
+      cLines.push('');
     }
 
     // Usage hint
     const mainExport = exports[0] || humanize(c.name).replace(/\s+/g, '');
     if (mainExport) {
-      lines.push('### Usage');
-      lines.push('');
-      lines.push('```tsx');
-      lines.push(`import { ${mainExport} } from "@/components/ui/${c.name}";`);
-      lines.push('');
-      lines.push(`<${mainExport}${variants.variant ? ` variant="default"` : ''}>${humanize(c.name)}</${mainExport}>`);
-      lines.push('```');
-      lines.push('');
+      cLines.push('### Usage');
+      cLines.push('');
+      cLines.push('```tsx');
+      cLines.push(`import { ${mainExport} } from "@/components/ui/${c.name}";`);
+      cLines.push('');
+      cLines.push(`<${mainExport}${variants.variant ? ` variant="default"` : ''}>${humanize(c.name)}</${mainExport}>`);
+      cLines.push('```');
+      cLines.push('');
     }
 
     // Full source
     if (c.source.trim()) {
-      lines.push(`### Source (\`${c.sourcePath}\`)`);
-      lines.push('');
-      lines.push(fence(c.source, 'tsx'));
-      lines.push('');
+      cLines.push(`### Source (\`${c.sourcePath}\`)`);
+      cLines.push('');
+      cLines.push(fence(c.source, 'tsx'));
+      cLines.push('');
     } else {
-      lines.push(`> Source not bundled in local registry artifact (\`${c.sourcePath}\`). Fetch it via the install command above.`);
-      lines.push('');
+      cLines.push(`> Source not bundled in local registry artifact (\`${c.sourcePath}\`). Fetch it via the install command above.`);
+      cLines.push('');
     }
 
-    lines.push('---');
-    lines.push('');
+    cLines.push('---');
+    cLines.push('');
+    
+    // Write individual file
+    const compPath = path.join(COMPONENTS_DIR, `${c.name}.md`);
+    fs.writeFileSync(compPath, cLines.join('\n'), 'utf8');
   }
 
+  // Also write the main index guide for utilities and full list
   fs.writeFileSync(GUIDE_PATH, lines.join('\n'), 'utf8');
 
   console.log(`✓ Wrote ${GUIDE_PATH}`);

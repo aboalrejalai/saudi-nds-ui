@@ -1,12 +1,13 @@
 {
   "Sidebar": {
-    "title": "مكونات هيئة الحكومة الرقمية",
+    "title": "Saudi NDS UI",
     "subtitle": "التوثيق والشروحات",
     "gettingStarted": "البدء والاستخدام",
     "introduction": "مقدمة تعريفية",
     "changelog": "سجل التحديثات",
     "installation": "طريقة التثبيت",
-    "components": "المكونات البرمجية"
+    "components": "المكونات البرمجية",
+    "skill": "مهارة الذكاء الاصطناعي"
   },
   "Header": {
     "search": "ابحث في الشروحات...",
@@ -21,9 +22,9 @@
   },
   "Home": {
     "title": "مكونات الواجهات (NDS UI)",
-    "descriptionPrefix": "مكتبة مكونات واجهة مستخدم مبنية على أساس ",
+    "descriptionPrefix": "منصة واجهات متكاملة ومطورة ترتقي بنظام ",
     "dga": "هيئة الحكومة الرقمية (DGA)",
-    "descriptionSuffix": " - نظام المنصات. مكونات جاهزة للاستخدام في الإنتاج لـ React، Next.js، Laravel، Vite، Astro، و TanStack — مبنية على shadcn/ui وتدعم اللغة العربية بالكامل (RTL) وخطوط IBM Plex Sans Arabic.",
+    "descriptionSuffix": " (Platforms Code). حولنا التصاميم الأساسية إلى مكتبة Saudi NDS UI احترافية جاهزة للإنتاج لـ React و Next.js — مزودة بـ 73 مكون أساسي، 345+ مكون فرعي، دعم شامل للغة العربية (RTL)، ومندمجة مع أدوات الذكاء الاصطناعي.",
     "subtitle": "هيئة الحكومة الرقمية — مكتبة مكونات واجهة المستخدم",
     "getStarted": "ابدأ الآن",
     "browseComponents": "تصفح المكونات",
@@ -39,6 +40,6 @@
     "supportedFrameworksTitle": "أطر العمل المدعومة",
     "supportedFrameworksDesc": "تعمل مكونات DGA بسلاسة مع أشهر أطر العمل في النظام البيئي البرمجي:",
     "whyTitle": "لماذا مكونات DGA؟",
-    "badgeText": "تحتوي على +{count} مكون واجهة متوافق وجاهز"
+    "badgeText": "تحتوي على {count} مكون أساسي و 345+ مكون فرعي جاهز للاستخدام ومبني على NDS"
   }
 }

@@ -1,0 +1,33 @@
+import { DocsLayout } from "@/components/docs/docs-layout"
+import { SkillExportButtons, SkillDownloadButton } from "@/components/docs/skill-export-buttons"
+
+export const metadata = {
+  title: "AI Skill Integration",
+  description: "Supercharge your AI agents with the Saudi NDS UI skill.",
+}
+
+<DocsLayout>
+
+<div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+  <h1 className="text-3xl font-bold tracking-tight m-0">AI Skill Integration</h1>
+  <SkillExportButtons />
+</div>
+
+The **Saudi NDS UI** provides a dedicated AI Skill that allows agents (like Cursor, Claude Code, or Copilot) to perfectly understand and implement our design system without hallucinating APIs.
+
+<div className="mt-4 mb-8">
+  <SkillDownloadButton />
+</div>
+
+## How it works (Progressive Disclosure)
+
+Our skill is strictly compliant with Google & Anthropic's **Skill-Creator** guidelines. It utilizes **Progressive Disclosure**. 
+
+Instead of overwhelming the AI with 9,000+ lines of component code in a single prompt, the skill feeds the AI a tiny summarized index. When the AI needs a specific component (e.g., a Button), it follows a direct markdown link to read that exact component's API instantly. 
+
+This guarantees:
+- **Zero Hallucinations**: The AI knows the exact properties and variants.
+- **Cost Efficiency**: Massively reduced token consumption.
+- **100% RTL Compliance**: All components are generated perfectly matching the official Saudi Design System.
+
+</DocsLayout>

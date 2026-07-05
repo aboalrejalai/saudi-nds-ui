@@ -1,0 +1,84 @@
+## Component: RESIZABLE
+
+DGA-approved **Resizable** component — built on Radix UI / shadcn primitives, styled with NDS design tokens, and optimized for RTL layouts.
+
+### Install
+
+```bash
+npx shadcn@latest add https://nds.aboalrejal.com/r/resizable.json
+```
+
+**NPM dependencies:** `react-resizable-panels`, `@hugeicons/react`, `@hugeicons/core-free-icons`
+
+### Exports
+
+`ResizableHandle`, `ResizablePanel`, `ResizablePanelGroup`
+
+### Usage
+
+```tsx
+import { ResizableHandle } from "@/components/ui/resizable";
+
+<ResizableHandle>Resizable</ResizableHandle>
+```
+
+### Source (`registry/dga/ui/resizable.tsx`)
+
+```tsx
+"use client"
+
+import { DragDropVerticalIcon } from "@hugeicons/core-free-icons"
+import { HugeiconsIcon } from "@hugeicons/react"
+import * as ResizablePrimitive from "react-resizable-panels"
+
+import { cn } from "@/lib/utils"
+
+function ResizablePanelGroup({
+  className,
+  ...props
+}: ResizablePrimitive.GroupProps) {
+  return (
+    <ResizablePrimitive.Group
+      data-slot="resizable-panel-group"
+      className={cn(
+        "flex h-full w-full aria-[orientation=vertical]:flex-col",
+        className
+      )}
+      {...props}
+    />
+  )
+}
+
+function ResizablePanel({ ...props }: ResizablePrimitive.PanelProps) {
+  return <ResizablePrimitive.Panel data-slot="resizable-panel" {...props} />
+}
+
+function ResizableHandle({
+  withHandle,
+  className,
+  ...props
+}: ResizablePrimitive.SeparatorProps & {
+  withHandle?: boolean
+}) {
+  return (
+    <ResizablePrimitive.Separator
+      data-slot="resizable-handle"
+      className={cn(
+        "bg-border focus-visible:ring-ring relative flex w-px items-center justify-center after:absolute after:inset-y-0 after:start-1/2 after:w-1 after:-translate-x-1/2 focus-visible:ring-1 focus-visible:ring-offset-1 focus-visible:outline-hidden aria-[orientation=horizontal]:h-px aria-[orientation=horizontal]:w-full aria-[orientation=horizontal]:after:start-0 aria-[orientation=horizontal]:after:h-1 aria-[orientation=horizontal]:after:w-full aria-[orientation=horizontal]:after:translate-x-0 aria-[orientation=horizontal]:after:-translate-y-1/2 rtl:after:translate-x-1/2 rtl:aria-[orientation=horizontal]:after:-translate-x-0 [&[aria-orientation=horizontal]>div]:rotate-90",
+        className
+      )}
+      {...props}
+    >
+      {withHandle && (
+        <div className="bg-border z-10 flex h-4 w-3 items-center justify-center rounded-xs border">
+          <HugeiconsIcon icon={DragDropVerticalIcon} className="size-2.5" />
+        </div>
+      )}
+    </ResizablePrimitive.Separator>
+  )
+}
+
+export { ResizableHandle, ResizablePanel, ResizablePanelGroup }
+```
+
+---
