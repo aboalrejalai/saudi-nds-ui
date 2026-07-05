@@ -21,7 +21,7 @@ type Variant =
 
 type Commands = Partial<Record<PackageManager, string>>
 
-const REGISTRY_BASE = "https://dga-registry.vercel.app/r"
+const REGISTRY_BASE = "https://nds.aboalrejal.com/r"
 
 function buildCommands(componentName: string): Commands {
   const url = `${REGISTRY_BASE}/${componentName}.json`

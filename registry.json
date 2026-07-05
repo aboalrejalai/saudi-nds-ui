@@ -1,10 +1,10 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "dga",
-  "homepage": "https://dga-registry.vercel.app",
+  "homepage": "https://nds.aboalrejal.com",
   "registries": [
     {
-      "@dga": "https://dga-registry.vercel.app/r/{name}.json"
+      "@dga": "https://nds.aboalrejal.com/r/{name}.json"
     }
   ],
   "items": [

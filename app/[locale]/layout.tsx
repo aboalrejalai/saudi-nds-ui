@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://dga-registry.vercel.app"),
+  metadataBase: new URL("https://nds.aboalrejal.com"),
   title: {
     default:
       "DGA Components – Digital Government Authority Saudi Arabia UI Library",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     alternateLocale: "ar_SA",
-    url: "https://dga-registry.vercel.app",
+    url: "https://nds.aboalrejal.com",
     siteName: "DGA Components",
     title:
       "DGA Components – Digital Government Authority Saudi Arabia UI Library",
@@ -86,10 +86,10 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://dga-registry.vercel.app",
+    canonical: "https://nds.aboalrejal.com",
     languages: {
-      "en-US": "https://dga-registry.vercel.app",
-      "ar-SA": "https://dga-registry.vercel.app",
+      "en-US": "https://nds.aboalrejal.com",
+      "ar-SA": "https://nds.aboalrejal.com",
     },
   },
   verification: {
@@ -116,7 +116,7 @@ export default async function RootLayout({
     "@graph": [
       {
         "@type": "Person",
-        "@id": "https://dga-registry.vercel.app/#author",
+        "@id": "https://nds.aboalrejal.com/#author",
         name: "Mohammed Abo Alrejal",
         url: "https://www.linkedin.com/in/aboalrejal/",
         sameAs: [
@@ -126,23 +126,23 @@ export default async function RootLayout({
       },
       {
         "@type": "Organization",
-        "@id": "https://dga-registry.vercel.app/#organization",
+        "@id": "https://nds.aboalrejal.com/#organization",
         name: "Digital Government Authority",
         alternateName: ["DGA", "هيئة الحكومة الرقمية"],
         url: "https://dga.gov.sa",
       },
       {
         "@type": "WebSite",
-        "@id": "https://dga-registry.vercel.app/#website",
-        url: "https://dga-registry.vercel.app",
+        "@id": "https://nds.aboalrejal.com/#website",
+        url: "https://nds.aboalrejal.com",
         name: "Saudi NDS UI",
         description:
           "UI component library based on the DGA Platforms Code design system of Saudi Arabia",
         creator: {
-          "@id": "https://dga-registry.vercel.app/#author",
+          "@id": "https://nds.aboalrejal.com/#author",
         },
         about: {
-          "@id": "https://dga-registry.vercel.app/#organization",
+          "@id": "https://nds.aboalrejal.com/#organization",
         },
         inLanguage: ["en-US", "ar-SA"],
       },
@@ -159,7 +159,7 @@ export default async function RootLayout({
           priceCurrency: "USD",
         },
         author: {
-          "@id": "https://dga-registry.vercel.app/#author",
+          "@id": "https://nds.aboalrejal.com/#author",
         },
       },
     ],

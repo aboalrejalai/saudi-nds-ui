@@ -153,7 +153,7 @@ export default async function Image() {
           display: "flex",
         }}
       >
-        dga-registry.vercel.app
+        nds.aboalrejal.com
       </div>
     </div>,
     {

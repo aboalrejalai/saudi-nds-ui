@@ -6,7 +6,7 @@ import { HugeiconsIcon } from "@hugeicons/react"
 
 const REGISTRY_CONFIG = {
   registries: {
-    "@dga": "https://dga-registry.vercel.app/r/{name}.json",
+    "@dga": "https://nds.aboalrejal.com/r/{name}.json",
   },
 }
 
@@ -58,7 +58,7 @@ export function RegistryBlock() {
           <span className="text-green-400">"@dga"</span>
           <span className="text-zinc-400">{": "}</span>
           <span className="text-amber-300">
-            "https://dga-registry.vercel.app/r/{"{name}"}.json"
+            "https://nds.aboalrejal.com/r/{"{name}"}.json"
           </span>
           {"\n"}
           <span className="text-zinc-400">{"  }"}</span>

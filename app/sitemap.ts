@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next"
 
 import { getUIComponents } from "@/lib/get-components"
 
-const BASE_URL = "https://dga-registry.vercel.app"
+const BASE_URL = "https://nds.aboalrejal.com"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const components = getUIComponents()

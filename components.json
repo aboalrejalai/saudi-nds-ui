@@ -12,7 +12,7 @@
     "prefix": ""
   },
   "registries": {
-    "@dga": "https://dga-registry.vercel.app/r/{name}.json"
+    "@dga": "https://nds.aboalrejal.com/r/{name}.json"
   },
   "aliases": {
     "components": "@/components",

@@ -14,7 +14,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/r/"],
       },
     ],
-    sitemap: "https://dga-registry.vercel.app/sitemap.xml",
-    host: "https://dga-registry.vercel.app",
+    sitemap: "https://nds.aboalrejal.com/sitemap.xml",
+    host: "https://nds.aboalrejal.com",
   }
 }
