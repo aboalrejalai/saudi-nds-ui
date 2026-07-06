@@ -37,19 +37,29 @@ const newItems = missing.map(comp => {
     }
   }
   
-  const item = {
-    name: comp,
-    type: 'registry:ui',
-    files: [{ path: `ui/${comp}.tsx`, type: 'registry:ui' }]
+  // `registry.json` is read by `shadcn build` with cwd = project root, so it
+  // needs root-relative paths. `_registry.ts` lives under `registry/dga/` and
+  // uses short paths relative to that folder. Emit one item per target so we
+  // never write a short path into registry.json (which breaks the build).
+  const buildItem = (filePath) => {
+    const item = {
+      name: comp,
+      type: 'registry:ui',
+      files: [{ path: filePath, type: 'registry:ui' }]
+    };
+    if (deps.size) item.dependencies = [...deps];
+    if (regDeps.size) item.registryDependencies = [...regDeps];
+    return item;
   };
-  if (deps.size) item.dependencies = [...deps];
-  if (regDeps.size) item.registryDependencies = [...regDeps];
-  return item;
+  return {
+    json: buildItem(`registry/dga/ui/${comp}.tsx`),
+    ts: buildItem(`ui/${comp}.tsx`),
+  };
 });
 
 // Update registry.json
-for (const item of newItems) {
-  index.items.push(item);
+for (const { json } of newItems) {
+  index.items.push(json);
 }
 fs.writeFileSync(registryJsonPath, JSON.stringify(index, null, 2));
 console.log('Updated registry.json');
@@ -58,7 +68,7 @@ console.log('Updated registry.json');
 let tsContent = fs.readFileSync(registryTsPath, 'utf8');
 const lastBracket = tsContent.lastIndexOf(']');
 if (lastBracket !== -1) {
-  const newItemsString = newItems.map(item => JSON.stringify(item, null, 2)).join(',\n  ') + ',';
+  const newItemsString = newItems.map(({ ts }) => JSON.stringify(ts, null, 2)).join(',\n  ') + ',';
   tsContent = tsContent.slice(0, lastBracket) + '  ' + newItemsString + '\n' + tsContent.slice(lastBracket);
   fs.writeFileSync(registryTsPath, tsContent);
   console.log('Updated _registry.ts');

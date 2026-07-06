@@ -1435,7 +1435,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/code.tsx",
+          "path": "registry/dga/ui/code.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1449,7 +1449,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/combobox.tsx",
+          "path": "registry/dga/ui/combobox.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1468,7 +1468,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/cookies.tsx",
+          "path": "registry/dga/ui/cookies.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1485,7 +1485,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/data-table.tsx",
+          "path": "registry/dga/ui/data-table.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1503,7 +1503,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/date-picker.tsx",
+          "path": "registry/dga/ui/date-picker.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1524,7 +1524,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/description-list.tsx",
+          "path": "registry/dga/ui/description-list.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1537,7 +1537,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/file-dropzone.tsx",
+          "path": "registry/dga/ui/file-dropzone.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1551,7 +1551,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/file-upload.tsx",
+          "path": "registry/dga/ui/file-upload.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1568,7 +1568,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/filter.tsx",
+          "path": "registry/dga/ui/filter.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1581,7 +1581,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/multi-select.tsx",
+          "path": "registry/dga/ui/multi-select.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1600,7 +1600,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/quote.tsx",
+          "path": "registry/dga/ui/quote.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1615,7 +1615,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/rating.tsx",
+          "path": "registry/dga/ui/rating.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1629,7 +1629,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/rich-text-editor.tsx",
+          "path": "registry/dga/ui/rich-text-editor.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1648,7 +1648,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/stat.tsx",
+          "path": "registry/dga/ui/stat.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1662,7 +1662,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/steps.tsx",
+          "path": "registry/dga/ui/steps.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1676,7 +1676,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/tag-input.tsx",
+          "path": "registry/dga/ui/tag-input.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1693,7 +1693,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/timeline.tsx",
+          "path": "registry/dga/ui/timeline.tsx",
           "type": "registry:ui"
         }
       ],
@@ -1706,7 +1706,7 @@
       "type": "registry:ui",
       "files": [
         {
-          "path": "ui/tree-view.tsx",
+          "path": "registry/dga/ui/tree-view.tsx",
           "type": "registry:ui"
         }
       ],

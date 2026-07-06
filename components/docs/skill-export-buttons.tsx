@@ -55,13 +55,13 @@ export function SkillExportButtons() {
         Copy Markdown
       </Button>
 
-      <DropdownMenu>
+      <DropdownMenu dir="ltr">
         <DropdownMenuTrigger asChild>
           <Button variant="outline" className="gap-2 bg-muted/50 font-medium px-3">
             Open <IconChevronDown size={14} className="text-muted-foreground" />
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent align="end" className="w-56" dir="ltr">
+        <DropdownMenuContent align="end" className="w-56">
           <DropdownMenuItem onClick={() => {
              const blob = new Blob([markdownInstruction], { type: 'text/markdown' })
              const url = URL.createObjectURL(blob)
@@ -103,7 +103,7 @@ export function SkillExportButtons() {
 
 export function SkillDownloadButton() {
   return (
-    <DropdownMenu>
+    <DropdownMenu dir="ltr">
       <DropdownMenuTrigger asChild>
         <Button className="gap-2 font-medium" variant="default">
           <IconDownload size={16} />
@@ -111,7 +111,7 @@ export function SkillDownloadButton() {
           <IconChevronDown size={14} className="opacity-70" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="start" className="w-48" dir="ltr">
+      <DropdownMenuContent align="start" className="w-48">
         <DropdownMenuItem asChild className="flex items-center gap-2 cursor-pointer">
           <a href="/saudi-nds-ui.skill" download>
             <IconCode size={16} className="opacity-70" />
