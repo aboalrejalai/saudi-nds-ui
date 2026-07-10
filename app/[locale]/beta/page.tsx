@@ -18,6 +18,19 @@ import {
   BubbleContent,
   BubbleReactions,
 } from "@/registry/dga/ui/beta/bubble"
+import {
+  MessageGroup,
+  Message,
+  MessageAvatar,
+  MessageContent,
+  MessageFooter,
+  MessageHeader,
+} from "@/registry/dga/ui/beta/message"
+import {
+  Marker,
+  MarkerContent,
+  MarkerIcon,
+} from "@/registry/dga/ui/beta/marker"
 import { Button } from "@/registry/dga/ui/button"
 import { DirectionToggle } from "@/components/docs/direction-toggle"
 import { HugeiconsIcon } from "@hugeicons/react"
@@ -32,6 +45,8 @@ import {
   DocumentAttachmentIcon,
   AiCloudIcon,
   Message01Icon,
+  Calendar01Icon,
+  CircleIcon,
 } from "@hugeicons/core-free-icons"
 
 export default function BetaPreviewPage() {
@@ -142,7 +157,7 @@ export default function BetaPreviewPage() {
               معاينة المكونات التجريبية (Beta)
             </h1>
             <p className="mt-2 text-sm text-[#4B5563] dark:text-[#9CA3AF]">
-              استعراض وتجربة تفاعلية لمكوني <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1.5 py-0.5 rounded text-[#1B8354] font-semibold">Attachment</code> و <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1.5 py-0.5 rounded text-[#1B8354] font-semibold">Bubble</code> بالهوية السعودية.
+              استعراض المكونات الأربعة المضافة: <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Attachment</code> و <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Bubble</code> و <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Message</code> و <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Marker</code>.
             </p>
           </div>
           <div className="flex items-center gap-3">
@@ -165,25 +180,62 @@ export default function BetaPreviewPage() {
             </div>
           </div>
 
-          {/* Chat Messages */}
+          {/* Chat Messages Area using Message & Marker Components */}
           <div className="flex-1 overflow-y-auto p-6 space-y-6">
-            <BubbleGroup>
+            <MessageGroup>
+              
+              {/* Marker Example: Time separator */}
+              <Marker variant="separator">
+                <MarkerIcon>
+                  <HugeiconsIcon icon={Calendar01Icon} className="size-3.5" />
+                </MarkerIcon>
+                <MarkerContent>اليوم، 10 يوليو 2026</MarkerContent>
+              </Marker>
+
               {messages.map((msg) => (
-                <Bubble key={msg.id} variant={msg.variant} align={msg.align}>
-                  <BubbleContent>
-                    <p>{msg.content}</p>
-                    <span className="mt-1 block text-[10px] text-end opacity-70">{msg.timestamp}</span>
-                  </BubbleContent>
-                  {msg.sender === "bot" && (
-                    <BubbleReactions side="bottom" align="start">
-                      <button className="hover:scale-125 transition-transform">👍</button>
-                      <button className="hover:scale-125 transition-transform">🇸🇦</button>
-                      <button className="hover:scale-125 transition-transform">❤️</button>
-                    </BubbleReactions>
-                  )}
-                </Bubble>
+                <Message key={msg.id} align={msg.align}>
+                  <MessageAvatar className="text-xs font-bold text-white bg-[#1B8354] dark:bg-[#166A45]">
+                    {msg.sender === "bot" ? "آلي" : "أنا"}
+                  </MessageAvatar>
+                  <MessageContent>
+                    <MessageHeader>
+                      <span>{msg.sender === "bot" ? "مساعد الهوية الوطنية" : "المستخدم"}</span>
+                      <span className="mx-1.5 text-muted-foreground/50">•</span>
+                      <span>{msg.timestamp}</span>
+                    </MessageHeader>
+                    
+                    <Bubble variant={msg.variant}>
+                      <BubbleContent>
+                        <p>{msg.content}</p>
+                      </BubbleContent>
+                      {msg.sender === "bot" && (
+                        <BubbleReactions side="bottom" align="start">
+                          <button className="hover:scale-125 transition-transform">👍</button>
+                          <button className="hover:scale-125 transition-transform">🇸🇦</button>
+                          <button className="hover:scale-125 transition-transform">❤️</button>
+                        </BubbleReactions>
+                      )}
+                    </Bubble>
+
+                    <MessageFooter>
+                      <HugeiconsIcon icon={TickDouble01Icon} className="size-3 text-[#1B8354] me-1" />
+                      <span>تم التسليم</span>
+                    </MessageFooter>
+                  </MessageContent>
+                </Message>
               ))}
-            </BubbleGroup>
+
+              {/* Marker Example: System status message */}
+              <Marker variant="border" side="start">
+                <MarkerIcon>
+                  <HugeiconsIcon icon={Message01Icon} className="size-3.5 text-[#1B8354]" />
+                </MarkerIcon>
+                <MarkerContent>
+                  تم التحقق من هويتك الرقمية عبر النفاذ الوطني الموحد. <a href="#">عرض الشهادة</a>
+                </MarkerContent>
+              </Marker>
+
+            </MessageGroup>
           </div>
 
           {/* File Attachments Area in Input Panel */}
@@ -236,6 +288,67 @@ export default function BetaPreviewPage() {
         {/* Detailed Variant Documentation Display */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           
+          {/* Message & Marker Layout Examples */}
+          <div className="bg-white dark:bg-[#1C2536] rounded-2xl border border-[#E5E7EB] dark:border-[#1F2A37] p-6 space-y-6">
+            <h3 className="font-bold text-lg text-[#111927] dark:text-[#FCFCFD]">تخطيط الرسائل والعلامات (Message & Marker)</h3>
+            
+            <div className="space-y-4">
+              <span className="text-xs font-semibold text-[#4B5563]">أنواع العلامات (Marker Variants):</span>
+              
+              <div className="space-y-3">
+                <div>
+                  <span className="text-[10px] text-muted-foreground block mb-1">علامة مع فاصل (Separator):</span>
+                  <Marker variant="separator">
+                    <MarkerContent>اليوم</MarkerContent>
+                  </Marker>
+                </div>
+                
+                <div>
+                  <span className="text-[10px] text-muted-foreground block mb-1">علامة بحدود سفلية (Border):</span>
+                  <Marker variant="border" side="start">
+                    <MarkerContent>تحديث أمني: تم تغيير رقم الجوال.</MarkerContent>
+                  </Marker>
+                </div>
+
+                <div>
+                  <span className="text-[10px] text-muted-foreground block mb-1">علامة افتراضية بدون خطوط (Default):</span>
+                  <Marker variant="default" side="center">
+                    <MarkerContent>نهاية سجل الأنشطة</MarkerContent>
+                  </Marker>
+                </div>
+              </div>
+
+              <div className="border-t border-[#E5E7EB] dark:border-[#1F2A37] pt-4 space-y-3">
+                <span className="text-xs font-semibold text-[#4B5563] block">اتجاه محاذاة الرسائل (Message Alignments):</span>
+                <div className="space-y-4">
+                  <div className="p-3 bg-[#F9FAFB] dark:bg-[#121824] rounded-xl border border-dashed border-[#E5E7EB] dark:border-[#1F2A37] space-y-4">
+                    
+                    <Message align="start">
+                      <MessageAvatar className="bg-[#E8F5E9] text-[#1B8354] font-bold text-xs">A</MessageAvatar>
+                      <MessageContent>
+                        <MessageHeader>المرسل (بداية / Start)</MessageHeader>
+                        <Bubble variant="secondary">
+                          <BubbleContent>المحاذاة الافتراضية للردود الآلية.</BubbleContent>
+                        </Bubble>
+                      </MessageContent>
+                    </Message>
+
+                    <Message align="end">
+                      <MessageAvatar className="bg-[#E8F5E9] text-[#1B8354] font-bold text-xs">U</MessageAvatar>
+                      <MessageContent>
+                        <MessageHeader>المرسل (نهاية / End)</MessageHeader>
+                        <Bubble variant="default">
+                          <BubbleContent>المحاذاة الافتراضية لرسائل المستخدم.</BubbleContent>
+                        </Bubble>
+                      </MessageContent>
+                    </Message>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Bubble Variants Spec */}
           <div className="bg-white dark:bg-[#1C2536] rounded-2xl border border-[#E5E7EB] dark:border-[#1F2A37] p-6 space-y-4">
             <h3 className="font-bold text-lg text-[#111927] dark:text-[#FCFCFD]">أنواع فقاعات الرسائل (Bubble Variants)</h3>
@@ -269,88 +382,6 @@ export default function BetaPreviewPage() {
                 <Bubble variant="destructive" align="start">
                   <BubbleContent>حدث خطأ في معالجة طلبك، يرجى إعادة المحاولة.</BubbleContent>
                 </Bubble>
-              </div>
-            </div>
-          </div>
-
-          {/* Attachment States Spec */}
-          <div className="bg-white dark:bg-[#1C2536] rounded-2xl border border-[#E5E7EB] dark:border-[#1F2A37] p-6 space-y-4">
-            <h3 className="font-bold text-lg text-[#111927] dark:text-[#FCFCFD]">حالات رفع الملفات (Attachment States)</h3>
-            <div className="space-y-4">
-              <div className="flex flex-col gap-2">
-                <span className="text-xs font-semibold text-[#4B5563]">Done (مكتمل):</span>
-                <Attachment state="done">
-                  <AttachmentMedia variant="icon">
-                    <HugeiconsIcon icon={File01Icon} className="size-4" />
-                  </AttachmentMedia>
-                  <AttachmentContent>
-                    <AttachmentTitle>الهوية_الوطنية.jpg</AttachmentTitle>
-                    <AttachmentDescription>1.4 MB • مكتمل</AttachmentDescription>
-                  </AttachmentContent>
-                  <AttachmentActions>
-                    <AttachmentAction size="icon-xs">
-                      <HugeiconsIcon icon={Download01Icon} className="size-3" />
-                    </AttachmentAction>
-                  </AttachmentActions>
-                </Attachment>
-              </div>
-              <div className="flex flex-col gap-2">
-                <span className="text-xs font-semibold text-[#4B5563]">Uploading (جاري الرفع):</span>
-                <Attachment state="uploading">
-                  <AttachmentMedia variant="icon">
-                    <HugeiconsIcon icon={File01Icon} className="size-4" />
-                  </AttachmentMedia>
-                  <AttachmentContent>
-                    <AttachmentTitle>شهادة_الميلاد.pdf</AttachmentTitle>
-                    <AttachmentDescription>جاري الرفع... 45%</AttachmentDescription>
-                  </AttachmentContent>
-                  <AttachmentActions>
-                    <AttachmentAction size="icon-xs">
-                      <HugeiconsIcon icon={Cancel01Icon} className="size-3" />
-                    </AttachmentAction>
-                  </AttachmentActions>
-                </Attachment>
-              </div>
-              <div className="flex flex-col gap-2">
-                <span className="text-xs font-semibold text-[#4B5563]">Error (فشل الرفع):</span>
-                <Attachment state="error">
-                  <AttachmentMedia variant="icon">
-                    <HugeiconsIcon icon={File01Icon} className="size-4 text-destructive" />
-                  </AttachmentMedia>
-                  <AttachmentContent>
-                    <AttachmentTitle>العقد_الموحد.pdf</AttachmentTitle>
-                    <AttachmentDescription>فشل الرفع</AttachmentDescription>
-                  </AttachmentContent>
-                  <AttachmentActions>
-                    <AttachmentAction size="icon-xs">
-                      <HugeiconsIcon icon={AlertCircleIcon} className="size-3 text-destructive" />
-                    </AttachmentAction>
-                  </AttachmentActions>
-                </Attachment>
-              </div>
-              <div className="flex flex-col gap-2">
-                <span className="text-xs font-semibold text-[#4B5563]">Vertical Orientation (تخطيط رأسي):</span>
-                <div className="flex gap-4">
-                  <Attachment state="done" orientation="vertical">
-                    <AttachmentMedia variant="icon" className="w-full">
-                      <HugeiconsIcon icon={File01Icon} className="size-6" />
-                    </AttachmentMedia>
-                    <AttachmentContent>
-                      <AttachmentTitle>ملف_البيانات</AttachmentTitle>
-                      <AttachmentDescription>2.3 MB</AttachmentDescription>
-                    </AttachmentContent>
-                  </Attachment>
-                  <Attachment state="idle" orientation="vertical">
-                    <AttachmentMedia variant="icon" className="w-full">
-                      <HugeiconsIcon icon={DocumentAttachmentIcon} className="size-6" />
-                    </AttachmentMedia>
-                    <AttachmentContent>
-                      <AttachmentTitle>إضافة ملف</AttachmentTitle>
-                      <AttachmentDescription>انقر هنا</AttachmentDescription>
-                    </AttachmentContent>
-                    <AttachmentTrigger />
-                  </Attachment>
-                </div>
               </div>
             </div>
           </div>
