@@ -31,6 +31,16 @@ import {
   MarkerContent,
   MarkerIcon,
 } from "@/registry/dga/ui/beta/marker"
+import {
+  MessageScroller,
+  MessageScrollerContent,
+  MessageScrollerItem,
+  MessageScrollerViewport,
+  MessageScrollerButton,
+} from "@/registry/dga/ui/beta/message-scroller"
+import { Toaster } from "@/registry/dga/ui/beta/toaster"
+import { useToast } from "@/registry/dga/ui/beta/use-toast"
+import { Typography } from "@/registry/dga/ui/beta/typography"
 import { Button } from "@/registry/dga/ui/button"
 import { DirectionToggle } from "@/components/docs/direction-toggle"
 import { HugeiconsIcon } from "@hugeicons/react"
@@ -46,10 +56,13 @@ import {
   AiCloudIcon,
   Message01Icon,
   Calendar01Icon,
-  CircleIcon,
+  Notification03Icon,
+  CheckmarkCircle02Icon,
 } from "@hugeicons/core-free-icons"
 
 export default function BetaPreviewPage() {
+  const { toast } = useToast()
+  
   const [messages, setMessages] = React.useState([
     {
       id: 1,
@@ -110,6 +123,13 @@ export default function BetaPreviewPage() {
     setMessages((prev) => [...prev, newMsg])
     setInputText("")
 
+    // Trigger toast indicating sending
+    toast({
+      title: "تم إرسال الرسالة",
+      description: "جاري توليد الرد من الذكاء الاصطناعي...",
+      variant: "default",
+    })
+
     // Simulating Bot Response
     setTimeout(() => {
       setMessages((prev) => [
@@ -117,17 +137,28 @@ export default function BetaPreviewPage() {
         {
           id: Date.now() + 1,
           sender: "bot",
-          content: `تلقيت رسالتك: "${inputText}". هذه الفقاعة تستخدم متغير اللون الهادئ (Tinted Variant) المتطابق مع لون SA-50 الخاص بهيئة الحكومة الرقمية.`,
+          content: `تلقيت رسالتك: "${inputText}". هذه الفقاعة تعمل الآن داخل حاوية التمرير التلقائي الذكي (MessageScroller).`,
           timestamp: new Date().toLocaleTimeString("ar-SA", { hour: '2-digit', minute: '2-digit' }),
           variant: "tinted" as const,
           align: "start" as const,
         }
       ])
+      
+      toast({
+        title: "رد جديد",
+        description: "تلقيت رداً جديداً من المساعد الرقمي.",
+        variant: "success",
+      })
     }, 1000)
   }
 
   const removeAttachment = (id: string) => {
     setAttachments((prev) => prev.filter((att) => att.id !== id))
+    toast({
+      title: "تم حذف الملف",
+      description: "تمت إزالة المرفق بنجاح.",
+      variant: "default",
+    })
   }
 
   const retryAttachment = (id: string) => {
@@ -143,6 +174,11 @@ export default function BetaPreviewPage() {
           att.id === id ? { ...att, state: "done", description: "1.2 MB • مكتمل" } : att
         )
       )
+      toast({
+        title: "اكتمل الرفع",
+        description: "تم رفع الملف بنجاح إلى الخادم.",
+        variant: "success",
+      })
     }, 2000)
   }
 
@@ -157,7 +193,7 @@ export default function BetaPreviewPage() {
               معاينة المكونات التجريبية (Beta)
             </h1>
             <p className="mt-2 text-sm text-[#4B5563] dark:text-[#9CA3AF]">
-              استعراض المكونات الأربعة المضافة: <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Attachment</code> و <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Bubble</code> و <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Message</code> و <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Marker</code>.
+              تم تفعيل كافة المكونات السبعة: <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Attachment</code>, <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Bubble</code>, <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Message</code>, <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Marker</code>, <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">MessageScroller</code>, <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Toast</code>, <code className="bg-[#F3F4F6] dark:bg-[#1F2A37] px-1 rounded text-[#1B8354] font-semibold">Typography</code>.
             </p>
           </div>
           <div className="flex items-center gap-3">
@@ -166,7 +202,7 @@ export default function BetaPreviewPage() {
           </div>
         </div>
 
-        {/* Dynamic Interactive Demo: Chat Interface */}
+        {/* Dynamic Interactive Demo: Chat Interface with MessageScroller */}
         <section className="bg-white dark:bg-[#1C2536] rounded-2xl border border-[#E5E7EB] dark:border-[#1F2A37] shadow-sm overflow-hidden flex flex-col h-[650px]">
           <div className="bg-[#F9FAFB] dark:bg-[#121824] px-6 py-4 border-b border-[#E5E7EB] dark:border-[#1F2A37] flex items-center justify-between">
             <div className="flex items-center gap-3">
@@ -175,68 +211,78 @@ export default function BetaPreviewPage() {
               </div>
               <div>
                 <h3 className="font-bold text-[#111927] dark:text-[#FCFCFD] text-sm">مساعد الهوية الوطنية الرقمي</h3>
-                <span className="text-xs text-[#069454] font-semibold flex items-center gap-1">🟢 متصل الآن</span>
+                <span className="text-xs text-[#069454] font-semibold flex items-center gap-1">🟢 متصل الآن (تجربة التمرير الذكي)</span>
               </div>
             </div>
           </div>
 
-          {/* Chat Messages Area using Message & Marker Components */}
-          <div className="flex-1 overflow-y-auto p-6 space-y-6">
-            <MessageGroup>
-              
-              {/* Marker Example: Time separator */}
-              <Marker variant="separator">
-                <MarkerIcon>
-                  <HugeiconsIcon icon={Calendar01Icon} className="size-3.5" />
-                </MarkerIcon>
-                <MarkerContent>اليوم، 10 يوليو 2026</MarkerContent>
-              </Marker>
+          {/* MessageScroller Viewport */}
+          <MessageScroller className="flex-1 min-h-0">
+            <MessageScrollerViewport className="p-6">
+              <MessageScrollerContent>
+                <MessageGroup>
+                  
+                  {/* Time separation Marker */}
+                  <Marker variant="separator">
+                    <MarkerIcon>
+                      <HugeiconsIcon icon={Calendar01Icon} className="size-3.5" />
+                    </MarkerIcon>
+                    <MarkerContent>اليوم، 10 يوليو 2026</MarkerContent>
+                  </Marker>
 
-              {messages.map((msg) => (
-                <Message key={msg.id} align={msg.align}>
-                  <MessageAvatar className="text-xs font-bold text-white bg-[#1B8354] dark:bg-[#166A45]">
-                    {msg.sender === "bot" ? "آلي" : "أنا"}
-                  </MessageAvatar>
-                  <MessageContent>
-                    <MessageHeader>
-                      <span>{msg.sender === "bot" ? "مساعد الهوية الوطنية" : "المستخدم"}</span>
-                      <span className="mx-1.5 text-muted-foreground/50">•</span>
-                      <span>{msg.timestamp}</span>
-                    </MessageHeader>
-                    
-                    <Bubble variant={msg.variant}>
-                      <BubbleContent>
-                        <p>{msg.content}</p>
-                      </BubbleContent>
-                      {msg.sender === "bot" && (
-                        <BubbleReactions side="bottom" align="start">
-                          <button className="hover:scale-125 transition-transform">👍</button>
-                          <button className="hover:scale-125 transition-transform">🇸🇦</button>
-                          <button className="hover:scale-125 transition-transform">❤️</button>
-                        </BubbleReactions>
-                      )}
-                    </Bubble>
+                  {messages.map((msg) => (
+                    <MessageScrollerItem key={msg.id} scrollAnchor={true}>
+                      <Message align={msg.align}>
+                        <MessageAvatar className="text-xs font-bold text-white bg-[#1B8354] dark:bg-[#166A45]">
+                          {msg.sender === "bot" ? "آلي" : "أنا"}
+                        </MessageAvatar>
+                        <MessageContent>
+                          <MessageHeader>
+                            <span>{msg.sender === "bot" ? "مساعد الهوية الوطنية" : "المستخدم"}</span>
+                            <span className="mx-1.5 text-muted-foreground/50">•</span>
+                            <span>{msg.timestamp}</span>
+                          </MessageHeader>
+                          
+                          <Bubble variant={msg.variant}>
+                            <BubbleContent>
+                              <p>{msg.content}</p>
+                            </BubbleContent>
+                            {msg.sender === "bot" && (
+                              <BubbleReactions side="bottom" align="start">
+                                <button className="hover:scale-125 transition-transform">👍</button>
+                                <button className="hover:scale-125 transition-transform">🇸🇦</button>
+                                <button className="hover:scale-125 transition-transform">❤️</button>
+                              </BubbleReactions>
+                            )}
+                          </Bubble>
 
-                    <MessageFooter>
-                      <HugeiconsIcon icon={TickDouble01Icon} className="size-3 text-[#1B8354] me-1" />
-                      <span>تم التسليم</span>
-                    </MessageFooter>
-                  </MessageContent>
-                </Message>
-              ))}
+                          <MessageFooter>
+                            <HugeiconsIcon icon={TickDouble01Icon} className="size-3 text-[#1B8354] me-1" />
+                            <span>تم التسليم</span>
+                          </MessageFooter>
+                        </MessageContent>
+                      </Message>
+                    </MessageScrollerItem>
+                  ))}
 
-              {/* Marker Example: System status message */}
-              <Marker variant="border" side="start">
-                <MarkerIcon>
-                  <HugeiconsIcon icon={Message01Icon} className="size-3.5 text-[#1B8354]" />
-                </MarkerIcon>
-                <MarkerContent>
-                  تم التحقق من هويتك الرقمية عبر النفاذ الوطني الموحد. <a href="#">عرض الشهادة</a>
-                </MarkerContent>
-              </Marker>
+                  {/* System status message */}
+                  <MessageScrollerItem>
+                    <Marker variant="border" side="start">
+                      <MarkerIcon>
+                        <HugeiconsIcon icon={CheckmarkCircle02Icon} className="size-3.5 text-[#1B8354]" />
+                      </MarkerIcon>
+                      <MarkerContent>
+                        تم التحقق من هويتك الرقمية عبر النفاذ الوطني الموحد. <a href="#">عرض الشهادة</a>
+                      </MarkerContent>
+                    </Marker>
+                  </MessageScrollerItem>
 
-            </MessageGroup>
-          </div>
+                </MessageGroup>
+              </MessageScrollerContent>
+            </MessageScrollerViewport>
+            {/* Smooth Floating Scroll Button */}
+            <MessageScrollerButton />
+          </MessageScroller>
 
           {/* File Attachments Area in Input Panel */}
           {attachments.length > 0 && (
@@ -285,103 +331,106 @@ export default function BetaPreviewPage() {
           </form>
         </section>
 
-        {/* Detailed Variant Documentation Display */}
+        {/* Actionable Grid for Toast triggers & Typography spec */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           
-          {/* Message & Marker Layout Examples */}
+          {/* Toast Triggers Panel */}
           <div className="bg-white dark:bg-[#1C2536] rounded-2xl border border-[#E5E7EB] dark:border-[#1F2A37] p-6 space-y-6">
-            <h3 className="font-bold text-lg text-[#111927] dark:text-[#FCFCFD]">تخطيط الرسائل والعلامات (Message & Marker)</h3>
-            
-            <div className="space-y-4">
-              <span className="text-xs font-semibold text-[#4B5563]">أنواع العلامات (Marker Variants):</span>
+            <div className="flex items-center gap-2">
+              <HugeiconsIcon icon={Notification03Icon} className="size-5 text-[#1B8354]" />
+              <h3 className="font-bold text-lg text-[#111927] dark:text-[#FCFCFD]">تنبيهات النظام التفاعلية (Toast Triggers)</h3>
+            </div>
+            <p className="text-xs text-muted-foreground">
+              اضغط على الأزرار بالأسفل لتجربة التنبيهات الكلاسيكية (Radix Toast) المخصصة بجمالية الهوية الوطنية السعودية.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <Button
+                variant="outline"
+                className="hover:border-[#1B8354] hover:text-[#1B8354]"
+                onClick={() =>
+                  toast({
+                    title: "تنبيه افتراضي",
+                    description: "تم الاتصال بالخادم الوطني الموحد بنجاح.",
+                    variant: "default",
+                  })
+                }
+              >
+                تنبيه افتراضي
+              </Button>
               
-              <div className="space-y-3">
-                <div>
-                  <span className="text-[10px] text-muted-foreground block mb-1">علامة مع فاصل (Separator):</span>
-                  <Marker variant="separator">
-                    <MarkerContent>اليوم</MarkerContent>
-                  </Marker>
-                </div>
-                
-                <div>
-                  <span className="text-[10px] text-muted-foreground block mb-1">علامة بحدود سفلية (Border):</span>
-                  <Marker variant="border" side="start">
-                    <MarkerContent>تحديث أمني: تم تغيير رقم الجوال.</MarkerContent>
-                  </Marker>
-                </div>
+              <Button
+                variant="outline"
+                className="hover:border-[#079455] hover:text-[#067647]"
+                onClick={() =>
+                  toast({
+                    title: "عملية ناجحة",
+                    description: "تم تحديث بيانات ملفك الشخصي بنجاح.",
+                    variant: "success",
+                  })
+                }
+              >
+                تنبيه نجاح
+              </Button>
 
-                <div>
-                  <span className="text-[10px] text-muted-foreground block mb-1">علامة افتراضية بدون خطوط (Default):</span>
-                  <Marker variant="default" side="center">
-                    <MarkerContent>نهاية سجل الأنشطة</MarkerContent>
-                  </Marker>
-                </div>
-              </div>
-
-              <div className="border-t border-[#E5E7EB] dark:border-[#1F2A37] pt-4 space-y-3">
-                <span className="text-xs font-semibold text-[#4B5563] block">اتجاه محاذاة الرسائل (Message Alignments):</span>
-                <div className="space-y-4">
-                  <div className="p-3 bg-[#F9FAFB] dark:bg-[#121824] rounded-xl border border-dashed border-[#E5E7EB] dark:border-[#1F2A37] space-y-4">
-                    
-                    <Message align="start">
-                      <MessageAvatar className="bg-[#E8F5E9] text-[#1B8354] font-bold text-xs">A</MessageAvatar>
-                      <MessageContent>
-                        <MessageHeader>المرسل (بداية / Start)</MessageHeader>
-                        <Bubble variant="secondary">
-                          <BubbleContent>المحاذاة الافتراضية للردود الآلية.</BubbleContent>
-                        </Bubble>
-                      </MessageContent>
-                    </Message>
-
-                    <Message align="end">
-                      <MessageAvatar className="bg-[#E8F5E9] text-[#1B8354] font-bold text-xs">U</MessageAvatar>
-                      <MessageContent>
-                        <MessageHeader>المرسل (نهاية / End)</MessageHeader>
-                        <Bubble variant="default">
-                          <BubbleContent>المحاذاة الافتراضية لرسائل المستخدم.</BubbleContent>
-                        </Bubble>
-                      </MessageContent>
-                    </Message>
-
-                  </div>
-                </div>
-              </div>
+              <Button
+                variant="outline"
+                className="hover:border-destructive hover:text-destructive"
+                onClick={() =>
+                  toast({
+                    title: "خطأ في المعالجة",
+                    description: "فشل التحقق من الجلسة الحالية، يرجى تسجيل الدخول.",
+                    variant: "destructive",
+                  })
+                }
+              >
+                تنبيه خطأ
+              </Button>
             </div>
           </div>
 
-          {/* Bubble Variants Spec */}
-          <div className="bg-white dark:bg-[#1C2536] rounded-2xl border border-[#E5E7EB] dark:border-[#1F2A37] p-6 space-y-4">
-            <h3 className="font-bold text-lg text-[#111927] dark:text-[#FCFCFD]">أنواع فقاعات الرسائل (Bubble Variants)</h3>
-            <div className="space-y-4">
-              <div className="flex flex-col gap-2">
-                <span className="text-xs font-semibold text-[#4B5563]">Default (الأخضر السعودي - للمرسل):</span>
-                <Bubble variant="default" align="start">
-                  <BubbleContent>مرحباً بك في المنصة الوطنية الموحدة.</BubbleContent>
-                </Bubble>
+          {/* Typography Spec Panel */}
+          <div className="bg-white dark:bg-[#1C2536] rounded-2xl border border-[#E5E7EB] dark:border-[#1F2A37] p-6 space-y-6">
+            <h3 className="font-bold text-lg text-[#111927] dark:text-[#FCFCFD]">نظام النصوص المعتمد (DGA Typography)</h3>
+            <div className="space-y-4 max-h-[300px] overflow-y-auto pr-2">
+              <div>
+                <Typography variant="muted" className="block mb-1">العنوان الأول (H1):</Typography>
+                <Typography variant="h1">هيئة الحكومة الرقمية</Typography>
               </div>
-              <div className="flex flex-col gap-2">
-                <span className="text-xs font-semibold text-[#4B5563]">Tinted (أخضر خفيف - للمستلم/البوت):</span>
-                <Bubble variant="tinted" align="start">
-                  <BubbleContent>مرحباً بك في المنصة الوطنية الموحدة.</BubbleContent>
-                </Bubble>
+
+              <div className="border-t border-[#E5E7EB] dark:border-[#1F2A37] pt-2">
+                <Typography variant="muted" className="block mb-1">العنوان الثاني (H2):</Typography>
+                <Typography variant="h2">الخدمات الرقمية المشتركة</Typography>
               </div>
-              <div className="flex flex-col gap-2">
-                <span className="text-xs font-semibold text-[#4B5563]">Secondary (رمادي عادي):</span>
-                <Bubble variant="secondary" align="start">
-                  <BubbleContent>تم استلام طلبك بنجاح وسوف يتم الرد قريباً.</BubbleContent>
-                </Bubble>
+
+              <div className="border-t border-[#E5E7EB] dark:border-[#1F2A37] pt-2">
+                <Typography variant="muted" className="block mb-1">العنوان الثالث (H3):</Typography>
+                <Typography variant="h3">رؤية السعودية 2030</Typography>
               </div>
-              <div className="flex flex-col gap-2">
-                <span className="text-xs font-semibold text-[#4B5563]">Outline (محدد بحدود):</span>
-                <Bubble variant="outline" align="start">
-                  <BubbleContent>تاريخ انتهاء الهوية الوطنية يقترب.</BubbleContent>
-                </Bubble>
+
+              <div className="border-t border-[#E5E7EB] dark:border-[#1F2A37] pt-2">
+                <Typography variant="muted" className="block mb-1">الفقرة الافتراضية (Paragraph):</Typography>
+                <Typography variant="p">
+                  تهدف الهوية الوطنية الرقمية إلى تسهيل وتقديم تجربة استخدام مرنة وموحدة لكافة المواطنين والمقيمين في المملكة العربية السعودية.
+                </Typography>
               </div>
-              <div className="flex flex-col gap-2">
-                <span className="text-xs font-semibold text-[#4B5563]">Destructive (حالة خطأ):</span>
-                <Bubble variant="destructive" align="start">
-                  <BubbleContent>حدث خطأ في معالجة طلبك، يرجى إعادة المحاولة.</BubbleContent>
-                </Bubble>
+
+              <div className="border-t border-[#E5E7EB] dark:border-[#1F2A37] pt-2">
+                <Typography variant="muted" className="block mb-1">نص مقتبس (Blockquote):</Typography>
+                <Typography variant="blockquote">
+                  نحن نعمل على تمكين الجهات الحكومية رقمياً لتقديم خدمات ذات كفاءة وموثوقية عالية.
+                </Typography>
+              </div>
+
+              <div className="border-t border-[#E5E7EB] dark:border-[#1F2A37] pt-2">
+                <Typography variant="muted" className="block mb-1">كود مدمج (Inline Code):</Typography>
+                <Typography variant="p">
+                  لتشغيل الحاوية البرمجية، استخدم الأمر <Typography variant="inlineCode">npm run dev</Typography> في منفذ الأوامر.
+                </Typography>
+              </div>
+
+              <div className="border-t border-[#E5E7EB] dark:border-[#1F2A37] pt-2">
+                <Typography variant="muted" className="block mb-1">نص قيادي (Lead Text):</Typography>
+                <Typography variant="lead">هذا نص عريض ومميز للفقرات القيادية الرئيسية.</Typography>
               </div>
             </div>
           </div>
@@ -389,6 +438,9 @@ export default function BetaPreviewPage() {
         </div>
 
       </div>
+      
+      {/* Toast Render Area */}
+      <Toaster />
     </div>
   )
 }
