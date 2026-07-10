@@ -989,4 +989,130 @@ export const ui: Registry["items"] = [
     "@aboalrejal/nds-icons"
   ]
 },
+  {
+  "name": "attachment",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/attachment.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ],
+  "registryDependencies": [
+    "button"
+  ]
+},
+  {
+  "name": "bubble",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/bubble.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ]
+},
+  {
+  "name": "marker",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/marker.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "radix-ui"
+  ]
+},
+  {
+  "name": "message-scroller",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/message-scroller.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "@shadcn/react",
+    "@hugeicons/core-free-icons",
+    "@hugeicons/react"
+  ],
+  "registryDependencies": [
+    "button"
+  ]
+},
+  {
+  "name": "message",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/message.tsx",
+      "type": "registry:ui"
+    }
+  ]
+},
+  {
+  "name": "toast",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/toast.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority",
+    "@hugeicons/react",
+    "@hugeicons/core-free-icons",
+    "radix-ui"
+  ]
+},
+  {
+  "name": "use-toast",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/use-toast.ts",
+      "type": "registry:ui"
+    }
+  ]
+},
+  {
+  "name": "toaster",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/toaster.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "registryDependencies": [
+    "toast",
+    "use-toast"
+  ]
+},
+  {
+  "name": "typography",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "ui/typography.tsx",
+      "type": "registry:ui"
+    }
+  ],
+  "dependencies": [
+    "class-variance-authority"
+  ]
+},
 ]

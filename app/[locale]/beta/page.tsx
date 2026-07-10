@@ -11,13 +11,13 @@ import {
   AttachmentActions,
   AttachmentAction,
   AttachmentTrigger,
-} from "@/registry/dga/ui/beta/attachment"
+} from "@/registry/dga/ui/attachment"
 import {
   BubbleGroup,
   Bubble,
   BubbleContent,
   BubbleReactions,
-} from "@/registry/dga/ui/beta/bubble"
+} from "@/registry/dga/ui/bubble"
 import {
   MessageGroup,
   Message,
@@ -25,12 +25,12 @@ import {
   MessageContent,
   MessageFooter,
   MessageHeader,
-} from "@/registry/dga/ui/beta/message"
+} from "@/registry/dga/ui/message"
 import {
   Marker,
   MarkerContent,
   MarkerIcon,
-} from "@/registry/dga/ui/beta/marker"
+} from "@/registry/dga/ui/marker"
 import {
   MessageScrollerProvider,
   MessageScroller,
@@ -38,10 +38,10 @@ import {
   MessageScrollerItem,
   MessageScrollerViewport,
   MessageScrollerButton,
-} from "@/registry/dga/ui/beta/message-scroller"
-import { Toaster } from "@/registry/dga/ui/beta/toaster"
-import { useToast } from "@/registry/dga/ui/beta/use-toast"
-import { Typography } from "@/registry/dga/ui/beta/typography"
+} from "@/registry/dga/ui/message-scroller"
+import { Toaster } from "@/registry/dga/ui/toaster"
+import { useToast } from "@/registry/dga/ui/use-toast"
+import { Typography } from "@/registry/dga/ui/typography"
 import { Button } from "@/registry/dga/ui/button"
 import { DirectionToggle } from "@/components/docs/direction-toggle"
 import { HugeiconsIcon } from "@hugeicons/react"
