@@ -26,7 +26,7 @@ const nextConfig: NextConfig = {
     mdxRs: {
       mdxType: "gfm",
     },
-    cssChunking: true,
+    cssChunking: false,
   },
 }
 
