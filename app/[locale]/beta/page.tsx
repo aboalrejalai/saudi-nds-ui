@@ -32,6 +32,7 @@ import {
   MarkerIcon,
 } from "@/registry/dga/ui/beta/marker"
 import {
+  MessageScrollerProvider,
   MessageScroller,
   MessageScrollerContent,
   MessageScrollerItem,
@@ -216,73 +217,75 @@ export default function BetaPreviewPage() {
             </div>
           </div>
 
-          {/* MessageScroller Viewport */}
-          <MessageScroller className="flex-1 min-h-0">
-            <MessageScrollerViewport className="p-6">
-              <MessageScrollerContent>
-                <MessageGroup>
-                  
-                  {/* Time separation Marker */}
-                  <Marker variant="separator">
-                    <MarkerIcon>
-                      <HugeiconsIcon icon={Calendar01Icon} className="size-3.5" />
-                    </MarkerIcon>
-                    <MarkerContent>اليوم، 10 يوليو 2026</MarkerContent>
-                  </Marker>
+          {/* MessageScroller Provider & Viewport */}
+          <MessageScrollerProvider>
+            <MessageScroller className="flex-1 min-h-0">
+              <MessageScrollerViewport className="p-6">
+                <MessageScrollerContent>
+                  <MessageGroup>
+                    
+                    {/* Time separation Marker */}
+                    <Marker variant="separator">
+                      <MarkerIcon>
+                        <HugeiconsIcon icon={Calendar01Icon} className="size-3.5" />
+                      </MarkerIcon>
+                      <MarkerContent>اليوم، 10 يوليو 2026</MarkerContent>
+                    </Marker>
 
-                  {messages.map((msg) => (
-                    <MessageScrollerItem key={msg.id} scrollAnchor={true}>
-                      <Message align={msg.align}>
-                        <MessageAvatar className="text-xs font-bold text-white bg-[#1B8354] dark:bg-[#166A45]">
-                          {msg.sender === "bot" ? "آلي" : "أنا"}
-                        </MessageAvatar>
-                        <MessageContent>
-                          <MessageHeader>
-                            <span>{msg.sender === "bot" ? "مساعد الهوية الوطنية" : "المستخدم"}</span>
-                            <span className="mx-1.5 text-muted-foreground/50">•</span>
-                            <span>{msg.timestamp}</span>
-                          </MessageHeader>
-                          
-                          <Bubble variant={msg.variant}>
-                            <BubbleContent>
-                              <p>{msg.content}</p>
-                            </BubbleContent>
-                            {msg.sender === "bot" && (
-                              <BubbleReactions side="bottom" align="start">
+                    {messages.map((msg) => (
+                      <MessageScrollerItem key={msg.id} scrollAnchor={true}>
+                        <Message align={msg.align}>
+                          <MessageAvatar className="text-xs font-bold text-white bg-[#1B8354] dark:bg-[#166A45]">
+                            {msg.sender === "bot" ? "آلي" : "أنا"}
+                          </MessageAvatar>
+                          <MessageContent>
+                            <MessageHeader>
+                              <span>{msg.sender === "bot" ? "مساعد الهوية الوطنية" : "المستخدم"}</span>
+                              <span className="mx-1.5 text-muted-foreground/50">•</span>
+                              <span>{msg.timestamp}</span>
+                            </MessageHeader>
+                            
+                            <Bubble variant={msg.variant}>
+                              <BubbleContent>
+                                <p>{msg.content}</p>
+                              </BubbleContent>
+                              {msg.sender === "bot" && (
+                                <BubbleReactions side="bottom" align="start">
                                 <button className="hover:scale-125 transition-transform">👍</button>
                                 <button className="hover:scale-125 transition-transform">🇸🇦</button>
                                 <button className="hover:scale-125 transition-transform">❤️</button>
                               </BubbleReactions>
-                            )}
-                          </Bubble>
+                              )}
+                            </Bubble>
 
-                          <MessageFooter>
-                            <HugeiconsIcon icon={TickDouble01Icon} className="size-3 text-[#1B8354] me-1" />
-                            <span>تم التسليم</span>
-                          </MessageFooter>
-                        </MessageContent>
-                      </Message>
+                            <MessageFooter>
+                              <HugeiconsIcon icon={TickDouble01Icon} className="size-3 text-[#1B8354] me-1" />
+                              <span>تم التسليم</span>
+                            </MessageFooter>
+                          </MessageContent>
+                        </Message>
+                      </MessageScrollerItem>
+                    ))}
+
+                    {/* System status message */}
+                    <MessageScrollerItem>
+                      <Marker variant="border" side="start">
+                        <MarkerIcon>
+                          <HugeiconsIcon icon={CheckmarkCircle02Icon} className="size-3.5 text-[#1B8354]" />
+                        </MarkerIcon>
+                        <MarkerContent>
+                          تم التحقق من هويتك الرقمية عبر النفاذ الوطني الموحد. <a href="#">عرض الشهادة</a>
+                        </MarkerContent>
+                      </Marker>
                     </MessageScrollerItem>
-                  ))}
 
-                  {/* System status message */}
-                  <MessageScrollerItem>
-                    <Marker variant="border" side="start">
-                      <MarkerIcon>
-                        <HugeiconsIcon icon={CheckmarkCircle02Icon} className="size-3.5 text-[#1B8354]" />
-                      </MarkerIcon>
-                      <MarkerContent>
-                        تم التحقق من هويتك الرقمية عبر النفاذ الوطني الموحد. <a href="#">عرض الشهادة</a>
-                      </MarkerContent>
-                    </Marker>
-                  </MessageScrollerItem>
-
-                </MessageGroup>
-              </MessageScrollerContent>
-            </MessageScrollerViewport>
-            {/* Smooth Floating Scroll Button */}
-            <MessageScrollerButton />
-          </MessageScroller>
+                  </MessageGroup>
+                </MessageScrollerContent>
+              </MessageScrollerViewport>
+              {/* Smooth Floating Scroll Button */}
+              <MessageScrollerButton />
+            </MessageScroller>
+          </MessageScrollerProvider>
 
           {/* File Attachments Area in Input Panel */}
           {attachments.length > 0 && (
