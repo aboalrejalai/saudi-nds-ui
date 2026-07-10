@@ -1,63 +1,63 @@
-# دستور وتعليمات بناء المكونات (AI Component Creation Guide)
+# AI Component Creation Guide
 
-هذا المستند هو **الدستور والمرجع الأساسي** لأي وكيل ذكاء اصطناعي (AI Agent) يُطلب منه إضافة مكون (Component) جديد إلى مكتبة `saudi-nds-ui`. 
-يُمنع منعاً باتاً الاجتهاد خارج هذه التعليمات لضمان تطابق جميع المكونات مع هوية هيئة الحكومة الرقمية (DGA) ومعايير التصميم الوطني (NDS).
-
----
-
-## 🎯 الهدف
-تحويل أي مكون UI عام (مثلاً من Shadcn أو مكتبات أخرى) إلى مكون متوافق 100% مع الهوية السعودية، تصميماً، وبرمجة، ودعماً للغة العربية.
+This document is the **core specification and primary reference** for any AI agent tasked with adding a new component to the `saudi-nds-ui` library.
+Adhering strictly to these guidelines ensures that all components conform to the Digital Government Authority (DGA) visual identity and Saudi National Design System (NDS) standards.
 
 ---
 
-## 📋 الخطوات الإلزامية لإضافة أي مكون جديد
+## 🎯 Goal
+Convert any generic UI component (e.g., from Shadcn UI or other libraries) into a component that is 100% compliant with the Saudi National Design System in terms of design, code structure, and RTL (Right-to-Left) Arabic support.
 
-عندما يطلب منك المستخدم إضافة مكون جديد ويُرفق لك ملفاته أو توثيقه، يجب عليك اتباع هذا المسار بدقة:
+---
 
-### 1. تحليل المكون ومعالجته برمجياً
-- اقرأ التوثيق المرفق للمكون لفهم طريقة عمله والـ Props الخاصة به.
-- تأكد أن المكون مبني على **React** و **Tailwind CSS**.
-- نظف الكود من أي ملفات CSS خارجية، واعتمد بالكامل على أصناف Tailwind (Utility Classes).
+## 📋 Mandatory Steps for Adding a Component
 
-### 2. تطبيق الهوية البصرية (Colors & Typography)
-يجب تعديل ألوان المكون وخطوطه ليتطابق مع هويتنا:
-- **الخط الأساسي:** يجب استخدام خط `IBM Plex Sans Arabic` لجميع النصوص.
-- **الألوان الأساسية (Primary):**
-  - استبدل الألوان الأساسية للمكون (مثل الأزرق أو الأسود) باللون الأخضر السعودي:
-  - اللون الرئيسي: `bg-[#1B8354]` أو `text-[#1B8354]` (يعادل SA 600).
-  - عند التمرير (Hover): `bg-[#166A45]` (يعادل SA 700).
-- **الألوان المحايدة (Neutral):**
-  - الخلفيات الفاتحة: `bg-[#FCFCFD]` أو `bg-[#F9FAFB]`.
-  - النصوص العادية: `text-[#1F2A37]`.
+When tasked with adding a new component, you must follow this sequence precisely:
 
-### 3. دعم اللغة العربية والتخطيط (RTL & Direction)
-لأن المكتبة موجهة للغة العربية (RTL-First)، يُمنع استخدام الخصائص المكانية الثابتة:
-- **المسافات (Spacing):** 
-  - استبدل `ml-` بـ `ms-` (Margin Start).
-  - استبدل `mr-` بـ `me-` (Margin End).
-  - استبدل `pl-` بـ `ps-` (Padding Start).
-  - استبدل `pr-` بـ `pe-` (Padding End).
-- **الأيقونات (Icons):**
-  - أي أيقونة تدل على اتجاه (مثل سهم يمين/يسار) يجب أن يتم عكسها في وضع RTL باستخدام صنف Tailwind: `rtl:rotate-180` أو `rtl:-scale-x-100`.
+### 1. Code Analysis & Cleanup
+* Read the component documentation to understand its behaviors, props, and API surface.
+* Ensure the component is built using **React** and **Tailwind CSS**.
+* Clean the code of any external CSS file imports; rely entirely on Tailwind CSS utility classes.
 
-### 4. نقل المكون إلى وجهته الصحيحة
-- بمجرد الانتهاء من تجهيز الكود وتصميمه، قم بإنشاء ملف جديد للمكون داخل المسار الإلزامي التالي:
+### 2. Visual Identity (Colors & Typography)
+Adjust the colors and fonts to align with the official DGA styling:
+* **Typography:** Use the `IBM Plex Sans Arabic` font family for all text elements.
+* **Primary Colors (Saudi Identity):**
+  * Replace the component's default primary colors (e.g., blue, black, indigo) with the official Saudi Green:
+    * Background/text color: `bg-[#1B8354]` or `text-[#1B8354]` (equivalent to SA 600).
+    * Hover state: `bg-[#166A45]` (equivalent to SA 700).
+* **Neutral Colors:**
+  * Light backgrounds: `bg-[#FCFCFD]` or `bg-[#F9FAFB]`.
+  * Standard body text: `text-[#1F2A37]`.
+
+### 3. RTL & Direction Support (Right-to-Left First)
+Since this library is RTL-first, you must use logical Tailwind utilities instead of directional ones:
+* **Spacing & Padding:**
+  * Replace `ml-` (margin-left) with `ms-` (margin-start).
+  * Replace `mr-` (margin-right) with `me-` (margin-end).
+  * Replace `pl-` (padding-left) with `ps-` (padding-start).
+  * Replace `pr-` (padding-right) with `pe-` (padding-end).
+* **Directional Icons:**
+  * Any icon representing direction (e.g., arrows) must be mirrored in RTL mode using the Tailwind utility: `rtl:rotate-180` or `rtl:-scale-x-100`.
+
+### 4. Component Placement
+* Once customized, create the component file at the mandatory path:
   `registry/dga/ui/<component-name>.tsx`
-- يُمنع وضع المكونات في مجلدات خارجية، الوجهة الوحيدة هي مجلد `registry`.
+* Do **not** place component source files in any external directories. The only destination is `registry/dga/ui/`.
 
-### 5. إضافة المكون لقاعدة البيانات (Registry JSON)
-كي يصبح المكون متاحاً للتحميل الخارجي:
-1. إذا تطلب الأمر، أضف بيانات المكون في ملف `registry.json` أو ملفات الإعدادات المشابهة إذا طلب منك المستخدم ذلك.
-2. قم بتصدير المكون (Export) إذا لزم الأمر ليتم اختباره محلياً.
-3. قم بتشغيل أمر البناء لتحديث قاعدة البيانات وتوليد الروابط:
+### 5. Registry Registration & Build
+To expose the component for external CLI download:
+1. Register the component in `registry.json` (or let scripts do it).
+2. Export the component for local testing.
+3. Build the registry by running:
    ```bash
    npm run registry:build
    ```
 
-### 6. الاختبار والاعتماد
-- قم بإنشاء صفحة اختبار مؤقتة (مثلاً `app/components/<component-name>/page.tsx`) لعرض المكون للمستخدم والتأكد من نجاح التصميم وتطابقه مع الهوية في وضعي (LTR) و (RTL).
-- بمجرد موافقة المستخدم، يصبح المكون جزءاً رسمياً من مكتبة `Saudi NDS UI`.
+### 6. Verification & Staging
+* Create a temporary testing page (e.g., `app/components/<component-name>/page.tsx`) to showcase the component and verify layout rendering in both LTR and RTL directions.
+* Once verified and approved by the user, the component becomes an official part of `Saudi NDS UI`.
 
 ---
 
-> **ملاحظة للوكيل الذكي:** التزم بهذه القواعد حرفياً، ولا تقم أبداً بتغيير مكتبات الأيقونات المعتمدة أو إضافة حزم NPM ضخمة دون إذن مسبق من المستخدم. الدقة في مطابقة الألوان والمسافات هي ما يجعل هذه المكتبة احترافية.
+> **Note for AI Agents:** Adhere to these instructions strictly. Do not change approved icon libraries or add large NPM packages without explicit permission. Precision in colors, borders, and margins is what makes this library professional.
