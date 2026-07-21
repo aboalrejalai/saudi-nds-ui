@@ -1,6 +1,6 @@
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -8,8 +8,8 @@ const __dirname = path.dirname(__filename);
 const targetDirArg = process.argv[2];
 
 if (!targetDirArg) {
-  console.log('Error: Please specify the target directory to analyze.');
-  console.log('Usage: node analyze-migration.js <path-to-project>');
+  console.log("Error: Please specify the target directory to analyze.");
+  console.log("Usage: node analyze-migration.js <path-to-project>");
   process.exit(1);
 }
 
@@ -19,14 +19,14 @@ if (!fs.existsSync(targetPath)) {
   process.exit(1);
 }
 
-const guidePath = path.join(__dirname, '../references/components-guide.md');
+const guidePath = path.join(__dirname, "../references/components-guide.md");
 if (!fs.existsSync(guidePath)) {
   console.error(`Error: Components guide not found at: ${guidePath}`);
   process.exit(1);
 }
 
 // 1. Load the 56 DGA components from guide
-const guideContent = fs.readFileSync(guidePath, 'utf-8');
+const guideContent = fs.readFileSync(guidePath, "utf-8");
 const dgaComponents = new Set();
 const headerRegex = /## Component:\s*([A-Z0-9_-]+)/g;
 let headerMatch;
@@ -44,7 +44,7 @@ const walkDir = (dir, callback) => {
     const stat = fs.statSync(filePath);
     if (stat.isDirectory()) {
       // Skip common dependencies and build folders
-      if (['node_modules', '.git', '.next', 'dist', 'build', 'out', 'skills'].includes(file)) {
+      if (["node_modules", ".git", ".next", "dist", "build", "out", "skills"].includes(file)) {
         continue;
       }
       walkDir(filePath, callback);
@@ -66,23 +66,23 @@ const detectedNonDgaWithRepl = new Map(); // name -> suggestions
 const detectedCustom = new Set();
 
 const rawHtmlReplacements = {
-  'button': 'button',
-  'input': 'input',
-  'select': 'select',
-  'table': 'table',
-  'textarea': 'textarea',
+  button: "button",
+  input: "input",
+  select: "select",
+  table: "table",
+  textarea: "textarea",
 };
 
 const fileCount = { total: 0, scanned: 0 };
 
 walkDir(targetPath, (filePath) => {
   fileCount.scanned++;
-  const code = fs.readFileSync(filePath, 'utf-8');
-  const lines = code.split('\n');
+  const code = fs.readFileSync(filePath, "utf-8");
+  const lines = code.split("\n");
 
   // Detect imports
-  const importLines = lines.filter(l => l.includes('import ') && l.includes('from '));
-  
+  const importLines = lines.filter((l) => l.includes("import ") && l.includes("from "));
+
   // Simple JSX Tag Extractor (finds capitalised JSX elements like <Button or <Tabs)
   const jsxTagRegex = /<([A-Z][a-zA-Z0-9]*)\b/g;
   let match;
@@ -93,28 +93,31 @@ walkDir(targetPath, (filePath) => {
 
   // Detect raw HTML tags
   for (const [tag, comp] of Object.entries(rawHtmlReplacements)) {
-    const rawTagRegex = new RegExp(`<${tag}\\b`, 'g');
+    const rawTagRegex = new RegExp(`<${tag}\\b`, "g");
     if (rawTagRegex.test(code)) {
       const key = `Raw HTML <${tag}>`;
       detectedNonDgaWithRepl.set(key, comp);
       scanResults.typeB.push({
         file: path.relative(targetPath, filePath),
         component: key,
-        suggestion: `Replace with DGA component: <${comp.charAt(0).toUpperCase() + comp.slice(1)}>`
+        suggestion: `Replace with DGA component: <${comp.charAt(0).toUpperCase() + comp.slice(1)}>`,
       });
     }
   }
 
   // Analyze JSX tags
-  tagsInFile.forEach(tag => {
+  tagsInFile.forEach((tag) => {
     const lowercaseTag = tag.toLowerCase();
-    
+
     // Check if tag matches a DGA component name
     if (dgaComponents.has(lowercaseTag)) {
       // Check if it is imported from DGA registry or UI components
-      const isDgaImport = importLines.some(line => 
-        line.includes(tag) && 
-        (line.includes('@/components/ui') || line.includes('@dga') || line.includes('platformscode-new-react'))
+      const isDgaImport = importLines.some(
+        (line) =>
+          line.includes(tag) &&
+          (line.includes("@/components/ui") ||
+            line.includes("@dga") ||
+            line.includes("platformscode-new-react")),
       );
 
       if (isDgaImport) {
@@ -122,24 +125,38 @@ walkDir(targetPath, (filePath) => {
         scanResults.typeA.push({
           file: path.relative(targetPath, filePath),
           component: tag,
-          path: `@/components/ui/${lowercaseTag}`
+          path: `@/components/ui/${lowercaseTag}`,
         });
       } else {
         detectedNonDgaWithRepl.set(tag, lowercaseTag);
         scanResults.typeB.push({
           file: path.relative(targetPath, filePath),
           component: tag,
-          suggestion: `Migrate to DGA Registry: Run \`npx shadcn@latest add https://nds.aboalrejal.com/r/${lowercaseTag}.json\``
+          suggestion: `Migrate to DGA Registry: Run \`npx shadcn@latest add https://nds.aboalrejal.com/r/${lowercaseTag}.json\``,
         });
       }
     } else {
       // It's a custom/specialized component (like Chart, Layout, or custom business logic)
       // Check if it is a local helper or third party library components (skip typical React router / context / icons)
-      if (!['Fragment', 'Suspense', 'Link', 'Route', 'Routes', 'Provider', 'Icon', 'HugeiconsIcon', 'Image'].includes(tag) && !tag.endsWith('Provider') && !tag.endsWith('Context')) {
+      if (
+        ![
+          "Fragment",
+          "Suspense",
+          "Link",
+          "Route",
+          "Routes",
+          "Provider",
+          "Icon",
+          "HugeiconsIcon",
+          "Image",
+        ].includes(tag) &&
+        !tag.endsWith("Provider") &&
+        !tag.endsWith("Context")
+      ) {
         detectedCustom.add(tag);
         scanResults.typeC.push({
           file: path.relative(targetPath, filePath),
-          component: tag
+          component: tag,
         });
       }
     }
@@ -147,7 +164,7 @@ walkDir(targetPath, (filePath) => {
 });
 
 // 3. Generate Markdown Report
-const reportPath = path.join(targetPath, 'migration-report.md');
+const reportPath = path.join(targetPath, "migration-report.md");
 let reportContent = `# Saudi DGA Registry Migration & Compatibility Report
 
 This report analyzes the UI components used in your codebase and identifies DGA registry replacements to assist with your migration to the Saudi National Design System (NDS).
@@ -181,8 +198,8 @@ if (detectedNonDgaWithRepl.size === 0) {
   reportContent += `| None | - | No replacements needed! |\n`;
 } else {
   detectedNonDgaWithRepl.forEach((dgaName, current) => {
-    if (current.startsWith('Raw HTML')) {
-      const cleanHtml = current.replace('Raw HTML <', '').replace('>', '');
+    if (current.startsWith("Raw HTML")) {
+      const cleanHtml = current.replace("Raw HTML <", "").replace(">", "");
       reportContent += `| \`<${cleanHtml}>\` (Raw HTML) | \`${dgaName.toUpperCase()}\` | Install and replace with DGA Component: \`npx shadcn@latest add https://nds.aboalrejal.com/r/${dgaName}.json\` |\n`;
     } else {
       reportContent += `| \`<${current}>\` | \`${dgaName.toUpperCase()}\` | Run: \`npx shadcn@latest add https://nds.aboalrejal.com/r/${dgaName}.json\` |\n`;
@@ -221,10 +238,10 @@ These elements have no direct equivalents in the 56 DGA components. Review if th
 if (detectedCustom.size === 0) {
   reportContent += `| None | - |\n`;
 } else {
-  detectedCustom.forEach(tag => {
-    const filesUsing = scanResults.typeC.filter(r => r.component === tag).map(r => r.file);
-    const uniqueFiles = [...new Set(filesUsing)].slice(0, 3).join(', ');
-    const countText = filesUsing.length > 3 ? ` (+${filesUsing.length - 3} more)` : '';
+  detectedCustom.forEach((tag) => {
+    const filesUsing = scanResults.typeC.filter((r) => r.component === tag).map((r) => r.file);
+    const uniqueFiles = [...new Set(filesUsing)].slice(0, 3).join(", ");
+    const countText = filesUsing.length > 3 ? ` (+${filesUsing.length - 3} more)` : "";
     reportContent += `| \`<${tag}>\` | \`${uniqueFiles}${countText}\` |\n`;
   });
 }
@@ -239,7 +256,7 @@ reportContent += `
 4. Run \`node skills/saudi-nds-ui/scripts/audit-page.js <filename>\` to verify alignment and accessibility of your updated pages.
 `;
 
-fs.writeFileSync(reportPath, reportContent, 'utf-8');
+fs.writeFileSync(reportPath, reportContent, "utf-8");
 
 console.log(`\n==========================================`);
 console.log(`Migration analysis completed successfully!`);

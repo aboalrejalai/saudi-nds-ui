@@ -16,7 +16,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/tag-input.json
 ```tsx
 import { TagInput } from "@/components/ui/tag-input";
 
-<TagInput>Tag Input</TagInput>
+<TagInput>Tag Input</TagInput>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/tag-input.tsx`). Fetch it via the install command above.

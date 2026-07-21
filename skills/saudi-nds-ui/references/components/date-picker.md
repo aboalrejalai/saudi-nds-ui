@@ -16,7 +16,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/date-picker.json
 ```tsx
 import { DatePicker } from "@/components/ui/date-picker";
 
-<DatePicker>Date Picker</DatePicker>
+<DatePicker>Date Picker</DatePicker>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/date-picker.tsx`). Fetch it via the install command above.

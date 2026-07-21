@@ -109,7 +109,7 @@ In your `app/globals.css` (or `styles/globals.css`), import the tokens file **be
 }
 ```
 
-> **Why `@theme inline`?** `inline` tells Tailwind to emit utilities that reference the variable *by name* (e.g. `bg-primary` → `background-color: var(--primary)`) instead of copying the variable's value at build time. This keeps the DGA tokens (`--button-*`, `--text-*`, …) authoritative and lets dark mode / theming override them at runtime.
+> **Why `@theme inline`?** `inline` tells Tailwind to emit utilities that reference the variable _by name_ (e.g. `bg-primary` → `background-color: var(--primary)`) instead of copying the variable's value at build time. This keeps the DGA tokens (`--button-*`, `--text-*`, …) authoritative and lets dark mode / theming override them at runtime.
 
 ---
 
@@ -136,7 +136,7 @@ Always use **IBM Plex Sans Arabic** for Arabic content. Load it (Google Fonts is
 
 ```css
 /* Google Fonts import — place at the very top of globals.css, above other imports */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap");
 ```
 
 For self-hosting, drop the font files in `public/fonts/` and declare `@font-face` rules (the DGA registry self-hosts `IBM Plex Sans Arabic`).
@@ -158,20 +158,20 @@ return (
 
 The canonical source of truth is `styles/tokens.css`. These hex values are provided for manual / design reference only — prefer the CSS variables (`var(--color-primary)`, `bg-primary`, …) in code.
 
-| Token | Hex | Usage |
-| --- | --- | --- |
+| Token                                  | Hex       | Usage                          |
+| -------------------------------------- | --------- | ------------------------------ |
 | `--colors-primary-s-a-flag600-primary` | `#1B8354` | Primary green (Saudi identity) |
-| `--colors-primary-s-a-flag700` | `#166A45` | Primary hover / darker |
-| `--colors-primary-s-a-flag500` | `#25935F` | Primary lighter |
-| `--colors-neutral25` | `#FCFCFD` | App background |
-| `--colors-neutral50` | `#F9FAFB` | Subtle background |
-| `--colors-neutral900` | `#111927` | Primary text |
-| `--colors-neutral800` | `#1F2A37` | Body text |
-| `--colors-neutral950` | `#0C111B` | Strong text |
-| `--colors-red600` | `#D92C20` | Destructive / error |
-| `--colors-yellow600` | `#DC6803` | Warning |
-| `--colors-green600` | `#069454` | Success |
-| `--colors-blue600` | `#156FEE` | Info |
+| `--colors-primary-s-a-flag700`         | `#166A45` | Primary hover / darker         |
+| `--colors-primary-s-a-flag500`         | `#25935F` | Primary lighter                |
+| `--colors-neutral25`                   | `#FCFCFD` | App background                 |
+| `--colors-neutral50`                   | `#F9FAFB` | Subtle background              |
+| `--colors-neutral900`                  | `#111927` | Primary text                   |
+| `--colors-neutral800`                  | `#1F2A37` | Body text                      |
+| `--colors-neutral950`                  | `#0C111B` | Strong text                    |
+| `--colors-red600`                      | `#D92C20` | Destructive / error            |
+| `--colors-yellow600`                   | `#DC6803` | Warning                        |
+| `--colors-green600`                    | `#069454` | Success                        |
+| `--colors-blue600`                     | `#156FEE` | Info                           |
 
 Semantic shadcn tokens map onto these (e.g. `--primary` → `--button-button-background-primary-default` → `#1B8354`).
 
@@ -181,10 +181,10 @@ Semantic shadcn tokens map onto these (e.g. `--primary` → `--button-button-bac
 
 NDS components are RTL-first. When composing layouts, always prefer **logical** utilities so the same markup works for both `rtl` and `ltr`:
 
-* **Margin:** `ms-*` (margin-start) / `me-*` (margin-end) instead of `ml-*` / `mr-*`.
-* **Padding:** `ps-*` (padding-start) / `pe-*` (padding-end) instead of `pl-*` / `pr-*`.
-* **Position:** `start-*` / `end-*` instead of `left-*` / `right-*`.
-* **Flip directional icons** with Tailwind's `rtl:` variant:
+- **Margin:** `ms-*` (margin-start) / `me-*` (margin-end) instead of `ml-*` / `mr-*`.
+- **Padding:** `ps-*` (padding-start) / `pe-*` (padding-end) instead of `pl-*` / `pr-*`.
+- **Position:** `start-*` / `end-*` instead of `left-*` / `right-*`.
+- **Flip directional icons** with Tailwind's `rtl:` variant:
   ```html
   <span class="inline-block transition-transform duration-200 rtl:rotate-180">→</span>
   ```

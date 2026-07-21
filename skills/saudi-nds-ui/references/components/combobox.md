@@ -16,7 +16,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/combobox.json
 ```tsx
 import { Combobox } from "@/components/ui/combobox";
 
-<Combobox>Combobox</Combobox>
+<Combobox>Combobox</Combobox>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/combobox.tsx`). Fetch it via the install command above.

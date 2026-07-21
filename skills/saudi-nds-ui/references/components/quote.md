@@ -15,7 +15,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/quote.json
 ```tsx
 import { Quote } from "@/components/ui/quote";
 
-<Quote>Quote</Quote>
+<Quote>Quote</Quote>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/quote.tsx`). Fetch it via the install command above.

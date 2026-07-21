@@ -17,7 +17,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/toaster.json
 Add `<Toaster />` at the root layout of your application to automatically render active toast notifications.
 
 ```tsx
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "@/components/ui/toaster";
 
 export default function RootLayout({ children }) {
   return (
@@ -27,14 +27,14 @@ export default function RootLayout({ children }) {
         <Toaster />
       </body>
     </html>
-  )
+  );
 }
 ```
 
 ### Source (`registry/dga/ui/toaster.tsx`)
 
 ```tsx
-"use client"
+"use client";
 
 import {
   Toast,
@@ -43,11 +43,11 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "@/registry/dga/ui/toast"
-import { useToast } from "@/registry/dga/ui/use-toast"
+} from "@/registry/dga/ui/toast";
+import { useToast } from "@/registry/dga/ui/use-toast";
 
 export function Toaster() {
-  const { toasts } = useToast()
+  const { toasts } = useToast();
 
   return (
     <ToastProvider>
@@ -56,17 +56,15 @@ export function Toaster() {
           <Toast key={id} {...props}>
             <div className="grid gap-1">
               {title && <ToastTitle>{title}</ToastTitle>}
-              {description && (
-                <ToastDescription>{description}</ToastDescription>
-              )}
+              {description && <ToastDescription>{description}</ToastDescription>}
             </div>
             {action}
             <ToastClose />
           </Toast>
-        )
+        );
       })}
       <ToastViewport />
     </ToastProvider>
-  )
+  );
 }
 ```

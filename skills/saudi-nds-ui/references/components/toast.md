@@ -25,21 +25,21 @@ import { Toast, ToastTitle, ToastDescription, ToastClose } from "@/components/ui
   <ToastTitle>تم حفظ البيانات</ToastTitle>
   <ToastDescription>تمت مزامنة الملف مع الهوية الموحدة.</ToastDescription>
   <ToastClose />
-</Toast>
+</Toast>;
 ```
 
 ### Source (`registry/dga/ui/toast.tsx`)
 
 ```tsx
-import * as React from "react"
-import { cva, type VariantProps } from "class-variance-authority"
-import { HugeiconsIcon } from "@hugeicons/react"
-import { Cancel01Icon } from "@hugeicons/core-free-icons"
-import { Toast as ToastPrimitive } from "radix-ui"
+import * as React from "react";
+import { cva, type VariantProps } from "class-variance-authority";
+import { HugeiconsIcon } from "@hugeicons/react";
+import { Cancel01Icon } from "@hugeicons/core-free-icons";
+import { Toast as ToastPrimitive } from "radix-ui";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
-const ToastProvider = ToastPrimitive.Provider
+const ToastProvider = ToastPrimitive.Provider;
 
 const ToastViewport = React.forwardRef<
   React.ElementRef<typeof ToastPrimitive.Viewport>,
@@ -49,12 +49,12 @@ const ToastViewport = React.forwardRef<
     ref={ref}
     className={cn(
       "fixed bottom-0 end-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:end-0 md:max-w-[420px] font-sans rtl:left-0 rtl:right-auto",
-      className
+      className,
     )}
     {...props}
   />
-))
-ToastViewport.displayName = ToastPrimitive.Viewport.displayName
+));
+ToastViewport.displayName = ToastPrimitive.Viewport.displayName;
 
 const toastVariants = cva(
   "group pointer-events-auto relative flex w-full items-center justify-between space-x-4 space-x-reverse overflow-hidden rounded-xl border p-4 shadow-lg transition-all data-[swipe=cancel]:translate-x-0 data-[swipe=end]:translate-x-[var(--radix-toast-swipe-end-x)] data-[swipe=move]:translate-x-[var(--radix-toast-swipe-move-x)] data-[swipe=move]:transition-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[swipe=end]:animate-out data-[state=closed]:fade-out-80 data-[state=closed]:slide-out-to-right-full data-[state=open]:slide-in-from-bottom-full md:data-[state=open]:slide-in-from-bottom-5 font-sans",
@@ -71,13 +71,12 @@ const toastVariants = cva(
     defaultVariants: {
       variant: "default",
     },
-  }
-)
+  },
+);
 
 const Toast = React.forwardRef<
   React.ElementRef<typeof ToastPrimitive.Root>,
-  React.ComponentPropsWithoutRef<typeof ToastPrimitive.Root> &
-    VariantProps<typeof toastVariants>
+  React.ComponentPropsWithoutRef<typeof ToastPrimitive.Root> & VariantProps<typeof toastVariants>
 >(({ className, variant, ...props }, ref) => {
   return (
     <ToastPrimitive.Root
@@ -85,9 +84,9 @@ const Toast = React.forwardRef<
       className={cn(toastVariants({ variant }), className)}
       {...props}
     />
-  )
-})
-Toast.displayName = ToastPrimitive.Root.displayName
+  );
+});
+Toast.displayName = ToastPrimitive.Root.displayName;
 
 const ToastAction = React.forwardRef<
   React.ElementRef<typeof ToastPrimitive.Action>,
@@ -99,12 +98,12 @@ const ToastAction = React.forwardRef<
       "inline-flex h-8 shrink-0 items-center justify-center rounded-lg border bg-transparent px-3 text-xs font-semibold ring-offset-background transition-colors hover:bg-muted focus:outline-none focus:ring-2 focus:ring-ring/50 disabled:pointer-events-none disabled:opacity-50",
       "group-data-[variant=destructive]:border-destructive/30 group-data-[variant=destructive]:hover:bg-destructive group-data-[variant=destructive]:hover:text-white",
       "group-data-[variant=success]:border-[#079455]/30 group-data-[variant=success]:hover:bg-[#079455] group-data-[variant=success]:hover:text-white",
-      className
+      className,
     )}
     {...props}
   />
-))
-ToastAction.displayName = ToastPrimitive.Action.displayName
+));
+ToastAction.displayName = ToastPrimitive.Action.displayName;
 
 const ToastClose = React.forwardRef<
   React.ElementRef<typeof ToastPrimitive.Close>,
@@ -116,15 +115,15 @@ const ToastClose = React.forwardRef<
       "absolute top-3 end-3 rounded-lg p-1 text-muted-foreground/50 opacity-0 transition-opacity hover:text-foreground focus:opacity-100 focus:outline-none focus:ring-2 group-hover:opacity-100",
       "group-data-[variant=destructive]:text-destructive/60 group-data-[variant=destructive]:hover:text-destructive",
       "group-data-[variant=success]:text-[#067647]/60 group-data-[variant=success]:hover:text-[#067647]",
-      className
+      className,
     )}
     toast-close=""
     {...props}
   >
     <HugeiconsIcon icon={Cancel01Icon} className="size-3.5" />
   </ToastPrimitive.Close>
-))
-ToastClose.displayName = ToastPrimitive.Close.displayName
+));
+ToastClose.displayName = ToastPrimitive.Close.displayName;
 
 const ToastTitle = React.forwardRef<
   React.ElementRef<typeof ToastPrimitive.Title>,
@@ -135,8 +134,8 @@ const ToastTitle = React.forwardRef<
     className={cn("text-sm font-semibold leading-none", className)}
     {...props}
   />
-))
-ToastTitle.displayName = ToastPrimitive.Title.displayName
+));
+ToastTitle.displayName = ToastPrimitive.Title.displayName;
 
 const ToastDescription = React.forwardRef<
   React.ElementRef<typeof ToastPrimitive.Description>,
@@ -147,12 +146,12 @@ const ToastDescription = React.forwardRef<
     className={cn("text-xs leading-normal opacity-90 mt-1", className)}
     {...props}
   />
-))
-ToastDescription.displayName = ToastPrimitive.Description.displayName
+));
+ToastDescription.displayName = ToastPrimitive.Description.displayName;
 
-type ToastProps = React.ComponentPropsWithoutRef<typeof Toast>
+type ToastProps = React.ComponentPropsWithoutRef<typeof Toast>;
 
-type ToastActionElement = React.ReactElement<typeof ToastAction>
+type ToastActionElement = React.ReactElement<typeof ToastAction>;
 
 export {
   type ToastProps,
@@ -164,5 +163,5 @@ export {
   ToastDescription,
   ToastClose,
   ToastAction,
-}
+};
 ```

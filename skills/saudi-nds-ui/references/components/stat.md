@@ -15,7 +15,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/stat.json
 ```tsx
 import { Stat } from "@/components/ui/stat";
 
-<Stat>Stat</Stat>
+<Stat>Stat</Stat>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/stat.tsx`). Fetch it via the install command above.

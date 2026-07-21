@@ -16,7 +16,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/data-table.json
 ```tsx
 import { DataTable } from "@/components/ui/data-table";
 
-<DataTable>Data Table</DataTable>
+<DataTable>Data Table</DataTable>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/data-table.tsx`). Fetch it via the install command above.

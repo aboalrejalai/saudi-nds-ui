@@ -19,45 +19,33 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/collapsible.json
 ```tsx
 import { Collapsible } from "@/components/ui/collapsible";
 
-<Collapsible>Collapsible</Collapsible>
+<Collapsible>Collapsible</Collapsible>;
 ```
 
 ### Source (`registry/dga/ui/collapsible.tsx`)
 
 ```tsx
-"use client"
+"use client";
 
-import { Collapsible as CollapsiblePrimitive } from "radix-ui"
+import { Collapsible as CollapsiblePrimitive } from "radix-ui";
 
-function Collapsible({
-  ...props
-}: React.ComponentProps<typeof CollapsiblePrimitive.Root>) {
-  return <CollapsiblePrimitive.Root data-slot="collapsible" {...props} />
+function Collapsible({ ...props }: React.ComponentProps<typeof CollapsiblePrimitive.Root>) {
+  return <CollapsiblePrimitive.Root data-slot="collapsible" {...props} />;
 }
 
 function CollapsibleTrigger({
   ...props
 }: React.ComponentProps<typeof CollapsiblePrimitive.CollapsibleTrigger>) {
-  return (
-    <CollapsiblePrimitive.CollapsibleTrigger
-      data-slot="collapsible-trigger"
-      {...props}
-    />
-  )
+  return <CollapsiblePrimitive.CollapsibleTrigger data-slot="collapsible-trigger" {...props} />;
 }
 
 function CollapsibleContent({
   ...props
 }: React.ComponentProps<typeof CollapsiblePrimitive.CollapsibleContent>) {
-  return (
-    <CollapsiblePrimitive.CollapsibleContent
-      data-slot="collapsible-content"
-      {...props}
-    />
-  )
+  return <CollapsiblePrimitive.CollapsibleContent data-slot="collapsible-content" {...props} />;
 }
 
-export { Collapsible, CollapsibleTrigger, CollapsibleContent }
+export { Collapsible, CollapsibleTrigger, CollapsibleContent };
 ```
 
 ---

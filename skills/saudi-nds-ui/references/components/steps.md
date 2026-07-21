@@ -15,7 +15,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/steps.json
 ```tsx
 import { Steps } from "@/components/ui/steps";
 
-<Steps>Steps</Steps>
+<Steps>Steps</Steps>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/steps.tsx`). Fetch it via the install command above.

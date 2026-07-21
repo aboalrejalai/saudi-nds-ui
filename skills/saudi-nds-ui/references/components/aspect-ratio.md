@@ -19,23 +19,21 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/aspect-ratio.json
 ```tsx
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
-<AspectRatio>Aspect Ratio</AspectRatio>
+<AspectRatio>Aspect Ratio</AspectRatio>;
 ```
 
 ### Source (`registry/dga/ui/aspect-ratio.tsx`)
 
 ```tsx
-"use client"
+"use client";
 
-import { AspectRatio as AspectRatioPrimitive } from "radix-ui"
+import { AspectRatio as AspectRatioPrimitive } from "radix-ui";
 
-function AspectRatio({
-  ...props
-}: React.ComponentProps<typeof AspectRatioPrimitive.Root>) {
-  return <AspectRatioPrimitive.Root data-slot="aspect-ratio" {...props} />
+function AspectRatio({ ...props }: React.ComponentProps<typeof AspectRatioPrimitive.Root>) {
+  return <AspectRatioPrimitive.Root data-slot="aspect-ratio" {...props} />;
 }
 
-export { AspectRatio }
+export { AspectRatio };
 ```
 
 ---

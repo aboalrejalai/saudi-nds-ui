@@ -25,19 +25,19 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/tabs.json
 ```tsx
 import { Tabs } from "@/components/ui/tabs";
 
-<Tabs variant="default">Tabs</Tabs>
+<Tabs variant="default">Tabs</Tabs>;
 ```
 
 ### Source (`registry/dga/ui/tabs.tsx`)
 
 ```tsx
-"use client"
+"use client";
 
-import * as React from "react"
-import { cva, type VariantProps } from "class-variance-authority"
-import { Tabs as TabsPrimitive } from "radix-ui"
+import * as React from "react";
+import { cva, type VariantProps } from "class-variance-authority";
+import { Tabs as TabsPrimitive } from "radix-ui";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 function Tabs({
   className,
@@ -49,13 +49,10 @@ function Tabs({
       data-slot="tabs"
       data-orientation={orientation}
       orientation={orientation}
-      className={cn(
-        "group/tabs flex gap-2 data-[orientation=horizontal]:flex-col",
-        className
-      )}
+      className={cn("group/tabs flex gap-2 data-[orientation=horizontal]:flex-col", className)}
       {...props}
     />
-  )
+  );
 }
 
 const tabsListVariants = cva(
@@ -80,8 +77,8 @@ const tabsListVariants = cva(
       scrollable: false,
       snap: false,
     },
-  }
-)
+  },
+);
 
 function TabsList({
   className,
@@ -92,31 +89,31 @@ function TabsList({
   ...props
 }: React.ComponentProps<typeof TabsPrimitive.List> &
   VariantProps<typeof tabsListVariants> & {
-    fadeEdges?: boolean
+    fadeEdges?: boolean;
   }) {
-  const ref = React.useRef<React.ElementRef<typeof TabsPrimitive.List>>(null)
-  const [showLeft, setShowLeft] = React.useState(false)
-  const [showRight, setShowRight] = React.useState(false)
+  const ref = React.useRef<React.ElementRef<typeof TabsPrimitive.List>>(null);
+  const [showLeft, setShowLeft] = React.useState(false);
+  const [showRight, setShowRight] = React.useState(false);
 
   const updateFade = React.useCallback(() => {
-    const el = ref.current
-    if (!el) return
-    setShowLeft(el.scrollLeft > 0)
-    setShowRight(el.scrollLeft + el.clientWidth < el.scrollWidth - 1)
-  }, [])
+    const el = ref.current;
+    if (!el) return;
+    setShowLeft(el.scrollLeft > 0);
+    setShowRight(el.scrollLeft + el.clientWidth < el.scrollWidth - 1);
+  }, []);
 
   React.useEffect(() => {
-    if (!fadeEdges) return
-    const el = ref.current
-    if (!el) return
-    updateFade()
-    el.addEventListener("scroll", updateFade)
-    window.addEventListener("resize", updateFade)
+    if (!fadeEdges) return;
+    const el = ref.current;
+    if (!el) return;
+    updateFade();
+    el.addEventListener("scroll", updateFade);
+    window.addEventListener("resize", updateFade);
     return () => {
-      el.removeEventListener("scroll", updateFade)
-      window.removeEventListener("resize", updateFade)
-    }
-  }, [fadeEdges, updateFade])
+      el.removeEventListener("scroll", updateFade);
+      window.removeEventListener("resize", updateFade);
+    };
+  }, [fadeEdges, updateFade]);
 
   return (
     <div className="relative w-full overflow-hidden">
@@ -127,23 +124,17 @@ function TabsList({
         ref={ref}
         data-slot="tabs-list"
         data-variant={variant}
-        className={cn(
-          tabsListVariants({ variant, scrollable, snap }),
-          className
-        )}
+        className={cn(tabsListVariants({ variant, scrollable, snap }), className)}
         {...props}
       />
       {fadeEdges && showRight && (
         <div className="from-background pointer-events-none absolute top-0 right-0 z-10 h-full w-8 bg-gradient-to-l to-transparent" />
       )}
     </div>
-  )
+  );
 }
 
-function TabsTrigger({
-  className,
-  ...props
-}: React.ComponentProps<typeof TabsPrimitive.Trigger>) {
+function TabsTrigger({ className, ...props }: React.ComponentProps<typeof TabsPrimitive.Trigger>) {
   return (
     <TabsPrimitive.Trigger
       data-slot="tabs-trigger"
@@ -152,27 +143,24 @@ function TabsTrigger({
         "group-data-[variant=line]/tabs-list:bg-transparent group-data-[variant=line]/tabs-list:data-[state=active]:bg-transparent dark:group-data-[variant=line]/tabs-list:data-[state=active]:bg-transparent",
         "data-[state=active]:text-foreground data-[state=active]:bg-transparent",
         "after:absolute after:right-3 after:-bottom-1 after:left-3 after:h-[2px] after:bg-[var(--colors-primary-s-a-flag700,#104631)] after:opacity-0 after:transition-opacity data-[state=active]:after:opacity-100",
-        className
+        className,
       )}
       {...props}
     />
-  )
+  );
 }
 
-function TabsContent({
-  className,
-  ...props
-}: React.ComponentProps<typeof TabsPrimitive.Content>) {
+function TabsContent({ className, ...props }: React.ComponentProps<typeof TabsPrimitive.Content>) {
   return (
     <TabsPrimitive.Content
       data-slot="tabs-content"
       className={cn("flex-1 outline-none", className)}
       {...props}
     />
-  )
+  );
 }
 
-export { Tabs, TabsList, TabsTrigger, TabsContent, tabsListVariants }
+export { Tabs, TabsList, TabsTrigger, TabsContent, tabsListVariants };
 ```
 
 ---

@@ -19,7 +19,13 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/message.json
 ### Usage
 
 ```tsx
-import { Message, MessageAvatar, MessageContent, MessageHeader, MessageFooter } from "@/components/ui/message";
+import {
+  Message,
+  MessageAvatar,
+  MessageContent,
+  MessageHeader,
+  MessageFooter,
+} from "@/components/ui/message";
 import { Bubble, BubbleContent } from "@/components/ui/bubble";
 
 <Message align="start">
@@ -31,15 +37,15 @@ import { Bubble, BubbleContent } from "@/components/ui/bubble";
     </Bubble>
     <MessageFooter>تم التسليم</MessageFooter>
   </MessageContent>
-</Message>
+</Message>;
 ```
 
 ### Source (`registry/dga/ui/message.tsx`)
 
 ```tsx
-import * as React from "react"
+import * as React from "react";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 function MessageGroup({ className, ...props }: React.ComponentProps<"div">) {
   return (
@@ -48,7 +54,7 @@ function MessageGroup({ className, ...props }: React.ComponentProps<"div">) {
       className={cn("flex min-w-0 flex-col gap-3 font-sans", className)}
       {...props}
     />
-  )
+  );
 }
 
 function Message({
@@ -62,11 +68,11 @@ function Message({
       data-align={align}
       className={cn(
         "group/message relative flex w-full min-w-0 gap-3 text-sm data-[align=end]:flex-row-reverse",
-        className
+        className,
       )}
       {...props}
     />
-  )
+  );
 }
 
 function MessageAvatar({ className, ...props }: React.ComponentProps<"div">) {
@@ -75,11 +81,11 @@ function MessageAvatar({ className, ...props }: React.ComponentProps<"div">) {
       data-slot="message-avatar"
       className={cn(
         "flex w-8 h-8 shrink-0 items-center justify-center self-end overflow-hidden rounded-full bg-muted border border-border group-has-data-[slot=message-footer]/message:-translate-y-6",
-        className
+        className,
       )}
       {...props}
     />
-  )
+  );
 }
 
 function MessageContent({ className, ...props }: React.ComponentProps<"div">) {
@@ -88,11 +94,11 @@ function MessageContent({ className, ...props }: React.ComponentProps<"div">) {
       data-slot="message-content"
       className={cn(
         "flex w-full min-w-0 flex-col gap-1.5 wrap-break-word group-data-[align=end]/message:*:data-slot:self-end",
-        className
+        className,
       )}
       {...props}
     />
-  )
+  );
 }
 
 function MessageHeader({ className, ...props }: React.ComponentProps<"div">) {
@@ -101,11 +107,11 @@ function MessageHeader({ className, ...props }: React.ComponentProps<"div">) {
       data-slot="message-header"
       className={cn(
         "flex max-w-full min-w-0 items-center px-1 text-xs font-semibold text-[#4B5563] dark:text-[#9CA3AF] group-has-data-[variant=ghost]/message:px-0",
-        className
+        className,
       )}
       {...props}
     />
-  )
+  );
 }
 
 function MessageFooter({ className, ...props }: React.ComponentProps<"div">) {
@@ -114,19 +120,12 @@ function MessageFooter({ className, ...props }: React.ComponentProps<"div">) {
       data-slot="message-footer"
       className={cn(
         "flex max-w-full min-w-0 items-center px-1 text-[10px] font-medium text-muted-foreground group-has-data-[variant=ghost]/message:px-0 group-data-[align=end]/message:justify-end",
-        className
+        className,
       )}
       {...props}
     />
-  )
+  );
 }
 
-export {
-  MessageGroup,
-  Message,
-  MessageAvatar,
-  MessageContent,
-  MessageFooter,
-  MessageHeader,
-}
+export { MessageGroup, Message, MessageAvatar, MessageContent, MessageFooter, MessageHeader };
 ```

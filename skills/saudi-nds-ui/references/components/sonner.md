@@ -20,74 +20,57 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/sonner.json
 ```tsx
 import { SetToasterOffset } from "@/components/ui/sonner";
 
-<SetToasterOffset>Sonner</SetToasterOffset>
+<SetToasterOffset>Sonner</SetToasterOffset>;
 ```
 
 ### Source (`registry/dga/ui/sonner.tsx`)
 
 ```tsx
-"use client"
+"use client";
 
-import React, {
-  createContext,
-  useContext,
-  useEffect,
-  useState,
-  useSyncExternalStore,
-} from "react"
+import React, { createContext, useContext, useEffect, useState, useSyncExternalStore } from "react";
 import {
   Alert01Icon,
   AlertCircleIcon,
   Cancel01Icon,
   CheckmarkCircle01Icon,
   InformationCircleIcon,
-} from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
-import {
-  Toaster as Sonner,
-  toast,
-  type ToasterProps as SonnerToasterProps,
-} from "sonner"
+} from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
+import { Toaster as Sonner, toast, type ToasterProps as SonnerToasterProps } from "sonner";
 
-import { useDirection } from "@/registry/dga/ui/direction"
+import { useDirection } from "@/registry/dga/ui/direction";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
 export type Position =
-  | "top-left"
-  | "top-center"
-  | "top-right"
-  | "bottom-left"
-  | "bottom-center"
-  | "bottom-right"
+  "top-left" | "top-center" | "top-right" | "bottom-left" | "bottom-center" | "bottom-right";
 
-type ToastVariant = "error" | "warning" | "success" | "info" | "neutral"
+type ToastVariant = "error" | "warning" | "success" | "info" | "neutral";
 
 // ─── Icon type ───────────────────────────────────────────────────────────────
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-type IconDefinition = any
+type IconDefinition = any;
 
 // ─── Default icons per variant ───────────────────────────────────────────────
 
-const DEFAULT_ICONS: Record<
-  ToastVariant,
-  { icon: IconDefinition; iconType: "solid" | "stroke" }
-> = {
-  error: { icon: AlertCircleIcon, iconType: "solid" },
-  warning: { icon: Alert01Icon, iconType: "solid" },
-  success: { icon: CheckmarkCircle01Icon, iconType: "solid" },
-  info: { icon: InformationCircleIcon, iconType: "solid" },
-  neutral: { icon: InformationCircleIcon, iconType: "stroke" },
-}
+const DEFAULT_ICONS: Record<ToastVariant, { icon: IconDefinition; iconType: "solid" | "stroke" }> =
+  {
+    error: { icon: AlertCircleIcon, iconType: "solid" },
+    warning: { icon: Alert01Icon, iconType: "solid" },
+    success: { icon: CheckmarkCircle01Icon, iconType: "solid" },
+    info: { icon: InformationCircleIcon, iconType: "solid" },
+    neutral: { icon: InformationCircleIcon, iconType: "stroke" },
+  };
 
 // ─── Variant configuration (from Figma design tokens) ────────────────────────
 
 interface VariantConfig {
-  bg: string
-  textColor: string
-  borderHex: string
-  borderOpacity: number
+  bg: string;
+  textColor: string;
+  borderHex: string;
+  borderOpacity: number;
 }
 
 const VARIANT_CONFIG: Record<ToastVariant, VariantConfig> = {
@@ -121,42 +104,42 @@ const VARIANT_CONFIG: Record<ToastVariant, VariantConfig> = {
     borderHex: "#161616",
     borderOpacity: 0.6,
   },
-}
+};
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
 function hexToRgba(hex: string, alpha: number): string {
-  const r = parseInt(hex.slice(1, 3), 16)
-  const g = parseInt(hex.slice(3, 5), 16)
-  const b = parseInt(hex.slice(5, 7), 16)
-  return `rgba(${r}, ${g}, ${b}, ${alpha})`
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
 /** Flip left↔right when direction is RTL */
 function flipPosition(pos: Position, dir: string): Position {
-  if (dir !== "rtl") return pos
+  if (dir !== "rtl") return pos;
   const map: Partial<Record<Position, Position>> = {
     "top-left": "top-right",
     "top-right": "top-left",
     "bottom-left": "bottom-right",
     "bottom-right": "bottom-left",
-  }
-  return map[pos] ?? pos
+  };
+  return map[pos] ?? pos;
 }
 
 // ─── Toast banner component ──────────────────────────────────────────────────
 
 interface ToastBannerProps {
-  id: string | number
-  variant: ToastVariant
-  title?: string
-  message: string
+  id: string | number;
+  variant: ToastVariant;
+  title?: string;
+  message: string;
   /** Override the default icon for this variant */
-  icon?: IconDefinition
+  icon?: IconDefinition;
   /** Override the default icon type (`"solid"` or `"stroke"`) */
-  iconType?: "solid" | "stroke"
+  iconType?: "solid" | "stroke";
   /** Override the default dismiss icon */
-  dismissIcon?: IconDefinition
+  dismissIcon?: IconDefinition;
 }
 
 function ToastBanner({
@@ -168,13 +151,13 @@ function ToastBanner({
   iconType,
   dismissIcon,
 }: ToastBannerProps) {
-  const cfg = VARIANT_CONFIG[variant]
-  const defaults = DEFAULT_ICONS[variant]
-  const borderColor = hexToRgba(cfg.borderHex, cfg.borderOpacity)
+  const cfg = VARIANT_CONFIG[variant];
+  const defaults = DEFAULT_ICONS[variant];
+  const borderColor = hexToRgba(cfg.borderHex, cfg.borderOpacity);
 
-  const resolvedIcon = icon ?? defaults.icon
-  const resolvedIconType = iconType ?? defaults.iconType
-  const resolvedDismissIcon = dismissIcon ?? Cancel01Icon
+  const resolvedIcon = icon ?? defaults.icon;
+  const resolvedIconType = iconType ?? defaults.iconType;
+  const resolvedDismissIcon = dismissIcon ?? Cancel01Icon;
 
   return (
     <div
@@ -201,10 +184,7 @@ function ToastBanner({
             {title}
           </span>
         )}
-        <span
-          className="text-base leading-6 font-normal"
-          style={{ color: cfg.textColor }}
-        >
+        <span className="text-base leading-6 font-normal" style={{ color: cfg.textColor }}>
           {message}
         </span>
       </div>
@@ -215,12 +195,7 @@ function ToastBanner({
         aria-label="Dismiss notification"
         type="button"
       >
-        <HugeiconsIcon
-          icon={resolvedDismissIcon}
-          width={20}
-          height={20}
-          color={cfg.textColor}
-        />
+        <HugeiconsIcon icon={resolvedDismissIcon} width={20} height={20} color={cfg.textColor} />
       </button>
 
       <div
@@ -228,113 +203,53 @@ function ToastBanner({
         style={{ backgroundColor: borderColor }}
       />
     </div>
-  )
+  );
 }
 
 // ─── Typed toast helper functions ────────────────────────────────────────────
 
-const DEFAULT_TITLE = ""
-const DEFAULT_DURATION = 6000
+const DEFAULT_TITLE = "";
+const DEFAULT_DURATION = 6000;
 
 interface ToastOptions {
-  icon?: IconDefinition
-  iconType?: "solid" | "stroke"
-  dismissIcon?: IconDefinition
+  icon?: IconDefinition;
+  iconType?: "solid" | "stroke";
+  dismissIcon?: IconDefinition;
 }
 
-export function toastError(
-  message: string,
-  title = DEFAULT_TITLE,
-  options?: ToastOptions
-) {
+export function toastError(message: string, title = DEFAULT_TITLE, options?: ToastOptions) {
   return toast.custom(
-    (id) => (
-      <ToastBanner
-        id={id}
-        variant="error"
-        title={title}
-        message={message}
-        {...options}
-      />
-    ),
-    { duration: DEFAULT_DURATION }
-  )
+    (id) => <ToastBanner id={id} variant="error" title={title} message={message} {...options} />,
+    { duration: DEFAULT_DURATION },
+  );
 }
 
-export function toastWarning(
-  message: string,
-  title = DEFAULT_TITLE,
-  options?: ToastOptions
-) {
+export function toastWarning(message: string, title = DEFAULT_TITLE, options?: ToastOptions) {
   return toast.custom(
-    (id) => (
-      <ToastBanner
-        id={id}
-        variant="warning"
-        title={title}
-        message={message}
-        {...options}
-      />
-    ),
-    { duration: DEFAULT_DURATION }
-  )
+    (id) => <ToastBanner id={id} variant="warning" title={title} message={message} {...options} />,
+    { duration: DEFAULT_DURATION },
+  );
 }
 
-export function toastSuccess(
-  message: string,
-  title = DEFAULT_TITLE,
-  options?: ToastOptions
-) {
+export function toastSuccess(message: string, title = DEFAULT_TITLE, options?: ToastOptions) {
   return toast.custom(
-    (id) => (
-      <ToastBanner
-        id={id}
-        variant="success"
-        title={title}
-        message={message}
-        {...options}
-      />
-    ),
-    { duration: DEFAULT_DURATION }
-  )
+    (id) => <ToastBanner id={id} variant="success" title={title} message={message} {...options} />,
+    { duration: DEFAULT_DURATION },
+  );
 }
 
-export function toastInfo(
-  message: string,
-  title = DEFAULT_TITLE,
-  options?: ToastOptions
-) {
+export function toastInfo(message: string, title = DEFAULT_TITLE, options?: ToastOptions) {
   return toast.custom(
-    (id) => (
-      <ToastBanner
-        id={id}
-        variant="info"
-        title={title}
-        message={message}
-        {...options}
-      />
-    ),
-    { duration: DEFAULT_DURATION }
-  )
+    (id) => <ToastBanner id={id} variant="info" title={title} message={message} {...options} />,
+    { duration: DEFAULT_DURATION },
+  );
 }
 
-export function toastNeutral(
-  message: string,
-  title = DEFAULT_TITLE,
-  options?: ToastOptions
-) {
+export function toastNeutral(message: string, title = DEFAULT_TITLE, options?: ToastOptions) {
   return toast.custom(
-    (id) => (
-      <ToastBanner
-        id={id}
-        variant="neutral"
-        title={title}
-        message={message}
-        {...options}
-      />
-    ),
-    { duration: DEFAULT_DURATION }
-  )
+    (id) => <ToastBanner id={id} variant="neutral" title={title} message={message} {...options} />,
+    { duration: DEFAULT_DURATION },
+  );
 }
 
 export const showToast = {
@@ -343,30 +258,30 @@ export const showToast = {
   success: toastSuccess,
   info: toastInfo,
   neutral: toastNeutral,
-}
+};
 
 // ─── Toaster offset context ──────────────────────────────────────────────────
 
 interface ToasterOffsetContextValue {
-  offset: number
-  setOffset: (value: number) => void
+  offset: number;
+  setOffset: (value: number) => void;
 }
 
 const ToasterOffsetContext = createContext<ToasterOffsetContextValue>({
   offset: 0,
   setOffset: () => {},
-})
+});
 
 /**
  * Wrap around <Toaster /> so child layouts can dynamically set the offset.
  */
 function ToasterOffsetProvider({ children }: { children: React.ReactNode }) {
-  const [offset, setOffset] = useState(0)
+  const [offset, setOffset] = useState(0);
   return (
     <ToasterOffsetContext.Provider value={{ offset, setOffset }}>
       {children}
     </ToasterOffsetContext.Provider>
-  )
+  );
 }
 
 /**
@@ -374,7 +289,7 @@ function ToasterOffsetProvider({ children }: { children: React.ReactNode }) {
  * Use to measure and set offset from any component (e.g. a header).
  */
 function useToasterOffset() {
-  return useContext(ToasterOffsetContext)
+  return useContext(ToasterOffsetContext);
 }
 
 /**
@@ -382,40 +297,36 @@ function useToasterOffset() {
  * Resets to 0 on unmount.
  */
 function SetToasterOffset({ value }: { value: number }) {
-  const { setOffset } = useToasterOffset()
+  const { setOffset } = useToasterOffset();
   useEffect(() => {
-    setOffset(value)
-    return () => setOffset(0)
-  }, [value, setOffset])
-  return null
+    setOffset(value);
+    return () => setOffset(0);
+  }, [value, setOffset]);
+  return null;
 }
 
 // ─── Mobile detection ────────────────────────────────────────────────────────
 
-const MOBILE_BREAKPOINT = 768
+const MOBILE_BREAKPOINT = 768;
 
-const MOBILE_QUERY = `(max-width: ${MOBILE_BREAKPOINT - 1}px)`
+const MOBILE_QUERY = `(max-width: ${MOBILE_BREAKPOINT - 1}px)`;
 
 function subscribeMobile(callback: () => void) {
-  const mql = window.matchMedia(MOBILE_QUERY)
-  mql.addEventListener("change", callback)
-  return () => mql.removeEventListener("change", callback)
+  const mql = window.matchMedia(MOBILE_QUERY);
+  mql.addEventListener("change", callback);
+  return () => mql.removeEventListener("change", callback);
 }
 
 function getSnapshotMobile() {
-  return window.matchMedia(MOBILE_QUERY).matches
+  return window.matchMedia(MOBILE_QUERY).matches;
 }
 
 function getServerSnapshotMobile() {
-  return false
+  return false;
 }
 
 function useIsMobile() {
-  return useSyncExternalStore(
-    subscribeMobile,
-    getSnapshotMobile,
-    getServerSnapshotMobile
-  )
+  return useSyncExternalStore(subscribeMobile, getSnapshotMobile, getServerSnapshotMobile);
 }
 
 // ─── Toaster provider ─────────────────────────────────────────────────────────
@@ -426,25 +337,25 @@ interface ToasterProps extends Omit<SonnerToasterProps, "position" | "dir"> {
    * On mobile this is overridden to "bottom-center".
    * @default "top-right"
    */
-  position?: Position
+  position?: Position;
 }
 
 const Toaster = ({ position = "top-right", ...props }: ToasterProps) => {
-  const dir = useDirection()
-  const { offset } = useContext(ToasterOffsetContext)
-  const isMobile = useIsMobile()
+  const dir = useDirection();
+  const { offset } = useContext(ToasterOffsetContext);
+  const isMobile = useIsMobile();
 
   // Mobile → bottom-center, no offset
-  const basePosition: Position = isMobile ? "bottom-center" : position
-  const resolvedPosition = flipPosition(basePosition, dir)
+  const basePosition: Position = isMobile ? "bottom-center" : position;
+  const resolvedPosition = flipPosition(basePosition, dir);
 
   const resolvedOffset: SonnerToasterProps["offset"] | undefined = isMobile
     ? undefined
     : offset > 0 && resolvedPosition.startsWith("top")
       ? { top: `${offset}px` }
-      : undefined
+      : undefined;
 
-  const width = isMobile ? "calc(100% - 32px)" : "min(60%, 768px)"
+  const width = isMobile ? "calc(100% - 32px)" : "min(60%, 768px)";
 
   return (
     <Sonner
@@ -462,11 +373,11 @@ const Toaster = ({ position = "top-right", ...props }: ToasterProps) => {
       }}
       {...props}
     />
-  )
-}
+  );
+};
 
-export { Toaster, ToasterOffsetProvider, SetToasterOffset, useToasterOffset }
-export type { ToasterProps, ToastVariant }
+export { Toaster, ToasterOffsetProvider, SetToasterOffset, useToasterOffset };
+export type { ToasterProps, ToastVariant };
 ```
 
 ---

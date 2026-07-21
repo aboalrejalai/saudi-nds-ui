@@ -19,34 +19,32 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/direction.json
 ```tsx
 import { DirectionProvider } from "@/components/ui/direction";
 
-<DirectionProvider>Direction</DirectionProvider>
+<DirectionProvider>Direction</DirectionProvider>;
 ```
 
 ### Source (`registry/dga/ui/direction.tsx`)
 
 ```tsx
-"use client"
+"use client";
 
-import * as React from "react"
-import { Direction } from "radix-ui"
+import * as React from "react";
+import { Direction } from "radix-ui";
 
 function DirectionProvider({
   dir,
   direction,
   children,
 }: React.ComponentProps<typeof Direction.DirectionProvider> & {
-  direction?: React.ComponentProps<typeof Direction.DirectionProvider>["dir"]
+  direction?: React.ComponentProps<typeof Direction.DirectionProvider>["dir"];
 }) {
   return (
-    <Direction.DirectionProvider dir={direction ?? dir}>
-      {children}
-    </Direction.DirectionProvider>
-  )
+    <Direction.DirectionProvider dir={direction ?? dir}>{children}</Direction.DirectionProvider>
+  );
 }
 
-const useDirection = Direction.useDirection
+const useDirection = Direction.useDirection;
 
-export { DirectionProvider, useDirection }
+export { DirectionProvider, useDirection };
 ```
 
 ---

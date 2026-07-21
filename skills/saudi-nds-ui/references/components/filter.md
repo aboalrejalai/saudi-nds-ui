@@ -15,7 +15,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/filter.json
 ```tsx
 import { Filter } from "@/components/ui/filter";
 
-<Filter>Filter</Filter>
+<Filter>Filter</Filter>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/filter.tsx`). Fetch it via the install command above.

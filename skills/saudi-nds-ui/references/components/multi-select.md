@@ -16,7 +16,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/multi-select.json
 ```tsx
 import { MultiSelect } from "@/components/ui/multi-select";
 
-<MultiSelect>Multi Select</MultiSelect>
+<MultiSelect>Multi Select</MultiSelect>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/multi-select.tsx`). Fetch it via the install command above.

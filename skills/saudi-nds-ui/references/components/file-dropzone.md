@@ -15,7 +15,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/file-dropzone.json
 ```tsx
 import { FileDropzone } from "@/components/ui/file-dropzone";
 
-<FileDropzone>File Dropzone</FileDropzone>
+<FileDropzone>File Dropzone</FileDropzone>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/file-dropzone.tsx`). Fetch it via the install command above.

@@ -16,7 +16,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/rich-text-editor.json
 ```tsx
 import { RichTextEditor } from "@/components/ui/rich-text-editor";
 
-<RichTextEditor>Rich Text Editor</RichTextEditor>
+<RichTextEditor>Rich Text Editor</RichTextEditor>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/rich-text-editor.tsx`). Fetch it via the install command above.

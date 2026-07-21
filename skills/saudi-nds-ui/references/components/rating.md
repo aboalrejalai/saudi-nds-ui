@@ -15,7 +15,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/rating.json
 ```tsx
 import { Rating } from "@/components/ui/rating";
 
-<Rating>Rating</Rating>
+<Rating>Rating</Rating>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/rating.tsx`). Fetch it via the install command above.

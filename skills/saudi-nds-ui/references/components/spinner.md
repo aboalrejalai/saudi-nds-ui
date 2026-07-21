@@ -19,16 +19,16 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/spinner.json
 ```tsx
 import { Spinner } from "@/components/ui/spinner";
 
-<Spinner>Spinner</Spinner>
+<Spinner>Spinner</Spinner>;
 ```
 
 ### Source (`registry/dga/ui/spinner.tsx`)
 
 ```tsx
-import { Loading03Icon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
+import { Loading03Icon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 function Spinner({ className }: React.ComponentProps<"svg">) {
   return (
@@ -38,10 +38,10 @@ function Spinner({ className }: React.ComponentProps<"svg">) {
       aria-label="Loading"
       className={cn("size-4 animate-spin", className)}
     />
-  )
+  );
 }
 
-export { Spinner }
+export { Spinner };
 ```
 
 ---

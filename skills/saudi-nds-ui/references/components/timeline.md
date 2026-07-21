@@ -15,7 +15,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/timeline.json
 ```tsx
 import { Timeline } from "@/components/ui/timeline";
 
-<Timeline>Timeline</Timeline>
+<Timeline>Timeline</Timeline>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/timeline.tsx`). Fetch it via the install command above.

@@ -16,7 +16,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/cookies.json
 ```tsx
 import { Cookies } from "@/components/ui/cookies";
 
-<Cookies>Cookies</Cookies>
+<Cookies>Cookies</Cookies>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/cookies.tsx`). Fetch it via the install command above.

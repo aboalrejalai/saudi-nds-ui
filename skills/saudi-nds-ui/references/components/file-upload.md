@@ -16,7 +16,7 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/file-upload.json
 ```tsx
 import { FileUpload } from "@/components/ui/file-upload";
 
-<FileUpload>File Upload</FileUpload>
+<FileUpload>File Upload</FileUpload>;
 ```
 
 > Source not bundled in local registry artifact (`registry/dga/ui/file-upload.tsx`). Fetch it via the install command above.
