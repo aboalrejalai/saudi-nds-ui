@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const AngrySolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12m5.343 2.988c0 .415.336.75.75.75h7.814a.75.75 0 0 0 0-1.5H8.093a.75.75 0 0 0-.75.75m10.84-7.107a.75.75 0 0 0-1.024-.275l-3.785 2.185a.75.75 0 0 0 .75 1.3l.737-.426.21.362a1.334 1.334 0 0 0 2.31-1.334l-.21-.362.738-.426a.75.75 0 0 0 .274-1.024m-8.307 3.21a.75.75 0 0 0 .75-1.3L6.84 7.606a.75.75 0 0 0-.75 1.3l.737.425-.209.362a1.334 1.334 0 1 0 2.31 1.334l.21-.362z" }) });
-export default AngrySolid;

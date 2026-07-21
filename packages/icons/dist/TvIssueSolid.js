@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const TvIssueSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.97 1.72a.75.75 0 1 1 1.06 1.06L12.81 6H20a2.75 2.75 0 0 1 2.75 2.75v11A2.75 2.75 0 0 1 20 22.5H4a2.75 2.75 0 0 1-2.75-2.75v-11A2.75 2.75 0 0 1 4 6h7.19L7.97 2.78a.75.75 0 1 1 1.06-1.06L12 4.69zM12 10a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-1.5 0v-3A.75.75 0 0 1 12 10m.512 7.191a.75.75 0 0 0-1.06.056l-.01.012a.75.75 0 0 0 1.116 1.003l.01-.011a.75.75 0 0 0-.056-1.06", clipRule: "evenodd" }) });
-export default TvIssueSolid;

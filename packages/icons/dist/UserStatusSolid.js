@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const UserStatusSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M12 5.75a3.518 3.518 0 1 0 0 7.036 3.518 3.518 0 0 0 0-7.036" }), _jsx("path", { fill: "currentColor", d: "M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2M3.5 12a8.5 8.5 0 1 1 14.88 5.617 5.25 5.25 0 0 0-5.105-4.022h-2.55a5.25 5.25 0 0 0-5.106 4.021A8.47 8.47 0 0 1 3.5 12" })] });
-export default UserStatusSolid;

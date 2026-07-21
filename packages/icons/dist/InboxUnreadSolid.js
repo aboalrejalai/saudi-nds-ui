@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const InboxUnreadSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M15.024 5.75a4.984 4.984 0 0 0 1.44 4.034.75.75 0 0 0-.644.102l-4.57 3.199-4.57-3.2a.75.75 0 0 0-.86 1.23l5 3.5a.75.75 0 0 0 .86 0l5-3.5a.75.75 0 0 0 .256-.915A4.98 4.98 0 0 0 20 11.25c.711 0 1.387-.15 2-.417V18.5a2.75 2.75 0 0 1-2.75 2.75h-16A2.75 2.75 0 0 1 .5 18.5v-10a2.75 2.75 0 0 1 2.75-2.75z" }), _jsx("path", { fill: "currentColor", d: "M20 2.75a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7" })] });
-export default InboxUnreadSolid;

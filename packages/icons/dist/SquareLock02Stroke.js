@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const SquareLock02Stroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M12.777 16.015a.777.777 0 1 0-1.554 0v2.072a.777.777 0 0 0 1.554 0z" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.25a4.92 4.92 0 0 0-4.922 4.922v2.793a7.771 7.771 0 1 0 9.843 0V6.172A4.92 4.92 0 0 0 12 1.25m0 5.958a7.74 7.74 0 0 0-3.368.765V6.172a3.367 3.367 0 1 1 6.735 0v1.801A7.74 7.74 0 0 0 12 7.208m0 1.554a6.217 6.217 0 1 0 0 12.434 6.217 6.217 0 0 0 0-12.434", clipRule: "evenodd" })] });
-export default SquareLock02Stroke;

@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const ToggleOnSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M7 17.75a5.75 5.75 0 0 1 0-11.5h10a5.75 5.75 0 0 1 0 11.5zm10-1.5a4.25 4.25 0 0 0 0-8.5H7a4.25 4.25 0 0 0 0 8.5z", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M17 16.25a4.25 4.25 0 0 0 0-8.5H7a4.25 4.25 0 0 0 0 8.5zM15.25 12a1.75 1.75 0 1 0 3.5 0 1.75 1.75 0 0 0-3.5 0", clipRule: "evenodd" })] });
-export default ToggleOnSolid;

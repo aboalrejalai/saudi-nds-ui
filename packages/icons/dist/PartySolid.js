@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const PartySolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M14.16 4.56A2.16 2.16 0 1 0 13.612 6h-.001c.341-.383.549-.887.549-1.44M7.766 11.28l2.12-4.426a3.1 3.1 0 0 0 2.116.826c.814 0 1.556-.312 2.112-.823l2.12 4.423zM7.076 12.72l-1.495 3.12h12.837l-1.495-3.12zM19.108 17.28H4.891l-.587 1.227c-.687 1.434.358 3.093 1.948 3.093h11.496c1.59 0 2.635-1.66 1.948-3.093z" }) });
-export default PartySolid;

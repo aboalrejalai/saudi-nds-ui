@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const PieChart03Stroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 2a.75.75 0 0 0-.75.75V12c0 .414.336.75.75.75h9.25A.75.75 0 0 0 22 12c0-5.523-4.477-10-10-10m.75 9.25V3.533a8.5 8.5 0 0 1 7.717 7.717z", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M2 12c0-4.75 3.31-8.725 7.75-9.746v1.547a8.5 8.5 0 1 0 10.449 10.45h1.547C20.725 18.688 16.749 22 12 22 6.477 22 2 17.523 2 12" })] });
-export default PieChart03Stroke;

@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ContainerTruck01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.4 4.75c.746 0 1.35.604 1.35 1.35v1.65h4.86a1.35 1.35 0 0 1 1.234.802l1.79 4.027c.076.173.116.36.116.548V15.9a1.35 1.35 0 0 1-1.35 1.35h-1.756a2.749 2.749 0 0 1-5.288 0H9.644a2.749 2.749 0 0 1-5.288 0H2.6a1.35 1.35 0 0 1-1.35-1.35V6.1c0-.746.604-1.35 1.35-1.35zm-10.65 11h1.606a2.749 2.749 0 0 1 5.288 0h3.606v-9.5H2.75z", clipRule: "evenodd" }) });
-export default ContainerTruck01Solid;

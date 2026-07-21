@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const SecurityBlockSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M2.034 1.915c.39-.39 1.007-.407 1.378-.036l3.16 3.16h.002l12.248 12.248v.001L22 20.468c.37.37.354.987-.036 1.378s-1.007.406-1.378.036l-2.984-2.985a15.6 15.6 0 0 1-3.884 3.2 2.12 2.12 0 0 1-2.132.01c-6.504-3.754-7.842-10.03-7.708-14.57a2.15 2.15 0 0 1 .775-1.588L1.998 3.293c-.37-.37-.354-.988.036-1.378M11.79 2.879a2.25 2.25 0 0 1 1.722 0l6.549 2.713c.775.321 1.338 1.065 1.36 1.947.062 2.377-.31 5.222-1.586 7.933L8.575 4.21z" }) });
-export default SecurityBlockSolid;

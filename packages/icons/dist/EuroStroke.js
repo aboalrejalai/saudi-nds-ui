@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const EuroStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M15.25 3.25c1.371 0 2.67.316 3.828.88a.75.75 0 0 1-.656 1.349 7.251 7.251 0 0 0-9.88 3.771h7.708a.75.75 0 0 1 0 1.5H8.11A7.3 7.3 0 0 0 8 12c0 .426.04.844.11 1.25h8.14a.75.75 0 0 1 0 1.5H8.541a7.25 7.25 0 0 0 9.88 3.771.75.75 0 1 1 .657 1.35 8.752 8.752 0 0 1-12.135-5.12H5.25a.75.75 0 0 1 0-1.501h1.34a8.8 8.8 0 0 1 0-2.5H5.25a.75.75 0 0 1 0-1.5h1.693a8.75 8.75 0 0 1 8.307-6" }) });
-export default EuroStroke;

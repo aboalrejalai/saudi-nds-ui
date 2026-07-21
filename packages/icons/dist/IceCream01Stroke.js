@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const IceCream01Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 25", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.998 0a7.75 7.75 0 0 1 7.75 7.75v7a2.75 2.75 0 0 1-2.75 2.75h-2.25v1.25a2.75 2.75 0 1 1-5.5 0V17.5H6.999a2.75 2.75 0 0 1-2.75-2.751V7.75A7.75 7.75 0 0 1 11.997 0m-1.25 17.5v1.25a1.25 1.25 0 0 0 2.5 0V17.5zm-5-6v3.249c0 .69.56 1.251 1.251 1.251h9.999c.69 0 1.25-.56 1.25-1.25V11.5zm6.25-10a6.25 6.25 0 0 0-6.25 6.25V10h12.5V7.75a6.25 6.25 0 0 0-6.25-6.25", clipRule: "evenodd" }) });
-export default IceCream01Stroke;

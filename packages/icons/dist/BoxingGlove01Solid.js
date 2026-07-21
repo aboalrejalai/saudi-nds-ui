@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const BoxingGlove01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.422 2.249c2.205 0 4.104.262 5.426 1.412 1.347 1.173 1.902 3.091 1.902 5.884 0 4.224-1 7.181-1.645 8.379v3.075a.75.75 0 0 1-.75.75H8.49a.75.75 0 0 1-.75-.75v-2.884c-1.645-1.227-2.842-3.151-3.576-4.945a13 13 0 0 1-.808-2.762c-.133-.807-.16-1.604.038-2.192.366-1.095 1.37-1.39 2.156-1.412.384-.011.774.037 1.134.112.131-1.51.6-2.689 1.618-3.485 1.176-.92 2.916-1.182 5.12-1.182m-4.183 18h8.366v-1.772H9.24z", clipRule: "evenodd" }) });
-export default BoxingGlove01Solid;

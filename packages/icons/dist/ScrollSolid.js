@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ScrollSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.4 2.25c.746 0 1.35.604 1.35 1.35V17A4.75 4.75 0 0 1 17 21.75H6A3.75 3.75 0 0 1 2.25 18v-1A2.75 2.75 0 0 1 5 14.25h2.25V3.6c0-.746.604-1.35 1.35-1.35zM5 15.75c-.69 0-1.25.56-1.25 1.25v1A2.25 2.25 0 0 0 6 20.25h7.85a5.6 5.6 0 0 1-.668-1.05c-.614-1.24-.82-2.642-.892-3.45zm12-5.5a.75.75 0 0 1 0 1.5h-5a.75.75 0 0 1 0-1.5zM17.75 7a.75.75 0 0 0-.75-.75h-5a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 .75-.75", clipRule: "evenodd" }) });
-export default ScrollSolid;

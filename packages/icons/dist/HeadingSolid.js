@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const HeadingSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M17 11a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2z" }), _jsx("path", { fill: "currentColor", d: "M6 19V5a1 1 0 0 1 2 0v14a1 1 0 1 1-2 0M16 19V5a1 1 0 1 1 2 0v14a1 1 0 1 1-2 0" }), _jsx("path", { fill: "currentColor", d: "M19 18a1 1 0 1 1 0 2h-4a1 1 0 1 1 0-2zM19 4a1 1 0 1 1 0 2h-4a1 1 0 1 1 0-2zM9 18a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2zM9 4a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2z" })] });
-export default HeadingSolid;

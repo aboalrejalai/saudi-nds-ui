@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const GravitySolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12 8.25c.42 0 .72-.21.93-.4.19-.17.4-.41.61-.66l.48-.57c.1-.12.22-.26.31-.4.08-.13.28-.5.09-.92-.2-.43-.61-.51-.76-.53-.16-.02-.35-.02-.5-.02h-.41V2c0-.41-.34-.75-.75-.75s-.75.34-.75.75v2.75h-.41c-.15 0-.34 0-.5.02-.15.02-.56.11-.76.53-.19.42 0 .79.09.92.08.13.19.26.29.38l.5.59c.21.25.41.49.61.66.21.19.52.4.93.4M12 22.75c3.73 0 6.75-3.02 6.75-6.75S15.73 9.25 12 9.25 5.25 12.27 5.25 16s3.02 6.75 6.75 6.75" }) });
-export default GravitySolid;

@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const DesertSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12 3.25a2.747 2.747 0 0 0-2.747 2.747V12.5h-.75a.75.75 0 0 1-.75-.75 2.251 2.251 0 1 0-4.503.003c0 2.9 2.35 5.25 5.25 5.25h.753v2.247H4a.75.75 0 0 0 0 1.5h16a.75.75 0 0 0 0-1.5h-5.253v-5.997h.753c2.9 0 5.25-2.35 5.25-5.25A2.251 2.251 0 1 0 16.247 8a.75.75 0 0 1-.75.75h-.75V5.997A2.747 2.747 0 0 0 12 3.25" }) });
-export default DesertSolid;

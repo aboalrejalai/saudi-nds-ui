@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Tree03Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12.75 21.25H14a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1 0-1.5h1.25v-2.542a6.8 6.8 0 0 0 1.5 0zM12 1.25A6.75 6.75 0 0 1 18.75 8v4a6.75 6.75 0 0 1-6 6.708v-3.397l2.28-2.28a.75.75 0 1 0-1.06-1.061l-1.22 1.22V9a.75.75 0 0 0-1.5 0v2.19l-1.22-1.22a.75.75 0 1 0-1.06 1.06l2.28 2.28v5.398a6.75 6.75 0 0 1-6-6.708V8A6.75 6.75 0 0 1 12 1.25" }) });
-export default Tree03Solid;

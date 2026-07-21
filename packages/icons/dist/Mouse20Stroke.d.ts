@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-declare const Mouse20Stroke: (props: SVGProps<SVGSVGElement>) => import("react/jsx-runtime").JSX.Element;
-export default Mouse20Stroke;

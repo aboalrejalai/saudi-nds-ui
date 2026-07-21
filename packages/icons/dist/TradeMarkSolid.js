@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const TrademarkSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2M6.6 8.355a.75.75 0 0 1 .75-.75h2.88a.75.75 0 0 1 0 1.5h-.69v6.441a.75.75 0 0 1-1.5 0V9.105h-.69a.75.75 0 0 1-.75-.75m6.395-.381 1.476 2.501 1.477-2.501a.75.75 0 0 1 1.396.381v7.191a.75.75 0 0 1-1.5 0v-4.445l-.727 1.23a.75.75 0 0 1-1.292 0l-.726-1.23v4.445a.75.75 0 0 1-1.5 0V8.355a.75.75 0 0 1 1.396-.381" }) });
-export default TrademarkSolid;

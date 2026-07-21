@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Wrench02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.532 1.901c1.356-.197 2.79-.025 3.863.62a.75.75 0 0 1 .145 1.172L15.69 6.542l-.177 1.944 1.945-.176 2.848-2.848a.75.75 0 0 1 1.174.143c.645 1.075.815 2.508.618 3.864-.198 1.364-.784 2.763-1.792 3.77-1.88 1.881-4.773 2.12-7.052 1.395L6.518 21.37a2.75 2.75 0 1 1-3.888-3.889l6.737-6.738c-.724-2.279-.486-5.17 1.394-7.05C11.77 2.685 13.169 2.1 14.532 1.9", clipRule: "evenodd" }) });
-export default Wrench02Solid;

@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const AvocadoSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M14 1.125a1 1 0 1 1 0 2c-.275 0-.494.131-.698.558a3.1 3.1 0 0 0-.242.796c2.264.452 4.023 2.32 4.023 4.646 0 1.136.263 2.328.88 3.16a6.4 6.4 0 0 1 1.287 3.84c0 3.783-3.304 6.75-7.25 6.75s-7.25-2.967-7.25-6.75c0-1.43.478-2.754 1.286-3.84.618-.832.881-2.024.881-3.16 0-2.361 1.813-4.25 4.126-4.665.061-.51.196-1.102.456-1.643.395-.823 1.176-1.692 2.501-1.692", clipRule: "evenodd" }) });
-export default AvocadoSolid;

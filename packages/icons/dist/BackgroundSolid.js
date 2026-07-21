@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const BackgroundSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.113 2.25 1.75 14.01v3.25L17.53 2.25zM22.155 3.21a1.39 1.39 0 0 0-1.324-.96h-1.083L1.75 19.37v1.03c0 .11.021.54.357.91.232.24.505.34.631.38l.536-.51zM22.25 5.23 4.883 21.75h3.416L22.25 8.48zM3.17 2.25c-.79 0-1.42.61-1.42 1.35v2.93l4.5-4.28zM8.478 2.25 1.75 8.65v3.25l10.145-9.65zM16.153 21.75h4.678c.778 0 1.419-.6 1.419-1.35v-4.45zM22.25 10.59 10.518 21.75h3.416l8.316-7.91z", clipRule: "evenodd" }) });
-export default BackgroundSolid;

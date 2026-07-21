@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const ArrowMoveUpRightSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M17.53 8.78a.75.75 0 0 0 0-1.06l-3.5-3.5a.75.75 0 0 0-1.28.53v7a.75.75 0 0 0 1.28.53z", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.75 8.25A.75.75 0 0 0 14 7.5h-3a4.75 4.75 0 0 0-4.75 4.75v7a.75.75 0 1 0 1.5 0v-7A3.25 3.25 0 0 1 11 9h3a.75.75 0 0 0 .75-.75", clipRule: "evenodd" })] });
-export default ArrowMoveUpRightSolid;

@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ScratchCardStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M1.25 8A2.75 2.75 0 0 1 4 5.25h16A2.75 2.75 0 0 1 22.75 8v10A2.75 2.75 0 0 1 20 20.75H4A2.75 2.75 0 0 1 1.25 18zM4 6.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h16c.69 0 1.25-.56 1.25-1.25v-7.25H6a.75.75 0 0 1 0-1.5h15.25V8c0-.69-.56-1.25-1.25-1.25z", clipRule: "evenodd" }) });
-export default ScratchCardStroke;

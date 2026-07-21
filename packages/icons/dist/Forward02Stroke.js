@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Forward02Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M2.706 6.485v11.032L10.192 12zm-1.5-.297c0-1.107 1.26-1.743 2.15-1.086l7.89 5.812a1.35 1.35 0 0 1 0 2.174L3.355 18.9c-.89.657-2.15.02-2.15-1.086zM13.706 6.485v11.032L21.192 12zm-1.5-.297c0-1.107 1.26-1.743 2.15-1.086l7.89 5.812a1.35 1.35 0 0 1 0 2.174l-7.89 5.812c-.89.657-2.15.02-2.15-1.086z", clipRule: "evenodd" }) });
-export default Forward02Stroke;

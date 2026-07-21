@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const DarkModeStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M21.25 12a9.25 9.25 0 1 0-18.5 0 9.25 9.25 0 0 0 18.5 0m1.5 0a10.75 10.75 0 1 1-21.5 0 10.75 10.75 0 0 1 21.5 0" }), _jsx("path", { fill: "currentColor", d: "M11.55 12c0-2 1.004-3.766 2.535-4.82a5.25 5.25 0 1 0 0 9.64A5.84 5.84 0 0 1 11.55 12m1.5 0a4.35 4.35 0 0 0 2.836 4.08.75.75 0 0 1 .191 1.3 6.75 6.75 0 1 1 0-10.76.75.75 0 0 1-.191 1.3A4.35 4.35 0 0 0 13.05 12" })] });
-export default DarkModeStroke;

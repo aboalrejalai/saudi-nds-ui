@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const EaseInStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "m20.364 3.603-.001.002-.005.007-.02.033-.084.13-.325.5c-.285.43-.703 1.049-1.228 1.792a69 69 0 0 1-4.265 5.44c-1.732 1.978-3.69 3.932-5.69 5.387C6.731 18.359 4.765 19.25 3 19.25a.75.75 0 0 0 0 1.5c2.235 0 4.519-1.109 6.629-2.643 2.125-1.546 4.167-3.592 5.935-5.613a70 70 0 0 0 4.36-5.56 69 69 0 0 0 1.593-2.35l.088-.137.023-.036.006-.01.001-.002S21.636 4.398 21 4l.636.398a.75.75 0 1 0-1.272-.795", clipRule: "evenodd" }) });
-export default EaseInStroke;

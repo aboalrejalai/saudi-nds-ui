@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const KeyframeLeftStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M7.419 12a.75.75 0 0 0-.75-.75h-2.25V3a.75.75 0 0 0-1.5 0v18a.75.75 0 0 0 1.5 0v-8.25h2.25a.75.75 0 0 0 .75-.75" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.596 13.037a1.35 1.35 0 0 0 0-2.074l-5.063-4.22a1.35 1.35 0 0 0-1.728 0l-5.064 4.22a1.35 1.35 0 0 0 0 2.074l5.064 4.219a1.35 1.35 0 0 0 1.728 0zm-5.927 2.986L9.839 12l4.83-4.024L19.497 12z", clipRule: "evenodd" })] });
-export default KeyframeLeftStroke;

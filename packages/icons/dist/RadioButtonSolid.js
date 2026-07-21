@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const RadioButtonSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M21.25 12.117a9 9 0 1 0-18.001 0 9 9 0 0 0 18.001 0m2 0a11 11 0 1 1-22 0 11 11 0 0 1 22 0" }), _jsx("path", { fill: "currentColor", d: "M8.25 12.117a4 4 0 1 0 8 0 4 4 0 0 0-8 0" }), _jsx("path", { fill: "currentColor", d: "M15.5 12.117a3.25 3.25 0 1 0-6.5.001 3.25 3.25 0 0 0 6.5 0m1.5 0a4.75 4.75 0 1 1-9.499 0 4.75 4.75 0 0 1 9.499 0" })] });
-export default RadioButtonSolid;

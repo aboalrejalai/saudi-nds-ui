@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ChefHatSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M17.75 15.489v1.87c.18.06.35.12.52.19.39.15.58.59.43.98-.11.29-.4.47-.7.47-.09 0-.18-.01-.27-.05-1.57-.61-3.61-.95-5.73-.95s-4.15.34-5.73.95a.753.753 0 0 1-.97-.42c-.15-.39.04-.83.43-.98.17-.07.34-.13.52-.19v-1.87c-2.25-.18-4-2.07-4-4.33s1.95-4.36 4.35-4.36c.57 0 1.13.12 1.66.33.77-1.3 2.18-2.13 3.74-2.13s2.96.83 3.74 2.13c.52-.21 1.08-.33 1.66-.33 2.4 0 4.35 1.96 4.35 4.36s-1.75 4.16-4 4.33" }) });
-export default ChefHatSolid;

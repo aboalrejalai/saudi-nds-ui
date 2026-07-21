@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Grid02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M21 15.33h-3.67V8.67H21c.55 0 1-.45 1-1s-.45-1-1-1h-3.67V3c0-.56-.44-1-1-1s-1 .45-1 1v3.67H8.66V3c0-.56-.44-1-1-1s-1 .45-1 1v3.67H3c-.55 0-1 .45-1 1s.45 1 1 1h3.66v6.66H3c-.56 0-1 .44-1 1s.45 1 1 1h3.66V21c0 .55.45 1 1 1s1-.45 1-1v-3.67h6.67V21c0 .55.45 1 1 1s1-.45 1-1v-3.67H21c.55 0 1-.45 1-1s-.45-1-1-1m-5.67-6.66v6.66H8.66V8.67z" }) });
-export default Grid02Solid;

@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const GridOffSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M2.293 2.293a1 1 0 0 1 1.414 0l18 18a1 1 0 1 1-1.414 1.414l-18-18a1 1 0 0 1 0-1.414" }), _jsx("path", { fill: "currentColor", d: "M9.586 9H9v6h6v-.586L17.586 17H17v4a1 1 0 1 1-2 0v-4H9v4a1 1 0 1 1-2 0v-4H3a1 1 0 1 1 0-2h4V9H3a1 1 0 0 1 0-2h4v-.586zM21 15a1 1 0 1 1 0 2h-.586l-2-2zM16 2a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4.586l-2-2V9h-2.586l-2-2H15V3a1 1 0 0 1 1-1M8 2a1 1 0 0 1 1 1v2.586l-2-2V3a1 1 0 0 1 1-1" })] });
-export default GridOffSolid;

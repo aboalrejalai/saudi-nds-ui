@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Profile02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M4.25 4.5A2.25 2.25 0 0 0 2 6.75v10.5a2.25 2.25 0 0 0 2.25 2.25h15.5A2.25 2.25 0 0 0 22 17.25V6.75a2.25 2.25 0 0 0-2.25-2.25zm4.209 6.984a1.625 1.625 0 1 1 0-3.25 1.625 1.625 0 0 1 0 3.25M14.15 9.75h4.1a.75.75 0 0 1 0 1.5h-4.1a.75.75 0 0 1 0-1.5m-6.91 2.337h2.428a2.24 2.24 0 0 1 2.238 2.238v.93a.75.75 0 0 1-.75.75H5.751a.75.75 0 0 1-.75-.75v-.93a2.24 2.24 0 0 1 2.238-2.238M13.4 13.5a.75.75 0 0 1 .75-.75h2a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1-.75-.75" }) });
-export default Profile02Solid;

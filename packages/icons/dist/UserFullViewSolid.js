@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const UserFullViewSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M11.999 2.398a2.942 2.942 0 1 0 0 5.885 2.942 2.942 0 0 0 0-5.885M8.637 9.685a2.16 2.16 0 0 0-2.16 2.16v2.668a2.16 2.16 0 0 0 1.54 2.069l.682.205.31 2.883a2.16 2.16 0 0 0 2.148 1.929h1.683a2.16 2.16 0 0 0 2.147-1.929l.311-2.883.683-.205a2.16 2.16 0 0 0 1.54-2.069v-2.668a2.16 2.16 0 0 0-2.16-2.16z" }) });
-export default UserFullViewSolid;

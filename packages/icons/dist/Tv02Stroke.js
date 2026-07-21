@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Tv02Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.03 22.28a.75.75 0 1 1-1.06-1.06L11.19 18H4a2.75 2.75 0 0 1-2.75-2.75v-11A2.75 2.75 0 0 1 4 1.5h16a2.75 2.75 0 0 1 2.75 2.75v11A2.75 2.75 0 0 1 20 18h-7.19l3.22 3.22a.75.75 0 0 1-1.06 1.06L12 19.31zM20 16.5c.69 0 1.25-.56 1.25-1.25v-11C21.25 3.56 20.69 3 20 3H4c-.69 0-1.25.56-1.25 1.25v11c0 .69.56 1.25 1.25 1.25z", clipRule: "evenodd" }) });
-export default Tv02Stroke;

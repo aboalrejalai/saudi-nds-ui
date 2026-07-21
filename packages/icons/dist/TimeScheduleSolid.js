@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const TimeScheduleSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M16 15.87a.858.858 0 0 1 1.296-.74l5.283 3.132a.858.858 0 0 1 0 1.476l-5.283 3.131A.858.858 0 0 1 16 22.131zM3 12.01c0 4.725 3.641 8.6 8.27 8.97.53.043.98.473.98 1.03 0 .547-.449 1.013-1.018.973C5.515 22.59 1 17.827 1 12.01c0-6.075 4.925-11 11-11 5.817 0 10.58 4.515 10.974 10.232.039.57-.426 1.018-.974 1.018-.557 0-.987-.45-1.03-.98A9.001 9.001 0 0 0 3 12.01m10-1h5a1 1 0 1 1 0 2h-6a1 1 0 0 1-1-1v-6a1 1 0 1 1 2 0z" }) });
-export default TimeScheduleSolid;

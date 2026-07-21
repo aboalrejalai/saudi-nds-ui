@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Rotate02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M8.582 3.64a9.033 9.033 0 0 1 11.683 11.917 9 9 0 0 1-2.605 3.462h2.296a1 1 0 1 1 0 2h-5a1 1 0 0 1-1-1v-5a1 1 0 0 1 2 0v2.78A7.028 7.028 0 0 0 14.71 5.55a7.03 7.03 0 0 0-5.381-.054 1 1 0 0 1-.748-1.855M4.586 7.189v-.01a1 1 0 1 1 2 0v.01a1 1 0 1 1-2 0M3.016 11.029v-.01a1 1 0 0 1 2 0v.01a1 1 0 1 1-2 0M3.586 15.129v-.01a1 1 0 0 1 2 0v.01a1 1 0 1 1-2 0M6.116 18.399v-.01a1 1 0 0 1 2 0v.01a1 1 0 1 1-2 0M9.956 19.969v-.01a1 1 0 0 1 2 0v.01a1 1 0 1 1-2 0" }) });
-export default Rotate02Solid;

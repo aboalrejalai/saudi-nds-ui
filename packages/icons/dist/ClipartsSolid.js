@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ClipartsSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 25", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M7.872 2.88a3 3 0 0 0-.88 2.122V18a5.004 5.004 0 0 0 10.007 0V5.003a1 1 0 0 1 2 0V18a7.004 7.004 0 0 1-14.006 0V5.002a5.003 5.003 0 0 1 10.004 0l-.007 13.004a3.002 3.002 0 0 1-6.002 0l.007-12a1.001 1.001 0 0 1 2 0l-.008 11.999a1.005 1.005 0 0 0 1.002 1.003 1 1 0 0 0 1.001-1.002l.007-13.004A3.003 3.003 0 0 0 7.872 2.88" }) });
-export default ClipartsSolid;

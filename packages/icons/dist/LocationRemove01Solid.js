@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const LocationRemove01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12.001 1.105c-4.83 0-8.75 3.92-8.75 8.75 0 1.3.58 2.75 1.35 4.11.78 1.38 1.81 2.78 2.82 4.02 1.02 1.25 2.03 2.35 2.79 3.14.38.39.7.71.92.93l.26.26.07.06.03.03.51.49.52-.49.01-.01v-.02l.08-.06.26-.26c.23-.22.54-.54.92-.93.76-.79 1.78-1.89 2.79-3.14 1.02-1.24 2.05-2.64 2.83-4.02.76-1.36 1.34-2.81 1.34-4.11 0-4.83-3.92-8.75-8.75-8.75m3.5 10.61h-7c-.55 0-1-.44-1-1s.45-1 1-1h7c.55 0 1 .45 1 1s-.45 1-1 1" }) });
-export default LocationRemove01Solid;

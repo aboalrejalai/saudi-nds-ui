@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const CircleArrowMoveDownRightSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10m-7.794 5.254a.75.75 0 0 1-1.112-1.006l.797-.883h-.583a6 6 0 0 1-6-6V7.398a.723.723 0 0 1 .717-.677c.419-.006.758.333.788.75v1.394a5 5 0 0 0 5.002 5.002l-.882-.797a.75.75 0 0 1 1.005-1.113l2.226 2.01a.75.75 0 0 1 .054 1.06z", clipRule: "evenodd" }) });
-export default CircleArrowMoveDownRightSolid;

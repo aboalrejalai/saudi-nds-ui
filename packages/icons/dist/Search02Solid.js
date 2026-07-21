@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Search02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.004.998c-4.42 0-8 3.58-8 8a7.998 7.998 0 0 0 12.9 6.32l1.46 1.46c-.26.77-.08 1.66.54 2.28l3.04 3.04a2.227 2.227 0 1 0 3.15-3.15l-3.04-3.04c-.62-.62-1.5-.8-2.28-.54l-1.46-1.46a7.96 7.96 0 0 0 1.68-4.9 7.985 7.985 0 0 0-7.99-8.01m-.06 2.75a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 1 1 0-10.5", clipRule: "evenodd" }) });
-export default Search02Solid;

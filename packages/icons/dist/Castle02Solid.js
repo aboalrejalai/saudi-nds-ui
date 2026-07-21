@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const Castle02Solid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M17.286 2c.473 0 .857.384.857.858l-.001 6.57H5.858v-6.57a.857.857 0 0 1 1.714 0v1.428h3.57V2.857a.857.857 0 0 1 1.715 0v1.429h3.57l.001-1.43c0-.473.385-.856.858-.856" }), _jsx("path", { fill: "currentColor", d: "M3.714 10.571V9.143a.857.857 0 0 0-1.714 0v10.286A2.57 2.57 0 0 0 4.571 22H19.43A2.57 2.57 0 0 0 22 19.429V9.143a.857.857 0 0 0-1.714 0v1.428zm5.857 7.28a2.429 2.429 0 0 1 4.858 0v2.435H9.57z" })] });
-export default Castle02Solid;

@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ToyTrainSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M3.883 7.875c0-2.9 2.35-5.25 5.25-5.25h5.75c2.9 0 5.25 2.35 5.25 5.25v8.75a2.25 2.25 0 0 1-2.25 2.25h-.69l1.22 1.22a.75.75 0 1 1-1.06 1.06l-2.28-2.28h-6.13l-2.28 2.28a.75.75 0 0 1-1.06-1.06l1.22-1.22h-.69a2.25 2.25 0 0 1-2.25-2.25zm10.125-2.25a.75.75 0 0 0 .75-.75v-.75h-5.5v.75c0 .414.336.75.75.75zm-5.9 9.625a.9.9 0 1 0 1.8 0 .9.9 0 0 0-1.8 0m6.9-.9a.9.9 0 1 0 0 1.8.9.9 0 0 0 0-1.8m3.625-5.725H5.383v3h13.25z" }) });
-export default ToyTrainSolid;

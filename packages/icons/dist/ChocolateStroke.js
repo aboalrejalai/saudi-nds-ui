@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ChocolateStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.5 2.248a.75.75 0 0 1 .75.75c0 1.388.343 1.953.791 2.251.539.36 1.444.5 2.959.5a.75.75 0 0 1 .75.75v14.499a.75.75 0 0 1-.75.75H5a.75.75 0 0 1-.75-.75v-18a.75.75 0 0 1 .75-.75zm-1.75 18h5.5v-4.5h-5.5zm-7 0h5.5v-4.5h-5.5zm7-6h5.5v-4.5h-5.5zm-7 0h5.5v-4.5h-5.5zm7-6h5.5V7.236c-1.185-.041-2.245-.208-3.041-.739-.882-.588-1.31-1.515-1.426-2.749H12.75zm-7 0h5.5v-4.5h-5.5z", clipRule: "evenodd" }) });
-export default ChocolateStroke;

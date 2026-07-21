@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const SilenceSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2M7.116 14.238H8.32v-.552a.75.75 0 0 1 1.5 0v.552h1.43v-.552a.75.75 0 0 1 1.5 0v.552h1.43v-.552a.75.75 0 0 1 1.5 0v.552h1.204a.75.75 0 0 1 0 1.5H15.68v.553a.75.75 0 1 1-1.5 0v-.553h-1.43v.553a.75.75 0 1 1-1.5 0v-.553H9.82v.553a.75.75 0 1 1-1.5 0v-.553H7.116a.75.75 0 0 1 0-1.5M9.67 9.233a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0m5.912-1.25a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5" }) });
-export default SilenceSolid;

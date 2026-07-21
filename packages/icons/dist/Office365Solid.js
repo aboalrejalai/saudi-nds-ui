@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Office365Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.197 1.206a.85.85 0 0 1 .593-.005l5.5 2a.85.85 0 0 1 .56.799v16a.85.85 0 0 1-.56.799l-5.5 2a.85.85 0 0 1-.593-.005l-10.5-4A.85.85 0 0 1 3.15 18V6a.85.85 0 0 1 .547-.794zM8.6 7.576V15.5a.1.1 0 0 1-.051.088l-4.195 2.329 9.546.477V6.131z", clipRule: "evenodd" }) });
-export default Office365Solid;

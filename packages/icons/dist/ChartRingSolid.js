@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ChartRingSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M17.1 10.914h5.15c-.434-5.41-4.962-9.664-10.483-9.664-2.597 0-4.975.941-6.81 2.502L8.6 7.392a5.402 5.402 0 0 1 8.502 3.521M10.914 17.1A5.402 5.402 0 0 1 7.393 8.6L3.752 4.958a10.48 10.48 0 0 0-2.502 6.809c0 5.521 4.255 10.049 9.664 10.483zM17.1 12.62a5.405 5.405 0 0 1-4.48 4.48v5.15a10.52 10.52 0 0 0 9.63-9.63z" }) });
-export default ChartRingSolid;

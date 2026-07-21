@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const MailboxStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.61 3.002a1.5 1.5 0 0 0-1.5 1.5v2.996H7.375A5.375 5.375 0 0 0 2 12.873v5.874a2.25 2.25 0 0 0 2.25 2.25h15.5a2.25 2.25 0 0 0 2.25-2.25v-6c0-2.899-2.35-5.25-5.25-5.25h-2.14V6H16.5a1.499 1.499 0 0 0 0-2.998zm2.14 5.996H11.1a5.36 5.36 0 0 1 1.65 3.875v6.624h7a.75.75 0 0 0 .75-.75v-6a3.75 3.75 0 0 0-3.75-3.75m-5.5 3.875v6.624h-7a.75.75 0 0 1-.75-.75v-5.874a3.875 3.875 0 0 1 7.75 0", clipRule: "evenodd" }) });
-export default MailboxStroke;

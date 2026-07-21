@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const ArrowDown03Solid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M17.129 21.966a.755.755 0 0 0 .747-.752.755.755 0 0 0-.752-.748L6.871 20.5a.756.756 0 0 0-.748.753c.002.41.343.749.753.747z" }), _jsx("path", { fill: "currentColor", d: "M12.809 2.752a.75.75 0 0 0-1.5-.004l-.07 11.638-3.86-.012a.75.75 0 0 0-.53 1.279l4.582 4.61a.75.75 0 0 0 1.06.002l4.61-4.583a.75.75 0 0 0-.46-1.278l-3.902-.013z" })] });
-export default ArrowDown03Solid;

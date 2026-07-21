@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Undo03Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M22.09 13.844c0 3.86-3.14 7-7 7h-4c-.55 0-1-.45-1-1s.45-1 1-1h4c2.76 0 5-2.24 5-5s-2.24-5-5-5H5.37l1.94 1.9c.18.19.29.43.3.7a1.008 1.008 0 0 1-1.71.74l-3.69-3.62c-.39-.39-.39-1.02-.02-1.41l3.63-3.69c.18-.2.44-.31.71-.31h.01c.26 0 .51.1.69.28.4.4.4 1.04.01 1.44l-1.91 1.95 9.92.02c3.79.09 6.84 3.19 6.84 7" }) });
-export default Undo03Solid;

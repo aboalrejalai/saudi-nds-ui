@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const WifiNoSignalSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M1.755 7.094C4.948 4.65 8.367 3.404 12 3.404s7.051 1.246 10.243 3.69l.014.01.014.012c.551.464.652 1.282.174 1.846L12.99 20.136a1.298 1.298 0 0 1-1.981 0L1.541 8.949l-.01-.014c-.44-.572-.364-1.392.223-1.841", clipRule: "evenodd" }) });
-export default WifiNoSignalSolid;

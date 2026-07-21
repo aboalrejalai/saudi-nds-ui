@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const RightToLeftListBulletStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M4.629 5.245a.75.75 0 1 0 0 1.5h11a.75.75 0 0 0 0-1.5zM4.629 11.245a.75.75 0 0 0 0 1.5h11a.75.75 0 0 0 0-1.5zM4.629 17.245a.75.75 0 0 0 0 1.5h11a.75.75 0 0 0 0-1.5zM20.379 6.005v-.01a.75.75 0 0 0-1.5 0v.01a.75.75 0 0 0 1.5 0M20.379 12.005v-.01a.75.75 0 0 0-1.5 0v.01a.75.75 0 0 0 1.5 0M20.379 18.005v-.01a.75.75 0 0 0-1.5 0v.01a.75.75 0 0 0 1.5 0" }) });
-export default RightToLeftListBulletStroke;

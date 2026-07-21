@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const QuoteUpSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M15 19a2 2 0 0 1-2-2v-6c0-3.13 1.65-5.192 4.757-5.97a1 1 0 1 1 .486 1.94C16.016 7.529 15 8.799 15 11v1h3a2 2 0 0 1 1.995 1.85L20 14v3a2 2 0 0 1-2 2zM6 19a2 2 0 0 1-2-2v-6c0-3.13 1.65-5.192 4.757-5.97a1 1 0 1 1 .486 1.94C7.016 7.529 6 8.799 6 11v1h3a2 2 0 0 1 1.995 1.85L11 14v3a2 2 0 0 1-2 2z" }) });
-export default QuoteUpSolid;

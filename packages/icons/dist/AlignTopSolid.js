@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const AlignTopSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M14.5 20.752a1.75 1.75 0 0 1-1.75-1.75v-12a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75v12a1.75 1.75 0 0 1-1.75 1.75zM8.5 16.536a1.75 1.75 0 0 1-1.75-1.75V7.002a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75v7.784a1.75 1.75 0 0 1-1.75 1.75zM4 4.752a.75.75 0 0 1 0-1.5h16a.75.75 0 0 1 0 1.5z" }) });
-export default AlignTopSolid;

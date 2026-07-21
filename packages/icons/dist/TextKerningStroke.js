@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const TextKerningStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M20.25 11.5a1.75 1.75 0 0 0-3.5 0v.75h3.5zm1.5 3.5a.75.75 0 0 1-1.5 0v-1.25h-3.5V15a.75.75 0 0 1-1.5 0v-3.5a3.25 3.25 0 0 1 6.5 0zM8.33 8.665a.75.75 0 0 1 1.34.67l-3 6a.75.75 0 0 1-1.34 0l-3-6a.75.75 0 0 1 1.34-.67L6 13.323zM14.298 3.736a.75.75 0 0 1 1.404.528l-6 16a.75.75 0 0 1-1.404-.528z" }) });
-export default TextKerningStroke;

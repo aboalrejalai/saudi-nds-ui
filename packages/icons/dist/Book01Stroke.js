@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const Book01Stroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M15 6.25a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1 0-1.5z" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.4 2.25c.746 0 1.35.604 1.35 1.35v13.114a1 1 0 0 1-.015.142.75.75 0 0 1-.735.894H6a1.25 1.25 0 1 0 0 2.5h14a.75.75 0 0 1 0 1.5H6a1 1 0 0 1-.08-.005A2.747 2.747 0 0 1 3.25 19V5A2.75 2.75 0 0 1 6 2.25zM6 3.75c-.69 0-1.25.56-1.25 1.25v11.553a2.7 2.7 0 0 1 1.17-.3A1 1 0 0 1 6 16.25h13.25V3.75z", clipRule: "evenodd" })] });
-export default Book01Stroke;

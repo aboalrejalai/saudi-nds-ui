@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const HumiditySolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12.732 2.751q-.157-.11-.243-.17-.03-.026-.064-.044l-.028-.018a.72.72 0 0 0-.792 0l-.092.062q-.087.06-.242.17a24.789 24.789 0 0 0-3.424 2.977C5.999 7.67 4.016 10.47 4.016 13.616a7.986 7.986 0 0 0 15.97 0c0-3.146-1.983-5.945-3.83-7.886a25 25 0 0 0-3.424-2.978m3.656 10.142a.72.72 0 0 1 .72.72 5.107 5.107 0 0 1-5.107 5.107.72.72 0 0 1 0-1.44 3.667 3.667 0 0 0 3.667-3.667.72.72 0 0 1 .72-.72" }) });
-export default HumiditySolid;

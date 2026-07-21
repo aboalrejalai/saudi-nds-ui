@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const MaleSymbolStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.396 4.378a.72.72 0 0 0-.738-.777L15.203 3.6a.72.72 0 0 0 0 1.44h2.737l-4.095 4.095a6.316 6.316 0 1 0 1.018 1.018l4.093-4.092.001 2.733a.72.72 0 1 0 1.44 0zM6.468 10.633a4.875 4.875 0 0 1 6.888-.007l.008.008.007.007a4.875 4.875 0 1 1-6.903-.008", clipRule: "evenodd" }) });
-export default MaleSymbolStroke;

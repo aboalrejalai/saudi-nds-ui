@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const LinkForwardSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M3.25 15.5c0 1.077.392 2.132 1.147 2.911.742.764 1.906 1.339 3.603 1.339a1.25 1.25 0 1 1 0 2.5c-2.303 0-4.139-.8-5.397-2.099C1.358 18.868.75 17.172.75 15.5s.608-3.368 1.853-4.651C3.86 9.55 5.697 8.749 8 8.749h10.982l-4.866-4.865a1.25 1.25 0 1 1 1.768-1.768l7 7a1.25 1.25 0 0 1 0 1.768l-7 7a1.25 1.25 0 0 1-1.768-1.768l4.866-4.866H8c-1.697 0-2.861.574-3.603 1.339-.755.779-1.147 1.833-1.147 2.91" }) });
-export default LinkForwardSolid;

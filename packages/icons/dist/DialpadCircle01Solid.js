@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const DialpadCircle01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12 15.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M4 9.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M12 9.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M20 9.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M4 3.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M12 3.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5M20 3.75a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5" }) });
-export default DialpadCircle01Solid;

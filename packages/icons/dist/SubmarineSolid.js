@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const SubmarineSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M18.498 12.375h-2l-.79-2.39a.9.9 0 0 0-.86-.61h-1.6v-2c0-.14.11-.25.25-.25h1a.749.749 0 1 0 0-1.5h-1c-.96 0-1.75.78-1.75 1.75v2h-.6c-.39 0-.73.24-.85.61l-.8 2.39h-1l-2.98 1.48s-.02.01-.03-.01l-.81-1.2a.6.6 0 0 0-.51-.27h-1.05c-.34 0-.62.27-.62.61v4.77c0 .34.28.62.62.62h1.05c.21 0 .4-.11.51-.28l.81-1.2s.02-.02.03-.01l2.98 1.48h9.81c1.63 0 3.12-1.23 3.19-2.87.07-1.72-1.3-3.13-3-3.13zm-7.9.18.59-1.76c.06-.18.23-.3.41-.3h2.8c.19 0 .36.12.42.3l.58 1.76z" }) });
-export default SubmarineSolid;

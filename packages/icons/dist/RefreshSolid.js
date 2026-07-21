@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const RefreshSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "m16.43 7.55 2.1-2.1A9.2 9.2 0 0 0 12 2.75c-5.11 0-9.25 4.14-9.25 9.25s4.14 9.25 9.25 9.25c4.63 0 8.48-3.41 9.14-7.86.07-.41.45-.69.86-.63s.69.44.63.85c-.78 5.17-5.24 9.14-10.63 9.14-5.94 0-10.75-4.81-10.75-10.75S6.06 1.25 12 1.25c2.96 0 5.65 1.2 7.59 3.14l1.87-1.88h.02c.14-.15.32-.23.52-.23.42 0 .75.34.75.75v4.4c0 .75-.6 1.35-1.35 1.35H17c-.41 0-.75-.34-.75-.75 0-.18.07-.35.18-.48", clipRule: "evenodd" }) });
-export default RefreshSolid;

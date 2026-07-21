@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const NeutralSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75 22.75 17.937 22.75 12 17.937 1.25 12 1.25m4.358 14.237a.87.87 0 0 0-.872-.872H8.514a.872.872 0 1 0 0 1.743h6.973c.48 0 .871-.39.871-.872M9.385 7.932a1.453 1.453 0 1 0-2.905 0 1.453 1.453 0 0 0 2.905 0m8.135 0a1.453 1.453 0 1 0-2.905 0 1.453 1.453 0 0 0 2.905 0", clipRule: "evenodd" }) });
-export default NeutralSolid;

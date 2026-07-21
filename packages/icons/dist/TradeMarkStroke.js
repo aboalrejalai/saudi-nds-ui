@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const TrademarkStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M2.4 12a9.6 9.6 0 1 1 19.2 0 9.6 9.6 0 0 1-19.2 0M12 3.84a8.16 8.16 0 1 0 0 16.32 8.16 8.16 0 0 0 0-16.32", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M11.021 7.776H6.817v1.44H8.14v6.912h1.556V9.216h1.324zM13.695 7.776h-2.078v8.352h1.393v-4.483l.677 4.483h1.308l.677-4.483v4.483h1.486V7.776H15.08l-.693 4.957z" })] });
-export default TrademarkStroke;

@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const MoonCloudSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M13.943 7.966a5.85 5.85 0 0 1 5.832 5.387 3.79 3.79 0 0 1-2.003 7.01H8.554a3.79 3.79 0 0 1-.373-7.564 5.85 5.85 0 0 1 5.762-4.833M7.901 4.544a.72.72 0 0 1 .881-.88 5.14 5.14 0 0 1 2.313 1.335c.51.51.89 1.099 1.142 1.728a7.3 7.3 0 0 0-5.234 4.848 5.23 5.23 0 0 0-2.293 1.449 5.17 5.17 0 0 1-2.248-3.04.72.72 0 0 1 .881-.882 3.72 3.72 0 0 0 3.595-.963A3.72 3.72 0 0 0 7.9 4.544" }) });
-export default MoonCloudSolid;

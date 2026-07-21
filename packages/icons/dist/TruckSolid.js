@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const TruckSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "m22.63 12.455-1.79-4.03c-.21-.49-.7-.8-1.23-.8h-4.86v-1.65c0-.75-.6-1.35-1.35-1.35H2.6c-.75 0-1.35.6-1.35 1.35v9.8c0 .75.6 1.35 1.35 1.35h1.76a2.742 2.742 0 0 0 5.28 0h4.72a2.742 2.742 0 0 0 5.28 0h1.76c.75 0 1.35-.6 1.35-1.35v-2.77c0-.19-.04-.38-.12-.55M7 17.625a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5m8.53-5.75v-2.03h3.15l.76 2.03zm1.47 5.75a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5" }) });
-export default TruckSolid;

@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const CelsiusStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M5.16 3.6a2.16 2.16 0 1 0 0 4.32 2.16 2.16 0 0 0 0-4.32m-.72 2.16a.72.72 0 1 1 1.44 0 .72.72 0 0 1-1.44 0", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M15.405 3.6a8.4 8.4 0 1 0 5.333 14.89.72.72 0 0 0-.915-1.112 6.96 6.96 0 1 1 0-10.756.72.72 0 0 0 .915-1.113 8.37 8.37 0 0 0-5.333-1.91" })] });
-export default CelsiusStroke;

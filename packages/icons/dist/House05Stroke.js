@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const House05Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M16.95 4a.75.75 0 0 0-1.5 0v1.498l-1.986-1.701a2.25 2.25 0 0 0-2.927 0L3.512 9.812A.75.75 0 0 0 4 11.132h1.25v8.117H4a.75.75 0 0 0 0 1.5h16a.75.75 0 1 0 0-1.5h-1.25v-8.117H20a.75.75 0 0 0 .488-1.32l-3.538-3.03zm-4.462.936a.75.75 0 0 0-.976 0L6.03 9.632H17.97zM6.75 11.132h10.5v8.117h-2.5v-2.38a2.75 2.75 0 1 0-5.5 0v2.38h-2.5zm6.5 8.117v-2.38a1.25 1.25 0 1 0-2.5 0v2.38z", clipRule: "evenodd" }) });
-export default House05Stroke;

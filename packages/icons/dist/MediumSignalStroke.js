@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const MediumSignalStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M20.589 4.549c.424 0 .768.344.768.768v12.865a.768.768 0 0 1-1.536 0V5.317c0-.424.344-.768.768-.768M2.924 14.84c.424 0 .768.344.768.768v2.573a.768.768 0 0 1-1.536 0v-2.573c0-.424.344-.768.768-.768M8.109 13.036a.768.768 0 0 0-1.536 0v5.146a.768.768 0 0 0 1.536 0zM11.757 12.695c.424 0 .768.344.768.768v4.719a.768.768 0 0 1-1.536 0v-4.72c0-.423.343-.767.768-.767M16.941 7.89a.768.768 0 0 0-1.536 0v10.292a.768.768 0 0 0 1.536 0z" }) });
-export default MediumSignalStroke;

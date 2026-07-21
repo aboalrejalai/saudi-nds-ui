@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ArrowExpandDiagonal01Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M3.692 6.52a.75.75 0 0 1 1.06 0L17.48 19.248a.75.75 0 0 1-1.06 1.06l-5.834-5.833L6.74 18.32h3.139a.75.75 0 1 1 0 1.5h-4.95a.75.75 0 0 1-.75-.75v-4.95a.75.75 0 1 1 1.5 0v3.14l3.846-3.847L3.692 7.58a.75.75 0 0 1 0-1.06M6.52 3.691a.75.75 0 0 1 1.06 0l5.834 5.834 3.847-3.846h-3.14a.75.75 0 1 1 0-1.5h4.95a.75.75 0 0 1 .75.75v4.95a.75.75 0 1 1-1.5 0v-3.14l-3.846 3.847 5.834 5.833a.75.75 0 1 1-1.061 1.06L6.52 4.753a.75.75 0 0 1 0-1.06" }) });
-export default ArrowExpandDiagonal01Stroke;

@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Inequality02Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "#000", d: "M18.864 17.547c.43 0 .776.342.776.758a.767.767 0 0 1-.776.757H5.144a.767.767 0 0 1-.775-.757c0-.415.345-.758.776-.758zM7.388 5.289a.93.93 0 0 1 1.285-.18l10.6 7.797a.89.89 0 0 1 .338.935.91.91 0 0 1-.754.668L5.42 16.456a.9.9 0 0 1-.386-.025.9.9 0 0 1-.656-.731.9.9 0 0 1 .68-1l.093-.018 11.266-1.634L7.57 6.542l-.072-.06a.88.88 0 0 1-.11-1.193" }) });
-export default Inequality02Stroke;

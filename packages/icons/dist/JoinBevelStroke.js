@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const JoinBevelStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M10.25 6A1.25 1.25 0 0 0 9 4.75H6A1.25 1.25 0 0 0 4.75 6v6.586l.005.049a.25.25 0 0 0 .068.128l6.414 6.414a.25.25 0 0 0 .177.073H18A1.25 1.25 0 0 0 19.25 18v-3A1.25 1.25 0 0 0 18 13.75h-6A1.75 1.75 0 0 1 10.25 12zm1.5 6a.25.25 0 0 0 .25.25h6A2.75 2.75 0 0 1 20.75 15v3A2.75 2.75 0 0 1 18 20.75h-6.586a1.75 1.75 0 0 1-1.11-.396l-.127-.117-6.414-6.414a1.75 1.75 0 0 1-.513-1.237V6A2.75 2.75 0 0 1 6 3.25h3A2.75 2.75 0 0 1 11.75 6z" }) });
-export default JoinBevelStroke;

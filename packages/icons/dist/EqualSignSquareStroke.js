@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const EqualSignSquareStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.4 2.25c.75 0 1.35.6 1.35 1.35v16.8c0 .75-.6 1.35-1.35 1.35H3.6c-.75 0-1.35-.6-1.35-1.35V3.6c0-.75.6-1.35 1.35-1.35zm-16.65 18h16.5V3.75H3.75z", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M7.85 10.9h8.29a.749.749 0 1 0 0-1.5H7.85c-.41 0-.74.34-.74.75s.33.75.74.75M16.14 13.09H7.85c-.41 0-.74.34-.74.75s.33.74.74.74h8.29c.42 0 .75-.33.75-.74s-.33-.75-.75-.75" })] });
-export default EqualSignSquareStroke;

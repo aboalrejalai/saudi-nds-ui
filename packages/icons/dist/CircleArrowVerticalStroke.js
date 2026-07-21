@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const CircleArrowVerticalStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M20.5 12a8.5 8.5 0 1 0-17 0 8.5 8.5 0 0 0 17 0M9.366 7.923l2.13-2.112a.75.75 0 0 1 1.061.004l2.112 2.13a.75.75 0 0 1-1.065 1.057l-.837-.845-.034 7.693.845-.838a.75.75 0 0 1 1.056 1.065l-2.13 2.112a.75.75 0 0 1-1.061-.004l-2.112-2.13a.75.75 0 1 1 1.065-1.057l.837.845.034-7.693-.845.838a.75.75 0 0 1-1.056-1.065M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10" }) });
-export default CircleArrowVerticalStroke;

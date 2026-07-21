@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const VirtualRealityVr01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M2.402 8.25a2.16 2.16 0 0 1 2.16-2.16h14.88a2.16 2.16 0 0 1 2.16 2.16v7.556a2.16 2.16 0 0 1-2.16 2.16h-3.227a2.16 2.16 0 0 1-1.323-.452l-2.449-1.897a.72.72 0 0 0-.881 0l-2.45 1.897a2.16 2.16 0 0 1-1.322.452H4.562a2.16 2.16 0 0 1-2.16-2.16zm5.813.72a2.213 2.213 0 1 0 0 4.426 2.213 2.213 0 0 0 0-4.426m5.362 2.213a2.213 2.213 0 1 0 4.426 0 2.213 2.213 0 0 0-4.426 0" }) });
-export default VirtualRealityVr01Solid;

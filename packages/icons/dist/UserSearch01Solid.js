@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const UserSearch01Solid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M6.814 6.345a4.345 4.345 0 1 1 8.69 0 4.345 4.345 0 0 1-8.69 0M10.972 21h-5.88a2.25 2.25 0 0 1-2.25-2.25v-1.31c0-2.9 2.35-5.25 5.25-5.25h2.237a6.47 6.47 0 0 0-1.423 4.058c0 1.876.795 3.566 2.066 4.752" }), _jsx("path", { fill: "currentColor", d: "M20.407 16.248c0 1.11-.362 2.135-.974 2.965l1.507 1.506a.75.75 0 0 1-1.06 1.061l-1.507-1.507a5 5 0 1 1 2.034-4.025" })] });
-export default UserSearch01Solid;

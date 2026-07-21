@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Pentagon01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.207 1.629a1.35 1.35 0 0 1 1.587 0l9.757 7.088c.473.344.67.953.49 1.51l-3.727 11.469a1.35 1.35 0 0 1-1.283.933H5.97a1.35 1.35 0 0 1-1.284-.933L.961 10.226a1.35 1.35 0 0 1 .49-1.509z", clipRule: "evenodd" }) });
-export default Pentagon01Solid;

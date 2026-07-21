@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ForkSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "m21.657 8.09-2.45 2.45a5.2 5.2 0 0 1-3.58 1.52h-.34c-.4.01-.78.18-1.05.47l-8.04 8.6c-.91.97-2.44 1-3.38.06s-.92-2.48.05-3.39l8.6-8.03c.29-.28.46-.66.47-1.06v-.34a5.2 5.2 0 0 1 1.52-3.57l2.45-2.46c.29-.29.77-.29 1.06 0 .29.3.29.77 0 1.06l-1.87 1.88 1.28 1.28 1.22-1.22c.29-.29.77-.29 1.06 0 .29.3.29.77 0 1.06l-1.22 1.22 1.29 1.29 1.87-1.88c.29-.29.77-.29 1.06 0s.29.77 0 1.06", clipRule: "evenodd" }) });
-export default ForkSolid;

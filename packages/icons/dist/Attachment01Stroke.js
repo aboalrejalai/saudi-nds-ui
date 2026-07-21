@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Attachment01Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 25", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.177 1.61a3.25 3.25 0 0 0-1.975 1.516L4.704 14.382a5.254 5.254 0 0 0 9.099 5.253L20.3 8.379a.75.75 0 1 1 1.3.75l-6.5 11.256A6.753 6.753 0 1 1 3.406 13.63L9.903 2.377a4.752 4.752 0 0 1 8.231 4.752l-6.508 11.258a2.751 2.751 0 1 1-4.765-2.75l6.006-10.39a.75.75 0 0 1 1.299.751L8.16 16.385a1.252 1.252 0 0 0 2.167 1.251l6.508-11.258a3.253 3.253 0 0 0-3.658-4.767", clipRule: "evenodd" }) });
-export default Attachment01Stroke;

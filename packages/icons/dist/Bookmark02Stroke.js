@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Bookmark02Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M7 3.75c-.69 0-1.25.56-1.25 1.25v14.626l4.763-3.062a2.75 2.75 0 0 1 2.974 0l4.763 3.062V5c0-.69-.56-1.25-1.25-1.25zM4.25 5A2.75 2.75 0 0 1 7 2.25h10A2.75 2.75 0 0 1 19.75 5v16a.75.75 0 0 1-1.156.63l-5.918-3.804a1.25 1.25 0 0 0-1.352 0l-5.918 3.805A.75.75 0 0 1 4.25 21z", clipRule: "evenodd" }) });
-export default Bookmark02Stroke;

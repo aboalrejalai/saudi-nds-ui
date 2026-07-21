@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const WhiteboardSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12 2.88a.72.72 0 0 1 .72.72v1.2h6.24a2.16 2.16 0 0 1 2.16 2.16v7.92a2.16 2.16 0 0 1-2.16 2.16h-3.03L17 20.167a.72.72 0 0 1-1.362.466l-1.232-3.593H9.593l-1.232 3.594A.72.72 0 1 1 7 20.167l1.072-3.127H5.04a2.16 2.16 0 0 1-2.16-2.16V6.96A2.16 2.16 0 0 1 5.04 4.8h6.24V3.6a.72.72 0 0 1 .72-.72" }) });
-export default WhiteboardSolid;

@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const EnergyEllipseSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.25C6.06 1.25 1.25 6.06 1.25 12S6.06 22.75 12 22.75 22.75 17.93 22.75 12 17.93 1.25 12 1.25m5.1 9.73-5.62 7.72a.645.645 0 0 1-.72.24.66.66 0 0 1-.46-.62v-4.26H6.74c-.24 0-.46-.14-.58-.36a.6.6 0 0 1-.07-.29c0-.14.04-.27.13-.39l5.61-7.72c.17-.23.46-.32.73-.24.27.09.45.34.45.62v4.27h3.56c.25 0 .47.13.58.35s.09.48-.05.68", clipRule: "evenodd" }) });
-export default EnergyEllipseSolid;

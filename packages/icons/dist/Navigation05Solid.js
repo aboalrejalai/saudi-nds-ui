@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Navigation05Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.25c5.937 0 10.75 4.813 10.75 10.75S17.937 22.75 12 22.75 1.25 17.937 1.25 12 6.063 1.25 12 1.25m5.48 5.27a.75.75 0 0 0-.895-.125L10.221 9.93a.75.75 0 0 0-.291.292l-3.535 6.363a.75.75 0 0 0 1.02 1.02l6.363-3.536a.75.75 0 0 0 .291-.29l3.536-6.365a.75.75 0 0 0-.125-.894", clipRule: "evenodd" }) });
-export default Navigation05Solid;

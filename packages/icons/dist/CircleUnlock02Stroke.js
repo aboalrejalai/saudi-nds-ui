@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const CircleUnlock02Stroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M12 15.23c.428 0 .775.346.775.774v2.067a.775.775 0 0 1-1.55 0v-2.067c0-.428.347-.775.775-.775" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.28a4.91 4.91 0 0 0-4.908 4.908v2.785a7.75 7.75 0 1 0 1.55-.989V6.188a3.358 3.358 0 0 1 6.48-1.24.775.775 0 0 0 1.441-.571A4.91 4.91 0 0 0 12 1.279m0 7.491a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4", clipRule: "evenodd" })] });
-export default CircleUnlock02Stroke;

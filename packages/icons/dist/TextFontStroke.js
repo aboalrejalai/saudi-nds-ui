@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const TextFontStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M20.25 15.5a2.75 2.75 0 1 0-5.499 0 2.75 2.75 0 0 0 5.499 0m1.5 0a4.25 4.25 0 1 1-8.5 0 4.25 4.25 0 0 1 8.5 0M9.25 19V8.5a2.75 2.75 0 0 0-5.5 0V19a.75.75 0 0 1-1.5 0V8.5a4.25 4.25 0 0 1 8.5 0V19a.75.75 0 0 1-1.5 0" }), _jsx("path", { fill: "currentColor", d: "M10 12.25a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5zM20.25 19v-7a.75.75 0 0 1 1.5 0v7a.75.75 0 0 1-1.5 0" })] });
-export default TextFontStroke;

@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Chart01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M5.76 3.6A2.16 2.16 0 0 0 3.6 5.76v12.48a2.16 2.16 0 0 0 2.16 2.16h.32a2.16 2.16 0 0 0 2.16-2.16V5.76A2.16 2.16 0 0 0 6.08 3.6zM11.84 9.728a2.16 2.16 0 0 0-2.16 2.16v6.351a2.16 2.16 0 0 0 2.16 2.16h.32a2.16 2.16 0 0 0 2.16-2.16v-6.352a2.16 2.16 0 0 0-2.16-2.16zM17.92 12.645a2.16 2.16 0 0 0-2.16 2.16v3.435a2.16 2.16 0 0 0 2.16 2.16h.32a2.16 2.16 0 0 0 2.16-2.16v-3.435a2.16 2.16 0 0 0-2.16-2.16z" }) });
-export default Chart01Solid;

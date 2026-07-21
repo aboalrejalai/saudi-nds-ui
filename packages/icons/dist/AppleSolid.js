@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const AppleSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M15.94 6.75c1.07 0 2.56.5 3.56 2-1.3.79-2.16 1.87-2.16 3.5 0 1.87 1.04 3.47 2.66 4.15-1.04 3-2.71 5.35-4.1 5.35-.67 0-1.28-.26-1.85-.51-.53-.23-1.04-.45-1.55-.45s-1.02.22-1.55.45c-.57.25-1.18.51-1.85.51-2 0-5.1-4.85-5.1-9.5 0-4 3.02-5.5 4.89-5.5 1.05 0 1.69.26 2.25.49.45.19.85.35 1.36.35s.75-.17 1.2-.35c.56-.23 1.17-.49 2.24-.49M15.5 2.25c0 2-1.5 4-3.5 4 0-2 1.5-4 3.5-4" }) });
-export default AppleSolid;

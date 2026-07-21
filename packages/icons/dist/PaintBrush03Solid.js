@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const PaintBrush03Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "m14.12 3.515-.53-.53a2.25 2.25 0 0 0-3.182 0L5.105 8.288l10.607 10.606 5.303-5.303a2.25 2.25 0 0 0 0-3.182l-3.713-3.712-2.298 2.298a.75.75 0 1 1-1.06-1.06l2.298-2.299-1.06-1.06-4.067 4.066a.75.75 0 0 1-1.06-1.061zM14.65 19.955 4.044 9.349l-1.06 1.06a2.25 2.25 0 0 0 0 3.182l2.12 2.122-1.944 1.944a2.25 2.25 0 0 0 3.182 3.182l1.945-1.944 2.12 2.12a2.25 2.25 0 0 0 3.183 0z" }) });
-export default PaintBrush03Solid;

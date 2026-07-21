@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const AlphabetKoreanSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M16 2a1 1 0 0 1 1 1v8h2a1 1 0 1 1 0 2h-2v8a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1M11.212 5c.384 0 .779 0 1.111.052.398.062.814.211 1.161.583.33.352.463.75.504 1.148.033.32.008.686-.015 1.024l-.004.055c-.258 3.766-2.21 9.912-8.649 12.085a1 1 0 0 1-.64-1.894c5.32-1.796 7.06-6.917 7.294-10.327.013-.198.023-.35.028-.479.003-.1.003-.171 0-.222-.159-.023-.393-.025-.847-.025H5a1 1 0 0 1 0-2z" }) });
-export default AlphabetKoreanSolid;

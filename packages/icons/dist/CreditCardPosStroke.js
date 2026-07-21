@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const CreditCardPosStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 25 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M.369 13.045a2.75 2.75 0 0 1 1.006-3.757l13.857-8a2.75 2.75 0 0 1 3.756 1.007l5 8.66a2.75 2.75 0 0 1-1.006 3.756l-13.857 8a2.75 2.75 0 0 1-3.756-1.006zm1.756-2.458a1.25 1.25 0 0 0-.457 1.708l5 8.66a1.25 1.25 0 0 0 1.707.457l13.857-8a1.25 1.25 0 0 0 .457-1.707l-3.625-6.279-13.206 7.625a.75.75 0 0 1-.75-1.299l13.206-7.625-.625-1.082a1.25 1.25 0 0 0-1.707-.458z", clipRule: "evenodd" }) });
-export default CreditCardPosStroke;

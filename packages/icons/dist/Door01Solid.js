@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Door01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M2 21.875a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1M17.295 1.205c-.595-.08-1.345-.08-2.243-.08H8.948c-.898 0-1.648 0-2.243.08-.628.085-1.194.27-1.65.726s-.64 1.021-.725 1.65c-.08.594-.08 1.344-.08 2.242v15.052h15.5V5.823c0-.898 0-1.648-.08-2.243-.085-.628-.27-1.194-.726-1.65s-1.021-.64-1.65-.725m-1.545 10.92a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0", clipRule: "evenodd" }) });
-export default Door01Solid;

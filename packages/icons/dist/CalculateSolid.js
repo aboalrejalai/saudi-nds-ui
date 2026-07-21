@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const CalculateSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.276 1.93c.538 0 .974.436.974.975v18.548c0 .54-.436.976-.974.976H3.724a.975.975 0 0 1-.974-.976V2.905c0-.539.436-.976.974-.976zm-12 15.5H6.25v1.5h2.026zm4.737 0h-2.026v1.5h2.026zm4.737 0h-2.026v1.5h2.026zm-9.474-4H6.25v1.5h2.026zm4.737 0h-2.026v1.5h2.026zm4.737 0h-2.026v1.5h2.026zm1.552-9.548H4.697v5.547h14.606zM14 7.679h3v-2h-3z", clipRule: "evenodd" }) });
-export default CalculateSolid;

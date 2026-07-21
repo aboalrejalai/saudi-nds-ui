@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const VolumeMute01Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.805 4.954c1.393-1.238 3.595-.25 3.595 1.615v10.866c0 1.864-2.202 2.853-3.595 1.615l-3.07-2.728H8.76a2.16 2.16 0 0 1-2.16-2.16v-4.32a2.16 2.16 0 0 1 2.16-2.16h1.976zM15.96 6.57a.72.72 0 0 0-1.199-.539l-3.273 2.91a.72.72 0 0 1-.478.182H8.76a.72.72 0 0 0-.72.72v4.32c0 .397.322.72.72.72h2.25a.72.72 0 0 1 .478.182l3.273 2.91a.72.72 0 0 0 1.199-.539z", clipRule: "evenodd" }) });
-export default VolumeMute01Stroke;

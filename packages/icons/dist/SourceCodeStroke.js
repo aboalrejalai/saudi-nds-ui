@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const SourceCodeStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12.778 5.547a.75.75 0 1 1 1.445.406l-3.5 12.5a.75.75 0 0 1-1.445-.405zM5.97 7.72a.75.75 0 0 1 1.06 1.06l-2.97 2.97 2.97 2.97a.751.751 0 0 1-1.06 1.06l-3.5-3.5a.75.75 0 0 1 0-1.06zM16.97 7.72a.75.75 0 0 1 1.06 0l3.5 3.5a.75.75 0 0 1 0 1.06l-3.5 3.5a.75.75 0 0 1-1.06-1.06l2.97-2.97-2.97-2.97a.75.75 0 0 1 0-1.06" }) });
-export default SourceCodeStroke;

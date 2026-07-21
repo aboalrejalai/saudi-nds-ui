@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const TradeUpSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M19.116 3.116a1.25 1.25 0 0 1 1.768 0l.086.095c.4.49.371 1.215-.086 1.673l-5 5a1.25 1.25 0 0 1-1.673.086l-.095-.086L12 7.767l-7.116 7.117a1.25 1.25 0 0 1-1.673.086l-.095-.086a1.25 1.25 0 0 1 0-1.768l8-8a1.25 1.25 0 0 1 1.768 0L15 7.232zM17.25 20a1.25 1.25 0 0 1-2.5 0v-4.982l-.866.866a1.25 1.25 0 0 1-1.673.086l-.095-.086a1.25 1.25 0 0 1 0-1.768l3-3a1.25 1.25 0 0 1 1.768 0l3 3 .086.095a1.25 1.25 0 0 1-1.76 1.759l-.094-.086-.866-.867z" }) });
-export default TradeUpSolid;

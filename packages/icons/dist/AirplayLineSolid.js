@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const AirplayLineSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M10.877 14.333a1.35 1.35 0 0 1 2.246 0l2.879 4.318a1.35 1.35 0 0 1-1.123 2.099H9.12a1.35 1.35 0 0 1-1.123-2.099z" }), _jsx("path", { fill: "currentColor", d: "M21 3.25a.75.75 0 0 1 .75.75v13a.75.75 0 0 1-.75.75h-3a.75.75 0 0 1 0-1.5h2.25V4.75H3.75v11.5H6a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75V4A.75.75 0 0 1 3 3.25z" })] });
-export default AirplayLineSolid;

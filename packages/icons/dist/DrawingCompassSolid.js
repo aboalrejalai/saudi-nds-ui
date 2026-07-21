@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const DrawingCompassSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12.721 3.122a.72.72 0 0 0-1.44 0v1.272a3.601 3.601 0 0 0-1.854 6.045l-1.592 4.203H6.001a.72.72 0 1 0 0 1.44H7.29l-1.722 4.545a.72.72 0 0 0 1.347.51l1.914-5.055h2.452v.72a.72.72 0 1 0 1.44 0v-.72h2.452l1.915 5.055a.72.72 0 0 0 1.347-.51l-1.722-4.545H18a.72.72 0 0 0 0-1.44h-1.834l-1.592-4.203a3.601 3.601 0 0 0-1.854-6.045zm-3.346 11.52 1.28-3.38c.416.167.87.26 1.346.26s.93-.093 1.346-.26l1.28 3.38h-1.906v-.72a.72.72 0 1 0-1.44 0v.72z" }) });
-export default DrawingCompassSolid;

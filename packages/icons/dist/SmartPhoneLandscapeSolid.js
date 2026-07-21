@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const SmartPhoneLandscapeSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.4 17.75a1.35 1.35 0 0 0 1.35-1.35V7.6a1.35 1.35 0 0 0-1.35-1.35H4.6A1.35 1.35 0 0 0 3.25 7.6v8.8c0 .746.604 1.35 1.35 1.35zM8.56 12.512a.75.75 0 0 0-.056-1.06l-.012-.01a.75.75 0 1 0-1.003 1.116l.011.01a.75.75 0 0 0 1.06-.056", clipRule: "evenodd" }) });
-export default SmartPhoneLandscapeSolid;

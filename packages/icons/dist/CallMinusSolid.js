@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const CallMinusSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M7.73 1.422c.318 0 .604.202.716.506L9.932 5.95c.049.133.062.278.037.418l-.745 4.067c.915 2.192 2.426 3.666 4.934 4.987l3.946-.778a.75.75 0 0 1 .42.036l3.963 1.539a.78.78 0 0 1 .492.729v3.726c0 1.69-1.462 3.062-3.173 2.683-3.117-.69-8.894-2.447-12.94-6.567-3.874-3.946-5.172-9.398-5.61-12.345C1.009 2.765 2.332 1.422 3.9 1.422zM22.46 4.793c.424 0 .766.35.767.78 0 .43-.343.781-.766.781h-6.127a.774.774 0 0 1-.765-.78c0-.43.343-.78.765-.78z" }) });
-export default CallMinusSolid;

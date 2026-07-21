@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const PassportExpiredSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M18 2.5a2.25 2.25 0 0 1 2.25 2.25v14.5A2.25 2.25 0 0 1 18 21.5H4.5a.75.75 0 0 1-.75-.75V3.25a.75.75 0 0 1 .75-.75zM7.375 17.375a.75.75 0 0 0 0 1.5h9.25a.75.75 0 0 0 0-1.5zm8.082-10.582a1 1 0 0 0-1.414 0L11.75 9.086 9.457 6.793a1 1 0 1 0-1.414 1.414l2.293 2.293-2.293 2.293a1 1 0 1 0 1.414 1.414l2.293-2.293 2.293 2.293a1 1 0 1 0 1.414-1.414L13.164 10.5l2.293-2.293a1 1 0 0 0 0-1.414", clipRule: "evenodd" }) });
-export default PassportExpiredSolid;

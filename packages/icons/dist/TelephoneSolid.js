@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const TelephoneSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M3.704 1h3.873c.323 0 .611.201.725.505L9.805 5.53c.05.133.062.277.036.417l-.753 4.068c.926 2.192 2.455 3.665 4.99 4.986l3.992-.778a.77.77 0 0 1 .423.036l4.008 1.539a.78.78 0 0 1 .499.728v3.727c0 1.69-1.479 3.063-3.209 2.683-3.153-.69-8.995-2.447-13.086-6.567-3.92-3.946-5.232-9.398-5.674-12.344C.778 2.343 2.118 1 3.704 1", clipRule: "evenodd" }) });
-export default TelephoneSolid;

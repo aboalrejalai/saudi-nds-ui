@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const AvalancheStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.4 4.655c-.836-1.41-2.877-1.41-3.714 0L2.275 17.137c-.855 1.44.183 3.262 1.857 3.262h14.823c1.675 0 2.712-1.823 1.857-3.262zm-2.476.735a.72.72 0 0 1 1.239 0l3.255 5.482-1.635 1.636-1.73-1.73a.72.72 0 0 0-1.019 0l-1.73 1.73-1.635-1.636zM6.91 12.15l-3.397 5.722a.72.72 0 0 0 .619 1.087h14.823a.72.72 0 0 0 .62-1.087l-3.398-5.722-1.885 1.885a.72.72 0 0 1-1.018 0l-1.73-1.73-1.73 1.73a.72.72 0 0 1-1.019 0z", clipRule: "evenodd" }) });
-export default AvalancheStroke;

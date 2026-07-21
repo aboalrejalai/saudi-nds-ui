@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const LaptopCloudSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M6.071 3.25a2.25 2.25 0 0 0-2.25 2.25v8.174q-.196.268-.308.59l-1.212 3.5a2.25 2.25 0 0 0 2.127 2.986h6.882a4.162 4.162 0 0 1 .732-7.188q.15-.427.374-.812H5.64q-.161 0-.318.023V5.5a.75.75 0 0 1 .75-.75h11.5a.75.75 0 0 1 .75.75v5.3a4.7 4.7 0 0 1 1.5 1.033V5.5a2.25 2.25 0 0 0-2.25-2.25z" }), _jsx("path", { fill: "currentColor", d: "M13.304 14.74a3.186 3.186 0 0 1 6.33.007 2.662 2.662 0 0 1-.474 5.28h-5.427a2.661 2.661 0 0 1-.43-5.288" })] });
-export default LaptopCloudSolid;

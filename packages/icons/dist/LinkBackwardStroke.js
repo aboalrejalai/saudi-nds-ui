@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const LinkBackwardStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.962 12.237c-.845-.871-2.144-1.49-3.962-1.49H3.81l5.72 5.719a.75.75 0 1 1-1.06 1.06l-7-7a.75.75 0 0 1 0-1.06l7-7a.75.75 0 0 1 1.06 1.06l-5.72 5.72H16c2.182 0 3.883.755 5.038 1.947 1.147 1.182 1.712 2.75 1.712 4.303s-.565 3.12-1.712 4.303c-1.155 1.192-2.856 1.947-5.038 1.947a.75.75 0 0 1 0-1.5c1.818 0 3.117-.62 3.962-1.49.853-.88 1.288-2.063 1.288-3.26s-.435-2.38-1.288-3.259", clipRule: "evenodd" }) });
-export default LinkBackwardStroke;

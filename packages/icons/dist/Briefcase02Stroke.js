@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Briefcase02Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M15.4 2.25c.745 0 1.349.604 1.349 1.35v2.65h3.25A2.75 2.75 0 0 1 22.749 9v10a2.75 2.75 0 0 1-2.75 2.75h-16A2.75 2.75 0 0 1 1.249 19V9a2.75 2.75 0 0 1 2.75-2.75h3.25V3.6c0-.746.604-1.35 1.35-1.35zM3.998 7.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h16c.69 0 1.25-.56 1.25-1.25V9c0-.69-.56-1.25-1.25-1.25zm4.75-1.5h6.5v-2.5h-6.5z", clipRule: "evenodd" }) });
-export default Briefcase02Stroke;

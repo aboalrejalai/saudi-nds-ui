@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const RainbowStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M2.398 16.44a9.6 9.6 0 0 1 19.2 0 .72.72 0 1 1-1.44 0 8.16 8.16 0 1 0-16.32 0 .72.72 0 1 1-1.44 0" }), _jsx("path", { fill: "currentColor", d: "M5.278 16.44a6.72 6.72 0 0 1 13.44 0 .72.72 0 1 1-1.44 0 5.28 5.28 0 1 0-10.56 0 .72.72 0 1 1-1.44 0" }), _jsx("path", { fill: "currentColor", d: "M11.998 12.6a3.84 3.84 0 0 0-3.84 3.84.72.72 0 1 0 1.44 0 2.4 2.4 0 0 1 4.8 0 .72.72 0 1 0 1.44 0 3.84 3.84 0 0 0-3.84-3.84" })] });
-export default RainbowStroke;

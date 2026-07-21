@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const UnfoldLessSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "m6.44 4.4 5.11 5.11c.25.25.65.25.9 0l5.11-5.11c.18-.18.24-.46.14-.7a.65.65 0 0 0-.59-.39H6.89c-.26 0-.49.16-.59.39-.1.24-.05.52.14.7M6.3 20.3c.1.24.33.39.59.39h10.22c.26 0 .49-.16.59-.39a.65.65 0 0 0-.14-.7l-5.11-5.11a.634.634 0 0 0-.9 0l-5.11 5.12c-.18.18-.24.46-.14.7z", clipRule: "evenodd" }) });
-export default UnfoldLessSolid;

@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const NotificationBubbleSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M12 1.25c1.47 0 2.871.296 4.148.83a4.5 4.5 0 1 0 6.06 6.549c.35 1.06.542 2.193.542 3.371 0 5.937-4.813 10.75-10.75 10.75-1.856 0-3.605-.471-5.13-1.3l-4.232.787a.75.75 0 0 1-.875-.875l.788-4.232A10.7 10.7 0 0 1 1.25 12C1.25 6.063 6.063 1.25 12 1.25" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M18.75 2.25a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7", clipRule: "evenodd" })] });
-export default NotificationBubbleSolid;

@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const UsbBugsSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M13.5 4.25v2.407a3.3 3.3 0 0 0-1-.157h-7q-.525.002-1 .157V4.25A2.25 2.25 0 0 1 6.75 2h4.5a2.25 2.25 0 0 1 2.25 2.25M8.25 3.5a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5zM3.25 9.75A2.25 2.25 0 0 1 5.5 7.5h7a2.25 2.25 0 0 1 2.25 2.25v.028A6.876 6.876 0 0 0 11.088 22H5.5a2.25 2.25 0 0 1-2.25-2.25z" }), _jsx("path", { fill: "currentColor", d: "M19.669 19.859a5.375 5.375 0 0 0-7.528-7.527zM11.08 13.392a5.375 5.375 0 0 0 7.527 7.527z" })] });
-export default UsbBugsSolid;

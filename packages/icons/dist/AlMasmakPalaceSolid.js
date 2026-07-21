@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const AlMasmakPalaceSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M14.39 14.76a2.48 2.48 0 0 0-2.48-2.48c-1.37 0-2.45 1.1-2.45 2.45v3.32H2L2.54 6h1.71l.22.21s.11.11.25.11c.14-.02.26-.1.27-.11L5.21 6h1.71l.12 1.77h1.65l.23.29c.05.06.32.4.65.36.34 0 .59-.3.63-.36l.23-.29h2.99l.23.27s.38.45.82.38c.31-.03.54-.27.62-.37l.23-.28h1.74L17.18 6h1.71l.22.21s.1.11.27.11c.14 0 .23-.09.25-.11l.22-.21h1.71l.54 12.05h-7.71z" }) });
-export default AlMasmakPalaceSolid;

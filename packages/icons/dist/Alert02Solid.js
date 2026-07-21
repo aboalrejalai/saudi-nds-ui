@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Alert02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.616 3.635c1.058-1.838 3.71-1.838 4.768 0l8.043 13.989c1.054 1.833-.27 4.12-2.384 4.12H3.957c-2.115 0-3.438-2.287-2.384-4.12zm2.896 12.8a.75.75 0 0 0-1.06.056l-.01.011a.75.75 0 1 0 1.115 1.003l.01-.01a.75.75 0 0 0-.055-1.06M12 8.244a.75.75 0 0 0-.75.75v4a.75.75 0 1 0 1.5 0v-4a.75.75 0 0 0-.75-.75", clipRule: "evenodd" }) });
-export default Alert02Solid;

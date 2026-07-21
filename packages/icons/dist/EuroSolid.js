@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const EuroSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M17.25 10a1 1 0 0 1-1 1H8.325c-.047.327-.075.66-.075 1s.028.673.075 1h7.925a1 1 0 1 1 0 2H8.927a7 7 0 0 0 6.323 4 7 7 0 0 0 3.063-.703 1 1 0 1 1 .875 1.798A9 9 0 0 1 15.25 21c-3.919 0-7.248-2.506-8.483-6H5.25a1 1 0 1 1 0-2h1.057a9 9 0 0 1 0-2H5.25a1 1 0 1 1 0-2h1.517c1.235-3.495 4.564-6 8.483-6 1.41 0 2.747.325 3.938.905a1 1 0 0 1-.875 1.798A7 7 0 0 0 15.25 5a7 7 0 0 0-6.323 4h7.323a1 1 0 0 1 1 1" }) });
-export default EuroSolid;

@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const PyramidMaslowoSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M11.998 1.249q.053 0 .104.009a1.75 1.75 0 0 1 1.2.577l.13.165.003.002 8.997 13.007a1.75 1.75 0 0 1-.56 2.52l-.002.001-8.51 4.86a2.75 2.75 0 0 1-2.723 0l-8.51-4.86-.007-.004a1.76 1.76 0 0 1-.826-1.128 1.75 1.75 0 0 1 .266-1.374v-.001l9-13.02.003-.003a1.748 1.748 0 0 1 1.33-.742 1 1 0 0 1 .105-.009M2.795 15.873l.001.001a.25.25 0 0 0 .076.354l8.376 4.784V3.646z" }) });
-export default PyramidMaslowoSolid;

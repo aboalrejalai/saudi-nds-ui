@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const FahrenheitStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M6.238 3.6a2.16 2.16 0 1 0 0 4.32 2.16 2.16 0 0 0 0-4.32m-.72 2.16a.72.72 0 1 1 1.44 0 .72.72 0 0 1-1.44 0", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M11.998 5.04a.72.72 0 0 0-.72.72v5.52h6.72a.72.72 0 1 1 0 1.44h-6.72v6.96a.72.72 0 1 1-1.44 0V5.76a2.16 2.16 0 0 1 2.16-2.16h7.2a.72.72 0 1 1 0 1.44z" })] });
-export default FahrenheitStroke;

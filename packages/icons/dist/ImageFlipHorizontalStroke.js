@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ImageFlipHorizontalStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.342 3.27a.75.75 0 0 1 .841.414l7.5 16a.75.75 0 0 1-.678 1.068h-7.5a.75.75 0 0 1-.75-.75v-16a.75.75 0 0 1 .587-.732m.913 15.982h5.57l-5.57-11.883zM10.66 3.266a.75.75 0 0 0-.841.414l-7.5 16a.75.75 0 0 0 .679 1.067h7.5a.75.75 0 0 0 .75-.75v-16a.75.75 0 0 0-.587-.731m-.912 15.981h-5.57l5.57-11.882z", clipRule: "evenodd" }) });
-export default ImageFlipHorizontalStroke;

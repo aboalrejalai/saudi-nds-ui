@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ShoppingBasketDone01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M20.628 15.793a1.001 1.001 0 0 1 1.415 1.414l-5 5c-.39.39-1.024.39-1.415 0l-3-3a1 1 0 0 1 1.415-1.414l2.292 2.292zM12.335 20.5a1 1 0 0 1-1 1H4.667a3 3 0 0 1-2.965-3.456l1.384-9A3 3 0 0 1 6.051 6.5H16.62a3 3 0 0 1 2.966 2.544l.74 4.804a1 1 0 0 1-1.978.305l-.738-4.805a1 1 0 0 0-.99-.848H6.051a1 1 0 0 0-.988.848l-1.384 9a1 1 0 0 0 .988 1.152h6.668a1 1 0 0 1 1 1m2-16a1 1 0 1 1-2 0 1 1 0 1 0-2 0 1 1 0 1 1-2 0 3 3 0 0 1 6 0" }) });
-export default ShoppingBasketDone01Solid;

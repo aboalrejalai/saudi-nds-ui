@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ArrowDataTransferVerticalSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M8.237 2.755a.75.75 0 1 0-1.5-.01L6.622 15.9l-3.87-.024a.75.75 0 0 0-.523 1.277l4.567 4.624a.75.75 0 0 0 1.06.007l4.626-4.568A.75.75 0 0 0 12 15.934l-3.878-.024zM17.52 21.246a.75.75 0 0 1-1.5.009L15.906 8.1 12 8.123a.75.75 0 0 1-.488-1.276l4.568-4.624a.75.75 0 0 1 1.06-.007l4.625 4.568a.75.75 0 0 1-.503 1.283l-3.857.024z" }) });
-export default ArrowDataTransferVerticalSolid;

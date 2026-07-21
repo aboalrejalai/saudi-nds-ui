@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const SignalLow02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M16.514 11.773c.641 0 1.162.505 1.162 1.128v7.447c0 .623-.52 1.128-1.162 1.128s-1.162-.505-1.162-1.128V12.9c0-.623.52-1.128 1.162-1.128m-4.388 2.483c.641 0 1.162.505 1.162 1.128v4.964c0 .623-.52 1.128-1.162 1.128s-1.163-.505-1.163-1.128v-4.964c0-.623.52-1.128 1.163-1.128m-4.39 2.481c.642 0 1.162.505 1.162 1.128v2.482c0 .623-.52 1.128-1.162 1.128s-1.162-.505-1.162-1.128v-2.482c0-.623.52-1.128 1.162-1.128" }) });
-export default SignalLow02Solid;

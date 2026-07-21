@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const TokenCircleSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.25c5.94 0 10.75 4.81 10.75 10.75S17.94 22.75 12 22.75 1.25 17.94 1.25 12 6.06 1.25 12 1.25m.51 5.52a.608.608 0 0 0-1.02 0l-.68 1.08a9.6 9.6 0 0 1-2.96 2.95l-1.07.68c-.37.24-.37.78 0 1.02l1.07.68c1.19.76 2.2 1.77 2.96 2.95l.68 1.08c.24.37.78.37 1.02 0l.68-1.08a9.6 9.6 0 0 1 2.96-2.95l1.07-.68c.37-.24.37-.78 0-1.02l-1.07-.68a9.8 9.8 0 0 1-2.96-2.95zM18.25 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2", clipRule: "evenodd" }) });
-export default TokenCircleSolid;

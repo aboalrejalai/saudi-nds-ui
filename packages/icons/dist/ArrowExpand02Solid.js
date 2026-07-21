@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ArrowExpand02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12.72 13.78a.75.75 0 1 1 1.06-1.06l3.722 3.721 2.664-2.661a.749.749 0 0 1 1.334.47v6.5a.75.75 0 0 1-.75.75h-6.5a.75.75 0 0 1-.556-1.253l2.747-2.746zM11.28 10.22a.75.75 0 1 1-1.06 1.06L6.495 7.555l-2.66 2.665A.749.749 0 0 1 2.5 9.75v-6.5a.75.75 0 0 1 .75-.75h6.5a.75.75 0 0 1 .62 1.172L7.554 6.493z" }) });
-export default ArrowExpand02Solid;

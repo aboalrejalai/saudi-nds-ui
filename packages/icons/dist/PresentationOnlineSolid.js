@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const PresentationOnlineSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M10.392 5.285a2.16 2.16 0 1 1 4.174.78l2.397 2.82h2.549a2.16 2.16 0 0 1 2.16 2.16v7.92a2.16 2.16 0 0 1-2.16 2.16H5.592a2.16 2.16 0 0 1-2.16-2.16v-7.92a2.16 2.16 0 0 1 2.16-2.16H8.14l2.396-2.821a2.2 2.2 0 0 1-.144-.779m1.097 1.881-1.46 1.719h5.044l-1.46-1.718a2.15 2.15 0 0 1-1.061.278 2.15 2.15 0 0 1-1.063-.279" }) });
-export default PresentationOnlineSolid;

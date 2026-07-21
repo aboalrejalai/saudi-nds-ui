@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const CallSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M4.051 1.422h3.874c.322 0 .611.201.725.505l1.503 4.024c.05.134.062.278.036.418l-.753 4.068c.926 2.192 2.454 3.665 4.99 4.986l3.991-.778a.77.77 0 0 1 .423.036l4.009 1.539a.78.78 0 0 1 .499.728v3.727c0 1.69-1.48 3.062-3.21 2.683-3.153-.69-8.994-2.447-13.086-6.567C3.133 12.845 1.82 7.393 1.378 4.447c-.252-1.682 1.087-3.025 2.673-3.025", clipRule: "evenodd" }) });
-export default CallSolid;

@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const FileMinusSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M10.094 19.2c0 1.1.9 2 2 2h7.06c-.31.9-1.17 1.55-2.18 1.55H5.214c-1.27 0-2.31-1.04-2.31-2.31V3.56c0-1.27 1.04-2.31 2.31-2.31h7.52v4.83c0 .81.66 1.47 1.47 1.47h5.08v9.65h-7.19c-1.1 0-2 .9-2 2" }), _jsx("path", { fill: "currentColor", d: "M13.994 6.08c0 .12.09.21.21.21h4.8c-.12-.21-.26-.41-.44-.58l-4.05-3.83c-.16-.15-.33-.27-.52-.37zM20.094 18.2c.55 0 1 .45 1 1s-.45 1-1 1h-8c-.55 0-1-.45-1-1s.45-1 1-1z" })] });
-export default FileMinusSolid;

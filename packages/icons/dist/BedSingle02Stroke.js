@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const BedSingle02Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M19 1.25A2.75 2.75 0 0 1 21.75 4v16A2.75 2.75 0 0 1 19 22.75H5A2.75 2.75 0 0 1 2.25 20V4A2.75 2.75 0 0 1 5 1.25zM5 2.75c-.69 0-1.25.56-1.25 1.25v3.25h6.5V6a.75.75 0 0 1 1.5 0v2a.75.75 0 0 1-.75.75H3.75V20c0 .69.56 1.25 1.25 1.25h14c.69 0 1.25-.56 1.25-1.25V8.75H13a.75.75 0 0 1-.75-.75V6a.75.75 0 0 1 1.5 0v1.25h6.5V4c0-.69-.56-1.25-1.25-1.25z", clipRule: "evenodd" }) });
-export default BedSingle02Stroke;

@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const BookmarkCheck02Solid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M11.125 2.4A6.6 6.6 0 0 0 18 13.557v7.323a.72.72 0 0 1-1.12.6L11.2 17.691a.72.72 0 0 0-.8 0l-5.68 3.787a.72.72 0 0 1-1.12-.6V4.56A2.16 2.16 0 0 1 5.76 2.4z" }), _jsx("path", { fill: "currentColor", d: "M15.24 2.4a5.16 5.16 0 1 0 0 10.32 5.16 5.16 0 0 0 0-10.32m1.95 4.753-1.832 1.832a.72.72 0 0 1-1.018 0L13.29 7.936a.72.72 0 1 1 1.018-1.018l.54.54 1.322-1.323a.72.72 0 1 1 1.018 1.018" })] });
-export default BookmarkCheck02Solid;

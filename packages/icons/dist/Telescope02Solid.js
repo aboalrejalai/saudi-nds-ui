@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Telescope02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M12.939 4.31 8.657 5.837l1.624 6.06 4.471-.819zM7.24 6.343 3.494 7.679a2.25 2.25 0 0 0-1.417 2.702l.233.87a2.25 2.25 0 0 0 2.579 1.631l3.912-.715zM9.426 13.07c.234.243.506.448.803.608l-2.44 7.335a.75.75 0 0 0 1.423.473l2.469-7.421q.303.008.611-.043l.012-.002 2.485 7.467a.75.75 0 1 0 1.423-.474l-2.522-7.578a3.27 3.27 0 0 0 1.063-1.34zM16.233 10.808l-1.877-7.004 4.935-1.76a.75.75 0 0 1 .976.512l1.709 6.377a.75.75 0 0 1-.59.932z" }) });
-export default Telescope02Solid;

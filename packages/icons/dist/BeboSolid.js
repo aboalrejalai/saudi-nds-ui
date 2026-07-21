@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const BeboSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M6 1.15A2.85 2.85 0 0 1 8.85 4v10a3.15 3.15 0 0 0 6.3 0c0-.86-.266-1.506-.702-1.981-.445-.485-1.125-.854-2.049-1.04-1.14-.228-2.249-1.177-2.249-2.554 0-1.718 1.438-3.343 3.352-3.001 2.214.395 4.064 1.347 5.361 2.832 1.3 1.489 1.987 3.448 1.987 5.744A8.85 8.85 0 0 1 12 22.85 8.85 8.85 0 0 1 3.15 14V4A2.85 2.85 0 0 1 6 1.15" }) });
-export default BeboSolid;

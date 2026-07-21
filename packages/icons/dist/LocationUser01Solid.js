@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const LocationUser01Solid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M12.01 8.41a3.24 3.24 0 1 0 0-6.48 3.24 3.24 0 0 0 0 6.48" }), _jsx("path", { fill: "currentColor", d: "m16.86 14.67-.74-5.73c-.08-.83-.78-1.46-1.61-1.46H9.49c-.84 0-1.53.63-1.61 1.44l-.74 5.75a.8.8 0 0 0 .2.64c.15.18.37.28.61.28h.91l.64 5.02c.08.83.78 1.46 1.61 1.46h1.77c.84 0 1.53-.63 1.61-1.44l.65-5.05h.91c.23 0 .45-.1.61-.28a.79.79 0 0 0 .2-.64z" })] });
-export default LocationUser01Solid;

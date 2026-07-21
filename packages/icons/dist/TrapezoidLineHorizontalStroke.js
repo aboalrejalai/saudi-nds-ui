@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const TrapezoidLineHorizontalStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M18.75 7a1.25 1.25 0 0 0-1.227-1.249l-10.955.996-.068.003A1.25 1.25 0 0 0 5.25 8v8a1.25 1.25 0 0 0 1.25 1.25l.068.003 10.955.995A1.25 1.25 0 0 0 18.75 17zm1.5 10a2.75 2.75 0 0 1-2.818 2.747l-11-1A2.75 2.75 0 0 1 3.75 16V8a2.75 2.75 0 0 1 2.682-2.747l11-1 .068-.003A2.75 2.75 0 0 1 20.25 7z" }), _jsx("path", { fill: "currentColor", d: "M21.75 10.5a.75.75 0 0 1 0 1.5H2.25a.75.75 0 0 1 0-1.5z" })] });
-export default TrapezoidLineHorizontalStroke;

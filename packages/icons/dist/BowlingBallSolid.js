@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const BowlingBallSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M22.75 12c0-5.937-4.813-10.75-10.75-10.75S1.25 6.063 1.25 12 6.063 22.75 12 22.75 22.75 17.937 22.75 12m-10 .5a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0M7.5 9.25a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5m5.25-1.75a1.25 1.25 0 1 0-2.5 0 1.25 1.25 0 0 0 2.5 0", clipRule: "evenodd" }) });
-export default BowlingBallSolid;

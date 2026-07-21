@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const LinkBackwardSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M20.75 15.5c0 1.077-.392 2.132-1.148 2.911-.74.764-1.905 1.339-3.602 1.339a1.25 1.25 0 1 0 0 2.5c2.303 0 4.139-.8 5.397-2.099 1.245-1.283 1.853-2.979 1.853-4.651s-.608-3.368-1.853-4.651c-1.258-1.299-3.094-2.1-5.397-2.1H5.017l4.867-4.865a1.25 1.25 0 1 0-1.768-1.768l-7 7a1.25 1.25 0 0 0 0 1.768l7 7a1.25 1.25 0 1 0 1.768-1.768L5.017 11.25H16c1.697 0 2.861.574 3.602 1.339.756.779 1.148 1.833 1.148 2.91" }) });
-export default LinkBackwardSolid;

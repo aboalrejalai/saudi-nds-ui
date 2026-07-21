@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ArrowVerticalStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M15.03 18.27c.29.29.29.76 0 1.05l-2.51 2.47c-.29.29-.77.29-1.06 0L8.97 19.3a.74.74 0 0 1 0-1.05c.29-.29.77-.29 1.06 0l1.22 1.21V4.53l-1.22 1.2c-.29.29-.77.29-1.06 0a.74.74 0 0 1 0-1.05l2.51-2.46c.29-.29.77-.29 1.06 0l2.49 2.48c.29.29.29.76 0 1.05s-.77.29-1.06 0l-1.22-1.21v14.94l1.22-1.2c.29-.29.77-.29 1.06 0z" }) });
-export default ArrowVerticalStroke;

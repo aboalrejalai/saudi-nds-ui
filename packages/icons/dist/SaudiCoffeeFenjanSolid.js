@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const SaudiCoffeeFenjanSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M21.485 6.53A1.865 1.865 0 0 0 19.745 4H4.864c-.61 0-1.18.3-1.52.79-.36.51-.44 1.16-.23 1.74.13.36.23.72.34 1.08h17.69c.11-.36.21-.73.34-1.08M4.074 10.21c.15 1 .19 1.81.22 2.53.06 1.22.11 2.28.7 3.52.72 1.51 1.99 2.75 3.75 3.69l.17.09h6.78l.16-.09c1.77-.94 3.03-2.18 3.76-3.69.59-1.24.64-2.3.7-3.52.03-.72.07-1.53.22-2.53.06-.36.15-.73.23-1.1H3.854c.08.37.17.73.23 1.1z" }) });
-export default SaudiCoffeeFenjanSolid;

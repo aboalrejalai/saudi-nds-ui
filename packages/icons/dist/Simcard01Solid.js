@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Simcard01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M4.8 4.56A2.16 2.16 0 0 1 6.96 2.4h7.084a2.16 2.16 0 0 1 1.528.633l2.996 2.996c.405.405.633.955.633 1.527V19.44a2.16 2.16 0 0 1-2.16 2.16H6.96a2.16 2.16 0 0 1-2.16-2.16zm3.6 6.72a.72.72 0 0 0-.72.72v2.28h2.88v-3zM7.68 18c0 .398.323.72.72.72H12v-3H7.68zm5.76.72h2.16a.72.72 0 0 0 .72-.72v-2.28h-2.88zM16.32 12a.72.72 0 0 0-.72-.72H12v3h4.32z" }) });
-export default Simcard01Solid;

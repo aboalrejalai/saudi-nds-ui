@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const Coins02Solid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M2.408 10.424a.75.75 0 0 1 1.287.771 6.648 6.648 0 0 0 9.066 9.15.75.75 0 0 1 .76 1.294A8.148 8.148 0 0 1 2.409 10.424" }), _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.995 1.244a8.75 8.75 0 1 1 0 17.5 8.75 8.75 0 0 1 0-17.5m0 1.5a7.25 7.25 0 1 0 0 14.5 7.25 7.25 0 0 0 0-14.5", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M13.995 2.744a7.25 7.25 0 1 0 0 14.5 7.25 7.25 0 0 0 0-14.5" })] });
-export default Coins02Solid;

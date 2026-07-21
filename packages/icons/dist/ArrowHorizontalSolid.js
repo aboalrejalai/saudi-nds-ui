@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const ArrowHorizontalSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M18.266 8.972c.29-.29.76-.29 1.05 0l2.47 2.511c.29.29.289.77-.001 1.06l-2.491 2.49a.742.742 0 0 1-1.264-.607l.01-1.674-12.09-.004-.008 1.752a.742.742 0 0 1-1.268.527l-2.46-2.51a.754.754 0 0 1 .001-1.06l2.481-2.49a.742.742 0 0 1 1.267.533l-.007 1.748 12.092.004.01-1.752c0-.192.073-.384.218-.528z" }) });
-export default ArrowHorizontalSolid;

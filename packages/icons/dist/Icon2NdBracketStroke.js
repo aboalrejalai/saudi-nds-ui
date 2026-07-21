@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Icon2NdBracketStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M9.625 1.916c.418 0 .75.332.75.75s-.332.75-.75.75h-5.09v18.17h5.09c.418 0 .75.332.75.75s-.332.75-.75.75h-5.84a.745.745 0 0 1-.75-.75V2.666c0-.418.332-.75.75-.75zM20.215 1.916c.418 0 .75.332.75.75v19.67c0 .418-.332.75-.75.75h-5.84a.745.745 0 0 1-.75-.75c0-.418.332-.75.75-.75h5.09V3.416h-5.09a.745.745 0 0 1-.75-.75c0-.418.332-.75.75-.75z" }) });
-export default Icon2NdBracketStroke;

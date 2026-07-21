@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const Delete02Solid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M7.875 5.25V4a2.75 2.75 0 0 1 2.75-2.75h2.75A2.75 2.75 0 0 1 16.125 4v1.25H21a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5z", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M20.13 8.261a.75.75 0 0 1 .609.869l-1.995 11.346a2.75 2.75 0 0 1-2.709 2.274h-8.07a2.75 2.75 0 0 1-2.709-2.274L3.261 9.13a.75.75 0 0 1 .61-.869z" })] });
-export default Delete02Solid;

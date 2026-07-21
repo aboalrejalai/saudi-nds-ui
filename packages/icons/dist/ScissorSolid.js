@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const ScissorSolid = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M17.75 2.25a4 4 0 1 1-2.509 7.114l-2.72 2.493 2.753 2.752a4 4 0 1 1-1.22 1.608l-3.008-3.007-7.12 6.527a1 1 0 0 1-1.352-1.474L14.042 7.75a4 4 0 0 1 3.708-5.5m0 13.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0-11.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4", clipRule: "evenodd" }), _jsx("path", { fill: "currentColor", d: "M2.51 4.327a1 1 0 0 1 1.413-.067l5.5 5a1 1 0 0 1-1.346 1.48l-5.5-5a1 1 0 0 1-.067-1.413" })] });
-export default ScissorSolid;

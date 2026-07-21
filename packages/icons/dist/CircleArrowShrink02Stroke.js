@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const CircleArrowShrink02Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M20.5 12a8.5 8.5 0 1 0-17 0 8.5 8.5 0 0 0 17 0M7.47 16.53a.75.75 0 0 0 1.06 0l1.72-1.72V16a.75.75 0 0 0 1.5 0v-3a.75.75 0 0 0-.75-.75H8a.75.75 0 0 0 0 1.5h1.19l-1.72 1.72a.75.75 0 0 0 0 1.06M12.25 8v3c0 .414.336.75.75.75h3a.75.75 0 0 0 0-1.5h-1.19l1.72-1.72a.75.75 0 1 0-1.06-1.06l-1.72 1.72V8a.75.75 0 0 0-1.5 0M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10" }) });
-export default CircleArrowShrink02Stroke;

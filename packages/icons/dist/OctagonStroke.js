@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const OctagonStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.483.404a1.35 1.35 0 0 1 1.033 0l7.319 3.031c.33.137.594.4.73.73l3.032 7.32c.137.33.137.702 0 1.033l-3.031 7.319c-.137.33-.4.593-.731.73L12.516 23.6a1.35 1.35 0 0 1-1.033 0l-7.32-3.032a1.35 1.35 0 0 1-.73-.73L.402 12.518a1.35 1.35 0 0 1 0-1.033l3.031-7.32c.137-.33.4-.593.73-.73zm.516 1.41L4.795 4.796l-2.984 7.204 2.984 7.205L12 22.19l7.204-2.985 2.985-7.204-2.985-7.204z", clipRule: "evenodd" }) });
-export default OctagonStroke;

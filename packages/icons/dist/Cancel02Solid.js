@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const Cancel02Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M17.588 3.14c.787-.83 2.057-.833 2.832 0l.138.16c.64.826.596 2.029-.139 2.788l.001.001L14.815 12l5.605 5.913c.781.823.784 2.14-.002 2.95-.784.809-2.054.834-2.832-.004L12 14.968 6.413 20.86c-.788.83-2.058.834-2.833-.001-.78-.823-.783-2.14.002-2.95L9.185 12 3.58 6.09c-.781-.823-.784-2.14.002-2.95.787-.83 2.056-.832 2.83.001L12 9.03z" }) });
-export default Cancel02Solid;

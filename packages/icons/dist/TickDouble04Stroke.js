@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const TickDouble04Stroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M21.722 6.593a.75.75 0 1 1 1.06 1.06l-9.576 9.577a1.35 1.35 0 0 1-1.91 0l-2.045-2.046-2.045 2.046a1.35 1.35 0 0 1-1.91 0l-4.074-4.077a.75.75 0 1 1 1.06-1.06l3.97 3.97 1.938-1.94-1.468-1.47a.75.75 0 1 1 1.06-1.06l4.47 4.47z" }), _jsx("path", { fill: "currentColor", d: "M15.722 6.593a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06-1.06z" })] });
-export default TickDouble04Stroke;

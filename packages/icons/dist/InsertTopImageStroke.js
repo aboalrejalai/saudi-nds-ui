@@ -1,3 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-const InsertTopImageStroke = (props) => _jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: [_jsx("path", { fill: "currentColor", d: "M19.25 14a.25.25 0 0 0-.25-.25H5a.25.25 0 0 0-.25.25v4a.25.25 0 0 0 .25.25h14a.25.25 0 0 0 .25-.25zm1.5 4A1.75 1.75 0 0 1 19 19.75H5A1.75 1.75 0 0 1 3.25 18v-4A1.75 1.75 0 0 1 5 12.25h14A1.75 1.75 0 0 1 20.75 14zM11.25 9V5a.75.75 0 0 1 1.5 0v4a.75.75 0 0 1-1.5 0" }), _jsx("path", { fill: "currentColor", d: "M14 6.25a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1 0-1.5z" })] });
-export default InsertTopImageStroke;

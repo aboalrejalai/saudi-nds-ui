@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const GpsSignal01Solid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 25 25", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M8.697 0c.199 0 .39.08.53.22l6.756 6.756 4.184-4.184a.75.75 0 1 1 1.06 1.06l-4.183 4.184 6.755 6.755a.75.75 0 0 1 0 1.06 11.05 11.05 0 0 1-7.816 3.238 11.05 11.05 0 0 1-4.478-.951l1.343 4.69a.75.75 0 0 1-.721.957H.984a.75.75 0 0 1-.647-1.128l5.708-9.786A11.05 11.05 0 0 1 8.167.22a.75.75 0 0 1 .53-.22" }) });
-export default GpsSignal01Solid;

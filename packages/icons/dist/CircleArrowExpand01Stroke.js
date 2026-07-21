@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const CircleArrowExpand01Stroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M20.5 12a8.5 8.5 0 1 0-17 0 8.5 8.5 0 0 0 17 0m-8.97.47a.75.75 0 0 0-1.06 0l-1.72 1.72V13a.75.75 0 0 0-1.5 0v3c0 .414.336.75.75.75h3a.75.75 0 0 0 0-1.5H9.81l1.72-1.72a.75.75 0 0 0 0-1.06M16.75 11V8a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0 0 1.5h1.19l-1.72 1.72a.75.75 0 1 0 1.06 1.06l1.72-1.72V11a.75.75 0 0 0 1.5 0M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10" }) });
-export default CircleArrowExpand01Stroke;

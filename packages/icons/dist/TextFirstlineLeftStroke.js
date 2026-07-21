@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const TextFirstlineLeftStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", d: "M14.75 6a.25.25 0 0 1 .25-.25h4a.25.25 0 0 1 .25.25v4a.25.25 0 0 1-.25.25h-4a.25.25 0 0 1-.25-.25zm-1.5 4A1.75 1.75 0 0 0 15 11.75h4A1.75 1.75 0 0 0 20.75 10V6A1.75 1.75 0 0 0 19 4.25h-4A1.75 1.75 0 0 0 13.25 6zM4 6.25a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5zM4 10.25a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5zM4 14.25a.75.75 0 0 0 0 1.5h16a.75.75 0 0 0 0-1.5zM4 18.25a.75.75 0 0 0 0 1.5h16a.75.75 0 0 0 0-1.5z" }) });
-export default TextFirstlineLeftStroke;

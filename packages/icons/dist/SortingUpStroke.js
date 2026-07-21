@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const SortingUpStroke = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M2.25 6c0-.41.34-.75.75-.75h17c.41 0 .75.34.75.75s-.34.75-.75.75H3c-.41 0-.75-.34-.75-.75m0 5c0-.41.34-.75.75-.75h17c.41 0 .75.34.75.75s-.34.75-.75.75H3c-.41 0-.75-.34-.75-.75m14.76 3.43c.28-.24.7-.24.98 0l3.5 3c.31.27.35.74.08 1.06-.27.31-.74.35-1.06.08l-3.01-2.58-3.01 2.58c-.31.27-.79.23-1.06-.08a.757.757 0 0 1 .08-1.06zM2.25 16c0-.41.34-.75.75-.75h8c.41 0 .75.34.75.75s-.34.75-.75.75H3c-.41 0-.75-.34-.75-.75", clipRule: "evenodd" }) });
-export default SortingUpStroke;

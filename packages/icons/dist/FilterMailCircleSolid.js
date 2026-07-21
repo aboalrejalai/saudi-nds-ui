@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const FilterMailCircleSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 3.5A8.5 8.5 0 0 0 3.5 12a8.5 8.5 0 1 0 17 0A8.5 8.5 0 0 0 12 3.5m1 12h-2c-.27 0-.5-.23-.5-.5s.23-.5.5-.5h2c.28 0 .5.22.5.5s-.22.5-.5.5m1.5-2.5h-5c-.27 0-.5-.23-.5-.5s.23-.5.5-.5h5c.28 0 .5.22.5.5s-.22.5-.5.5m1.5-2.5H8c-.27 0-.5-.23-.5-.5s.23-.5.5-.5h8c.28 0 .5.22.5.5s-.22.5-.5.5", clipRule: "evenodd" }) });
-export default FilterMailCircleSolid;

@@ -1,3 +1,0 @@
-import { jsx as _jsx } from "react/jsx-runtime";
-const AlphabetArabicSolid = (props) => _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", className: "gds-icon", width: "1em", height: "1em", ...props, children: _jsx("path", { fill: "#000", d: "M13.25 16.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2M18.25 16.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2M22.25 5.5a1 1 0 0 1 1 1v10a1 1 0 1 1-2 0v-10a1 1 0 0 1 1-1M19.25 9a1 1 0 0 1 1 1v3a3 3 0 0 1-3 3H1.75a1 1 0 1 1 0-2h2.5v-3.5a1 1 0 0 1 2 0V14h6.768L8.75 11.536a1 1 0 0 1 1-1.732l4.268 2.464c.7.404 1.009 1.072 1.002 1.732h2.23a1 1 0 0 0 1-1v-3a1 1 0 0 1 1-1" }) });
-export default AlphabetArabicSolid;
