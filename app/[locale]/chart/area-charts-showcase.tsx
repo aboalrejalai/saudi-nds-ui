@@ -1,5 +1,6 @@
 "use client"
 
+import { useLocale } from "next-intl"
 import { ChartShowcaseCard } from "@/components/docs/chart-showcase-card"
 import { ChartAreaInteractive } from "@/registry/dga/charts/chart-area-interactive"
 import { ChartAreaDefault } from "@/registry/dga/charts/chart-area-default"
@@ -26,14 +27,17 @@ const SOURCE_CODES: Record<string, string> = {
 }
 
 export function AreaChartsShowcase() {
+  const locale = useLocale()
+  const isAr = locale === "ar"
+
   return (
-    <div className="w-full space-y-8 py-4">
-      {/* 1. Top Featured Interactive Chart (Full Width) */}
+    <div className="w-full space-y-6 py-2">
+      {/* 1. Top Featured Interactive Chart (Full Width, Direct Layer 2) */}
       <div className="w-full">
         <ChartShowcaseCard
           name="chart-area-interactive"
-          category="Area Chart"
-          title="Area Chart - Interactive"
+          category={isAr ? "رسم بياني مساحي" : "Area Chart"}
+          title={isAr ? "رسم بياني مساحي - متفاعل" : "Area Chart - Interactive"}
           code={SOURCE_CODES["ChartAreaInteractive"]}
           fullWidth
         >
@@ -41,76 +45,76 @@ export function AreaChartsShowcase() {
         </ChartShowcaseCard>
       </div>
 
-      {/* 2. 3-Column Grid Layout for Remaining Area Charts */}
+      {/* 2. 3-Column Grid Layout directly on bg-background (Layer 2) */}
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
         <ChartShowcaseCard
           name="chart-area-default"
-          category="Area Chart"
-          title="Area Chart"
+          category={isAr ? "رسم بياني مساحي" : "Area Chart"}
+          title={isAr ? "رسم بياني مساحي" : "Area Chart"}
           code={SOURCE_CODES["ChartAreaDefault"]}
         >
           <ChartAreaDefault />
         </ChartShowcaseCard>
         <ChartShowcaseCard
           name="chart-area-linear"
-          category="Area Chart"
-          title="Area Chart - Linear"
+          category={isAr ? "رسم بياني مساحي" : "Area Chart"}
+          title={isAr ? "رسم بياني مساحي - خطي" : "Area Chart - Linear"}
           code={SOURCE_CODES["ChartAreaLinear"]}
         >
           <ChartAreaLinear />
         </ChartShowcaseCard>
         <ChartShowcaseCard
           name="chart-area-step"
-          category="Area Chart"
-          title="Area Chart - Step"
+          category={isAr ? "رسم بياني مساحي" : "Area Chart"}
+          title={isAr ? "رسم بياني مساحي - درجي" : "Area Chart - Step"}
           code={SOURCE_CODES["ChartAreaStep"]}
         >
           <ChartAreaStep />
         </ChartShowcaseCard>
         <ChartShowcaseCard
           name="chart-area-stacked"
-          category="Area Chart"
-          title="Area Chart - Stacked"
+          category={isAr ? "رسم بياني مساحي" : "Area Chart"}
+          title={isAr ? "رسم بياني مساحي - مكدس" : "Area Chart - Stacked"}
           code={SOURCE_CODES["ChartAreaStacked"]}
         >
           <ChartAreaStacked />
         </ChartShowcaseCard>
         <ChartShowcaseCard
           name="chart-area-stacked-expand"
-          category="Area Chart"
-          title="Area Chart - Stacked Expanded"
+          category={isAr ? "رسم بياني مساحي" : "Area Chart"}
+          title={isAr ? "رسم بياني مساحي - مكدس موسع" : "Area Chart - Stacked Expanded"}
           code={SOURCE_CODES["ChartAreaStackedExpand"]}
         >
           <ChartAreaStackedExpand />
         </ChartShowcaseCard>
         <ChartShowcaseCard
           name="chart-area-legend"
-          category="Area Chart"
-          title="Area Chart - Legend"
+          category={isAr ? "رسم بياني مساحي" : "Area Chart"}
+          title={isAr ? "رسم بياني مساحي - دليل البيانات" : "Area Chart - Legend"}
           code={SOURCE_CODES["ChartAreaLegend"]}
         >
           <ChartAreaLegend />
         </ChartShowcaseCard>
         <ChartShowcaseCard
           name="chart-area-icons"
-          category="Area Chart"
-          title="Area Chart - Icons"
+          category={isAr ? "رسم بياني مساحي" : "Area Chart"}
+          title={isAr ? "رسم بياني مساحي - أيقونات" : "Area Chart - Icons"}
           code={SOURCE_CODES["ChartAreaIcons"]}
         >
           <ChartAreaIcons />
         </ChartShowcaseCard>
         <ChartShowcaseCard
           name="chart-area-gradient"
-          category="Area Chart"
-          title="Area Chart - Gradient"
+          category={isAr ? "رسم بياني مساحي" : "Area Chart"}
+          title={isAr ? "رسم بياني مساحي - تدرج ألوان" : "Area Chart - Gradient"}
           code={SOURCE_CODES["ChartAreaGradient"]}
         >
           <ChartAreaGradient />
         </ChartShowcaseCard>
         <ChartShowcaseCard
           name="chart-area-axes"
-          category="Area Chart"
-          title="Area Chart - Axes"
+          category={isAr ? "رسم بياني مساحي" : "Area Chart"}
+          title={isAr ? "رسم بياني مساحي - محاور" : "Area Chart - Axes"}
           code={SOURCE_CODES["ChartAreaAxes"]}
         >
           <ChartAreaAxes />

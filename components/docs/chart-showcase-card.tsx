@@ -58,17 +58,18 @@ export function ChartShowcaseCard({
 
   const lines = code.trim().split("\n")
 
+  const displayCategory = category || (isAr ? "رسم بياني مساحي" : "Area Chart")
   const textViewCode = isAr ? "عرض الكود" : "View Code"
   const textCopyCode = isAr ? "نسخ الكود" : "Copy code"
   const textCopied = isAr ? "تم النسخ" : "Copied"
 
   return (
-    <div className={`flex flex-col gap-2 ${fullWidth ? "w-full col-span-full" : "w-full"}`}>
+    <div className={`group flex flex-col gap-2 ${fullWidth ? "w-full col-span-full" : "w-full"}`}>
       {/* Upper Control Bar (Icon + Category Title + Copy Button + View Code Button) */}
       <div className="flex items-center justify-between px-1 text-xs">
         <div className="flex items-center gap-1.5 font-medium text-muted-foreground">
-          <Chart01Stroke className="size-4 shrink-0 text-muted-foreground/80" />
-          <span>{category}</span>
+          <Chart01Stroke className="size-4 shrink-0 text-[#1b8354] dark:text-[#54c08a] transition-colors duration-200 group-hover:text-[#25935f]" />
+          <span>{displayCategory}</span>
         </div>
 
         <div className="flex items-center gap-2">
@@ -77,28 +78,28 @@ export function ChartShowcaseCard({
             onClick={() => copyCode(false)}
             aria-label={textCopyCode}
             title={textCopyCode}
-            className="flex size-7 items-center justify-center rounded-md border border-border/60 bg-background text-muted-foreground transition-all hover:bg-muted hover:text-foreground"
+            className="flex size-7 items-center justify-center rounded-md border border-border/80 bg-background text-muted-foreground transition-colors hover:border-[#1b8354]/40 hover:bg-muted hover:text-[#1b8354] dark:hover:text-[#54c08a]"
           >
             {copied ? (
-              <CheckmarkBadge01Solid className="size-4 text-emerald-600 dark:text-emerald-400" />
+              <CheckmarkBadge01Solid className="size-4 text-[#1b8354] dark:text-[#54c08a]" />
             ) : (
-              <Copy01Stroke className="size-3.5" />
+              <Copy01Stroke className="size-3.5 transition-colors duration-200 hover:text-[#25935f]" />
             )}
           </button>
 
           {/* View Code Button */}
           <button
             onClick={() => setSheetOpen(true)}
-            className="flex items-center gap-1.5 rounded-md border border-border/80 bg-background px-2.5 py-1 text-xs font-medium text-foreground transition-all hover:bg-muted shadow-2xs"
+            className="flex items-center gap-1.5 rounded-md border border-border/80 bg-background px-2.5 py-1 text-xs font-medium text-foreground transition-colors hover:border-[#1b8354]/40 hover:bg-muted shadow-2xs"
           >
-            <CodeStroke className="size-3.5 text-muted-foreground" />
+            <CodeStroke className="size-3.5 text-[#1b8354] dark:text-[#54c08a] transition-colors duration-200 hover:text-[#25935f]" />
             <span>{textViewCode}</span>
           </button>
         </div>
       </div>
 
-      {/* Main Chart Live Preview Card */}
-      <div className="w-full overflow-hidden rounded-xl border border-border/80 bg-card p-1 shadow-2xs transition-all hover:shadow-xs">
+      {/* Main Chart Live Preview Component (Sits Directly on Background, Layer 2) */}
+      <div className="w-full overflow-hidden rounded-xl border border-border/80 bg-card p-1 shadow-2xs transition-all hover:border-border hover:shadow-xs">
         {children}
       </div>
 
@@ -108,7 +109,7 @@ export function ChartShowcaseCard({
           {/* Sheet Header */}
           <SheetHeader className="flex flex-row items-center justify-between border-b px-6 py-4 space-y-0">
             <div className="flex items-center gap-2">
-              <span className="flex size-6 items-center justify-center rounded-md bg-muted text-[10px] font-mono font-bold text-foreground">
+              <span className="flex size-6 items-center justify-center rounded-md bg-[#1b8354]/10 text-[10px] font-mono font-bold text-[#1b8354]">
                 TS
               </span>
               <SheetTitle className="text-sm font-semibold font-mono text-foreground">
@@ -123,12 +124,12 @@ export function ChartShowcaseCard({
               >
                 {sheetCopied ? (
                   <>
-                    <CheckmarkBadge01Solid className="size-3.5 text-emerald-600 dark:text-emerald-400" />
-                    <span className="text-emerald-600 dark:text-emerald-400">{textCopied}</span>
+                    <CheckmarkBadge01Solid className="size-3.5 text-[#1b8354]" />
+                    <span className="text-[#1b8354]">{textCopied}</span>
                   </>
                 ) : (
                   <>
-                    <Copy01Stroke className="size-3.5" />
+                    <Copy01Stroke className="size-3.5 text-[#1b8354]" />
                     <span>{textCopyCode}</span>
                   </>
                 )}
@@ -136,7 +137,7 @@ export function ChartShowcaseCard({
             </div>
           </SheetHeader>
 
-          {/* Sheet Code Content Container */}
+          {/* Sheet Code Content Container (Clean Light/Dark Code View with Line Numbers) */}
           <div className="flex-1 overflow-auto p-6 bg-slate-50/50 dark:bg-zinc-950/50">
             <div className="rounded-xl border border-border/80 bg-background p-4 text-xs sm:text-sm font-mono shadow-2xs">
               <pre className="overflow-x-auto leading-relaxed">

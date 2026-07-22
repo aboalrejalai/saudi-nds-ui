@@ -94,6 +94,13 @@
   --sidebar-accent-foreground: hsl(240 5.9% 10%);
   --sidebar-border: hsl(220 13% 91%);
   --sidebar-ring: hsl(217.2 91.2% 59.8%);
+
+  /* Saudi Green Chart Palette */
+  --chart-1: #1b8354;
+  --chart-2: #25935f;
+  --chart-3: #166a45;
+  --chart-4: #54c08a;
+  --chart-5: #384250;
 }
 
 /* =========================
