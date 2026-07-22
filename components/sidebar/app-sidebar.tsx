@@ -159,6 +159,21 @@ export function AppSidebar({ components }: { components: Component[] }) {
 
         <SidebarGroup>
           <SidebarGroupLabel className="font-bold text-[var(--text-text-display)]">
+            Charts (الرسوم البيانية)
+          </SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild isActive={pathname === "/chart"}>
+                  <Link href="/chart">Chart Showcase (كل الشارتات)</Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+
+        <SidebarGroup>
+          <SidebarGroupLabel className="font-bold text-[var(--text-text-display)]">
             {t("components")}
           </SidebarGroupLabel>
           <SidebarGroupContent>

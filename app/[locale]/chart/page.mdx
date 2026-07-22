@@ -1,25 +1,16 @@
 import { DocsLayout } from "@/components/docs/docs-layout"
 import { InstallCommand } from "@/components/docs/install-command"
 import { DirectionToggle } from "@/components/docs/direction-toggle"
-import { ComponentPreview } from "@/components/docs/component-preview"
-import {
-  AreaChartDemo,
-  BarChartDemo,
-  LineChartDemo,
-  PieChartDemo,
-  RadarChartDemo,
-  RadialChartDemo,
-  TooltipChartDemo,
-} from "./demos"
+import { AreaChartsShowcase } from "./area-charts-showcase"
 
 export const metadata = {
-  title: "Chart - Saudi NDS UI",
+  title: "Charts Showcase - Saudi NDS UI",
   description: "Saudi National Design System (NDS) Charts built on Recharts and Tailwind CSS. Accessible, RTL-ready, and fully customizable with dynamic props.",
 }
 
 <DocsLayout>
 
-# Chart (الشارتات والرسوم البيانية)
+# Charts Showcase (معرض الشارتات والرسوم البيانية)
 
 مجموعة شاملة ومتكاملة من مكونات الرسوم البيانية المتوافقة مع معايير الضوابط الوطنية للتحول الرقمي والهوية الرقمية للجهات الحكومية (DGA / NDS).
 
@@ -31,42 +22,9 @@ export const metadata = {
 
 ---
 
-## الأمثلة التفاعلية (Interactive Examples)
+## المعاينة والكود التفاعلي (Interactive Preview & Code)
 
-### 1. Area Chart (رسم بياني مساحي)
-<ComponentPreview name="chart-area-default">
-  <AreaChartDemo />
-</ComponentPreview>
-
-### 2. Bar Chart (رسم بياني شريطي)
-<ComponentPreview name="chart-bar-default">
-  <BarChartDemo />
-</ComponentPreview>
-
-### 3. Line Chart (رسم بياني خطي)
-<ComponentPreview name="chart-line-default">
-  <LineChartDemo />
-</ComponentPreview>
-
-### 4. Pie Chart (رسم بياني دائري)
-<ComponentPreview name="chart-pie-simple">
-  <PieChartDemo />
-</ComponentPreview>
-
-### 5. Radar Chart (رسم بياني شبكي)
-<ComponentPreview name="chart-radar-default">
-  <RadarChartDemo />
-</ComponentPreview>
-
-### 6. Radial Chart (رسم بياني دائري قطري)
-<ComponentPreview name="chart-radial-simple">
-  <RadialChartDemo />
-</ComponentPreview>
-
-### 7. Custom Tooltip Chart (تلميحات البيانات المخصصة)
-<ComponentPreview name="chart-tooltip-formatter">
-  <TooltipChartDemo />
-</ComponentPreview>
+<AreaChartsShowcase />
 
 ---
 
