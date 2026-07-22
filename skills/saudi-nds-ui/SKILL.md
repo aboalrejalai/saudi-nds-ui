@@ -173,7 +173,7 @@ Use this mode if the user simply asks to "Add a Button" or "Add a Card" to an al
 
 ## 📦 Available Components
 
-The registry publishes **73 main components** and over **345 ready-to-use sub-components**.
+The registry publishes **81 main UI components**, **70 chart components**, and over **382+ ready-to-use sub-components**.
 To get the actual API, variants, dependencies, and source code of a specific component, **simply read its markdown file** by following the links below. Do not guess the API; always refer to the specific component file.
 
 Summarized catalog:
@@ -216,7 +216,7 @@ Prefer the bridged Tailwind tokens (`bg-primary`, `text-foreground`, `border-bor
 
 ### 🌟 Saudi NDS Custom Icons
 
-The Saudi NDS relies **exclusively** on the `@aboalrejal/nds-icons` library. It contains over 8,700 meticulously designed icons.
+The Saudi NDS relies **exclusively** on the `@aboalrejal/nds-icons` library. It contains over 8,753 meticulously designed icons.
 
 **Naming Convention:**
 Every icon is exported as a standalone React component. The naming pattern is `<SemanticName><Variant>` where `<Variant>` is either `Stroke` (default, thin lines) or `Solid` (filled shapes).
@@ -236,7 +236,7 @@ Guessing icon component names causes build failures because `@aboalrejal/nds-ico
 Before adding ANY icon import from `@aboalrejal/nds-icons`, you MUST verify the exact exported icon name using one of the following methods:
 
 1. **Search the Full Icon Index (`ALL_ICONS.md`):**
-   Read or search the complete list of 8,700+ icon component names in [`references/ALL_ICONS.md`](references/ALL_ICONS.md) using `grep_search` on `skills/saudi-nds-ui/references/ALL_ICONS.md`.
+   Read or search the complete list of 8,753+ icon component names in [`references/ALL_ICONS.md`](references/ALL_ICONS.md) using `grep_search` on `skills/saudi-nds-ui/references/ALL_ICONS.md`.
    Example: Run `grep_search` for keyword (e.g. `Search` or `User`) inside `references/ALL_ICONS.md` to find the exact component name.
 
 2. **Use the Lookup Script:**

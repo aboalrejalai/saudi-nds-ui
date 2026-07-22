@@ -25,7 +25,7 @@
     "title": "Saudi NDS UI",
     "descriptionPrefix": "An upgraded and comprehensive UI platform extending the ",
     "dga": "Digital Government Authority (DGA)",
-    "descriptionSuffix": " Platforms Code. We transformed raw tokens into a fully-featured, production-ready Saudi NDS UI for Next.js and React — boasting 73 components, 345+ sub-components, deep RTL support, and AI integration.",
+    "descriptionSuffix": " Platforms Code. We transformed raw tokens into a fully-featured, production-ready Saudi NDS UI for Next.js and React — boasting 81 main components, 70 chart presets, 382+ sub-components, 8,753 SVG icons, deep RTL support, and AI integration.",
     "subtitle": "Digital Government Authority — UI Component Library",
     "getStarted": "Get Started",
     "browseComponents": "Browse Components",
@@ -41,6 +41,6 @@
     "supportedFrameworksTitle": "Supported Frameworks",
     "supportedFrameworksDesc": "DGA Components work seamlessly with the most popular frameworks in the ecosystem:",
     "whyTitle": "Why DGA Components?",
-    "badgeText": "Includes {count} Main Components & 345+ Ready-to-Use Sub-components based on NDS"
+    "badgeText": "Includes {count} Main Components, 70 Chart Presets & 382+ Ready-to-Use Sub-components based on NDS"
   }
 }

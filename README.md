@@ -2,15 +2,16 @@
 
 **Saudi NDS UI** is the definitive, production-ready React component library for the Saudi National Design System (NDS) by the Digital Government Authority (DGA).
 
-Built on top of **Tailwind CSS** and heavily inspired by the architecture of **shadcn/ui**, this library provides 73 fully accessible, highly customizable, and RTL-first components designed exclusively for Saudi government digital products.
+Built on top of **Tailwind CSS** and heavily inspired by the architecture of **shadcn/ui**, this library provides 81 fully accessible main UI components, 70 interactive chart presets, and over 382+ ready-to-use sub-components, accompanied by 8,753 SVG icons designed exclusively for Saudi government digital products.
 
-> **Status:** 100% Complete (73/73 Baseline & Advanced Components)
+> **Status:** 100% Complete (81/81 Main UI Components + 70 Chart Presets)
 
 ---
 
 ## 🌟 Features
 
-- **73 Production-Ready Components:** From basic Buttons and Inputs to complex DataTables, TreeViews, and Rich Text Editors.
+- **81 Production-Ready UI Components & 70 Chart Presets:** From basic Buttons and Inputs to complex DataTables, TreeViews, Charts, and Rich Text Editors.
+- **8,753 SVG Icons:** Full integration with `@aboalrejal/nds-icons` Hugeicons set.
 - **RTL-First by Design:** Perfect Arabic typography (IBM Plex Sans Arabic) and seamless Right-to-Left logic out of the box.
 - **Tailwind CSS Native:** No hidden CSS files. Every component is styled purely with utility classes and DGA design tokens.
 - **Copy/Paste Architecture:** You own the code. Install components directly into your project via the CLI.
@@ -44,7 +45,7 @@ The CLI will download the component code (`.tsx`) directly into your `components
 
 ## 📦 What's Included?
 
-The registry includes 73 baseline and advanced components:
+The registry includes 81 main UI components, 70 chart presets, and over 382+ sub-components:
 
 **Basic UI:**
 `Button`, `Card`, `Checkbox`, `Input`, `Select`, `Dialog`, `Popover`, `Tabs`, `Accordion`, `Tooltip`, etc.

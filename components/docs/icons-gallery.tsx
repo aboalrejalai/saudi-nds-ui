@@ -32,7 +32,7 @@ export function IconsGallery() {
     }
   }, [])
 
-  // Fast in-memory text filtering across 8,700+ icon names (< 1ms)
+  // Fast in-memory text filtering across 8,753 icon names (< 1ms)
   const filteredIcons = useMemo(() => {
     let keys = ALL_ICON_NAMES
 
@@ -86,7 +86,7 @@ export function IconsGallery() {
   }
 
   // Texts
-  const placeholderText = isAr ? "ابحث في أكثر من 8,700 أيقونة..." : "Search 8,700+ icons..."
+  const placeholderText = isAr ? "ابحث في أكثر من 8,753 أيقونة..." : "Search 8,753+ icons..."
   const textAll = isAr ? "الكل" : "All"
   const textSolid = isAr ? "مصمت (Solid)" : "Solid"
   const textStroke = isAr ? "مفرغ (Stroke)" : "Stroke"
