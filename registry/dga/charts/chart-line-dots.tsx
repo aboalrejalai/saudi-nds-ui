@@ -74,7 +74,7 @@ export function ChartLineDots({
         {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={config}>
+        <ChartContainer config={config} className="aspect-auto h-[250px] w-full">
           <LineChart
             accessibilityLayer
             data={data}

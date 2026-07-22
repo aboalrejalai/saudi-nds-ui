@@ -91,7 +91,7 @@ export function ChartPieLabelCustom({
       <CardContent className="flex-1 pb-0">
         <ChartContainer
           config={config}
-          className="mx-auto aspect-square max-h-[250px] px-0"
+          className="mx-auto aspect-square h-[250px] max-h-[250px] w-full px-0"
         >
           <PieChart>
             <ChartTooltip

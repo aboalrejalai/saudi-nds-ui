@@ -92,7 +92,7 @@ export function ChartPieDonutActive({
       <CardContent className="flex-1 pb-0">
         <ChartContainer
           config={config}
-          className="mx-auto aspect-square max-h-[250px]"
+          className="mx-auto aspect-square h-[250px] max-h-[250px] w-full"
         >
           <PieChart>
             <ChartTooltip

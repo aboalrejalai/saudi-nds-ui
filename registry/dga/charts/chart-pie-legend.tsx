@@ -89,7 +89,7 @@ export function ChartPieLegend({
       <CardContent className="flex-1 pb-0">
         <ChartContainer
           config={config}
-          className="mx-auto aspect-square max-h-[300px]"
+          className="mx-auto aspect-square h-[250px] max-h-[300px] w-full"
         >
           <PieChart>
             <Pie data={data} dataKey="visitors" />
