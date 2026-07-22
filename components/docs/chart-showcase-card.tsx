@@ -99,7 +99,7 @@ export function ChartShowcaseCard({
       </div>
 
       {/* Main Chart Live Preview Component (Sits Directly on Background, Layer 2) */}
-      <div className="w-full overflow-hidden rounded-xl border border-border/80 bg-card p-1 shadow-2xs transition-all hover:border-border hover:shadow-xs">
+      <div className="w-full">
         {children}
       </div>
 
