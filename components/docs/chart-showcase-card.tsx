@@ -1,0 +1,162 @@
+"use client"
+
+import * as React from "react"
+import { useLocale } from "next-intl"
+import {
+  Copy01Stroke,
+  CheckmarkBadge01Solid,
+  Chart01Stroke,
+  CodeStroke,
+} from "@aboalrejal/nds-icons"
+
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+} from "@/registry/dga/ui/sheet"
+
+interface ChartShowcaseCardProps {
+  /** اسم مكون الشارت المسجل في السجل (مثل chart-area-linear) */
+  name: string
+  /** اسم الفئة المظللة في الأعلى (مثل Area Chart) */
+  category?: string
+  /** العنوان الوظيفي للشارت داخل الكارت */
+  title?: string
+  /** كود المصدر المباشر المكتوب */
+  code: string
+  /** المكون البرمجي الحي */
+  children: React.ReactNode
+  /** هل يأخذ العرض الكامل للمكان (Full Width) */
+  fullWidth?: boolean
+}
+
+export function ChartShowcaseCard({
+  name,
+  category = "Area Chart",
+  code,
+  children,
+  fullWidth = false,
+}: ChartShowcaseCardProps) {
+  const locale = useLocale()
+  const isAr = locale === "ar"
+
+  const [sheetOpen, setSheetOpen] = React.useState(false)
+  const [copied, setCopied] = React.useState(false)
+  const [sheetCopied, setSheetCopied] = React.useState(false)
+
+  const copyCode = async (isSheet = false) => {
+    await navigator.clipboard.writeText(code.trim())
+    if (isSheet) {
+      setSheetCopied(true)
+      setTimeout(() => setSheetCopied(false), 2000)
+    } else {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    }
+  }
+
+  const lines = code.trim().split("\n")
+
+  const textViewCode = isAr ? "عرض الكود" : "View Code"
+  const textCopyCode = isAr ? "نسخ الكود" : "Copy code"
+  const textCopied = isAr ? "تم النسخ" : "Copied"
+
+  return (
+    <div className={`flex flex-col gap-2 ${fullWidth ? "w-full col-span-full" : "w-full"}`}>
+      {/* Upper Control Bar (Icon + Category Title + Copy Button + View Code Button) */}
+      <div className="flex items-center justify-between px-1 text-xs">
+        <div className="flex items-center gap-1.5 font-medium text-muted-foreground">
+          <Chart01Stroke className="size-4 shrink-0 text-muted-foreground/80" />
+          <span>{category}</span>
+        </div>
+
+        <div className="flex items-center gap-2">
+          {/* Quick Copy Button */}
+          <button
+            onClick={() => copyCode(false)}
+            aria-label={textCopyCode}
+            title={textCopyCode}
+            className="flex size-7 items-center justify-center rounded-md border border-border/60 bg-background text-muted-foreground transition-all hover:bg-muted hover:text-foreground"
+          >
+            {copied ? (
+              <CheckmarkBadge01Solid className="size-4 text-emerald-600 dark:text-emerald-400" />
+            ) : (
+              <Copy01Stroke className="size-3.5" />
+            )}
+          </button>
+
+          {/* View Code Button */}
+          <button
+            onClick={() => setSheetOpen(true)}
+            className="flex items-center gap-1.5 rounded-md border border-border/80 bg-background px-2.5 py-1 text-xs font-medium text-foreground transition-all hover:bg-muted shadow-2xs"
+          >
+            <CodeStroke className="size-3.5 text-muted-foreground" />
+            <span>{textViewCode}</span>
+          </button>
+        </div>
+      </div>
+
+      {/* Main Chart Live Preview Card */}
+      <div className="w-full overflow-hidden rounded-xl border border-border/80 bg-card p-1 shadow-2xs transition-all hover:shadow-xs">
+        {children}
+      </div>
+
+      {/* Slide-Over Right Sheet Drawer for Code Display */}
+      <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
+        <SheetContent side={isAr ? "left" : "right"} className="w-full sm:max-w-2xl p-0 flex flex-col bg-background">
+          {/* Sheet Header */}
+          <SheetHeader className="flex flex-row items-center justify-between border-b px-6 py-4 space-y-0">
+            <div className="flex items-center gap-2">
+              <span className="flex size-6 items-center justify-center rounded-md bg-muted text-[10px] font-mono font-bold text-foreground">
+                TS
+              </span>
+              <SheetTitle className="text-sm font-semibold font-mono text-foreground">
+                {name}
+              </SheetTitle>
+            </div>
+
+            <div className="flex items-center gap-2 me-6">
+              <button
+                onClick={() => copyCode(true)}
+                className="flex items-center gap-1.5 rounded-md border border-border bg-background px-3 py-1.5 text-xs font-medium text-foreground transition-all hover:bg-muted shadow-2xs"
+              >
+                {sheetCopied ? (
+                  <>
+                    <CheckmarkBadge01Solid className="size-3.5 text-emerald-600 dark:text-emerald-400" />
+                    <span className="text-emerald-600 dark:text-emerald-400">{textCopied}</span>
+                  </>
+                ) : (
+                  <>
+                    <Copy01Stroke className="size-3.5" />
+                    <span>{textCopyCode}</span>
+                  </>
+                )}
+              </button>
+            </div>
+          </SheetHeader>
+
+          {/* Sheet Code Content Container */}
+          <div className="flex-1 overflow-auto p-6 bg-slate-50/50 dark:bg-zinc-950/50">
+            <div className="rounded-xl border border-border/80 bg-background p-4 text-xs sm:text-sm font-mono shadow-2xs">
+              <pre className="overflow-x-auto leading-relaxed">
+                <code>
+                  {lines.map((line, i) => (
+                    <div key={i} className="table-row">
+                      <span className="table-cell pe-4 text-end select-none text-muted-foreground/50 text-xs">
+                        {i + 1}
+                      </span>
+                      <span className="table-cell whitespace-pre text-foreground">
+                        {line}
+                      </span>
+                    </div>
+                  ))}
+                </code>
+              </pre>
+            </div>
+          </div>
+        </SheetContent>
+      </Sheet>
+    </div>
+  )
+}
