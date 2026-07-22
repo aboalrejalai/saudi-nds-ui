@@ -1,88 +1,92 @@
-# دليل بناء ومعرض الشارتات والرسوم البيانية (Saudi NDS UI Charts Guide) 📊
+# Saudi NDS UI Charts Architecture & Implementation Guide 📊
 
-هذا الدليل الفني يوضح الآلية المعتمدة 100% لبناء وتصميم واستعراض كروت وسلاسل الرسوم البيانية (Charts Families) بداخل مشروع **Saudi NDS UI**، بنفس الهوية السعودية الأخضراء، والنظام البصري، ودعم اللغتين، وبدون تشوه بصري.
+This technical guide outlines the 100% standardized specification for constructing, styling, registering, and showcasing Chart component families within **Saudi NDS UI**. Any AI agent or developer following this guide will reproduce the exact same visual design, Saudi Green brand identity, strict 2-layer clean layout, slide-over code viewer, and 100% locale isolation.
 
 ---
 
-## 🎨 1. قواعد النظام البصري والألوان (Design System & Brand Identity)
+## 🎨 1. Design System & Brand Identity Rules
 
-### أ. الألوان الرسمية للهوية السعودية
-- **اللون الأساسي للأيقونات والعناصر**: `#1b8354` (`text-[#1b8354] dark:text-[#54c08a]`)
-- **تأثير إمرار الماوس (Hover Effect)**: `#25935f` (`hover:text-[#25935f]`)
-- **متغيرات الشارتات بـ `globals.css`**:
+### A. Official Saudi Green Color Palette
+- **Primary Icon & Accent Color**: `#1b8354` (`text-[#1b8354] dark:text-[#54c08a]`)
+- **Hover Transition Color**: `#25935f` (`hover:text-[#25935f]`)
+- **Chart CSS Variables (in `app/globals.css`)**:
   ```css
-  --chart-1: #1b8354; /* الأخضر السعودي الرئيسي */
-  --chart-2: #25935f; /* الأخضر السعودي الفاتح */
-  --chart-3: #166a45; /* الأخضر السعودي الداكن */
-  --chart-4: #54c08a; /* الأخضر الناعم */
-  --chart-5: #384250; /* الرمادي الداكن الموازي */
+  --chart-1: #1b8354; /* Saudi Green Primary */
+  --chart-2: #25935f; /* Saudi Green Light */
+  --chart-3: #166a45; /* Saudi Green Dark */
+  --chart-4: #54c08a; /* Saudi Green Soft Accent */
+  --chart-5: #384250; /* Neutral Dark Parallel */
   ```
 
-### ب. بنية الطبقات (Strict 2-Layer System)
-- **الطبقة الأولى**: أرضية الصفحة الأساسية للموقع (`bg-background`).
-- **الطبقة الثانية**: بطاقة الشارت المباشرة `<Card>` ذات الحدود النظيفة `border bg-card`.
-- ⚠️ **يُمنع منعاً باتاً**: إضافة أي غلاف خارجي يحتوي على `border` أو `bg-card` أو `p-1` حول بطاقة الشارت لتفادي البرودر المزدوج والتشوه البصري.
+### B. Strict 2-Layer Layout System (Zero Visual Distortion)
+- **Layer 1 (Page Background)**: Main page background canvas (`bg-background`).
+- **Layer 2 (Chart Card)**: Live chart component `<Card>` with native clean border (`border bg-card`).
+- ⚠️ **CRITICAL RULE**: NEVER add an outer wrapper `div` with `border`, `bg-card`, or `p-1` around `{children}` in `ChartShowcaseCard`. This prevents double borders and 3rd layer visual distortion.
 
 ---
 
-## 📐 2. التوزيع والتنسيق الهيكلي (Layout & Grid Architecture)
+## 📐 2. Layout & Grid Architecture
 
-1. **الشارت المتفاعل الرئيسي (Featured Interactive Chart)**:
-   - يوضع بداخل حاوية كاملة العرض في أعلى الفئة (`w-full col-span-full`).
-2. **الشبكة الثلاثية لجميع الشارتات (3-Column Grid)**:
-   - تُنظم بقية شارتات الفئة في شبكة مكونة من **3 أعمدة متناسقة**:
+1. **Featured Interactive Chart (Full Width Top)**:
+   - Positioned at the top of the showcase family in a full-width container (`w-full col-span-full`).
+2. **3-Column Grid System**:
+   - All remaining charts in the family must be arranged in a clean **3-column responsive grid**:
      ```tsx
      <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-       {/* 9 Chart Cards */}
+       {/* Family Charts */}
      </div>
      ```
 
 ---
 
-## 🛠️ 3. المكون الموحد للعرض `ChartShowcaseCard`
+## 🛠️ 3. Standardized Component: `ChartShowcaseCard`
 
-المكون المعتمد لاستعراض أي شارت هو [components/docs/chart-showcase-card.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/components/docs/chart-showcase-card.tsx).
+Location: [components/docs/chart-showcase-card.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/components/docs/chart-showcase-card.tsx)
 
-### الخصائص (Props):
-- `name`: اسم الملف البرمجي المسجل في السجل (مثل `chart-bar-default`).
-- `category`: اسم الفئة (مثل `Bar Chart` أو `رسم بياني شريطي`).
-- `title`: العنوان الوظيفي للشارت.
-- `code`: كود المصدر البرمجي الصريح.
-- `children`: المكون البرمجي الحي للشارت `<ChartBarDefault />`.
-- `fullWidth`: هل يأخذ عرض الشاشة بالكامل (`boolean`).
+### Props Signature:
+- `name`: String (e.g. `"chart-bar-default"`).
+- `category`: String (e.g. `"Bar Chart"` or `"رسم بياني شريطي"`).
+- `title`: Functional title of the chart.
+- `code`: Raw TSX source code string.
+- `children`: The live React chart component instance (e.g. `<ChartBarDefault />`).
+- `fullWidth`: Boolean flag for full-width placement.
 
-### العناصر التفاعلية بداخل المكون:
-- **أيقونة الفئة**: `Chart01Stroke` بلون الأخضر السعودي `#1b8354` مع تأثير `hover:text-[#25935f]`.
-- **زر النسخ المباشر**: ينسخ كود المكون فوراً للحافظة مع مؤشر `CheckmarkBadge01Solid`.
-- **زر `View Code`**: يفتح نافذة منزلقة من اليمين (Slide-Over Sheet) تظهر الكود البرمجي بخلفية فاتحة ونقية مع أرقام الأسطر.
-
----
-
-## 🌐 4. قواعد دعم اللغتين (Strict 100% Locale Separation)
-
-- يتم تحديد اللغة النشطة باستخدام `const locale = useLocale()` و `const isAr = locale === "ar"`.
-- **في الواجهة الإنجليزية (`en`)**: نصوص إنجليزية فقط 100% (`Bar Chart`, `View Code`, `Copy code`, `Copied`).
-- **في الواجهة العربية (`ar`)**: نصوص عربية فقط 100% (`رسم بياني شريطي`, `عرض الكود`, `نسخ الكود`, `تم النسخ`).
-- ⚠️ **يُمنع**: خلط الكلمات العربية والإنجليزية في نفس السطر أو العنوان.
+### Interactive Controls:
+- **Category Icon**: Uses `Chart01Stroke` styled with `#1b8354` and smooth hover transition to `#25935f`.
+- **Quick Copy Button**: One-click clipboard copy (`Copy01Stroke`) with animated checkmark feedback (`CheckmarkBadge01Solid`).
+- **View Code Button**: Opens a right-side Slide-Over Sheet (`Sheet`) displaying syntax-formatted TSX source code with line numbers on a clean light/dark container.
 
 ---
 
-## 🚀 5. دليل خطوة-بخطوة لإضافة أي عائلة شارتات جديدة (Agent Execution Steps)
+## 🌐 4. Strict 100% Locale Isolation Rules
 
-لإضافة عائلة جديدة (مثل **Bar Charts**, **Line Charts**, **Pie Charts**, **Radar Charts**, **Radial Charts**):
+- Retrieve current locale via `const locale = useLocale()` and `const isAr = locale === "ar"`.
+- **English Locale (`en`)**: 100% pure English text ("Charts Showcase", "Bar Chart", "View Code", "Copy code", "Copied").
+- **Arabic Locale (`ar`)**: 100% pure Arabic text ("معرض الرسوم البيانية", "رسم بياني شريطي", "عرض الكود", "نسخ الكود", "تم النسخ").
+- ⚠️ **CRITICAL RULE**: NEVER mix English and Arabic words on the same title or UI element.
 
-1. **الخطوة 1: التأكد من مكونات الشارتات بـ `registry/dga/charts/`**:
-   - التأكد من استخدام أيقونات `@aboalrejal/nds-icons` ومتغيرات `--chart-1` إلى `--chart-5`.
-   - التأكد من دعم الـ Dynamic Props (`data`, `config`, `title`, `description`).
+---
 
-2. **الخطوة 2: إنشاء مكون الاستعراض الفئوي `app/[locale]/chart/<family>-charts-showcase.tsx`**:
-   - وضع الشارت المتفاعل الرئيسي `chart-<family>-interactive` في الأعلى بـ `fullWidth`.
-   - وضع باقي شارتات الفئة في `grid grid-cols-1 md:grid-cols-3 gap-6`.
-   - استخدام `ChartShowcaseCard` لجميع الشارتات.
+## 🚀 5. Step-by-Step Implementation Guide for New Chart Families
 
-3. **الخطوة 3: استدعاء المكون في صفحة الشارتات `app/[locale]/chart/page.mdx`**:
-   - استدعاء مكون الفئة وعرضه بوضوح تحت عنوان الفئة النظيف.
+To implement any new chart family (e.g., **Bar Charts**, **Line Charts**, **Pie Charts**, **Radar Charts**, **Radial Charts**, **Tooltip Charts**):
 
-4. **الخطوة 4: التحقق والرفع (Build & Auto Git Push)**:
-   - تشغيل `npm run build` لتأكيد خلو النظام من أي خطأ بـ TypeScript أو Turbopack.
-   - تنفيذ `git add .`, `git commit`, و `git push` تلقائياً.
+### Step 1: Ensure Registry Components Exist
+Ensure all chart files in `registry/dga/charts/chart-<family>-<variant>.tsx` use:
+- Icons from `@aboalrejal/nds-icons`.
+- CSS variables `--chart-1` through `--chart-5`.
+- Dynamic props interfaces (`data`, `config`, `title`, `description`, `trendingText`, `className`).
+
+### Step 2: Generate Showcase Component
+Create `app/[locale]/chart/<family>-charts-showcase.tsx`:
+- Place `Chart<Family>Interactive` at the top with `fullWidth`.
+- Place the remaining 9 charts in `<div className="grid grid-cols-1 gap-6 md:grid-cols-3">`.
+- Wrap each chart with `<ChartShowcaseCard>` passing localized `category` and `title`.
+
+### Step 3: Register & Update MDX Page
+- Ensure chart components are registered in `registry/dga/registry.ts`.
+- Import and render `<FamilyChartsShowcase />` inside `app/[locale]/chart/page.mdx`.
+
+### Step 4: Verification & Git Auto-Push
+- Run `npm run build` to verify clean TypeScript compilation with 0 errors.
+- Run `git add .`, `git commit -m "feat(charts): add <Family> Charts showcase"`, and `git push`.
