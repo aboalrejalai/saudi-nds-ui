@@ -33,8 +33,8 @@ This document outlines the end-to-end technical specification, architectural str
 - **Documentation**: Next.js MDX (`@next/mdx`, `next-mdx-remote`, `@mdx-js/react`)
 
 ### Component & File Distribution Summary
-- **UI Components (`registry/dga/ui/`)**: 63 components
-- **Chart Components (`registry/dga/charts/`)**: 71 components (Area, Bar, Line, Pie, Radar, Radial, Tooltip)
+- **UI Components (`registry/dga/ui/`)**: 81 components
+- **Chart Components (`registry/dga/charts/`)**: 70 components (Area, Bar, Line, Pie, Radar, Radial, Tooltip)
 - **Showcase Views (`app/[locale]/chart/`)**: 7 showcase wrappers + 7 dedicated MDX pages
 - **Documentation Component Pages (`app/[locale]/`)**: 89 route directories (`button`, `card`, `dialog`, etc.)
 - **Layout & Docs Components (`components/`)**: 14 layout, header, sidebar, and showcase components
@@ -91,9 +91,9 @@ saudi-nds-ui/
 
 ### 2. UI Components Migration (`registry/dga/ui/` -> `packages/ui/src/components/`)
 
-All **63 UI components** will be relocated to `packages/ui/src/components/` and exported via `packages/ui/src/index.ts`. All Next.js specific imports (`next/image`, `next/link`, `next/headers`) will be replaced with standard React 19 props or client router hooks.
+All **81 UI components** will be relocated to `packages/ui/src/components/` and exported via `packages/ui/src/index.ts`. All Next.js specific imports (`next/image`, `next/link`, `next/headers`) will be replaced with standard React 19 props or client router hooks.
 
-#### Files to Move & Standardize (63 Files):
+#### Files to Move & Standardize (81 Files):
 1. [accordion.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/accordion.tsx)
 2. [alert.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/alert.tsx)
 3. [alert-dialog.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/alert-dialog.tsx)
@@ -157,6 +157,24 @@ All **63 UI components** will be relocated to `packages/ui/src/components/` and 
 61. [sheet.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/sheet.tsx)
 62. [sidebar.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/sidebar.tsx)
 63. [skeleton.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/skeleton.tsx)
+64. [slider.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/slider.tsx)
+65. [sonner.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/sonner.tsx)
+66. [spinner.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/spinner.tsx)
+67. [stat.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/stat.tsx)
+68. [steps.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/steps.tsx)
+69. [switch.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/switch.tsx)
+70. [table.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/table.tsx)
+71. [tabs.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/tabs.tsx)
+72. [tag-input.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/tag-input.tsx)
+73. [textarea.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/textarea.tsx)
+74. [timeline.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/timeline.tsx)
+75. [toast.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/toast.tsx)
+76. [toaster.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/toaster.tsx)
+77. [toggle-group.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/toggle-group.tsx)
+78. [toggle.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/toggle.tsx)
+79. [tooltip.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/tooltip.tsx)
+80. [tree-view.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/tree-view.tsx)
+81. [typography.tsx](file:///c:/Users/Abo%20Alrejal/Desktop/saudi-nds-ui/registry/dga/ui/typography.tsx)
 
 ---
 
@@ -197,7 +215,7 @@ All **70 Chart components** across 7 families will be relocated to `packages/ui/
 - **Task 1.3**: Migrate CSS design tokens from `styles/tokens.css` and `app/globals.css` into `packages/ui/src/tokens/`.
 
 ### 🎨 PHASE 2: Core UI Components & Charts Packaging (`packages/ui`)
-- **Task 2.1**: Move all 63 UI components into `packages/ui/src/components/`.
+- **Task 2.1**: Move all 81 UI components into `packages/ui/src/components/`.
 - **Task 2.2**: Move all 70 Chart components into `packages/ui/src/charts/`.
 - **Task 2.3**: Create `packages/ui/src/index.ts` exporting all components, charts, and props interfaces.
 - **Task 2.4**: Run `pnpm --filter @saudi-nds/ui build` and verify clean ESM, CJS, and `.d.ts` type bundle generation.
