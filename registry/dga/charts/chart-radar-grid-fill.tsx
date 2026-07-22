@@ -1,7 +1,6 @@
 "use client"
 
-import { ChartIncreaseIcon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
+import { ChartIncreaseStroke } from "@aboalrejal/nds-icons"
 import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from "recharts"
 
 import {
@@ -37,21 +36,45 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartRadarGridFill() {
+
+export interface ChartRadarGridFillProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartRadarGridFill({
+  data = chartData,
+  config = chartConfig,
+  title = "Radar Chart - Grid Filled",
+  description: cardDescription = "Showing total visitors for the last 6 months",
+  trendingText,
+  footerText,
+  className,
+}: ChartRadarGridFillProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader className="items-center pb-4">
-        <CardTitle>Radar Chart - Grid Filled</CardTitle>
-        <CardDescription>
-          Showing total visitors for the last 6 months
-        </CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent className="pb-0">
         <ChartContainer
-          config={chartConfig}
+          config={config}
           className="mx-auto aspect-square max-h-[250px]"
         >
-          <RadarChart data={chartData}>
+          <RadarChart data={data}>
             <ChartTooltip
               cursor={false}
               content={<ChartTooltipContent hideLabel />}
@@ -69,7 +92,7 @@ export function ChartRadarGridFill() {
       <CardFooter className="flex-col gap-2 text-sm">
         <div className="flex items-center gap-2 leading-none font-medium">
           Trending up by 5.2% this month{" "}
-          <HugeiconsIcon icon={ChartIncreaseIcon} className="h-4 w-4" />
+          <ChartIncreaseStroke className="h-4 w-4" />
         </div>
         <div className="text-muted-foreground flex items-center gap-2 leading-none">
           January - June 2024

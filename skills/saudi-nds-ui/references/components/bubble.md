@@ -1,6 +1,6 @@
 ## Component: BUBBLE
 
-Chat bubble wrapper designed for message text containing logical borders, reaction bubbles, and state formatting.
+DGA-approved **Bubble** component — built on Radix UI / shadcn primitives, styled with NDS design tokens, and optimized for RTL layouts.
 
 ### Install
 
@@ -8,36 +8,32 @@ Chat bubble wrapper designed for message text containing logical borders, reacti
 npx shadcn@latest add https://nds.aboalrejal.com/r/bubble.json
 ```
 
+**NPM dependencies:** `class-variance-authority`, `radix-ui`
+
 ### Variants
 
 - **variant:** `default`, `secondary`, `muted`, `tinted`, `outline`, `ghost`, `destructive`
-- **align:** `start`, `end`
 
 ### Exports
 
-`BubbleGroup`, `Bubble`, `BubbleContent`, `BubbleReactions`
+`Bubble`, `BubbleContent`, `BubbleGroup`, `BubbleReactions`
 
 ### Usage
 
 ```tsx
-import { Bubble, BubbleContent, BubbleReactions } from "@/components/ui/bubble";
+import { Bubble } from "@/components/ui/bubble";
 
-<Bubble variant="default">
-  <BubbleContent>مرحباً بك في المنصة الوطنية الموحدة.</BubbleContent>
-  <BubbleReactions side="bottom" align="start">
-    <button>👍</button>
-  </BubbleReactions>
-</Bubble>;
+<Bubble variant="default">Bubble</Bubble>
 ```
 
 ### Source (`registry/dga/ui/bubble.tsx`)
 
 ```tsx
-import * as React from "react";
-import { cva, type VariantProps } from "class-variance-authority";
-import { Slot } from "radix-ui";
+import * as React from "react"
+import { cva, type VariantProps } from "class-variance-authority"
+import { Slot } from "radix-ui"
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils"
 
 function BubbleGroup({ className, ...props }: React.ComponentProps<"div">) {
   return (
@@ -46,7 +42,7 @@ function BubbleGroup({ className, ...props }: React.ComponentProps<"div">) {
       className={cn("flex min-w-0 flex-col gap-2 font-sans", className)}
       {...props}
     />
-  );
+  )
 }
 
 const bubbleVariants = cva(
@@ -73,8 +69,8 @@ const bubbleVariants = cva(
     defaultVariants: {
       variant: "default",
     },
-  },
-);
+  }
+)
 
 function Bubble({
   variant = "default",
@@ -83,7 +79,7 @@ function Bubble({
   ...props
 }: React.ComponentProps<"div"> &
   VariantProps<typeof bubbleVariants> & {
-    align?: "start" | "end";
+    align?: "start" | "end"
   }) {
   return (
     <div
@@ -93,7 +89,7 @@ function Bubble({
       className={cn(bubbleVariants({ variant }), className)}
       {...props}
     />
-  );
+  )
 }
 
 function BubbleContent({
@@ -101,20 +97,20 @@ function BubbleContent({
   className,
   ...props
 }: React.ComponentProps<"div"> & {
-  asChild?: boolean;
+  asChild?: boolean
 }) {
-  const Comp = asChild ? Slot.Root : "div";
+  const Comp = asChild ? Slot.Root : "div"
 
   return (
     <Comp
       data-slot="bubble-content"
       className={cn(
         "w-fit max-w-full min-w-0 overflow-hidden rounded-2xl border border-transparent px-4 py-2.5 text-sm leading-relaxed wrap-break-word group-data-[align=end]/bubble:self-end [button]:text-start [button,a]:transition-colors [button,a]:outline-none [button,a]:focus-visible:border-ring [button,a]:focus-visible:ring-3 [button,a]:focus-visible:ring-ring/50",
-        className,
+        className
       )}
       {...props}
     />
-  );
+  )
 }
 
 const bubbleReactionsVariants = cva(
@@ -134,8 +130,8 @@ const bubbleReactionsVariants = cva(
       side: "bottom",
       align: "end",
     },
-  },
-);
+  }
+)
 
 function BubbleReactions({
   side = "bottom",
@@ -143,8 +139,8 @@ function BubbleReactions({
   className,
   ...props
 }: React.ComponentProps<"div"> & {
-  align?: "start" | "end";
-  side?: "top" | "bottom";
+  align?: "start" | "end"
+  side?: "top" | "bottom"
 }) {
   return (
     <div
@@ -154,8 +150,10 @@ function BubbleReactions({
       className={cn(bubbleReactionsVariants({ side, align }), className)}
       {...props}
     />
-  );
+  )
 }
 
-export { BubbleGroup, Bubble, BubbleContent, BubbleReactions };
+export { BubbleGroup, Bubble, BubbleContent, BubbleReactions }
 ```
+
+---

@@ -19,28 +19,31 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/checkbox.json
 ```tsx
 import { Checkbox } from "@/components/ui/checkbox";
 
-<Checkbox>Checkbox</Checkbox>;
+<Checkbox>Checkbox</Checkbox>
 ```
 
 ### Source (`registry/dga/ui/checkbox.tsx`)
 
 ```tsx
-"use client";
+"use client"
 
-import * as React from "react";
-import { Tick02Icon } from "@hugeicons/core-free-icons";
-import { HugeiconsIcon } from "@hugeicons/react";
-import { Checkbox as CheckboxPrimitive } from "radix-ui";
+import * as React from "react"
+import { Tick02Icon } from "@hugeicons/core-free-icons"
+import { HugeiconsIcon } from "@hugeicons/react"
+import { Checkbox as CheckboxPrimitive } from "radix-ui"
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils"
 
-function Checkbox({ className, ...props }: React.ComponentProps<typeof CheckboxPrimitive.Root>) {
+function Checkbox({
+  className,
+  ...props
+}: React.ComponentProps<typeof CheckboxPrimitive.Root>) {
   return (
     <CheckboxPrimitive.Root
       data-slot="checkbox"
       className={cn(
         "peer data-[state=checked]:border-primary data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 flex size-6 shrink-0 items-center justify-center rounded-[var(--radius-xs,2px)] border border-[var(--Controls-control-border,#6C737F)] shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50",
-        className,
+        className
       )}
       {...props}
     >
@@ -51,10 +54,10 @@ function Checkbox({ className, ...props }: React.ComponentProps<typeof CheckboxP
         <HugeiconsIcon icon={Tick02Icon} className="size-4" />
       </CheckboxPrimitive.Indicator>
     </CheckboxPrimitive.Root>
-  );
+  )
 }
 
-export { Checkbox };
+export { Checkbox }
 ```
 
 ---

@@ -1,7 +1,6 @@
 "use client"
 
-import { ChartIncreaseIcon, GitCommitIcon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
+import { ChartIncreaseStroke, GitCommitStroke } from "@aboalrejal/nds-icons"
 import { CartesianGrid, Line, LineChart, XAxis } from "recharts"
 
 import {
@@ -41,18 +40,44 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartLineDotsCustom() {
+
+export interface ChartLineDotsCustomProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartLineDotsCustom({
+  data = chartData,
+  config = chartConfig,
+  title = "Line Chart - Custom Dots",
+  description: cardDescription = "January - June 2024",
+  trendingText,
+  footerText,
+  className,
+}: ChartLineDotsCustomProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
-        <CardTitle>Line Chart - Custom Dots</CardTitle>
-        <CardDescription>January - June 2024</CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
+        <ChartContainer config={config}>
           <LineChart
             accessibilityLayer
-            data={chartData}
+            data={data}
             margin={{
               left: 12,
               right: 12,
@@ -78,15 +103,13 @@ export function ChartLineDotsCustom() {
               dot={({ cx, cy, payload }) => {
                 const r = 24
                 return (
-                  <HugeiconsIcon
-                    icon={GitCommitIcon}
+                  <GitCommitStroke
                     key={payload.month}
                     x={cx - r / 2}
                     y={cy - r / 2}
                     width={r}
                     height={r}
-                    fill="hsl(var(--background))"
-                    stroke="var(--color-desktop)"
+                    className="fill-background stroke-primary"
                   />
                 )
               }}
@@ -97,7 +120,7 @@ export function ChartLineDotsCustom() {
       <CardFooter className="flex-col items-start gap-2 text-sm">
         <div className="flex gap-2 leading-none font-medium">
           Trending up by 5.2% this month{" "}
-          <HugeiconsIcon icon={ChartIncreaseIcon} className="h-4 w-4" />
+          <ChartIncreaseStroke className="h-4 w-4" />
         </div>
         <div className="text-muted-foreground leading-none">
           Showing total visitors for the last 6 months

@@ -17,15 +17,15 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/skeleton.json
 ```tsx
 import { Skeleton } from "@/components/ui/skeleton";
 
-<Skeleton>Skeleton</Skeleton>;
+<Skeleton>Skeleton</Skeleton>
 ```
 
 ### Source (`registry/dga/ui/skeleton.tsx`)
 
 ```tsx
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils"
 
-import "./skeleton.css";
+import "./skeleton.css"
 
 function Skeleton({ className, ...props }: React.ComponentProps<"div">) {
   return (
@@ -36,14 +36,14 @@ function Skeleton({ className, ...props }: React.ComponentProps<"div">) {
         "bg-linear-to-r from-(--background-background-neutral200) via-(--background-background-neutral300) to-(--background-background-neutral200)",
         "before:absolute before:inset-0 before:-translate-x-full before:animate-[shimmer_1.5s_infinite]",
         "before:bg-linear-to-r before:from-transparent before:via-white/60 before:to-transparent",
-        className,
+        className
       )}
       {...props}
     />
-  );
+  )
 }
 
-export { Skeleton };
+export { Skeleton }
 ```
 
 ---

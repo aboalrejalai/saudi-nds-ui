@@ -1,7 +1,7 @@
 "use client"
+import { cn } from "@/lib/utils"
 
-import { ChartIncreaseIcon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
+import { ChartIncreaseStroke } from "@aboalrejal/nds-icons"
 import { Pie, PieChart } from "recharts"
 
 import {
@@ -55,16 +55,42 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartPieLabelCustom() {
+
+export interface ChartPieLabelCustomProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartPieLabelCustom({
+  data = chartData,
+  config = chartConfig,
+  title = "Pie Chart - Custom Label",
+  description: cardDescription = "January - June 2024",
+  trendingText,
+  footerText,
+  className,
+}: ChartPieLabelCustomProps) {
   return (
-    <Card className="flex flex-col">
+    <Card className={cn("flex flex-col", className)}>
       <CardHeader className="items-center pb-0">
-        <CardTitle>Pie Chart - Custom Label</CardTitle>
-        <CardDescription>January - June 2024</CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent className="flex-1 pb-0">
         <ChartContainer
-          config={chartConfig}
+          config={config}
           className="mx-auto aspect-square max-h-[250px] px-0"
         >
           <PieChart>
@@ -72,7 +98,7 @@ export function ChartPieLabelCustom() {
               content={<ChartTooltipContent nameKey="visitors" hideLabel />}
             />
             <Pie
-              data={chartData}
+              data={data}
               dataKey="visitors"
               labelLine={false}
               label={({ payload, ...props }) => {
@@ -98,7 +124,7 @@ export function ChartPieLabelCustom() {
       <CardFooter className="flex-col gap-2 text-sm">
         <div className="flex items-center gap-2 leading-none font-medium">
           Trending up by 5.2% this month{" "}
-          <HugeiconsIcon icon={ChartIncreaseIcon} className="h-4 w-4" />
+          <ChartIncreaseStroke className="h-4 w-4" />
         </div>
         <div className="text-muted-foreground leading-none">
           Showing total visitors for the last 6 months

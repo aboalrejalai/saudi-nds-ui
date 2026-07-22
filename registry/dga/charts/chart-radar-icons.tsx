@@ -1,11 +1,10 @@
 "use client"
 
 import {
-  ArrowDown02Icon,
-  ArrowUp02Icon,
-  ChartIncreaseIcon,
-} from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
+  ArrowDown02Stroke,
+  ArrowUp02Stroke,
+  ChartIncreaseStroke,
+} from "@aboalrejal/nds-icons"
 import { PolarAngleAxis, PolarGrid, Radar, RadarChart } from "recharts"
 
 import {
@@ -37,41 +36,65 @@ const chartData = [
 ]
 
 const ArrowDownWrapper = () => (
-  <HugeiconsIcon icon={ArrowDown02Icon} className="h-4 w-4" />
+  <ArrowDown02Stroke className="h-4 w-4" />
 )
 const ArrowUpWrapper = () => (
-  <HugeiconsIcon icon={ArrowUp02Icon} className="h-4 w-4" />
+  <ArrowUp02Stroke className="h-4 w-4" />
 )
 
 const chartConfig = {
   desktop: {
     label: "Desktop",
     color: "var(--chart-1)",
-    icon: ArrowDownWrapper,
+    icon: ArrowDown02Stroke,
   },
   mobile: {
     label: "Mobile",
     color: "var(--chart-2)",
-    icon: ArrowUpWrapper,
+    icon: ArrowUp02Stroke,
   },
 } satisfies ChartConfig
 
-export function ChartRadarIcons() {
+
+export interface ChartRadarIconsProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartRadarIcons({
+  data = chartData,
+  config = chartConfig,
+  title = "Radar Chart - Icons",
+  description: cardDescription = "Showing total visitors for the last 6 months",
+  trendingText,
+  footerText,
+  className,
+}: ChartRadarIconsProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader className="items-center pb-4">
-        <CardTitle>Radar Chart - Icons</CardTitle>
-        <CardDescription>
-          Showing total visitors for the last 6 months
-        </CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
         <ChartContainer
-          config={chartConfig}
+          config={config}
           className="mx-auto aspect-square max-h-[250px]"
         >
           <RadarChart
-            data={chartData}
+            data={data}
             margin={{
               top: -40,
               bottom: -10,
@@ -96,7 +119,7 @@ export function ChartRadarIcons() {
       <CardFooter className="flex-col gap-2 pt-4 text-sm">
         <div className="flex items-center gap-2 leading-none font-medium">
           Trending up by 5.2% this month{" "}
-          <HugeiconsIcon icon={ChartIncreaseIcon} className="h-4 w-4" />
+          <ChartIncreaseStroke className="h-4 w-4" />
         </div>
         <div className="text-muted-foreground flex items-center gap-2 leading-none">
           January - June 2024

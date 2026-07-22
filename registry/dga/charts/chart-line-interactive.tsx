@@ -1,4 +1,5 @@
 "use client"
+import { cn } from "@/lib/utils"
 
 import * as React from "react"
 import { CartesianGrid, Line, LineChart, XAxis } from "recharts"
@@ -127,26 +128,50 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartLineInteractive() {
+
+export interface ChartLineInteractiveProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartLineInteractive({
+  data = chartData,
+  config = chartConfig,
+  title = "Line Chart - Interactive",
+  description: cardDescription = "Showing total visitors for the last 3 months",
+  trendingText,
+  footerText,
+  className,
+}: ChartLineInteractiveProps) {
   const [activeChart, setActiveChart] =
     React.useState<keyof typeof chartConfig>("desktop")
 
   const total = React.useMemo(
     () => ({
-      desktop: chartData.reduce((acc, curr) => acc + curr.desktop, 0),
-      mobile: chartData.reduce((acc, curr) => acc + curr.mobile, 0),
+      desktop: data.reduce((acc, curr) => acc + curr.desktop, 0),
+      mobile: data.reduce((acc, curr) => acc + curr.mobile, 0),
     }),
     []
   )
 
   return (
-    <Card className="py-4 sm:py-0">
+    <Card className={cn("py-4 sm:py-0", className)}>
       <CardHeader className="flex flex-col items-stretch border-b !p-0 sm:flex-row">
         <div className="flex flex-1 flex-col justify-center gap-1 px-6 pb-3 sm:pb-0">
-          <CardTitle>Line Chart - Interactive</CardTitle>
-          <CardDescription>
-            Showing total visitors for the last 3 months
-          </CardDescription>
+          {title && <CardTitle>{title}</CardTitle>}
+          {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
         </div>
         <div className="flex">
           {["desktop", "mobile"].map((key) => {
@@ -159,7 +184,7 @@ export function ChartLineInteractive() {
                 onClick={() => setActiveChart(chart)}
               >
                 <span className="text-muted-foreground text-xs">
-                  {chartConfig[chart].label}
+                  {config[chart].label}
                 </span>
                 <span className="text-lg leading-none font-bold sm:text-3xl">
                   {total[key as keyof typeof total].toLocaleString()}
@@ -171,12 +196,12 @@ export function ChartLineInteractive() {
       </CardHeader>
       <CardContent className="px-2 sm:p-6">
         <ChartContainer
-          config={chartConfig}
+          config={config}
           className="aspect-auto h-[250px] w-full"
         >
           <LineChart
             accessibilityLayer
-            data={chartData}
+            data={data}
             margin={{
               left: 12,
               right: 12,

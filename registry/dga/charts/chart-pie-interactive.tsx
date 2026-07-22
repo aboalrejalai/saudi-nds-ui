@@ -68,7 +68,33 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartPieInteractive() {
+
+export interface ChartPieInteractiveProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartPieInteractive({
+  data = desktopData,
+  config = chartConfig,
+  title = "Pie Chart - Interactive",
+  description: cardDescription = "January - June 2024",
+  trendingText,
+  footerText,
+  className,
+}: ChartPieInteractiveProps) {
   const id = "pie-interactive"
   const [activeMonth, setActiveMonth] = React.useState(desktopData[0].month)
 
@@ -80,11 +106,11 @@ export function ChartPieInteractive() {
 
   return (
     <Card data-chart={id} className="flex flex-col">
-      <ChartStyle id={id} config={chartConfig} />
+      <ChartStyle id={id} config={config} />
       <CardHeader className="flex-row items-start space-y-0 pb-0">
         <div className="grid gap-1">
-          <CardTitle>Pie Chart - Interactive</CardTitle>
-          <CardDescription>January - June 2024</CardDescription>
+          {title && <CardTitle>{title}</CardTitle>}
+          {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
         </div>
         <Select value={activeMonth} onValueChange={setActiveMonth}>
           <SelectTrigger
@@ -95,9 +121,9 @@ export function ChartPieInteractive() {
           </SelectTrigger>
           <SelectContent align="end" className="rounded-xl">
             {months.map((key) => {
-              const config = chartConfig[key as keyof typeof chartConfig]
+              const itemConfig = config[key as keyof typeof config]
 
-              if (!config) {
+              if (!itemConfig) {
                 return null
               }
 
@@ -114,7 +140,7 @@ export function ChartPieInteractive() {
                         backgroundColor: `var(--color-${key})`,
                       }}
                     />
-                    {config?.label}
+                    {itemConfig?.label}
                   </div>
                 </SelectItem>
               )
@@ -125,7 +151,7 @@ export function ChartPieInteractive() {
       <CardContent className="flex flex-1 justify-center pb-0">
         <ChartContainer
           id={id}
-          config={chartConfig}
+          config={config}
           className="mx-auto aspect-square w-full max-w-[300px]"
         >
           <PieChart>

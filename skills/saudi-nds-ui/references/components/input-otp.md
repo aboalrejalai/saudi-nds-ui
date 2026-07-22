@@ -19,42 +19,49 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/input-otp.json
 ```tsx
 import { InputOTP } from "@/components/ui/input-otp";
 
-<InputOTP>Input Otp</InputOTP>;
+<InputOTP>Input Otp</InputOTP>
 ```
 
 ### Source (`registry/dga/ui/input-otp.tsx`)
 
 ```tsx
-"use client";
+"use client"
 
-import * as React from "react";
-import { MinusSignIcon } from "@hugeicons/core-free-icons";
-import { HugeiconsIcon } from "@hugeicons/react";
-import { OTPInput, OTPInputContext } from "input-otp";
+import * as React from "react"
+import { MinusSignIcon } from "@hugeicons/core-free-icons"
+import { HugeiconsIcon } from "@hugeicons/react"
+import { OTPInput, OTPInputContext } from "input-otp"
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils"
 
 function InputOTP({
   className,
   containerClassName,
   ...props
 }: React.ComponentProps<typeof OTPInput> & {
-  containerClassName?: string;
+  containerClassName?: string
 }) {
   return (
     <OTPInput
       data-slot="input-otp"
-      containerClassName={cn("flex items-center gap-2 has-disabled:opacity-50", containerClassName)}
+      containerClassName={cn(
+        "flex items-center gap-2 has-disabled:opacity-50",
+        containerClassName
+      )}
       className={cn("disabled:cursor-not-allowed", className)}
       {...props}
     />
-  );
+  )
 }
 
 function InputOTPGroup({ className, ...props }: React.ComponentProps<"div">) {
   return (
-    <div data-slot="input-otp-group" className={cn("flex items-center", className)} {...props} />
-  );
+    <div
+      data-slot="input-otp-group"
+      className={cn("flex items-center", className)}
+      {...props}
+    />
+  )
 }
 
 function InputOTPSlot({
@@ -62,10 +69,10 @@ function InputOTPSlot({
   className,
   ...props
 }: React.ComponentProps<"div"> & {
-  index: number;
+  index: number
 }) {
-  const inputOTPContext = React.useContext(OTPInputContext);
-  const { char, hasFakeCaret, isActive } = inputOTPContext?.slots[index] ?? {};
+  const inputOTPContext = React.useContext(OTPInputContext)
+  const { char, hasFakeCaret, isActive } = inputOTPContext?.slots[index] ?? {}
 
   return (
     <div
@@ -73,7 +80,7 @@ function InputOTPSlot({
       data-active={isActive}
       className={cn(
         "data-[active=true]:border-ring data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:ring-destructive/20 dark:data-[active=true]:aria-invalid:ring-destructive/40 aria-invalid:border-destructive data-[active=true]:aria-invalid:border-destructive dark:bg-input/30 border-input relative flex h-9 w-9 items-center justify-center border-y border-e text-sm shadow-xs transition-all outline-none first:rounded-s-md first:border-s last:rounded-e-md data-[active=true]:z-10 data-[active=true]:ring-[3px]",
-        className,
+        className
       )}
       {...props}
     >
@@ -84,7 +91,7 @@ function InputOTPSlot({
         </div>
       )}
     </div>
-  );
+  )
 }
 
 function InputOTPSeparator({ ...props }: React.ComponentProps<"div">) {
@@ -92,10 +99,10 @@ function InputOTPSeparator({ ...props }: React.ComponentProps<"div">) {
     <div data-slot="input-otp-separator" role="separator" {...props}>
       <HugeiconsIcon icon={MinusSignIcon} />
     </div>
-  );
+  )
 }
 
-export { InputOTP, InputOTPGroup, InputOTPSlot, InputOTPSeparator };
+export { InputOTP, InputOTPGroup, InputOTPSlot, InputOTPSeparator }
 ```
 
 ---

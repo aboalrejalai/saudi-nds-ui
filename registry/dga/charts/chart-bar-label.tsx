@@ -1,7 +1,6 @@
 "use client"
 
-import { ChartIncreaseIcon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
+import { ChartIncreaseStroke } from "@aboalrejal/nds-icons"
 import { Bar, BarChart, CartesianGrid, LabelList, XAxis } from "recharts"
 
 import {
@@ -37,18 +36,44 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartBarLabel() {
+
+export interface ChartBarLabelProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartBarLabel({
+  data = chartData,
+  config = chartConfig,
+  title = "Bar Chart - Label",
+  description: cardDescription = "January - June 2024",
+  trendingText,
+  footerText,
+  className,
+}: ChartBarLabelProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
-        <CardTitle>Bar Chart - Label</CardTitle>
-        <CardDescription>January - June 2024</CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
+        <ChartContainer config={config}>
           <BarChart
             accessibilityLayer
-            data={chartData}
+            data={data}
             margin={{
               top: 20,
             }}
@@ -79,7 +104,7 @@ export function ChartBarLabel() {
       <CardFooter className="flex-col items-start gap-2 text-sm">
         <div className="flex gap-2 leading-none font-medium">
           Trending up by 5.2% this month{" "}
-          <HugeiconsIcon icon={ChartIncreaseIcon} className="h-4 w-4" />
+          <ChartIncreaseStroke className="h-4 w-4" />
         </div>
         <div className="text-muted-foreground leading-none">
           Showing total visitors for the last 6 months

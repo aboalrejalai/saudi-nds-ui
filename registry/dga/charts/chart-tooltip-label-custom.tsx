@@ -41,18 +41,42 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartTooltipLabelCustom() {
+
+export interface ChartTooltipLabelCustomProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartTooltipLabelCustom({
+  data = chartData,
+  config = chartConfig,
+  title = "Tooltip - Custom label",
+  description: cardDescription = "Tooltip with custom label from chartConfig.",
+  trendingText,
+  footerText,
+  className,
+}: ChartTooltipLabelCustomProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
-        <CardTitle>Tooltip - Custom label</CardTitle>
-        <CardDescription>
-          Tooltip with custom label from chartConfig.
-        </CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
-          <BarChart accessibilityLayer data={chartData}>
+        <ChartContainer config={config}>
+          <BarChart accessibilityLayer data={data}>
             <XAxis
               dataKey="date"
               tickLine={false}

@@ -1,7 +1,6 @@
 "use client"
 
-import { ChartIncreaseIcon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
+import { ChartIncreaseStroke } from "@aboalrejal/nds-icons"
 import { Area, AreaChart, CartesianGrid, XAxis } from "recharts"
 
 import {
@@ -45,20 +44,44 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartAreaStackedExpand() {
+
+export interface ChartAreaStackedExpandProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartAreaStackedExpand({
+  data = chartData,
+  config = chartConfig,
+  title = "Area Chart - Stacked Expanded",
+  description: cardDescription = "Showing total visitors for the last 6months",
+  trendingText,
+  footerText,
+  className,
+}: ChartAreaStackedExpandProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
-        <CardTitle>Area Chart - Stacked Expanded</CardTitle>
-        <CardDescription>
-          Showing total visitors for the last 6months
-        </CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
+        <ChartContainer config={config}>
           <AreaChart
             accessibilityLayer
-            data={chartData}
+            data={data}
             margin={{
               left: 12,
               right: 12,
@@ -110,7 +133,7 @@ export function ChartAreaStackedExpand() {
           <div className="grid gap-2">
             <div className="flex items-center gap-2 leading-none font-medium">
               Trending up by 5.2% this month{" "}
-              <HugeiconsIcon icon={ChartIncreaseIcon} className="h-4 w-4" />
+              <ChartIncreaseStroke className="h-4 w-4" />
             </div>
             <div className="text-muted-foreground flex items-center gap-2 leading-none">
               January - June 2024

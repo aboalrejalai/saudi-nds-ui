@@ -1,10 +1,9 @@
 "use client"
 
 import {
-  AnalyticsDownIcon,
-  ChartIncreaseIcon,
-} from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
+  AnalyticsDownStroke,
+  ChartIncreaseStroke,
+} from "@aboalrejal/nds-icons"
 import { Area, AreaChart, CartesianGrid, XAxis } from "recharts"
 
 import {
@@ -36,10 +35,10 @@ const chartData = [
 ]
 
 const AnalyticsDownWrapper = () => (
-  <HugeiconsIcon icon={AnalyticsDownIcon} className="h-4 w-4" />
+  <AnalyticsDownStroke className="h-4 w-4" />
 )
 const ChartIncreaseWrapper = () => (
-  <HugeiconsIcon icon={ChartIncreaseIcon} className="h-4 w-4" />
+  <ChartIncreaseStroke className="h-4 w-4" />
 )
 
 const chartConfig = {
@@ -55,20 +54,44 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartAreaIcons() {
+
+export interface ChartAreaIconsProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartAreaIcons({
+  data = chartData,
+  config = chartConfig,
+  title = "Area Chart - Icons",
+  description: cardDescription = "Showing total visitors for the last 6 months",
+  trendingText,
+  footerText,
+  className,
+}: ChartAreaIconsProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
-        <CardTitle>Area Chart - Icons</CardTitle>
-        <CardDescription>
-          Showing total visitors for the last 6 months
-        </CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
+        <ChartContainer config={config}>
           <AreaChart
             accessibilityLayer
-            data={chartData}
+            data={data}
             margin={{
               left: 12,
               right: 12,
@@ -111,7 +134,7 @@ export function ChartAreaIcons() {
           <div className="grid gap-2">
             <div className="flex items-center gap-2 leading-none font-medium">
               Trending up by 5.2% this month{" "}
-              <HugeiconsIcon icon={ChartIncreaseIcon} className="h-4 w-4" />
+              <ChartIncreaseStroke className="h-4 w-4" />
             </div>
             <div className="text-muted-foreground flex items-center gap-2 leading-none">
               January - June 2024

@@ -38,18 +38,42 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartTooltipAdvanced() {
+
+export interface ChartTooltipAdvancedProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartTooltipAdvanced({
+  data = chartData,
+  config = chartConfig,
+  title = "Tooltip - Advanced",
+  description: cardDescription = "Tooltip with custom formatter and total.",
+  trendingText,
+  footerText,
+  className,
+}: ChartTooltipAdvancedProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
-        <CardTitle>Tooltip - Advanced</CardTitle>
-        <CardDescription>
-          Tooltip with custom formatter and total.
-        </CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
-          <BarChart accessibilityLayer data={chartData}>
+        <ChartContainer config={config}>
+          <BarChart accessibilityLayer data={data}>
             <XAxis
               dataKey="date"
               tickLine={false}
@@ -88,7 +112,7 @@ export function ChartTooltipAdvanced() {
                           } as React.CSSProperties
                         }
                       />
-                      {chartConfig[name as keyof typeof chartConfig]?.label ||
+                      {config[name as keyof typeof chartConfig]?.label ||
                         name}
                       <div className="text-foreground ml-auto flex items-baseline gap-0.5 font-mono font-medium tabular-nums">
                         {value}

@@ -28,7 +28,7 @@ npx shadcn@latest add @dga/<component-name>
 
 ## Component Catalog
 
-Total: **73** components.
+Total: **82** components.
 
 - [Accordion](#accordion) — `https://nds.aboalrejal.com/r/accordion.json`
 - [Alert](#alert) — `https://nds.aboalrejal.com/r/alert.json`
@@ -103,6 +103,15 @@ Total: **73** components.
 - [Tag Input](#tag-input) — `https://nds.aboalrejal.com/r/tag-input.json`
 - [Timeline](#timeline) — `https://nds.aboalrejal.com/r/timeline.json`
 - [Tree View](#tree-view) — `https://nds.aboalrejal.com/r/tree-view.json`
+- [Attachment](#attachment) — `https://nds.aboalrejal.com/r/attachment.json`
+- [Bubble](#bubble) — `https://nds.aboalrejal.com/r/bubble.json`
+- [Marker](#marker) — `https://nds.aboalrejal.com/r/marker.json`
+- [Message Scroller](#message-scroller) — `https://nds.aboalrejal.com/r/message-scroller.json`
+- [Message](#message) — `https://nds.aboalrejal.com/r/message.json`
+- [Toast](#toast) — `https://nds.aboalrejal.com/r/toast.json`
+- [Use Toast](#use-toast) — `https://nds.aboalrejal.com/r/use-toast.json`
+- [Toaster](#toaster) — `https://nds.aboalrejal.com/r/toaster.json`
+- [Typography](#typography) — `https://nds.aboalrejal.com/r/typography.json`
 
 ## Registry Utilities (non-component)
 

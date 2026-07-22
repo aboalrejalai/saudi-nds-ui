@@ -1,6 +1,6 @@
 ## Component: TOASTER
 
-Layout provider wrapper that actively maps hook states into the DOM tree.
+DGA-approved **Toaster** component — built on Radix UI / shadcn primitives, styled with NDS design tokens, and optimized for RTL layouts.
 
 ### Install
 
@@ -8,33 +8,24 @@ Layout provider wrapper that actively maps hook states into the DOM tree.
 npx shadcn@latest add https://nds.aboalrejal.com/r/toaster.json
 ```
 
+**Registry dependencies:** `toast` (`https://nds.aboalrejal.com/r/toast.json`), `use-toast` (`https://nds.aboalrejal.com/r/use-toast.json`)
+
 ### Exports
 
 `Toaster`
 
 ### Usage
 
-Add `<Toaster />` at the root layout of your application to automatically render active toast notifications.
-
 ```tsx
 import { Toaster } from "@/components/ui/toaster";
 
-export default function RootLayout({ children }) {
-  return (
-    <html>
-      <body>
-        {children}
-        <Toaster />
-      </body>
-    </html>
-  );
-}
+<Toaster>Toaster</Toaster>
 ```
 
 ### Source (`registry/dga/ui/toaster.tsx`)
 
 ```tsx
-"use client";
+"use client"
 
 import {
   Toast,
@@ -43,11 +34,11 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "@/registry/dga/ui/toast";
-import { useToast } from "@/registry/dga/ui/use-toast";
+} from "@/registry/dga/ui/toast"
+import { useToast } from "@/registry/dga/ui/use-toast"
 
 export function Toaster() {
-  const { toasts } = useToast();
+  const { toasts } = useToast()
 
   return (
     <ToastProvider>
@@ -56,15 +47,19 @@ export function Toaster() {
           <Toast key={id} {...props}>
             <div className="grid gap-1">
               {title && <ToastTitle>{title}</ToastTitle>}
-              {description && <ToastDescription>{description}</ToastDescription>}
+              {description && (
+                <ToastDescription>{description}</ToastDescription>
+              )}
             </div>
             {action}
             <ToastClose />
           </Toast>
-        );
+        )
       })}
       <ToastViewport />
     </ToastProvider>
-  );
+  )
 }
 ```
+
+---

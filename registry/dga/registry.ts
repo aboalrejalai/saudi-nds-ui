@@ -1,6 +1,7 @@
 import { registryItemSchema, type Registry } from "shadcn/schema"
 import { z } from "zod"
 
+import { charts } from "./charts/_registry"
 import { hooks } from "./hooks/_registry"
 import { internal } from "./internal/_registry"
 import { lib } from "./lib/_registry"
@@ -50,6 +51,7 @@ export const registry = {
       ...lib,
       ...hooks,
       ...internal,
+      ...charts,
     ].filter((item) => {
       return !DEPRECATED_ITEMS.includes(item.name)
     })

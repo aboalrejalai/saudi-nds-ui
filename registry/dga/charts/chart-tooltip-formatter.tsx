@@ -38,16 +38,42 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartTooltipFormatter() {
+
+export interface ChartTooltipFormatterProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartTooltipFormatter({
+  data = chartData,
+  config = chartConfig,
+  title = "Tooltip - Formatter",
+  description: cardDescription = "Tooltip with custom formatter .",
+  trendingText,
+  footerText,
+  className,
+}: ChartTooltipFormatterProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
-        <CardTitle>Tooltip - Formatter</CardTitle>
-        <CardDescription>Tooltip with custom formatter .</CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
-          <BarChart accessibilityLayer data={chartData}>
+        <ChartContainer config={config}>
+          <BarChart accessibilityLayer data={data}>
             <XAxis
               dataKey="date"
               tickLine={false}
@@ -77,7 +103,7 @@ export function ChartTooltipFormatter() {
                   hideLabel
                   formatter={(value, name) => (
                     <div className="text-muted-foreground flex min-w-[130px] items-center text-xs">
-                      {chartConfig[name as keyof typeof chartConfig]?.label ||
+                      {config[name as keyof typeof chartConfig]?.label ||
                         name}
                       <div className="text-foreground ml-auto flex items-baseline gap-0.5 font-mono font-medium tabular-nums">
                         {value}

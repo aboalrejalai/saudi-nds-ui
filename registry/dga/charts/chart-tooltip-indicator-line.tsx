@@ -41,16 +41,42 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartTooltipIndicatorLine() {
+
+export interface ChartTooltipIndicatorLineProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartTooltipIndicatorLine({
+  data = chartData,
+  config = chartConfig,
+  title = "Tooltip - Line Indicator",
+  description: cardDescription = "Tooltip with line indicator.",
+  trendingText,
+  footerText,
+  className,
+}: ChartTooltipIndicatorLineProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
-        <CardTitle>Tooltip - Line Indicator</CardTitle>
-        <CardDescription>Tooltip with line indicator.</CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
-          <BarChart accessibilityLayer data={chartData}>
+        <ChartContainer config={config}>
+          <BarChart accessibilityLayer data={data}>
             <XAxis
               dataKey="date"
               tickLine={false}

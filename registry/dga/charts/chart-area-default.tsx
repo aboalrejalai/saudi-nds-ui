@@ -1,7 +1,6 @@
 "use client"
 
-import { ChartIncreaseIcon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
+import { ChartIncreaseStroke } from "@aboalrejal/nds-icons"
 import { Area, AreaChart, CartesianGrid, XAxis } from "recharts"
 
 import {
@@ -21,7 +20,7 @@ import {
 
 export const description = "A simple area chart"
 
-const chartData = [
+const DEFAULT_DATA = [
   { month: "January", desktop: 186 },
   { month: "February", desktop: 305 },
   { month: "March", desktop: 237 },
@@ -30,27 +29,50 @@ const chartData = [
   { month: "June", desktop: 214 },
 ]
 
-const chartConfig = {
+const DEFAULT_CONFIG = {
   desktop: {
     label: "Desktop",
     color: "var(--chart-1)",
   },
 } satisfies ChartConfig
 
-export function ChartAreaDefault() {
+export interface ChartAreaDefaultProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartAreaDefault({
+  data = DEFAULT_DATA,
+  config = DEFAULT_CONFIG,
+  title = "Area Chart",
+  description: cardDescription = "Showing total visitors for the last 6 months",
+  trendingText = "Trending up by 5.2% this month",
+  footerText = "January - June 2024",
+  className,
+}: ChartAreaDefaultProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
-        <CardTitle>Area Chart</CardTitle>
-        <CardDescription>
-          Showing total visitors for the last 6 months
-        </CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
+        <ChartContainer config={config}>
           <AreaChart
             accessibilityLayer
-            data={chartData}
+            data={data}
             margin={{
               left: 12,
               right: 12,
@@ -62,7 +84,7 @@ export function ChartAreaDefault() {
               tickLine={false}
               axisLine={false}
               tickMargin={8}
-              tickFormatter={(value) => value.slice(0, 3)}
+              tickFormatter={(value) => (typeof value === "string" ? value.slice(0, 3) : value)}
             />
             <ChartTooltip
               cursor={false}
@@ -78,19 +100,25 @@ export function ChartAreaDefault() {
           </AreaChart>
         </ChartContainer>
       </CardContent>
-      <CardFooter>
-        <div className="flex w-full items-start gap-2 text-sm">
-          <div className="grid gap-2">
-            <div className="flex items-center gap-2 leading-none font-medium">
-              Trending up by 5.2% this month{" "}
-              <HugeiconsIcon icon={ChartIncreaseIcon} className="h-4 w-4" />
-            </div>
-            <div className="text-muted-foreground flex items-center gap-2 leading-none">
-              January - June 2024
+      {(trendingText || footerText) && (
+        <CardFooter>
+          <div className="flex w-full items-start gap-2 text-sm">
+            <div className="grid gap-2">
+              {trendingText && (
+                <div className="flex items-center gap-2 leading-none font-medium">
+                  {trendingText} <ChartIncreaseStroke className="h-4 w-4" />
+                </div>
+              )}
+              {footerText && (
+                <div className="text-muted-foreground flex items-center gap-2 leading-none">
+                  {footerText}
+                </div>
+              )}
             </div>
           </div>
-        </div>
-      </CardFooter>
+        </CardFooter>
+      )}
     </Card>
   )
 }
+

@@ -1,7 +1,6 @@
 "use client"
 
-import { RunningShoesIcon, WaveIcon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
+import { RunningShoesStroke, WaterPoloStroke } from "@aboalrejal/nds-icons"
 import { Bar, BarChart, XAxis } from "recharts"
 
 import {
@@ -30,33 +29,59 @@ const chartData = [
 ]
 
 const RunningShoesWrapper = () => (
-  <HugeiconsIcon icon={RunningShoesIcon} className="h-4 w-4" />
+  <RunningShoesStroke className="h-4 w-4" />
 )
-const WaveWrapper = () => <HugeiconsIcon icon={WaveIcon} className="h-4 w-4" />
+const WaveWrapper = () => <WaterPoloStroke className="h-4 w-4" />
 
 const chartConfig = {
   running: {
     label: "Running",
     color: "var(--chart-1)",
-    icon: RunningShoesWrapper,
+    icon: RunningShoesStroke,
   },
   swimming: {
     label: "Swimming",
     color: "var(--chart-2)",
-    icon: WaveWrapper,
+    icon: WaterPoloStroke,
   },
 } satisfies ChartConfig
 
-export function ChartTooltipIcons() {
+
+export interface ChartTooltipIconsProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartTooltipIcons({
+  data = chartData,
+  config = chartConfig,
+  title = "Tooltip - Icons",
+  description: cardDescription = "Tooltip with icons.",
+  trendingText,
+  footerText,
+  className,
+}: ChartTooltipIconsProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
-        <CardTitle>Tooltip - Icons</CardTitle>
-        <CardDescription>Tooltip with icons.</CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
-          <BarChart accessibilityLayer data={chartData}>
+        <ChartContainer config={config}>
+          <BarChart accessibilityLayer data={data}>
             <XAxis
               dataKey="date"
               tickLine={false}

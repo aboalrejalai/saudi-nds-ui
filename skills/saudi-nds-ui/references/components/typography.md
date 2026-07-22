@@ -1,6 +1,6 @@
 ## Component: TYPOGRAPHY
 
-DGA Standard typographic component supporting predefined styled headings and text formats.
+DGA-approved **Typography** component — built on Radix UI / shadcn primitives, styled with NDS design tokens, and optimized for RTL layouts.
 
 ### Install
 
@@ -8,30 +8,31 @@ DGA Standard typographic component supporting predefined styled headings and tex
 npx shadcn@latest add https://nds.aboalrejal.com/r/typography.json
 ```
 
+**NPM dependencies:** `class-variance-authority`
+
 ### Variants
 
 - **variant:** `h1`, `h2`, `h3`, `h4`, `h5`, `h6`, `p`, `blockquote`, `list`, `inlineCode`, `lead`, `large`, `small`, `muted`
 
 ### Exports
 
-`Typography`, `typographyVariants`, `TypographyProps`
+`Typography`, `typographyVariants`
 
 ### Usage
 
 ```tsx
 import { Typography } from "@/components/ui/typography";
 
-<Typography variant="h1">هيئة الحكومة الرقمية</Typography>
-<Typography variant="p">تهدف الهوية الوطنية الرقمية إلى تسهيل وتقديم تجربة استخدام مرنة وموحدة.</Typography>
+<Typography variant="default">Typography</Typography>
 ```
 
 ### Source (`registry/dga/ui/typography.tsx`)
 
 ```tsx
-import * as React from "react";
-import { cva, type VariantProps } from "class-variance-authority";
+import * as React from "react"
+import { cva, type VariantProps } from "class-variance-authority"
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils"
 
 const typographyVariants = cva(
   "font-sans leading-relaxed tracking-tight text-[#1F2A37] dark:text-[#FCFCFD] rtl:text-right ltr:text-left",
@@ -45,11 +46,9 @@ const typographyVariants = cva(
         h5: "scroll-m-20 text-lg font-medium text-[#111927] dark:text-[#FCFCFD]",
         h6: "scroll-m-20 text-base font-medium text-[#111927] dark:text-[#FCFCFD]",
         p: "leading-7 [&:not(:first-child)]:mt-4 text-[#374151] dark:text-[#D1D5DB]",
-        blockquote:
-          "mt-6 border-s-4 border-[#1B8354] ps-4 italic text-[#4B5563] dark:text-[#9CA3AF] bg-muted/20 py-2 rounded-r-lg",
+        blockquote: "mt-6 border-s-4 border-[#1B8354] ps-4 italic text-[#4B5563] dark:text-[#9CA3AF] bg-muted/20 py-2 rounded-r-lg",
         list: "my-4 ms-6 list-disc [&>li]:mt-2 text-[#374151] dark:text-[#D1D5DB]",
-        inlineCode:
-          "relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold text-[#1B8354] dark:text-[#ECFDF5]",
+        inlineCode: "relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold text-[#1B8354] dark:text-[#ECFDF5]",
         lead: "text-lg md:text-xl font-normal text-muted-foreground",
         large: "text-base md:text-lg font-semibold",
         small: "text-sm font-medium leading-none",
@@ -59,12 +58,13 @@ const typographyVariants = cva(
     defaultVariants: {
       variant: "p",
     },
-  },
-);
+  }
+)
 
 interface TypographyProps
-  extends React.HTMLAttributes<HTMLElement>, VariantProps<typeof typographyVariants> {
-  as?: React.ElementType;
+  extends React.HTMLAttributes<HTMLElement>,
+    VariantProps<typeof typographyVariants> {
+  as?: React.ElementType
 }
 
 const variantElementMap: Record<string, React.ElementType> = {
@@ -82,11 +82,11 @@ const variantElementMap: Record<string, React.ElementType> = {
   large: "div",
   small: "small",
   muted: "span",
-};
+}
 
 const Typography = React.forwardRef<HTMLElement, TypographyProps>(
   ({ className, variant = "p", as, ...props }, ref) => {
-    const Component = as || variantElementMap[variant || "p"] || "p";
+    const Component = as || variantElementMap[variant || "p"] || "p"
 
     return (
       <Component
@@ -95,12 +95,14 @@ const Typography = React.forwardRef<HTMLElement, TypographyProps>(
         className={cn(typographyVariants({ variant, className }))}
         {...props}
       />
-    );
-  },
-);
+    )
+  }
+)
 
-Typography.displayName = "Typography";
+Typography.displayName = "Typography"
 
-export { Typography, typographyVariants };
-export type { TypographyProps };
+export { Typography, typographyVariants }
+export type { TypographyProps }
 ```
+
+---

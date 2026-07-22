@@ -17,15 +17,15 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/card.json
 ```tsx
 import { Card } from "@/components/ui/card";
 
-<Card>Card</Card>;
+<Card>Card</Card>
 ```
 
 ### Source (`registry/dga/ui/card.tsx`)
 
 ```tsx
-import * as React from "react";
+import * as React from "react"
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils"
 
 /* ──────────────────────────────────────────────
    Card – root container
@@ -51,11 +51,11 @@ function Card({
         "transition-shadow",
         disabled &&
           "pointer-events-none border-[var(--border-border-disabled)] bg-[var(--global-background-disabled)] text-[var(--global-text-default-disabled)] opacity-50",
-        className,
+        className
       )}
       {...props}
     />
-  );
+  )
 }
 
 /* ──────────────────────────────────────────────
@@ -68,11 +68,11 @@ function CardHeader({ className, ...props }: React.ComponentProps<"div">) {
       data-slot="card-header"
       className={cn(
         "@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6",
-        className,
+        className
       )}
       {...props}
     />
-  );
+  )
 }
 
 /* ──────────────────────────────────────────────
@@ -83,10 +83,13 @@ function CardTitle({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="card-title"
-      className={cn("text-lg leading-7 font-bold text-[var(--text-text-display)]", className)}
+      className={cn(
+        "text-lg leading-7 font-bold text-[var(--text-text-display)]",
+        className
+      )}
       {...props}
     />
-  );
+  )
 }
 
 /* ──────────────────────────────────────────────
@@ -97,20 +100,26 @@ function CardDescription({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="card-description"
-      className={cn("text-base leading-6 text-[var(--text-text-primary-paragraph)]", className)}
+      className={cn(
+        "text-base leading-6 text-[var(--text-text-primary-paragraph)]",
+        className
+      )}
       {...props}
     />
-  );
+  )
 }
 
 function CardAction({ className, ...props }: React.ComponentProps<"div">) {
   return (
     <div
       data-slot="card-action"
-      className={cn("col-start-2 row-span-2 row-start-1 self-start justify-self-end", className)}
+      className={cn(
+        "col-start-2 row-span-2 row-start-1 self-start justify-self-end",
+        className
+      )}
       {...props}
     />
-  );
+  )
 }
 
 /* ──────────────────────────────────────────────
@@ -119,8 +128,12 @@ function CardAction({ className, ...props }: React.ComponentProps<"div">) {
    ────────────────────────────────────────────── */
 function CardContent({ className, ...props }: React.ComponentProps<"div">) {
   return (
-    <div data-slot="card-content" className={cn("flex flex-col gap-2", className)} {...props} />
-  );
+    <div
+      data-slot="card-content"
+      className={cn("flex flex-col gap-2", className)}
+      {...props}
+    />
+  )
 }
 
 /* ──────────────────────────────────────────────
@@ -134,10 +147,18 @@ function CardFooter({ className, ...props }: React.ComponentProps<"div">) {
       className={cn("flex items-center gap-4 [.border-t]:pt-6", className)}
       {...props}
     />
-  );
+  )
 }
 
-export { Card, CardHeader, CardFooter, CardTitle, CardAction, CardDescription, CardContent };
+export {
+  Card,
+  CardHeader,
+  CardFooter,
+  CardTitle,
+  CardAction,
+  CardDescription,
+  CardContent,
+}
 ```
 
 ---

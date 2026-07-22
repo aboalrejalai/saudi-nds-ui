@@ -1,36 +1,104 @@
 import { DocsLayout } from "@/components/docs/docs-layout"
 import { InstallCommand } from "@/components/docs/install-command"
 import { DirectionToggle } from "@/components/docs/direction-toggle"
+import { ComponentPreview } from "@/components/docs/component-preview"
+import {
+  AreaChartDemo,
+  BarChartDemo,
+  LineChartDemo,
+  PieChartDemo,
+  RadarChartDemo,
+  RadialChartDemo,
+  TooltipChartDemo,
+} from "./demos"
 
 export const metadata = {
-  title: "Chart",
-  description: "DGA Chart component for React & Next.js. Accessible, RTL-ready component from the Digital Government Authority Saudi Arabia design system.",
+  title: "Chart - Saudi NDS UI",
+  description: "Saudi National Design System (NDS) Charts built on Recharts and Tailwind CSS. Accessible, RTL-ready, and fully customizable with dynamic props.",
 }
 
 <DocsLayout>
 
-# Chart
+# Chart (الشارتات والرسوم البيانية)
 
-Displays a chart component.
+مجموعة شاملة ومتكاملة من مكونات الرسوم البيانية المتوافقة مع معايير الضوابط الوطنية للتحول الرقمي والهوية الرقمية للجهات الحكومية (DGA / NDS).
 
 <DirectionToggle />
 
-## Installation
+## التثبيت (Installation)
 
 <InstallCommand componentName="chart" />
 
-## Usage
+---
 
-This component is generated automatically. To see advanced interactive demos, please refer to the original source code.
+## الأمثلة التفاعلية (Interactive Examples)
+
+### 1. Area Chart (رسم بياني مساحي)
+<ComponentPreview name="chart-area-default">
+  <AreaChartDemo />
+</ComponentPreview>
+
+### 2. Bar Chart (رسم بياني شريطي)
+<ComponentPreview name="chart-bar-default">
+  <BarChartDemo />
+</ComponentPreview>
+
+### 3. Line Chart (رسم بياني خطي)
+<ComponentPreview name="chart-line-default">
+  <LineChartDemo />
+</ComponentPreview>
+
+### 4. Pie Chart (رسم بياني دائري)
+<ComponentPreview name="chart-pie-simple">
+  <PieChartDemo />
+</ComponentPreview>
+
+### 5. Radar Chart (رسم بياني شبكي)
+<ComponentPreview name="chart-radar-default">
+  <RadarChartDemo />
+</ComponentPreview>
+
+### 6. Radial Chart (رسم بياني دائري قطري)
+<ComponentPreview name="chart-radial-simple">
+  <RadialChartDemo />
+</ComponentPreview>
+
+### 7. Custom Tooltip Chart (تلميحات البيانات المخصصة)
+<ComponentPreview name="chart-tooltip-formatter">
+  <TooltipChartDemo />
+</ComponentPreview>
+
+---
+
+## الاستخدام الديناميكي (Dynamic Props Usage)
+
+جميع شارتات المكتبة تقبل ممرّات بيانات ديناميكية (`data` و `config`) مع الاحتفاظ بالقيم الافتراضية التلقائية في حال عدم التمرير:
 
 ```tsx
-import { Chart } from "@/components/ui/chart"
+import { ChartBarDefault } from "@/registry/dga/charts/chart-bar-default"
 
-export default function Example() {
+const customData = [
+  { month: "يناير", sales: 400 },
+  { month: "فبراير", sales: 700 },
+  { month: "مارس", sales: 1200 },
+]
+
+const customConfig = {
+  sales: {
+    label: "المبيعات الإقليمية",
+    color: "var(--chart-1)",
+  },
+}
+
+export default function SalesOverview() {
   return (
-    <Chart>
-      Example
-    </Chart>
+    <ChartBarDefault
+      data={customData}
+      config={customConfig}
+      title="تقرير المبيعات السنوي"
+      description="إحصائيات مبيعات المنطقة الوسطى 2024"
+      trendingText="ارتفاع المبيعات بنسبة 18.4%"
+    />
   )
 }
 ```

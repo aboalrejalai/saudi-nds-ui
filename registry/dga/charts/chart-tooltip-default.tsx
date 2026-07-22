@@ -41,18 +41,42 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartTooltipDefault() {
+
+export interface ChartTooltipDefaultProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartTooltipDefault({
+  data = chartData,
+  config = chartConfig,
+  title = "Tooltip - Default",
+  description: cardDescription = "Default tooltip with ChartTooltipContent.",
+  trendingText,
+  footerText,
+  className,
+}: ChartTooltipDefaultProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
-        <CardTitle>Tooltip - Default</CardTitle>
-        <CardDescription>
-          Default tooltip with ChartTooltipContent.
-        </CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
-          <BarChart accessibilityLayer data={chartData}>
+        <ChartContainer config={config}>
+          <BarChart accessibilityLayer data={data}>
             <XAxis
               dataKey="date"
               tickLine={false}

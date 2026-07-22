@@ -38,16 +38,42 @@ const chartConfig = {
   },
 } satisfies ChartConfig
 
-export function ChartTooltipIndicatorNone() {
+
+export interface ChartTooltipIndicatorNoneProps {
+  /** بيانات الرسم البياني (Chart Data) */
+  data?: any[]
+  /** إعدادات الشارت (Chart Configuration) */
+  config?: ChartConfig
+  /** عنوان البطاقة */
+  title?: React.ReactNode
+  /** وصف البطاقة */
+  description?: React.ReactNode
+  /** نص اتجاه الصعود/الهبوط */
+  trendingText?: React.ReactNode
+  /** نص التذييل المساعد */
+  footerText?: React.ReactNode
+  /** كلاسات Tailwind إضافية للبطاقة */
+  className?: string
+}
+
+export function ChartTooltipIndicatorNone({
+  data = chartData,
+  config = chartConfig,
+  title = "Tooltip - No Indicator",
+  description: cardDescription = "Tooltip with no indicator.",
+  trendingText,
+  footerText,
+  className,
+}: ChartTooltipIndicatorNoneProps) {
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
-        <CardTitle>Tooltip - No Indicator</CardTitle>
-        <CardDescription>Tooltip with no indicator.</CardDescription>
+        {title && <CardTitle>{title}</CardTitle>}
+        {cardDescription && <CardDescription>{cardDescription}</CardDescription>}
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
-          <BarChart accessibilityLayer data={chartData}>
+        <ChartContainer config={config}>
+          <BarChart accessibilityLayer data={data}>
             <XAxis
               dataKey="date"
               tickLine={false}
