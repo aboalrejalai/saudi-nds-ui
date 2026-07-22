@@ -1,0 +1,64 @@
+import { DocsLayout } from "@/components/docs/docs-layout"
+import { InstallCommand } from "@/components/docs/install-command"
+import { DirectionToggle } from "@/components/docs/direction-toggle"
+import { TooltipChartsShowcase } from "../tooltip-charts-showcase"
+
+export const metadata = {
+  title: "Tooltip Charts Showcase - Saudi NDS UI",
+  description: "Saudi National Design System (NDS) Tooltip Charts built on Recharts and Tailwind CSS. Accessible, RTL-ready, and fully customizable with dynamic props.",
+}
+
+<DocsLayout>
+
+# Tooltip Charts Showcase
+
+A comprehensive set of interactive Tooltip Chart components for the Saudi National Design System (NDS / DGA).
+
+<DirectionToggle />
+
+## Installation
+
+<InstallCommand componentName="chart" />
+
+---
+
+## Interactive Preview & Code
+
+<TooltipChartsShowcase />
+
+---
+
+## Dynamic Props Usage
+
+All chart components accept dynamic `data` and `config` props while maintaining default fallbacks:
+
+```tsx
+import { ChartTooltipDefault } from "@/registry/dga/charts/chart-tooltip-default"
+
+const customData = [
+  { month: "Jan", value: 400 },
+  { month: "Feb", value: 700 },
+  { month: "Mar", value: 1200 },
+]
+
+const customConfig = {
+  value: {
+    label: "Metrics",
+    color: "var(--chart-1)",
+  },
+}
+
+export default function TooltipChartOverview() {
+  return (
+    <ChartTooltipDefault
+      data={customData}
+      config={customConfig}
+      title="Annual Analytics Report"
+      description="Regional Statistics 2024"
+      trendingText="Trending up by 12.5% this period"
+    />
+  )
+}
+```
+
+</DocsLayout>

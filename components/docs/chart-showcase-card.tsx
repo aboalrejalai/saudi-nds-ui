@@ -58,10 +58,10 @@ export function ChartShowcaseCard({
 
   const lines = code.trim().split("\n")
 
-  const displayCategory = category || (isAr ? "رسم بياني مساحي" : "Area Chart")
-  const textViewCode = isAr ? "عرض الكود" : "View Code"
-  const textCopyCode = isAr ? "نسخ الكود" : "Copy code"
-  const textCopied = isAr ? "تم النسخ" : "Copied"
+  const displayCategory = category || "Chart Component"
+  const textViewCode = "View Code"
+  const textCopyCode = "Copy code"
+  const textCopied = "Copied"
 
   return (
     <div className={`group flex flex-col gap-2 ${fullWidth ? "w-full col-span-full" : "w-full"}`}>

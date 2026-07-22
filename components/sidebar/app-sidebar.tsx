@@ -159,13 +159,43 @@ export function AppSidebar({ components }: { components: Component[] }) {
 
         <SidebarGroup>
           <SidebarGroupLabel className="font-bold text-[var(--text-text-display)]">
-            Charts (الرسوم البيانية)
+            Charts
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               <SidebarMenuItem>
-                <SidebarMenuButton asChild isActive={pathname === "/chart"}>
-                  <Link href="/chart">Chart Showcase (كل الشارتات)</Link>
+                <SidebarMenuButton asChild isActive={pathname === "/chart/area" || pathname === "/chart"}>
+                  <Link href="/chart/area">Area Charts</Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild isActive={pathname === "/chart/bar"}>
+                  <Link href="/chart/bar">Bar Charts</Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild isActive={pathname === "/chart/line"}>
+                  <Link href="/chart/line">Line Charts</Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild isActive={pathname === "/chart/pie"}>
+                  <Link href="/chart/pie">Pie Charts</Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild isActive={pathname === "/chart/radar"}>
+                  <Link href="/chart/radar">Radar Charts</Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild isActive={pathname === "/chart/radial"}>
+                  <Link href="/chart/radial">Radial Charts</Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild isActive={pathname === "/chart/tooltip"}>
+                  <Link href="/chart/tooltip">Tooltip Charts</Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
             </SidebarMenu>

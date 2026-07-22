@@ -1,0 +1,64 @@
+import { DocsLayout } from "@/components/docs/docs-layout"
+import { InstallCommand } from "@/components/docs/install-command"
+import { DirectionToggle } from "@/components/docs/direction-toggle"
+import { BarChartsShowcase } from "../bar-charts-showcase"
+
+export const metadata = {
+  title: "Bar Charts Showcase - Saudi NDS UI",
+  description: "Saudi National Design System (NDS) Bar Charts built on Recharts and Tailwind CSS. Accessible, RTL-ready, and fully customizable with dynamic props.",
+}
+
+<DocsLayout>
+
+# Bar Charts Showcase
+
+A comprehensive set of interactive Bar Chart components for the Saudi National Design System (NDS / DGA).
+
+<DirectionToggle />
+
+## Installation
+
+<InstallCommand componentName="chart" />
+
+---
+
+## Interactive Preview & Code
+
+<BarChartsShowcase />
+
+---
+
+## Dynamic Props Usage
+
+All chart components accept dynamic `data` and `config` props while maintaining default fallbacks:
+
+```tsx
+import { ChartBarInteractive } from "@/registry/dga/charts/chart-bar-interactive"
+
+const customData = [
+  { month: "Jan", value: 400 },
+  { month: "Feb", value: 700 },
+  { month: "Mar", value: 1200 },
+]
+
+const customConfig = {
+  value: {
+    label: "Metrics",
+    color: "var(--chart-1)",
+  },
+}
+
+export default function BarChartOverview() {
+  return (
+    <ChartBarInteractive
+      data={customData}
+      config={customConfig}
+      title="Annual Analytics Report"
+      description="Regional Statistics 2024"
+      trendingText="Trending up by 12.5% this period"
+    />
+  )
+}
+```
+
+</DocsLayout>

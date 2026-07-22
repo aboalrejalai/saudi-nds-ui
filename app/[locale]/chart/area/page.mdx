@@ -1,0 +1,64 @@
+import { DocsLayout } from "@/components/docs/docs-layout"
+import { InstallCommand } from "@/components/docs/install-command"
+import { DirectionToggle } from "@/components/docs/direction-toggle"
+import { AreaChartsShowcase } from "../area-charts-showcase"
+
+export const metadata = {
+  title: "Area Charts Showcase - Saudi NDS UI",
+  description: "Saudi National Design System (NDS) Area Charts built on Recharts and Tailwind CSS. Accessible, RTL-ready, and fully customizable with dynamic props.",
+}
+
+<DocsLayout>
+
+# Area Charts Showcase
+
+A comprehensive set of interactive Area Chart components for the Saudi National Design System (NDS / DGA).
+
+<DirectionToggle />
+
+## Installation
+
+<InstallCommand componentName="chart" />
+
+---
+
+## Interactive Preview & Code
+
+<AreaChartsShowcase />
+
+---
+
+## Dynamic Props Usage
+
+All chart components accept dynamic `data` and `config` props while maintaining default fallbacks:
+
+```tsx
+import { ChartAreaDefault } from "@/registry/dga/charts/chart-area-default"
+
+const customData = [
+  { month: "Jan", visitors: 400 },
+  { month: "Feb", visitors: 700 },
+  { month: "Mar", visitors: 1200 },
+]
+
+const customConfig = {
+  visitors: {
+    label: "Regional Visitors",
+    color: "var(--chart-1)",
+  },
+}
+
+export default function AreaChartOverview() {
+  return (
+    <ChartAreaDefault
+      data={customData}
+      config={customConfig}
+      title="Annual Visitors Report"
+      description="Central Region Visitor Statistics 2024"
+      trendingText="Trending up by 18.4% this month"
+    />
+  )
+}
+```
+
+</DocsLayout>

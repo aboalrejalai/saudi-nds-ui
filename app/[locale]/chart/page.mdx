@@ -10,7 +10,7 @@ export const metadata = {
 
 <DocsLayout>
 
-# Charts Showcase
+# Charts Showcase - Area Charts
 
 A comprehensive set of interactive chart components for the Saudi National Design System (NDS / DGA).
 
@@ -30,32 +30,32 @@ A comprehensive set of interactive chart components for the Saudi National Desig
 
 ## Dynamic Props Usage
 
-جميع شارتات المكتبة تقبل ممرّات بيانات ديناميكية (`data` و `config`) مع الاحتفاظ بالقيم الافتراضية التلقائية في حال عدم التمرير:
+All chart components in the library accept dynamic `data` and `config` props while maintaining default fallbacks:
 
 ```tsx
-import { ChartBarDefault } from "@/registry/dga/charts/chart-bar-default"
+import { ChartAreaDefault } from "@/registry/dga/charts/chart-area-default"
 
 const customData = [
-  { month: "يناير", sales: 400 },
-  { month: "فبراير", sales: 700 },
-  { month: "مارس", sales: 1200 },
+  { month: "Jan", visitors: 400 },
+  { month: "Feb", visitors: 700 },
+  { month: "Mar", visitors: 1200 },
 ]
 
 const customConfig = {
-  sales: {
-    label: "المبيعات الإقليمية",
+  visitors: {
+    label: "Regional Visitors",
     color: "var(--chart-1)",
   },
 }
 
-export default function SalesOverview() {
+export default function VisitorOverview() {
   return (
-    <ChartBarDefault
+    <ChartAreaDefault
       data={customData}
       config={customConfig}
-      title="تقرير المبيعات السنوي"
-      description="إحصائيات مبيعات المنطقة الوسطى 2024"
-      trendingText="ارتفاع المبيعات بنسبة 18.4%"
+      title="Annual Visitors Report"
+      description="Central Region Visitor Statistics 2024"
+      trendingText="Trending up by 18.4% this month"
     />
   )
 }
