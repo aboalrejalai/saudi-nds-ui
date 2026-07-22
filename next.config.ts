@@ -22,6 +22,12 @@ const nextConfig: NextConfig = {
     remotePatterns: [],
   },
   experimental: {
+    optimizePackageImports: [
+      "@aboalrejal/nds-icons",
+      "recharts",
+      "lucide-react",
+      "radix-ui",
+    ],
     // Use Rust MDX compiler with GFM support (tables, strikethrough, etc.)
     mdxRs: {
       mdxType: "gfm",
