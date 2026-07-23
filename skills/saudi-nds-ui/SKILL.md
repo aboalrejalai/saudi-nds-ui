@@ -183,7 +183,7 @@ Summarized catalog:
 - **Overlays & Dialogs:** [`alert-dialog`](references/components/alert-dialog.md), [`dialog`](references/components/dialog.md), [`drawer`](references/components/drawer.md), [`sheet`](references/components/sheet.md), [`popover`](references/components/popover.md), [`hover-card`](references/components/hover-card.md), [`tooltip`](references/components/tooltip.md), [`command`](references/components/command.md)
 - **Navigation:** [`breadcrumb`](references/components/breadcrumb.md), [`pagination`](references/components/pagination.md), [`menubar`](references/components/menubar.md), [`navigation-menu`](references/components/navigation-menu.md), [`context-menu`](references/components/context-menu.md), [`dropdown-menu`](references/components/dropdown-menu.md), [`tabs`](references/components/tabs.md), [`sidebar`](references/components/sidebar.md), [`steps`](references/components/steps.md), [`tree-view`](references/components/tree-view.md)
 - **Layout & Structure:** [`card`](references/components/card.md), [`separator`](references/components/separator.md), [`accordion`](references/components/accordion.md), [`collapsible`](references/components/collapsible.md), [`resizable`](references/components/resizable.md), [`scroll-area`](references/components/scroll-area.md), [`aspect-ratio`](references/components/aspect-ratio.md), [`carousel`](references/components/carousel.md), [`message-scroller`](references/components/message-scroller.md), [`timeline`](references/components/timeline.md)
-- **Data Display:** [`table`](references/components/table.md), [`badge`](references/components/badge.md), [`avatar`](references/components/avatar.md), [`kbd`](references/components/kbd.md), [`item`](references/components/item.md), [`chart`](references/components/chart.md), [`code`](references/components/code.md), [`data-table`](references/components/data-table.md), [`description-list`](references/components/description-list.md), [`filter`](references/components/filter.md), [`quote`](references/components/quote.md), [`stat`](references/components/stat.md), [`message`](references/components/message.md), [`bubble`](references/components/bubble.md), [`typography`](references/components/typography.md)
+- **Data Display:** [`table`](references/components/table.md), [`badge`](references/components/badge.md), [`avatar`](references/components/avatar.md), [`kbd`](references/components/kbd.md), [`item`](references/components/item.md), [`chart`](references/components/chart.md), [`code`](references/components/code.md), [`data-table`](references/components/data-table.md), [`description-list`](references/components/description-list.md), [`filter`](references/components/filter.md), [`quote`](references/components/quote.md), [`stat`](references/components/stat.md), [`message`](references/components/message.md), [`bubble`](references/components/bubble.md), [`typography`](references/components/typography.md), [`saudi-riyal-symbol`](references/components/saudi-riyal-symbol.md)
 - **Utility:** [`direction`](references/components/direction.md) (RTL/LTR switcher), [`cookies`](references/components/cookies.md)
 
 ---
@@ -213,6 +213,12 @@ The canonical source is `styles/tokens.css`. Key values:
 - **Semantic:** success `#069454`, error `#D92C20`, warning `#DC6803`, info `#156FEE`
 
 Prefer the bridged Tailwind tokens (`bg-primary`, `text-foreground`, `border-border`, …) over raw hex in code.
+
+### 💰 Saudi Currency & Monetary Rules (MANDATORY)
+
+- **Official Symbol Component:** Never use text placeholders such as `ر.س` or `SAR` when displaying currency/prices in Saudi Arabia NDS applications.
+- **Usage:** Always use the official [`<SaudiRiyalSymbol />`](references/components/saudi-riyal-symbol.md) component (`import { SaudiRiyalSymbol } from "@/components/ui/saudi-riyal-symbol"`).
+- **Inheritance:** `<SaudiRiyalSymbol className="size-4" />` inherits text colors automatically.
 
 ### 🌟 Saudi NDS Custom Icons
 
