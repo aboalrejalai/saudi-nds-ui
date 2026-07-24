@@ -1,0 +1,140 @@
+@import "./tokens.css";
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* =========================
+   SHADCN TOKEN BRIDGE
+========================= */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-destructive: var(--destructive);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+
+  /* Border */
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+}
+
+/* =========================
+   SYSTEM TOKENS
+========================= */
+:root {
+  --radius: var(--radius-radius8);
+
+  --background: var(--background-background-body);
+  --foreground: var(--text-text-default);
+
+  --card: var(--background-background-card);
+  --card-foreground: var(--text-text-default);
+
+  --popover: var(--background-background-menu);
+  --popover-foreground: var(--text-text-default);
+
+  --primary: var(--button-button-background-primary-default);
+  --primary-foreground: var(--text-text-oncolor-primary);
+
+  --secondary: var(--button-button-background-neutral-default);
+  --secondary-foreground: var(--text-text-default);
+
+  --muted: var(--background-background-neutral100);
+  --muted-foreground: var(--text-text-secondary-paragraph);
+
+  --accent: var(--background-background-primary50);
+  --accent-foreground: var(--text-text-primary);
+
+  --destructive: var(--button-button-background-danger-primary-default);
+
+  --border: var(--border-border-neutral-primary);
+  --input: var(--border-border-neutral-secondary);
+  --ring: var(--border-border-primary);
+  --border-error-light: var(--border-border-error-light);
+
+  --sidebar: hsl(0 0% 98%);
+  --sidebar-foreground: hsl(240 5.3% 26.1%);
+  --sidebar-primary: hsl(240 5.9% 10%);
+  --sidebar-primary-foreground: hsl(0 0% 98%);
+  --sidebar-accent: hsl(240 4.8% 95.9%);
+  --sidebar-accent-foreground: hsl(240 5.9% 10%);
+  --sidebar-border: hsl(220 13% 91%);
+  --sidebar-ring: hsl(217.2 91.2% 59.8%);
+
+  /* Saudi Green Chart Palette */
+  --chart-1: #1b8354;
+  --chart-2: #25935f;
+  --chart-3: #166a45;
+  --chart-4: #54c08a;
+  --chart-5: #384250;
+}
+
+/* =========================
+   BASE
+========================= */
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.dark {
+  --sidebar: hsl(240 5.9% 10%);
+  --sidebar-foreground: hsl(240 4.8% 95.9%);
+  --sidebar-primary: hsl(224.3 76.3% 48%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(240 3.7% 15.9%);
+  --sidebar-accent-foreground: hsl(240 4.8% 95.9%);
+  --sidebar-border: hsl(240 3.7% 15.9%);
+  --sidebar-ring: hsl(217.2 91.2% 59.8%);
+}
+
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  src: url("/fonts/IBM_Plex_Sans/static/IBMPlexSans-Medium.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.nav > div {
+  height: 100%;
+}
