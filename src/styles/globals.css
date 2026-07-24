@@ -86,14 +86,14 @@
   --ring: var(--border-border-primary);
   --border-error-light: var(--border-border-error-light);
 
-  --sidebar: hsl(0 0% 98%);
+  --sidebar: #ffffff;
   --sidebar-foreground: hsl(240 5.3% 26.1%);
-  --sidebar-primary: hsl(240 5.9% 10%);
-  --sidebar-primary-foreground: hsl(0 0% 98%);
-  --sidebar-accent: hsl(240 4.8% 95.9%);
-  --sidebar-accent-foreground: hsl(240 5.9% 10%);
-  --sidebar-border: hsl(220 13% 91%);
-  --sidebar-ring: hsl(217.2 91.2% 59.8%);
+  --sidebar-primary: #1b8354;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: var(--background-background-primary50);
+  --sidebar-accent-foreground: var(--text-text-primary);
+  --sidebar-border: #e5e7eb;
+  --sidebar-ring: var(--border-border-primary);
 
   /* Saudi Green Chart Palette */
   --chart-1: #1b8354;

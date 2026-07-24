@@ -97,13 +97,13 @@ export function InstallCommand({
   // globals variant: just show a plain code block (no PM tabs)
   if (variant === "globals") {
     return (
-      <div className="my-4 rounded-xl border bg-zinc-950 text-zinc-100">
-        <div className="flex items-center justify-between border-b border-zinc-800 px-4 py-2">
-          <span className="text-xs font-medium text-zinc-400">
+      <div className="my-4 overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-xs">
+        <div className="flex items-center justify-between border-b border-zinc-200 bg-zinc-50/80 px-4 py-2">
+          <span className="text-xs font-medium text-zinc-600">
             app/globals.css
           </span>
         </div>
-        <pre className="overflow-x-auto px-4 py-3 text-sm">
+        <pre className="overflow-x-auto px-4 py-3 text-sm font-mono text-zinc-950 font-medium">
           <code>{GLOBALS_IMPORT}</code>
         </pre>
       </div>
@@ -113,13 +113,13 @@ export function InstallCommand({
   // globals-laravel variant
   if (variant === "globals-laravel") {
     return (
-      <div className="my-4 rounded-xl border bg-zinc-950 text-zinc-100">
-        <div className="flex items-center justify-between border-b border-zinc-800 px-4 py-2">
-          <span className="text-xs font-medium text-zinc-400">
+      <div className="my-4 overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-xs">
+        <div className="flex items-center justify-between border-b border-zinc-200 bg-zinc-50/80 px-4 py-2">
+          <span className="text-xs font-medium text-zinc-600">
             resources/css/app.css
           </span>
         </div>
-        <pre className="overflow-x-auto px-4 py-3 text-sm">
+        <pre className="overflow-x-auto px-4 py-3 text-sm font-mono text-zinc-950 font-medium">
           <code>{GLOBALS_LARAVEL_IMPORT}</code>
         </pre>
       </div>
@@ -129,13 +129,13 @@ export function InstallCommand({
   // globals-vite variant
   if (variant === "globals-vite") {
     return (
-      <div className="my-4 rounded-xl border bg-zinc-950 text-zinc-100">
-        <div className="flex items-center justify-between border-b border-zinc-800 px-4 py-2">
-          <span className="text-xs font-medium text-zinc-400">
+      <div className="my-4 overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-xs">
+        <div className="flex items-center justify-between border-b border-zinc-200 bg-zinc-50/80 px-4 py-2">
+          <span className="text-xs font-medium text-zinc-600">
             src/index.css
           </span>
         </div>
-        <pre className="overflow-x-auto px-4 py-3 text-sm">
+        <pre className="overflow-x-auto px-4 py-3 text-sm font-mono text-zinc-950 font-medium">
           <code>{GLOBALS_VITE_IMPORT}</code>
         </pre>
       </div>
@@ -145,11 +145,11 @@ export function InstallCommand({
   // css-import variant: show a plain code block with custom filename
   if (variant === "css-import" && filename && code) {
     return (
-      <div className="my-4 rounded-xl border bg-zinc-950 text-zinc-100">
-        <div className="flex items-center justify-between border-b border-zinc-800 px-4 py-2">
-          <span className="text-xs font-medium text-zinc-400">{filename}</span>
+      <div className="my-4 overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-xs">
+        <div className="flex items-center justify-between border-b border-zinc-200 bg-zinc-50/80 px-4 py-2">
+          <span className="text-xs font-medium text-zinc-600">{filename}</span>
         </div>
-        <pre className="overflow-x-auto px-4 py-3 text-sm">
+        <pre className="overflow-x-auto px-4 py-3 text-sm font-mono text-zinc-950 font-medium">
           <code>{code}</code>
         </pre>
       </div>
@@ -159,8 +159,8 @@ export function InstallCommand({
   // laravel-new variant: single non-tabbed command
   if (variant === "laravel-new") {
     return (
-      <div className="my-4 rounded-xl border bg-zinc-950 text-zinc-100">
-        <pre className="overflow-x-auto px-4 py-3 text-sm">
+      <div className="my-4 overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-xs">
+        <pre className="overflow-x-auto px-4 py-3 text-sm font-mono text-zinc-950 font-medium">
           <code>laravel new my-app --react</code>
         </pre>
       </div>
@@ -198,9 +198,9 @@ export function InstallCommand({
   }
 
   return (
-    <div className="my-4 rounded-xl border bg-zinc-950 text-zinc-100">
+    <div className="my-4 overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-xs">
       {/* Tabs + Copy */}
-      <div className="flex items-center justify-between border-b border-zinc-800 px-3 py-2">
+      <div className="flex items-center justify-between border-b border-zinc-200 bg-zinc-50/80 px-3 py-2">
         <div className="flex gap-1">
           {managers.map((pkg) => (
             <button
@@ -208,8 +208,8 @@ export function InstallCommand({
               onClick={() => setActive(pkg)}
               className={`rounded-md px-3 py-1 text-xs font-medium transition-colors ${
                 active === pkg
-                  ? "bg-zinc-800 text-zinc-100"
-                  : "text-zinc-400 hover:text-zinc-200"
+                  ? "border border-zinc-200 bg-white text-zinc-950 font-semibold shadow-xs"
+                  : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900"
               }`}
             >
               {pkg}
@@ -220,10 +220,10 @@ export function InstallCommand({
         <button
           onClick={copy}
           aria-label="Copy command"
-          className="flex items-center justify-center rounded-md p-1.5 text-zinc-400 transition-colors hover:bg-zinc-800 hover:text-zinc-100"
+          className="flex items-center justify-center rounded-md p-1.5 text-zinc-500 transition-colors hover:bg-zinc-200/60 hover:text-zinc-900"
         >
           {copied ? (
-            <HugeiconsIcon icon={Tick02Icon} className="size-3.5" />
+            <HugeiconsIcon icon={Tick02Icon} className="size-3.5 text-emerald-600" />
           ) : (
             <HugeiconsIcon icon={Copy01Icon} className="size-3.5" />
           )}
@@ -231,7 +231,7 @@ export function InstallCommand({
       </div>
 
       {/* Code */}
-      <pre className="overflow-x-auto px-4 py-3 text-sm">
+      <pre className="overflow-x-auto px-4 py-3 text-sm font-mono text-zinc-950 font-medium">
         <code>{command}</code>
       </pre>
     </div>
