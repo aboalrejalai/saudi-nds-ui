@@ -526,6 +526,7 @@ export const ui: Registry["items"] = [
         "sidebar-ring": "217.2 91.2% 59.8%",
       },
     },
+  },
   {
     name: "saudi-riyal-symbol",
     type: "registry:ui",
