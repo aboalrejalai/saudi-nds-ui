@@ -6,21 +6,21 @@ This guide describes how to configure **Tailwind CSS v4** and your CSS globals t
 
 ---
 
-## 1. Bring in the DGA Design Tokens (`tokens.css`)
+## 1. Bring in the DGA Design Tokens (`src/styles/tokens.css` / `styles/tokens.css`)
 
-Every DGA component is styled against a single token file — `styles/tokens.css`. It defines the full NDS color scale (`--colors-primary-s-a-flag*`, neutrals, reds, yellows, …), component-level tokens (`--button-*`, `--text-*`, `--border-*`, `--background-*`), and radii. Components resolve their styling through these CSS variables, so **the tokens file must be present** or the components will render unstyled.
+Every DGA component is styled against a single token file — `src/styles/tokens.css` (Vite) or `styles/tokens.css` (Next.js). It defines the full NDS color scale (`--colors-primary-s-a-flag*`, neutrals, reds, yellows, …), component-level tokens (`--button-*`, `--text-*`, `--border-*`, `--background-*`), and radii. Components resolve their styling through these CSS variables, so **the tokens file must be present** or the components will render unstyled.
 
-When you add a DGA component, shadcn automatically drops a copy of `tokens.css` at `styles/tokens.css` in your project. If it does not, copy it from the registry manually.
+When you add a DGA component, shadcn drops a copy of `tokens.css` at `src/styles/tokens.css` (or `styles/tokens.css`) in your project.
 
 ---
 
-## 2. Wire Up `globals.css` (Tailwind v4)
+## 2. Wire Up `globals.css` (Tailwind v4 in Vite / Next.js)
 
-In your `app/globals.css` (or `styles/globals.css`), import the tokens file **before** Tailwind, then bootstrap v4. This is the exact shape used by the DGA registry:
+In your `src/styles/globals.css` (Vite) or `app/globals.css` (Next.js), import the tokens file **before** Tailwind, then bootstrap v4:
 
 ```css
 /* 1. DGA design tokens FIRST, then Tailwind v4 */
-@import "../styles/tokens.css";
+@import "./tokens.css";
 @import "tailwindcss";
 @import "tw-animate-css"; /* optional: animations used by sonner / dialog / drawer */
 

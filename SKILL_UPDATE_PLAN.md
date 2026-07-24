@@ -20,16 +20,16 @@ This document provides an exhaustive, step-by-step, phased plan to update the `s
 
 ## Phase 1: Component Catalog & Registry Export Synchronization
 
-- [ ] **Task 1.1: Update Component Count in `SKILL.md`**
+- [x] **Task 1.1: Update Component Count in `SKILL.md`**
   - File: `skills/saudi-nds-ui/SKILL.md`
   - Action: Update component count from `81 main UI components` to `82 main UI components`.
   - Action: Verify `saudi-riyal-symbol` is listed under the **Data Display** section.
 
-- [ ] **Task 1.2: Audit and Validate `references/components/saudi-riyal-symbol.md`**
+- [x] **Task 1.2: Audit and Validate `references/components/saudi-riyal-symbol.md`**
   - File: `skills/saudi-nds-ui/references/components/saudi-riyal-symbol.md`
   - Action: Verify component props, export signature (`import { SaudiRiyalSymbol } from "@/components/ui/saudi-riyal-symbol"`), usage examples, and NDS currency guidelines are documented completely.
 
-- [ ] **Task 1.3: Re-run Component Guide Generator**
+- [x] **Task 1.3: Re-run Component Guide Generator**
   - Script: `skills/saudi-nds-ui/scripts/generate-guide.js`
   - Command: `node skills/saudi-nds-ui/scripts/generate-guide.js`
   - Target Outputs:
@@ -41,7 +41,7 @@ This document provides an exhaustive, step-by-step, phased plan to update the `s
 
 ## Phase 2: Comprehensive Chart Documentation & Sub-Showcases Integration
 
-- [ ] **Task 2.1: Expand Chart References in `SKILL.md`**
+- [x] **Task 2.1: Expand Chart References in `SKILL.md`**
   - File: `skills/saudi-nds-ui/SKILL.md`
   - Action: Replace generic chart listing with detailed sub-links:
     - Area Charts (`/chart/area`)
@@ -52,7 +52,7 @@ This document provides an exhaustive, step-by-step, phased plan to update the `s
     - Radial Charts (`/chart/radial`)
     - Tooltip Charts (`/chart/tooltip`)
 
-- [ ] **Task 2.2: Rewrite `references/components/chart.md`**
+- [x] **Task 2.2: Rewrite `references/components/chart.md`**
   - File: `skills/saudi-nds-ui/references/components/chart.md`
   - Action: Add explicit usage sections for all 7 chart types.
   - Action: Document the DGA Saudi Green chart color palette CSS variables:
@@ -68,7 +68,7 @@ This document provides an exhaustive, step-by-step, phased plan to update the `s
 
 ## Phase 3: Vite 8 Framework Architecture & Modernized Installation Guidance
 
-- [ ] **Task 3.1: Update Mode A (New Project Setup) in `SKILL.md`**
+- [x] **Task 3.1: Update Mode A (New Project Setup) in `SKILL.md`**
   - File: `skills/saudi-nds-ui/SKILL.md`
   - Action: Provide Vite 8 as the primary recommended initialization command:
     ```bash
@@ -76,7 +76,7 @@ This document provides an exhaustive, step-by-step, phased plan to update the `s
     ```
   - Action: Document `@tailwindcss/vite` plugin setup in `vite.config.ts`.
 
-- [ ] **Task 3.2: Update CSS Token & Bridge Paths**
+- [x] **Task 3.2: Update CSS Token & Bridge Paths**
   - File: `skills/saudi-nds-ui/SKILL.md`
   - Action: Update file path references from legacy `app/globals.css` / `styles/tokens.css` to Vite paths:
     - `src/styles/globals.css`
@@ -84,7 +84,7 @@ This document provides an exhaustive, step-by-step, phased plan to update the `s
   - Action: Update `components.json` example to reflect Vite path structure:
     - `"css": "src/styles/globals.css"`
 
-- [ ] **Task 3.3: Update `references/theme-customization.md`**
+- [x] **Task 3.3: Update `references/theme-customization.md`**
   - File: `skills/saudi-nds-ui/references/theme-customization.md`
   - Action: Add explicit Vite 8 `@tailwindcss/vite` integration guide alongside Next.js instructions.
   - Action: Document CSS `@import` paths for both Next.js (`app/globals.css`) and Vite (`src/styles/globals.css`).
@@ -93,12 +93,12 @@ This document provides an exhaustive, step-by-step, phased plan to update the `s
 
 ## Phase 4: Helper Scripts Modernization & Gatekeeper Updates
 
-- [ ] **Task 4.1: Update `scripts/evaluate-project.js`**
+- [x] **Task 4.1: Update `scripts/evaluate-project.js`**
   - File: `skills/saudi-nds-ui/scripts/evaluate-project.js`
   - Action: Add recognition for `vite.config.ts`, `src/App.tsx`, and `src/main.tsx`.
   - Action: Award full compatibility points (10/10) for Vite 8 + Tailwind v4 setups.
 
-- [ ] **Task 4.2: Verify Lookup and Audit Scripts**
+- [x] **Task 4.2: Verify Lookup and Audit Scripts**
   - Files:
     - `skills/saudi-nds-ui/scripts/lookup.js`
     - `skills/saudi-nds-ui/scripts/audit-page.js`
@@ -108,7 +108,7 @@ This document provides an exhaustive, step-by-step, phased plan to update the `s
 
 ## Phase 5: Evaluation Suite, Verification & Skill Packaging
 
-- [ ] **Task 5.1: Create Test Cases (`evals/evals.json`)**
+- [x] **Task 5.1: Create Test Cases (`evals/evals.json`)**
   - File: `skills/saudi-nds-ui/evals/evals.json`
   - Action: Add test prompts covering:
     1. Vite 8 + Tailwind v4 Saudi NDS initialization.
@@ -116,7 +116,7 @@ This document provides an exhaustive, step-by-step, phased plan to update the `s
     3. Creating a custom Area Chart using DGA green theme tokens.
     4. Swapping legacy currency text (`ر.س`) to `<SaudiRiyalSymbol />`.
 
-- [ ] **Task 5.2: Execute End-to-End Skill Validation**
+- [x] **Task 5.2: Execute End-to-End Skill Validation**
   - Command: `node skills/saudi-nds-ui/scripts/generate-guide.js`
   - Command: `node skills/saudi-nds-ui/scripts/lookup.js saudi-riyal-symbol`
   - Command: `node skills/saudi-nds-ui/scripts/lookup.js chart`

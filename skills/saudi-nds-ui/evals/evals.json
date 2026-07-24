@@ -3,21 +3,21 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "Create a login form component in `app/login/page.tsx` using the Saudi NDS UI. It should have email and password fields, and a submit button.",
-      "expected_output": "A Next.js page component using NDS Card, Input, Label, and Button components, fully styled and RTL compliant.",
-      "files": []
+      "prompt": "Initialize a new Saudi NDS UI project using Vite 8, React 19, and Tailwind v4 in RTL mode with DGA green theme tokens.",
+      "expected_output": "Project configured with Vite 8, components.json registries mapping @dga, src/styles/globals.css importing tokens.css, and IBM Plex Sans Arabic font.",
+      "files": ["components.json", "src/styles/globals.css"]
     },
     {
       "id": 2,
-      "prompt": "We need to add a top navigation header to our app. Use the DGA navigation menu component, and make sure the primary links are 'Home', 'Services', and 'Contact Us'.",
-      "expected_output": "A header component using NavigationMenu, specifically using NavigationMenuTrigger for the top-level links as per the strict rule.",
-      "files": []
+      "prompt": "Add the SaudiRiyalSymbol component to a product pricing card component.",
+      "expected_output": "Imports SaudiRiyalSymbol from '@/components/ui/saudi-riyal-symbol' and renders it alongside monetary values instead of text 'ر.س'.",
+      "files": ["src/components/ui/saudi-riyal-symbol.tsx"]
     },
     {
       "id": 3,
-      "prompt": "I want to install the date-picker and use it in a new form component `components/date-form.tsx`.",
-      "expected_output": "The date-picker should be installed via shadcn (or registered if missing), and the form component should correctly import and render it.",
-      "files": []
+      "prompt": "Build an Area Chart displaying monthly Saudi digital government service usage using NDS chart colors.",
+      "expected_output": "Imports ChartContainer, ChartTooltip, ChartTooltipContent from '@/components/ui/chart' and configures Recharts AreaChart with --chart-1 and --chart-2 colors.",
+      "files": ["src/components/ui/chart.tsx"]
     }
   ]
 }

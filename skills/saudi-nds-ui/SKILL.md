@@ -33,13 +33,18 @@ Read the output score and recommendation. Based on the output, select one of the
 Use this mode if the directory is empty, or if the project lacks Tailwind/shadcn setup.
 
 1. **Initialize the App (if empty):**
-   You can initialize the app using the user's preferred React framework (e.g. Next.js, Vite, Lovable, React Router). For example, if using Next.js:
+   Initialize using the user's preferred React framework (Vite 8 or Next.js 15+). For Vite 8 + React 19:
 
+   ```bash
+   npx -y create-vite@latest my-app --template react-ts
+   ```
+
+   For Next.js 15+:
    ```bash
    npx create-next-app@latest my-app --typescript --tailwind --eslint
    ```
 
-   Ensure you install and configure **Tailwind CSS v4** for the chosen framework. (For Next.js 15+, it ships by default without `tailwind.config.ts` and you use `@import "tailwindcss"` in CSS).
+   Ensure you install and configure **Tailwind CSS v4** (`@tailwindcss/vite` for Vite or `@import "tailwindcss"` for Next.js).
 
 2. **Initialize shadcn:**
 
@@ -50,18 +55,18 @@ Use this mode if the directory is empty, or if the project lacks Tailwind/shadcn
    This generates a `components.json`. Accept the defaults.
 
 3. **Register the Saudi NDS UI Registry (CRITICAL):**
-   `shadcn init` does **not** know about the DGA registry. You must add a `registries` entry (an object mapping a namespace alias to the registry URL template) so you can install components as `@dga/<name>`. Edit `components.json` to match:
+   `shadcn init` does **not** know about the DGA registry. Add a `registries` entry mapping `@dga` to the registry URL template. Edit `components.json` to match:
 
    ```json
    {
      "$schema": "https://ui.shadcn.com/schema.json",
      "style": "new-york",
-     "rsc": true,
+     "rsc": false,
      "tsx": true,
      "rtl": true,
      "tailwind": {
        "config": "",
-       "css": "app/globals.css",
+       "css": "src/styles/globals.css",
        "baseColor": "neutral",
        "cssVariables": true,
        "prefix": ""
@@ -80,15 +85,13 @@ Use this mode if the directory is empty, or if the project lacks Tailwind/shadcn
    }
    ```
 
-   The only field you **must** add is `registries`. The other values above represent a standard RTL setup; just merge in the `registries` block.
-
    > ⚠️ Use `registries` (plural object with a `{name}` template), **not** the singular `"registry"` key. The singular form is invalid for namespace installs and `npx shadcn@latest add @dga/...` will fail.
 
-4. **Wire up Tailwind v4 + DGA Tokens (`globals.css`):**
-   DGA components are styled through a single token file, `styles/tokens.css`. When you add your first component, shadcn drops it at `styles/tokens.css`. Then make sure `app/globals.css` imports it **before** Tailwind and bridges the shadcn semantic tokens via `@theme inline`:
+4. **Wire up Tailwind v4 + DGA Tokens (`src/styles/globals.css`):**
+   DGA components are styled through `src/styles/tokens.css`. Ensure `src/styles/globals.css` imports it **before** Tailwind and bridges semantic tokens via `@theme inline`:
 
    ```css
-   @import "../styles/tokens.css";
+   @import "./tokens.css";
    @import "tailwindcss";
 
    @custom-variant dark (&:is(.dark *));
@@ -171,9 +174,7 @@ Use this mode if the user simply asks to "Add a Button" or "Add a Card" to an al
 
 ## 📦 Available Components
 
-## 📦 Available Components
-
-The registry publishes **81 main UI components**, **70 chart components**, and over **382+ ready-to-use sub-components**.
+The registry publishes **82 main UI components**, **70 chart components**, and over **382+ ready-to-use sub-components**.
 To get the actual API, variants, dependencies, and source code of a specific component, **simply read its markdown file** by following the links below. Do not guess the API; always refer to the specific component file.
 
 Summarized catalog:
@@ -183,7 +184,7 @@ Summarized catalog:
 - **Overlays & Dialogs:** [`alert-dialog`](references/components/alert-dialog.md), [`dialog`](references/components/dialog.md), [`drawer`](references/components/drawer.md), [`sheet`](references/components/sheet.md), [`popover`](references/components/popover.md), [`hover-card`](references/components/hover-card.md), [`tooltip`](references/components/tooltip.md), [`command`](references/components/command.md)
 - **Navigation:** [`breadcrumb`](references/components/breadcrumb.md), [`pagination`](references/components/pagination.md), [`menubar`](references/components/menubar.md), [`navigation-menu`](references/components/navigation-menu.md), [`context-menu`](references/components/context-menu.md), [`dropdown-menu`](references/components/dropdown-menu.md), [`tabs`](references/components/tabs.md), [`sidebar`](references/components/sidebar.md), [`steps`](references/components/steps.md), [`tree-view`](references/components/tree-view.md)
 - **Layout & Structure:** [`card`](references/components/card.md), [`separator`](references/components/separator.md), [`accordion`](references/components/accordion.md), [`collapsible`](references/components/collapsible.md), [`resizable`](references/components/resizable.md), [`scroll-area`](references/components/scroll-area.md), [`aspect-ratio`](references/components/aspect-ratio.md), [`carousel`](references/components/carousel.md), [`message-scroller`](references/components/message-scroller.md), [`timeline`](references/components/timeline.md)
-- **Data Display:** [`table`](references/components/table.md), [`badge`](references/components/badge.md), [`avatar`](references/components/avatar.md), [`kbd`](references/components/kbd.md), [`item`](references/components/item.md), [`chart`](references/components/chart.md), [`code`](references/components/code.md), [`data-table`](references/components/data-table.md), [`description-list`](references/components/description-list.md), [`filter`](references/components/filter.md), [`quote`](references/components/quote.md), [`stat`](references/components/stat.md), [`message`](references/components/message.md), [`bubble`](references/components/bubble.md), [`typography`](references/components/typography.md), [`saudi-riyal-symbol`](references/components/saudi-riyal-symbol.md)
+- **Data Display:** [`table`](references/components/table.md), [`badge`](references/components/badge.md), [`avatar`](references/components/avatar.md), [`kbd`](references/components/kbd.md), [`item`](references/components/item.md), [`chart`](references/components/chart.md) (Area, Bar, Line, Pie, Radar, Radial, Tooltip), [`code`](references/components/code.md), [`data-table`](references/components/data-table.md), [`description-list`](references/components/description-list.md), [`filter`](references/components/filter.md), [`quote`](references/components/quote.md), [`stat`](references/components/stat.md), [`message`](references/components/message.md), [`bubble`](references/components/bubble.md), [`typography`](references/components/typography.md), [`saudi-riyal-symbol`](references/components/saudi-riyal-symbol.md)
 - **Utility:** [`direction`](references/components/direction.md) (RTL/LTR switcher), [`cookies`](references/components/cookies.md)
 
 ---

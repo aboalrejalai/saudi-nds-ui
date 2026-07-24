@@ -15,12 +15,57 @@ npx shadcn@latest add https://nds.aboalrejal.com/r/chart.json
 
 `ChartContainer`, `ChartLegend`, `ChartLegendContent`, `ChartStyle`, `ChartTooltip`, `ChartTooltipContent`
 
-### Usage
+### DGA Chart Color Tokens
+
+Charts automatically integrate with the DGA Saudi Green palette tokens configured in `globals.css`:
+- `--chart-1`: `#1b8354` (Saudi Primary Flag Green)
+- `--chart-2`: `#25935f` (Secondary Saudi Green)
+- `--chart-3`: `#166a45` (Dark Green Accent)
+- `--chart-4`: `#54c08a` (Light Green Accent)
+- `--chart-5`: `#384250` (Neutral Dark Contrast)
+
+### 7 Chart Showcase Categories
+
+The NDS UI includes 7 dedicated chart showcase categories:
+
+1. **Area Charts (`/chart/area`)**: Stacked, linear, step, and gradient area charts.
+2. **Bar Charts (`/chart/bar`)**: Vertical, horizontal, stacked, and grouped bar charts.
+3. **Line Charts (`/chart/line`)**: Simple, multi-line, stepped, and curved line charts.
+4. **Pie Charts (`/chart/pie`)**: Donut, pie, legend-enabled, and custom-label pie charts.
+5. **Radar Charts (`/chart/radar`)**: Multi-variable radar and spider charts.
+6. **Radial Charts (`/chart/radial`)**: Circular progress and radial bar charts.
+7. **Tooltip Charts (`/chart/tooltip`)**: Custom formatted hover tooltips with RTL indicators.
+
+### Basic Usage Example (Area Chart)
 
 ```tsx
-import { ChartContainer } from "@/components/ui/chart";
+import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
+import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 
-<ChartContainer>Chart</ChartContainer>
+const chartData = [
+  { month: "يناير", desktop: 186, mobile: 80 },
+  { month: "فبراير", desktop: 305, mobile: 200 },
+  { month: "مارس", desktop: 237, mobile: 120 },
+];
+
+const chartConfig = {
+  desktop: { label: "سطح المكتب", color: "var(--chart-1)" },
+  mobile: { label: "الجوال", color: "var(--chart-2)" },
+};
+
+export function DemoAreaChart() {
+  return (
+    <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
+      <AreaChart data={chartData}>
+        <CartesianGrid vertical={false} />
+        <XAxis dataKey="month" tickLine={false} axisLine={false} />
+        <ChartTooltip content={<ChartTooltipContent indicator="dot" />} />
+        <Area dataKey="desktop" type="natural" fill="var(--color-desktop)" stroke="var(--color-desktop)" />
+        <Area dataKey="mobile" type="natural" fill="var(--color-mobile)" stroke="var(--color-mobile)" />
+      </AreaChart>
+    </ChartContainer>
+  );
+}
 ```
 
 ### Source (`registry/dga/ui/chart.tsx`)

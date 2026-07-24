@@ -52,12 +52,13 @@ function evaluateProject() {
     warnings.push("This project does not seem to use React. NDS UI strictly requires React.");
   }
 
-  if (allDeps["next"]) {
+  if (allDeps["next"] || allDeps["vite"] || fs.existsSync(path.join(projectRoot, "vite.config.ts"))) {
     score += 2;
-    checks.push(`${colors.green}✔ Next.js found${colors.reset}`);
+    const fw = allDeps["next"] ? "Next.js" : "Vite 8";
+    checks.push(`${colors.green}✔ ${fw} framework found${colors.reset}`);
   } else {
     checks.push(
-      `${colors.yellow}⚠ Next.js not found (Other React frameworks might work, but Next.js is recommended)${colors.reset}`,
+      `${colors.yellow}⚠ Framework not recognized (Vite 8 or Next.js recommended)${colors.reset}`,
     );
   }
 
