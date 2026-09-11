@@ -50,3 +50,6 @@ next-env.d.ts
 
 # desktop files
 desktop.ini
+# Skills CLI local install artifacts (do not commit into this skills package)
+skills-lock.json
+.claude/

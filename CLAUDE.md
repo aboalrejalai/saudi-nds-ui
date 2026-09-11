@@ -84,6 +84,8 @@ registry/dga/charts/*  ──┘
 Per [.agents/AGENTS.md](.agents/AGENTS.md): after any task that modifies code or files, run `git add . && git commit -m "<message>" && git push` automatically — do not wait to be asked. (Branch first if working on the default branch per normal workflow.)
 
 ## Key references
+- [INSTALL.md](INSTALL.md) — `npx skills add aboalrejal-ai/saudi-nds-ui` (skills.sh install for `saudi-nds-ui` + `saudi-soft`)
 - [COMPONENT_CREATION_GUIDE.md](COMPONENT_CREATION_GUIDE.md) — the authoritative (Arabic) rules for turning any UI component into an NDS-compliant one.
 - [skills/saudi-nds-ui/SKILL.md](skills/saudi-nds-ui/SKILL.md) + `skills/saudi-nds-ui/references/` — the consumer-facing skill ( Modes A/B/C for installing into other projects, component API docs, theme-customization reference).
+- [skills/saudi-soft/SKILL.md](skills/saudi-soft/SKILL.md) — **Standalone** Soft skill bundle (vendored shadcn CLI/MCP/rules + Soft theme/lucide/RTL/dark). Portable: copy the folder into any project. Use for studio/portfolio/SaaS; keep government `@dga` work on `skills/saudi-nds-ui`.
 - [DGA Compliance Details.md](DGA%20Compliance%20Details.md) — compliance/accessibility context.

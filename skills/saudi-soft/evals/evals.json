@@ -1,0 +1,56 @@
+{
+  "skill_name": "saudi-soft",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Scaffold a Vite React app with Saudi Soft: shadcn init, lucide, Soft theme bridge, RTL Arabic, dark mode toggle. Then build a settings form with full name, email, and notification toggles with validation.",
+      "expected_output": "Soft theme applied, lucide icons, FieldGroup/Field forms, semantic Soft tokens, gap-* spacing.",
+      "files": [],
+      "expectations": [
+        "Uses lucide-react only (iconLibrary lucide)",
+        "Applies Soft theme bridge markers or saudi-soft apply-theme",
+        "Uses FieldGroup and Field instead of raw div space-y",
+        "Uses data-invalid / aria-invalid for validation",
+        "Uses gap-* not space-y-*; semantic colors not bg-green-600",
+        "No manual dark: brand color overrides"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Create a dialog for editing a user profile with avatar, name, bio, Save/Cancel with icons — Saudi Soft / lucide.",
+      "expected_output": "DialogTitle, Avatar+AvatarFallback, data-icon, lucide imports, Soft semantic tokens.",
+      "files": [],
+      "expectations": [
+        "Includes DialogTitle",
+        "Avatar includes AvatarFallback",
+        "Icons use data-icon; no size-4 on icons inside Button",
+        "Imports from lucide-react only",
+        "Uses asChild or render per project base"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Dashboard with 3 Soft-styled stat cards (primary/chart tokens), Badge deltas, Skeleton loading — Saudi Soft.",
+      "expected_output": "Full Card composition, Skeleton, Badge, Soft chart/primary tokens, gap-*.",
+      "files": [],
+      "expectations": [
+        "Full CardHeader/CardTitle/CardContent composition",
+        "Skeleton instead of custom animate-pulse",
+        "Badge for deltas; semantic Soft tokens not raw emerald/red",
+        "gap-* and size-* conventions"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Chat conversation with MessageScroller, Message, Bubble, Attachment, Marker — Saudi Soft lucide.",
+      "expected_output": "Registry chat primitives, Soft tokens, lucide.",
+      "files": [],
+      "expectations": [
+        "Uses MessageScroller family for scroll",
+        "Uses Message + Bubble for rows",
+        "Uses Attachment and Marker appropriately",
+        "Semantic Soft colors; lucide icons"
+      ]
+    }
+  ]
+}

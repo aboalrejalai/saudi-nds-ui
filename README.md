@@ -1,83 +1,119 @@
-# Saudi NDS UI (مكتبة تصميم الهيئة الدائمة)
+# Saudi NDS UI
 
-**Saudi NDS UI** is the definitive, production-ready React component library for the Saudi National Design System (NDS) by the Digital Government Authority (DGA).
+[![skills.sh](https://skills.sh/b/aboalrejal-ai/saudi-nds-ui)](https://skills.sh/aboalrejal-ai/saudi-nds-ui)
 
-Built on top of **Tailwind CSS** and heavily inspired by the architecture of **shadcn/ui**, this library provides 81 fully accessible main UI components, 70 interactive chart presets, and over 382+ ready-to-use sub-components, accompanied by 8,753 SVG icons designed exclusively for Saudi government digital products.
+مكتبة مكوّنات React لنظام التصميم الوطني السعودي (NDS) — هيئة الحكومة الرقمية (DGA)، على أسلوب **shadcn/ui** + **Tailwind CSS**.
 
-> **Status:** 100% Complete (81/81 Main UI Components + 70 Chart Presets)
+يشمل المشروع أيضاً **مهارتي وكيل (Agent Skills)** قابلتين للتثبيت عبر [skills.sh](https://skills.sh) من مجلد [`skills/`](skills/) على GitHub.
 
----
-
-## 🌟 Features
-
-- **81 Production-Ready UI Components & 70 Chart Presets:** From basic Buttons and Inputs to complex DataTables, TreeViews, Charts, and Rich Text Editors.
-- **8,753 SVG Icons:** Full integration with `@aboalrejal/nds-icons` Hugeicons set.
-- **RTL-First by Design:** Perfect Arabic typography (IBM Plex Sans Arabic) and seamless Right-to-Left logic out of the box.
-- **Tailwind CSS Native:** No hidden CSS files. Every component is styled purely with utility classes and DGA design tokens.
-- **Copy/Paste Architecture:** You own the code. Install components directly into your project via the CLI.
-- **Fully Accessible (a11y):** Built on Radix UI primitives ensuring screen reader compatibility and keyboard navigation.
+> **Status:** 100% Complete — 81 UI + 70 Chart presets · Skills: `saudi-nds-ui` + `saudi-soft`
 
 ---
 
-## 🚀 How to Use (Installation)
+## Agent Skills — اختر ما تحتاجه
 
-Because this library follows the `shadcn/ui` architecture, you **do not** install it as a heavy, bloated NPM package. 
-Instead, you add exactly the components you need directly to your codebase.
+مهارتان منفصلتان. **ثبّت واحدة أو الاثنتين حسب مشروعك** — مو لازم الاثنتين معاً.
 
-### 1. Initialize your project
-Run the standard shadcn initialization in your Next.js/React project:
+| المهارة | متى تستخدمها | ماذا تثبّت |
+| --- | --- | --- |
+| **`saudi-nds-ui`** | بوابة حكومية / التزام NDS رسمي | مكوّنات `@dga` من الريجستري |
+| **`saudi-soft`** | ستوديو، بورتفوليو، SaaS، مواقع مرنة | shadcn upstream + ثيم Soft (أخضر SA، lucide، RTL، دارك) |
+
+> مسار واحد لكل مشروع عادةً. لا تخلط `@dga` مع Soft في نفس التطبيق إلا بقرار صريح.
+
+المصدر بعد الـ push: **[aboalrejal-ai/saudi-nds-ui](https://github.com/aboalrejal-ai/saudi-nds-ui)** · الصفحة: [skills.sh/aboalrejal-ai/saudi-nds-ui](https://skills.sh/aboalrejal-ai/saudi-nds-ui)
+
+### تثبيت مهارة NDS فقط (حكومي)
+
+```bash
+npx skills add aboalrejal-ai/saudi-nds-ui --skill saudi-nds-ui -a cursor
+```
+
+### تثبيت مهارة Soft فقط (ستوديو)
+
+```bash
+npx skills add aboalrejal-ai/saudi-nds-ui --skill saudi-soft -a cursor
+```
+
+### اختيار تفاعلي (NDS و/أو Soft)
+
+```bash
+npx skills add aboalrejal-ai/saudi-nds-ui -a cursor
+```
+
+### الاثنتين معاً (وكيل واحد)
+
+```bash
+npx skills add aboalrejal-ai/saudi-nds-ui --skill '*' -a cursor -y
+```
+
+### وكلاء آخرين / تحديث
+
+```bash
+npx skills add aboalrejal-ai/saudi-nds-ui --skill saudi-soft -a claude-code
+npx skills add aboalrejal-ai/saudi-nds-ui --skill saudi-nds-ui -a agents
+
+npx skills update
+```
+
+> لا تستخدم `--all` في Skills CLI — يثبّت على كل الوكلاء ويفتح مجلدات زائدة. حدّد وكيلاً بـ `-a`.
+
+دليل أوفى: [`INSTALL.md`](INSTALL.md)
+
+---
+
+## Features
+
+- **81 UI components & 70 chart presets** — من Button/Input إلى DataTable و TreeView و Rich Text Editor
+- **8,753+ icons** عبر `@aboalrejal/nds-icons` (مسار NDS)
+- **RTL-first** — IBM Plex Sans Arabic + خصائص منطقية
+- **Tailwind utilities + DGA tokens** — بدون CSS خارجي لكل مكوّن
+- **Copy/paste registry** — تملك الكود في مشروعك عبر shadcn CLI
+- **a11y** — Radix / Base UI primitives
+
+---
+
+## Component registry (NDS)
+
+لا تثبّت المكتبة كحزمة NPM ثقيلة. أضف المكوّنات التي تحتاجها:
+
 ```bash
 npx shadcn@latest init
+npx shadcn@latest add @dga/button
+# أو
+npx shadcn@latest add "https://nds.aboalrejal.com/r/button.json"
 ```
 
-### 2. Add Components from Saudi NDS UI
-To install a component from our exclusive registry, simply point the CLI to our hosted Vercel URL.
-For example, to install the `Button` and `DataTable` components:
+يتطلب تسجيل الـ namespace في `components.json`:
+
+```json
+"registries": {
+  "@dga": "https://nds.aboalrejal.com/r/{name}.json"
+}
+```
+
+---
+
+## What's included
+
+**Basic UI:** Button, Card, Checkbox, Input, Select, Dialog, Popover, Tabs, Accordion, Tooltip, …
+
+**Advanced:** Data Table (`@tanstack/react-table`), Tree View, Multi-Select, File Dropzone, Rich Text Editor (`@tiptap/react`), Charts (Recharts).
+
+---
+
+## Development (maintainers)
 
 ```bash
-npx shadcn@latest add "https://nds.aboalrejal.com/r/button.json"
-npx shadcn@latest add "https://nds.aboalrejal.com/r/data-table.json"
+npm run dev              # Vite showcase
+npm run registry:build   # → public/r/*.json
+npm run build
 ```
 
-The CLI will download the component code (`.tsx`) directly into your `components/ui` folder, where you can customize it freely!
+مكوّنات الريجستري: `registry/dga/ui/` · مهارات الوكيل: `skills/saudi-nds-ui/` و `skills/saudi-soft/`.
 
 ---
 
-## 📦 What's Included?
+## License
 
-The registry includes 81 main UI components, 70 chart presets, and over 382+ sub-components:
-
-**Basic UI:**
-`Button`, `Card`, `Checkbox`, `Input`, `Select`, `Dialog`, `Popover`, `Tabs`, `Accordion`, `Tooltip`, etc.
-
-**Advanced Composites:**
-- 📊 **Advanced Data Table:** Built with `@tanstack/react-table`.
-- 🌳 **Tree View:** Recursive file/folder and org-chart rendering.
-- 🏷️ **Multi-Select:** Command-based tagging system.
-- ☁️ **Advanced Dropzone:** Drag-and-drop file uploads with previews.
-- ✍️ **Rich Text Editor:** WYSIWYG editor powered by `@tiptap/react`.
-
----
-
-## 🛠️ Development (For Maintainers)
-
-If you are a maintainer and want to add or modify components in the registry:
-
-1. Clone this repository (`nds-ui`).
-2. Run the development server to view the component showcase:
-   ```bash
-   npm run dev
-   ```
-3. Open [http://localhost:3000](http://localhost:3000) to see the components in action.
-4. Add new components to the `registry/dga/ui` folder.
-5. Build the registry JSON files before deployment:
-   ```bash
-   npm run registry:build
-   ```
-6. The `public/r` folder will be generated and served publicly.
-
----
-
-## 📜 License
-
-This project is tailored for the digital products under the Saudi Digital Government Authority (DGA). All design tokens and identity guidelines are intellectual property of DGA.
+مخصّص للمنتجات الرقمية تحت هيئة الحكومة الرقمية (DGA). توكنات الهوية وإرشادات التصميم ملكية فكرية للهيئة.

@@ -8,6 +8,8 @@ description: >
 
 This skill guides AI agents in establishing, migrating, and installing UI components from the Saudi NDS UI Registry (`https://nds.aboalrejal.com/`).
 
+> **Government / formal NDS only.** For studio/portfolio/SaaS with Saudi-green branding on upstream shadcn, use the standalone [`../saudi-soft/SKILL.md`](../saudi-soft/SKILL.md) bundle in that other project. Keep `@dga` installs on this skill's track only.
+
 > **Stack:** Any React framework (Next.js, Vite, Lovable, React Router, etc.) + **Tailwind CSS v4** + shadcn. Components are RTL-first and styled with DGA design tokens. See [`references/theme-customization.md`](references/theme-customization.md) for the full theming setup.
 
 ---
