@@ -4,7 +4,7 @@
     "name": "aboalrejal-ai"
   },
   "metadata": {
-    "description": "Saudi NDS UI agent skills — government NDS (@dga) and Saudi Soft (shadcn + Soft theme)",
+    "description": "Saudi NDS UI agent skill — government NDS (@dga registry)",
     "version": "1.0.0"
   },
   "plugins": [
@@ -14,13 +14,6 @@
       "source": "./",
       "strict": false,
       "skills": ["./skills/saudi-nds-ui"]
-    },
-    {
-      "name": "saudi-soft-studio",
-      "description": "Saudi Soft (Studio) — Standalone Soft identity on upstream shadcn (lucide, SA green, RTL, dark).",
-      "source": "./",
-      "strict": false,
-      "skills": ["./skills/saudi-soft"]
     }
   ]
 }

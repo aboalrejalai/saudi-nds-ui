@@ -192,4 +192,4 @@
 
 ---
 
-*تم اعتماد الخيار ج وتنفيذه كـ [`skills/saudi-soft`](skills/saudi-soft/SKILL.md) — حزمة مستقلة (محتوى shadcn مدمج + هوية Soft)، تُنسخ لأي مشروع بدون اعتماد على سكيل أخرى. مقارنة Soft vs NDS للمالك فقط هنا/في PROJECT_UNDERSTANDING — وليست داخل مجلد Soft.*
+*تم اعتماد الخيار ج ثم نُقل Soft لريبو مستقل: [aboalrejalai/saudi-soft](https://github.com/aboalrejalai/saudi-soft). هذا الريبو (`saudi-nds-ui`) يبقى لمهارة NDS الحكومية فقط. مقارنة Soft vs NDS للمالك هنا/في PROJECT_UNDERSTANDING.*

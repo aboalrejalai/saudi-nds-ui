@@ -6,11 +6,6 @@
       "title": "Saudi NDS (Government)",
       "description": "Formal DGA / National Design System — @dga registry, RTL-first government UI.",
       "skills": ["saudi-nds-ui"]
-    },
-    {
-      "title": "Saudi Soft (Studio)",
-      "description": "Standalone Soft identity on upstream shadcn — SA green, lucide, 10/12px radius, light/dark.",
-      "skills": ["saudi-soft"]
     }
   ]
 }

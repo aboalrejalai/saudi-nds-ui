@@ -11,9 +11,8 @@ Layout matches [skills.sh / Skills CLI](https://github.com/vercel-labs/skills):
 | File | Role |
 | --- | --- |
 | `skills/saudi-nds-ui/` | Government / formal NDS (`@dga` registry) |
-| `skills/saudi-soft/` | Soft studio track (upstream shadcn + Soft theme) — standalone |
 | [`skills.sh.json`](skills.sh.json) | Groupings for the skills.sh repo page |
-| [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) | Interactive category picker |
+| [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) | Interactive skill picker |
 
 ## Prerequisites
 
@@ -22,7 +21,7 @@ Layout matches [skills.sh / Skills CLI](https://github.com/vercel-labs/skills):
 
 ## Install (recommended)
 
-Target **one agent** with `-a` and pick skills in the interactive picker:
+Target **one agent** with `-a`:
 
 ```bash
 npx skills add aboalrejal-ai/saudi-nds-ui -a cursor
@@ -38,20 +37,10 @@ npx skills add aboalrejal-ai/saudi-nds-ui -a agents
 
 > **Never use `--all`.** In the Skills CLI, `--all` means every skill into *every* agent and scatters stray folders. Always pass `-a <agent>`.
 
-## Install one skill
+## Install by skill name
 
 ```bash
-# Government NDS
 npx skills add aboalrejal-ai/saudi-nds-ui --skill saudi-nds-ui -a cursor
-
-# Soft (studio / portfolio / SaaS)
-npx skills add aboalrejal-ai/saudi-nds-ui --skill saudi-soft -a cursor
-```
-
-## Install both skills (one agent)
-
-```bash
-npx skills add aboalrejal-ai/saudi-nds-ui --skill '*' -a cursor -y
 ```
 
 ## List skills in the package
@@ -77,7 +66,6 @@ npx skills update
 Or re-add:
 
 ```bash
-npx skills add aboalrejal-ai/saudi-nds-ui --skill saudi-soft -a cursor
 npx skills add aboalrejal-ai/saudi-nds-ui --skill saudi-nds-ui -a cursor
 ```
 
@@ -86,6 +74,5 @@ npx skills add aboalrejal-ai/saudi-nds-ui --skill saudi-nds-ui -a cursor
 | Skill | Use when |
 | --- | --- |
 | `saudi-nds-ui` | Formal government / DGA NDS — install components via `@dga` / `nds.aboalrejal.com` |
-| `saudi-soft` | Studio, portfolio, SaaS — Soft theme + upstream `npx shadcn@latest` + lucide (self-contained folder) |
 
-Use **one product track per project**. Do not mix `@dga` installs with Soft in the same app without an explicit choice.
+This package is **NDS only**. For Soft (studio / upstream shadcn), use the separate repo: [aboalrejalai/saudi-soft](https://github.com/aboalrejalai/saudi-soft).

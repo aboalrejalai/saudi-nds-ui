@@ -337,9 +337,9 @@ skills/saudi-nds-ui/
 ### تمييز المهارات (منتجان + انضباط)
 
 1. **`skills/saudi-nds-ui`** = مهارة حكومية/رسمية (`@dga` registry + nds-icons/hugeicons)
-2. **`skills/saudi-soft`** = مهارة Soft **مستقلة كاملة** (مدموج فيها CLI/MCP/rules الخاصة بـ shadcn + ثيم Soft/lucide/RTL/دارك) — تُنسخ المجلد لأي مشروع وتعمل وحدها، بدون اعتماد على `.agents/skills/shadcn`
+2. **Saudi Soft** = ريبو مستقل منفصل: [aboalrejalai/saudi-soft](https://github.com/aboalrejalai/saudi-soft) (لم يعد داخل هذا المشروع)
 3. **`.agents/skills/claude-style`** = انضباط هندسي للوكيل داخل الريبو
-4. **`.agents/skills/shadcn`** (+ `migrate-radix-to-base`) = السكيلز الرسمية في هذا الريبو (مرجع/صيانة؛ Soft لم يعد يعتمد عليها وقت التشغيل)
+4. **`.agents/skills/shadcn`** (+ `migrate-radix-to-base`) = السكيلز الرسمية في هذا الريبو (مرجع/صيانة NDS)
 
 ---
 
@@ -395,8 +395,8 @@ npm run format:check
 - نشر باقة NPM بديلة `@saudi-nds/ui` عبر tsup (مع الإبقاء على مسار shadcn)
 - أي تحسينات أداء/توثيق متبقية بعد استقرار Vite
 
-### نقطة تطوير (منفّذة)
-- مهارة ثانية **Saudi Soft**: [`skills/saudi-soft`](skills/saudi-soft) — حزمة مستقلة (shadcn vendored + هوية Soft). انسخ المجلد لأي مشروع وابنِ منه مباشرة.
+### نقطة تطوير (منفّذة ثم نُقلت)
+- مهارة **Saudi Soft** نُقلت لريبو مستقل: [aboalrejalai/saudi-soft](https://github.com/aboalrejalai/saudi-soft) — لم تعد تحت `skills/` في هذا المشروع.
 
 ---
 
@@ -406,11 +406,11 @@ npm run format:check
 2. **التوزيع الأساسي = shadcn registry `@dga`** على `nds.aboalrejal.com`.
 3. **الـ Showcase الحالي = Vite SPA تحت `src/`** — مو Next.
 4. **المهارة الحكومية = `skills/saudi-nds-ui`** بثلاث أوضاع A/B/C.
-5. **المهارة Soft = `skills/saudi-soft`** — حزمة مستقلة كاملة؛ لا تحتاج سكيل shadcn منفصلة.
+5. **المهارة Soft** = ريبو [aboalrejalai/saudi-soft](https://github.com/aboalrejalai/saudi-soft) — ليست جزءاً من هذا الريبو.
 6. **انضباط الوكيل داخل الريبو = `.agents` + claude-style**.
 7. **الهوية الحكومية = أخضر DGA + IBM Plex + RTL منطقي + توكنات CSS + شكل NDS**.
-8. **لا تخمّن APIs ولا أسماء أيقونات** — NDS: `lookup.js` / Soft: `shadcn docs` + lucide.
-9. مساران منفصلان: حكومي (`@dga`) مقابل Soft (upstream shadcn) — لا تخلطهما بلا قرار صريح.
+8. **لا تخمّن APIs ولا أسماء أيقونات** — NDS: `lookup.js`؛ Soft (ريبو منفصل): `shadcn docs` + lucide.
+9. مساران منفصلان: حكومي (`@dga` هنا) مقابل Soft (ريبو مستقل) — لا تخلطهما بلا قرار صريح.
 
 ---
 
