@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/assets/cover.png" alt="saudi-nds-ui" width="100%"></p>
+
 # Saudi NDS UI
 
 [![skills.sh](https://skills.sh/b/aboalrejal-ai/saudi-nds-ui)](https://skills.sh/aboalrejal-ai/saudi-nds-ui)
